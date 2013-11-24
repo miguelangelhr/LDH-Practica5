@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.SWRLVariableExtractor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.SWRLVariableExtractor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a902644791c9e7330b6cc397410fb5472"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a902644791c9e7330b6cc397410fb5472">SWRLVariableExtractor</a> ()</td></tr>
+<tr class="separator:a902644791c9e7330b6cc397410fb5472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80535dcea632a592bbe62349052b196"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#aa80535dcea632a592bbe62349052b196">getVariables</a> ()</td></tr>
+<tr class="separator:aa80535dcea632a592bbe62349052b196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6640e5e613bcc8641b5db0d9f3542db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#ae6640e5e613bcc8641b5db0d9f3542db">reset</a> ()</td></tr>
+<tr class="separator:ae6640e5e613bcc8641b5db0d9f3542db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339bc24d4c9c1a5e1c2931ad24e5bb71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a339bc24d4c9c1a5e1c2931ad24e5bb71">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> node)</td></tr>
+<tr class="separator:a339bc24d4c9c1a5e1c2931ad24e5bb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f04551a4f66caf21b1858ab4070462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a21f04551a4f66caf21b1858ab4070462">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a> node)</td></tr>
+<tr class="separator:a21f04551a4f66caf21b1858ab4070462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad488dd08ca08b27691524dea2a9e85ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#ad488dd08ca08b27691524dea2a9e85ec">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a> node)</td></tr>
+<tr class="separator:ad488dd08ca08b27691524dea2a9e85ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0abe6cdbe1d6ed660c117928554fe7a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a0abe6cdbe1d6ed660c117928554fe7a0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a> node)</td></tr>
+<tr class="separator:a0abe6cdbe1d6ed660c117928554fe7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1ed04f319e1d19f235159640a86a37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a8b1ed04f319e1d19f235159640a86a37">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a> node)</td></tr>
+<tr class="separator:a8b1ed04f319e1d19f235159640a86a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4d5ef6dbb3c470f9338879c7043285"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#aae4d5ef6dbb3c470f9338879c7043285">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a> node)</td></tr>
+<tr class="separator:aae4d5ef6dbb3c470f9338879c7043285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aec9748dc10aa0330948acfdf502f57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a4aec9748dc10aa0330948acfdf502f57">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a> node)</td></tr>
+<tr class="separator:a4aec9748dc10aa0330948acfdf502f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49b2b3d2c5150ffc8c683d94fe409f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#ab49b2b3d2c5150ffc8c683d94fe409f7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a> node)</td></tr>
+<tr class="separator:ab49b2b3d2c5150ffc8c683d94fe409f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42cf652cd75d373876d73b296a5df68c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a42cf652cd75d373876d73b296a5df68c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a> node)</td></tr>
+<tr class="separator:a42cf652cd75d373876d73b296a5df68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9423ee855d9707a261234dc1c65ac06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a9423ee855d9707a261234dc1c65ac06e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a> node)</td></tr>
+<tr class="separator:a9423ee855d9707a261234dc1c65ac06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f4abf1d79ee13fae78ec01793cfff9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html#a55f4abf1d79ee13fae78ec01793cfff9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a> node)</td></tr>
+<tr class="separator:a55f4abf1d79ee13fae78ec01793cfff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 06-Jul-2007<br/>
+<br/>
+</p>
+<p>Extracts the variables from rules </p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00069">69</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a902644791c9e7330b6cc397410fb5472"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.SWRLVariableExtractor.SWRLVariableExtractor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00074">74</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                   {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        variables = <span class="keyword">new</span> LinkedHashSet&lt;SWRLVariable&gt;();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aa80535dcea632a592bbe62349052b196"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a>&gt; org.semanticweb.owlapi.util.SWRLVariableExtractor.getVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the set of variables </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00082">82</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                            {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> LinkedHashSet&lt;SWRLVariable&gt;(variables);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae6640e5e613bcc8641b5db0d9f3542db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>clear the variables </p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00089">89</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        variables.clear();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a339bc24d4c9c1a5e1c2931ad24e5bb71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a8fb6358ef7ebbdce2feb4492ca745c76">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00095">95</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                     {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">for</span>(SWRLAtom atom : node.getBody()) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            atom.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">for</span>(SWRLAtom atom : node.getHead()) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            atom.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21f04551a4f66caf21b1858ab4070462"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a9b991f4af2ab74a26bb69589c2bc271b">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00106">106</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                          {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        node.getArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad488dd08ca08b27691524dea2a9e85ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a9efcbf362e58c6918fce4a79929bac8f">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00112">112</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                              {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        node.getArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0abe6cdbe1d6ed660c117928554fe7a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a333a055db81be0f275f77634641b3cc4">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00118">118</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                   {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        node.getFirstArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        node.getSecondArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8b1ed04f319e1d19f235159640a86a37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a5f4cc7d7ca89c2d30c9142cbf87e310e">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00125">125</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                 {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        node.getFirstArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        node.getSecondArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae4d5ef6dbb3c470f9338879c7043285"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a3b03db13067193fc4056efc48841f669">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00132">132</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                            {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">for</span>(SWRLObject o : node.getArguments()) {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            o.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4aec9748dc10aa0330948acfdf502f57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a45507dffd6dfa119b9be27b37cbdbaf0">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00140">140</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                         {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        variables.add(node);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab49b2b3d2c5150ffc8c683d94fe409f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a8b0c6dda9760d5e2c5f40fa39554cb63">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00145">145</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                   {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a42cf652cd75d373876d73b296a5df68c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#a772d09ba175a11d9f4011a145261926b">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00150">150</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9423ee855d9707a261234dc1c65ac06e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#ae6f161f3a1e3048a26cb679b611f81ef">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00155">155</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                                   {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        node.getFirstArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        node.getSecondArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a55f4abf1d79ee13fae78ec01793cfff9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.SWRLVariableExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_visitor.html#aa1c2fec4216fef3a5d62480e32fe9d7f">org.semanticweb.owlapi.model.SWRLObjectVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html#l00162">162</a> del archivo <a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                                         {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        node.getFirstArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        node.getSecondArgument().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_s_w_r_l_variable_extractor_8java_source.html">SWRLVariableExtractor.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_s_w_r_l_variable_extractor.html">SWRLVariableExtractor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:41 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

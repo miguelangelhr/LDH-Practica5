@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_min_cardinality_element_handler =
+[
+    [ "OWLObjectMinCardinalityElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_min_cardinality_element_handler.html#adc3c612387cdd39ff063d589930462ed", null ],
+    [ "createCardinalityRestriction", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_min_cardinality_element_handler.html#a725bb429591942b618d51e806aae6ece", null ]
+];

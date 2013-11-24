@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/vocab/SKOSVocabulary.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_s_k_o_s_vocabulary_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SKOSVocabulary.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_s_k_o_s_vocabulary_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.vocab;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.net.URI;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.util.HashSet;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> org.semanticweb.owlapi.model.EntityType;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">org.semanticweb.owlapi.model.OWLDataFactory</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">org.semanticweb.owlapi.model.OWLDataProperty</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">org.semanticweb.owlapi.model.OWLObjectProperty</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html">   62</a></span>&#160;public enum <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html">SKOSVocabulary</a> {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1ebcbbabe3fefd928975af1370bcb882">   64</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1ebcbbabe3fefd928975af1370bcb882">BROADMATCH</a>(<span class="stringliteral">&quot;broadMatch&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a7e7064e622716efaafdd1dd753d2b01a">   66</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a7e7064e622716efaafdd1dd753d2b01a">BROADER</a>(<span class="stringliteral">&quot;broader&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6f8da3e20e6482823282e8ad2dae17ab">   68</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6f8da3e20e6482823282e8ad2dae17ab">BROADERTRANSITIVE</a>(<span class="stringliteral">&quot;broaderTransitive&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9f00e5f56080abc32a66d845121ebef8">   70</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9f00e5f56080abc32a66d845121ebef8">CLOSEMATCH</a>(<span class="stringliteral">&quot;closeMatch&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a970bd5052a4efd0ea638835dd509ecc6">   72</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a970bd5052a4efd0ea638835dd509ecc6">EXACTMATCH</a>(<span class="stringliteral">&quot;exactMatch&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9e40409cf50b20e32496c23dfd55a4d9">   74</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9e40409cf50b20e32496c23dfd55a4d9">HASTOPCONCEPT</a>(<span class="stringliteral">&quot;hasTopConcept&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af3a644a9719586025ad56902aa170e9c">   76</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af3a644a9719586025ad56902aa170e9c">INSCHEME</a>(<span class="stringliteral">&quot;inScheme&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#adca0d2875a8723797edff3f6b6674a73">   78</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#adca0d2875a8723797edff3f6b6674a73">MAPPINGRELATION</a>(<span class="stringliteral">&quot;mappingRelation&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abb5edbad947dc0d39be4db9d1c57e20a">   80</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abb5edbad947dc0d39be4db9d1c57e20a">MEMBER</a>(<span class="stringliteral">&quot;member&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad0da796cb24b2285980f888a400668bc">   82</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad0da796cb24b2285980f888a400668bc">MEMBERLIST</a>(<span class="stringliteral">&quot;memberList&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54a179ee10f37640a1882b9106e78cda">   84</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54a179ee10f37640a1882b9106e78cda">NARROWMATCH</a>(<span class="stringliteral">&quot;narrowMatch&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54c72f0876609c181e8a937190c59db1">   86</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54c72f0876609c181e8a937190c59db1">NARROWER</a>(<span class="stringliteral">&quot;narrower&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3ee4ddc7e2104101190ebd0e7ede5d97">   88</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3ee4ddc7e2104101190ebd0e7ede5d97">NARROWTRANSITIVE</a>(<span class="stringliteral">&quot;narrowTransitive&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa0beaeecd8882920be49b98b88570805">   90</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa0beaeecd8882920be49b98b88570805">RELATED</a>(<span class="stringliteral">&quot;related&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abae13a100e0c0636fc27651dee11489a">   92</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abae13a100e0c0636fc27651dee11489a">RELATEDMATCH</a>(<span class="stringliteral">&quot;relatedMatch&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa6680e12a4a9537bf97e17ec58f48a0d">   94</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa6680e12a4a9537bf97e17ec58f48a0d">SEMANTICRELATION</a>(<span class="stringliteral">&quot;semanticRelation&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5d3f1af3d8462973753c1aa3a95cdd75">   96</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5d3f1af3d8462973753c1aa3a95cdd75">TOPCONCEPTOF</a>(<span class="stringliteral">&quot;topConceptOf&quot;</span>, EntityType.OBJECT_PROPERTY),</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abfe5058a98d1c09f7388a36462be1392">  101</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abfe5058a98d1c09f7388a36462be1392">COLLECTION</a>(<span class="stringliteral">&quot;Collection&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af8de0e17e0cee3a3f769f9d3699b5f27">  103</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af8de0e17e0cee3a3f769f9d3699b5f27">CONCEPT</a>(<span class="stringliteral">&quot;Concept&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aff3ae474a4855b319152fc7c3813a4b4">  105</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aff3ae474a4855b319152fc7c3813a4b4">CONCEPTSCHEME</a>(<span class="stringliteral">&quot;ConceptScheme&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aed09239d86300bd7a8c62e9791048c8b">  107</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aed09239d86300bd7a8c62e9791048c8b">ORDEREDCOLLECTION</a>(<span class="stringliteral">&quot;OrderedCollection&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86788482a8dc25c754d5b41f17113b71">  109</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86788482a8dc25c754d5b41f17113b71">TOPCONCEPT</a>(<span class="stringliteral">&quot;TopConcept&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a4b9e80e618910c51b3f5633ce8e1fc8b">  112</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a4b9e80e618910c51b3f5633ce8e1fc8b">ALTLABEL</a>(<span class="stringliteral">&quot;altLabel&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a554cca7448b38205c243ba8e6a42aef9">  114</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a554cca7448b38205c243ba8e6a42aef9">CHANGENOTE</a>(<span class="stringliteral">&quot;changeNote&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aecf30fba6a050cd6670c364b16d7bd10">  116</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aecf30fba6a050cd6670c364b16d7bd10">DEFINITION</a>(<span class="stringliteral">&quot;definition&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afc079b28aa558fcca018e52acdbf1d41">  118</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afc079b28aa558fcca018e52acdbf1d41">EDITORIALNOTE</a>(<span class="stringliteral">&quot;editorialNote&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1b343a704e1e2d884cecd4439a743be9">  120</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1b343a704e1e2d884cecd4439a743be9">EXAMPLE</a>(<span class="stringliteral">&quot;example&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab3c863aec9c6ee49ac4a06cc975d776a">  122</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab3c863aec9c6ee49ac4a06cc975d776a">HIDDENLABEL</a>(<span class="stringliteral">&quot;hiddenLabel&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8517ea93a67b851ae2b90d2a0fe9418a">  124</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8517ea93a67b851ae2b90d2a0fe9418a">HISTORYNOTE</a>(<span class="stringliteral">&quot;historyNote&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a171b1fb68fd5ad1efd46c18302ac35ec">  126</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a171b1fb68fd5ad1efd46c18302ac35ec">NOTE</a>(<span class="stringliteral">&quot;note&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86de14fc26286301751495f93ff74bf3">  128</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86de14fc26286301751495f93ff74bf3">PREFLABEL</a>(<span class="stringliteral">&quot;prefLabel&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a2093b3897192b142d4d363874ce2fd18">  130</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a2093b3897192b142d4d363874ce2fd18">SCOPENOTE</a>(<span class="stringliteral">&quot;scopeNote&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa63a012f594872b8f55e5b762bfb9035">  135</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa63a012f594872b8f55e5b762bfb9035">DOCUMENT</a>(<span class="stringliteral">&quot;Document&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad59a5a2e40347065dfe0b0fedb59643d">  140</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad59a5a2e40347065dfe0b0fedb59643d">IMAGE</a>(<span class="stringliteral">&quot;Image&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3574d28111ff2d56f30a6df7ff17ff3a">  145</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3574d28111ff2d56f30a6df7ff17ff3a">COLLECTABLEPROPERTY</a>(<span class="stringliteral">&quot;CollectableProperty&quot;</span>, EntityType.ANNOTATION_PROPERTY),</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afe205f3baeafbee4f3a9951d31543b56">  149</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afe205f3baeafbee4f3a9951d31543b56">RESOURCE</a>(<span class="stringliteral">&quot;Resource&quot;</span>, EntityType.CLASS),</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab80f9b35a4fc2f81e4e3e127c005fbb3">  154</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab80f9b35a4fc2f81e4e3e127c005fbb3">COMMENT</a>(<span class="stringliteral">&quot;comment&quot;</span>, EntityType.ANNOTATION_PROPERTY);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a74414b7170a2eae643ae0a38c15d790d">  156</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Set&lt;IRI&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a74414b7170a2eae643ae0a38c15d790d">ALL_IRIS</a>;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">static</span> {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        ALL_IRIS = <span class="keyword">new</span> HashSet&lt;IRI&gt;();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">for</span>(SKOSVocabulary v : SKOSVocabulary.values()) {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            ALL_IRIS.add(v.getIRI());</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> String localName;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> EntityType&lt;?&gt; entityType;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a76df377d9d8df319460622cb19b3a658">  171</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a76df377d9d8df319460622cb19b3a658">SKOSVocabulary</a>(String localname, EntityType&lt;?&gt; entityType) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        localName = localname;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        this.entityType = entityType;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        iri = IRI.create(Namespaces.SKOS.toString(), localname);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ae49a3bf15347a9d5fac20060647b43e1">  177</a></span>&#160;    <span class="keyword">public</span> EntityType&lt;?&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ae49a3bf15347a9d5fac20060647b43e1">getEntityType</a>() {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">return</span> entityType;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ac129acbd2b761a214fd2a3714f678b52">  181</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ac129acbd2b761a214fd2a3714f678b52">getLocalName</a>() {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">return</span> localName;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5ac42d5a47557abd0465eb1131de91af">  185</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5ac42d5a47557abd0465eb1131de91af">getIRI</a>() {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">return</span> iri;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acd5e5d178fc0153c1b8ac37ad25c6d80">  189</a></span>&#160;    <span class="keyword">public</span> URI <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acd5e5d178fc0153c1b8ac37ad25c6d80">getURI</a>() {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> iri.toURI();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a209a02a8a8a353efe8931512a8e98f51">  193</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;OWLAnnotationProperty&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a209a02a8a8a353efe8931512a8e98f51">getAnnotationProperties</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        Set&lt;OWLAnnotationProperty&gt; result = <span class="keyword">new</span> HashSet&lt;OWLAnnotationProperty&gt;();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">for</span>(SKOSVocabulary v : values()) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span>(v.entityType.equals(EntityType.ANNOTATION_PROPERTY)) {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                result.add(dataFactory.getOWLAnnotationProperty(v.iri));</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6d9876423e0a0b5c9559dd1aecc12de9">  204</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;OWLObjectProperty&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6d9876423e0a0b5c9559dd1aecc12de9">getObjectProperties</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory) {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        Set&lt;OWLObjectProperty&gt; result = <span class="keyword">new</span> HashSet&lt;OWLObjectProperty&gt;();</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">for</span>(SKOSVocabulary v : values()) {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">if</span>(v.entityType.equals(EntityType.OBJECT_PROPERTY)) {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                result.add(dataFactory.getOWLObjectProperty(v.iri));</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8ea2fa335bab56b4e5acbbd8e4c860a0">  214</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;OWLDataProperty&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8ea2fa335bab56b4e5acbbd8e4c860a0">getDataProperties</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory) {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        Set&lt;OWLDataProperty&gt; result = <span class="keyword">new</span> HashSet&lt;OWLDataProperty&gt;();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">for</span>(SKOSVocabulary v : values()) {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span>(v.entityType.equals(EntityType.DATA_PROPERTY)) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                result.add(dataFactory.getOWLDataProperty(v.iri));</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acaa8befc232e21e312dd013b0dd2a6c1">  224</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;OWLClass&gt; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acaa8befc232e21e312dd013b0dd2a6c1">getClasses</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        Set&lt;OWLClass&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClass&gt;();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">for</span>(SKOSVocabulary v : values()) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">if</span>(v.entityType.equals(EntityType.CLASS)) {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                result.add(dataFactory.getOWLClass(v.iri));</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a171b1fb68fd5ad1efd46c18302ac35ec"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a171b1fb68fd5ad1efd46c18302ac35ec">org.semanticweb.owlapi.vocab.SKOSVocabulary.NOTE</a></div><div class="ttdeci">NOTE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00126">SKOSVocabulary.java:126</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_property_8java_source.html#l00051">OWLAnnotationProperty.java:51</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aa0beaeecd8882920be49b98b88570805"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa0beaeecd8882920be49b98b88570805">org.semanticweb.owlapi.vocab.SKOSVocabulary.RELATED</a></div><div class="ttdeci">RELATED</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00090">SKOSVocabulary.java:90</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aa63a012f594872b8f55e5b762bfb9035"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa63a012f594872b8f55e5b762bfb9035">org.semanticweb.owlapi.vocab.SKOSVocabulary.DOCUMENT</a></div><div class="ttdeci">DOCUMENT</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00135">SKOSVocabulary.java:135</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html">org.semanticweb.owlapi.vocab.SKOSVocabulary</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00062">SKOSVocabulary.java:62</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a8517ea93a67b851ae2b90d2a0fe9418a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8517ea93a67b851ae2b90d2a0fe9418a">org.semanticweb.owlapi.vocab.SKOSVocabulary.HISTORYNOTE</a></div><div class="ttdeci">HISTORYNOTE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00124">SKOSVocabulary.java:124</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a54c72f0876609c181e8a937190c59db1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54c72f0876609c181e8a937190c59db1">org.semanticweb.owlapi.vocab.SKOSVocabulary.NARROWER</a></div><div class="ttdeci">NARROWER</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00086">SKOSVocabulary.java:86</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a2093b3897192b142d4d363874ce2fd18"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a2093b3897192b142d4d363874ce2fd18">org.semanticweb.owlapi.vocab.SKOSVocabulary.SCOPENOTE</a></div><div class="ttdeci">SCOPENOTE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00130">SKOSVocabulary.java:130</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a5d3f1af3d8462973753c1aa3a95cdd75"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5d3f1af3d8462973753c1aa3a95cdd75">org.semanticweb.owlapi.vocab.SKOSVocabulary.TOPCONCEPTOF</a></div><div class="ttdeci">TOPCONCEPTOF</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00096">SKOSVocabulary.java:96</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_abb5edbad947dc0d39be4db9d1c57e20a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abb5edbad947dc0d39be4db9d1c57e20a">org.semanticweb.owlapi.vocab.SKOSVocabulary.MEMBER</a></div><div class="ttdeci">MEMBER</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00080">SKOSVocabulary.java:80</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_afc079b28aa558fcca018e52acdbf1d41"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afc079b28aa558fcca018e52acdbf1d41">org.semanticweb.owlapi.vocab.SKOSVocabulary.EDITORIALNOTE</a></div><div class="ttdeci">EDITORIALNOTE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00118">SKOSVocabulary.java:118</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a8ea2fa335bab56b4e5acbbd8e4c860a0"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a8ea2fa335bab56b4e5acbbd8e4c860a0">org.semanticweb.owlapi.vocab.SKOSVocabulary.getDataProperties</a></div><div class="ttdeci">static Set&lt; OWLDataProperty &gt; getDataProperties(OWLDataFactory dataFactory)</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00214">SKOSVocabulary.java:214</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a54a179ee10f37640a1882b9106e78cda"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a54a179ee10f37640a1882b9106e78cda">org.semanticweb.owlapi.vocab.SKOSVocabulary.NARROWMATCH</a></div><div class="ttdeci">NARROWMATCH</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00084">SKOSVocabulary.java:84</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aecf30fba6a050cd6670c364b16d7bd10"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aecf30fba6a050cd6670c364b16d7bd10">org.semanticweb.owlapi.vocab.SKOSVocabulary.DEFINITION</a></div><div class="ttdeci">DEFINITION</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00116">SKOSVocabulary.java:116</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ac129acbd2b761a214fd2a3714f678b52"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ac129acbd2b761a214fd2a3714f678b52">org.semanticweb.owlapi.vocab.SKOSVocabulary.getLocalName</a></div><div class="ttdeci">String getLocalName()</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00181">SKOSVocabulary.java:181</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">org.semanticweb.owlapi.model.OWLDataProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_property_8java_source.html#l00050">OWLDataProperty.java:50</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ab80f9b35a4fc2f81e4e3e127c005fbb3"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab80f9b35a4fc2f81e4e3e127c005fbb3">org.semanticweb.owlapi.vocab.SKOSVocabulary.COMMENT</a></div><div class="ttdeci">COMMENT</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00154">SKOSVocabulary.java:154</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00057">IRI.java:57</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">org.semanticweb.owlapi.model.OWLDataFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_8java_source.html#l00056">OWLDataFactory.java:56</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_abfe5058a98d1c09f7388a36462be1392"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abfe5058a98d1c09f7388a36462be1392">org.semanticweb.owlapi.vocab.SKOSVocabulary.COLLECTION</a></div><div class="ttdeci">COLLECTION</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00101">SKOSVocabulary.java:101</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a1ebcbbabe3fefd928975af1370bcb882"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1ebcbbabe3fefd928975af1370bcb882">org.semanticweb.owlapi.vocab.SKOSVocabulary.BROADMATCH</a></div><div class="ttdeci">BROADMATCH</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00064">SKOSVocabulary.java:64</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a970bd5052a4efd0ea638835dd509ecc6"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a970bd5052a4efd0ea638835dd509ecc6">org.semanticweb.owlapi.vocab.SKOSVocabulary.EXACTMATCH</a></div><div class="ttdeci">EXACTMATCH</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00072">SKOSVocabulary.java:72</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a4b9e80e618910c51b3f5633ce8e1fc8b"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a4b9e80e618910c51b3f5633ce8e1fc8b">org.semanticweb.owlapi.vocab.SKOSVocabulary.ALTLABEL</a></div><div class="ttdeci">ALTLABEL</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00112">SKOSVocabulary.java:112</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ad59a5a2e40347065dfe0b0fedb59643d"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad59a5a2e40347065dfe0b0fedb59643d">org.semanticweb.owlapi.vocab.SKOSVocabulary.IMAGE</a></div><div class="ttdeci">IMAGE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00140">SKOSVocabulary.java:140</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a74414b7170a2eae643ae0a38c15d790d"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a74414b7170a2eae643ae0a38c15d790d">org.semanticweb.owlapi.vocab.SKOSVocabulary.ALL_IRIS</a></div><div class="ttdeci">static final Set&lt; IRI &gt; ALL_IRIS</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00156">SKOSVocabulary.java:156</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a7e7064e622716efaafdd1dd753d2b01a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a7e7064e622716efaafdd1dd753d2b01a">org.semanticweb.owlapi.vocab.SKOSVocabulary.BROADER</a></div><div class="ttdeci">BROADER</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00066">SKOSVocabulary.java:66</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">org.semanticweb.owlapi.model.OWLObjectProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_property_8java_source.html#l00050">OWLObjectProperty.java:50</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_af3a644a9719586025ad56902aa170e9c"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af3a644a9719586025ad56902aa170e9c">org.semanticweb.owlapi.vocab.SKOSVocabulary.INSCHEME</a></div><div class="ttdeci">INSCHEME</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00076">SKOSVocabulary.java:76</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a9e40409cf50b20e32496c23dfd55a4d9"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9e40409cf50b20e32496c23dfd55a4d9">org.semanticweb.owlapi.vocab.SKOSVocabulary.HASTOPCONCEPT</a></div><div class="ttdeci">HASTOPCONCEPT</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00074">SKOSVocabulary.java:74</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_8java_source.html#l00052">OWLClass.java:52</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_afe205f3baeafbee4f3a9951d31543b56"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#afe205f3baeafbee4f3a9951d31543b56">org.semanticweb.owlapi.vocab.SKOSVocabulary.RESOURCE</a></div><div class="ttdeci">RESOURCE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00149">SKOSVocabulary.java:149</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a5ac42d5a47557abd0465eb1131de91af"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a5ac42d5a47557abd0465eb1131de91af">org.semanticweb.owlapi.vocab.SKOSVocabulary.getIRI</a></div><div class="ttdeci">IRI getIRI()</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00185">SKOSVocabulary.java:185</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a9f00e5f56080abc32a66d845121ebef8"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a9f00e5f56080abc32a66d845121ebef8">org.semanticweb.owlapi.vocab.SKOSVocabulary.CLOSEMATCH</a></div><div class="ttdeci">CLOSEMATCH</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00070">SKOSVocabulary.java:70</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ab3c863aec9c6ee49ac4a06cc975d776a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ab3c863aec9c6ee49ac4a06cc975d776a">org.semanticweb.owlapi.vocab.SKOSVocabulary.HIDDENLABEL</a></div><div class="ttdeci">HIDDENLABEL</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00122">SKOSVocabulary.java:122</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aff3ae474a4855b319152fc7c3813a4b4"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aff3ae474a4855b319152fc7c3813a4b4">org.semanticweb.owlapi.vocab.SKOSVocabulary.CONCEPTSCHEME</a></div><div class="ttdeci">CONCEPTSCHEME</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00105">SKOSVocabulary.java:105</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_acd5e5d178fc0153c1b8ac37ad25c6d80"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acd5e5d178fc0153c1b8ac37ad25c6d80">org.semanticweb.owlapi.vocab.SKOSVocabulary.getURI</a></div><div class="ttdeci">URI getURI()</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00189">SKOSVocabulary.java:189</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_acaa8befc232e21e312dd013b0dd2a6c1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#acaa8befc232e21e312dd013b0dd2a6c1">org.semanticweb.owlapi.vocab.SKOSVocabulary.getClasses</a></div><div class="ttdeci">static Set&lt; OWLClass &gt; getClasses(OWLDataFactory dataFactory)</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00224">SKOSVocabulary.java:224</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a554cca7448b38205c243ba8e6a42aef9"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a554cca7448b38205c243ba8e6a42aef9">org.semanticweb.owlapi.vocab.SKOSVocabulary.CHANGENOTE</a></div><div class="ttdeci">CHANGENOTE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00114">SKOSVocabulary.java:114</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aa6680e12a4a9537bf97e17ec58f48a0d"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aa6680e12a4a9537bf97e17ec58f48a0d">org.semanticweb.owlapi.vocab.SKOSVocabulary.SEMANTICRELATION</a></div><div class="ttdeci">SEMANTICRELATION</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00094">SKOSVocabulary.java:94</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a86de14fc26286301751495f93ff74bf3"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86de14fc26286301751495f93ff74bf3">org.semanticweb.owlapi.vocab.SKOSVocabulary.PREFLABEL</a></div><div class="ttdeci">PREFLABEL</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00128">SKOSVocabulary.java:128</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a6d9876423e0a0b5c9559dd1aecc12de9"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6d9876423e0a0b5c9559dd1aecc12de9">org.semanticweb.owlapi.vocab.SKOSVocabulary.getObjectProperties</a></div><div class="ttdeci">static Set&lt; OWLObjectProperty &gt; getObjectProperties(OWLDataFactory dataFactory)</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00204">SKOSVocabulary.java:204</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a76df377d9d8df319460622cb19b3a658"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a76df377d9d8df319460622cb19b3a658">org.semanticweb.owlapi.vocab.SKOSVocabulary.SKOSVocabulary</a></div><div class="ttdeci">SKOSVocabulary(String localname, EntityType&lt;?&gt; entityType)</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00171">SKOSVocabulary.java:171</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a3ee4ddc7e2104101190ebd0e7ede5d97"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3ee4ddc7e2104101190ebd0e7ede5d97">org.semanticweb.owlapi.vocab.SKOSVocabulary.NARROWTRANSITIVE</a></div><div class="ttdeci">NARROWTRANSITIVE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00088">SKOSVocabulary.java:88</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a3574d28111ff2d56f30a6df7ff17ff3a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a3574d28111ff2d56f30a6df7ff17ff3a">org.semanticweb.owlapi.vocab.SKOSVocabulary.COLLECTABLEPROPERTY</a></div><div class="ttdeci">COLLECTABLEPROPERTY</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00145">SKOSVocabulary.java:145</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ae49a3bf15347a9d5fac20060647b43e1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ae49a3bf15347a9d5fac20060647b43e1">org.semanticweb.owlapi.vocab.SKOSVocabulary.getEntityType</a></div><div class="ttdeci">EntityType&lt;?&gt; getEntityType()</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00177">SKOSVocabulary.java:177</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_aed09239d86300bd7a8c62e9791048c8b"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#aed09239d86300bd7a8c62e9791048c8b">org.semanticweb.owlapi.vocab.SKOSVocabulary.ORDEREDCOLLECTION</a></div><div class="ttdeci">ORDEREDCOLLECTION</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00107">SKOSVocabulary.java:107</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a86788482a8dc25c754d5b41f17113b71"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a86788482a8dc25c754d5b41f17113b71">org.semanticweb.owlapi.vocab.SKOSVocabulary.TOPCONCEPT</a></div><div class="ttdeci">TOPCONCEPT</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00109">SKOSVocabulary.java:109</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_abae13a100e0c0636fc27651dee11489a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#abae13a100e0c0636fc27651dee11489a">org.semanticweb.owlapi.vocab.SKOSVocabulary.RELATEDMATCH</a></div><div class="ttdeci">RELATEDMATCH</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00092">SKOSVocabulary.java:92</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_adca0d2875a8723797edff3f6b6674a73"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#adca0d2875a8723797edff3f6b6674a73">org.semanticweb.owlapi.vocab.SKOSVocabulary.MAPPINGRELATION</a></div><div class="ttdeci">MAPPINGRELATION</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00078">SKOSVocabulary.java:78</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a1b343a704e1e2d884cecd4439a743be9"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a1b343a704e1e2d884cecd4439a743be9">org.semanticweb.owlapi.vocab.SKOSVocabulary.EXAMPLE</a></div><div class="ttdeci">EXAMPLE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00120">SKOSVocabulary.java:120</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_ad0da796cb24b2285980f888a400668bc"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#ad0da796cb24b2285980f888a400668bc">org.semanticweb.owlapi.vocab.SKOSVocabulary.MEMBERLIST</a></div><div class="ttdeci">MEMBERLIST</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00082">SKOSVocabulary.java:82</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_af8de0e17e0cee3a3f769f9d3699b5f27"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#af8de0e17e0cee3a3f769f9d3699b5f27">org.semanticweb.owlapi.vocab.SKOSVocabulary.CONCEPT</a></div><div class="ttdeci">CONCEPT</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00103">SKOSVocabulary.java:103</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a6f8da3e20e6482823282e8ad2dae17ab"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a6f8da3e20e6482823282e8ad2dae17ab">org.semanticweb.owlapi.vocab.SKOSVocabulary.BROADERTRANSITIVE</a></div><div class="ttdeci">BROADERTRANSITIVE</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00068">SKOSVocabulary.java:68</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary_html_a209a02a8a8a353efe8931512a8e98f51"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_k_o_s_vocabulary.html#a209a02a8a8a353efe8931512a8e98f51">org.semanticweb.owlapi.vocab.SKOSVocabulary.getAnnotationProperties</a></div><div class="ttdeci">static Set&lt; OWLAnnotationProperty &gt; getAnnotationProperties(OWLDataFactory dataFactory)</div><div class="ttdef"><b>Definition:</b> <a href="_s_k_o_s_vocabulary_8java_source.html#l00193">SKOSVocabulary.java:193</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_1578a7610963a3a4b45eef5d6305ab61.html">vocab</a></li><li class="navelem"><a class="el" href="_s_k_o_s_vocabulary_8java.html">SKOSVocabulary.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:55 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

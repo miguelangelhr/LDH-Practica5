@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/util/MultiMap.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_multi_map_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MultiMap.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_multi_map_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.util;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.io.Serializable;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.util.ArrayList;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.util.Collection;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.util.Collections;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> java.util.List;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> java.util.Map;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html">   55</a></span>&#160;public class MultiMap&lt;Key, Value&gt; implements Serializable {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">long</span> serialVersionUID = 30406L;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> Map&lt;Key, Collection&lt;Value&gt;&gt; map;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> size = 0;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">boolean</span> useSets = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">boolean</span> threadSafe = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">   63</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">MultiMap</a>() {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">this</span>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a88788fa758624aeb75f02162aed61976">   67</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a88788fa758624aeb75f02162aed61976">MultiMap</a>(<span class="keywordtype">boolean</span> threadsafe) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        threadSafe = threadsafe;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            map = CollectionFactory.createSyncMap();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            map = CollectionFactory.createMap();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a82c16dd6595ceca5328b4169efcd90dc">   76</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a82c16dd6595ceca5328b4169efcd90dc">MultiMap</a>(<span class="keywordtype">boolean</span> threadsafe, <span class="keywordtype">boolean</span> usesets) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">this</span>(threadsafe);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.useSets = usesets;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5">   85</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5">put</a>(Key key, Value value) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        Collection&lt;Value&gt; set = this.map.get(key);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (set == null) {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            set = createCollection();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            this.map.put(key, set);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">boolean</span> toReturn = set.add(value);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (toReturn) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            size = -1;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">   98</a></span>&#160;    <span class="keyword">protected</span> Collection&lt;Value&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">createCollection</a>() {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        Collection&lt;Value&gt; toReturn;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> (useSets) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                toReturn = CollectionFactory.createSyncSet();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                toReturn = CollectionFactory.createSet();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                toReturn = Collections.synchronizedList(<span class="keyword">new</span> ArrayList&lt;Value&gt;());</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                toReturn = <span class="keyword">new</span> ArrayList&lt;Value&gt;();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">  120</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">setEntry</a>(Key key, Collection&lt;Value&gt; values) {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        this.map.put(key, values);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        this.size = -1;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a9c0d66e9e77fc63cd2c6efc76e64e06e">  132</a></span>&#160;    <span class="keyword">public</span> Collection&lt;Value&gt; <span class="keyword">get</span>(Key key) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keyword">final</span> Collection&lt;Value&gt; collection = this.map.get(key);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">if</span> (collection != null) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">return</span> collection;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> Collections.emptyList();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a1d143fe9a6398c7666d0456c0e4b93fa">  143</a></span>&#160;    <span class="keyword">public</span> Set&lt;Key&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a1d143fe9a6398c7666d0456c0e4b93fa">keySet</a>() {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span> this.map.keySet();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">  150</a></span>&#160;    <span class="keyword">public</span> Set&lt;Value&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">getAllValues</a>() {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        Set&lt;Value&gt; toReturn = CollectionFactory.createSet();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">for</span> (Collection&lt;Value&gt; s : this.map.values()) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            toReturn.addAll(s);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aec73ff422b4c0dad3236c46c82ca76e0">  163</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <span class="keyword">remove</span>(Key key) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (this.map.remove(key) != null) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            size = -1;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a42e84b3f4aa17771e24bef60c2867838">  178</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <span class="keyword">remove</span>(Key key, Value value) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        Collection&lt;Value&gt; c = this.map.get(key);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">if</span> (c != null) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordtype">boolean</span> toReturn = c.remove(value);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="comment">// if false, no change was actually made - skip the rest</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">if</span> (!toReturn) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            }</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            size = -1;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">if</span> (c.isEmpty()) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                this.map.remove(key);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">  198</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a>() {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">if</span> (size &lt; 0) {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            size = getAllValues().size();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">return</span> this.size;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a40bdc392879448679793ca85d48536c1">  210</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a40bdc392879448679793ca85d48536c1">contains</a>(Key k, Value v) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keyword">final</span> Collection&lt;Value&gt; collection = this.map.get(k);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">if</span> (collection == null) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">return</span> collection.contains(v);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ac42b7481f198626ec1b51394a951b2e9">  222</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ac42b7481f198626ec1b51394a951b2e9">containsKey</a>(Key k) {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> this.map.containsKey(k);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ad62096e3bd0c6be4542bbdb2081cbf96">  230</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ad62096e3bd0c6be4542bbdb2081cbf96">containsValue</a>(Value v) {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">for</span> (Collection&lt;Value&gt; c : map.values()) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (c.contains(v)) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
+<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a66e3a900eec4fa573a8eab8e7d6bc8ed">  239</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a66e3a900eec4fa573a8eab8e7d6bc8ed">clear</a>() {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        this.map.clear();</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.size = 0;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    @Override</div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a3f6cb177586bca129c407006a49bca6f">  245</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a3f6cb177586bca129c407006a49bca6f">toString</a>() {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;MultiMap &quot;</span> + size() + <span class="stringliteral">&quot;\n&quot;</span> + map.toString();<span class="comment">//.replace(&quot;,&quot;, &quot;\n&quot;);</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">  249</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">putAll</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html">MultiMap&lt;Key, Value&gt;</a> otherMap) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">for</span> (Key k : otherMap.<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a1d143fe9a6398c7666d0456c0e4b93fa">keySet</a>()) {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            putAll(k, otherMap.<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a9c0d66e9e77fc63cd2c6efc76e64e06e">get</a>(k));</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aaa6c5f949b7e04c28cd2f338f2042caa">  255</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aaa6c5f949b7e04c28cd2f338f2042caa">putAll</a>(Key k, Collection&lt;Value&gt; v) {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        Collection&lt;Value&gt; set = map.get(k);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordflow">if</span> (set == null) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            set = createCollection();</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            setEntry(k, set);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        set.addAll(v);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        size=-1;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
+<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a526719d69943f817698d8cb2bac1f9e3">  265</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a526719d69943f817698d8cb2bac1f9e3">isValueSetsEqual</a>() {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span> (map.size() &lt; 2) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        List&lt;Collection&lt;Value&gt;&gt; list = <span class="keyword">new</span> ArrayList&lt;Collection&lt;Value&gt;&gt;(map.values());</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; list.size(); i++) {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">if</span> (!list.get(0).equals(list.get(i))) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_ac42b7481f198626ec1b51394a951b2e9"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ac42b7481f198626ec1b51394a951b2e9">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.containsKey</a></div><div class="ttdeci">boolean containsKey(Key k)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00222">MultiMap.java:222</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a5ef25a2bc76f0f161b25e23b45702b20"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.createCollection</a></div><div class="ttdeci">Collection&lt; Value &gt; createCollection()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00098">MultiMap.java:98</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a1d143fe9a6398c7666d0456c0e4b93fa"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a1d143fe9a6398c7666d0456c0e4b93fa">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.keySet</a></div><div class="ttdeci">Set&lt; Key &gt; keySet()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00143">MultiMap.java:143</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a794d98898728f0ace2ff6c8fe1556596"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.putAll</a></div><div class="ttdeci">void putAll(MultiMap&lt; Key, Value &gt; otherMap)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00249">MultiMap.java:249</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a82c16dd6595ceca5328b4169efcd90dc"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a82c16dd6595ceca5328b4169efcd90dc">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap</a></div><div class="ttdeci">MultiMap(boolean threadsafe, boolean usesets)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00076">MultiMap.java:76</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;</a></div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00055">MultiMap.java:55</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a40bdc392879448679793ca85d48536c1"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a40bdc392879448679793ca85d48536c1">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.contains</a></div><div class="ttdeci">boolean contains(Key k, Value v)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00210">MultiMap.java:210</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a526719d69943f817698d8cb2bac1f9e3"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a526719d69943f817698d8cb2bac1f9e3">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.isValueSetsEqual</a></div><div class="ttdeci">boolean isValueSetsEqual()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00265">MultiMap.java:265</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a5a881ad106278842d8bd6cfbf7146cdf"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap</a></div><div class="ttdeci">MultiMap()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00063">MultiMap.java:63</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a24c8b0c40bc15c91453cea0a480239fe"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.getAllValues</a></div><div class="ttdeci">Set&lt; Value &gt; getAllValues()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00150">MultiMap.java:150</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_aaa6c5f949b7e04c28cd2f338f2042caa"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aaa6c5f949b7e04c28cd2f338f2042caa">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.putAll</a></div><div class="ttdeci">void putAll(Key k, Collection&lt; Value &gt; v)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00255">MultiMap.java:255</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a88788fa758624aeb75f02162aed61976"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a88788fa758624aeb75f02162aed61976">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap</a></div><div class="ttdeci">MultiMap(boolean threadsafe)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00067">MultiMap.java:67</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.put</a></div><div class="ttdeci">boolean put(Key key, Value value)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00085">MultiMap.java:85</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_ad62096e3bd0c6be4542bbdb2081cbf96"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ad62096e3bd0c6be4542bbdb2081cbf96">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.containsValue</a></div><div class="ttdeci">boolean containsValue(Value v)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00230">MultiMap.java:230</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a3f6cb177586bca129c407006a49bca6f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a3f6cb177586bca129c407006a49bca6f">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00245">MultiMap.java:245</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a9c0d66e9e77fc63cd2c6efc76e64e06e"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a9c0d66e9e77fc63cd2c6efc76e64e06e">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.get</a></div><div class="ttdeci">Collection&lt; Value &gt; get(Key key)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00132">MultiMap.java:132</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_ab246107845dfdffa6c3371b2011c57f6"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.setEntry</a></div><div class="ttdeci">void setEntry(Key key, Collection&lt; Value &gt; values)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00120">MultiMap.java:120</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a66e3a900eec4fa573a8eab8e7d6bc8ed"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a66e3a900eec4fa573a8eab8e7d6bc8ed">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00239">MultiMap.java:239</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_4e7749dfc7b855d816ac1514d3b1897a.html">util</a></li><li class="navelem"><a class="el" href="_multi_map_8java.html">MultiMap.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:52 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

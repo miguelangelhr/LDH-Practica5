@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_exact_cardinality_element_handler =
+[
+    [ "OWLObjectExactCardinalityElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_exact_cardinality_element_handler.html#a9d469c64db24782099fabe66203560d4", null ],
+    [ "createCardinalityRestriction", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_object_exact_cardinality_element_handler.html#a13ef162a25c3105f1ed1c22f6a1886f6", null ]
+];

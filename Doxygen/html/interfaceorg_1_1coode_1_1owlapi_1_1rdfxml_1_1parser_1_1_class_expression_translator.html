@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_abstract_class_expression_translator.html">org.coode.owlapi.rdfxml.parser.AbstractClassExpressionTranslator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab0aef277202661fcad2468d252068c50"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html#ab0aef277202661fcad2468d252068c50">matches</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> mainNode, <a class="el" href="enumorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_mode.html">Mode</a> mode)</td></tr>
+<tr class="separator:ab0aef277202661fcad2468d252068c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc7c5790676c122d9e098bbaf0cc7f4"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html#a8dc7c5790676c122d9e098bbaf0cc7f4">matchesStrict</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> mainNode)</td></tr>
+<tr class="separator:a8dc7c5790676c122d9e098bbaf0cc7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fd8ff461edd495667a09bdb9b6ce32"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html#a38fd8ff461edd495667a09bdb9b6ce32">matchesLax</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> mainNode)</td></tr>
+<tr class="separator:a38fd8ff461edd495667a09bdb9b6ce32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b37c577603249ede1a65e79735f2e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html#a26b37c577603249ede1a65e79735f2e5">translate</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> mainNode)</td></tr>
+<tr class="separator:a26b37c577603249ede1a65e79735f2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 08-Dec-2006<br/>
+<br/>
+</p>
+<p>Give a node in an RDF graph, which represents the main node of an OWL class expression, the <code><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html">ClassExpressionTranslator</a></code> consumes the triples that represent the class expression, and translates the triples to the appropriate OWL API <code>OWLClassExpression</code> object. </p>
+
+<p>Definición en la línea <a class="el" href="_class_expression_translator_8java_source.html#l00058">58</a> del archivo <a class="el" href="_class_expression_translator_8java_source.html">ClassExpressionTranslator.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ab0aef277202661fcad2468d252068c50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator.matches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>mainNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_mode.html">Mode</a>&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_abstract_class_expression_translator.html#a19f0612458d0187341f3c3ffc7bec470">org.coode.owlapi.rdfxml.parser.AbstractClassExpressionTranslator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38fd8ff461edd495667a09bdb9b6ce32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator.matchesLax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>mainNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_self_translator.html#a8999f14116aae614f161c332380f54e9">org.coode.owlapi.rdfxml.parser.ObjectHasSelfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_intersection_of_translator.html#a86bc051c18268d248984ff1a7b8a59b0">org.coode.owlapi.rdfxml.parser.ObjectIntersectionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_union_of_translator.html#a7e19634e383af9c9259fb846cf23c5ee">org.coode.owlapi.rdfxml.parser.ObjectUnionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_complement_of_translator.html#aca5649838d48fc6833078c24714a4974">org.coode.owlapi.rdfxml.parser.ObjectComplementOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_one_of_translator.html#af3b0cc0ddfb5f42106ab7452358be78c">org.coode.owlapi.rdfxml.parser.ObjectOneOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_some_values_from_translator.html#a0fda1ebb9838f64c88b08f8f102d9d7e">org.coode.owlapi.rdfxml.parser.DataSomeValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_all_values_from_translator.html#a2707850dca5b2885ad6dd56f2273a05b">org.coode.owlapi.rdfxml.parser.DataAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_cardinality_translator.html#a88e080300cfffda615a55f5436432b58">org.coode.owlapi.rdfxml.parser.DataCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_has_value_translator.html#a285b4d39944f358aef33936ac04fe4bb">org.coode.owlapi.rdfxml.parser.DataHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_cardinality_translator.html#ac8f8741e26e34a6cff77a07be099c07e">org.coode.owlapi.rdfxml.parser.DataMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_qualified_cardinality_translator.html#af183fed6efb92b24410edee384b742e7">org.coode.owlapi.rdfxml.parser.DataMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_cardinality_translator.html#a52d62317f98f694b47b6ac902faf7dbc">org.coode.owlapi.rdfxml.parser.DataMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_qualified_cardinality_translator.html#a8ea655013e617b9c5d451284e657075f">org.coode.owlapi.rdfxml.parser.DataMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_qualified_cardinality_translator.html#a6e2489c9377024ddcd0cf9db2b1e7b6a">org.coode.owlapi.rdfxml.parser.DataQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_all_values_from_translator.html#a5294072e728a7aa0508bedff19e7fd74">org.coode.owlapi.rdfxml.parser.ObjectAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_cardinality_translator.html#a7799c797ffba6cd2c911c4e0cbeb1e81">org.coode.owlapi.rdfxml.parser.ObjectCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_value_translator.html#ab76dfbf9775af55289d3ed967f9130f6">org.coode.owlapi.rdfxml.parser.ObjectHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_cardinality_translator.html#ab3ec969c06e957534b8fb7d1b94ae25b">org.coode.owlapi.rdfxml.parser.ObjectMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_qualified_cardinality_translator.html#ab005d68d441c95647ca5c6f4d48e24a9">org.coode.owlapi.rdfxml.parser.ObjectMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_cardinality_translator.html#a963c6882b2199fa8a03b39ebfedc9409">org.coode.owlapi.rdfxml.parser.ObjectMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_qualified_cardinality_translator.html#a95d92da5652b645746fe449be78ae31d">org.coode.owlapi.rdfxml.parser.ObjectMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_qualified_cardinality_translator.html#accae32b4edff06d79a21f49384b381c0">org.coode.owlapi.rdfxml.parser.ObjectQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_some_values_from_translator.html#a896ac56b7335241599da2d79d574d473">org.coode.owlapi.rdfxml.parser.ObjectSomeValuesFromTranslator</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_named_class_translator.html#abcb8f86a1865d0b7adc087798748f16d">org.coode.owlapi.rdfxml.parser.NamedClassTranslator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dc7c5790676c122d9e098bbaf0cc7f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator.matchesStrict </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>mainNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_intersection_of_translator.html#a3ae89aab5e98d36c7d8e53b3eba6a403">org.coode.owlapi.rdfxml.parser.ObjectIntersectionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_self_translator.html#ad6f3f8368b9c495e032b432508696613">org.coode.owlapi.rdfxml.parser.ObjectHasSelfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_union_of_translator.html#a1d060557a3bbd3e5c62d083b7400d6d2">org.coode.owlapi.rdfxml.parser.ObjectUnionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_complement_of_translator.html#a42cbcc3387fa0aa8c46b614bafe29257">org.coode.owlapi.rdfxml.parser.ObjectComplementOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_some_values_from_translator.html#a057caa72a21767f81ab2716b0e87eff3">org.coode.owlapi.rdfxml.parser.DataSomeValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_one_of_translator.html#ae81bcde3386227582f25b6c45d77fc0c">org.coode.owlapi.rdfxml.parser.ObjectOneOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_all_values_from_translator.html#a466ad1ae242adc2ba645bc70f966dc2a">org.coode.owlapi.rdfxml.parser.DataAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_cardinality_translator.html#a908794fcc42905fddb4b6988c784f071">org.coode.owlapi.rdfxml.parser.DataCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_has_value_translator.html#ab0091c8bb74619b59b87258035fe7f0c">org.coode.owlapi.rdfxml.parser.DataHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_cardinality_translator.html#ae009f9f2173423ac205e2e7ca3fcd1a3">org.coode.owlapi.rdfxml.parser.DataMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_qualified_cardinality_translator.html#a7be44159f53cd3718b3b12049cef5d10">org.coode.owlapi.rdfxml.parser.DataMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_cardinality_translator.html#a5db76daa0563668ce1af046fb1251415">org.coode.owlapi.rdfxml.parser.DataMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_qualified_cardinality_translator.html#aed553b5cc4daed266f68f971c46fed37">org.coode.owlapi.rdfxml.parser.DataMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_qualified_cardinality_translator.html#a4ead50f502eb3f0fc2e531feeff98a86">org.coode.owlapi.rdfxml.parser.DataQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_all_values_from_translator.html#a6771da81c7e257fc97ddc927eed1f9fc">org.coode.owlapi.rdfxml.parser.ObjectAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_cardinality_translator.html#a3b867eaf0ba6560a507c2ba40be1abdd">org.coode.owlapi.rdfxml.parser.ObjectCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_value_translator.html#abac131adf215ddb701b8f81867a3845f">org.coode.owlapi.rdfxml.parser.ObjectHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_cardinality_translator.html#a9dd004882be85dcf665c7109ed68a8ab">org.coode.owlapi.rdfxml.parser.ObjectMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_qualified_cardinality_translator.html#ad461aae70c653f295608a079ed0530b1">org.coode.owlapi.rdfxml.parser.ObjectMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_cardinality_translator.html#aa566de4d12074a2c9763a55475e265ac">org.coode.owlapi.rdfxml.parser.ObjectMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_qualified_cardinality_translator.html#a91a9dfb8f803dcc009a65f1cab296195">org.coode.owlapi.rdfxml.parser.ObjectMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_qualified_cardinality_translator.html#a4ef52070aa98c28ce3534d36e5bf06be">org.coode.owlapi.rdfxml.parser.ObjectQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_some_values_from_translator.html#a75d8a5d14e23211cbef82454f45152da">org.coode.owlapi.rdfxml.parser.ObjectSomeValuesFromTranslator</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_named_class_translator.html#ae17d72c682443f5300684b643dd59212">org.coode.owlapi.rdfxml.parser.NamedClassTranslator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26b37c577603249ede1a65e79735f2e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.coode.owlapi.rdfxml.parser.ClassExpressionTranslator.translate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>mainNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Translates the specified main node into an <code>OWLClassExpression</code>. All triples used in the translation are consumed. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mainNode</td><td>The main node of the set of triples that represent the class expression. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The class expression that represents the translation. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_self_translator.html#ad7d77f96b70a9b234c2a487ca65d09fa">org.coode.owlapi.rdfxml.parser.ObjectHasSelfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_intersection_of_translator.html#a30cbeab582292c060bda6d4f547549e3">org.coode.owlapi.rdfxml.parser.ObjectIntersectionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_named_class_translator.html#aa49250faebcab0ac5ed2fb3ae07f1396">org.coode.owlapi.rdfxml.parser.NamedClassTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_union_of_translator.html#a329ea53706c0c2c5144837ac32049539">org.coode.owlapi.rdfxml.parser.ObjectUnionOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_complement_of_translator.html#ac9daa439eeb9788fd36b5a297582d0e9">org.coode.owlapi.rdfxml.parser.ObjectComplementOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_one_of_translator.html#ad96fae2c554291bca09732bd8b466ef4">org.coode.owlapi.rdfxml.parser.ObjectOneOfTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_some_values_from_translator.html#a551b25eaee420984ad09b9693663ec52">org.coode.owlapi.rdfxml.parser.DataSomeValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_all_values_from_translator.html#a88273b7705be2eff274d95850cb1269b">org.coode.owlapi.rdfxml.parser.DataAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_cardinality_translator.html#af6f4d85fc1a766875d6c50772b0af812">org.coode.owlapi.rdfxml.parser.DataCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_has_value_translator.html#a135e77279958be8fa8409a3f82823bce">org.coode.owlapi.rdfxml.parser.DataHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_cardinality_translator.html#af4bbd954f2b86850793d7ec6d8b66759">org.coode.owlapi.rdfxml.parser.DataMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_max_qualified_cardinality_translator.html#ad745f8751a2a967aa152ab720a494e4d">org.coode.owlapi.rdfxml.parser.DataMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_cardinality_translator.html#a89c2ea17c5383cae4458809deb37f2b0">org.coode.owlapi.rdfxml.parser.DataMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_min_qualified_cardinality_translator.html#a6679cfe9026a050fa6d0068abd0e92c5">org.coode.owlapi.rdfxml.parser.DataMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_data_qualified_cardinality_translator.html#a5643c574501a052e886d8701a56ffb0f">org.coode.owlapi.rdfxml.parser.DataQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_all_values_from_translator.html#a09830ff28917aa3f29224ddc87f1d1e8">org.coode.owlapi.rdfxml.parser.ObjectAllValuesFromTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_cardinality_translator.html#ab91febf9a10f45a39d9b19c05f462c0c">org.coode.owlapi.rdfxml.parser.ObjectCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_has_value_translator.html#af859ee0888b1f9b3124bba993df3ad95">org.coode.owlapi.rdfxml.parser.ObjectHasValueTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_cardinality_translator.html#a565b099bcce7279f69474c8cbc84c44d">org.coode.owlapi.rdfxml.parser.ObjectMaxCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_max_qualified_cardinality_translator.html#a2c4452d5d1be900b52c73fd61d544218">org.coode.owlapi.rdfxml.parser.ObjectMaxQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_cardinality_translator.html#a593aff5dc69ac487bdcc6c24ee862599">org.coode.owlapi.rdfxml.parser.ObjectMinCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_min_qualified_cardinality_translator.html#a1d9c8d23bbb6112985da8b78e9590a27">org.coode.owlapi.rdfxml.parser.ObjectMinQualifiedCardinalityTranslator</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_qualified_cardinality_translator.html#a72098e3aa0b88fd68c830215f019ec88">org.coode.owlapi.rdfxml.parser.ObjectQualifiedCardinalityTranslator</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_object_some_values_from_translator.html#a6a6b4846a0af30046324f0d84fa54d76">org.coode.owlapi.rdfxml.parser.ObjectSomeValuesFromTranslator</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/rdfxml/parser/<a class="el" href="_class_expression_translator_8java_source.html">ClassExpressionTranslator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1rdfxml.html">rdfxml</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_class_expression_translator.html">ClassExpressionTranslator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:47 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

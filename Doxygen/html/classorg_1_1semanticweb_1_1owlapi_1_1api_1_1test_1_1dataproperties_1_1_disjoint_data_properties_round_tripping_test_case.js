@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_disjoint_data_properties_round_tripping_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_disjoint_data_properties_round_tripping_test_case.html#adea2848ddd6aed926bcc5a9cb2c3e6ad", null ]
+];

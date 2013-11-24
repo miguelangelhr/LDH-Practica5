@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente parsers/src/main/java/uk/ac/manchester/cs/BOMSafeJavaCharStream.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_b_o_m_safe_java_char_stream_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">BOMSafeJavaCharStream.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_b_o_m_safe_java_char_stream_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>uk.ac.manchester.cs;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.io.IOException;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.io.InputStream;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.io.InputStreamReader;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.io.Reader;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> java.io.UnsupportedEncodingException;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">org.semanticweb.owlapi.model.OWLRuntimeException</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">   51</a></span>&#160;public class <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> {</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ac64f8a94c23e58d990697ea98bba35b0">   53</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">boolean</span> staticFlag = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">int</span> hexval(<span class="keywordtype">char</span> c) <span class="keywordflow">throws</span> IOException {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">switch</span> (c) {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;0&#39;</span>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;1&#39;</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;2&#39;</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">return</span> 2;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;3&#39;</span>:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <span class="keywordflow">return</span> 3;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;4&#39;</span>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="keywordflow">return</span> 4;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;5&#39;</span>:</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="keywordflow">return</span> 5;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;6&#39;</span>:</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">return</span> 6;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;7&#39;</span>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="keywordflow">return</span> 7;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;8&#39;</span>:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">return</span> 8;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;9&#39;</span>:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="keywordflow">return</span> 9;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;a&#39;</span>:</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;A&#39;</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="keywordflow">return</span> 10;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;b&#39;</span>:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;B&#39;</span>:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">return</span> 11;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;c&#39;</span>:</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;C&#39;</span>:</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">return</span> 12;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;d&#39;</span>:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;D&#39;</span>:</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">return</span> 13;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;e&#39;</span>:</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;E&#39;</span>:</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">return</span> 14;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;f&#39;</span>:</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;F&#39;</span>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">return</span> 15;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException(); <span class="comment">// Should never come here</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a955c28cbe16cf4dfeaa7a0c8757ec23f">  102</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> bufpos = -1;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> bufsize;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> available;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">int</span> tokenBegin;</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a828aaf344268763988f351feab8f29cf">  106</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> bufline[];</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a302436adaba08be8b5b4e7a7356cb5de">  107</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> bufcolumn[];</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#af583cf2bb7d2aa6faf7d6e42409b9137">  108</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> column = 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ac3c28fba93517ce43b78e339fbb3af60">  109</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> line = 1;</div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a3b96b080ad2677016f4d31b7afbb4cd9">  110</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">boolean</span> prevCharIsCR = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a124691351253415c0ce35f398dda2622">  111</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">boolean</span> prevCharIsLF = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#af845c159f4d475d36d76ef4db915f1b2">  112</a></span>&#160;    <span class="keyword">protected</span> Reader <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#af845c159f4d475d36d76ef4db915f1b2">inputStream</a>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a99693c7cdc457ffa9d72cfc64397a980">  113</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">char</span>[] <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a99693c7cdc457ffa9d72cfc64397a980">nextCharBuf</a>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ae74b4f06453cdd443c1ba5592fd20db4">  114</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">char</span>[] <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ae74b4f06453cdd443c1ba5592fd20db4">buffer</a>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a8e3d04e2205058393aee2eecc26a8b6a">  115</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> maxNextCharInd = 0;</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ae7a05560f7b51e42b390c8302c264a20">  116</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> nextCharInd = -1;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a4b83839d9cbe068d7995047bbb634f87">  117</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> inBuf = 0;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a15e060ac26a6067ec0a12b038842d861">  118</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">int</span> tabSize = 8;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">boolean</span> beginning = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    @SuppressWarnings(<span class="stringliteral">&quot;unused&quot;</span>)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    private <span class="keywordtype">int</span> getTabSize(<span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">return</span> tabSize;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> ExpandBuff(<span class="keywordtype">boolean</span> wrapAround) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordtype">char</span>[] newbuffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[bufsize + 2048];</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordtype">int</span> newbufline[] = <span class="keyword">new</span> <span class="keywordtype">int</span>[bufsize + 2048];</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordtype">int</span> newbufcolumn[] = <span class="keyword">new</span> <span class="keywordtype">int</span>[bufsize + 2048];</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">if</span> (wrapAround) {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                System.arraycopy(buffer, 0, newbuffer, bufsize - tokenBegin, bufpos);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                buffer = newbuffer;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                System.arraycopy(bufline, 0, newbufline, bufsize - tokenBegin, bufpos);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                bufline = newbufline;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                        - tokenBegin);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                System.arraycopy(bufcolumn, 0, newbufcolumn, bufsize - tokenBegin, bufpos);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                bufcolumn = newbufcolumn;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                bufpos += bufsize - tokenBegin;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                buffer = newbuffer;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                bufline = newbufline;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                        - tokenBegin);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                bufcolumn = newbufcolumn;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                bufpos -= tokenBegin;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        available = bufsize += 2048;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        tokenBegin = 0;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> FillBuff() throws IOException {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> (maxNextCharInd == 4096) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            maxNextCharInd = nextCharInd = 0;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordflow">if</span> ((i = inputStream.read(nextCharBuf, maxNextCharInd, 4096 - maxNextCharInd)) == -1) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                inputStream.close();</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                maxNextCharInd += i;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="comment">// this treats the BOM problem; when the parser is regenerated,</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="comment">// this needs to be applied again</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="keywordflow">if</span> (beginning &amp;&amp; nextCharBuf[0] == <span class="stringliteral">&#39;\uFEFF&#39;</span>) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                nextCharInd++;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                beginning = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        } <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">if</span> (bufpos != 0) {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                --bufpos;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                backup(0);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                bufline[bufpos] = line;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                bufcolumn[bufpos] = column;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <span class="keywordflow">throw</span> e;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        }</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">char</span> ReadByte() throws IOException {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (++nextCharInd &gt;= maxNextCharInd) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            FillBuff();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">return</span> nextCharBuf[nextCharInd];</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">  197</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">char</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">BeginToken</a>() throws IOException {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">if</span> (inBuf &gt; 0) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            --inBuf;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">if</span> (++bufpos == bufsize) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                bufpos = 0;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            tokenBegin = bufpos;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="keywordflow">return</span> buffer[bufpos];</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        tokenBegin = 0;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        bufpos = -1;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">return</span> readChar();</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> AdjustBuffSize() {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">if</span> (available == bufsize) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">if</span> (tokenBegin &gt; 2048) {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                bufpos = 0;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                available = tokenBegin;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                ExpandBuff(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            }</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (available &gt; tokenBegin) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            available = bufsize;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tokenBegin - available &lt; 2048) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            ExpandBuff(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            available = tokenBegin;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> UpdateLineColumn(<span class="keywordtype">char</span> c) {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        column++;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">if</span> (prevCharIsLF) {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            prevCharIsLF = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            line += column = 1;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (prevCharIsCR) {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            prevCharIsCR = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">if</span> (c == <span class="charliteral">&#39;\n&#39;</span>) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                prevCharIsLF = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                line += column = 1;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">switch</span> (c) {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;\r&#39;</span>:</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                prevCharIsCR = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;\n&#39;</span>:</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                prevCharIsLF = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;\t&#39;</span>:</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                column--;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                column += tabSize - column % tabSize;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        bufline[bufpos] = line;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        bufcolumn[bufpos] = column;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#acb8b025121b480889849717d62a80b33">  263</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">char</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#acb8b025121b480889849717d62a80b33">readChar</a>() throws IOException {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">if</span> (inBuf &gt; 0) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            --inBuf;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">if</span> (++bufpos == bufsize) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                bufpos = 0;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">return</span> buffer[bufpos];</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordtype">char</span> c;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">if</span> (++bufpos == available) {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            AdjustBuffSize();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">if</span> ((buffer[bufpos] = c = ReadByte()) == <span class="charliteral">&#39;\\&#39;</span>) {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            UpdateLineColumn(c);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordtype">int</span> backSlashCnt = 1;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">for</span> (;;) <span class="comment">// Read all the backslashes</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <span class="keywordflow">if</span> (++bufpos == available) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                    AdjustBuffSize();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                    <span class="keywordflow">if</span> ((buffer[bufpos] = c = ReadByte()) != <span class="charliteral">&#39;\\&#39;</span>) {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                        UpdateLineColumn(c);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                        <span class="comment">// found a non-backslash char.</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                        <span class="keywordflow">if</span> (c == <span class="charliteral">&#39;u&#39;</span> &amp;&amp; (backSlashCnt &amp; 1) == 1) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                            <span class="keywordflow">if</span> (--bufpos &lt; 0) {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                bufpos = bufsize - 1;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                            }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                        }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                        backup(backSlashCnt);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                        <span class="keywordflow">return</span> <span class="charliteral">&#39;\\&#39;</span>;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                } <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                    <span class="comment">// We are returning one backslash so we should only backup</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    <span class="comment">// (count-1)</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="keywordflow">if</span> (backSlashCnt &gt; 1) {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                        backup(backSlashCnt - 1);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                    }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                    <span class="keywordflow">return</span> <span class="charliteral">&#39;\\&#39;</span>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                UpdateLineColumn(c);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                backSlashCnt++;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <span class="comment">// Here, we have seen an odd number of backslash&#39;s followed by a &#39;u&#39;</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <span class="keywordflow">while</span> ((c = ReadByte()) == <span class="charliteral">&#39;u&#39;</span>) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                    ++column;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                buffer[bufpos] = c = (char) (hexval(c) &lt;&lt; 12 | hexval(ReadByte()) &lt;&lt; 8</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                        | hexval(ReadByte()) &lt;&lt; 4 | hexval(ReadByte()));</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                column += 4;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            } <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a>(<span class="stringliteral">&quot;Invalid escape character at line &quot;</span> + line</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                        + <span class="stringliteral">&quot; column &quot;</span> + column + <span class="stringliteral">&quot;.&quot;</span>, e);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            <span class="keywordflow">if</span> (backSlashCnt == 1) {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                backup(backSlashCnt - 1);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                <span class="keywordflow">return</span> <span class="charliteral">&#39;\\&#39;</span>;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            UpdateLineColumn(c);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    }</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a034104c0a7a20f0a69fd3a771f240643">  333</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a034104c0a7a20f0a69fd3a771f240643">getEndColumn</a>() {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">return</span> bufcolumn[bufpos];</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    }</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a08cb0583b4a8150f64e03409b583adb4">  338</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a08cb0583b4a8150f64e03409b583adb4">getEndLine</a>() {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">return</span> bufline[bufpos];</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    }</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a259d6521e877084142bec42eafc8526c">  343</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a259d6521e877084142bec42eafc8526c">getBeginColumn</a>() {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordflow">return</span> bufcolumn[tokenBegin];</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5efa4ae7a6a12f0fee65adcb8223e54f">  348</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5efa4ae7a6a12f0fee65adcb8223e54f">getBeginLine</a>() {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">return</span> bufline[tokenBegin];</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    }</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ab9a79366186b5646b1f4c73389684c4e">  353</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ab9a79366186b5646b1f4c73389684c4e">backup</a>(<span class="keywordtype">int</span> amount) {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        inBuf += amount;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">if</span> ((bufpos -= amount) &lt; 0) {</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            bufpos += bufsize;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    }</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a47d39de6e2360aba82f4f9fdd3872d0f">  361</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a47d39de6e2360aba82f4f9fdd3872d0f">BOMSafeJavaCharStream</a>(Reader dstream, <span class="keywordtype">int</span> startline, <span class="keywordtype">int</span> startcolumn,</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            <span class="keywordtype">int</span> buffersize) {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        inputStream = dstream;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        line = startline;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        column = startcolumn - 1;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        available = bufsize = buffersize;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        buffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[buffersize];</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        bufline = <span class="keyword">new</span> <span class="keywordtype">int</span>[buffersize];</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        bufcolumn = <span class="keyword">new</span> <span class="keywordtype">int</span>[buffersize];</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        nextCharBuf = <span class="keyword">new</span> <span class="keywordtype">char</span>[4096];</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
+<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a2410d9e837bb1c5a7bc3377905848cfc">  374</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a2410d9e837bb1c5a7bc3377905848cfc">BOMSafeJavaCharStream</a>(Reader dstream, <span class="keywordtype">int</span> startline, <span class="keywordtype">int</span> startcolumn) {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <span class="keyword">this</span>(dstream, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    }</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> ReInit(Reader dstream, <span class="keywordtype">int</span> startline, <span class="keywordtype">int</span> startcolumn, <span class="keywordtype">int</span> buffersize) {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        inputStream = dstream;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        line = startline;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        column = startcolumn - 1;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="keywordflow">if</span> (buffer == null || buffersize != buffer.length) {</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;            available = bufsize = buffersize;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            buffer = <span class="keyword">new</span> <span class="keywordtype">char</span>[buffersize];</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;            bufline = <span class="keyword">new</span> <span class="keywordtype">int</span>[buffersize];</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;            bufcolumn = <span class="keyword">new</span> <span class="keywordtype">int</span>[buffersize];</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;            nextCharBuf = <span class="keyword">new</span> <span class="keywordtype">char</span>[4096];</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        prevCharIsLF = prevCharIsCR = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        tokenBegin = inBuf = maxNextCharInd = 0;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        nextCharInd = bufpos = -1;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    }</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
+<div class="line"><a name="l00396"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a78396936de46eb9a86045581ea143fb5">  396</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a78396936de46eb9a86045581ea143fb5">ReInit</a>(Reader dstream, <span class="keywordtype">int</span> startline, <span class="keywordtype">int</span> startcolumn) {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        ReInit(dstream, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    }</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a21f9c8b3823427fbd34ee87e013da8f7">  401</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a21f9c8b3823427fbd34ee87e013da8f7">BOMSafeJavaCharStream</a>(InputStream dstream, String encoding, <span class="keywordtype">int</span> startline,</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;            <span class="keywordtype">int</span> startcolumn, <span class="keywordtype">int</span> buffersize) <span class="keywordflow">throws</span> UnsupportedEncodingException {</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keyword">this</span>(encoding == null ? <span class="keyword">new</span> InputStreamReader(dstream, <span class="stringliteral">&quot;UTF-8&quot;</span>)</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        : <span class="keyword">new</span> InputStreamReader(dstream, encoding), startline, startcolumn,</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        buffersize);</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    }</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
+<div class="line"><a name="l00409"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a96bcc8bd6cdcc5171001e7054cb98a86">  409</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a96bcc8bd6cdcc5171001e7054cb98a86">BOMSafeJavaCharStream</a>(InputStream dstream, String encoding, <span class="keywordtype">int</span> startline,</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            <span class="keywordtype">int</span> startcolumn) <span class="keywordflow">throws</span> UnsupportedEncodingException {</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="keyword">this</span>(dstream, encoding, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    }</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> ReInit(InputStream dstream, String encoding, <span class="keywordtype">int</span> startline,</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;            <span class="keywordtype">int</span> startcolumn, <span class="keywordtype">int</span> buffersize) <span class="keywordflow">throws</span> UnsupportedEncodingException {</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        ReInit(encoding == null ? <span class="keyword">new</span> InputStreamReader(dstream, <span class="stringliteral">&quot;UTF-8&quot;</span>)</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        : <span class="keyword">new</span> InputStreamReader(dstream, encoding), startline, startcolumn,</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        buffersize);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    }</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
+<div class="line"><a name="l00423"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#adae38ac3edb2809a6457b56dd545c052">  423</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#adae38ac3edb2809a6457b56dd545c052">ReInit</a>(InputStream dstream, String encoding, <span class="keywordtype">int</span> startline,</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            <span class="keywordtype">int</span> startcolumn) <span class="keywordflow">throws</span> UnsupportedEncodingException {</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        ReInit(dstream, encoding, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    }</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
+<div class="line"><a name="l00430"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">  430</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">GetImage</a>() {</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">if</span> (bufpos &gt;= tokenBegin) {</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> String(buffer, tokenBegin, bufpos - tokenBegin + 1);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> String(buffer, tokenBegin, bufsize - tokenBegin)</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            + <span class="keyword">new</span> String(buffer, 0, bufpos + 1);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        }</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    }</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a174fc74a1f0cbbc1b8ef545270ebb0d8"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">uk.ac.manchester.cs.BOMSafeJavaCharStream.GetImage</a></div><div class="ttdeci">String GetImage()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00430">BOMSafeJavaCharStream.java:430</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a5efa4ae7a6a12f0fee65adcb8223e54f"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5efa4ae7a6a12f0fee65adcb8223e54f">uk.ac.manchester.cs.BOMSafeJavaCharStream.getBeginLine</a></div><div class="ttdeci">int getBeginLine()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00348">BOMSafeJavaCharStream.java:348</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a259d6521e877084142bec42eafc8526c"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a259d6521e877084142bec42eafc8526c">uk.ac.manchester.cs.BOMSafeJavaCharStream.getBeginColumn</a></div><div class="ttdeci">int getBeginColumn()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00343">BOMSafeJavaCharStream.java:343</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a034104c0a7a20f0a69fd3a771f240643"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a034104c0a7a20f0a69fd3a771f240643">uk.ac.manchester.cs.BOMSafeJavaCharStream.getEndColumn</a></div><div class="ttdeci">int getEndColumn()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00333">BOMSafeJavaCharStream.java:333</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_ab9a79366186b5646b1f4c73389684c4e"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ab9a79366186b5646b1f4c73389684c4e">uk.ac.manchester.cs.BOMSafeJavaCharStream.backup</a></div><div class="ttdeci">void backup(int amount)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00353">BOMSafeJavaCharStream.java:353</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a21f9c8b3823427fbd34ee87e013da8f7"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a21f9c8b3823427fbd34ee87e013da8f7">uk.ac.manchester.cs.BOMSafeJavaCharStream.BOMSafeJavaCharStream</a></div><div class="ttdeci">BOMSafeJavaCharStream(InputStream dstream, String encoding, int startline, int startcolumn, int buffersize)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00401">BOMSafeJavaCharStream.java:401</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_af845c159f4d475d36d76ef4db915f1b2"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#af845c159f4d475d36d76ef4db915f1b2">uk.ac.manchester.cs.BOMSafeJavaCharStream.inputStream</a></div><div class="ttdeci">Reader inputStream</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00112">BOMSafeJavaCharStream.java:112</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a5920c61b477775b3ecfc2ec254942824"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">uk.ac.manchester.cs.BOMSafeJavaCharStream.BeginToken</a></div><div class="ttdeci">char BeginToken()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00197">BOMSafeJavaCharStream.java:197</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a08cb0583b4a8150f64e03409b583adb4"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a08cb0583b4a8150f64e03409b583adb4">uk.ac.manchester.cs.BOMSafeJavaCharStream.getEndLine</a></div><div class="ttdeci">int getEndLine()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00338">BOMSafeJavaCharStream.java:338</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a99693c7cdc457ffa9d72cfc64397a980"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a99693c7cdc457ffa9d72cfc64397a980">uk.ac.manchester.cs.BOMSafeJavaCharStream.nextCharBuf</a></div><div class="ttdeci">char[] nextCharBuf</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00113">BOMSafeJavaCharStream.java:113</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a2410d9e837bb1c5a7bc3377905848cfc"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a2410d9e837bb1c5a7bc3377905848cfc">uk.ac.manchester.cs.BOMSafeJavaCharStream.BOMSafeJavaCharStream</a></div><div class="ttdeci">BOMSafeJavaCharStream(Reader dstream, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00374">BOMSafeJavaCharStream.java:374</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_ae74b4f06453cdd443c1ba5592fd20db4"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#ae74b4f06453cdd443c1ba5592fd20db4">uk.ac.manchester.cs.BOMSafeJavaCharStream.buffer</a></div><div class="ttdeci">char[] buffer</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00114">BOMSafeJavaCharStream.java:114</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">uk.ac.manchester.cs.BOMSafeJavaCharStream</a></div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00051">BOMSafeJavaCharStream.java:51</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a47d39de6e2360aba82f4f9fdd3872d0f"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a47d39de6e2360aba82f4f9fdd3872d0f">uk.ac.manchester.cs.BOMSafeJavaCharStream.BOMSafeJavaCharStream</a></div><div class="ttdeci">BOMSafeJavaCharStream(Reader dstream, int startline, int startcolumn, int buffersize)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00361">BOMSafeJavaCharStream.java:361</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_acb8b025121b480889849717d62a80b33"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#acb8b025121b480889849717d62a80b33">uk.ac.manchester.cs.BOMSafeJavaCharStream.readChar</a></div><div class="ttdeci">char readChar()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00263">BOMSafeJavaCharStream.java:263</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a78396936de46eb9a86045581ea143fb5"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a78396936de46eb9a86045581ea143fb5">uk.ac.manchester.cs.BOMSafeJavaCharStream.ReInit</a></div><div class="ttdeci">void ReInit(Reader dstream, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00396">BOMSafeJavaCharStream.java:396</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">org.semanticweb.owlapi.model.OWLRuntimeException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_runtime_exception_8java_source.html#l00050">OWLRuntimeException.java:50</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_adae38ac3edb2809a6457b56dd545c052"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#adae38ac3edb2809a6457b56dd545c052">uk.ac.manchester.cs.BOMSafeJavaCharStream.ReInit</a></div><div class="ttdeci">void ReInit(InputStream dstream, String encoding, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00423">BOMSafeJavaCharStream.java:423</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a96bcc8bd6cdcc5171001e7054cb98a86"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a96bcc8bd6cdcc5171001e7054cb98a86">uk.ac.manchester.cs.BOMSafeJavaCharStream.BOMSafeJavaCharStream</a></div><div class="ttdeci">BOMSafeJavaCharStream(InputStream dstream, String encoding, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00409">BOMSafeJavaCharStream.java:409</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a5a40681709ed751decc24cd7289c9c5.html">parsers</a></li><li class="navelem"><a class="el" href="dir_519767d89cf959fdff3ccb9e3bd8b08c.html">src</a></li><li class="navelem"><a class="el" href="dir_be0f351148fa3293a5edbe097e7034b2.html">main</a></li><li class="navelem"><a class="el" href="dir_f2ba2c7b2bfa8619ae625da8113a7f79.html">java</a></li><li class="navelem"><a class="el" href="dir_8d7c0a1b6a0dc1f1080d453d9923a1df.html">uk</a></li><li class="navelem"><a class="el" href="dir_a7cf5218e6fa79273dca5c3904ac03cb.html">ac</a></li><li class="navelem"><a class="el" href="dir_7449640942dc31136e1762b620ac5d77.html">manchester</a></li><li class="navelem"><a class="el" href="dir_e78b989e302bb6000e08b9bbc8940a4c.html">cs</a></li><li class="navelem"><a class="el" href="_b_o_m_safe_java_char_stream_8java.html">BOMSafeJavaCharStream.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:20 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.io.XMLUtils</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.io.XMLUtils</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a3f767c23482a64ca611660c6179f6c7a"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">isXMLNameStartCharacter</a> (int codePoint)</td></tr>
+<tr class="separator:a3f767c23482a64ca611660c6179f6c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73ce39ff63e507c2e9ec8b219672d7a"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#ad73ce39ff63e507c2e9ec8b219672d7a">isXMLNameChar</a> (int codePoint)</td></tr>
+<tr class="separator:ad73ce39ff63e507c2e9ec8b219672d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82788244a122900560f8d725456d43a"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af82788244a122900560f8d725456d43a">isNCNameStartChar</a> (int codePoint)</td></tr>
+<tr class="separator:af82788244a122900560f8d725456d43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b28b328a15330281c0c8b2246de5564"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a6b28b328a15330281c0c8b2246de5564">isNCNameChar</a> (int codePoint)</td></tr>
+<tr class="separator:a6b28b328a15330281c0c8b2246de5564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995f5b4f95ff6cdf6f4cea83d4c550ac"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a995f5b4f95ff6cdf6f4cea83d4c550ac">isNCName</a> (CharSequence s)</td></tr>
+<tr class="separator:a995f5b4f95ff6cdf6f4cea83d4c550ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e9e0f1f663b0469b444b99c2fc4e0c"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a25e9e0f1f663b0469b444b99c2fc4e0c">isQName</a> (CharSequence s)</td></tr>
+<tr class="separator:a25e9e0f1f663b0469b444b99c2fc4e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd2fc93ffd70d7b8e9e265df67df3bf"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a2dd2fc93ffd70d7b8e9e265df67df3bf">hasNCNameSuffix</a> (CharSequence s)</td></tr>
+<tr class="separator:a2dd2fc93ffd70d7b8e9e265df67df3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b5a3fd7c08cf6740b531a9e4bec0df"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">getNCNameSuffixIndex</a> (CharSequence s)</td></tr>
+<tr class="separator:a60b5a3fd7c08cf6740b531a9e4bec0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc590cb73a041606a4543e3493377a4"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a9fc590cb73a041606a4543e3493377a4">getNCNameSuffix</a> (CharSequence s)</td></tr>
+<tr class="separator:a9fc590cb73a041606a4543e3493377a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977782088cd022dae37a97174f98d623"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a977782088cd022dae37a97174f98d623">getNCNamePrefix</a> (CharSequence s)</td></tr>
+<tr class="separator:a977782088cd022dae37a97174f98d623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a205c2f88c8b381b5881f724c330ff2"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a1a205c2f88c8b381b5881f724c330ff2">escapeXML</a> (CharSequence s)</td></tr>
+<tr class="separator:a1a205c2f88c8b381b5881f724c330ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:af4f65835d7ea196a6099d54941f414da"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af4f65835d7ea196a6099d54941f414da">LT</a> = &quot;&amp;lt;&quot;</td></tr>
+<tr class="separator:af4f65835d7ea196a6099d54941f414da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aab2e541e2e69068b596a4c264ff902"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a4aab2e541e2e69068b596a4c264ff902">GT</a> = &quot;&amp;gt;&quot;</td></tr>
+<tr class="separator:a4aab2e541e2e69068b596a4c264ff902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16b343553771638cc52792d68485836"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa16b343553771638cc52792d68485836">QUOT</a> = &quot;&amp;quot;&quot;</td></tr>
+<tr class="separator:aa16b343553771638cc52792d68485836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa135209f27d327982e7aaff98db71933"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa135209f27d327982e7aaff98db71933">AMP</a> = &quot;&amp;amp;&quot;</td></tr>
+<tr class="separator:aa135209f27d327982e7aaff98db71933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cdf2c4b17d18847e2aacbf56eb8c92"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa7cdf2c4b17d18847e2aacbf56eb8c92">APOS</a> = &quot;&amp;apos;&quot;</td></tr>
+<tr class="separator:aa7cdf2c4b17d18847e2aacbf56eb8c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87819da169396d36b948e8458c64218c"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a87819da169396d36b948e8458c64218c">OWL_PROCESSING_INSTRUCTION_NAME</a> = &quot;owl&quot;</td></tr>
+<tr class="separator:a87819da169396d36b948e8458c64218c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 22/09/2011 <br/>
+ This class contains various methods for checking QNames, NCNames etc. The implementation is based on the <a href="http://www.w3.org/TR/xml-names/">W3C namespaces in XML specification</a>. </p>
+<dl class="section since"><dt>Desde</dt><dd>3.3.0 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00055">55</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a1a205c2f88c8b381b5881f724c330ff2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.semanticweb.owlapi.io.XMLUtils.escapeXML </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Escapes a character sequence so that it is valid XML. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The escaped version of the character sequence. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00278">278</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                                                   {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// double quote -- quot</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="comment">// ampersand    -- amp</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="comment">// less than    -- lt</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="comment">// greater than -- gt</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="comment">// apostrophe   -- apos</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder(s.length() * 2);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; s.length(); ) {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keywordtype">int</span> codePoint = Character.codePointAt(s, i);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keywordflow">if</span> (codePoint == <span class="charliteral">&#39;&lt;&#39;</span>) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                sb.append(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af4f65835d7ea196a6099d54941f414da">LT</a>);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (codePoint == <span class="charliteral">&#39;&gt;&#39;</span>) {</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                sb.append(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a4aab2e541e2e69068b596a4c264ff902">GT</a>);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (codePoint == <span class="charliteral">&#39;\&quot;&#39;</span>) {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                sb.append(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa16b343553771638cc52792d68485836">QUOT</a>);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (codePoint == <span class="charliteral">&#39;&amp;&#39;</span>) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                sb.append(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa135209f27d327982e7aaff98db71933">AMP</a>);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            }</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (codePoint == <span class="charliteral">&#39;\&#39;&#39;</span>) {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                sb.append(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa7cdf2c4b17d18847e2aacbf56eb8c92">APOS</a>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                sb.appendCodePoint(codePoint);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            i += Character.charCount(codePoint);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_aa16b343553771638cc52792d68485836"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa16b343553771638cc52792d68485836">org.semanticweb.owlapi.io.XMLUtils.QUOT</a></div><div class="ttdeci">static final String QUOT</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00061">XMLUtils.java:61</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_aa7cdf2c4b17d18847e2aacbf56eb8c92"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa7cdf2c4b17d18847e2aacbf56eb8c92">org.semanticweb.owlapi.io.XMLUtils.APOS</a></div><div class="ttdeci">static final String APOS</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00065">XMLUtils.java:65</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_aa135209f27d327982e7aaff98db71933"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#aa135209f27d327982e7aaff98db71933">org.semanticweb.owlapi.io.XMLUtils.AMP</a></div><div class="ttdeci">static final String AMP</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00063">XMLUtils.java:63</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a4aab2e541e2e69068b596a4c264ff902"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a4aab2e541e2e69068b596a4c264ff902">org.semanticweb.owlapi.io.XMLUtils.GT</a></div><div class="ttdeci">static final String GT</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00059">XMLUtils.java:59</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_af4f65835d7ea196a6099d54941f414da"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af4f65835d7ea196a6099d54941f414da">org.semanticweb.owlapi.io.XMLUtils.LT</a></div><div class="ttdeci">static final String LT</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00057">XMLUtils.java:57</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a977782088cd022dae37a97174f98d623"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.semanticweb.owlapi.io.XMLUtils.getNCNamePrefix </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>utility to get the part of a charsequence that is not the NCName fragment </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>the charsequence to split </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the prefix split at the last non-ncname character, or the whole input if no ncname is found </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00260">260</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                                                         {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">if</span> (s.length() &gt; 1 &amp;&amp; s.charAt(0) == <span class="charliteral">&#39;_&#39;</span> &amp;&amp; s.charAt(1) == <span class="charliteral">&#39;:&#39;</span>) {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="keywordflow">return</span> s.toString();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordtype">int</span> localPartStartIndex = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">getNCNameSuffixIndex</a>(s);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">if</span> (localPartStartIndex &gt; -1) {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">return</span> s.toString().substring(0, localPartStartIndex);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">return</span> s.toString();</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a60b5a3fd7c08cf6740b531a9e4bec0df"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffixIndex</a></div><div class="ttdeci">static int getNCNameSuffixIndex(CharSequence s)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00217">XMLUtils.java:217</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9fc590cb73a041606a4543e3493377a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffix </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the longest NCName that is a suffix of a character sequence. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The String which is the longest suffix of the character sequence <code>s</code> that is an NCName, or <code>null</code> if the character sequence <code>s</code> does not have a suffix that is an NCName. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00244">244</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                                                         {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">if</span> (s.length() &gt; 1 &amp;&amp; s.charAt(0) == <span class="charliteral">&#39;_&#39;</span> &amp;&amp; s.charAt(1) == <span class="charliteral">&#39;:&#39;</span>) {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordtype">int</span> localPartStartIndex = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">getNCNameSuffixIndex</a>(s);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">if</span>(localPartStartIndex &gt; -1) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keywordflow">return</span> s.toString().substring(localPartStartIndex);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a60b5a3fd7c08cf6740b531a9e4bec0df"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffixIndex</a></div><div class="ttdeci">static int getNCNameSuffixIndex(CharSequence s)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00217">XMLUtils.java:217</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a60b5a3fd7c08cf6740b531a9e4bec0df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffixIndex </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the index of the longest NCName that is the suffix of a character sequence. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The index of the longest suffix of the specified character sequence <code>s</code> that is an NCName, or -1 if the character sequence <code>s</code> does not have a suffix that is an NCName. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00217">217</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                                           {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="comment">// identify bnode labels and do not try to split them</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">if</span> (s.length() &gt; 1 &amp;&amp; s.charAt(0) == <span class="charliteral">&#39;_&#39;</span> &amp;&amp; s.charAt(1) == <span class="charliteral">&#39;:&#39;</span>) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        }</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordtype">int</span> index = -1;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = s.length() - 1; i &gt; -1; i--) {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">if</span> (!Character.isLowSurrogate(s.charAt(i))) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                <span class="keywordtype">int</span> codePoint = Character.codePointAt(s, i);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af82788244a122900560f8d725456d43a">isNCNameStartChar</a>(codePoint)) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                    index = i;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordflow">if</span>(!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a6b28b328a15330281c0c8b2246de5564">isNCNameChar</a>(codePoint)) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordflow">return</span> index;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_af82788244a122900560f8d725456d43a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af82788244a122900560f8d725456d43a">org.semanticweb.owlapi.io.XMLUtils.isNCNameStartChar</a></div><div class="ttdeci">static boolean isNCNameStartChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00120">XMLUtils.java:120</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a6b28b328a15330281c0c8b2246de5564"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a6b28b328a15330281c0c8b2246de5564">org.semanticweb.owlapi.io.XMLUtils.isNCNameChar</a></div><div class="ttdeci">static boolean isNCNameChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00130">XMLUtils.java:130</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2dd2fc93ffd70d7b8e9e265df67df3bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.hasNCNameSuffix </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if a character sequence has a suffix that is an NCName. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the character sequence <code>s</code> has a suffix that is an NCName. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00206">206</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                                          {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">getNCNameSuffixIndex</a>(s) != -1;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a60b5a3fd7c08cf6740b531a9e4bec0df"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a60b5a3fd7c08cf6740b531a9e4bec0df">org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffixIndex</a></div><div class="ttdeci">static int getNCNameSuffixIndex(CharSequence s)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00217">XMLUtils.java:217</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a995f5b4f95ff6cdf6f4cea83d4c550ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isNCName </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if a character sequence is an NCName (Non-Colonised Name). An NCName is a string which starts with an NCName start character and is followed by zero or more NCName characters. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence to be tested. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>s</code> is an NCName, otherwise <code>false</code>. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00140">140</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                                    {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">if</span> (isNullOrEmpty(s)) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordtype">int</span> firstCodePoint = Character.codePointAt(s, 0);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af82788244a122900560f8d725456d43a">isNCNameStartChar</a>(firstCodePoint)) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = Character.charCount(firstCodePoint); i &lt; s.length(); ) {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordtype">int</span> codePoint = Character.codePointAt(s, i);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a6b28b328a15330281c0c8b2246de5564">isNCNameChar</a>(codePoint)) {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            i += Character.charCount(codePoint);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_af82788244a122900560f8d725456d43a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#af82788244a122900560f8d725456d43a">org.semanticweb.owlapi.io.XMLUtils.isNCNameStartChar</a></div><div class="ttdeci">static boolean isNCNameStartChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00120">XMLUtils.java:120</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a6b28b328a15330281c0c8b2246de5564"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a6b28b328a15330281c0c8b2246de5564">org.semanticweb.owlapi.io.XMLUtils.isNCNameChar</a></div><div class="ttdeci">static boolean isNCNameChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00130">XMLUtils.java:130</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6b28b328a15330281c0c8b2246de5564"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isNCNameChar </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>codePoint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Deterimines if a character is an NCName (Non-Colonised Name) character. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">codePoint</td><td>The code point of the character to be tested. For UTF-8 and UTF-16 characters the code point corresponds to the value of the char that represents the character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>codePoint</code> is a NCName character, otherwise <code>false</code>. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00130">130</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                                      {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">return</span> codePoint != <span class="charliteral">&#39;:&#39;</span> &amp;&amp; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#ad73ce39ff63e507c2e9ec8b219672d7a">isXMLNameChar</a>(codePoint);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_ad73ce39ff63e507c2e9ec8b219672d7a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#ad73ce39ff63e507c2e9ec8b219672d7a">org.semanticweb.owlapi.io.XMLUtils.isXMLNameChar</a></div><div class="ttdeci">static boolean isXMLNameChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00103">XMLUtils.java:103</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af82788244a122900560f8d725456d43a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isNCNameStartChar </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>codePoint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Deterimines if a character is an NCName (Non-Colonised Name) start character. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">codePoint</td><td>The code point of the character to be tested. For UTF-8 and UTF-16 characters the code point corresponds to the value of the char that represents the character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>codePoint</code> is a NCName start character, otherwise <code>false</code>. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00120">120</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                           {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span> codePoint != <span class="charliteral">&#39;:&#39;</span> &amp;&amp; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">isXMLNameStartCharacter</a>(codePoint);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a3f767c23482a64ca611660c6179f6c7a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">org.semanticweb.owlapi.io.XMLUtils.isXMLNameStartCharacter</a></div><div class="ttdeci">static boolean isXMLNameStartCharacter(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00077">XMLUtils.java:77</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a25e9e0f1f663b0469b444b99c2fc4e0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isQName </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if a character sequence is a QName. A QName is either an NCName (LocalName), or an NCName followed by a colon followed by another NCName (where the first NCName is referred to as the 'Prefix Name' and the second NCName is referred to as the 'Local Name' - i.e. PrefixName:LocalName). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The character sequence to be tested. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>s</code> is a QName, otherwise <code>false</code>. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00165">165</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                  {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span> (isNullOrEmpty(s)) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordtype">boolean</span> foundColon = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordtype">boolean</span> inNCName = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; s.length(); ) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordtype">int</span> codePoint = Character.codePointAt(s, i);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">if</span>(codePoint == <span class="charliteral">&#39;:&#39;</span>) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">if</span>(foundColon) {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                foundColon = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="keywordflow">if</span>(!inNCName) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                inNCName = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">if</span>(!inNCName) {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    <span class="keywordflow">if</span>(!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">isXMLNameStartCharacter</a>(codePoint)) {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                    }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                    inNCName = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                    <span class="keywordflow">if</span>(!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#ad73ce39ff63e507c2e9ec8b219672d7a">isXMLNameChar</a>(codePoint)) {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                    }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            i += Character.charCount(codePoint);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_ad73ce39ff63e507c2e9ec8b219672d7a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#ad73ce39ff63e507c2e9ec8b219672d7a">org.semanticweb.owlapi.io.XMLUtils.isXMLNameChar</a></div><div class="ttdeci">static boolean isXMLNameChar(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00103">XMLUtils.java:103</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a3f767c23482a64ca611660c6179f6c7a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">org.semanticweb.owlapi.io.XMLUtils.isXMLNameStartCharacter</a></div><div class="ttdeci">static boolean isXMLNameStartCharacter(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00077">XMLUtils.java:77</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad73ce39ff63e507c2e9ec8b219672d7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isXMLNameChar </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>codePoint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if a character is an XML name character. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">codePoint</td><td>The code point of the character to be tested. For UTF-8 and UTF-16 characters the code point corresponds to the value of the char that represents the character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>codePoint</code> is an XML name start character, otherwise <code>false</code> </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00103">103</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                       {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">isXMLNameStartCharacter</a>(codePoint)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                || codePoint == <span class="charliteral">&#39;-&#39;</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                || codePoint == <span class="charliteral">&#39;.&#39;</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                || codePoint &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; codePoint &lt;= <span class="charliteral">&#39;9&#39;</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                || codePoint == 0xB7</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                || codePoint &gt;= 0x0300 &amp;&amp; codePoint &lt;= 0x036F</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                || codePoint &gt;= 0x203F &amp;&amp; codePoint &lt;= 0x2040;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a3f767c23482a64ca611660c6179f6c7a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a3f767c23482a64ca611660c6179f6c7a">org.semanticweb.owlapi.io.XMLUtils.isXMLNameStartCharacter</a></div><div class="ttdeci">static boolean isXMLNameStartCharacter(int codePoint)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00077">XMLUtils.java:77</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f767c23482a64ca611660c6179f6c7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.semanticweb.owlapi.io.XMLUtils.isXMLNameStartCharacter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>codePoint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if a character is an XML name start character. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">codePoint</td><td>The code point of the character to be tested. For UTF-16 characters the code point corresponds to the value of the char that represents the character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>codePoint</code> is an XML name start character, otherwise <code>false</code> </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00077">77</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> codePoint == <span class="charliteral">&#39;:&#39;</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                || codePoint &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; codePoint &lt;= <span class="charliteral">&#39;Z&#39;</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                || codePoint == <span class="charliteral">&#39;_&#39;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                || codePoint &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; codePoint &lt;= <span class="charliteral">&#39;z&#39;</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                || codePoint &gt;= 0xC0 &amp;&amp; codePoint &lt;= 0xD6</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                || codePoint &gt;= 0xD8 &amp;&amp; codePoint &lt;= 0xF6</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                || codePoint &gt;= 0xF8 &amp;&amp; codePoint &lt;= 0x2FF</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                || codePoint &gt;= 0x370 &amp;&amp; codePoint &lt;= 0x37D</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                || codePoint &gt;= 0x37F &amp;&amp; codePoint &lt;= 0x1FFF</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                || codePoint &gt;= 0x200C &amp;&amp; codePoint &lt;= 0x200D</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                || codePoint &gt;= 0x2070 &amp;&amp; codePoint &lt;= 0x218F</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                || codePoint &gt;= 0x2C00 &amp;&amp; codePoint &lt;= 0x2FEF</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                || codePoint &gt;= 0x3001 &amp;&amp; codePoint &lt;= 0xD7FF</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                || codePoint &gt;= 0xF900 &amp;&amp; codePoint &lt;= 0xFDCF</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                || codePoint &gt;= 0xFDF0 &amp;&amp; codePoint &lt;= 0xFFFD</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                || codePoint &gt;= 0x10000 &amp;&amp; codePoint &lt;= 0xEFFFF;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="aa135209f27d327982e7aaff98db71933"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.AMP = &quot;&amp;amp;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00063">63</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7cdf2c4b17d18847e2aacbf56eb8c92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.APOS = &quot;&amp;apos;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00065">65</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4aab2e541e2e69068b596a4c264ff902"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.GT = &quot;&amp;gt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00059">59</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4f65835d7ea196a6099d54941f414da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.LT = &quot;&amp;lt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00057">57</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a87819da169396d36b948e8458c64218c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.OWL_PROCESSING_INSTRUCTION_NAME = &quot;owl&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00068">68</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa16b343553771638cc52792d68485836"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.semanticweb.owlapi.io.XMLUtils.QUOT = &quot;&amp;quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_utils_8java_source.html#l00061">61</a> del archivo <a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/io/<a class="el" href="_x_m_l_utils_8java_source.html">XMLUtils.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1io.html">io</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html">XMLUtils</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:19 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

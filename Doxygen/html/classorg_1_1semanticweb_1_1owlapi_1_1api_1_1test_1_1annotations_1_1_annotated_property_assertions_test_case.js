@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotated_property_assertions_test_case =
+[
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotated_property_assertions_test_case.html#a3be7d1b9de316f5c5bf9dbd8f2636093", null ],
+    [ "testCorrectAxiomAnnotated", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotated_property_assertions_test_case.html#a834b43787625b8af016444681bbfb73c", null ]
+];

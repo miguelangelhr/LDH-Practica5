@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_set_provider_3_01_e_01extends_01_o_w_l_entity_01_4 =
+[
+    [ "getEntities", "interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_set_provider_3_01_e_01extends_01_o_w_l_entity_01_4.html#ace3253f0f9e257cb95ebd24e9ec5000c", null ]
+];

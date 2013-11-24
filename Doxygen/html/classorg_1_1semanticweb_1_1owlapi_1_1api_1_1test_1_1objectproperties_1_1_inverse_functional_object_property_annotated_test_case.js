@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_inverse_functional_object_property_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_inverse_functional_object_property_annotated_test_case.html#aae21cc24bd7efa2b94ac56f43c6d2a96", null ]
+];

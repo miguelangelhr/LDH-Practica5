@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['value',['VALUE',['../enumorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax.html#a1290ac68479e2a22e88f263cc61156e6',1,'org.coode.owlapi.manchesterowlsyntax.ManchesterOWLSyntax.VALUE()'],['../classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2c20487ca5a547dda0bfebb8440c4d55',1,'org.coode.owlapi.functionalparser.SimpleNode.value()']]],
+  ['value_5fpartition',['VALUE_PARTITION',['../enumorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax.html#a524fe1f5766519b172cdbf446b6dbaf2',1,'org::coode::owlapi::manchesterowlsyntax::ManchesterOWLSyntax']]],
+  ['variable',['VARIABLE',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_x_m_l_vocabulary.html#a331336ee05c5860e5b98e878f4477ac5',1,'org.semanticweb.owlapi.vocab.OWLXMLVocabulary.VARIABLE()'],['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a21111a34b7fd9e4a6b2a5671783fe3ed',1,'org.semanticweb.owlapi.vocab.SWRLVocabulary.VARIABLE()'],['../interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aea1915c758fa6537676d99ecb7bb2dc2',1,'org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserConstants.VARIABLE()']]],
+  ['vcard',['VCARD',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a0f941abbdb2c19ad2cd941f776fc4834',1,'org::semanticweb::owlapi::vocab::Namespaces']]],
+  ['version',['VERSION',['../enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_vocabulary.html#a715039f4a9ccd5aa173a9a8183c85bc3',1,'org::coode::owlapi::obo::parser::OBOVocabulary']]],
+  ['visitduplicates',['visitDuplicates',['../classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_walker_3_01_o_01extends_01_o_w_l_object_01_4.html#a69d7678d92a2e82b7beee825505a2f42',1,'org::semanticweb::owlapi::util::OWLObjectWalker&lt; O extends OWLObject &gt;']]],
+  ['visitor',['visitor',['../classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_walker_3_01_o_01extends_01_o_w_l_object_01_4.html#a214ebac6bd31a6e3787577e0c001ab40',1,'org::semanticweb::owlapi::util::OWLObjectWalker&lt; O extends OWLObject &gt;']]],
+  ['void',['VOID',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#ad74d6d9013c1c795f549665402100ebd',1,'org::semanticweb::owlapi::vocab::Namespaces']]]
+];

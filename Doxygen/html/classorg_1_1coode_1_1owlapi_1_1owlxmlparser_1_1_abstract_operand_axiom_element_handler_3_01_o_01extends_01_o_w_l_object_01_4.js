@@ -1,0 +1,7 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_operand_axiom_element_handler_3_01_o_01extends_01_o_w_l_object_01_4 =
+[
+    [ "AbstractOperandAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_operand_axiom_element_handler_3_01_o_01extends_01_o_w_l_object_01_4.html#aba98e79be6fd2b51f6da8d0c3bb9c7f9", null ],
+    [ "addOperand", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_operand_axiom_element_handler_3_01_o_01extends_01_o_w_l_object_01_4.html#a8190626b969c62d261fce650f2f5ba40", null ],
+    [ "getOperands", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_operand_axiom_element_handler_3_01_o_01extends_01_o_w_l_object_01_4.html#ac1bfa76cc63b44f13fa8cb380e94b004", null ],
+    [ "startElement", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_operand_axiom_element_handler_3_01_o_01extends_01_o_w_l_object_01_4.html#aebd9bf1e033169f158c7e44c0ead179f", null ]
+];

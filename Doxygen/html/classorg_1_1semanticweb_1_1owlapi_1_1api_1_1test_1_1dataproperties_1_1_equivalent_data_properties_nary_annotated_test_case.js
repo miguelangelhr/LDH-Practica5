@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_equivalent_data_properties_nary_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_equivalent_data_properties_nary_annotated_test_case.html#af48c30ccd10b6bd8b82673bd20fdfebb", null ],
+    [ "testRDFXML", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_equivalent_data_properties_nary_annotated_test_case.html#a7a35875ab26325da8816b99afd1d4e08", null ],
+    [ "testTurtle", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_equivalent_data_properties_nary_annotated_test_case.html#a33fa721ae4a2b0725ebc278d71b8c687", null ]
+];

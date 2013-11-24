@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider.html">org.semanticweb.owlapi.util.BidirectionalShortFormProvider</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider_adapter.html">org.semanticweb.owlapi.util.BidirectionalShortFormProviderAdapter</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aa97d678721a067c0eb194bb824cc4ea3"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#aa97d678721a067c0eb194bb824cc4ea3">getShortForms</a> ()</td></tr>
+<tr class="separator:aa97d678721a067c0eb194bb824cc4ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a7a87dd01fd7868cde4e9f3c1eda99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a45a7a87dd01fd7868cde4e9f3c1eda99">rebuild</a> (OWLEntitySetProvider&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; entitySetProvider)</td></tr>
+<tr class="separator:a45a7a87dd01fd7868cde4e9f3c1eda99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983ed006ad38cd548c9eb4f2bedeeb69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a983ed006ad38cd548c9eb4f2bedeeb69">add</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:a983ed006ad38cd548c9eb4f2bedeeb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09db63908a933d2e4fb34f7f21239a19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a09db63908a933d2e4fb34f7f21239a19">remove</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:a09db63908a933d2e4fb34f7f21239a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdd92494a929c9f6e01a7f1e033cc66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#acfdd92494a929c9f6e01a7f1e033cc66">update</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:acfdd92494a929c9f6e01a7f1e033cc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52d60cb706e3e38c74591bbedc5e3e21"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a52d60cb706e3e38c74591bbedc5e3e21">getEntities</a> (String shortForm)</td></tr>
+<tr class="separator:a52d60cb706e3e38c74591bbedc5e3e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823ade303b20a739ce3df4bf3226d7b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a823ade303b20a739ce3df4bf3226d7b0">getEntity</a> (String shortForm)</td></tr>
+<tr class="separator:a823ade303b20a739ce3df4bf3226d7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab7f3c27c955a3a4f5f9dae8c7f0a9f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#abab7f3c27c955a3a4f5f9dae8c7f0a9f">getShortForm</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:abab7f3c27c955a3a4f5f9dae8c7f0a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1840681ddd0033a2e617b818b12607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#aca1840681ddd0033a2e617b818b12607">dispose</a> ()</td></tr>
+<tr class="separator:aca1840681ddd0033a2e617b818b12607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a8e056a0ae4407e2acee04f4c02f161e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a8e056a0ae4407e2acee04f4c02f161e2">CachingBidirectionalShortFormProvider</a> ()</td></tr>
+<tr class="separator:a8e056a0ae4407e2acee04f4c02f161e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bdb7794f63a55fb88f752cacb362df4"><td class="memItemLeft" align="right" valign="top">abstract String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a9bdb7794f63a55fb88f752cacb362df4">generateShortForm</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:a9bdb7794f63a55fb88f752cacb362df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 18-Apr-2007<br/>
+ <br/>
+ </p>
+<p>A bidirectional short form provider that caches entity short forms. The provider has various methods to add, remove, update entities in the cache and also to rebuild the cache from scratch. </p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00058">58</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a8e056a0ae4407e2acee04f4c02f161e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.CachingBidirectionalShortFormProvider </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00063">63</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                      {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        shortForm2EntityMap = <span class="keyword">new</span> HashMap&lt;String, Set&lt;OWLEntity&gt;&gt;();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        entity2ShortFormMap = <span class="keyword">new</span> HashMap&lt;OWLEntity, String&gt;();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a983ed006ad38cd548c9eb4f2bedeeb69"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds an entity to the cache.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity to be added to the cache - the short form will automatically be generated and added to the cache. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00105">105</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                      {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        String shortForm = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a9bdb7794f63a55fb88f752cacb362df4">generateShortForm</a>(entity);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        entity2ShortFormMap.put(entity, shortForm);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        Set&lt;OWLEntity&gt; entities = shortForm2EntityMap.get(shortForm);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">if</span> (entities == null) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="comment">// XXX what&#39;s the use of size 1? How likely it is to grow large?</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            entities = <span class="keyword">new</span> HashSet&lt;OWLEntity&gt;(1);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        entities.add(entity);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        shortForm2EntityMap.put(shortForm, entities);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider_html_a9bdb7794f63a55fb88f752cacb362df4"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a9bdb7794f63a55fb88f752cacb362df4">org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.generateShortForm</a></div><div class="ttdeci">abstract String generateShortForm(OWLEntity entity)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aca1840681ddd0033a2e617b818b12607"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.dispose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Disposes of the short form proivider. This frees any resources and clears any caches. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html#ad6c6020e37b03e441f686826c5cf3d11">org.semanticweb.owlapi.util.ShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00177">177</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                          {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        shortForm2EntityMap.clear();</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        entity2ShortFormMap.clear();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9bdb7794f63a55fb88f752cacb362df4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract String org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.generateShortForm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generates the short form for the specified entity. This short form will be cached so that it can be retrieved efficiently and so that the entity can be obtained from the short form. If the short form for the entity changes then the cach must explicilty be updated using the <code>update</code> method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity whose short form should be generated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider_adapter.html#a4f47746de5b998d43a7e5f4fff830862">org.semanticweb.owlapi.util.BidirectionalShortFormProviderAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52d60cb706e3e38c74591bbedc5e3e21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&gt; org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.getEntities </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>shortForm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>For a given short form this method obtains the entities which have this short form. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shortForm</td><td>The short form of the entities that will be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The set of entities that have the specified short form. If there are no entities which have the specified short form then an empty set will be returned. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider.html#ad7b7752a15f563a27e33246617947a0f">org.semanticweb.owlapi.util.BidirectionalShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00143">143</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                                        {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        Set&lt;OWLEntity&gt; entities = shortForm2EntityMap.get(shortForm);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">if</span> (entities != null) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">return</span> CollectionFactory.getCopyOnRequestSetFromImmutableCollection(entities);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a823ade303b20a739ce3df4bf3226d7b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.getEntity </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>shortForm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method which gets an entity from its short form. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shortForm</td><td>The short form of the entity. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The actual entity or <code>null</code> if there is no entity which has the specified short form. If the specified short form corresponds to more than one entity then an entity will be chosen by the implementation of the short form provider. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider.html#a98406a302d6aed658022aca7a87cc7ab">org.semanticweb.owlapi.util.BidirectionalShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00153">153</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                 {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        Set&lt;OWLEntity&gt; entities = shortForm2EntityMap.get(shortForm);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">if</span> (entities != null) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">if</span> (!entities.isEmpty()) {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                <span class="keywordflow">return</span> entities.iterator().next();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abab7f3c27c955a3a4f5f9dae8c7f0a9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.getShortForm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the short form for the specified entity. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A string which represents a short rendering of the speicified entity. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html#aca40ef0eda3bf146115c473088cc305d">org.semanticweb.owlapi.util.ShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00167">167</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                 {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        String sf = entity2ShortFormMap.get(entity);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">if</span> (sf != null) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="keywordflow">return</span> sf;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a9bdb7794f63a55fb88f752cacb362df4">generateShortForm</a>(entity);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        }</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider_html_a9bdb7794f63a55fb88f752cacb362df4"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a9bdb7794f63a55fb88f752cacb362df4">org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.generateShortForm</a></div><div class="ttdeci">abstract String generateShortForm(OWLEntity entity)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa97d678721a067c0eb194bb824cc4ea3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.getShortForms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets all of the short forms that are mapped to entities. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A set, which contains the strings representing the short forms of entities for which there is a mapping. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_bidirectional_short_form_provider.html#a8acf939772f74b320eff8c2b07a7294d">org.semanticweb.owlapi.util.BidirectionalShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00079">79</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                       {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> CollectionFactory</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                .getCopyOnRequestSetFromMutableCollection(shortForm2EntityMap.keySet());</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a45a7a87dd01fd7868cde4e9f3c1eda99"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.rebuild </td>
+          <td>(</td>
+          <td class="paramtype">OWLEntitySetProvider&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>entitySetProvider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rebuilds the cache using entities obtained from the specified entity set provider.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entitySetProvider</td><td>The <code>OWLEntitySetProvider</code> that should be used to obtain the entities whose short forms will be cached. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00092">92</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        shortForm2EntityMap.clear();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        entity2ShortFormMap.clear();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">for</span> (OWLEntity entity : entitySetProvider.getEntities()) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a983ed006ad38cd548c9eb4f2bedeeb69">add</a>(entity);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider_html_a983ed006ad38cd548c9eb4f2bedeeb69"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a983ed006ad38cd548c9eb4f2bedeeb69">org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.add</a></div><div class="ttdeci">void add(OWLEntity entity)</div><div class="ttdef"><b>Definition:</b> <a href="_caching_bidirectional_short_form_provider_8java_source.html#l00105">CachingBidirectionalShortFormProvider.java:105</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a09db63908a933d2e4fb34f7f21239a19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes an entity and its short form from the cache.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00123">123</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                         {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        String shortForm = entity2ShortFormMap.remove(entity);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">if</span> (shortForm != null) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            shortForm2EntityMap.remove(shortForm);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acfdd92494a929c9f6e01a7f1e033cc66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If the short form for a cached entity has changed then this method may be used to update the cached short form mapping for the entity.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity whose short form should be updated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html#l00137">137</a> del archivo <a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                         {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keyword">remove</span>(entity);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a983ed006ad38cd548c9eb4f2bedeeb69">add</a>(entity);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider_html_a983ed006ad38cd548c9eb4f2bedeeb69"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html#a983ed006ad38cd548c9eb4f2bedeeb69">org.semanticweb.owlapi.util.CachingBidirectionalShortFormProvider.add</a></div><div class="ttdeci">void add(OWLEntity entity)</div><div class="ttdef"><b>Definition:</b> <a href="_caching_bidirectional_short_form_provider_8java_source.html#l00105">CachingBidirectionalShortFormProvider.java:105</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_caching_bidirectional_short_form_provider_8java_source.html">CachingBidirectionalShortFormProvider.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_caching_bidirectional_short_form_provider.html">CachingBidirectionalShortFormProvider</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:33 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

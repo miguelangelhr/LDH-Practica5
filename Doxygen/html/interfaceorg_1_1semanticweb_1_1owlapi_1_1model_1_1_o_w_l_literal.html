@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.OWLLiteral</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.OWLLiteral</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_object.html">org.semanticweb.owlapi.model.OWLAnnotationObject</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html">org.semanticweb.owlapi.model.OWLAnnotationValue</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_assertion_object.html">org.semanticweb.owlapi.model.OWLPropertyAssertionObject</a>.</p>
+
+<p>Heredado por <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab091e1489434c5b1cfbf571d8f86cc16"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#ab091e1489434c5b1cfbf571d8f86cc16">isRDFPlainLiteral</a> ()</td></tr>
+<tr class="separator:ab091e1489434c5b1cfbf571d8f86cc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacb0fb488e81615e81b7ea08eed49e6e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aacb0fb488e81615e81b7ea08eed49e6e">getLiteral</a> ()</td></tr>
+<tr class="separator:aacb0fb488e81615e81b7ea08eed49e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2034a75313be951747d163dd68ca34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a1c2034a75313be951747d163dd68ca34">getDatatype</a> ()</td></tr>
+<tr class="separator:a1c2034a75313be951747d163dd68ca34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182e9cb2b7c3973b0a0dedb0fbf9a1fc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a182e9cb2b7c3973b0a0dedb0fbf9a1fc">hasLang</a> ()</td></tr>
+<tr class="separator:a182e9cb2b7c3973b0a0dedb0fbf9a1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d490ab587f33a3df2cdd466a83aab4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aa2d490ab587f33a3df2cdd466a83aab4">getLang</a> ()</td></tr>
+<tr class="separator:aa2d490ab587f33a3df2cdd466a83aab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a34848d48b433d3a7853e571ee05cb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a01a34848d48b433d3a7853e571ee05cb">hasLang</a> (String lang)</td></tr>
+<tr class="separator:a01a34848d48b433d3a7853e571ee05cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971010dd0c2d068dc515368119db1f36"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a971010dd0c2d068dc515368119db1f36">isInteger</a> ()</td></tr>
+<tr class="separator:a971010dd0c2d068dc515368119db1f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9588514afb25a6a03d55da1bc08effe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aa9588514afb25a6a03d55da1bc08effe">parseInteger</a> ()  throws NumberFormatException</td></tr>
+<tr class="separator:aa9588514afb25a6a03d55da1bc08effe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0e65e73ea57a08bd7a6b65c58e6309"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a3d0e65e73ea57a08bd7a6b65c58e6309">isBoolean</a> ()</td></tr>
+<tr class="separator:a3d0e65e73ea57a08bd7a6b65c58e6309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b562c13096f8a7dbd1866ea29a9c028"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a3b562c13096f8a7dbd1866ea29a9c028">parseBoolean</a> ()  throws NumberFormatException</td></tr>
+<tr class="separator:a3b562c13096f8a7dbd1866ea29a9c028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93d949188e001866b37a8b8b350b180"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aa93d949188e001866b37a8b8b350b180">isDouble</a> ()</td></tr>
+<tr class="separator:aa93d949188e001866b37a8b8b350b180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90b61be5c58737c91c49860a62d21fd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aa90b61be5c58737c91c49860a62d21fd">parseDouble</a> ()  throws NumberFormatException</td></tr>
+<tr class="separator:aa90b61be5c58737c91c49860a62d21fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8635d408673cb5d834f6a5be251e8d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#add8635d408673cb5d834f6a5be251e8d">isFloat</a> ()</td></tr>
+<tr class="separator:add8635d408673cb5d834f6a5be251e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3584fbe764abc400fc1c99c8852b5e9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#ae3584fbe764abc400fc1c99c8852b5e9">parseFloat</a> ()  throws NumberFormatException</td></tr>
+<tr class="separator:ae3584fbe764abc400fc1c99c8852b5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b198a40eea258c2fe29a27ee3b1a62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#a04b198a40eea258c2fe29a27ee3b1a62">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_visitor.html">OWLDataVisitor</a> visitor)</td></tr>
+<tr class="separator:a04b198a40eea258c2fe29a27ee3b1a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e36d3473c30c19b179eaa12e5d4347"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html#aa9e36d3473c30c19b179eaa12e5d4347">accept</a> (OWLDataVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa9e36d3473c30c19b179eaa12e5d4347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></td></tr>
+<tr class="memitem:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acb9cc88dda5fddf752aea39972e88582">getSignature</a> ()</td></tr>
+<tr class="separator:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aeb25a1500c84b42d5eca3ce94029815b">getAnonymousIndividuals</a> ()</td></tr>
+<tr class="separator:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acef2cee5936b52f888f1c9b5310ecf28">getClassesInSignature</a> ()</td></tr>
+<tr class="separator:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a63bdba262086d66ac82db881882acb7a">getDataPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa6016f7a4b9d773637cc7320bbcd518a">getObjectPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a469d86935b296905f4ec7089fb10f35f">getIndividualsInSignature</a> ()</td></tr>
+<tr class="separator:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0070f97659c74d4bcfb177e37c8fd427">getDatatypesInSignature</a> ()</td></tr>
+<tr class="separator:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a6b27084110880692de591ad7b32e105b">getNestedClassExpressions</a> ()</td></tr>
+<tr class="separator:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0995c39ce5b4410f688c474ce108c0aa">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa28e124b939675c9d697ee3e02714813">accept</a> (OWLObjectVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#ada1edca8f1932221e2d941a54aa83cdd">isTopEntity</a> ()</td></tr>
+<tr class="separator:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a4a72bc080b56071595b6247776e8502a">isBottomEntity</a> ()</td></tr>
+<tr class="separator:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html">org.semanticweb.owlapi.model.OWLAnnotationValue</a></td></tr>
+<tr class="memitem:aed6d84c82eb3ebfdd81589b964b046a6 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html#aed6d84c82eb3ebfdd81589b964b046a6">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor.html">OWLAnnotationValueVisitor</a> visitor)</td></tr>
+<tr class="separator:aed6d84c82eb3ebfdd81589b964b046a6 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa674c223100f53e3df1443b9aa31154c inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html#aa674c223100f53e3df1443b9aa31154c">accept</a> (OWLAnnotationValueVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa674c223100f53e3df1443b9aa31154c inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group Date: 24-Oct-2006 </p>
+<p>Represents a <a href="http://www.w3.org/TR/2009/REC-owl2-syntax-20091027/#Literals">Literal</a> in the OWL 2 Specification. </p>
+<p>Each literal consists of a lexical form, which is a string, and a datatype. A literal consisting of a lexical form <code>"abc"</code> and a datatype identified by the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <code>datatypeIRI</code> is written as <code>"abc"^^datatypeIRI</code>. </p>
+<p>Note that literals whose datatype is <code>rdf:PlainLiteral</code> can be abbreviated. For example, literals of the form <code>"abc@"^^rdf:PlainLiteral</code> can be abbreviated in the functional-style syntax, and other concrete syntaxes to "abc". Literals of the form "abc@langTag"^^rdf:PlainLiteral where "langTag" is not empty are abbreviated in functional-style syntax documents (and other concrete syntaxes) to "abc" whenever possible. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_literal_8java_source.html#l00057">57</a> del archivo <a class="el" href="_o_w_l_literal_8java_source.html">OWLLiteral.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a04b198a40eea258c2fe29a27ee3b1a62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLLiteral.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_visitor.html">OWLDataVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#aa7c8fc593f070b52c091790f2d301969">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#af65ee8b23f0ae86cd758e15968916fdd">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a24e513d913080412d6f4e68d5badd43f">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#aef7fc5ad1805ce98b3d462431a46ae67">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a6b8f73e91c07f601d287db6575d388c3">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#aeebd28cc774fa408d46b170f89e897d9">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9e36d3473c30c19b179eaa12e5d4347"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;O&gt; O org.semanticweb.owlapi.model.OWLLiteral.accept </td>
+          <td>(</td>
+          <td class="paramtype">OWLDataVisitorEx&lt; O &gt;&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c2034a75313be951747d163dd68ca34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.model.OWLLiteral.getDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a></code> which types this literal. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a></code> that types this literal. Note that for strings with language tag (previously considered to be untyped literals) the datatype will be rdf:PlainLiteral. The return value is never <code>null</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a49640a58a1cfb1d48f770d073f2ac2e6">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a1d4ee86f483ccb588082d8f7b66d403b">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a3539c0a6c54b627b1e14080d4c434605">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#ad6afe306389cd684430548383a0bc746">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a55c182a5b8b4852c94bad4208f754b9d">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a7fb21f8834c2cb90455c8005c7391493">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa2d490ab587f33a3df2cdd466a83aab4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.OWLLiteral.getLang </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the language tag of this literal. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The language tag of this literal. If the literal does not have a language tag, because it is not of the type <code>rdf:PlainLiteral</code>, or because its language tag is empty, then the empty string will be returned. (The <code>null</code> value is never returned). </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a94c4956544335bd91e6ab68774008263">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a09e34ee953c84db12da57decdf2f2377">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#afed3924cccc1c0922913be49980ade4b">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#ac998ad0d071ca1991da78e3b64cdef5c">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a45300b87762ef4156008ca725d1c7822">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a1fa6d8dc448361ab5720c9a5626cf813">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aacb0fb488e81615e81b7ea08eed49e6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.OWLLiteral.getLiteral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the lexical value of this literal. Note that if the datatype is <code>rdf:PlainLiteral</code> then the abbreviated lexical form will be returned. That is, the language tag is not included. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The lexical value of this literal. If the datatype is <code>rdf:PlainLiteral</code> then the return values are as follows: If the literal is of the form <code>"abc@"^^rdf:PlainLiteral</code> then the return value will be "abc" (without the language tag included). If the literal is of the form <code>"abc@langTag"^^rdf:PlainLiteral</code> then the return value will be "abc" (without the language tag included). </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a65fefc9cbc269c5bcc3638cd14923d6a">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#aa70e7636c1f20e67fc5ede6d018a2b3d">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a590346754447028b591537e24106f444">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a4d3e51f491e60b0602919422ee8dcacc">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a801c642f78c6784c9a9d347e734d595f">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a90c4e02cae6e717f066af6a9bf2ae0c2">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a182e9cb2b7c3973b0a0dedb0fbf9a1fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.hasLang </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this literal has a language tag. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal has a non-empty language tag, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#abe7f251b20e4c1d90d62cc2fb67f5a01">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#aa1b75a1d85365cb73e202826c5c06791">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#ae5bfba2e3888dafa16aa2834fc73ec12">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a9a2130d90d247324b17159ed0b2a3239">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#ad61643b34574e021bb6ef933730f402e">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a955d21dc3a1147845442ffe6636f5cf8">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a01a34848d48b433d3a7853e571ee05cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.hasLang </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lang</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a></code> has a particular language tag. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lang</td><td>The specific lang to test for. The tag will be normalised - white space will be trimmed from the end and it will be converted to lower case. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal has a language tag equal to <code>lang</code>, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#aea6028c6ea1d55320126290f2da96e45">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a49cddb0331bb0e50d3fe22de4761e5cf">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#ae4c2edb168c84b374b988f55fb19ab98">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a1092e4cb14f4e74a5d4dd163e0abcd72">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a0d7ee064a4c08ed4ff2bbc99217fea7c">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#ae14e1ec92edc7d9b0ac6c7b345751346">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d0e65e73ea57a08bd7a6b65c58e6309"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.isBoolean </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this literal is typed with a datatype that has an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that is <code>"http://www.w3.org/2001/XMLSchema#"boolean</code>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal is typed with <code>"http://www.w3.org/2001/XMLSchema#"boolean</code>, i.e. this literal represents a boolean, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#acf48d1fca3d14b2b8c2aecbdb28c13b5">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a967cce646ffe9abf75e95c0bffd5e049">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a80a096b52b6af11e2914f57925748bfb">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a46fd5c7c9fa593dec76d5f0ad6a1e904">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a22308208ee03e2f70d6d942d36278fb7">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a05689f4546d873bbbae4859a862e3653">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa93d949188e001866b37a8b8b350b180"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.isDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this literal is typed with a datatype that has an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that is <code>"http://www.w3.org/2001/XMLSchema#"double</code>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal is typed with <code>"http://www.w3.org/2001/XMLSchema#"double</code>, i.e. this literal represents a double, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#afde0b543fe99ac33e8bd00397add4ad6">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a25a1d1180aa94c28ad614bca4e8280c0">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a6e2b4bad54aa717d77a014beb7411bda">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#af5121cb43f710d9a65c4ca20a85fb9ed">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#ad7367158776a869c168e688f311ca871">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a8c90727aa40880d670adbc16fb8fdc8e">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add8635d408673cb5d834f6a5be251e8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.isFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this literal is typed with a datatype that has an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that is <code>"http://www.w3.org/2001/XMLSchema#"float</code>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal is typed with <code>"http://www.w3.org/2001/XMLSchema#"float</code>, i.e. this literal represents a float, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a3fbdd14979dea52a163a2547ec84bc63">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a20092586668e789d724da6cf65dea149">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a41fe2545d488d2fba782b824fadce5df">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a9121feddc6ea2058de4ed7f5f50e9e92">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#aa32cdd21da537043b6154804eae3b216">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a4f3c7f813743997dbe549d4580e5dd73">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a971010dd0c2d068dc515368119db1f36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.isInteger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this literal is typed with a datatype that has an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that is <code>"http://www.w3.org/2001/XMLSchema#"integer</code>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this literal is typed with <code>"http://www.w3.org/2001/XMLSchema#"integer</code>, i.e. this literal represents an integer, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a1a4f5d1116acd627f9da7ea73cc6fab9">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#ad842d9a6d86d80ccf7a03719f34fe3eb">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a26fc3b865c2685bb263d7ffb8135e793">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a5025bc6dfa7dbed6872ee9e073a398a8">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#ad9b5bbb799f42637fb0171cd2a123287">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a628ed5d722fe0977f7af4a6d806df5ad">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab091e1489434c5b1cfbf571d8f86cc16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.isRDFPlainLiteral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if the datatype of this literal is <code>rdf:PlainLiteral</code>. Note that literals that are abbreviated in the functional syntax (and other concrete syntaxes) and are of the form <code>"abc"</code> or <code>"abc"</code> will be of the type <code>rdf:PlainLiteral</code> after parsing. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the datatype of this literal is rdf:PlainLiteral, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#acbda62d9f1c890c684ac3f44fb56fa74">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#abe1ce6cd2356d575926ad3e6ad8447f2">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#ae919cbe35413ee1003e36b384ea427c5">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a819245d84c740e1b59636ff9c7c8a989">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a715cbeaf2e9285efdeae966a4d1509d2">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#ad0f663b700744bfa3054b5f9dfa8d483">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3b562c13096f8a7dbd1866ea29a9c028"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLLiteral.parseBoolean </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws NumberFormatException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parses the lexical value of this literal into a boolean. The lexical value of this literal should be in the lexical space of the boolean datatype (<code>"http://www.w3.org/2001/XMLSchema#"boolean</code>). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A boolean value that is represented by this literal. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NumberFormatException</td><td>if the lexical form could not be parsed into a boolean because it is not in the lexical space of the boolean datatype. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a5a2765705aafe74765c47a76a1361155">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#ad86b3ebb0fd24a41d40897945238e069">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#ab8a07721598045e476001b72f4dce98e">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a08c45c8de60a7ac35a78d44f44c11f7c">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a0b978f49a0251886a3a8bbaaa9a79f9b">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a83c0efa0d4566c1b5437bf23a8fe8cae">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa90b61be5c58737c91c49860a62d21fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.semanticweb.owlapi.model.OWLLiteral.parseDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws NumberFormatException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parses the lexical value of this literal into a double. The lexical value of this literal should be in the lexical space of the double datatype (<code>"http://www.w3.org/2001/XMLSchema#"double</code>). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A double value that is represented by this literal. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NumberFormatException</td><td>if the lexical form could not be parsed into a double because it is not in the lexical space of the double datatype. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#aee3bb27c213e7fb261725a83686349b7">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#ac120fc0e46af4569dfa4d14ee2ef3a22">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#ae8a18a2aa2e2cc0de4d96df607f3ff17">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a84bfb8a09e4d6bbee0d29b4d0c705675">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#afd8d82da7615259756c11d11bf485f7f">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a96eb6fd12867d3615bbff22904dfbb4b">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3584fbe764abc400fc1c99c8852b5e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float org.semanticweb.owlapi.model.OWLLiteral.parseFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws NumberFormatException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parses the lexical value of this literal into a float. The lexical value of this literal should be in the lexical space of the float datatype (<code>"http://www.w3.org/2001/XMLSchema#"float</code>). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A float value that is represented by this literal. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NumberFormatException</td><td>if the lexical form could not be parsed into a float because it is not in the lexical space of the float datatype. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a6d4cc9059c5cb5e1e27409c136404d82">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#afdb80e5985182a81e5b6f8bd7ee5d9eb">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#a98d226538c9fdf371e3acd25391d15f3">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#a442a4214a1b7e1a4d72fce316d9f97c8">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#a5e6b60d7048bb1922734d17bd03b16fc">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#ac0c1c57e97fc084f592b35ccc4bb1244">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9588514afb25a6a03d55da1bc08effe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.model.OWLLiteral.parseInteger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws NumberFormatException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parses the lexical value of this literal into an integer. The lexical value of this literal should be in the lexical space of the integer datatype (<code>"http://www.w3.org/2001/XMLSchema#"integer</code>) </p>
+<dl class="section return"><dt>Devuelve</dt><dd>An integer value that is represented by this literal. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NumberFormatException</td><td>if the lexical form could not be parsed into an integer because it is not in the lexical space of the integer datatype. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl.html#a3f5f8512e171738d6966d6fca1d8285a">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_no_compression.html#a5cfd9c8500615e677554135c856123b9">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplNoCompression</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_boolean.html#af783a6005225e447e1c5b0b13181201b">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplBoolean</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_double.html#ae686de9bb9c4e782eb3236b72aa59648">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplDouble</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_float.html#ae14d637e8d90f158ac9a7aef8584def4">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplFloat</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_literal_impl_integer.html#a4361afc596a12c0984276bdebb91c32a">uk.ac.manchester.cs.owl.owlapi.OWLLiteralImplInteger</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_literal_8java_source.html">OWLLiteral.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:23 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

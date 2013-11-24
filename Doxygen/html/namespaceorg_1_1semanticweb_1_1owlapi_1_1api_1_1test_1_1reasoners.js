@@ -1,0 +1,5 @@
+var namespaceorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners =
+[
+    [ "StructuralReasonerRecursionTestCase", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_recursion_test_case.html", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_recursion_test_case" ],
+    [ "StructuralReasonerTestCase", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_test_case.html", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_test_case" ]
+];

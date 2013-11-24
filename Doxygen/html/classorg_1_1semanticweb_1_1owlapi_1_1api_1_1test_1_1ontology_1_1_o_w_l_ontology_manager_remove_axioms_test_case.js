@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_o_w_l_ontology_manager_remove_axioms_test_case =
+[
+    [ "testRemove", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_o_w_l_ontology_manager_remove_axioms_test_case.html#a6e2ca70ceecfaa77c3ca3447fa742927", null ]
+];

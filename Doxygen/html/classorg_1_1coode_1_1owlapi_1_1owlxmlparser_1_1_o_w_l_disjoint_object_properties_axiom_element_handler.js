@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_disjoint_object_properties_axiom_element_handler =
+[
+    [ "OWLDisjointObjectPropertiesAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_disjoint_object_properties_axiom_element_handler.html#ab4445b1ddfff088cb1abff61037eaf77", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_disjoint_object_properties_axiom_element_handler.html#a886331496e12e65f1d367a4df4461712", null ]
+];

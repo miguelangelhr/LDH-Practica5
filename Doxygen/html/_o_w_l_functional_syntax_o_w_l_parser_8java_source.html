@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente parsers/src/main/java/org/coode/owlapi/functionalparser/OWLFunctionalSyntaxOWLParser.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_o_w_l_functional_syntax_o_w_l_parser_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">OWLFunctionalSyntaxOWLParser.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_o_w_l_functional_syntax_o_w_l_parser_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">package </span>org.coode.owlapi.functionalparser;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.io.IOException;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.io.InputStream;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.io.Reader;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser.html">org.semanticweb.owlapi.io.AbstractOWLParser</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">org.semanticweb.owlapi.io.OWLParserException</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_exception.html">org.semanticweb.owlapi.model.OWLOntologyChangeException</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">org.semanticweb.owlapi.model.OWLOntologyFormat</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unloadable_import_exception.html">org.semanticweb.owlapi.model.UnloadableImportException</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html">   62</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html">OWLFunctionalSyntaxOWLParser</a> <span class="keyword">extends</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser.html">AbstractOWLParser</a> {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    @Override</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a954972fee0efd0775cc7dcdb98376f8a">   65</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a954972fee0efd0775cc7dcdb98376f8a">parse</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html">OWLOntologyDocumentSource</a> documentSource, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology) <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a>, IOException, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unloadable_import_exception.html">UnloadableImportException</a> {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a954972fee0efd0775cc7dcdb98376f8a">parse</a>(documentSource, ontology, <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>());</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    @Override</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a94dd34895ca7ac191b9feabed1d09449">   70</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a94dd34895ca7ac191b9feabed1d09449">parse</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html">OWLOntologyDocumentSource</a> documentSource, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> configuration) <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a>, IOException, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_exception.html">OWLOntologyChangeException</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unloadable_import_exception.html">UnloadableImportException</a> {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        Reader reader = null;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        InputStream is = null;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a> parser;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">if</span>(documentSource.isReaderAvailable()) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                reader = documentSource.getReader();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                parser = <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a>(reader);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(documentSource.isInputStreamAvailable()) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                is = documentSource.getInputStream();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                parser = <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a>(is);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                is = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser.html#aa52fae21fb5647e56dde26cfff49d7dc">getInputStream</a>(documentSource.getDocumentIRI(), configuration);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                parser = <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a>(is);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            parser.setUp(ontology, configuration);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">return</span> parser.parse();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">catch</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_parse_exception.html">ParseException</a> e) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a>(e.getMessage(), e, e.currentToken.beginLine,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    e.currentToken.beginColumn);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        } <span class="keywordflow">finally</span> {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">if</span> (is != null) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                is.close();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (reader != null) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                reader.close();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">org.semanticweb.owlapi.model.OWLOntologyFormat</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_format_8java_source.html#l00061">OWLOntologyFormat.java:61</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser_html_a94dd34895ca7ac191b9feabed1d09449"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a94dd34895ca7ac191b9feabed1d09449">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxOWLParser.parse</a></div><div class="ttdeci">OWLOntologyFormat parse(OWLOntologyDocumentSource documentSource, OWLOntology ontology, OWLOntologyLoaderConfiguration configuration)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_o_w_l_parser_8java_source.html#l00070">OWLFunctionalSyntaxOWLParser.java:70</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser_html_aa52fae21fb5647e56dde26cfff49d7dc"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser.html#aa52fae21fb5647e56dde26cfff49d7dc">org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream</a></div><div class="ttdeci">InputStream getInputStream(IRI documentIRI, OWLOntologyLoaderConfiguration config)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_parser_8java_source.html#l00116">AbstractOWLParser.java:116</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00062">OWLOntologyLoaderConfiguration.java:62</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser_html"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxOWLParser</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_o_w_l_parser_8java_source.html#l00062">OWLFunctionalSyntaxOWLParser.java:62</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_parse_exception_html"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_parse_exception.html">org.coode.owlapi.functionalparser.ParseException</a></div><div class="ttdef"><b>Definition:</b> <a href="org_2coode_2owlapi_2functionalparser_2_parse_exception_8java_source.html#l00015">ParseException.java:15</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_html"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParser</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_8java_source.html#l00077">OWLFunctionalSyntaxParser.java:77</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unloadable_import_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unloadable_import_exception.html">org.semanticweb.owlapi.model.UnloadableImportException</a></div><div class="ttdef"><b>Definition:</b> <a href="_unloadable_import_exception_8java_source.html#l00049">UnloadableImportException.java:49</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser_html_a954972fee0efd0775cc7dcdb98376f8a"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_o_w_l_parser.html#a954972fee0efd0775cc7dcdb98376f8a">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxOWLParser.parse</a></div><div class="ttdeci">OWLOntologyFormat parse(OWLOntologyDocumentSource documentSource, OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_o_w_l_parser_8java_source.html#l00065">OWLFunctionalSyntaxOWLParser.java:65</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_abstract_o_w_l_parser.html">org.semanticweb.owlapi.io.AbstractOWLParser</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_parser_8java_source.html#l00073">AbstractOWLParser.java:73</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_document_source_8java_source.html#l00068">OWLOntologyDocumentSource.java:68</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_exception.html">org.semanticweb.owlapi.model.OWLOntologyChangeException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_change_exception_8java_source.html#l00050">OWLOntologyChangeException.java:50</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">org.semanticweb.owlapi.io.OWLParserException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_parser_exception_8java_source.html#l00053">OWLParserException.java:53</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a5a40681709ed751decc24cd7289c9c5.html">parsers</a></li><li class="navelem"><a class="el" href="dir_519767d89cf959fdff3ccb9e3bd8b08c.html">src</a></li><li class="navelem"><a class="el" href="dir_be0f351148fa3293a5edbe097e7034b2.html">main</a></li><li class="navelem"><a class="el" href="dir_f2ba2c7b2bfa8619ae625da8113a7f79.html">java</a></li><li class="navelem"><a class="el" href="dir_a12f9943e65f5e1dab534201522548bc.html">org</a></li><li class="navelem"><a class="el" href="dir_7a396f7ac5ff5e005b71267358e83755.html">coode</a></li><li class="navelem"><a class="el" href="dir_f89b19e7220a3faab59aceefc41ddcad.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_7dbc10363ca00d9ca2ea6510cea88dca.html">functionalparser</a></li><li class="navelem"><a class="el" href="_o_w_l_functional_syntax_o_w_l_parser_8java.html">OWLFunctionalSyntaxOWLParser.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:12 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

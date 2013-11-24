@@ -1,0 +1,4 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_ontology_parser_factory =
+[
+    [ "createParser", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_ontology_parser_factory.html#a08bebf5911b8495e55b6c1b4ecedf853", null ]
+];

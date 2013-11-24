@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">org.semanticweb.owlapi.model.OWLDatatypeRestriction</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ac043b57fc2168f5ed04e2410933e1505"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ac043b57fc2168f5ed04e2410933e1505">OWLDatatypeRestrictionImpl</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatype, Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> &gt; facetRestrictions)</td></tr>
+<tr class="separator:ac043b57fc2168f5ed04e2410933e1505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19913a9a9b593fd5a9c6c1a2a411457e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_data_range_type.html">DataRangeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a19913a9a9b593fd5a9c6c1a2a411457e">getDataRangeType</a> ()</td></tr>
+<tr class="separator:a19913a9a9b593fd5a9c6c1a2a411457e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02274245489be290fa22e1673d462484"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a02274245489be290fa22e1673d462484">isDatatype</a> ()</td></tr>
+<tr class="separator:a02274245489be290fa22e1673d462484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac591115314a95911c6f24d634a54305a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ac591115314a95911c6f24d634a54305a">isTopDatatype</a> ()</td></tr>
+<tr class="separator:ac591115314a95911c6f24d634a54305a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d002378bd0579a320bf1f1fc3f59c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a62d002378bd0579a320bf1f1fc3f59c5">asOWLDatatype</a> ()</td></tr>
+<tr class="separator:a62d002378bd0579a320bf1f1fc3f59c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760a7cf20a1f1d36cf3464d1a8548b26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a760a7cf20a1f1d36cf3464d1a8548b26">getDatatype</a> ()</td></tr>
+<tr class="separator:a760a7cf20a1f1d36cf3464d1a8548b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ea94dcc810f1069c04f2cac0768103"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a13ea94dcc810f1069c04f2cac0768103">getFacetRestrictions</a> ()</td></tr>
+<tr class="separator:a13ea94dcc810f1069c04f2cac0768103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace44ff72dccd616f931b9f7fff99f7b5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ace44ff72dccd616f931b9f7fff99f7b5">equals</a> (Object obj)</td></tr>
+<tr class="separator:ace44ff72dccd616f931b9f7fff99f7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7f359fb5453547301aee98f89286b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#aff7f359fb5453547301aee98f89286b2">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_visitor.html">OWLDataVisitor</a> visitor)</td></tr>
+<tr class="separator:aff7f359fb5453547301aee98f89286b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60791e47b78fcc0505923c6882c5c068"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a60791e47b78fcc0505923c6882c5c068">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:a60791e47b78fcc0505923c6882c5c068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5804f86dcb142a2ffa11c6c772f7d4b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#a5804f86dcb142a2ffa11c6c772f7d4b5">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range_visitor.html">OWLDataRangeVisitor</a> visitor)</td></tr>
+<tr class="separator:a5804f86dcb142a2ffa11c6c772f7d4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:adb32e4f033cf4062d7d9cb72f18c4ae1 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#adb32e4f033cf4062d7d9cb72f18c4ae1">OWLObjectImpl</a> ()</td></tr>
+<tr class="separator:adb32e4f033cf4062d7d9cb72f18c4ae1 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f510778e0d7a8bae2b6e5b7b8934654 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a3f510778e0d7a8bae2b6e5b7b8934654">getSignature</a> ()</td></tr>
+<tr class="separator:a3f510778e0d7a8bae2b6e5b7b8934654 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c25608f7bfddf821c860b3f862479e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a14c25608f7bfddf821c860b3f862479e">getAnonymousIndividuals</a> ()</td></tr>
+<tr class="separator:a14c25608f7bfddf821c860b3f862479e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb866bd30aefe55594f38cc228926bc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a1eb866bd30aefe55594f38cc228926bc">getClassesInSignature</a> ()</td></tr>
+<tr class="separator:a1eb866bd30aefe55594f38cc228926bc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c426c1f4cc140b3afaf02870d80c40 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#ad9c426c1f4cc140b3afaf02870d80c40">getDataPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:ad9c426c1f4cc140b3afaf02870d80c40 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cb9b8a630c8c2eb8759264d0baafce inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#ac0cb9b8a630c8c2eb8759264d0baafce">getObjectPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:ac0cb9b8a630c8c2eb8759264d0baafce inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162ee8fd6eeee784c409361a2340e926 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a162ee8fd6eeee784c409361a2340e926">getIndividualsInSignature</a> ()</td></tr>
+<tr class="separator:a162ee8fd6eeee784c409361a2340e926 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526ea786aa3cd41724490b2db111e81b inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a526ea786aa3cd41724490b2db111e81b">getDatatypesInSignature</a> ()</td></tr>
+<tr class="separator:a526ea786aa3cd41724490b2db111e81b inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cba687657bb45d601dcbb24efbc0a06 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a9cba687657bb45d601dcbb24efbc0a06">getNestedClassExpressions</a> ()</td></tr>
+<tr class="separator:a9cba687657bb45d601dcbb24efbc0a06 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008d38cc12efd679c0b00cfe35a58299 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a008d38cc12efd679c0b00cfe35a58299">equals</a> (Object obj)</td></tr>
+<tr class="separator:a008d38cc12efd679c0b00cfe35a58299 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec58d7a4cd2c2d8e141f6441c1332dc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aeec58d7a4cd2c2d8e141f6441c1332dc">hashCode</a> ()</td></tr>
+<tr class="separator:aeec58d7a4cd2c2d8e141f6441c1332dc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2beadf5a65379e393d1e5f4876d715 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a2e2beadf5a65379e393d1e5f4876d715">compareTo</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> o)</td></tr>
+<tr class="separator:a2e2beadf5a65379e393d1e5f4876d715 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130f1c36a06d5f934d746282f95d1a1e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a130f1c36a06d5f934d746282f95d1a1e">toString</a> ()</td></tr>
+<tr class="separator:a130f1c36a06d5f934d746282f95d1a1e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a36e4ff1e72e64295cbc4ae2632f043 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a5a36e4ff1e72e64295cbc4ae2632f043">isTopEntity</a> ()</td></tr>
+<tr class="separator:a5a36e4ff1e72e64295cbc4ae2632f043 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70e6fd4799bcfe552204a6a0f7a80f7 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#af70e6fd4799bcfe552204a6a0f7a80f7">isBottomEntity</a> ()</td></tr>
+<tr class="separator:af70e6fd4799bcfe552204a6a0f7a80f7 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></td></tr>
+<tr class="memitem:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa28e124b939675c9d697ee3e02714813">accept</a> (OWLObjectVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">org.semanticweb.owlapi.model.OWLDataRange</a></td></tr>
+<tr class="memitem:ad71972d3e5c7deae943e59580b83f5aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#ad71972d3e5c7deae943e59580b83f5aa">accept</a> (OWLDataVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:ad71972d3e5c7deae943e59580b83f5aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83ef2431f8f7b7a83cc274e98954bec inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#ac83ef2431f8f7b7a83cc274e98954bec">accept</a> (OWLDataRangeVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:ac83ef2431f8f7b7a83cc274e98954bec inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:aee1e3dbbbae6529bf34b1d107f8e3803"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#aee1e3dbbbae6529bf34b1d107f8e3803">compareObjectOfSameType</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> object)</td></tr>
+<tr class="separator:aee1e3dbbbae6529bf34b1d107f8e3803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos estáticos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:a878891bffe37236e57c59c150b5105d6 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a878891bffe37236e57c59c150b5105d6">compareSets</a> (Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; set1, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; set2)</td></tr>
+<tr class="separator:a878891bffe37236e57c59c150b5105d6 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43065ac9696c2f0eb3661205814a8890 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a43065ac9696c2f0eb3661205814a8890">compareLists</a> (List&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; list1, List&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; list2)</td></tr>
+<tr class="separator:a43065ac9696c2f0eb3661205814a8890 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos estáticos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:a2f3c594034e603531641652d54693fc9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static final Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a2f3c594034e603531641652d54693fc9">NO_ANNOTATIONS</a></td></tr>
+<tr class="separator:a2f3c594034e603531641652d54693fc9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa113a934abbbaff56f746f1275d635a9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aa113a934abbbaff56f746f1275d635a9">OWL_THING</a></td></tr>
+<tr class="separator:aa113a934abbbaff56f746f1275d635a9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 26-Oct-2006<br/>
+ <br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00063">63</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ac043b57fc2168f5ed04e2410933e1505"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.OWLDatatypeRestrictionImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>datatype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> &gt;&#160;</td>
+          <td class="paramname"><em>facetRestrictions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00070">70</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                        {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        super();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        this.datatype = datatype;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        this.facetRestrictions = <span class="keyword">new</span> HashSet&lt;OWLFacetRestriction&gt;(facetRestrictions);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aff7f359fb5453547301aee98f89286b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_visitor.html">OWLDataVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#a7ecc1e6c69e17c223f573548ff6970ad">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00122">122</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                               {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a60791e47b78fcc0505923c6882c5c068"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0995c39ce5b4410f688c474ce108c0aa">org.semanticweb.owlapi.model.OWLObject</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00127">127</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                                 {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5804f86dcb142a2ffa11c6c772f7d4b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range_visitor.html">OWLDataRangeVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#aa7c461e477b19ee5ee401ce257de08eb">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00142">142</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                    {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a62d002378bd0579a320bf1f1fc3f59c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.asOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this data range is a datatype then this method may be used to obtain it as a datatype (rather than using an explicit cast). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>This data range as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">org.semanticweb.owlapi.model.OWLDatatype</a> </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#af198d427cacd722a6d742cf9aab0f95b">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00093">93</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                       {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(<span class="stringliteral">&quot;Not a data type!&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aee1e3dbbbae6529bf34b1d107f8e3803"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.compareObjectOfSameType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a>&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aed94406b56e0bfe19df00a66c05e4b7e">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00152">152</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                            {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        OWLDatatypeRestriction other = (OWLDatatypeRestriction) <span class="keywordtype">object</span>;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordtype">int</span> diff = datatype.compareTo(other.getDatatype());</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">if</span> (diff != 0) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">return</span> diff;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a878891bffe37236e57c59c150b5105d6">compareSets</a>(facetRestrictions, other.getFacetRestrictions());</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl_html_a878891bffe37236e57c59c150b5105d6"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a878891bffe37236e57c59c150b5105d6">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl.compareSets</a></div><div class="ttdeci">static int compareSets(Set&lt;?extends OWLObject &gt; set1, Set&lt;?extends OWLObject &gt; set2)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_impl_8java_source.html#l00251">OWLObjectImpl.java:251</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace44ff72dccd616f931b9f7fff99f7b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00109">109</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                      {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">if</span> (super.equals(obj)) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordflow">if</span> (!(obj instanceof OWLDatatypeRestriction)) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            OWLDatatypeRestriction other = (OWLDatatypeRestriction) obj;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">return</span> other.getDatatype().<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ace44ff72dccd616f931b9f7fff99f7b5">equals</a>(datatype)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                    &amp;&amp; other.getFacetRestrictions().<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ace44ff72dccd616f931b9f7fff99f7b5">equals</a>(facetRestrictions);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl_html_ace44ff72dccd616f931b9f7fff99f7b5"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html#ace44ff72dccd616f931b9f7fff99f7b5">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.equals</a></div><div class="ttdeci">boolean equals(Object obj)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_datatype_restriction_impl_8java_source.html#l00109">OWLDatatypeRestrictionImpl.java:109</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a19913a9a9b593fd5a9c6c1a2a411457e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_data_range_type.html">DataRangeType</a> uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.getDataRangeType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the type of this data range </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The data range type </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#abaf13feb459a14cb55f9749191380b90">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00078">78</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                            {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_data_range_type.html#aa9614034d148b7d08277642c01bcefc5">DataRangeType.DATATYPE_RESTRICTION</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_data_range_type_html_aa9614034d148b7d08277642c01bcefc5"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_data_range_type.html#aa9614034d148b7d08277642c01bcefc5">org.semanticweb.owlapi.model.DataRangeType.DATATYPE_RESTRICTION</a></div><div class="ttdeci">DATATYPE_RESTRICTION</div><div class="ttdef"><b>Definition:</b> <a href="_data_range_type_8java_source.html#l00066">DataRangeType.java:66</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a760a7cf20a1f1d36cf3464d1a8548b26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.getDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the data range that this data range restricts.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>The datatype that is restricted </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html#a41af7508d855c0e3da66a81a4349cf22">org.semanticweb.owlapi.model.OWLDatatypeRestriction</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00098">98</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                     {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> datatype;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a13ea94dcc810f1069c04f2cac0768103"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a>&gt; uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.getFacetRestrictions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the facet restrictions on this data range</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A <code>Set</code> of facet restrictions that apply to this data range </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html#a13e76f3c76ea9c358c7689bda2a22f71">org.semanticweb.owlapi.model.OWLDatatypeRestriction</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00103">103</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                           {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> CollectionFactory</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                .getCopyOnRequestSetFromImmutableCollection(facetRestrictions);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a02274245489be290fa22e1673d462484"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.isDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this data range is a datatype (int, float, ...)</p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this datarange is a datatype, or <code>false</code> if it is not a datatype and is some other data range such as a data range restriction, data oneOf or data complementOf. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#aa4d41bc7c43efc499f086b6e0f90b1e0">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00083">83</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac591115314a95911c6f24d634a54305a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.OWLDatatypeRestrictionImpl.isTopDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this data range is the top data type.</p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this data range is the top datatype otherwise <code>false</code> </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html#aec7bb1cb42b7d8783e0410112734aa1c">org.semanticweb.owlapi.model.OWLDataRange</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html#l00088">88</a> del archivo <a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                   {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/<a class="el" href="_o_w_l_datatype_restriction_impl_8java_source.html">OWLDatatypeRestrictionImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceuk.html">uk</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester.html">manchester</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl.html">owl</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_restriction_impl.html">OWLDatatypeRestrictionImpl</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:46 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

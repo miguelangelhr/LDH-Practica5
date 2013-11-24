@@ -1,0 +1,6 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_ontology_storer =
+[
+    [ "canStoreOntology", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_ontology_storer.html#a759a9b25c95d2cda72cfc9cadd74c499", null ],
+    [ "storeOntology", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_ontology_storer.html#a07a1c9801eedd8078391c2ea80187f35", null ],
+    [ "storeOntology", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_ontology_storer.html#ae9904921c00040d573a8a4361e1ec84f", null ]
+];

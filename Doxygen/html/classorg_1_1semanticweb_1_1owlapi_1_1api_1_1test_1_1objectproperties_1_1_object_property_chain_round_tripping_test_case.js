@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_object_property_chain_round_tripping_test_case =
+[
+    [ "createOntology", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_object_property_chain_round_tripping_test_case.html#a50af1e3d7f642141bb79a3e35d98a7ec", null ]
+];

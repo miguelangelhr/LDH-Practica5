@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_restriction_element_handler_3_01_f_01extends_01_o_w_l_object_01_4 =
+[
+    [ "AbstractDataRestrictionElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_restriction_element_handler_3_01_f_01extends_01_o_w_l_object_01_4.html#ad750361abfb2e90326847d9baef4fee4", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_restriction_element_handler_3_01_f_01extends_01_o_w_l_object_01_4.html#ad6c93697dca654b8325fb17d5da8053a", null ]
+];

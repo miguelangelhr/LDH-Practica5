@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_unary_atom_3_01_a_01extends_01_s_w_r_l_argument_01_4 =
+[
+    [ "getArgument", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_unary_atom_3_01_a_01extends_01_s_w_r_l_argument_01_4.html#abdf79dbf968df8046d77d2ffff31e589", null ]
+];

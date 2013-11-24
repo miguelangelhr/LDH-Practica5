@@ -1,0 +1,27 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl =
+[
+    [ "asOWLClass", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a1ee44ddbc6761065b83744187fbf9b0e", null ],
+    [ "asOWLDataProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#acdf66d9583965f7174b3a2bb1e98f62b", null ],
+    [ "asOWLDatatype", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a6538cd8315a00f1eac593f666299b974", null ],
+    [ "asOWLObjectProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a07042feb6565628f56f8f6616150b3f8", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#ac62204dd6b8af2206ae78fdb2b937b80", null ],
+    [ "getDataPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#aec15137149bf216fc120e092975d6a55", null ],
+    [ "getDataPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a70df735195443fd67b9d642dba39e114", null ],
+    [ "getDifferentIndividuals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a32d73db7829b02d5b87e60026e6e43d7", null ],
+    [ "getNegativeDataPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a4d1d7fb667ebb97871aee001229f1d71", null ],
+    [ "getNegativeObjectPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#aed78c548a414ada009d2682cf9f8a178", null ],
+    [ "getObjectPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a40b3d0583676c6b39e6d19abd10a85b1", null ],
+    [ "getObjectPropertyValues", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a2d6ec2b620f4a191826bd59ab740739a", null ],
+    [ "getSameIndividuals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#ac81256ad74305042ac9d6056410096b9", null ],
+    [ "getTypes", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a9e3089cd7509ec0ea035456ec937659e", null ],
+    [ "getTypes", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#aba4a822efef7dda913310a65d625bb92", null ],
+    [ "hasDataPropertyValue", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a1ad0731786fb863802c3fac7758409ec", null ],
+    [ "hasNegativeDataPropertyValue", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#aa9348db30b695a4639acb955e833d4f3", null ],
+    [ "hasNegativeObjectPropertyValue", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a7a46e5f7e720dcd77a6b7e41b7102aea", null ],
+    [ "hasObjectPropertyValue", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a08a2920896f32803626b5199139bb5b8", null ],
+    [ "isBuiltIn", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a8b01543b82831df2f9e245eb149255e7", null ],
+    [ "isOWLClass", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a4b50fcde2469ffcbec0f5547239362e0", null ],
+    [ "isOWLDataProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a9c2155e7fbbc2bc602529aac2dad3d5d", null ],
+    [ "isOWLDatatype", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#ae60b1501514c3e094a80092dae0589f7", null ],
+    [ "isOWLObjectProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_impl.html#a85dbd9a24922f02f097b65cb31705c67", null ]
+];

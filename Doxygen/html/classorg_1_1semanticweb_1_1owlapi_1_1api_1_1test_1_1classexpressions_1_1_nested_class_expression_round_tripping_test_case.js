@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_nested_class_expression_round_tripping_test_case =
+[
+    [ "createOntology", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_nested_class_expression_round_tripping_test_case.html#ad3ee92d5bb507e6e0f64343edc231a06", null ]
+];

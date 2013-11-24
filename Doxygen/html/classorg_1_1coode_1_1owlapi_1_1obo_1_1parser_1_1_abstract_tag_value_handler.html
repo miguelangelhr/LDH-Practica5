@@ -1,0 +1,743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.obo.parser.AbstractTagValueHandler</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.obo.parser.AbstractTagValueHandler</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler.html">org.coode.owlapi.obo.parser.TagValueHandler</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_alt_id_tag_value_handler.html">org.coode.owlapi.obo.parser.AltIdTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_asymmetric_handler.html">org.coode.owlapi.obo.parser.AsymmetricHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_data_version_tag_value_handler.html">org.coode.owlapi.obo.parser.DataVersionTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_default_namespace_tag_value_handler.html">org.coode.owlapi.obo.parser.DefaultNamespaceTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_def_tag_value_handler.html">org.coode.owlapi.obo.parser.DefTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_disjoint_from_handler.html">org.coode.owlapi.obo.parser.DisjointFromHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_domain_handler.html">org.coode.owlapi.obo.parser.DomainHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_i_d_space_tag_value_handler.html">org.coode.owlapi.obo.parser.IDSpaceTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_i_d_tag_value_handler.html">org.coode.owlapi.obo.parser.IDTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_intersection_of_handler.html">org.coode.owlapi.obo.parser.IntersectionOfHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_inverse_handler.html">org.coode.owlapi.obo.parser.InverseHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_is_a_tag_value_handler.html">org.coode.owlapi.obo.parser.IsATagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_is_obsolete_tag_value_handler.html">org.coode.owlapi.obo.parser.IsObsoleteTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_name_tag_value_handler.html">org.coode.owlapi.obo.parser.NameTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_ontology_tag_value_handler.html">org.coode.owlapi.obo.parser.OntologyTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_part_of_tag_value_handler.html">org.coode.owlapi.obo.parser.PartOfTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_reflexive_handler.html">org.coode.owlapi.obo.parser.ReflexiveHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_relationship_tag_value_handler.html">org.coode.owlapi.obo.parser.RelationshipTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_symmetric_tag_value_handler.html">org.coode.owlapi.obo.parser.SymmetricTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_synonym_tag_value_handler.html">org.coode.owlapi.obo.parser.SynonymTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_synonym_type_def_tag_handler.html">org.coode.owlapi.obo.parser.SynonymTypeDefTagHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_transitive_over_handler.html">org.coode.owlapi.obo.parser.TransitiveOverHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_transitive_tag_value_handler.html">org.coode.owlapi.obo.parser.TransitiveTagValueHandler</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_union_of_handler.html">org.coode.owlapi.obo.parser.UnionOfHandler</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_x_ref_tag_handler.html">org.coode.owlapi.obo.parser.XRefTagHandler</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a971356f8149aecca17ee77d679906339"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a971356f8149aecca17ee77d679906339">AbstractTagValueHandler</a> (String tag, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html">OBOConsumer</a> consumer)</td></tr>
+<tr class="separator:a971356f8149aecca17ee77d679906339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2cb02762280ec948aecd850f13b91d5"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ab2cb02762280ec948aecd850f13b91d5">getTagName</a> ()</td></tr>
+<tr class="separator:ab2cb02762280ec948aecd850f13b91d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e92dffd47ba018c73d0c30d183ac135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a3e92dffd47ba018c73d0c30d183ac135">getOWLOntologyManager</a> ()</td></tr>
+<tr class="separator:a3e92dffd47ba018c73d0c30d183ac135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4149bb55e725e144d4035306a803905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ae4149bb55e725e144d4035306a803905">getOntology</a> ()</td></tr>
+<tr class="separator:ae4149bb55e725e144d4035306a803905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd13c61ea23ba4e2d993aab0cd1210c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a5dd13c61ea23ba4e2d993aab0cd1210c">applyChange</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> change)</td></tr>
+<tr class="separator:a5dd13c61ea23ba4e2d993aab0cd1210c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d52adab59dd3209175eab687fc03cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html">OBOConsumer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a49d52adab59dd3209175eab687fc03cf">getConsumer</a> ()</td></tr>
+<tr class="separator:a49d52adab59dd3209175eab687fc03cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e4e5572eac6f9dbd0c440864514d44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a> ()</td></tr>
+<tr class="separator:ad8e4e5572eac6f9dbd0c440864514d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745fab6a605c4307f7eaa84ac2ee05c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a745fab6a605c4307f7eaa84ac2ee05c7">getTagIRI</a> (<a class="el" href="enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_vocabulary.html">OBOVocabulary</a> vocabulary)</td></tr>
+<tr class="separator:a745fab6a605c4307f7eaa84ac2ee05c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562122aa74e80fd4fea4e795fafc7e48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a562122aa74e80fd4fea4e795fafc7e48">getTagIRI</a> (String tagName)</td></tr>
+<tr class="separator:a562122aa74e80fd4fea4e795fafc7e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440e4b9582c945d1cc4bb28c34cc5f9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a> (String id)</td></tr>
+<tr class="separator:a440e4b9582c945d1cc4bb28c34cc5f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e94c76f1958df4cdbaca0ef6d9f1ac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a4e94c76f1958df4cdbaca0ef6d9f1ac4">getAnnotationForTagValuePair</a> (String tagName, String value)</td></tr>
+<tr class="separator:a4e94c76f1958df4cdbaca0ef6d9f1ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85100c5f7d03a55a237af903bcc49d09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a85100c5f7d03a55a237af903bcc49d09">getClassFromId</a> (String s)</td></tr>
+<tr class="separator:a85100c5f7d03a55a237af903bcc49d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5f87562ea10cdfb30bd7124ecbde82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad5f87562ea10cdfb30bd7124ecbde82a">getCurrentClass</a> ()</td></tr>
+<tr class="separator:ad5f87562ea10cdfb30bd7124ecbde82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler.html">org.coode.owlapi.obo.parser.TagValueHandler</a></td></tr>
+<tr class="memitem:ada360977867550649d701384c224a601 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler.html#ada360977867550649d701384c224a601">handle</a> (String currentId, String value, String qualifierBlock, String comment)</td></tr>
+<tr class="separator:ada360977867550649d701384c224a601 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ac3b916ce223d2f4b341d6688980503d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ac3b916ce223d2f4b341d6688980503d2">getOWLClass</a> (String id)</td></tr>
+<tr class="separator:ac3b916ce223d2f4b341d6688980503d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da8e71805431e51fc2ff021732f84d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a8da8e71805431e51fc2ff021732f84d3">getOWLObjectProperty</a> (String id)</td></tr>
+<tr class="separator:a8da8e71805431e51fc2ff021732f84d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593a10c0f6fb178112489155acff3b94"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a593a10c0f6fb178112489155acff3b94">getUnquotedString</a> (String value)</td></tr>
+<tr class="separator:a593a10c0f6fb178112489155acff3b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f46163ce39bdc49197b7ddf0ff9da2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a29f46163ce39bdc49197b7ddf0ff9da2">getOWLClassOrRestriction</a> (String termList)</td></tr>
+<tr class="separator:a29f46163ce39bdc49197b7ddf0ff9da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcecbb47a356b147ac60705a98c614c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#abcecbb47a356b147ac60705a98c614c5">getBooleanConstant</a> (boolean b)</td></tr>
+<tr class="separator:abcecbb47a356b147ac60705a98c614c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f925f75c125df760255f8c2b3a0616"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a79f925f75c125df760255f8c2b3a0616">addAnnotation</a> (String id, String uriID, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> value)</td></tr>
+<tr class="separator:a79f925f75c125df760255f8c2b3a0616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 10-Jan-2007<br/>
+ <br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00063">63</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a971356f8149aecca17ee77d679906339"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.AbstractTagValueHandler.AbstractTagValueHandler </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html">OBOConsumer</a>&#160;</td>
+          <td class="paramname"><em>consumer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00067">67</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        this.tag = tag;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        this.consumer = consumer;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a79f925f75c125df760255f8c2b3a0616"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.AbstractTagValueHandler.addAnnotation </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>uriID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00185">185</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        IRI subject = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        OWLAnnotationProperty annotationProperty = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>()</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                .getOWLAnnotationProperty(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(uriID));</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        OWLAxiom ax = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLAnnotationAssertionAxiom(annotationProperty,</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                subject, value);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a5dd13c61ea23ba4e2d993aab0cd1210c">applyChange</a>(<span class="keyword">new</span> AddAxiom(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ae4149bb55e725e144d4035306a803905">getOntology</a>(), ax));</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a5dd13c61ea23ba4e2d993aab0cd1210c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a5dd13c61ea23ba4e2d993aab0cd1210c">org.coode.owlapi.obo.parser.AbstractTagValueHandler.applyChange</a></div><div class="ttdeci">void applyChange(OWLOntologyChange change)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00085">AbstractTagValueHandler.java:85</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ae4149bb55e725e144d4035306a803905"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ae4149bb55e725e144d4035306a803905">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOntology</a></div><div class="ttdeci">OWLOntology getOntology()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00081">AbstractTagValueHandler.java:81</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5dd13c61ea23ba4e2d993aab0cd1210c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.AbstractTagValueHandler.applyChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a>&#160;</td>
+          <td class="paramname"><em>change</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00085">85</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                      {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        consumer.getOWLOntologyManager().<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a5dd13c61ea23ba4e2d993aab0cd1210c">applyChange</a>(change);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a5dd13c61ea23ba4e2d993aab0cd1210c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a5dd13c61ea23ba4e2d993aab0cd1210c">org.coode.owlapi.obo.parser.AbstractTagValueHandler.applyChange</a></div><div class="ttdeci">void applyChange(OWLOntologyChange change)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00085">AbstractTagValueHandler.java:85</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4e94c76f1958df4cdbaca0ef6d9f1ac4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getAnnotationForTagValuePair </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>tagName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an <a class="el" href="">OWLAnnotation</a> for a tag value pair.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tagName</td><td>The tag name. </td></tr>
+    <tr><td class="paramname">value</td><td>The tag value. Note that the tag value is un-escaped and stripped of double quotes if they exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An <a class="el" href="">OWLAnnotation</a> that is formed by converting the tagName to an IRI and then to an <a class="el" href="">OWLAnnotationProperty</a> and the value to an <a class="el" href="">OWLLiteral</a>. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00128">128</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                                                    {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        IRI tagIRI = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a745fab6a605c4307f7eaa84ac2ee05c7">getTagIRI</a>(tagName);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        OWLDataFactory df = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        OWLAnnotationProperty annotationProperty = df.getOWLAnnotationProperty(tagIRI);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        String unescapedString = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a593a10c0f6fb178112489155acff3b94">getUnquotedString</a>(value);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        OWLLiteral annotationValue = df.getOWLLiteral(unescapedString);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">return</span> df.getOWLAnnotation(annotationProperty, annotationValue);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a745fab6a605c4307f7eaa84ac2ee05c7"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a745fab6a605c4307f7eaa84ac2ee05c7">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getTagIRI</a></div><div class="ttdeci">IRI getTagIRI(OBOVocabulary vocabulary)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00097">AbstractTagValueHandler.java:97</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a593a10c0f6fb178112489155acff3b94"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a593a10c0f6fb178112489155acff3b94">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getUnquotedString</a></div><div class="ttdeci">String getUnquotedString(String value)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00153">AbstractTagValueHandler.java:153</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abcecbb47a356b147ac60705a98c614c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getBooleanConstant </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00181">181</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                                       {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLLiteral(b);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a85100c5f7d03a55a237af903bcc49d09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getClassFromId </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00137">137</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                             {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLClass(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(s));</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a49d52adab59dd3209175eab687fc03cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html">OBOConsumer</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getConsumer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00089">89</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                     {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> consumer;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad5f87562ea10cdfb30bd7124ecbde82a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getCurrentClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00141">141</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                      {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLClass(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(consumer.<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#a89962810a25ac89bdf488cc15384b38d">getCurrentId</a>()));</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer_html_a89962810a25ac89bdf488cc15384b38d"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#a89962810a25ac89bdf488cc15384b38d">org.coode.owlapi.obo.parser.OBOConsumer.getCurrentId</a></div><div class="ttdeci">String getCurrentId()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_consumer_8java_source.html#l00180">OBOConsumer.java:180</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8e4e5572eac6f9dbd0c440864514d44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00093">93</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                           {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> consumer.getOWLOntologyManager().getOWLDataFactory();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a440e4b9582c945d1cc4bb28c34cc5f9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00111">111</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                          {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> consumer.getIRIFromOBOId(id);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae4149bb55e725e144d4035306a803905"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOntology </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00081">81</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                     {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> consumer.getOntology();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac3b916ce223d2f4b341d6688980503d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOWLClass </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00145">145</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                              {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLClass(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(<span class="keywordtype">id</span>));</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a29f46163ce39bdc49197b7ddf0ff9da2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOWLClassOrRestriction </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>termList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00163">163</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        StringTokenizer tok = <span class="keyword">new</span> StringTokenizer(termList, <span class="stringliteral">&quot; &quot;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        String id0 = null;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        String id1 = null;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        id0 = tok.nextToken();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">if</span> (tok.hasMoreTokens()) {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            id1 = tok.nextToken();</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (id1 == null) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLClass(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(id0));</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            IRI propertyIRI = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a49d52adab59dd3209175eab687fc03cf">getConsumer</a>().getRelationIRIFromSymbolicIdOrOBOId(id0);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            OWLObjectProperty prop = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLObjectProperty(propertyIRI);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            OWLClass filler = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLClass(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(id1));</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLObjectSomeValuesFrom(prop, filler);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a49d52adab59dd3209175eab687fc03cf"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a49d52adab59dd3209175eab687fc03cf">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getConsumer</a></div><div class="ttdeci">OBOConsumer getConsumer()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00089">AbstractTagValueHandler.java:89</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8da8e71805431e51fc2ff021732f84d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOWLObjectProperty </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00149">149</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                                                                {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">getDataFactory</a>().getOWLObjectProperty(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">getIRIFromOBOId</a>(<span class="keywordtype">id</span>));</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_ad8e4e5572eac6f9dbd0c440864514d44"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#ad8e4e5572eac6f9dbd0c440864514d44">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getDataFactory</a></div><div class="ttdeci">OWLDataFactory getDataFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00093">AbstractTagValueHandler.java:93</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler_html_a440e4b9582c945d1cc4bb28c34cc5f9f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html#a440e4b9582c945d1cc4bb28c34cc5f9f">org.coode.owlapi.obo.parser.AbstractTagValueHandler.getIRIFromOBOId</a></div><div class="ttdeci">IRI getIRIFromOBOId(String id)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_tag_value_handler_8java_source.html#l00111">AbstractTagValueHandler.java:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e92dffd47ba018c73d0c30d183ac135"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getOWLOntologyManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00077">77</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                      {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> consumer.getOWLOntologyManager();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a745fab6a605c4307f7eaa84ac2ee05c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getTagIRI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_vocabulary.html">OBOVocabulary</a>&#160;</td>
+          <td class="paramname"><em>vocabulary</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00097">97</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                   {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> consumer.getIRIFromTagName(vocabulary.getName());</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a562122aa74e80fd4fea4e795fafc7e48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.obo.parser.AbstractTagValueHandler.getTagIRI </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>tagName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an IRI for a tag name. This is a helper method, which ultimately calls <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#a36957acc9df75408306de2f30efbf20d">OBOConsumer#getIRIFromTagName(String)</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tagName</td><td>The tag name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The IRI corresponding to the tag name. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00107">107</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                         {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> consumer.getIRIFromTagName(tagName);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab2cb02762280ec948aecd850f13b91d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.obo.parser.AbstractTagValueHandler.getTagName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the name of the tag handled by this tag value handler </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the tag </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_tag_value_handler.html#a052d43d1b97011c56a92c068565a7feb">org.coode.owlapi.obo.parser.TagValueHandler</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00073">73</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                               {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> tag;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a593a10c0f6fb178112489155acff3b94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.obo.parser.AbstractTagValueHandler.getUnquotedString </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_tag_value_handler_8java_source.html#l00153">153</a> del archivo <a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                     {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        String unquotedString;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">if</span> (value.startsWith(<span class="stringliteral">&quot;\&quot;&quot;</span>) &amp;&amp; value.endsWith(<span class="stringliteral">&quot;\&quot;&quot;</span>)) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            unquotedString = value.substring(1, value.length() - 1);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            unquotedString = value;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        }</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> unquotedString;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/obo/parser/<a class="el" href="_abstract_tag_value_handler_8java_source.html">AbstractTagValueHandler.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo.html">obo</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_abstract_tag_value_handler.html">AbstractTagValueHandler</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:42 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

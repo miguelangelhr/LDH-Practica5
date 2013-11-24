@@ -1,0 +1,680 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.latex.LatexBracketChecker</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.latex.LatexBracketChecker</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab964d0de7bfa8e8a8009fbb37c287096"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ab964d0de7bfa8e8a8009fbb37c287096">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a> node)</td></tr>
+<tr class="separator:ab964d0de7bfa8e8a8009fbb37c287096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50edf7e76e8e2c167f7d94a2ceb5cd6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a50edf7e76e8e2c167f7d94a2ceb5cd6d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> node)</td></tr>
+<tr class="separator:a50edf7e76e8e2c167f7d94a2ceb5cd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3789689b9b28b792886dd37457a19f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ab3789689b9b28b792886dd37457a19f2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_cardinality_restriction.html">OWLDataCardinalityRestriction</a> node)</td></tr>
+<tr class="separator:ab3789689b9b28b792886dd37457a19f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5198db932551ce3c0df51d93d8c53ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ab5198db932551ce3c0df51d93d8c53ea">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a> node)</td></tr>
+<tr class="separator:ab5198db932551ce3c0df51d93d8c53ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e0ee67fe84e0139515ae8ef3b871fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a73e0ee67fe84e0139515ae8ef3b871fd">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a> node)</td></tr>
+<tr class="separator:a73e0ee67fe84e0139515ae8ef3b871fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a410aa40349dc2f6be017c6781dbe6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ac0a410aa40349dc2f6be017c6781dbe6">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> node)</td></tr>
+<tr class="separator:ac0a410aa40349dc2f6be017c6781dbe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935c13d04e7bd894ee74a11e5ab5d271"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a935c13d04e7bd894ee74a11e5ab5d271">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_cardinality_restriction.html">OWLObjectCardinalityRestriction</a> node)</td></tr>
+<tr class="separator:a935c13d04e7bd894ee74a11e5ab5d271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14dc2f365a9fdfa3a2f2b027fcda44e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a14dc2f365a9fdfa3a2f2b027fcda44e4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a> node)</td></tr>
+<tr class="separator:a14dc2f365a9fdfa3a2f2b027fcda44e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abead7ff0179391e4d161b1a1602c2b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#abead7ff0179391e4d161b1a1602c2b7b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a> node)</td></tr>
+<tr class="separator:abead7ff0179391e4d161b1a1602c2b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a73649e866ab5f96cc28eaffa56e34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ad5a73649e866ab5f96cc28eaffa56e34">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> node)</td></tr>
+<tr class="separator:ad5a73649e866ab5f96cc28eaffa56e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d42e969ccaa195383db29717a9e25f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa1d42e969ccaa195383db29717a9e25f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> node)</td></tr>
+<tr class="separator:aa1d42e969ccaa195383db29717a9e25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2457e998252e0c49aa5093f9ab866ed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a2457e998252e0c49aa5093f9ab866ed9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> node)</td></tr>
+<tr class="separator:a2457e998252e0c49aa5093f9ab866ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc40ca5d5dc6364f3ed1215cd7f9b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#acbc40ca5d5dc6364f3ed1215cd7f9b62">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> node)</td></tr>
+<tr class="separator:acbc40ca5d5dc6364f3ed1215cd7f9b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd4650c515bbb4a1929a6ac85a37b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aebd4650c515bbb4a1929a6ac85a37b63">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> desc)</td></tr>
+<tr class="separator:aebd4650c515bbb4a1929a6ac85a37b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e03c7b81560f7e8c2a789906f8e740e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a2e03c7b81560f7e8c2a789906f8e740e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a2e03c7b81560f7e8c2a789906f8e740e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975dc82cc26f71294d92e0fd94e4eb94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a975dc82cc26f71294d92e0fd94e4eb94">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> desc)</td></tr>
+<tr class="separator:a975dc82cc26f71294d92e0fd94e4eb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16711ce9e1776963954ecb002abb2a70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a16711ce9e1776963954ecb002abb2a70">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> desc)</td></tr>
+<tr class="separator:a16711ce9e1776963954ecb002abb2a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c8f9f2f3be4ba1c32c2064796d4fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa7c8f9f2f3be4ba1c32c2064796d4fc9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> desc)</td></tr>
+<tr class="separator:aa7c8f9f2f3be4ba1c32c2064796d4fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d7cdb452b41266ee3af648a2d7cd1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a77d7cdb452b41266ee3af648a2d7cd1e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> desc)</td></tr>
+<tr class="separator:a77d7cdb452b41266ee3af648a2d7cd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f1be0cd66e5bf256f8b3b4c880e575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa4f1be0cd66e5bf256f8b3b4c880e575">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a> owlHasSelf)</td></tr>
+<tr class="separator:aa4f1be0cd66e5bf256f8b3b4c880e575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a80e867585c603705c77c036dd2b9a4d8"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a80e867585c603705c77c036dd2b9a4d8">requiresBracket</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> classExpression)</td></tr>
+<tr class="separator:a80e867585c603705c77c036dd2b9a4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Medical Informatics Group<br/>
+ Date: 15-Jun-2007<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00072">72</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a80e867585c603705c77c036dd2b9a4d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.coode.owlapi.latex.LatexBracketChecker.requiresBracket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td>
+          <td class="paramname"><em>classExpression</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00188">188</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        instance.requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        classExpression.accept(instance);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">return</span> instance.requiresBracket;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab964d0de7bfa8e8a8009fbb37c287096"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aba77dce3bf6dacea2ccc8056c5d87777">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00083">83</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                                    {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a50edf7e76e8e2c167f7d94a2ceb5cd6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aa71f8aab1b75419a7fa74aab4b34ee3b">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00088">88</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                 {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab3789689b9b28b792886dd37457a19f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_cardinality_restriction.html">OWLDataCardinalityRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00092">92</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                          {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab5198db932551ce3c0df51d93d8c53ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ad89ac6fe00f72cb2127036bd74dbcd31">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00097">97</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                  {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a73e0ee67fe84e0139515ae8ef3b871fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aab6662662779dd372efb9d8f5d664f79">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00102">102</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                            {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac0a410aa40349dc2f6be017c6781dbe6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aabc82e7f68521c097e85de55530d1c78">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00107">107</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                                   {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a935c13d04e7bd894ee74a11e5ab5d271"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_cardinality_restriction.html">OWLObjectCardinalityRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00111">111</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                            {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a14dc2f365a9fdfa3a2f2b027fcda44e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a676b8a6d1189c1abe5cee5b61bbc9509">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00116">116</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                    {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abead7ff0179391e4d161b1a1602c2b7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab78067a8929ce5ff62452f7621bf2a3f">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00121">121</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                              {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad5a73649e866ab5f96cc28eaffa56e34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a21b521dae60562bb29667054b759653c">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00126">126</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                  {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        requiresBracket = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa1d42e969ccaa195383db29717a9e25f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab8c97a8833057e53c6fe78ed40f0c149">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00131">131</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                             {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2457e998252e0c49aa5093f9ab866ed9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#af8f7b220c3c01bed32fcdd63e16a62e1">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00136">136</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                     {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        requiresBracket = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acbc40ca5d5dc6364f3ed1215cd7f9b62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3346f49dc5f2f5fd22f94272f9e650f2">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00141">141</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                           {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aebd4650c515bbb4a1929a6ac85a37b63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a7654d967d481670abe3d04aa3257e1ab">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00147">147</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                                    {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2e03c7b81560f7e8c2a789906f8e740e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3e6e61ec2c3ef215f0440519ed545810">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00153">153</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                  {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a975dc82cc26f71294d92e0fd94e4eb94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a366c32794683bec657aca42861fbb511">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00159">159</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                  {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16711ce9e1776963954ecb002abb2a70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a4320f0d7d0d05f44275879b77c8d2ab7">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00165">165</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                      {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa7c8f9f2f3be4ba1c32c2064796d4fc9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a0226d77d5ab9f5056417ed7043da4a11">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00171">171</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                    {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a77d7cdb452b41266ee3af648a2d7cd1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ac588f0cd118369d660d0f0193d7e45b5">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00177">177</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                                    {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa4f1be0cd66e5bf256f8b3b4c880e575"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.latex.LatexBracketChecker.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>owlHasSelf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a37be4df197347592e55b201dabbe5957">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_latex_bracket_checker_8java_source.html#l00183">183</a> del archivo <a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                                   {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        requiresBracket = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/latex/<a class="el" href="_latex_bracket_checker_8java_source.html">LatexBracketChecker.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1latex.html">latex</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html">LatexBracketChecker</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:40 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

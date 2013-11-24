@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_o_w_l_data_property_assertion_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_o_w_l_data_property_assertion_test_case.html#a263975d2a1fcabe2511f776b415ede6f", null ]
+];

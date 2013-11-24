@@ -1,0 +1,7 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_value_restriction_impl_3_01_r_01extb41ab5275c9a4aea48395a608c721463 =
+[
+    [ "OWLValueRestrictionImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_value_restriction_impl_3_01_r_01extb41ab5275c9a4aea48395a608c721463.html#a453504e494a4848c68e6153f2b75f09b", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_value_restriction_impl_3_01_r_01extb41ab5275c9a4aea48395a608c721463.html#a3188b87f77622daefb55ba3af1c2d93c", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_value_restriction_impl_3_01_r_01extb41ab5275c9a4aea48395a608c721463.html#a96d88cc01ed7033e00a87f1015b89ae7", null ],
+    [ "getValue", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_value_restriction_impl_3_01_r_01extb41ab5275c9a4aea48395a608c721463.html#ad76680e1f8aa3a053847c9ea0b07bda9", null ]
+];

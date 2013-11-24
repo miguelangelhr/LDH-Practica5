@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_references_test_case =
+[
+    [ "testContainsReferenceForAnnotationAssertion", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_references_test_case.html#a634dc2e3c71ffd6e1d6f4bcaaf2671e1", null ],
+    [ "testContainsReferenceForAxiomAnnotation", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_references_test_case.html#acf51466efceb3e675a283853dc3cf5fe", null ],
+    [ "testContainsReferenceForOntologyAnnotation", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_references_test_case.html#aaa31ed59eedf67fa8b346e49b5d4f283", null ]
+];

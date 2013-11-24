@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_negative_object_property_assertion_axiom_test_case =
+[
+    [ "getAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_negative_object_property_assertion_axiom_test_case.html#a85d1406ec57bf5495d87b59c2465facb", null ],
+    [ "getClassExpression", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_negative_object_property_assertion_axiom_test_case.html#a9521665d2f2fe258c96059006fbd65f4", null ]
+];

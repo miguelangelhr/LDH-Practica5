@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.OWLClassExpressionVisitor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.OWLClassExpressionVisitor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por com.clarkparsia.owlapi.modularity.locality.SemanticLocalityEvaluator.BottomReplacer, com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.BottomEquivalenceEvaluator, com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.TopEquivalenceEvaluator, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">org.semanticweb.owlapi.model.OWLObjectVisitor</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, org.semanticweb.owlapi.SplitSubClassAxioms.ConjunctSplitter y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:af8f7b220c3c01bed32fcdd63e16a62e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#af8f7b220c3c01bed32fcdd63e16a62e1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> ce)</td></tr>
+<tr class="separator:af8f7b220c3c01bed32fcdd63e16a62e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba77dce3bf6dacea2ccc8056c5d87777"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aba77dce3bf6dacea2ccc8056c5d87777">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a> ce)</td></tr>
+<tr class="separator:aba77dce3bf6dacea2ccc8056c5d87777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c97a8833057e53c6fe78ed40f0c149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab8c97a8833057e53c6fe78ed40f0c149">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> ce)</td></tr>
+<tr class="separator:ab8c97a8833057e53c6fe78ed40f0c149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b521dae60562bb29667054b759653c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a21b521dae60562bb29667054b759653c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> ce)</td></tr>
+<tr class="separator:a21b521dae60562bb29667054b759653c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676b8a6d1189c1abe5cee5b61bbc9509"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a676b8a6d1189c1abe5cee5b61bbc9509">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a> ce)</td></tr>
+<tr class="separator:a676b8a6d1189c1abe5cee5b61bbc9509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc82e7f68521c097e85de55530d1c78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aabc82e7f68521c097e85de55530d1c78">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> ce)</td></tr>
+<tr class="separator:aabc82e7f68521c097e85de55530d1c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab78067a8929ce5ff62452f7621bf2a3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab78067a8929ce5ff62452f7621bf2a3f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a> ce)</td></tr>
+<tr class="separator:ab78067a8929ce5ff62452f7621bf2a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac588f0cd118369d660d0f0193d7e45b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ac588f0cd118369d660d0f0193d7e45b5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> ce)</td></tr>
+<tr class="separator:ac588f0cd118369d660d0f0193d7e45b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4320f0d7d0d05f44275879b77c8d2ab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a4320f0d7d0d05f44275879b77c8d2ab7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> ce)</td></tr>
+<tr class="separator:a4320f0d7d0d05f44275879b77c8d2ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0226d77d5ab9f5056417ed7043da4a11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a0226d77d5ab9f5056417ed7043da4a11">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> ce)</td></tr>
+<tr class="separator:a0226d77d5ab9f5056417ed7043da4a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37be4df197347592e55b201dabbe5957"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a37be4df197347592e55b201dabbe5957">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a> ce)</td></tr>
+<tr class="separator:a37be4df197347592e55b201dabbe5957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3346f49dc5f2f5fd22f94272f9e650f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3346f49dc5f2f5fd22f94272f9e650f2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> ce)</td></tr>
+<tr class="separator:a3346f49dc5f2f5fd22f94272f9e650f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89ac6fe00f72cb2127036bd74dbcd31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ad89ac6fe00f72cb2127036bd74dbcd31">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a> ce)</td></tr>
+<tr class="separator:ad89ac6fe00f72cb2127036bd74dbcd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71f8aab1b75419a7fa74aab4b34ee3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aa71f8aab1b75419a7fa74aab4b34ee3b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> ce)</td></tr>
+<tr class="separator:aa71f8aab1b75419a7fa74aab4b34ee3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6662662779dd372efb9d8f5d664f79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aab6662662779dd372efb9d8f5d664f79">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a> ce)</td></tr>
+<tr class="separator:aab6662662779dd372efb9d8f5d664f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366c32794683bec657aca42861fbb511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a366c32794683bec657aca42861fbb511">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> ce)</td></tr>
+<tr class="separator:a366c32794683bec657aca42861fbb511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7654d967d481670abe3d04aa3257e1ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a7654d967d481670abe3d04aa3257e1ab">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> ce)</td></tr>
+<tr class="separator:a7654d967d481670abe3d04aa3257e1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6e61ec2c3ef215f0440519ed545810"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3e6e61ec2c3ef215f0440519ed545810">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> ce)</td></tr>
+<tr class="separator:a3e6e61ec2c3ef215f0440519ed545810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 13-Nov-2006<br/>
+<br/>
+ </p>
+<p>An interface to objects that can visit <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a>s. (See the <a href="http://en.wikipedia.org/wiki/Visitor_pattern">Visitor Patterns</a>) </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_visitor_8java_source.html#l00052">52</a> del archivo <a class="el" href="_o_w_l_class_expression_visitor_8java_source.html">OWLClassExpressionVisitor.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="af8f7b220c3c01bed32fcdd63e16a62e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_object_renderer.html#a26b7ff836106035e598273861f44544c">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2ObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#aacba807872f950c6d9cd3da32e7cda10">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a2578d0701ae750bb2d777e66fbf55742">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#aefa2bca528bd920bae91a6583e26b038">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ad693edb6e8da2f2915230236703cbc1f">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a28dc291bbb43c6aeb845379604f233c5">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a98677adce261aa3a8abf48ed358bd179">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a1dd14ecb6162c852009bcf202330d673">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#aee95465f730540977bc5804dbed1ad87">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#afd9e7a2522b9381ef85276f70bf9047d">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a77ec6cda1c7be02680a794968ceb453c">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aa5adc98d1c38b518da75a6304c456bd0">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a0528061d1e4c460d4a184f7ae9434286">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a8b815b21192ec58a4168e0f3df695590">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#abf2f38315a77144d0e8c06e85094ea76">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a9140e5750c9ea5b02245ebaf31b5205c">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a2457e998252e0c49aa5093f9ab866ed9">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a6d03acc1e968e08c922ce819e4b933fe">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a4d091b45449839246f154099f1750362">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba77dce3bf6dacea2ccc8056c5d87777"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#ae516bef3b90a8c5e9a83bd4c09911500">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#ac6853ab7cd8cbfdc5fb79d3a8de58de5">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a15387840761641e29931dc14c483de48">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a31b68ed3f4dcb5931f414e7a0ebe6c9c">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#acbb363f3f7e168ed184ea11e27c12cd0">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#acf4fe26187ff2e0352479a178da2830b">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a1069ad20f461dfbc0f67b2ab1ae6782e">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#af8dd06d099eed0a27af8a2121b2977ad">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#aa4edbe11959344d05102d5faa8e940ec">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a54cbae790e23eb67864c002824de5821">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#ad6c6ac49c193021a8ed3b16518ea8865">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a9d7ae6edd7d6159671fe1bdbb13cf4de">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a1779a7def0d84a9aa2e7753af14a09b5">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#acc6de82ac838b7c1355523d6a43ce712">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a88d49951c6489250139423374457ed31">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a9a83678abd560ea10f6b49a81b3a0ac0">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ab964d0de7bfa8e8a8009fbb37c287096">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1_existential_collector.html#a0eec1fb25bbdc8aa3794f6fbb07a91a8">uk.ac.manchester.owl.owlapi.tutorial.ExistentialCollector</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a7e355de0650dc9e7e878856d29633ff5">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab8c97a8833057e53c6fe78ed40f0c149"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#af6eebeccac768b739382a6b0001d6502">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#aae8b602419ab0af8206f1311ba47b0a0">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ab5f11414e4325400ae84cb59c471db32">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#aa7c90a41bb5b000c58a34622c4d9586d">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a65d44f6ac3a80566dcaf20141fb17579">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a6a4ef62c03a57150f387b5f82500c855">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a078fa2a2cac7d426aa564a570b6202b1">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a979ec9f28e7c26a0b6182e8342ecdc1c">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a90033c22df5abf666965b63993406c7a">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a3a7f674859daa236a6366e491cbfd5fb">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a284a2548c06b870dcacc3ab4fbe621b1">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a35c4c063d83a86286692aa4793e53d03">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a73674f432352fe822ce73390160ec0e3">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a69d072a12f8224f3fe4e2924ec39705a">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#ac47a1b29fe8286f967cfedb673a2e45d">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ade017cbb7f47cce39ca216c0bfd10dcc">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa1d42e969ccaa195383db29717a9e25f">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a17d80aa529252d90a2974e13b5950247">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21b521dae60562bb29667054b759653c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a8508a4e5cd2de22b2882d82a44c1a35b">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#ada0ca173f36d166912e14e8826b65334">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#abf362077f0c8a1b6f085d7196c2e2c83">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#aa826f4c41f8bf9e9a387eab28e4921e1">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#ac1e16621ff10a65453f0ed6265ab18eb">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a6f56680c3e0313a2b76a817370cd685c">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#adf646692f0b32729e84c948e8ba19138">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a58ee0fda36cc2cc41932d652a9d68c8c">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a4da61fb96c29474c37e1792b8ebf9e6c">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a64d149ec539bbc228e578948769c9218">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a9dcf07dc19a0808ee78c7258f004f767">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a7e2a60aff7737dad6fad8a28cf1393fe">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a9eaac82502a4ce5b036e0503cece23f2">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#af98ff624e1bd3b7da1b6a0551d421c2a">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a991ae87177aa316604e658ad75f9fc6d">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ad5a73649e866ab5f96cc28eaffa56e34">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ada25f7e9051fe17a52a640e368b19b3d">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a57cfdb0e5d45d6208c6a7d8961c08666">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a676b8a6d1189c1abe5cee5b61bbc9509"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#aaf464c32e92ab7d6ed4d3c671e7eccc8">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a3dd71e6d4842f73f535cebda5c703e0c">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ae67e81ed142525fe114478b914799bbd">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#acfce70d27a70a9ea59dd42432c49cc01">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#adaeea4ee5aad5d3a01dfbbc6fefd6a16">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a286337194029fb6d4f3fd8a4bb403b6c">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a0447633890cb88dd95635624c4da54a9">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a318a740f5f2c8333760a40e8733de6e8">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#ac4de48856620f05b818b7f7cd5e212dc">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a50fec18cfc0cee3966de7d61aee2f8d4">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#ae2efffd6e887aea0b0671a2582b38bb3">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a4d0743043f7232e7a6dd7e88b2f26bce">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#aed1f048300e4f0cd2c4f3cdd788a9c7a">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a5e6a137391d8c8d61085e492bbb1b3f3">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#af8108094f2ed76c0d5ec5a337a9b8047">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae78d2254caa669685c4724f60c34e8de">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a14dc2f365a9fdfa3a2f2b027fcda44e4">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1renderer_1_1_o_b_o_relationship_generator.html#a42074458d8852f9af823dde54e6f0a00">org.coode.owlapi.obo.renderer.OBORelationshipGenerator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a55ced7607658c4a9007d20f615d76ee2">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1_existential_collector.html#aaf707c3983cf3d533ae6babdb2c77685">uk.ac.manchester.owl.owlapi.tutorial.ExistentialCollector</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aabc82e7f68521c097e85de55530d1c78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a38e39892f9c8f13c71c97295b3cb39fb">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#ac65ef125c4975c5f5b0c826392fd067d">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a94cbf1a051dfade737130388b6809f03">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ad484d1d91225f73ec014bc0b48eb6898">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a08652ad340bf0c554ec5884de6c31b47">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a3666fdb83007983bd5892e57fff885d8">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#ab8433e101e726a149c226d75de7fb8e2">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#acdf64ae757907240958ecaff1c9aeb7b">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a2c5bbf08c28d8edb96fdde78abf0fe01">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#ac635c083508bcc70e969f60e818fe210">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a402f4f6cafb07ebf46ad578f0425741b">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#ad01caa1ee2866ca455d6d7ae156773bc">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a7f11e887ff8d1f2a77b4a560cb57d398">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a4ba918fcbafc6eb6b410ef6604279819">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#ae0790863ceb9d0419ff15e9378313745">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae6865350153a62ead3cb61f224749ce1">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ac0a410aa40349dc2f6be017c6781dbe6">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#aedf33b15be05ba55104f940da278992a">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab78067a8929ce5ff62452f7621bf2a3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#ae1bf57a75ca8f40f6acf0f48e40ccf86">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a9e79e3a998be15e88453ee185bbe2148">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ae4cc13da79d21148a3bd033bd24ebb44">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a604a1895afc5cbf6e87283a19bb400ac">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#accda238584363ee2657bc7f5abf729fb">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a151b662a8ef0dd90c7bc78a740248c9e">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a68f9d86d2a723046c8980bc66b4d1648">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#aed342aa606dff09f43b420703825aa47">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a141208c281d5e9982c40e2d322644272">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a644e06aba4f2a6a76767211b01c0afce">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a2eedde4ad2a4e5549978100470d3a340">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aa8c00fb2b15cd93c78beee15b4d8d63c">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a50cd43dd9288acb0e7c5ce4bddb9b136">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a10a8b98d16c7be1d7c143dbe0f1363e7">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#ac932c2f43b9aa20944b3940c360f03e0">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae752b64a99ffdf08d15b1b17528642b3">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#abead7ff0179391e4d161b1a1602c2b7b">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a9db8c796c9d28f9e59f1b1b823270e35">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac588f0cd118369d660d0f0193d7e45b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a71113f63846879b9368fb9a829c7a395">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#ab037ad0efd2de61c9392d61641a947b9">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#aac7a905487a8b13daaccf33002c7ae5e">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a1423fb08cbdfee35b8bee911ae652097">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#ad06f568ef572a2755bb88a2bd70eacf3">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#aa15d31ced4f8a0348598ab9d18ac0a20">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#afece81ab14927dfd2e4fbd084ae1753f">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a6ab64e6ac3db38b742af0655702c3a53">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#af7af1937dd8500add12bb7851c459864">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a299a6cf1035582f35ad32b442dd20027">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a52ed321c4f6809605db6e455082df1e7">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#ae962e1fc6ab5db6b534c3c9c71e677ac">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a41fa95c68c10509b6707869b18d789d3">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#ad06b41a737484e5afcc444d016d7b752">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a2afda54ce394961f114f33265c7050b5">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a77d7cdb452b41266ee3af648a2d7cd1e">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ac25528d9225965fd9d7abd0538bece44">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#aadb68c9196eac1089edafd8d24bea831">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1renderer_1_1_o_b_o_relationship_generator.html#abb85ae5f1e9a5f9f2d49d05d32ac9f55">org.coode.owlapi.obo.renderer.OBORelationshipGenerator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4320f0d7d0d05f44275879b77c8d2ab7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#ab25bcf13f6ac5386d8be778ff0e92c5b">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a958761010e043b46901b3f7f811bb4fe">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a73e6eb2afaba9c9a194eb260dba35e39">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#ad62695f21d9e8e97eedb2b6350ea7b21">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a5891a230e65c896635a2131cd1086ee1">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a0ed00da304f297a4a78e8dbeb38070ac">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a614c87d0e174db11f0b2874eb5aa5116">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a041f44a49fe83b8009a77aa5e6342a6e">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a0dc7e52dbe5919278602919ed22d930d">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#afa23bb8bc16d3a70841a0420aa5e4ace">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a73ed182bb9fe901cdd39ffbe824ae300">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a0df19d9e7d0b661b9dab0f3459e179f9">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#ad7b29cb9fd92785362331dc729d3b239">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a06ff87a5092b641efc5edd0da1e801e1">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a1ba260fac1af7a560f95ffd555caf5eb">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a16711ce9e1776963954ecb002abb2a70">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#abeb6630723ebda230ad463a4ba83280e">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a81f2677b298529162a3ce1db7f58c33c">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1renderer_1_1_o_b_o_relationship_generator.html#a2ca39779c1cf67d95fd2bc2b4a7914e9">org.coode.owlapi.obo.renderer.OBORelationshipGenerator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0226d77d5ab9f5056417ed7043da4a11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#ae0fd6888eab179da40a0767dd2618da4">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a292044b4a882de466529c18d6c89e9f3">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#ae3b4bb67e9bc086e8b28ed044ded1e5b">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a07dd0cd1aa0a34de31ebfef625d70d2b">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#adae2ac929b49732e0edb5d798044367d">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a912eda16fedec2165792ed94ecb6d610">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a39451a6b08f76875f942dcbfaf7852e4">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a5da0f0f1709b8426a810b4614568e80e">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#ae97a8ffd83adedf8fb1478d5001296b5">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a9f2f6ecfd0df0aab38fad2858ee2ce9d">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#ab0a4626712ad80cf9329247d36597dbd">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aa2b57c78541c63cb600d726c261c5906">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a9186621d1a6ff6f75c708abe6cb6c69f">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a0eba4ebd15bef5a4ebb7d66e732bac2b">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#adb5253e8c8da2dfe2370b400e3c695cb">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa7c8f9f2f3be4ba1c32c2064796d4fc9">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#aec3f13792b159bc786588e72134b1c90">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a59b2e9eb88ca353b8089b74d6743fcd5">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1renderer_1_1_o_b_o_relationship_generator.html#a94fd492caee3a9d73d523dc2cfe33fb8">org.coode.owlapi.obo.renderer.OBORelationshipGenerator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37be4df197347592e55b201dabbe5957"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a505fdf986cddd437e5f49f8c5c8f9e74">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#ad46f49531bb71d8d3051868896241a03">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#afddb23510cabfa378a5fef78f4d48f71">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a4b24125e8a6b74c36723f2f1ce395297">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#ad4a1b7eb959ee954c6dc2c521a87653a">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a36d31a744ca2673ceb2b2af094daa80e">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a88de775783515184542325c2d744548c">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a7a2e68a3cf74283eec1aaf20483fb793">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a878f49088ea22e0d8e63051c8acd7d85">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a8ab1c00c75791cec4dd6311e1ad6cfd4">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a4e69adc0358130fd4b3af15268daffb2">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a66769fb988e04c36e26668bf45546881">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a7941ed8d98658e926fb1a36d2629e70d">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#ae3295b20ba9ace2541b0d47fb6cab504">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a2e671464f0710e13f1b62bbef6d0a42b">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aa4f1be0cd66e5bf256f8b3b4c880e575">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a39b21f0a5b50191209422dd78eab464f">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#acc08d5e08f43f4f9b795949329ac37c1">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3346f49dc5f2f5fd22f94272f9e650f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a87d3fcc36c9039a54c73ed4dbe6ab5a7">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_object_renderer.html#a07637a39001e143fce70c01b31c14741">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2ObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a1a93aaf75228cead1934e3a6fb885ae7">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#adc02364860a54dbb27e19fae7f3a05ce">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a9b8e96cc2690ab2905b13a6f958f00a7">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#afea0ca47acee0a3c994742c807e3c81c">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#ad43de6fe639c14c2742e6dce5e1e7d08">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a13ee149a5d18f3559c0cdaa3dc8772fd">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#ac64e2f76e8af8ac5fcdf0aaf3d3ce071">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#afb7416db145601e9b7b5b2718636b915">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a95fc6feaeb2f437b619aceee0394f16e">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a0848bd64333766469ddc1421a7a43f5e">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a2a35be35d3e51968cf59019363dff475">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a12ae392ef41055ca1425f0a516b23244">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a23e63a90395067030a898442c77eddc7">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a9e453bb73efb774c181efa49c693e882">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a5cb7503c98530ca0aef05a4fc29c3a13">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#acbc40ca5d5dc6364f3ed1215cd7f9b62">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a11ebe605e547ebcb67e346c4fbdfbd22">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad89ac6fe00f72cb2127036bd74dbcd31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a282b81a9cd440e04cc0c4927bef6dce6">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#ab4daa3b9e3a8af50d48a06bb83e9e707">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a524186f6a4070234c8ab5231467fcb98">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a24f3bae8ec84009386d1df28d1762a1c">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a07efccd03087e992fbdfe2f029078de2">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#ae8ed7d323f05513e27cfd0a77073455a">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#afe0801e355139953b6e3f98da8dee609">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#aabbaafe601eeec7c4bd679cafad3993e">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#acd2890a566b81f4a497517155ec06c8a">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aa1af8056c577806823392459682994d0">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#aba5e89219c075c4833e11e01953fd76c">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a2ba20354e561be4a3d3c8e6b3ad456ac">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a2cb8fb6d46a9dcf58c7229a5e5006412">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a8aa518648d385cdcc9b467247a171476">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#ab6b2d6f2543f848f06b7244ebe2ef715">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a538759b5ef6d09c90fb893cfc500d04a">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a11f37293db89a1d82846b4dd5dc24071">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#ab5198db932551ce3c0df51d93d8c53ea">org.coode.owlapi.latex.LatexBracketChecker</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa71f8aab1b75419a7fa74aab4b34ee3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a256127ca1ee0f31c2b50801aee709e89">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a7d281848b39a9fe64b6562190b3f48cf">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a04d85f7a732b0d4543d102a0cc61f9a7">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a4bbe3996f67cc036621b81812aec1bbd">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a196a931d63720be44458a3d670e2d2f5">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a26e9ed88bbd1126fcdbd3a6810d119fb">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a789265014931d90551c05b769975eb18">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a65da0d495f9d5f0d41174e6a41d97301">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#ad014b308706594dcb1eb8a723f63b797">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a3cb81e96fd08f441468c62d08c850b13">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#ac05b907dcfd0d78cae697c0f9b761303">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#ac9d3bbf6a3d35dc943dbc48ebe57ed88">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a15848f3ad1d68f95c30de9bab8000bfe">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a9200088a92fe633b29a31e380807c583">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#aebb58738e3e593ca14e5c07ebeb85b89">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#ad46460a4544198da45fbe4bf4a6a2f6b">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a541778d64118f17025cb921dd5a157b9">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a50edf7e76e8e2c167f7d94a2ceb5cd6d">org.coode.owlapi.latex.LatexBracketChecker</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab6662662779dd372efb9d8f5d664f79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a7a5aff32893b9b0bcf53e1c0ceded72e">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a988208cc1293d6f8178b9c932a44014e">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#a669c3d3f24d16863053492b8efc76ebb">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a0b329ccd7a36fdb876b19eb3a49eecda">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a5ad896a0f0d3e9bdb1512fd8c9e6245e">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#add331048d94e1c17c5f2f9b812ba1bbf">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a138cd6e720038de23006b4c392be56e5">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a334b147dd2e8b865a6af7192b20b076c">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a97ae4884f635cd8a23955a2067f0d183">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aee26a48ee70595932df045e6d45a2587">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#ac670027634ebf1030b016614f50cda33">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a33d56d6268d52a2d27283370d0efda18">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a524b101c53623e84931e5dd6444d9056">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#ae7d01a940217b491a2edc8294402daaf">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a425ee0e361ce0501fd3cb12825814bfd">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#afa384bbc56ea5dff4191f2077415e9af">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ad78ae619bfe1c71e8956a0ca04a12e78">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a73e0ee67fe84e0139515ae8ef3b871fd">org.coode.owlapi.latex.LatexBracketChecker</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a366c32794683bec657aca42861fbb511"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a47cc48483d89c9dee09f342ffaf78bbc">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a9b3c3e01f4438e3cf1be39548d89b35f">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#af216e9b60a218f5a3b4c5fbcda9a37b8">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a4cc8d0d0869327049339c4d8c6434d04">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a5ef07f8000e0f48ae31e5ecf447a2f38">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a641a52252322f6478e09163dba476002">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#ad9a454e455a289141a0ed8d7185c5366">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a6de82dd70f87f6b8ad08b4431e821ac9">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aecfcb52999d94763b88f4b316b2753b3">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a9bd3661b4d832ef4702fd1431b95bc0c">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#acc599824a1158b32545e5230f74f083a">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#afbaf34976987c2916c8a99af1d35ba7b">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a528ec1c493108513336735cc20a97fac">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a2b6ec65ee366d31a030d358458502f53">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a9dfe449282a590bfaa92879e2877d084">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a975dc82cc26f71294d92e0fd94e4eb94">org.coode.owlapi.latex.LatexBracketChecker</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a89e679a72b3f6ef3fc45fce94206943c">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a875a9fb93e8c0b5a51131d0ed4fdfa92">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7654d967d481670abe3d04aa3257e1ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#a781e087d121644f3334b515824650b57">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a89e2b04f346502b1adaf0719ecfa0b40">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#ae8293bcab5353e4f6fada3aa64d70933">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a72a0f09d4e97661a06cb7b144f5813d6">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a0f1979c87e760b1c6d7ad6616679203e">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#aa8a5ae80b3a5f80cd0445fc5249fed64">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#a61c492ce71629a53fa0be018c54352bb">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#aa4f4a72503a0c4466f7b82879610c9c3">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#aa780bce58769b302ee537e6074e03f87">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#ab89fe672dfe88fa8b5d82b867667ccce">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#af976a7e1b80b6bbcf2bee3055ec7c38f">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a6dd39185407c6f4c803a48fb8f9ac37c">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a6d967cc10fa849bf059f5ac1c9664a12">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a69bebd41ba5633b660b1240a3bb885bf">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#a214944bd9ecc2a5148a10ae239ceaee4">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#aa90708fd3264249caa2e0752b4986070">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#aebd4650c515bbb4a1929a6ac85a37b63">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#afb5e07de841d7175d8e81a264b8d30ee">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e6e61ec2c3ef215f0440519ed545810"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLClassExpressionVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_object_renderer.html#acdfa3e8bc74ddf30315f9bc70d185f52">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_renderer.html#a867985ada7845cc6b6e890813324af27">org.semanticweb.owlapi.util.SimpleRenderer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_object_renderer.html#afdba964395ec8b652c641d8fa4cce210">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html#a2019075c5258982e8b889166719f8b76">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_entity_collection_container_collector.html#a955341e901f593038054501fd4f1673e">uk.ac.manchester.cs.owl.owlapi.OWLEntityCollectionContainerCollector</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_object_renderer.html#a48a24aadf3a4fe8099c13d8533e0d591">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html#adbe1087b7f9cda98f6a6971a16e24715">org.semanticweb.owlapi.util.OWLEntityCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_type_index_provider.html#a77cecd92d1f5744f05bc5fbd217f7dd4">org.semanticweb.owlapi.util.OWLObjectTypeIndexProvider</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker.html#a91d75821aaf5d5ce1adff9bd3f123063">org.semanticweb.owlapi.util.DLExpressivityChecker</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_object_renderer.html#a02be5fe35d81344ad3f9bf168d6c06b8">org.coode.owlapi.owlxml.renderer.OWLXMLObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_duplicator.html#a8cc2f857b49cba29e567fbf74e4a6da1">org.semanticweb.owlapi.util.OWLObjectDuplicator</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_hash_code.html#a7e2abd8df29422d1a102340dbc29a52f">org.semanticweb.owlapi.util.HashCode</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_component_collector.html#a0976b216836f4c805a65d47ed4ac5f37">org.semanticweb.owlapi.util.OWLObjectComponentCollector</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_object_visitor_adapter.html#a9af116aa4d6a2226ed7ae57ba647aae1">org.semanticweb.owlapi.util.OWLObjectVisitorAdapter</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_object_renderer.html#ad959d685a35bfc767b49b2c99750cf8e">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxObjectRenderer</a>, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_visitor_adapter.html#a8b8354a7f34d58e21f53e658f1101424">org.semanticweb.owlapi.util.OWLClassExpressionVisitorAdapter</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_bracket_checker.html#a2e03c7b81560f7e8c2a789906f8e740e">org.coode.owlapi.latex.LatexBracketChecker</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a479a253e38b587a22a95039ba7d7d8f1">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_class_expression_visitor_8java_source.html">OWLClassExpressionVisitor.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">OWLClassExpressionVisitor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:21 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

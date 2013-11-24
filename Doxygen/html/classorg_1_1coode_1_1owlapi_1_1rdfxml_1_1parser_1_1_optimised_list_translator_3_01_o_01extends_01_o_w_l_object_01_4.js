@@ -1,0 +1,7 @@
+var classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_optimised_list_translator_3_01_o_01extends_01_o_w_l_object_01_4 =
+[
+    [ "OptimisedListTranslator", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_optimised_list_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#a08c059a96a5df060e9e93a839ed61f79", null ],
+    [ "getConsumer", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_optimised_list_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#abdfb994cdbe8ddb927ed74cb5d9cca79", null ],
+    [ "translateList", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_optimised_list_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#aa1bc5e022dc644f872ba6468ded92190", null ],
+    [ "translateToSet", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_optimised_list_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#a48f1902a34fe9f8d62cdb0575a5f60cd", null ]
+];

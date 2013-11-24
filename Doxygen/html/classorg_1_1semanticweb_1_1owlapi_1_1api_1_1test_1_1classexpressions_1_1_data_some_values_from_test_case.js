@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_some_values_from_test_case =
+[
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_some_values_from_test_case.html#a73a2af1c4a28fb44f8dedbb6d311ef0a", null ],
+    [ "testCorrectAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_some_values_from_test_case.html#ab47251d2b81544185a3dfbedc048ad6d", null ]
+];

@@ -1,0 +1,4 @@
+var classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_ontology_format =
+[
+    [ "toString", "classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_ontology_format.html#ad6d34da59faee1c2d73708551fa73ba5", null ]
+];

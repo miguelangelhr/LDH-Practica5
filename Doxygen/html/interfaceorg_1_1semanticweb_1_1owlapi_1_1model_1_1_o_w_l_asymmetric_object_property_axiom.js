@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom =
+[
+    [ "getAxiomWithoutAnnotations", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html#a93f866fac2034f763fc2442c97ea475e", null ]
+];

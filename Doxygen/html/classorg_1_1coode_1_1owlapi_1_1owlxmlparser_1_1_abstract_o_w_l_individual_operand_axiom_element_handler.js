@@ -1,0 +1,6 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_individual_operand_axiom_element_handler =
+[
+    [ "AbstractOWLIndividualOperandAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_individual_operand_axiom_element_handler.html#a0fe904030a83e47af3c70c04311d3c45", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_individual_operand_axiom_element_handler.html#a903848da20df793b3f4f5d84989b222e", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_individual_operand_axiom_element_handler.html#ae173f8e7bbbcefcbbbd317b24a4ee097", null ]
+];

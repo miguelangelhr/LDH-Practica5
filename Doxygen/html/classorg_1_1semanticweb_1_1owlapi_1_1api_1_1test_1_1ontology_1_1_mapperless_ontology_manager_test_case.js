@@ -1,0 +1,8 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case =
+[
+    [ "testCreateOntologyWithAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case.html#a0ddb257feb35a557769ba25035047e26", null ],
+    [ "testCreateOntologyWithAxiomsAndIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case.html#a261dd899d484b986fd2682364052590e", null ],
+    [ "testCreateOntologyWithId", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case.html#a7e6fc8ff105dd54c834afa6ada20ebb8", null ],
+    [ "testCreateOntologyWithIdWithVersionIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case.html#adfa3684ced63c1ff2867231cca05c8cb", null ],
+    [ "testCreateOntologyWithIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_mapperless_ontology_manager_test_case.html#a0717f0a82b26656865e95cf8464d1902", null ]
+];

@@ -1,0 +1,27 @@
+var enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary =
+[
+    [ "SWRLVocabulary", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a855a618d3caa77278a204dd70a8f79cf", null ],
+    [ "getIRI", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42291425c190c866020e9cbf42f0d31e", null ],
+    [ "getShortName", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a7f5d78d546007c93b2f1e2ca5c5e2323", null ],
+    [ "getURI", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac44462459cc78645efa017f964f260e2", null ],
+    [ "ARGUMENT_1", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a263e9c60b1b1ab8b19b9ff96a05c1e5a", null ],
+    [ "ARGUMENT_2", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a012a0d2d91da6362bd7e148c0ee589c6", null ],
+    [ "ARGUMENTS", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a9aab162acd2c31078de6bb9403427ac1", null ],
+    [ "ATOM_LIST", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a213bb3b9f8914bec9b4946a1015d6dee", null ],
+    [ "BODY", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a6f558d4840154e8d005735e450436afe", null ],
+    [ "BUILT_IN", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3333593a5b776ed67836ddeb4acb8682", null ],
+    [ "BUILT_IN_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac72ccba6f7ebcfd7ba0177236e7cd600", null ],
+    [ "BUILT_IN_CLASS", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a457cad82161e6c8a41c0273b21af25b1", null ],
+    [ "CLASS_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0c3983a5cd42b3820a2ad75ea353116e", null ],
+    [ "CLASS_PREDICATE", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42cc3c78ece97c93ef135d1f3d5a87a3", null ],
+    [ "DATA_RANGE", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a8d75b471984f1fe113fcf7725defaef3", null ],
+    [ "DATA_RANGE_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3edb55225b999dfca97375fcda8f94aa", null ],
+    [ "DATAVALUED_PROPERTY_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ae21b104ed8a6cf96b3dba4bfd8703146", null ],
+    [ "DIFFERENT_INDIVIDUALS_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a80a31fdf6cf824fecaa5650fec44a250", null ],
+    [ "HEAD", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0007f8338f007bb671274ab010fb11b3", null ],
+    [ "IMP", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0b2ee8ef345e4cbbb033d7c58cbcdf7f", null ],
+    [ "INDIVIDUAL_PROPERTY_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#acea7a801a520aff5245fefd3e1178bab", null ],
+    [ "PROPERTY_PREDICATE", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#abcaf43f5fe68c11d9a9f8aa965991f97", null ],
+    [ "SAME_INDIVIDUAL_ATOM", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a974f61a558cbda2159c86e0f03828220", null ],
+    [ "VARIABLE", "enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a21111a34b7fd9e4a6b2a5671783fe3ed", null ]
+];

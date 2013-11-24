@@ -1,0 +1,4 @@
+var interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_rendering_director =
+[
+    [ "renderEmptyFrameSection", "interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_rendering_director.html#ab7ab91cb688ab5c6573ab771836dbe49", null ]
+];

@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_r_i_mapping_not_found_exception =
+[
+    [ "OWLOntologyIRIMappingNotFoundException", "classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_r_i_mapping_not_found_exception.html#a06bea5681de9443b02e8132c6b9d598e", null ]
+];

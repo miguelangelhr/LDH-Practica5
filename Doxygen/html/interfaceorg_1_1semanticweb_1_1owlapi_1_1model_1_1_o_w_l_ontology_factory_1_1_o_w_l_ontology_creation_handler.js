@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_factory_1_1_o_w_l_ontology_creation_handler =
+[
+    [ "ontologyCreated", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_factory_1_1_o_w_l_ontology_creation_handler.html#a8df743cae0f4bef03e9421afe9944215", null ],
+    [ "setOntologyFormat", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_factory_1_1_o_w_l_ontology_creation_handler.html#ad851e177ae70b8786e69adbec9a8214a", null ]
+];

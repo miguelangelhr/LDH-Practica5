@@ -1,0 +1,28 @@
+var interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants =
+[
+    [ "CLOSE_SQUARE_BRACKET", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63b9567bd9572d6a1fb7b95087c3f97e", null ],
+    [ "COMMENT", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06", null ],
+    [ "COMMENT_END", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#afd3917a2637918c6ed749bb2696326ca", null ],
+    [ "COMMENT_START", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a66128b43b7ed47bf5d9eefda52dd5b97", null ],
+    [ "DEFAULT", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1473e5d0198340ce8e88b71dbac05a84", null ],
+    [ "EOF", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1958959012053aca49f41e9f382d96f7", null ],
+    [ "ERROR", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63f6a9831e44d15c0704e16b13d84021", null ],
+    [ "IN_COMMENT", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#af7679c591e087c073fb5e21615db4ad8", null ],
+    [ "IN_QUOTED_STRING", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae4f7bd056eb19929e2e7252db4b7fb36", null ],
+    [ "IN_STANZA_HEADER", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a50c4e49e21445d9207af8a3a7713952a", null ],
+    [ "IN_TAG_VALUE", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab19ada909504aad66cbab738036b070c", null ],
+    [ "IN_TAG_VALUE_PAIR", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a0aafd9b075da90c8746d3bc532d5f66b", null ],
+    [ "LINE_COMMENTED_OUT", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a5ab72fc05d1628e4318abd0c17a24c40", null ],
+    [ "OPEN_SQUARE_BRACKET", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03", null ],
+    [ "QUOTED_STRING", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95", null ],
+    [ "QUOTED_STRING_DBL_QUOTE_TERMINATOR", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a2cea719cde9fc9a515b72b1638ff4929", null ],
+    [ "QUOTED_STRING_NEW_LINE_TERMINATOR", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#accf15d33021263e5597985f2094e8867", null ],
+    [ "QUOTED_STRING_START", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a85547f92cd802f09d3101dd807287830", null ],
+    [ "STANZA_TYPE", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a77439350a8935023f3a71313a06cb147", null ],
+    [ "STRING", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254", null ],
+    [ "TAG_COLON", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ac7106ffd983781f48daa8cfb98cbe12c", null ],
+    [ "TAG_END", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1bb0f8f28a12a1b3f57a01ce1b5b6276", null ],
+    [ "TAG_NAME", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542", null ],
+    [ "TAG_VALUE_WS", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66", null ],
+    [ "tokenImage", "interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ad0ae7a02b86342a8aad45e4f29c1c720", null ]
+];

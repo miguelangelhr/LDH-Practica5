@@ -1,0 +1,7 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_assertion_axiom_element_handler =
+[
+    [ "AbstractOWLObjectPropertyAssertionAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_assertion_axiom_element_handler.html#a072e8bf196fd453b41bff7b97b4b043a", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_assertion_axiom_element_handler.html#a3a0e168f8c63299f3b09604eede41a7b", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_assertion_axiom_element_handler.html#a49d2ef2c84e13191be195d75a235d122", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_assertion_axiom_element_handler.html#a9e887a7247ec8f36b4553e95d4f0b161", null ]
+];

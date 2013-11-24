@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserConstants</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a15623ca7dc3b7aec44887f3b1a48b0ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a15623ca7dc3b7aec44887f3b1a48b0ae">setDebugStream</a> (java.io.PrintStream ds)</td></tr>
+<tr class="separator:a15623ca7dc3b7aec44887f3b1a48b0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77042153c98766c32da29d9c24d4bb52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a77042153c98766c32da29d9c24d4bb52">OWLFunctionalSyntaxParserTokenManager</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> stream)</td></tr>
+<tr class="separator:a77042153c98766c32da29d9c24d4bb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed8b85a063b52b73b8f4d2c1490ffa4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a8ed8b85a063b52b73b8f4d2c1490ffa4">OWLFunctionalSyntaxParserTokenManager</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:a8ed8b85a063b52b73b8f4d2c1490ffa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2c30a768eb1c4b7d8c17bc60d341cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a6e2c30a768eb1c4b7d8c17bc60d341cb">ReInit</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> stream)</td></tr>
+<tr class="separator:a6e2c30a768eb1c4b7d8c17bc60d341cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fb26145ad1d7406749d3a0d536c613"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#af4fb26145ad1d7406749d3a0d536c613">ReInit</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:af4fb26145ad1d7406749d3a0d536c613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa484c72a809f4488f7309ac250d98e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa484c72a809f4488f7309ac250d98e2e">SwitchTo</a> (int lexState)</td></tr>
+<tr class="separator:aa484c72a809f4488f7309ac250d98e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d79affda5777a906dedecd195ae47f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a9d79affda5777a906dedecd195ae47f1">getNextToken</a> ()</td></tr>
+<tr class="separator:a9d79affda5777a906dedecd195ae47f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a83674cdd645bf385e5feca51333c6739"><td class="memItemLeft" align="right" valign="top">java.io.PrintStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a83674cdd645bf385e5feca51333c6739">debugStream</a> = System.out</td></tr>
+<tr class="separator:a83674cdd645bf385e5feca51333c6739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserConstants</a></td></tr>
+<tr class="memitem:aaede7517fb6504a114368863e3a99a19 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aaede7517fb6504a114368863e3a99a19">EOF</a> = 0</td></tr>
+<tr class="separator:aaede7517fb6504a114368863e3a99a19 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331384295055270c28849cef816539ae inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a331384295055270c28849cef816539ae">COMMENT_START</a> = 5</td></tr>
+<tr class="separator:a331384295055270c28849cef816539ae inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a0efe5026bdfdfcc509b7f128bf2d0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a75a0efe5026bdfdfcc509b7f128bf2d0">STRINGLITERAL_START</a> = 8</td></tr>
+<tr class="separator:a75a0efe5026bdfdfcc509b7f128bf2d0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0959aba62969fae52601a6f9abd836a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#af0959aba62969fae52601a6f9abd836a">ANY_ESCAPED_CHAR</a> = 9</td></tr>
+<tr class="separator:af0959aba62969fae52601a6f9abd836a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53c366bd0d8c7dbbfed108fb7b3ab04 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#af53c366bd0d8c7dbbfed108fb7b3ab04">ANY_CHAR</a> = 10</td></tr>
+<tr class="separator:af53c366bd0d8c7dbbfed108fb7b3ab04 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930f09147069f51d78bac7a92df7c1ef inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a930f09147069f51d78bac7a92df7c1ef">STRINGLITERAL</a> = 11</td></tr>
+<tr class="separator:a930f09147069f51d78bac7a92df7c1ef inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3d22b463f7732aaad985be3a54e4f2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6b3d22b463f7732aaad985be3a54e4f2">OPENPAR</a> = 12</td></tr>
+<tr class="separator:a6b3d22b463f7732aaad985be3a54e4f2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35ad81ee151822fcd15ed7dbc2c6eb4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aa35ad81ee151822fcd15ed7dbc2c6eb4">CLOSEPAR</a> = 13</td></tr>
+<tr class="separator:aa35ad81ee151822fcd15ed7dbc2c6eb4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208b32e612fd64fb4303480a24ef1e86 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a208b32e612fd64fb4303480a24ef1e86">ONTOLOGY</a> = 14</td></tr>
+<tr class="separator:a208b32e612fd64fb4303480a24ef1e86 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbceac25c2d09d37bbb82a15629fa4e2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#adbceac25c2d09d37bbb82a15629fa4e2">LABEL</a> = 15</td></tr>
+<tr class="separator:adbceac25c2d09d37bbb82a15629fa4e2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c1df64615184260a57d9ae0f1c387bb inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9c1df64615184260a57d9ae0f1c387bb">IMPORT</a> = 16</td></tr>
+<tr class="separator:a9c1df64615184260a57d9ae0f1c387bb inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea4ff74e311f6382a0cb1de5adc12ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aaea4ff74e311f6382a0cb1de5adc12ca">COMMENT</a> = 17</td></tr>
+<tr class="separator:aaea4ff74e311f6382a0cb1de5adc12ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7b6959fa4589ea8c718871c6148d22 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6f7b6959fa4589ea8c718871c6148d22">SUBCLASSOF</a> = 18</td></tr>
+<tr class="separator:a6f7b6959fa4589ea8c718871c6148d22 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcca3a56858ade0ca3ce2afae7138658 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#abcca3a56858ade0ca3ce2afae7138658">LANGIDENTIFIER</a> = 19</td></tr>
+<tr class="separator:abcca3a56858ade0ca3ce2afae7138658 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c37dd3cd07d4287a500454792a0662 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a95c37dd3cd07d4287a500454792a0662">DATATYPEIDENTIFIER</a> = 20</td></tr>
+<tr class="separator:a95c37dd3cd07d4287a500454792a0662 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af982be92e05b98bcf8d5a3a341919036 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#af982be92e05b98bcf8d5a3a341919036">EQUIVALENTCLASSES</a> = 21</td></tr>
+<tr class="separator:af982be92e05b98bcf8d5a3a341919036 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dfc7b2205fc46de9b97fb486073eec inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a88dfc7b2205fc46de9b97fb486073eec">DISJOINTCLASSES</a> = 22</td></tr>
+<tr class="separator:a88dfc7b2205fc46de9b97fb486073eec inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1c84608e3cddbc750c121f59e49d61 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a2c1c84608e3cddbc750c121f59e49d61">DISJOINTUNION</a> = 23</td></tr>
+<tr class="separator:a2c1c84608e3cddbc750c121f59e49d61 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21117b2c38a5af9fdce8eee14a31cc22 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a21117b2c38a5af9fdce8eee14a31cc22">ANNOTATION</a> = 24</td></tr>
+<tr class="separator:a21117b2c38a5af9fdce8eee14a31cc22 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb34cd45b9cf90d0d5b32ff2ecc77d9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a2cb34cd45b9cf90d0d5b32ff2ecc77d9">ANNOTATIONPROPERTY</a> = 25</td></tr>
+<tr class="separator:a2cb34cd45b9cf90d0d5b32ff2ecc77d9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c45dea79e69ba74b9636082dc4707cf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9c45dea79e69ba74b9636082dc4707cf">ANNOTATIONASSERTION</a> = 26</td></tr>
+<tr class="separator:a9c45dea79e69ba74b9636082dc4707cf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cbb23ef001f97a6d2fb1d4b9f874b6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ab0cbb23ef001f97a6d2fb1d4b9f874b6">SUBANNOTATIONPROPERTYOF</a> = 27</td></tr>
+<tr class="separator:ab0cbb23ef001f97a6d2fb1d4b9f874b6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e3e37a24bc619a1396561cb7792472 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a90e3e37a24bc619a1396561cb7792472">ANNOTATIONPROPERTYDOMAIN</a> = 28</td></tr>
+<tr class="separator:a90e3e37a24bc619a1396561cb7792472 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87401bdf3a44c380804e7e457e533098 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a87401bdf3a44c380804e7e457e533098">ANNOTATIONPROPERTYRANGE</a> = 29</td></tr>
+<tr class="separator:a87401bdf3a44c380804e7e457e533098 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb42fb9b55abb348e1bab8ffce0f6522 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#acb42fb9b55abb348e1bab8ffce0f6522">HASKEY</a> = 30</td></tr>
+<tr class="separator:acb42fb9b55abb348e1bab8ffce0f6522 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b03ce66a57f10c768856b6d5d386bbf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a8b03ce66a57f10c768856b6d5d386bbf">DECLARATION</a> = 31</td></tr>
+<tr class="separator:a8b03ce66a57f10c768856b6d5d386bbf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a59cd076555d342f9131959eb9fb80a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6a59cd076555d342f9131959eb9fb80a">DOCUMENTATION</a> = 32</td></tr>
+<tr class="separator:a6a59cd076555d342f9131959eb9fb80a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021adf2330f8065de7fadaef7683f0b9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a021adf2330f8065de7fadaef7683f0b9">CLASS</a> = 33</td></tr>
+<tr class="separator:a021adf2330f8065de7fadaef7683f0b9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d857e5e0a05e3ccf36b03da51fbfd7c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6d857e5e0a05e3ccf36b03da51fbfd7c">OBJECTPROP</a> = 34</td></tr>
+<tr class="separator:a6d857e5e0a05e3ccf36b03da51fbfd7c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cfcddee2e33be06da8f6a8268cea60 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ac7cfcddee2e33be06da8f6a8268cea60">DATAPROP</a> = 35</td></tr>
+<tr class="separator:ac7cfcddee2e33be06da8f6a8268cea60 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791ab86824c24deb08bc1b91c62077b8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a791ab86824c24deb08bc1b91c62077b8">NAMEDINDIVIDUAL</a> = 36</td></tr>
+<tr class="separator:a791ab86824c24deb08bc1b91c62077b8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389ca0fdf2fe73373c5aba020222b549 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a389ca0fdf2fe73373c5aba020222b549">DATATYPE</a> = 37</td></tr>
+<tr class="separator:a389ca0fdf2fe73373c5aba020222b549 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c5cc9b5e29a3873e3cc4821793d00d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a39c5cc9b5e29a3873e3cc4821793d00d">DATAONEOF</a> = 38</td></tr>
+<tr class="separator:a39c5cc9b5e29a3873e3cc4821793d00d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fcedac525638582e5511bc6833e2d3 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ae4fcedac525638582e5511bc6833e2d3">DATAUNIONOF</a> = 39</td></tr>
+<tr class="separator:ae4fcedac525638582e5511bc6833e2d3 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa279e7af7e60b84a3b1c01e390bdb50 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#afa279e7af7e60b84a3b1c01e390bdb50">DATAINTERSECTIONOF</a> = 40</td></tr>
+<tr class="separator:afa279e7af7e60b84a3b1c01e390bdb50 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0502c231957783b37bd9466893d192ce inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a0502c231957783b37bd9466893d192ce">OBJECTONEOF</a> = 41</td></tr>
+<tr class="separator:a0502c231957783b37bd9466893d192ce inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1287ea4f64afc419e3a5a01857c9604 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ad1287ea4f64afc419e3a5a01857c9604">OBJECTUNIONOF</a> = 42</td></tr>
+<tr class="separator:ad1287ea4f64afc419e3a5a01857c9604 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172ff22276bca4ef56cd89f37d8b6f02 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a172ff22276bca4ef56cd89f37d8b6f02">OBJECTHASVALUE</a> = 43</td></tr>
+<tr class="separator:a172ff22276bca4ef56cd89f37d8b6f02 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770792ad5e2897c35587579d3e429892 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a770792ad5e2897c35587579d3e429892">OBJECTINVERSEOF</a> = 44</td></tr>
+<tr class="separator:a770792ad5e2897c35587579d3e429892 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60f9957aba659d72746d0e3724cf235 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ac60f9957aba659d72746d0e3724cf235">INVERSEOBJECTPROPERTIES</a> = 45</td></tr>
+<tr class="separator:ac60f9957aba659d72746d0e3724cf235 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97805c26771931554648a2e417a1cb87 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a97805c26771931554648a2e417a1cb87">DATACOMPLEMENTOF</a> = 46</td></tr>
+<tr class="separator:a97805c26771931554648a2e417a1cb87 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486b54a0c6adec6cc0904b15bc938301 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a486b54a0c6adec6cc0904b15bc938301">DATATYPERESTRICTION</a> = 47</td></tr>
+<tr class="separator:a486b54a0c6adec6cc0904b15bc938301 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560e6d3b601dc856c4ca6de7909d7f5d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a560e6d3b601dc856c4ca6de7909d7f5d">DATATYPEDEFINITION</a> = 48</td></tr>
+<tr class="separator:a560e6d3b601dc856c4ca6de7909d7f5d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd4a789e5e9b114d70aed487334f9e8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a8bd4a789e5e9b114d70aed487334f9e8">OBJECTINTERSECTIONOF</a> = 49</td></tr>
+<tr class="separator:a8bd4a789e5e9b114d70aed487334f9e8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce240b2d228856d3dabd99e4e1d7fa0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9ce240b2d228856d3dabd99e4e1d7fa0">OBJECTCOMPLEMENTOF</a> = 50</td></tr>
+<tr class="separator:a9ce240b2d228856d3dabd99e4e1d7fa0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4feccbe451fa386501d499e15efab6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a7e4feccbe451fa386501d499e15efab6">OBJECTALLVALUESFROM</a> = 51</td></tr>
+<tr class="separator:a7e4feccbe451fa386501d499e15efab6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d732846c417c766261ae0e48979699d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a5d732846c417c766261ae0e48979699d">OBJECTSOMEVALUESFROM</a> = 52</td></tr>
+<tr class="separator:a5d732846c417c766261ae0e48979699d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae221037d9247e80142c7efa999d7b4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#afae221037d9247e80142c7efa999d7b4">OBJECTHASSELF</a> = 53</td></tr>
+<tr class="separator:afae221037d9247e80142c7efa999d7b4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77826990b70452f37b660badd5fc534 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ab77826990b70452f37b660badd5fc534">OBJECTMINCARDINALITY</a> = 54</td></tr>
+<tr class="separator:ab77826990b70452f37b660badd5fc534 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a653b6ab1f161537c7f18a98239ce8d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a3a653b6ab1f161537c7f18a98239ce8d">OBJECTMAXCARDINALITY</a> = 55</td></tr>
+<tr class="separator:a3a653b6ab1f161537c7f18a98239ce8d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7fa475ea09881acf4f334ae2fb1b414 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#af7fa475ea09881acf4f334ae2fb1b414">OBJECTEXACTCARDINALITY</a> = 56</td></tr>
+<tr class="separator:af7fa475ea09881acf4f334ae2fb1b414 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109e34d0a260c25342634f838483183d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a109e34d0a260c25342634f838483183d">DATAALLVALUESFROM</a> = 57</td></tr>
+<tr class="separator:a109e34d0a260c25342634f838483183d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172e0166b4abf7dc93954fbbefa86fb8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a172e0166b4abf7dc93954fbbefa86fb8">DATASOMEVALUESFROM</a> = 58</td></tr>
+<tr class="separator:a172e0166b4abf7dc93954fbbefa86fb8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d54eefebea96fc2bb592808801d733e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a7d54eefebea96fc2bb592808801d733e">DATAHASVALUE</a> = 59</td></tr>
+<tr class="separator:a7d54eefebea96fc2bb592808801d733e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ce4ff7ebf4670a22f32d53b3084b8e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#af3ce4ff7ebf4670a22f32d53b3084b8e">DATAMINCARDINALITY</a> = 60</td></tr>
+<tr class="separator:af3ce4ff7ebf4670a22f32d53b3084b8e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1366855bc06bc51d1f375d2431bf1cb9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a1366855bc06bc51d1f375d2431bf1cb9">DATAMAXCARDINALITY</a> = 61</td></tr>
+<tr class="separator:a1366855bc06bc51d1f375d2431bf1cb9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad263322f118d0c7e57db2e58071c65a5 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ad263322f118d0c7e57db2e58071c65a5">DATAEXACTCARDINALITY</a> = 62</td></tr>
+<tr class="separator:ad263322f118d0c7e57db2e58071c65a5 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07fea0262841919ddbc34203cbd16cb2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a07fea0262841919ddbc34203cbd16cb2">SUBOBJECTPROPERTYCHAIN</a> = 63</td></tr>
+<tr class="separator:a07fea0262841919ddbc34203cbd16cb2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e3774e1276eeb9ff885fd32a1d89fb inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a24e3774e1276eeb9ff885fd32a1d89fb">SUBOBJECTPROPERTYOF</a> = 64</td></tr>
+<tr class="separator:a24e3774e1276eeb9ff885fd32a1d89fb inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef317d24e9e1de55e08015163f84d461 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aef317d24e9e1de55e08015163f84d461">EQUIVALENTOBJECTPROPERTIES</a> = 65</td></tr>
+<tr class="separator:aef317d24e9e1de55e08015163f84d461 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa90534e9fe7fa329a90ad869fb6a890 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aaa90534e9fe7fa329a90ad869fb6a890">DISJOINTOBJECTPROPERTIES</a> = 66</td></tr>
+<tr class="separator:aaa90534e9fe7fa329a90ad869fb6a890 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4e03aa2f2930d6c6be8f54a7610b6a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a4e4e03aa2f2930d6c6be8f54a7610b6a">OBJECTPROPERTYDOMAIN</a> = 67</td></tr>
+<tr class="separator:a4e4e03aa2f2930d6c6be8f54a7610b6a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4521777ab97513dbb68fcccdf3f7c59e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a4521777ab97513dbb68fcccdf3f7c59e">OBJECTPROPERTYRANGE</a> = 68</td></tr>
+<tr class="separator:a4521777ab97513dbb68fcccdf3f7c59e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebb1d4f31e9d4c4e83e4ba41d34ebc9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aaebb1d4f31e9d4c4e83e4ba41d34ebc9">FUNCTIONALOBJECTPROPERTY</a> = 69</td></tr>
+<tr class="separator:aaebb1d4f31e9d4c4e83e4ba41d34ebc9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc6ddd050dc050552cfe44225300bc3 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#afbc6ddd050dc050552cfe44225300bc3">INVERSEFUNCTIONALOBJECTPROPERTY</a> = 70</td></tr>
+<tr class="separator:afbc6ddd050dc050552cfe44225300bc3 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb767e538fe1ba433f7c23115750d736 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#adb767e538fe1ba433f7c23115750d736">REFLEXIVEOBJECTPROPERTY</a> = 71</td></tr>
+<tr class="separator:adb767e538fe1ba433f7c23115750d736 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95b6059648e829650d04b602812ecdf6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a95b6059648e829650d04b602812ecdf6">IRREFLEXIVEOBJECTPROPERTY</a> = 72</td></tr>
+<tr class="separator:a95b6059648e829650d04b602812ecdf6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a746205f2acc7ebbd175eec48916057 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a4a746205f2acc7ebbd175eec48916057">SYMMETRICOBJECTPROPERTY</a> = 73</td></tr>
+<tr class="separator:a4a746205f2acc7ebbd175eec48916057 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3244f97a8c43811e756e9a06d2557faf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a3244f97a8c43811e756e9a06d2557faf">ASYMMETRICOBJECTPROPERTY</a> = 74</td></tr>
+<tr class="separator:a3244f97a8c43811e756e9a06d2557faf inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0cbddef93c0a76f8f34b6ddfcab620a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ad0cbddef93c0a76f8f34b6ddfcab620a">TRANSITIVEOBJECTPROPERTY</a> = 75</td></tr>
+<tr class="separator:ad0cbddef93c0a76f8f34b6ddfcab620a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a850a0d63e71e00925fb5c7e4c242f559 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a850a0d63e71e00925fb5c7e4c242f559">SUBDATAPROPERTYOF</a> = 76</td></tr>
+<tr class="separator:a850a0d63e71e00925fb5c7e4c242f559 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94697317f767800576b537b80c56ff71 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a94697317f767800576b537b80c56ff71">EQUIVALENTDATAPROPERTIES</a> = 77</td></tr>
+<tr class="separator:a94697317f767800576b537b80c56ff71 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5692c05569121ce84c4ef32238dad26f inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a5692c05569121ce84c4ef32238dad26f">DISJOINTDATAPROPERTIES</a> = 78</td></tr>
+<tr class="separator:a5692c05569121ce84c4ef32238dad26f inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684e3dfbb5245f39e197465afe07f729 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a684e3dfbb5245f39e197465afe07f729">DATAPROPERTYDOMAIN</a> = 79</td></tr>
+<tr class="separator:a684e3dfbb5245f39e197465afe07f729 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3094c5851f2e573e86471c603f1a30b2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a3094c5851f2e573e86471c603f1a30b2">DATAPROPERTYRANGE</a> = 80</td></tr>
+<tr class="separator:a3094c5851f2e573e86471c603f1a30b2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081ee29bc8b96fe49b892c2e576308c0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a081ee29bc8b96fe49b892c2e576308c0">FUNCTIONALDATAPROPERTY</a> = 81</td></tr>
+<tr class="separator:a081ee29bc8b96fe49b892c2e576308c0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b2ce7bdd9c53f9a397bd4d139999c0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a73b2ce7bdd9c53f9a397bd4d139999c0">SAMEINDIVIDUAL</a> = 82</td></tr>
+<tr class="separator:a73b2ce7bdd9c53f9a397bd4d139999c0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbe6b5a2ec2ec5d3b07e1507ec60104 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6bbe6b5a2ec2ec5d3b07e1507ec60104">DIFFERENTINDIVIDUALS</a> = 83</td></tr>
+<tr class="separator:a6bbe6b5a2ec2ec5d3b07e1507ec60104 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b4936b0de0c1d64623636867a48a10 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a26b4936b0de0c1d64623636867a48a10">CLASSASSERTION</a> = 84</td></tr>
+<tr class="separator:a26b4936b0de0c1d64623636867a48a10 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de405d769eec669ce7459674e13f2cd inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9de405d769eec669ce7459674e13f2cd">OBJECTPROPERTYASSERTION</a> = 85</td></tr>
+<tr class="separator:a9de405d769eec669ce7459674e13f2cd inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac450db2c101f856b5a6586346692aa84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ac450db2c101f856b5a6586346692aa84">NEGATIVEOBJECTPROPERTYASSERTION</a> = 86</td></tr>
+<tr class="separator:ac450db2c101f856b5a6586346692aa84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5427e1fd874d00bb0feae3df745754fa inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a5427e1fd874d00bb0feae3df745754fa">DATAPROPERTYASSERTION</a> = 87</td></tr>
+<tr class="separator:a5427e1fd874d00bb0feae3df745754fa inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac428fe813d2105ea4ef6d20c25b14862 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ac428fe813d2105ea4ef6d20c25b14862">NEGATIVEDATAPROPERTYASSERTION</a> = 88</td></tr>
+<tr class="separator:ac428fe813d2105ea4ef6d20c25b14862 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc908dc2b19fe4098297d07da886b9b1 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#acc908dc2b19fe4098297d07da886b9b1">PREFIX</a> = 89</td></tr>
+<tr class="separator:acc908dc2b19fe4098297d07da886b9b1 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606e8afcf818dc090b818d21148e4aa8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a606e8afcf818dc090b818d21148e4aa8">LENGTH</a> = 90</td></tr>
+<tr class="separator:a606e8afcf818dc090b818d21148e4aa8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed48cb375e7fec6ac543db8cd0c14323 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aed48cb375e7fec6ac543db8cd0c14323">MINLENGTH</a> = 91</td></tr>
+<tr class="separator:aed48cb375e7fec6ac543db8cd0c14323 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac822656514a7f9570bb8fa88b6cdd4b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aac822656514a7f9570bb8fa88b6cdd4b">MAXLENGTH</a> = 92</td></tr>
+<tr class="separator:aac822656514a7f9570bb8fa88b6cdd4b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8253d14d6a9515d632a386b7f3db06c8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a8253d14d6a9515d632a386b7f3db06c8">PATTERN</a> = 93</td></tr>
+<tr class="separator:a8253d14d6a9515d632a386b7f3db06c8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401fc929f2b6e0bc50e19e902556105d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a401fc929f2b6e0bc50e19e902556105d">MININCLUSIVE</a> = 94</td></tr>
+<tr class="separator:a401fc929f2b6e0bc50e19e902556105d inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852973d217a3c8578a5eee88809d9989 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a852973d217a3c8578a5eee88809d9989">MAXINCLUSIVE</a> = 95</td></tr>
+<tr class="separator:a852973d217a3c8578a5eee88809d9989 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0687df123e0166942c8f40d9f7f2462e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a0687df123e0166942c8f40d9f7f2462e">MINEXCLUSIVE</a> = 96</td></tr>
+<tr class="separator:a0687df123e0166942c8f40d9f7f2462e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b39f838250746e1e2450b2bc8240070 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9b39f838250746e1e2450b2bc8240070">MAXEXCLUSIVE</a> = 97</td></tr>
+<tr class="separator:a9b39f838250746e1e2450b2bc8240070 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2457b14babc3f956c83b9c4b9d9382 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6c2457b14babc3f956c83b9c4b9d9382">TOTALDIGITS</a> = 98</td></tr>
+<tr class="separator:a6c2457b14babc3f956c83b9c4b9d9382 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7bd13245902f28424aa56e8d503d67 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#abb7bd13245902f28424aa56e8d503d67">FRACTIONDIGITS</a> = 99</td></tr>
+<tr class="separator:abb7bd13245902f28424aa56e8d503d67 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1250019c76abebe721f69bda7907f9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#abf1250019c76abebe721f69bda7907f9">DLSAFERULE</a> = 100</td></tr>
+<tr class="separator:abf1250019c76abebe721f69bda7907f9 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7121a39565d788cf58ea6ffe525f1973 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a7121a39565d788cf58ea6ffe525f1973">BODY</a> = 101</td></tr>
+<tr class="separator:a7121a39565d788cf58ea6ffe525f1973 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c327fca1670f322526604bfd383bf2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a86c327fca1670f322526604bfd383bf2">HEAD</a> = 102</td></tr>
+<tr class="separator:a86c327fca1670f322526604bfd383bf2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421e23fad2cb60604f76ee7b9f20d18f inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a421e23fad2cb60604f76ee7b9f20d18f">CLASSATOM</a> = 103</td></tr>
+<tr class="separator:a421e23fad2cb60604f76ee7b9f20d18f inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b23423857bb412d186637fbbaec3066 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9b23423857bb412d186637fbbaec3066">DATARANGEATOM</a> = 104</td></tr>
+<tr class="separator:a9b23423857bb412d186637fbbaec3066 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7efba31a5fe3cd085208f7771b7106 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ade7efba31a5fe3cd085208f7771b7106">OBJECTPROPERTYATOM</a> = 105</td></tr>
+<tr class="separator:ade7efba31a5fe3cd085208f7771b7106 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01675daee719ea167e6f91b04bb756bc inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a01675daee719ea167e6f91b04bb756bc">DATAPROPERTYATOM</a> = 106</td></tr>
+<tr class="separator:a01675daee719ea167e6f91b04bb756bc inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81525e68f171a0e3e4de9f1a4e636766 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a81525e68f171a0e3e4de9f1a4e636766">BUILTINATOM</a> = 107</td></tr>
+<tr class="separator:a81525e68f171a0e3e4de9f1a4e636766 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ceb8ba2161c455d4eb5db00fba26ad inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a74ceb8ba2161c455d4eb5db00fba26ad">SAMEINDIVIDUALATOM</a> = 108</td></tr>
+<tr class="separator:a74ceb8ba2161c455d4eb5db00fba26ad inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf0310735198ff7fec46b6174727a93 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a8bf0310735198ff7fec46b6174727a93">DIFFERENTINDIVIDUALSATOM</a> = 109</td></tr>
+<tr class="separator:a8bf0310735198ff7fec46b6174727a93 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1915c758fa6537676d99ecb7bb2dc2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aea1915c758fa6537676d99ecb7bb2dc2">VARIABLE</a> = 110</td></tr>
+<tr class="separator:aea1915c758fa6537676d99ecb7bb2dc2 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558bfa602e03586d4d59c34258374c97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a558bfa602e03586d4d59c34258374c97">DGRULE</a> = 111</td></tr>
+<tr class="separator:a558bfa602e03586d4d59c34258374c97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465574c9354ddde6a1d6a2c53b908617 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a465574c9354ddde6a1d6a2c53b908617">DESCRIPTIONGRAPH</a> = 112</td></tr>
+<tr class="separator:a465574c9354ddde6a1d6a2c53b908617 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33285838c58563c79e90dd6b6dda582 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ae33285838c58563c79e90dd6b6dda582">NODES</a> = 113</td></tr>
+<tr class="separator:ae33285838c58563c79e90dd6b6dda582 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09175376fc34f5840952c0c775107bf5 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a09175376fc34f5840952c0c775107bf5">NODEASSERTION</a> = 114</td></tr>
+<tr class="separator:a09175376fc34f5840952c0c775107bf5 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6debdf30f44de775d44de7506416cdb1 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6debdf30f44de775d44de7506416cdb1">EDGES</a> = 115</td></tr>
+<tr class="separator:a6debdf30f44de775d44de7506416cdb1 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a680d938d5677ca5e5832fc0ab0df7f2c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a680d938d5677ca5e5832fc0ab0df7f2c">EDGEASSERTION</a> = 116</td></tr>
+<tr class="separator:a680d938d5677ca5e5832fc0ab0df7f2c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c06a49714d1f9ac797209508df80bb6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9c06a49714d1f9ac797209508df80bb6">MAINCLASSES</a> = 117</td></tr>
+<tr class="separator:a9c06a49714d1f9ac797209508df80bb6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f99e6217f79fcf31d7e382f0f4a5e4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a07f99e6217f79fcf31d7e382f0f4a5e4">EQUALS</a> = 118</td></tr>
+<tr class="separator:a07f99e6217f79fcf31d7e382f0f4a5e4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7ac0d7a775b306e522cef27bec6bc0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#abc7ac0d7a775b306e522cef27bec6bc0">INT</a> = 119</td></tr>
+<tr class="separator:abc7ac0d7a775b306e522cef27bec6bc0 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d46995fe95d310feb9a60e9b1f95b95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6d46995fe95d310feb9a60e9b1f95b95">FULLIRI</a> = 120</td></tr>
+<tr class="separator:a6d46995fe95d310feb9a60e9b1f95b95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b4b6dc9a08d277b2beafc17d3cba97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a74b4b6dc9a08d277b2beafc17d3cba97">PNAME_NS</a> = 121</td></tr>
+<tr class="separator:a74b4b6dc9a08d277b2beafc17d3cba97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84da96b215cec4b90e89242c154e64d4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a84da96b215cec4b90e89242c154e64d4">PN_LOCAL</a> = 122</td></tr>
+<tr class="separator:a84da96b215cec4b90e89242c154e64d4 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e323359023e22033cf887af0ea3b87 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a73e323359023e22033cf887af0ea3b87">PNAME_LN</a> = 123</td></tr>
+<tr class="separator:a73e323359023e22033cf887af0ea3b87 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22d9784b88671c99c6f3a288f2b4268 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#ac22d9784b88671c99c6f3a288f2b4268">PN_PREFIX</a> = 124</td></tr>
+<tr class="separator:ac22d9784b88671c99c6f3a288f2b4268 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508ca5fe442caee875eebd6b9e1ab308 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a508ca5fe442caee875eebd6b9e1ab308">PN_CHARS_BASE</a> = 125</td></tr>
+<tr class="separator:a508ca5fe442caee875eebd6b9e1ab308 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6835ba2549501ecb48345674e9e10879 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a6835ba2549501ecb48345674e9e10879">PN_CHARS</a> = 126</td></tr>
+<tr class="separator:a6835ba2549501ecb48345674e9e10879 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998c19b6ebc0bf0bc4dce9780ef15580 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a998c19b6ebc0bf0bc4dce9780ef15580">PN_CHARS_U</a> = 127</td></tr>
+<tr class="separator:a998c19b6ebc0bf0bc4dce9780ef15580 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f22fd1aed8735dc2936e61768ef4de8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a2f22fd1aed8735dc2936e61768ef4de8">NODEID</a> = 128</td></tr>
+<tr class="separator:a2f22fd1aed8735dc2936e61768ef4de8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5b3dcedb28ad782d98e76d7fa06961 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a9a5b3dcedb28ad782d98e76d7fa06961">ERROR</a> = 129</td></tr>
+<tr class="separator:a9a5b3dcedb28ad782d98e76d7fa06961 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec454c082de26d1e06f5a95fa8f4579 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#aeec454c082de26d1e06f5a95fa8f4579">DEFAULT</a> = 0</td></tr>
+<tr class="separator:aeec454c082de26d1e06f5a95fa8f4579 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370b149cb5ad8d20c33c7665ccd3f173 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a370b149cb5ad8d20c33c7665ccd3f173">IN_COMMENT</a> = 1</td></tr>
+<tr class="separator:a370b149cb5ad8d20c33c7665ccd3f173 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f390b40242dba117c40e54ad6ac8e6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a46f390b40242dba117c40e54ad6ac8e6">IN_STRING_LITERAL</a> = 2</td></tr>
+<tr class="separator:a46f390b40242dba117c40e54ad6ac8e6 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b2687775b002c0a2221643071413dc inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants.html#a87b2687775b002c0a2221643071413dc">tokenImage</a></td></tr>
+<tr class="separator:a87b2687775b002c0a2221643071413dc inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa5e0f1069a6b0d2d65e44c9fb56168df"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa5e0f1069a6b0d2d65e44c9fb56168df">jjstrLiteralImages</a></td></tr>
+<tr class="separator:aa5e0f1069a6b0d2d65e44c9fb56168df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbcb1479fa6cc2f6edfbd5caf3042d75"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#abbcb1479fa6cc2f6edfbd5caf3042d75">lexStateNames</a></td></tr>
+<tr class="separator:abbcb1479fa6cc2f6edfbd5caf3042d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5534edaab674779ff1383d20f034142b"><td class="memItemLeft" align="right" valign="top">static final int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a></td></tr>
+<tr class="separator:a5534edaab674779ff1383d20f034142b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ac3c025a9ba6b1568055b5fbba018734a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#ac3c025a9ba6b1568055b5fbba018734a">jjFillToken</a> ()</td></tr>
+<tr class="separator:ac3c025a9ba6b1568055b5fbba018734a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a086cef9a2411c7e7f5cb6a8b1b10b826"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">input_stream</a></td></tr>
+<tr class="separator:a086cef9a2411c7e7f5cb6a8b1b10b826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403ae4332b19bd838d518d9d62d42cf2"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a></td></tr>
+<tr class="separator:a403ae4332b19bd838d518d9d62d42cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a> Manager. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l00005">5</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a77042153c98766c32da29d9c24d4bb52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.OWLFunctionalSyntaxParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02930">2930</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02930"></a><span class="lineno"> 2930</span>&#160;                                                                   {</div>
+<div class="line"><a name="l02931"></a><span class="lineno"> 2931</span>&#160;   <span class="keywordflow">if</span> (JavaCharStream.staticFlag)</div>
+<div class="line"><a name="l02932"></a><span class="lineno"> 2932</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> Error(<span class="stringliteral">&quot;ERROR: Cannot use a static CharStream class with a non-static lexical analyzer.&quot;</span>);</div>
+<div class="line"><a name="l02933"></a><span class="lineno"> 2933</span>&#160;   <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">input_stream</a> = stream;</div>
+<div class="line"><a name="l02934"></a><span class="lineno"> 2934</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a086cef9a2411c7e7f5cb6a8b1b10b826"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02925">OWLFunctionalSyntaxParserTokenManager.java:2925</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8ed8b85a063b52b73b8f4d2c1490ffa4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.OWLFunctionalSyntaxParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02937">2937</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02937"></a><span class="lineno"> 2937</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l02938"></a><span class="lineno"> 2938</span>&#160;   <span class="keyword">this</span>(stream);</div>
+<div class="line"><a name="l02939"></a><span class="lineno"> 2939</span>&#160;   <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa484c72a809f4488f7309ac250d98e2e">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l02940"></a><span class="lineno"> 2940</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_aa484c72a809f4488f7309ac250d98e2e"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa484c72a809f4488f7309ac250d98e2e">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02966">OWLFunctionalSyntaxParserTokenManager.java:2966</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a9d79affda5777a906dedecd195ae47f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a> org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.getNextToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the next <a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l03006">3006</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l03007"></a><span class="lineno"> 3007</span>&#160;{</div>
+<div class="line"><a name="l03008"></a><span class="lineno"> 3008</span>&#160;  Token matchedToken;</div>
+<div class="line"><a name="l03009"></a><span class="lineno"> 3009</span>&#160;  <span class="keywordtype">int</span> curPos = 0;</div>
+<div class="line"><a name="l03010"></a><span class="lineno"> 3010</span>&#160;</div>
+<div class="line"><a name="l03011"></a><span class="lineno"> 3011</span>&#160;  EOFLoop :</div>
+<div class="line"><a name="l03012"></a><span class="lineno"> 3012</span>&#160;  <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l03013"></a><span class="lineno"> 3013</span>&#160;  {</div>
+<div class="line"><a name="l03014"></a><span class="lineno"> 3014</span>&#160;   <span class="keywordflow">try</span></div>
+<div class="line"><a name="l03015"></a><span class="lineno"> 3015</span>&#160;   {</div>
+<div class="line"><a name="l03016"></a><span class="lineno"> 3016</span>&#160;      <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> = input_stream.BeginToken();</div>
+<div class="line"><a name="l03017"></a><span class="lineno"> 3017</span>&#160;   }</div>
+<div class="line"><a name="l03018"></a><span class="lineno"> 3018</span>&#160;   <span class="keywordflow">catch</span>(java.io.IOException e)</div>
+<div class="line"><a name="l03019"></a><span class="lineno"> 3019</span>&#160;   {</div>
+<div class="line"><a name="l03020"></a><span class="lineno"> 3020</span>&#160;      jjmatchedKind = 0;</div>
+<div class="line"><a name="l03021"></a><span class="lineno"> 3021</span>&#160;      matchedToken = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#ac3c025a9ba6b1568055b5fbba018734a">jjFillToken</a>();</div>
+<div class="line"><a name="l03022"></a><span class="lineno"> 3022</span>&#160;      <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l03023"></a><span class="lineno"> 3023</span>&#160;   }</div>
+<div class="line"><a name="l03024"></a><span class="lineno"> 3024</span>&#160;</div>
+<div class="line"><a name="l03025"></a><span class="lineno"> 3025</span>&#160;   <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l03026"></a><span class="lineno"> 3026</span>&#160;   {</div>
+<div class="line"><a name="l03027"></a><span class="lineno"> 3027</span>&#160;     <span class="keywordflow">switch</span>(curLexState)</div>
+<div class="line"><a name="l03028"></a><span class="lineno"> 3028</span>&#160;     {</div>
+<div class="line"><a name="l03029"></a><span class="lineno"> 3029</span>&#160;       <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l03030"></a><span class="lineno"> 3030</span>&#160;         <span class="keywordflow">try</span> { input_stream.backup(0);</div>
+<div class="line"><a name="l03031"></a><span class="lineno"> 3031</span>&#160;            <span class="keywordflow">while</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> &lt;= 32 &amp;&amp; (0x100002600L &amp; (1L &lt;&lt; <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a>)) != 0L)</div>
+<div class="line"><a name="l03032"></a><span class="lineno"> 3032</span>&#160;               <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">input_stream</a>.<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">BeginToken</a>();</div>
+<div class="line"><a name="l03033"></a><span class="lineno"> 3033</span>&#160;         }</div>
+<div class="line"><a name="l03034"></a><span class="lineno"> 3034</span>&#160;         <span class="keywordflow">catch</span> (java.io.IOException e1) { <span class="keywordflow">continue</span> EOFLoop; }</div>
+<div class="line"><a name="l03035"></a><span class="lineno"> 3035</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l03036"></a><span class="lineno"> 3036</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l03037"></a><span class="lineno"> 3037</span>&#160;         curPos = jjMoveStringLiteralDfa0_0();</div>
+<div class="line"><a name="l03038"></a><span class="lineno"> 3038</span>&#160;         <span class="keywordflow">if</span> (jjmatchedPos == 0 &amp;&amp; jjmatchedKind &gt; 129)</div>
+<div class="line"><a name="l03039"></a><span class="lineno"> 3039</span>&#160;         {</div>
+<div class="line"><a name="l03040"></a><span class="lineno"> 3040</span>&#160;            jjmatchedKind = 129;</div>
+<div class="line"><a name="l03041"></a><span class="lineno"> 3041</span>&#160;         }</div>
+<div class="line"><a name="l03042"></a><span class="lineno"> 3042</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l03043"></a><span class="lineno"> 3043</span>&#160;       <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l03044"></a><span class="lineno"> 3044</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l03045"></a><span class="lineno"> 3045</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l03046"></a><span class="lineno"> 3046</span>&#160;         curPos = jjMoveStringLiteralDfa0_1();</div>
+<div class="line"><a name="l03047"></a><span class="lineno"> 3047</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l03048"></a><span class="lineno"> 3048</span>&#160;       <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l03049"></a><span class="lineno"> 3049</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l03050"></a><span class="lineno"> 3050</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l03051"></a><span class="lineno"> 3051</span>&#160;         curPos = jjMoveStringLiteralDfa0_2();</div>
+<div class="line"><a name="l03052"></a><span class="lineno"> 3052</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l03053"></a><span class="lineno"> 3053</span>&#160;     }</div>
+<div class="line"><a name="l03054"></a><span class="lineno"> 3054</span>&#160;     <span class="keywordflow">if</span> (jjmatchedKind != 0x7fffffff)</div>
+<div class="line"><a name="l03055"></a><span class="lineno"> 3055</span>&#160;     {</div>
+<div class="line"><a name="l03056"></a><span class="lineno"> 3056</span>&#160;        <span class="keywordflow">if</span> (jjmatchedPos + 1 &lt; curPos)</div>
+<div class="line"><a name="l03057"></a><span class="lineno"> 3057</span>&#160;           input_stream.backup(curPos - jjmatchedPos - 1);</div>
+<div class="line"><a name="l03058"></a><span class="lineno"> 3058</span>&#160;        <span class="keywordflow">if</span> ((jjtoToken[jjmatchedKind &gt;&gt; 6] &amp; (1L &lt;&lt; (jjmatchedKind &amp; 077))) != 0L)</div>
+<div class="line"><a name="l03059"></a><span class="lineno"> 3059</span>&#160;        {</div>
+<div class="line"><a name="l03060"></a><span class="lineno"> 3060</span>&#160;           matchedToken = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#ac3c025a9ba6b1568055b5fbba018734a">jjFillToken</a>();</div>
+<div class="line"><a name="l03061"></a><span class="lineno"> 3061</span>&#160;       <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l03062"></a><span class="lineno"> 3062</span>&#160;         curLexState = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l03063"></a><span class="lineno"> 3063</span>&#160;           <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l03064"></a><span class="lineno"> 3064</span>&#160;        }</div>
+<div class="line"><a name="l03065"></a><span class="lineno"> 3065</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((jjtoSkip[jjmatchedKind &gt;&gt; 6] &amp; (1L &lt;&lt; (jjmatchedKind &amp; 077))) != 0L)</div>
+<div class="line"><a name="l03066"></a><span class="lineno"> 3066</span>&#160;        {</div>
+<div class="line"><a name="l03067"></a><span class="lineno"> 3067</span>&#160;         <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l03068"></a><span class="lineno"> 3068</span>&#160;           curLexState = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l03069"></a><span class="lineno"> 3069</span>&#160;           <span class="keywordflow">continue</span> EOFLoop;</div>
+<div class="line"><a name="l03070"></a><span class="lineno"> 3070</span>&#160;        }</div>
+<div class="line"><a name="l03071"></a><span class="lineno"> 3071</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l03072"></a><span class="lineno"> 3072</span>&#160;        curLexState = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l03073"></a><span class="lineno"> 3073</span>&#160;        curPos = 0;</div>
+<div class="line"><a name="l03074"></a><span class="lineno"> 3074</span>&#160;        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l03075"></a><span class="lineno"> 3075</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l03076"></a><span class="lineno"> 3076</span>&#160;           <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> = input_stream.readChar();</div>
+<div class="line"><a name="l03077"></a><span class="lineno"> 3077</span>&#160;           <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l03078"></a><span class="lineno"> 3078</span>&#160;        }</div>
+<div class="line"><a name="l03079"></a><span class="lineno"> 3079</span>&#160;        <span class="keywordflow">catch</span> (java.io.IOException e1) { }</div>
+<div class="line"><a name="l03080"></a><span class="lineno"> 3080</span>&#160;     }</div>
+<div class="line"><a name="l03081"></a><span class="lineno"> 3081</span>&#160;     <span class="keywordtype">int</span> error_line = input_stream.getEndLine();</div>
+<div class="line"><a name="l03082"></a><span class="lineno"> 3082</span>&#160;     <span class="keywordtype">int</span> error_column = input_stream.getEndColumn();</div>
+<div class="line"><a name="l03083"></a><span class="lineno"> 3083</span>&#160;     String error_after = null;</div>
+<div class="line"><a name="l03084"></a><span class="lineno"> 3084</span>&#160;     <span class="keywordtype">boolean</span> EOFSeen = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l03085"></a><span class="lineno"> 3085</span>&#160;     <span class="keywordflow">try</span> { input_stream.readChar(); input_stream.backup(1); }</div>
+<div class="line"><a name="l03086"></a><span class="lineno"> 3086</span>&#160;     <span class="keywordflow">catch</span> (java.io.IOException e1) {</div>
+<div class="line"><a name="l03087"></a><span class="lineno"> 3087</span>&#160;        EOFSeen = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l03088"></a><span class="lineno"> 3088</span>&#160;        error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l03089"></a><span class="lineno"> 3089</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> == <span class="charliteral">&#39;\n&#39;</span> || <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a> == <span class="charliteral">&#39;\r&#39;</span>) {</div>
+<div class="line"><a name="l03090"></a><span class="lineno"> 3090</span>&#160;           error_line++;</div>
+<div class="line"><a name="l03091"></a><span class="lineno"> 3091</span>&#160;           error_column = 0;</div>
+<div class="line"><a name="l03092"></a><span class="lineno"> 3092</span>&#160;        }</div>
+<div class="line"><a name="l03093"></a><span class="lineno"> 3093</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l03094"></a><span class="lineno"> 3094</span>&#160;           error_column++;</div>
+<div class="line"><a name="l03095"></a><span class="lineno"> 3095</span>&#160;     }</div>
+<div class="line"><a name="l03096"></a><span class="lineno"> 3096</span>&#160;     <span class="keywordflow">if</span> (!EOFSeen) {</div>
+<div class="line"><a name="l03097"></a><span class="lineno"> 3097</span>&#160;        input_stream.backup(1);</div>
+<div class="line"><a name="l03098"></a><span class="lineno"> 3098</span>&#160;        error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l03099"></a><span class="lineno"> 3099</span>&#160;     }</div>
+<div class="line"><a name="l03100"></a><span class="lineno"> 3100</span>&#160;     <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(EOFSeen, curLexState, error_line, error_column, error_after, <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">curChar</a>, TokenMgrError.LEXICAL_ERROR);</div>
+<div class="line"><a name="l03101"></a><span class="lineno"> 3101</span>&#160;   }</div>
+<div class="line"><a name="l03102"></a><span class="lineno"> 3102</span>&#160;  }</div>
+<div class="line"><a name="l03103"></a><span class="lineno"> 3103</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a403ae4332b19bd838d518d9d62d42cf2"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a403ae4332b19bd838d518d9d62d42cf2">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.curChar</a></div><div class="ttdeci">char curChar</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02928">OWLFunctionalSyntaxParserTokenManager.java:2928</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a086cef9a2411c7e7f5cb6a8b1b10b826"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02925">OWLFunctionalSyntaxParserTokenManager.java:2925</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a5920c61b477775b3ecfc2ec254942824"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">uk.ac.manchester.cs.BOMSafeJavaCharStream.BeginToken</a></div><div class="ttdeci">char BeginToken()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00197">BOMSafeJavaCharStream.java:197</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_ac3c025a9ba6b1568055b5fbba018734a"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#ac3c025a9ba6b1568055b5fbba018734a">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjFillToken</a></div><div class="ttdeci">Token jjFillToken()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02974">OWLFunctionalSyntaxParserTokenManager.java:2974</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a5534edaab674779ff1383d20f034142b"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a5534edaab674779ff1383d20f034142b">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjnewLexState</a></div><div class="ttdeci">static final int[] jjnewLexState</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02908">OWLFunctionalSyntaxParserTokenManager.java:2908</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac3c025a9ba6b1568055b5fbba018734a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a> org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjFillToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02974">2974</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02975"></a><span class="lineno"> 2975</span>&#160;{</div>
+<div class="line"><a name="l02976"></a><span class="lineno"> 2976</span>&#160;   <span class="keyword">final</span> Token t;</div>
+<div class="line"><a name="l02977"></a><span class="lineno"> 2977</span>&#160;   <span class="keyword">final</span> String curTokenImage;</div>
+<div class="line"><a name="l02978"></a><span class="lineno"> 2978</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> beginLine;</div>
+<div class="line"><a name="l02979"></a><span class="lineno"> 2979</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> endLine;</div>
+<div class="line"><a name="l02980"></a><span class="lineno"> 2980</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> beginColumn;</div>
+<div class="line"><a name="l02981"></a><span class="lineno"> 2981</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> endColumn;</div>
+<div class="line"><a name="l02982"></a><span class="lineno"> 2982</span>&#160;   String im = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa5e0f1069a6b0d2d65e44c9fb56168df">jjstrLiteralImages</a>[jjmatchedKind];</div>
+<div class="line"><a name="l02983"></a><span class="lineno"> 2983</span>&#160;   curTokenImage = (im == null) ? <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">input_stream</a>.<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">GetImage</a>() : im;</div>
+<div class="line"><a name="l02984"></a><span class="lineno"> 2984</span>&#160;   beginLine = input_stream.getBeginLine();</div>
+<div class="line"><a name="l02985"></a><span class="lineno"> 2985</span>&#160;   beginColumn = input_stream.getBeginColumn();</div>
+<div class="line"><a name="l02986"></a><span class="lineno"> 2986</span>&#160;   endLine = input_stream.getEndLine();</div>
+<div class="line"><a name="l02987"></a><span class="lineno"> 2987</span>&#160;   endColumn = input_stream.getEndColumn();</div>
+<div class="line"><a name="l02988"></a><span class="lineno"> 2988</span>&#160;   t = Token.newToken(jjmatchedKind, curTokenImage);</div>
+<div class="line"><a name="l02989"></a><span class="lineno"> 2989</span>&#160;</div>
+<div class="line"><a name="l02990"></a><span class="lineno"> 2990</span>&#160;   t.beginLine = beginLine;</div>
+<div class="line"><a name="l02991"></a><span class="lineno"> 2991</span>&#160;   t.endLine = endLine;</div>
+<div class="line"><a name="l02992"></a><span class="lineno"> 2992</span>&#160;   t.beginColumn = beginColumn;</div>
+<div class="line"><a name="l02993"></a><span class="lineno"> 2993</span>&#160;   t.endColumn = endColumn;</div>
+<div class="line"><a name="l02994"></a><span class="lineno"> 2994</span>&#160;</div>
+<div class="line"><a name="l02995"></a><span class="lineno"> 2995</span>&#160;   <span class="keywordflow">return</span> t;</div>
+<div class="line"><a name="l02996"></a><span class="lineno"> 2996</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_aa5e0f1069a6b0d2d65e44c9fb56168df"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa5e0f1069a6b0d2d65e44c9fb56168df">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjstrLiteralImages</a></div><div class="ttdeci">static final String[] jjstrLiteralImages</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02835">OWLFunctionalSyntaxParserTokenManager.java:2835</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a174fc74a1f0cbbc1b8ef545270ebb0d8"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">uk.ac.manchester.cs.BOMSafeJavaCharStream.GetImage</a></div><div class="ttdeci">String GetImage()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00430">BOMSafeJavaCharStream.java:430</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a086cef9a2411c7e7f5cb6a8b1b10b826"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02925">OWLFunctionalSyntaxParserTokenManager.java:2925</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e2c30a768eb1c4b7d8c17bc60d341cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02943">2943</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02944"></a><span class="lineno"> 2944</span>&#160;{</div>
+<div class="line"><a name="l02945"></a><span class="lineno"> 2945</span>&#160;   jjmatchedPos = jjnewStateCnt = 0;</div>
+<div class="line"><a name="l02946"></a><span class="lineno"> 2946</span>&#160;   curLexState = defaultLexState;</div>
+<div class="line"><a name="l02947"></a><span class="lineno"> 2947</span>&#160;   <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">input_stream</a> = stream;</div>
+<div class="line"><a name="l02948"></a><span class="lineno"> 2948</span>&#160;   ReInitRounds();</div>
+<div class="line"><a name="l02949"></a><span class="lineno"> 2949</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a086cef9a2411c7e7f5cb6a8b1b10b826"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a086cef9a2411c7e7f5cb6a8b1b10b826">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02925">OWLFunctionalSyntaxParserTokenManager.java:2925</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af4fb26145ad1d7406749d3a0d536c613"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02959">2959</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02960"></a><span class="lineno"> 2960</span>&#160;{</div>
+<div class="line"><a name="l02961"></a><span class="lineno"> 2961</span>&#160;   <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a6e2c30a768eb1c4b7d8c17bc60d341cb">ReInit</a>(stream);</div>
+<div class="line"><a name="l02962"></a><span class="lineno"> 2962</span>&#160;   <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa484c72a809f4488f7309ac250d98e2e">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l02963"></a><span class="lineno"> 2963</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a6e2c30a768eb1c4b7d8c17bc60d341cb"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a6e2c30a768eb1c4b7d8c17bc60d341cb">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.ReInit</a></div><div class="ttdeci">void ReInit(JavaCharStream stream)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02943">OWLFunctionalSyntaxParserTokenManager.java:2943</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_aa484c72a809f4488f7309ac250d98e2e"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#aa484c72a809f4488f7309ac250d98e2e">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02966">OWLFunctionalSyntaxParserTokenManager.java:2966</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a15623ca7dc3b7aec44887f3b1a48b0ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.setDebugStream </td>
+          <td>(</td>
+          <td class="paramtype">java.io.PrintStream&#160;</td>
+          <td class="paramname"><em>ds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l00011">11</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{ <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a83674cdd645bf385e5feca51333c6739">debugStream</a> = ds; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager_html_a83674cdd645bf385e5feca51333c6739"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html#a83674cdd645bf385e5feca51333c6739">org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.debugStream</a></div><div class="ttdeci">java.io.PrintStream debugStream</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l00009">OWLFunctionalSyntaxParserTokenManager.java:9</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa484c72a809f4488f7309ac250d98e2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.SwitchTo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Switch to specified lex state. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02966">2966</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l02967"></a><span class="lineno"> 2967</span>&#160;{</div>
+<div class="line"><a name="l02968"></a><span class="lineno"> 2968</span>&#160;   <span class="keywordflow">if</span> (lexState &gt;= 3 || lexState &lt; 0)</div>
+<div class="line"><a name="l02969"></a><span class="lineno"> 2969</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(<span class="stringliteral">&quot;Error: Ignoring invalid lexical state : &quot;</span> + lexState + <span class="stringliteral">&quot;. State unchanged.&quot;</span>, TokenMgrError.INVALID_LEXICAL_STATE);</div>
+<div class="line"><a name="l02970"></a><span class="lineno"> 2970</span>&#160;   <span class="keywordflow">else</span></div>
+<div class="line"><a name="l02971"></a><span class="lineno"> 2971</span>&#160;      curLexState = lexState;</div>
+<div class="line"><a name="l02972"></a><span class="lineno"> 2972</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a403ae4332b19bd838d518d9d62d42cf2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.curChar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02928">2928</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83674cdd645bf385e5feca51333c6739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.io.PrintStream org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.debugStream = System.out</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l00009">9</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a086cef9a2411c7e7f5cb6a8b1b10b826"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.input_stream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02925">2925</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5534edaab674779ff1383d20f034142b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int [] org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjnewLexState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">   -1, -1, -1, -1, -1, 1, -1, 0, 2, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, </div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Lex State array. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02908">2908</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5e0f1069a6b0d2d65e44c9fb56168df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.jjstrLiteralImages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_token.html">Token</a> literal values. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02835">2835</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbcb1479fa6cc2f6edfbd5caf3042d75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] org.coode.owlapi.functionalparser.OWLFunctionalSyntaxParserTokenManager.lexStateNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">   <span class="stringliteral">&quot;DEFAULT&quot;</span>,</div>
+<div class="line">   <span class="stringliteral">&quot;IN_COMMENT&quot;</span>,</div>
+<div class="line">   <span class="stringliteral">&quot;IN_STRING_LITERAL&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Lexer state names. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html#l02901">2901</a> del archivo <a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/functionalparser/<a class="el" href="_o_w_l_functional_syntax_parser_token_manager_8java_source.html">OWLFunctionalSyntaxParserTokenManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1functionalparser.html">functionalparser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser_token_manager.html">OWLFunctionalSyntaxParserTokenManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:40 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

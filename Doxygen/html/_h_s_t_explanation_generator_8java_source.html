@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente tools/src/main/java/com/clarkparsia/owlapi/explanation/HSTExplanationGenerator.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_h_s_t_explanation_generator_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">HSTExplanationGenerator.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_h_s_t_explanation_generator_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, Clark &amp; Parsia, LLC</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, Clark &amp; Parsia, LLC</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>com.clarkparsia.owlapi.explanation;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.util.ArrayList;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.util.Collections;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.util.Comparator;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.util.HashSet;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> java.util.Iterator;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> java.util.LinkedHashSet;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> java.util.List;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> java.util.logging.Level;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> java.util.logging.Logger;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">org.semanticweb.owlapi.model.OWLDeclarationAxiom</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">org.semanticweb.owlapi.model.OWLEntity</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">org.semanticweb.owlapi.model.OWLException</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">org.semanticweb.owlapi.model.OWLRuntimeException</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html">org.semanticweb.owlapi.util.OWLEntityCollector</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">import</span> <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html">com.clarkparsia.owlapi.explanation.util.ExplanationProgressMonitor</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">import</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_ontology_utils.html">com.clarkparsia.owlapi.explanation.util.OntologyUtils</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">import</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_silent_explanation_progress_monitor.html">com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html">   69</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html">HSTExplanationGenerator</a> <span class="keyword">implements</span> <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_multiple_explanation_generator.html">MultipleExplanationGenerator</a> {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> Logger log = Logger.getLogger(HSTExplanationGenerator.class</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            .getName());</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">TransactionAwareSingleExpGen</a> singleExplanationGenerator;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">private</span> <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html">ExplanationProgressMonitor</a> progressMonitor = <span class="keyword">new</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_silent_explanation_progress_monitor.html">SilentExplanationProgressMonitor</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a4169e83e93765377fd85675faf87003d">   77</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a4169e83e93765377fd85675faf87003d">HSTExplanationGenerator</a>(<a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">TransactionAwareSingleExpGen</a> singleExplanationGenerator) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.singleExplanationGenerator = singleExplanationGenerator;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    @Override</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#aa9b76b563ccdb6d1b239a4ae676e3b05">   82</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#aa9b76b563ccdb6d1b239a4ae676e3b05">setProgressMonitor</a>(<a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html">ExplanationProgressMonitor</a> progressMonitor) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        this.progressMonitor = progressMonitor;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    @Override</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">   87</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>() {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator.getOntologyManager();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    @Override</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a30856bbde825071eefd3da4b8c90f54a">   92</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a30856bbde825071eefd3da4b8c90f54a">getOntology</a>() {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator.getOntology();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    @Override</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">   97</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">getReasoner</a>() {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator.getReasoner();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    @Override</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a8eb59697e652c8b50080377837447ec7">  102</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">OWLReasonerFactory</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a8eb59697e652c8b50080377837447ec7">getReasonerFactory</a>() {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator.getReasonerFactory();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a78947ddcc6ecf65f821817fef3ac0782">  107</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">TransactionAwareSingleExpGen</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a78947ddcc6ecf65f821817fef3ac0782">getSingleExplanationGenerator</a>() {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    @Override</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a72a9283a5fc35489c4ee4c4cfb847b69">  112</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLAxiom&gt; <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a72a9283a5fc35489c4ee4c4cfb847b69">getExplanation</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> unsatClass) {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> singleExplanationGenerator.getExplanation(unsatClass);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    @Override</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a3482fb23d0645f75000ba850ec863810">  117</a></span>&#160;    <span class="keyword">public</span> Set&lt;Set&lt;OWLAxiom&gt;&gt; <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a3482fb23d0645f75000ba850ec863810">getExplanations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> unsatClass) {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a3482fb23d0645f75000ba850ec863810">getExplanations</a>(unsatClass, 0);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment">// XXX onche the interface changes, uncomment this</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="comment">// @Override</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="comment">// public void dispose() {</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="comment">// singleExplanationGenerator.dispose();</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="comment">// }</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    @Override</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ae715599d61131b22e90c7592087ebfdf">  127</a></span>&#160;    <span class="keyword">public</span> Set&lt;Set&lt;OWLAxiom&gt;&gt; <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ae715599d61131b22e90c7592087ebfdf">getExplanations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> unsatClass,</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordtype">int</span> maxExplanations) {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span> (maxExplanations &lt; 0) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">if</span> (log.isLoggable(Level.CONFIG)) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            log.config(<span class="stringliteral">&quot;Get &quot;</span> + (maxExplanations == 0 ? <span class="stringliteral">&quot;all&quot;</span> : maxExplanations)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                    + <span class="stringliteral">&quot; explanation(s) for: &quot;</span> + unsatClass);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            Set&lt;OWLAxiom&gt; firstMups = <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a72a9283a5fc35489c4ee4c4cfb847b69">getExplanation</a>(unsatClass);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="keywordflow">if</span> (firstMups.isEmpty()) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            Set&lt;Set&lt;OWLAxiom&gt;&gt; allMups = <span class="keyword">new</span> LinkedHashSet&lt;Set&lt;OWLAxiom&gt;&gt;();</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            progressMonitor.foundExplanation(firstMups);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            allMups.add(firstMups);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            Set&lt;Set&lt;OWLAxiom&gt;&gt; satPaths = <span class="keyword">new</span> HashSet&lt;Set&lt;OWLAxiom&gt;&gt;();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            Set&lt;OWLAxiom&gt; currentPathContents = <span class="keyword">new</span> HashSet&lt;OWLAxiom&gt;();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            singleExplanationGenerator.beginTransaction();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                constructHittingSetTree(unsatClass, firstMups, allMups, satPaths,</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                        currentPathContents, maxExplanations);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            } <span class="keywordflow">finally</span> {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                singleExplanationGenerator.endTransaction();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            progressMonitor.foundAllExplanations();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">return</span> allMups;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        } <span class="keywordflow">catch</span> (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">OWLException</a> e) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a>(e);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="comment">// //////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">// Hitting Set Stuff</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">// /////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment"></span>    <span class="keyword">private</span> <span class="keyword">static</span> List&lt;OWLAxiom&gt; getOrderedMUPS(List&lt;OWLAxiom&gt; mups,</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keyword">final</span> Set&lt;Set&lt;OWLAxiom&gt;&gt; allMups) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        Comparator&lt;OWLAxiom&gt; mupsComparator = <span class="keyword">new</span> Comparator&lt;OWLAxiom&gt;() {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            @Override</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keyword">public</span> <span class="keywordtype">int</span> compare(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> o1, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> o2) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                <span class="comment">// The axiom that appears in most MUPS has the lowest index</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="comment">// in the list</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                <span class="keywordtype">int</span> occ1 = <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a5abb3ca67b101768130048bf9249b661">getOccurrences</a>(o1, allMups);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <span class="keywordtype">int</span> occ2 = <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a5abb3ca67b101768130048bf9249b661">getOccurrences</a>(o2, allMups);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                <span class="keywordflow">return</span> -occ1 + occ2;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        };</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        Collections.sort(mups, mupsComparator);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> mups;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a5abb3ca67b101768130048bf9249b661">  195</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a5abb3ca67b101768130048bf9249b661">getOccurrences</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> ax, Set&lt;Set&lt;OWLAxiom&gt;&gt; axiomSets) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordtype">int</span> count = 0;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">for</span> (Set&lt;OWLAxiom&gt; axioms : axiomSets) {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <span class="keywordflow">if</span> (axioms.contains(ax)) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                count++;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            }</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">return</span> count;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keyword">private</span> Set&lt;OWLEntity&gt; getSignature(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        Set&lt;OWLEntity&gt; toReturn = <span class="keyword">new</span> HashSet&lt;OWLEntity&gt;();</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html">OWLEntityCollector</a> collector = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html">OWLEntityCollector</a>(toReturn);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        collector.setCollectDatatypes(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        axiom.accept(collector);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> constructHittingSetTree(OWLClassExpression unsatClass,</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            Set&lt;OWLAxiom&gt; mups, Set&lt;Set&lt;OWLAxiom&gt;&gt; allMups, Set&lt;Set&lt;OWLAxiom&gt;&gt; satPaths,</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            Set&lt;OWLAxiom&gt; currentPathContents, <span class="keywordtype">int</span> maxExplanations) <span class="keywordflow">throws</span> OWLException {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            log.fine(<span class="stringliteral">&quot;MUPS &quot;</span> + allMups.size() + <span class="stringliteral">&quot;: &quot;</span> + mups);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">if</span> (progressMonitor.<a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html#ace6c22e30f5c3950c94ae7f78d6f1c9a">isCancelled</a>()) {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="comment">// We go through the current mups, axiom by axiom, and extend the tree</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="comment">// with edges for each axiom</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        List&lt;OWLAxiom&gt; orderedMups = getOrderedMUPS(<span class="keyword">new</span> ArrayList&lt;OWLAxiom&gt;(mups),</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                allMups);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">while</span> (!orderedMups.isEmpty()) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <span class="keywordflow">if</span> (progressMonitor.<a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html#ace6c22e30f5c3950c94ae7f78d6f1c9a">isCancelled</a>()) {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            OWLAxiom axiom = orderedMups.get(0);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            orderedMups.remove(0);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="keywordflow">if</span> (allMups.size() == maxExplanations) {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                    log.fine(<span class="stringliteral">&quot;Computed &quot;</span> + maxExplanations + <span class="stringliteral">&quot;explanations&quot;</span>);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                log.fine(<span class="stringliteral">&quot;Removing axiom: &quot;</span> + axiom + <span class="stringliteral">&quot; &quot;</span> + currentPathContents.size()</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                        + <span class="stringliteral">&quot; more removed: &quot;</span> + currentPathContents);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            }</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="comment">// Remove the current axiom from all the ontologies it is included</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="comment">// in</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            Set&lt;OWLOntology&gt; ontologies = OntologyUtils.removeAxiom(axiom, <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">getReasoner</a>()</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                    .getRootOntology().getImportsClosure(), <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>());</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="comment">// Removal may have dereferenced some entities, if so declarations</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="comment">// are added</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            Set&lt;OWLEntity&gt; sig = getSignature(axiom);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            List&lt;OWLDeclarationAxiom&gt; temporaryDeclarations = <span class="keyword">new</span> ArrayList&lt;OWLDeclarationAxiom&gt;(</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                    sig.size());</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">for</span> (OWLEntity e : sig) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordtype">boolean</span> referenced = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                <span class="keywordflow">for</span> (Iterator&lt;OWLOntology&gt; i = ontologies.iterator(); !referenced</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                        &amp;&amp; i.hasNext();) {</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                    <span class="keywordflow">for</span> (Iterator&lt;OWLAxiom&gt; j = i.next().getReferencingAxioms(e)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                            .iterator(); !referenced &amp;&amp; j.hasNext();) {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                        OWLAxiom a = j.next();</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                        referenced = a.isLogicalAxiom()</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                || a instanceof OWLDeclarationAxiom;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                    }</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                <span class="keywordflow">if</span> (!referenced) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    OWLDeclarationAxiom declaration = <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>()</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                            .getOWLDataFactory().getOWLDeclarationAxiom(e);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                    temporaryDeclarations.add(declaration);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">for</span> (OWLDeclarationAxiom decl : temporaryDeclarations) {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                OntologyUtils.addAxiom(decl, <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">getReasoner</a>().getRootOntology()</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                        .getImportsClosure(), <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>());</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            currentPathContents.add(axiom);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordtype">boolean</span> earlyTermination = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <span class="comment">// Early path termination. If our path contents are the superset of</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="comment">// the contents of a path then we can terminate here.</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordflow">for</span> (Set&lt;OWLAxiom&gt; satPath : satPaths) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">if</span> (currentPathContents.containsAll(satPath)) {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    earlyTermination = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                        log.fine(<span class="stringliteral">&quot;Stop - satisfiable (early termination)&quot;</span>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                    }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <span class="keywordflow">if</span> (!earlyTermination) {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                Set&lt;OWLAxiom&gt; newMUPS = null;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="keywordflow">for</span> (Set&lt;OWLAxiom&gt; foundMUPS : allMups) {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                    Set&lt;OWLAxiom&gt; foundMUPSCopy = <span class="keyword">new</span> HashSet&lt;OWLAxiom&gt;(foundMUPS);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                    foundMUPSCopy.retainAll(currentPathContents);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                    <span class="keywordflow">if</span> (foundMUPSCopy.isEmpty()) {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                        newMUPS = foundMUPS;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                <span class="keywordflow">if</span> (newMUPS == null) {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                    newMUPS = <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a72a9283a5fc35489c4ee4c4cfb847b69">getExplanation</a>(unsatClass);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <span class="comment">// Generate a new node - i.e. a new justification set</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                <span class="keywordflow">if</span> (newMUPS.contains(axiom)) {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                    <span class="comment">// How can this be the case???</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                    <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(<span class="stringliteral">&quot;Explanation contains removed axiom: &quot;</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                            + axiom);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                <span class="keywordflow">if</span> (!newMUPS.isEmpty()) {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                    <span class="comment">// Note that getting a previous justification does not mean</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                    <span class="comment">// we can stop. stopping here causes some justifications to</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                    <span class="comment">// be missed</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                    allMups.add(newMUPS);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                    progressMonitor.foundExplanation(newMUPS);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                    <span class="comment">// Recompute priority here?</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                    constructHittingSetTree(unsatClass, newMUPS, allMups, satPaths,</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                            currentPathContents, maxExplanations);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                    <span class="comment">// We have found a new MUPS, so recalculate the ordering</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    <span class="comment">// axioms in the MUPS at the current level</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    orderedMups = getOrderedMUPS(orderedMups, allMups);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                    <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                        log.fine(<span class="stringliteral">&quot;Stop - satisfiable&quot;</span>);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    }</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                    <span class="comment">// End of current path - add it to the list of paths</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                    satPaths.add(<span class="keyword">new</span> HashSet&lt;OWLAxiom&gt;(currentPathContents));</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            }</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="comment">// Back track - go one level up the tree and run for the next axiom</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            currentPathContents.remove(axiom);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            <span class="keywordflow">if</span> (log.isLoggable(Level.FINE)) {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                log.fine(<span class="stringliteral">&quot;Restoring axiom: &quot;</span> + axiom);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            }</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            <span class="comment">// Remove any temporary declarations</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <span class="keywordflow">for</span> (OWLDeclarationAxiom decl : temporaryDeclarations) {</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                OntologyUtils.removeAxiom(decl, <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">getReasoner</a>().getRootOntology()</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                        .getImportsClosure(), <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>());</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;            <span class="comment">// Done with the axiom that was removed. Add it back in</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            OntologyUtils.addAxiom(axiom, ontologies, <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">getOntologyManager</a>());</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        }</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_factory_8java_source.html#l00055">OWLReasonerFactory.java:55</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">org.semanticweb.owlapi.model.OWLDeclarationAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_declaration_axiom_8java_source.html#l00053">OWLDeclarationAxiom.java:53</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">org.semanticweb.owlapi.model.OWLEntity</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_entity_8java_source.html#l00054">OWLEntity.java:54</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_axiom_8java_source.html#l00056">OWLAxiom.java:56</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a4169e83e93765377fd85675faf87003d"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a4169e83e93765377fd85675faf87003d">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.HSTExplanationGenerator</a></div><div class="ttdeci">HSTExplanationGenerator(TransactionAwareSingleExpGen singleExplanationGenerator)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00077">HSTExplanationGenerator.java:77</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_ae715599d61131b22e90c7592087ebfdf"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ae715599d61131b22e90c7592087ebfdf">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getExplanations</a></div><div class="ttdeci">Set&lt; Set&lt; OWLAxiom &gt; &gt; getExplanations(OWLClassExpression unsatClass, int maxExplanations)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00127">HSTExplanationGenerator.java:127</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">org.semanticweb.owlapi.model.OWLException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_exception_8java_source.html#l00049">OWLException.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_manager_8java_source.html#l00061">OWLOntologyManager.java:61</a></div></div>
+<div class="ttc" id="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor_html"><div class="ttname"><a href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html">com.clarkparsia.owlapi.explanation.util.ExplanationProgressMonitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_explanation_progress_monitor_8java_source.html#l00056">ExplanationProgressMonitor.java:56</a></div></div>
+<div class="ttc" id="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor_html_ace6c22e30f5c3950c94ae7f78d6f1c9a"><div class="ttname"><a href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_explanation_progress_monitor.html#ace6c22e30f5c3950c94ae7f78d6f1c9a">com.clarkparsia.owlapi.explanation.util.ExplanationProgressMonitor.isCancelled</a></div><div class="ttdeci">boolean isCancelled()</div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a8eb59697e652c8b50080377837447ec7"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a8eb59697e652c8b50080377837447ec7">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getReasonerFactory</a></div><div class="ttdeci">OWLReasonerFactory getReasonerFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00102">HSTExplanationGenerator.java:102</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_aa9b76b563ccdb6d1b239a4ae676e3b05"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#aa9b76b563ccdb6d1b239a4ae676e3b05">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.setProgressMonitor</a></div><div class="ttdeci">void setProgressMonitor(ExplanationProgressMonitor progressMonitor)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00082">HSTExplanationGenerator.java:82</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00069">HSTExplanationGenerator.java:69</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_silent_explanation_progress_monitor_html"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_silent_explanation_progress_monitor.html">com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_silent_explanation_progress_monitor_8java_source.html#l00050">SilentExplanationProgressMonitor.java:50</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_expression_8java_source.html#l00050">OWLClassExpression.java:50</a></div></div>
+<div class="ttc" id="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen_html"><div class="ttname"><a href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">com.clarkparsia.owlapi.explanation.TransactionAwareSingleExpGen</a></div><div class="ttdef"><b>Definition:</b> <a href="_transaction_aware_single_exp_gen_8java_source.html#l00042">TransactionAwareSingleExpGen.java:42</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a3482fb23d0645f75000ba850ec863810"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a3482fb23d0645f75000ba850ec863810">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getExplanations</a></div><div class="ttdeci">Set&lt; Set&lt; OWLAxiom &gt; &gt; getExplanations(OWLClassExpression unsatClass)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00117">HSTExplanationGenerator.java:117</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_8java_source.html#l00276">OWLReasoner.java:276</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_ad6a3cfea526d13e606a01593a75a7571"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ad6a3cfea526d13e606a01593a75a7571">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getReasoner</a></div><div class="ttdeci">OWLReasoner getReasoner()</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00097">HSTExplanationGenerator.java:97</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_ab84e904a9a87868d3e761e0cee8429c6"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#ab84e904a9a87868d3e761e0cee8429c6">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getOntologyManager</a></div><div class="ttdeci">OWLOntologyManager getOntologyManager()</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00087">HSTExplanationGenerator.java:87</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a5abb3ca67b101768130048bf9249b661"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a5abb3ca67b101768130048bf9249b661">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getOccurrences</a></div><div class="ttdeci">static int getOccurrences(OWLAxiom ax, Set&lt; Set&lt; OWLAxiom &gt;&gt; axiomSets)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00195">HSTExplanationGenerator.java:195</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a30856bbde825071eefd3da4b8c90f54a"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a30856bbde825071eefd3da4b8c90f54a">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getOntology</a></div><div class="ttdeci">OWLOntology getOntology()</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00092">HSTExplanationGenerator.java:92</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">org.semanticweb.owlapi.model.OWLRuntimeException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_runtime_exception_8java_source.html#l00050">OWLRuntimeException.java:50</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a78947ddcc6ecf65f821817fef3ac0782"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a78947ddcc6ecf65f821817fef3ac0782">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getSingleExplanationGenerator</a></div><div class="ttdeci">TransactionAwareSingleExpGen getSingleExplanationGenerator()</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00107">HSTExplanationGenerator.java:107</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_collector.html">org.semanticweb.owlapi.util.OWLEntityCollector</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_entity_collector_8java_source.html#l00159">OWLEntityCollector.java:159</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_ontology_utils_html"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_ontology_utils.html">com.clarkparsia.owlapi.explanation.util.OntologyUtils</a></div><div class="ttdef"><b>Definition:</b> <a href="_ontology_utils_8java_source.html#l00059">OntologyUtils.java:59</a></div></div>
+<div class="ttc" id="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_multiple_explanation_generator_html"><div class="ttname"><a href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_multiple_explanation_generator.html">com.clarkparsia.owlapi.explanation.MultipleExplanationGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="_multiple_explanation_generator_8java_source.html#l00045">MultipleExplanationGenerator.java:45</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator_html_a72a9283a5fc35489c4ee4c4cfb847b69"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_h_s_t_explanation_generator.html#a72a9283a5fc35489c4ee4c4cfb847b69">com.clarkparsia.owlapi.explanation.HSTExplanationGenerator.getExplanation</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getExplanation(OWLClassExpression unsatClass)</div><div class="ttdef"><b>Definition:</b> <a href="_h_s_t_explanation_generator_8java_source.html#l00112">HSTExplanationGenerator.java:112</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html">tools</a></li><li class="navelem"><a class="el" href="dir_17cadb2edabe3078d28ce072d22225fa.html">src</a></li><li class="navelem"><a class="el" href="dir_63082e2d39c57c4bc6509df0a49cd59d.html">main</a></li><li class="navelem"><a class="el" href="dir_07754de2b1385f2f97a0a71a86bfd503.html">java</a></li><li class="navelem"><a class="el" href="dir_50f4a47ac8f5bc0dbd62cb5b50d50f6c.html">com</a></li><li class="navelem"><a class="el" href="dir_b814732392703f01b20f25726fa582c5.html">clarkparsia</a></li><li class="navelem"><a class="el" href="dir_beb2c0b47c716571c8dc958d4ee40366.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_30e231987fed79454ed8dfbded92d471.html">explanation</a></li><li class="navelem"><a class="el" href="_h_s_t_explanation_generator_8java.html">HSTExplanationGenerator.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:22 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

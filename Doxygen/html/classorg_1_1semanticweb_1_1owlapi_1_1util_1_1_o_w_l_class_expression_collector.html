@@ -1,0 +1,2131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.OWLClassExpressionCollector</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.OWLClassExpressionCollector</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias OWLObjectVisitorEx&lt; Set&lt; OWLClassExpression &gt; &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a1475077b5ba1d60fc3e24f2cfbac8c35"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1475077b5ba1d60fc3e24f2cfbac8c35">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a1475077b5ba1d60fc3e24f2cfbac8c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67efc5aa60dd92a055be2a9e0f6f9562"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a67efc5aa60dd92a055be2a9e0f6f9562">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> node)</td></tr>
+<tr class="separator:a67efc5aa60dd92a055be2a9e0f6f9562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2651e7d0e9cf9b0c58afa5baa713d74"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af2651e7d0e9cf9b0c58afa5baa713d74">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> property)</td></tr>
+<tr class="separator:af2651e7d0e9cf9b0c58afa5baa713d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c372590664849d8a131decece0baeac"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5c372590664849d8a131decece0baeac">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> individual)</td></tr>
+<tr class="separator:a5c372590664849d8a131decece0baeac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42f0e1597dc4b7994c3390f116874c8"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aa42f0e1597dc4b7994c3390f116874c8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a> node)</td></tr>
+<tr class="separator:aa42f0e1597dc4b7994c3390f116874c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3c0f40662c990e8c5a55427f6c65ad"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#acc3c0f40662c990e8c5a55427f6c65ad">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_inverse_of.html">OWLObjectInverseOf</a> property)</td></tr>
+<tr class="separator:acc3c0f40662c990e8c5a55427f6c65ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2ea71548f42eac2670ba384889fdb5"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ada2ea71548f42eac2670ba384889fdb5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a> node)</td></tr>
+<tr class="separator:ada2ea71548f42eac2670ba384889fdb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d37d005b3f8a516b17b8dea44b6067"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af5d37d005b3f8a516b17b8dea44b6067">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> node)</td></tr>
+<tr class="separator:af5d37d005b3f8a516b17b8dea44b6067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af617c99c8c34605b1a3a8953fe0cf9fa"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af617c99c8c34605b1a3a8953fe0cf9fa">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a> node)</td></tr>
+<tr class="separator:af617c99c8c34605b1a3a8953fe0cf9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9cb73c57074652aea742cf323e63a66"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aa9cb73c57074652aea742cf323e63a66">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> property)</td></tr>
+<tr class="separator:aa9cb73c57074652aea742cf323e63a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44171dc0a5332ebf19c442d63cab99d0"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a44171dc0a5332ebf19c442d63cab99d0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a> node)</td></tr>
+<tr class="separator:a44171dc0a5332ebf19c442d63cab99d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558c8217be258c63b2e75cf717afb95f"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a558c8217be258c63b2e75cf717afb95f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_intersection_of.html">OWLDataIntersectionOf</a> node)</td></tr>
+<tr class="separator:a558c8217be258c63b2e75cf717afb95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf51e451b7dca2ba84e03a004c92d13"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#abcf51e451b7dca2ba84e03a004c92d13">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> individual)</td></tr>
+<tr class="separator:abcf51e451b7dca2ba84e03a004c92d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c45e4eea87042463ad56c43416ebda7"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1c45e4eea87042463ad56c43416ebda7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a> node)</td></tr>
+<tr class="separator:a1c45e4eea87042463ad56c43416ebda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3421a54306ca543c6691d1a953badd60"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a3421a54306ca543c6691d1a953badd60">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a3421a54306ca543c6691d1a953badd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307e0dff4ab5f0e6be090eec25f32f7f"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a307e0dff4ab5f0e6be090eec25f32f7f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:a307e0dff4ab5f0e6be090eec25f32f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eafaddabbad3aa9e68c3e6e87a60869"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1eafaddabbad3aa9e68c3e6e87a60869">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a1eafaddabbad3aa9e68c3e6e87a60869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af729a008192d2b632ab1e06de1327289"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af729a008192d2b632ab1e06de1327289">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a> node)</td></tr>
+<tr class="separator:af729a008192d2b632ab1e06de1327289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7c968c462d41a4ae0f234744a353f5"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a9a7c968c462d41a4ae0f234744a353f5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a> node)</td></tr>
+<tr class="separator:a9a7c968c462d41a4ae0f234744a353f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af52bdbf96fa684e70c60048539d9f95d"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af52bdbf96fa684e70c60048539d9f95d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> property)</td></tr>
+<tr class="separator:af52bdbf96fa684e70c60048539d9f95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac49d600b6f3e30c995a438c75f086ca4"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ac49d600b6f3e30c995a438c75f086ca4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> ce)</td></tr>
+<tr class="separator:ac49d600b6f3e30c995a438c75f086ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba9e73007a3ca731fda7c21175a9930"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5ba9e73007a3ca731fda7c21175a9930">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a> node)</td></tr>
+<tr class="separator:a5ba9e73007a3ca731fda7c21175a9930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93990b59d9e2300be0f3a4d1f381a480"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a93990b59d9e2300be0f3a4d1f381a480">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> node)</td></tr>
+<tr class="separator:a93990b59d9e2300be0f3a4d1f381a480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53578da8cd81e1993e79790f6788c198"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a53578da8cd81e1993e79790f6788c198">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a> ce)</td></tr>
+<tr class="separator:a53578da8cd81e1993e79790f6788c198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb8251747d3f8d9cd583ce3ce95c0fe"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1eb8251747d3f8d9cd583ce3ce95c0fe">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a1eb8251747d3f8d9cd583ce3ce95c0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a868d424cfc64d91cb2e392fcdcd81"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a37a868d424cfc64d91cb2e392fcdcd81">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a> node)</td></tr>
+<tr class="separator:a37a868d424cfc64d91cb2e392fcdcd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef75147f8724872bf46e0d5810302405"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aef75147f8724872bf46e0d5810302405">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> ce)</td></tr>
+<tr class="separator:aef75147f8724872bf46e0d5810302405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11594e82248eef322c196e178d960db0"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a11594e82248eef322c196e178d960db0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> node)</td></tr>
+<tr class="separator:a11594e82248eef322c196e178d960db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62b1bec3027453ecaf916f2787cf27e"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ad62b1bec3027453ecaf916f2787cf27e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a> node)</td></tr>
+<tr class="separator:ad62b1bec3027453ecaf916f2787cf27e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1315377e6d08b8e2b69a0b10b659e1"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a9a1315377e6d08b8e2b69a0b10b659e1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a9a1315377e6d08b8e2b69a0b10b659e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aca416bb3ff6b563a5df8224643aea9"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a2aca416bb3ff6b563a5df8224643aea9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> ce)</td></tr>
+<tr class="separator:a2aca416bb3ff6b563a5df8224643aea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56881e29504d6ced32e0a08a959dd72b"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a56881e29504d6ced32e0a08a959dd72b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a> node)</td></tr>
+<tr class="separator:a56881e29504d6ced32e0a08a959dd72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286c38769eb3e767258ee7735d8269f0"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a286c38769eb3e767258ee7735d8269f0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a> ce)</td></tr>
+<tr class="separator:a286c38769eb3e767258ee7735d8269f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5c28b2eb93d6fae524bd6ef6d4a4f0"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ace5c28b2eb93d6fae524bd6ef6d4a4f0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ace5c28b2eb93d6fae524bd6ef6d4a4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360e6f50717c21dba7d83b660d6f0b00"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a360e6f50717c21dba7d83b660d6f0b00">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a> node)</td></tr>
+<tr class="separator:a360e6f50717c21dba7d83b660d6f0b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ac3ea2a0ffc9c2573c6e3d4b938e84"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a04ac3ea2a0ffc9c2573c6e3d4b938e84">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> ce)</td></tr>
+<tr class="separator:a04ac3ea2a0ffc9c2573c6e3d4b938e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2526b13ab83f7558e970609d9cb47a"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a3d2526b13ab83f7558e970609d9cb47a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:a3d2526b13ab83f7558e970609d9cb47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e72490877c51461676ec824583840ed"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a3e72490877c51461676ec824583840ed">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a> ce)</td></tr>
+<tr class="separator:a3e72490877c51461676ec824583840ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f0c097314e74be9b40bbe3fe3757bf"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a00f0c097314e74be9b40bbe3fe3757bf">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a00f0c097314e74be9b40bbe3fe3757bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b2af49b3395f5fb90680029df32e85"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a92b2af49b3395f5fb90680029df32e85">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> ce)</td></tr>
+<tr class="separator:a92b2af49b3395f5fb90680029df32e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6031e6d0bcd145fdec6ae6d4d463e6"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5c6031e6d0bcd145fdec6ae6d4d463e6">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a5c6031e6d0bcd145fdec6ae6d4d463e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac667442a5a69d2798f0dfd1e5328e02c"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ac667442a5a69d2798f0dfd1e5328e02c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> ce)</td></tr>
+<tr class="separator:ac667442a5a69d2798f0dfd1e5328e02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1705f69f609cc0b86985ddf3865756ff"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1705f69f609cc0b86985ddf3865756ff">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a1705f69f609cc0b86985ddf3865756ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7544abe30c92d140ccd17929f5c15ac"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ac7544abe30c92d140ccd17929f5c15ac">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> ce)</td></tr>
+<tr class="separator:ac7544abe30c92d140ccd17929f5c15ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1667cb74802b1a7e9e418382e77380"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a0c1667cb74802b1a7e9e418382e77380">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a> ce)</td></tr>
+<tr class="separator:a0c1667cb74802b1a7e9e418382e77380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5200348a84eb21d253d0d530a0e7f5d2"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5200348a84eb21d253d0d530a0e7f5d2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a5200348a84eb21d253d0d530a0e7f5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbe7c35412b24bc1b0a8fcb32f1a053"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a0dbe7c35412b24bc1b0a8fcb32f1a053">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> ce)</td></tr>
+<tr class="separator:a0dbe7c35412b24bc1b0a8fcb32f1a053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff66d3d1bca8d5568f6a1aa45931730d"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aff66d3d1bca8d5568f6a1aa45931730d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a> axiom)</td></tr>
+<tr class="separator:aff66d3d1bca8d5568f6a1aa45931730d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1598aebbaa1443134fb0ae422d15d574"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1598aebbaa1443134fb0ae422d15d574">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a> ce)</td></tr>
+<tr class="separator:a1598aebbaa1443134fb0ae422d15d574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028720eb9322d2480c3d7c6dd38d9275"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a028720eb9322d2480c3d7c6dd38d9275">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> ce)</td></tr>
+<tr class="separator:a028720eb9322d2480c3d7c6dd38d9275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6a46347566897253f88b06b9420167"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a6a6a46347566897253f88b06b9420167">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a6a6a46347566897253f88b06b9420167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf9c2e96b228b2e15274d73a0900855"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a6bf9c2e96b228b2e15274d73a0900855">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a> ce)</td></tr>
+<tr class="separator:a6bf9c2e96b228b2e15274d73a0900855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46856ef17faa237e09e6e0ddaa6135f0"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a46856ef17faa237e09e6e0ddaa6135f0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a46856ef17faa237e09e6e0ddaa6135f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79299ebe043ed72be2e9234ec55af73"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ab79299ebe043ed72be2e9234ec55af73">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> ce)</td></tr>
+<tr class="separator:ab79299ebe043ed72be2e9234ec55af73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d17261c016fcd80cf785c498b0152a"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a86d17261c016fcd80cf785c498b0152a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:a86d17261c016fcd80cf785c498b0152a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb2a77ebe2c8be90eaf2522674bbff7"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#acdb2a77ebe2c8be90eaf2522674bbff7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> ce)</td></tr>
+<tr class="separator:acdb2a77ebe2c8be90eaf2522674bbff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873bcc51e805c744cfe74acb6b553595"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a873bcc51e805c744cfe74acb6b553595">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> ce)</td></tr>
+<tr class="separator:a873bcc51e805c744cfe74acb6b553595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a65257f6f81da985363ba2b0fa52b4a"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a1a65257f6f81da985363ba2b0fa52b4a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a1a65257f6f81da985363ba2b0fa52b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302d32f96f7fa88f60eedc04b69631e6"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a302d32f96f7fa88f60eedc04b69631e6">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a302d32f96f7fa88f60eedc04b69631e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2db82d61b9a6f57ab644ca30acda66"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#afc2db82d61b9a6f57ab644ca30acda66">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:afc2db82d61b9a6f57ab644ca30acda66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e06a144a6a1ff05261341239aa0d3a5"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a6e06a144a6a1ff05261341239aa0d3a5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a> axiom)</td></tr>
+<tr class="separator:a6e06a144a6a1ff05261341239aa0d3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c22701dd72424f43bfbb8e24f73ffbc"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a4c22701dd72424f43bfbb8e24f73ffbc">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a> axiom)</td></tr>
+<tr class="separator:a4c22701dd72424f43bfbb8e24f73ffbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33f92cc059156d0fce166945c9eac7b"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ac33f92cc059156d0fce166945c9eac7b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:ac33f92cc059156d0fce166945c9eac7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa946c7584921ec4dc6ffac67aa0a34b"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aaa946c7584921ec4dc6ffac67aa0a34b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:aaa946c7584921ec4dc6ffac67aa0a34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4dba8d5e204c59fb98103a145485a9"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5d4dba8d5e204c59fb98103a145485a9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:a5d4dba8d5e204c59fb98103a145485a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b21f2bf5cd351fde6f3b450986162a"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ae5b21f2bf5cd351fde6f3b450986162a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ae5b21f2bf5cd351fde6f3b450986162a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d97e36d3ec4271de30981a17d5a358"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#af2d97e36d3ec4271de30981a17d5a358">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:af2d97e36d3ec4271de30981a17d5a358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d388c24f416381c4191c1cdf734c60"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a95d388c24f416381c4191c1cdf734c60">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a95d388c24f416381c4191c1cdf734c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf715ab6cdfa82afcc2095761b908a8"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aeaf715ab6cdfa82afcc2095761b908a8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:aeaf715ab6cdfa82afcc2095761b908a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba842fc2106ea22089a7983f8bb0010"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#afba842fc2106ea22089a7983f8bb0010">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:afba842fc2106ea22089a7983f8bb0010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad306d15c0530c5ab9dca72109f3ef2e5"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ad306d15c0530c5ab9dca72109f3ef2e5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ad306d15c0530c5ab9dca72109f3ef2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9502f955c11a2edadaf8b51fbec6d532"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a9502f955c11a2edadaf8b51fbec6d532">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a9502f955c11a2edadaf8b51fbec6d532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392fe3e747a27391feb84e95a3003642"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a392fe3e747a27391feb84e95a3003642">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a392fe3e747a27391feb84e95a3003642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6750fd04403cacad13b647dda5768eea"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a6750fd04403cacad13b647dda5768eea">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a6750fd04403cacad13b647dda5768eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed21a4e9d4e643bbbe41f8fc46f0539c"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#aed21a4e9d4e643bbbe41f8fc46f0539c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a> axiom)</td></tr>
+<tr class="separator:aed21a4e9d4e643bbbe41f8fc46f0539c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7468392fbe1dcecb67f79c30125fe39e"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a7468392fbe1dcecb67f79c30125fe39e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a7468392fbe1dcecb67f79c30125fe39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa5f030bf208695d72c9f3acca57a3b"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a2aa5f030bf208695d72c9f3acca57a3b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a2aa5f030bf208695d72c9f3acca57a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58de550638c6968c64756e96831b88b7"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a58de550638c6968c64756e96831b88b7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a> axiom)</td></tr>
+<tr class="separator:a58de550638c6968c64756e96831b88b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c3e09b6537e0506e28fab5d83fa8f3"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a06c3e09b6537e0506e28fab5d83fa8f3">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a> axiom)</td></tr>
+<tr class="separator:a06c3e09b6537e0506e28fab5d83fa8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2b7b38ad9fe2b0486e11cd52b98442"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a2c2b7b38ad9fe2b0486e11cd52b98442">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> rule)</td></tr>
+<tr class="separator:a2c2b7b38ad9fe2b0486e11cd52b98442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cc1d5d41019b177ea63f15381c66b2"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#ab8cc1d5d41019b177ea63f15381c66b2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:ab8cc1d5d41019b177ea63f15381c66b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5141f1aa6a301605b92a78d8e77dee"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a5e5141f1aa6a301605b92a78d8e77dee">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a5e5141f1aa6a301605b92a78d8e77dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c59db758bed18545563740121f4d15"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a40c59db758bed18545563740121f4d15">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a> node)</td></tr>
+<tr class="separator:a40c59db758bed18545563740121f4d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2dfa0fdcf7072018885cd34328adfc"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html#a8a2dfa0fdcf7072018885cd34328adfc">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a> node)</td></tr>
+<tr class="separator:a8a2dfa0fdcf7072018885cd34328adfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 14-Jun-2010 <br/>
+ Collects all of the nested class expression that are used in some OWLObject. For example, given SubClassOf(ObjectUnionOf(D C) ObjectSomeValuesFrom(R F)) the collector could be used to obtain ObjectUnionOf(D C), D, C, ObjectSomeValuesFrom(R F), F </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00145">145</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a1475077b5ba1d60fc3e24f2cfbac8c35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00148">148</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                                  {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a67efc5aa60dd92a055be2a9e0f6f9562"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00153">153</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                           {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af2651e7d0e9cf9b0c58afa5baa713d74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00159">159</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c372590664849d8a131decece0baeac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00165">165</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa42f0e1597dc4b7994c3390f116874c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00170">170</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                                             {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> node.getPredicate().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acc3c0f40662c990e8c5a55427f6c65ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_inverse_of.html">OWLObjectInverseOf</a>&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00176">176</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ada2ea71548f42eac2670ba384889fdb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00182">182</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af5d37d005b3f8a516b17b8dea44b6067"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00188">188</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                                             {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af617c99c8c34605b1a3a8953fe0cf9fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00194">194</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                                                            {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa9cb73c57074652aea742cf323e63a66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00200">200</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a44171dc0a5332ebf19c442d63cab99d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00206">206</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a558c8217be258c63b2e75cf717afb95f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_intersection_of.html">OWLDataIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00212">212</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abcf51e451b7dca2ba84e03a004c92d13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00218">218</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1c45e4eea87042463ad56c43416ebda7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00224">224</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                              {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3421a54306ca543c6691d1a953badd60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00229">229</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        result.addAll(axiom.getSubClass().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        result.addAll(axiom.getSuperClass().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a307e0dff4ab5f0e6be090eec25f32f7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00238">238</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1eafaddabbad3aa9e68c3e6e87a60869"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00243">243</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                                               {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">for</span>(OWLAxiom ax : ontology.getLogicalAxioms()) {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            result.addAll(ax.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af729a008192d2b632ab1e06de1327289"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00253">253</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a7c968c462d41a4ae0f234744a353f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00259">259</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                                               {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af52bdbf96fa684e70c60048539d9f95d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00265">265</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac49d600b6f3e30c995a438c75f086ca4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00270">270</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                                      {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ba9e73007a3ca731fda7c21175a9930"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00276">276</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                                            {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a93990b59d9e2300be0f3a4d1f381a480"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00282">282</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                                                          {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a53578da8cd81e1993e79790f6788c198"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00287">287</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="keywordflow">for</span>(OWLClassExpression op : ce.getOperands()) {</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            result.addAll(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1eb8251747d3f8d9cd583ce3ce95c0fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00298">298</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                                                                                        {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a37a868d424cfc64d91cb2e392fcdcd81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00304">304</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aef75147f8724872bf46e0d5810302405"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00310">310</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                                                              {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="keywordflow">for</span>(OWLClassExpression op : ce.getOperands()) {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            result.addAll(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a11594e82248eef322c196e178d960db0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00321">321</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad62b1bec3027453ecaf916f2787cf27e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00327">327</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a1315377e6d08b8e2b69a0b10b659e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00333">333</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2aca416bb3ff6b563a5df8224643aea9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00338">338</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        result.addAll(ce.getOperand().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a56881e29504d6ced32e0a08a959dd72b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00347">347</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a286c38769eb3e767258ee7735d8269f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00352">352</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        result.addAll(ce.getFiller().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace5c28b2eb93d6fae524bd6ef6d4a4f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00361">361</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a360e6f50717c21dba7d83b660d6f0b00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00367">367</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a04ac3ea2a0ffc9c2573c6e3d4b938e84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00372">372</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        result.addAll(ce.getFiller().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3d2526b13ab83f7558e970609d9cb47a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00380">380</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">for</span>(OWLClassExpression ce : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            result.addAll(ce.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e72490877c51461676ec824583840ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00389">389</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                                                               {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a00f0c097314e74be9b40bbe3fe3757bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00394">394</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="keywordflow">return</span> axiom.getDomain().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92b2af49b3395f5fb90680029df32e85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00399">399</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        result.addAll(ce.getFiller().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c6031e6d0bcd145fdec6ae6d4d463e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00407">407</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="keywordflow">return</span> axiom.getDomain().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac667442a5a69d2798f0dfd1e5328e02c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00412">412</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        result.addAll(ce.getFiller().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1705f69f609cc0b86985ddf3865756ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00421">421</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;                                                                                   {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7544abe30c92d140ccd17929f5c15ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00426">426</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        result.add(ce);</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        result.addAll(ce.getFiller().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c1667cb74802b1a7e9e418382e77380"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00434">434</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                                                              {</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5200348a84eb21d253d0d530a0e7f5d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00440">440</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                                                                                      {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0dbe7c35412b24bc1b0a8fcb32f1a053"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00445">445</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                                                            {</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aff66d3d1bca8d5568f6a1aa45931730d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00451">451</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1598aebbaa1443134fb0ae422d15d574"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00456">456</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a028720eb9322d2480c3d7c6dd38d9275"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00461">461</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6a6a46347566897253f88b06b9420167"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00467">467</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6bf9c2e96b228b2e15274d73a0900855"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00472">472</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                                                             {</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a46856ef17faa237e09e6e0ddaa6135f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00478">478</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab79299ebe043ed72be2e9234ec55af73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00483">483</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a86d17261c016fcd80cf785c498b0152a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00488">488</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        <span class="keywordflow">return</span> axiom.getRange().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acdb2a77ebe2c8be90eaf2522674bbff7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00493">493</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a873bcc51e805c744cfe74acb6b553595"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>ce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00498">498</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        <span class="keywordflow">return</span> Collections.&lt;OWLClassExpression&gt;singleton(ce);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1a65257f6f81da985363ba2b0fa52b4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00504">504</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a302d32f96f7fa88f60eedc04b69631e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00510">510</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afc2db82d61b9a6f57ab644ca30acda66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00516">516</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e06a144a6a1ff05261341239aa0d3a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00521">521</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        result.add(axiom.getOWLClass());</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;        <span class="keywordflow">for</span>(OWLClassExpression ce : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;            result.addAll(ce.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;        }</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4c22701dd72424f43bfbb8e24f73ffbc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00531">531</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <span class="keywordflow">return</span> axiom.getEntity().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac33f92cc059156d0fce166945c9eac7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00537">537</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa946c7584921ec4dc6ffac67aa0a34b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00543">543</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d4dba8d5e204c59fb98103a145485a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00549">549</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae5b21f2bf5cd351fde6f3b450986162a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00555">555</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af2d97e36d3ec4271de30981a17d5a358"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00561">561</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a95d388c24f416381c4191c1cdf734c60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00566">566</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <span class="keywordflow">return</span> axiom.getClassExpression().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeaf715ab6cdfa82afcc2095761b908a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00571">571</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <span class="keywordflow">for</span>(OWLClassExpression ce : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;            result.addAll(ce.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        }</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afba842fc2106ea22089a7983f8bb0010"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00581">581</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad306d15c0530c5ab9dca72109f3ef2e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00587">587</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9502f955c11a2edadaf8b51fbec6d532"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00593">593</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                                                                                  {</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a392fe3e747a27391feb84e95a3003642"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00599">599</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6750fd04403cacad13b647dda5768eea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00605">605</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;                                                                                        {</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aed21a4e9d4e643bbbe41f8fc46f0539c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00611">611</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7468392fbe1dcecb67f79c30125fe39e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00617">617</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2aa5f030bf208695d72c9f3acca57a3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00623">623</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58de550638c6968c64756e96831b88b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00628">628</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                                                               {</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        <span class="keywordflow">return</span> axiom.getClassExpression().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06c3e09b6537e0506e28fab5d83fa8f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00633">633</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2c2b7b38ad9fe2b0486e11cd52b98442"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td>
+          <td class="paramname"><em>rule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00638">638</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;                                                        {</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        <span class="keywordflow">for</span>(SWRLAtom atom : rule.getBody()) {</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            result.addAll(atom.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        }</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        <span class="keywordflow">for</span>(SWRLAtom atom : rule.getHead()) {</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            result.addAll(atom.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        }</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab8cc1d5d41019b177ea63f15381c66b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00650">650</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5e5141f1aa6a301605b92a78d8e77dee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00655">655</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a40c59db758bed18545563740121f4d15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00660">660</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8a2dfa0fdcf7072018885cd34328adfc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.util.OWLClassExpressionCollector.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_class_expression_collector_8java_source.html#l00665">665</a> del archivo <a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_o_w_l_class_expression_collector_8java_source.html">OWLClassExpressionCollector.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_class_expression_collector.html">OWLClassExpressionCollector</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:36 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

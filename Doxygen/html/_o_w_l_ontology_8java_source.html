@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/model/OWLOntology.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_o_w_l_ontology_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">OWLOntology.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_o_w_l_ontology_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.model;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">   59</a></span>&#160;<span class="keyword">public</span> <span class="keyword">interface </span><a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> <span class="keyword">extends</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// XXX when the interfce changes, uncomment this</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">//void accept(OWLNamedObjectVisitor visitor);</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3d58de238cc1f23c31fde97f030b3058">getOWLOntologyManager</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">OWLOntologyID</a> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a87a6bc6282a3333c99b2f34b0330729b">getOntologyID</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1241eb9132e73188e6a32bd66ff165bd">isAnonymous</a>();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    Set&lt;OWLAnnotation&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a47069e02d864e875ac338bb29df82ab4">getAnnotations</a>();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// Imported ontologies</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    Set&lt;IRI&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9b78b53552c9c1f71709f9c893388e81">getDirectImportsDocuments</a>() <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">UnknownOWLOntologyException</a>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    Set&lt;OWLOntology&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2e1ae99aa7e9b9d2bfae42e1348747e4">getDirectImports</a>() <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">UnknownOWLOntologyException</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    Set&lt;OWLOntology&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a494f984a2879a4b943ee3e342064fd89">getImports</a>() <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">UnknownOWLOntologyException</a>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    Set&lt;OWLOntology&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0498eba3a4ae9f428b85a629e0263a8f">getImportsClosure</a>() <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">UnknownOWLOntologyException</a>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    Set&lt;OWLImportsDeclaration&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad6f6166c7ff17dce6d3e72a3ba29eae4">getImportsDeclarations</a>();</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="comment">// Methods to retrive class, property and individual axioms</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ab318bb166cbf65aca5dccbdbaa7298c6">isEmpty</a>();</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2422d78cf5844918de68e15337fdd0db">getAxiomCount</a>();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    Set&lt;OWLLogicalAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7515cd65f3ee633dfb2982d2620fbc5">getLogicalAxioms</a>();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3ac04dc41c28b1e43ed4f02144d255aa">getLogicalAxiomCount</a>();</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    &lt;T extends <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; Set&lt;T&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(AxiomType&lt;T&gt; axiomType);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    &lt;T extends <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; Set&lt;T&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(AxiomType&lt;T&gt; axiomType, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5553836d365c92e2181c0063e8e898ce">getTBoxAxioms</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a790151c05bd48af1a280ca4d1bf13d32">getABoxAxioms</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac5c5cc418a96a3ff265f3e762da110ca">getRBoxAxioms</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    &lt;T extends <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; <span class="keywordtype">int</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2422d78cf5844918de68e15337fdd0db">getAxiomCount</a>(AxiomType&lt;T&gt; axiomType);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    &lt;T extends <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; <span class="keywordtype">int</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2422d78cf5844918de68e15337fdd0db">getAxiomCount</a>(AxiomType&lt;T&gt; axiomType, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#adda4d6ea7571709ae0e324538a02b204">containsAxiomIgnoreAnnotations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac34f6f2a92440af4134ba27138d2d837">getAxiomsIgnoreAnnotations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac34f6f2a92440af4134ba27138d2d837">getAxiomsIgnoreAnnotations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#adda4d6ea7571709ae0e324538a02b204">containsAxiomIgnoreAnnotations</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    Set&lt;OWLClassAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae40508c509dccec32fb78b4b8cfafab4">getGeneralClassAxioms</a>();</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="comment">// References/usage</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    @Override</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    Set&lt;OWLEntity&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aee70ef186c308d4a41df64199ced2e2c">getSignature</a>();</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    Set&lt;OWLEntity&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aee70ef186c308d4a41df64199ced2e2c">getSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    @Override</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    Set&lt;OWLClass&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1f6340caef27fd1791a31603940f7549">getClassesInSignature</a>();</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    Set&lt;OWLClass&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1f6340caef27fd1791a31603940f7549">getClassesInSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    @Override</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    Set&lt;OWLObjectProperty&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a63a0131c118a891bbf04411ac37ae66e">getObjectPropertiesInSignature</a>();</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    Set&lt;OWLObjectProperty&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a63a0131c118a891bbf04411ac37ae66e">getObjectPropertiesInSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    @Override</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    Set&lt;OWLDataProperty&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a79cd499333112099749404a7cdc3e1f7">getDataPropertiesInSignature</a>();</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    Set&lt;OWLDataProperty&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a79cd499333112099749404a7cdc3e1f7">getDataPropertiesInSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    @Override</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    Set&lt;OWLNamedIndividual&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac5c78ec9f939f01cc509fba8396177d6">getIndividualsInSignature</a>();</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    Set&lt;OWLNamedIndividual&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac5c78ec9f939f01cc509fba8396177d6">getIndividualsInSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    Set&lt;OWLAnonymousIndividual&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a806d9c23e59234e4f12b14b6d391510f">getReferencedAnonymousIndividuals</a>();</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    @Override</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    Set&lt;OWLDatatype&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad580156be1bfc8ef58e1b42c5e28013a">getDatatypesInSignature</a>();</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    Set&lt;OWLDatatype&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad580156be1bfc8ef58e1b42c5e28013a">getDatatypesInSignature</a>(<span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    Set&lt;OWLAnnotationProperty&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">getAnnotationPropertiesInSignature</a>();</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4d99a9d0e1ce1523f099713bfdcf4b28">getReferencingAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4d99a9d0e1ce1523f099713bfdcf4b28">getReferencingAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    Set&lt;OWLAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4d99a9d0e1ce1523f099713bfdcf4b28">getReferencingAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> individual);</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">containsEntityInSignature</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity);</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">containsEntityInSignature</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">containsEntityInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> entityIRI);</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">containsEntityInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> entityIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0515d5fb77d4724ca485254c5c109bf0">isDeclared</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0515d5fb77d4724ca485254c5c109bf0">isDeclared</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> owlEntity, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <span class="comment">// Access by IRI</span></div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5d286367aeb3cc31c9b840d7b0c07871">containsClassInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlClassIRI);</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5d286367aeb3cc31c9b840d7b0c07871">containsClassInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlClassIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aa86ff738bd5f9767190dc5c1f1cf545b">containsObjectPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlObjectPropertyIRI);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aa86ff738bd5f9767190dc5c1f1cf545b">containsObjectPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlObjectPropertyIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7147719522e230ce76d3f936899a5f4">containsDataPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlDataPropertyIRI);</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7147719522e230ce76d3f936899a5f4">containsDataPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlDataPropertyIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4c9310943a436bd6b39e9d0e98a9bc9e">containsAnnotationPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlAnnotationPropertyIRI);</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4c9310943a436bd6b39e9d0e98a9bc9e">containsAnnotationPropertyInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlAnnotationPropertyIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a74a8d82cd98c58960f8a2532610ff102">containsIndividualInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlIndividualIRI);</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a74a8d82cd98c58960f8a2532610ff102">containsIndividualInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlIndividualIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac9ccfd408cc970aaab2c5edab49b8635">containsDatatypeInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlDatatypeIRI);</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;    <span class="keywordtype">boolean</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac9ccfd408cc970aaab2c5edab49b8635">containsDatatypeInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> owlDatatypeIRI, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    Set&lt;OWLEntity&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#abce65f400a7787faa24d15ebf659de83">getEntitiesInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri);</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    Set&lt;OWLEntity&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#abce65f400a7787faa24d15ebf659de83">getEntitiesInSignature</a>(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri, <span class="keywordtype">boolean</span> includeImportsClosure);</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    <span class="comment">// Axioms that form part of a description of a named entity</span></div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;    Set&lt;OWLClassAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    Set&lt;OWLObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> prop);</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;    Set&lt;OWLDataPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> prop);</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;    Set&lt;OWLIndividualAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;    Set&lt;OWLAnnotationAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> property);</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;    Set&lt;OWLDatatypeDefinitionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">getAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatype);</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    <span class="comment">// Annotation axioms</span></div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    Set&lt;OWLSubAnnotationPropertyOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac794aee2964f5c73eb055d136577caba">getSubAnnotationPropertyOfAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> subProperty);</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;    Set&lt;OWLAnnotationPropertyDomainAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae01c8e5cb04861656b9358f28afde790">getAnnotationPropertyDomainAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> property);</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;    Set&lt;OWLAnnotationPropertyRangeAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a7e170a70b309b910cb60708211f52e5d">getAnnotationPropertyRangeAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> property);</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    <span class="comment">// Various methods that provide axioms relating to specific entities that allow</span></div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <span class="comment">// frame style views to be composed for a particular entity.  Such functionality is</span></div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;    <span class="comment">// useful for ontology editors and browsers.</span></div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;    Set&lt;OWLDeclarationAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ab3a3cc8243249e8cf632dae560b299e2">getDeclarationAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> subject);</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;    Set&lt;OWLAnnotationAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a223c1e5abd3489467935d4585d4d1dcb">getAnnotationAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">OWLAnnotationSubject</a> entity);</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;    <span class="comment">// Classes</span></div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;</div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;    Set&lt;OWLSubClassOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a69d59717261197c8311054116b70ec1e">getSubClassAxiomsForSubClass</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;</div>
+<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;</div>
+<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;    Set&lt;OWLSubClassOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac8a18c1d61f10fe71238bbc9b3141d2b">getSubClassAxiomsForSuperClass</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;</div>
+<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;</div>
+<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;    Set&lt;OWLEquivalentClassesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0759265eb563bbcd5b15b516fa8c2445">getEquivalentClassesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;</div>
+<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;</div>
+<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;    Set&lt;OWLDisjointClassesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a19a87cdd3287f6f4ac736499591a69c1">getDisjointClassesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;</div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;    Set&lt;OWLDisjointUnionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a38e119c5a6a7ee322c2c833a4bf2f497">getDisjointUnionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> owlClass);</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    Set&lt;OWLHasKeyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aab8e452dd05664d63c4bcf9cea86cbb5">getHasKeyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls);</div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;    <span class="comment">// Object properties</span></div>
+<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;    Set&lt;OWLSubObjectPropertyOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4ad6118bab9e71734070a2905d6c249b">getObjectSubPropertyAxiomsForSubProperty</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> subProperty);</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    Set&lt;OWLSubObjectPropertyOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4deb4d050881b762fdb8e7357bd644b2">getObjectSubPropertyAxiomsForSuperProperty</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> superProperty);</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    Set&lt;OWLObjectPropertyDomainAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae40272a6f0595f9901221158327b4498">getObjectPropertyDomainAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;</div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    Set&lt;OWLObjectPropertyRangeAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#abbe81ac6c4d42cdff856d19bf51228f4">getObjectPropertyRangeAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;</div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;    Set&lt;OWLInverseObjectPropertiesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a6ddda1acf1d46b328e8a44d0712927e1">getInverseObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;</div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;</div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;    Set&lt;OWLEquivalentObjectPropertiesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9902a45bbd2b0a0e4200bd9e62874d05">getEquivalentObjectPropertiesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;</div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;</div>
+<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;</div>
+<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;    Set&lt;OWLDisjointObjectPropertiesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4c5be31be9794b6f21dcf09711f1df04">getDisjointObjectPropertiesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;</div>
+<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;</div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;    Set&lt;OWLFunctionalObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a85a03851fce9f65bc125c568bdec7854">getFunctionalObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;</div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;</div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;    Set&lt;OWLInverseFunctionalObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a132e4ade878c481eed71f1e5fc2e6a4f">getInverseFunctionalObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;</div>
+<div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;</div>
+<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;    Set&lt;OWLSymmetricObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a7954e2f9926e0aaa55043312b74cbafd">getSymmetricObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;</div>
+<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;</div>
+<div class="line"><a name="l01219"></a><span class="lineno"> 1219</span>&#160;    Set&lt;OWLAsymmetricObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5a18e211c8600d6f954fb302cdbd313d">getAsymmetricObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01220"></a><span class="lineno"> 1220</span>&#160;</div>
+<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;    Set&lt;OWLReflexiveObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a660ca894c54f21b072bf352941c187f7">getReflexiveObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160;</div>
+<div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;    Set&lt;OWLIrreflexiveObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad30880887287c54e198edab19bd7d85e">getIrreflexiveObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;    Set&lt;OWLTransitiveObjectPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad91a55bdee545eb2bc638e82eb28427e">getTransitiveObjectPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property);</div>
+<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;</div>
+<div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;    <span class="comment">// Data properties</span></div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;</div>
+<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;    Set&lt;OWLSubDataPropertyOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a80ca4af05f93296d4d6a344b5e6d2b9c">getDataSubPropertyAxiomsForSubProperty</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> subProperty);</div>
+<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;</div>
+<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;</div>
+<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;    Set&lt;OWLSubDataPropertyOfAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5eaf1cbb1836346020bb91e7af6d048f">getDataSubPropertyAxiomsForSuperProperty</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a> superProperty);</div>
+<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;</div>
+<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;</div>
+<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;    Set&lt;OWLDataPropertyDomainAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1e641078a4b187eb250ec28e081c2dec">getDataPropertyDomainAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> property);</div>
+<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;</div>
+<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;</div>
+<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;    Set&lt;OWLDataPropertyRangeAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a6b08b12ca6f2fc6966c693a57225294c">getDataPropertyRangeAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> property);</div>
+<div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;</div>
+<div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;</div>
+<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;    Set&lt;OWLEquivalentDataPropertiesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3eb9d13459af08b9ad78368ae9118db8">getEquivalentDataPropertiesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> property);</div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;</div>
+<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;</div>
+<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;    Set&lt;OWLDisjointDataPropertiesAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9c501de3f5aa4e1634c6d4aca29b69fd">getDisjointDataPropertiesAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> property);</div>
+<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;</div>
+<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;    Set&lt;OWLFunctionalDataPropertyAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a8a37f0a6d2535b6b613c5ab85714e8a0">getFunctionalDataPropertyAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a> property);</div>
+<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;</div>
+<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;    <span class="comment">// Individuals</span></div>
+<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;</div>
+<div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;    Set&lt;OWLClassAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#af409eecd7a85f2c712376b159ada655a">getClassAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;</div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;    Set&lt;OWLClassAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#af409eecd7a85f2c712376b159ada655a">getClassAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> ce);</div>
+<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;    Set&lt;OWLDataPropertyAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2a97d9d2d72ef31c792c96f3f7551119">getDataPropertyAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;</div>
+<div class="line"><a name="l01403"></a><span class="lineno"> 1403</span>&#160;    Set&lt;OWLObjectPropertyAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#afdb401f95b75c41c59661f81ffeca4e9">getObjectPropertyAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01404"></a><span class="lineno"> 1404</span>&#160;</div>
+<div class="line"><a name="l01405"></a><span class="lineno"> 1405</span>&#160;</div>
+<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;    Set&lt;OWLNegativeObjectPropertyAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aef72d00cdcdc78095e3457cc324e206f">getNegativeObjectPropertyAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;</div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;</div>
+<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;    Set&lt;OWLNegativeDataPropertyAssertionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#adc7ff56ebab139642160571e04f77668">getNegativeDataPropertyAssertionAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;    Set&lt;OWLSameIndividualAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a349f8d2d885fe39b41bf5d1f3e19ebb7">getSameIndividualAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;</div>
+<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;    Set&lt;OWLDifferentIndividualsAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad68bb626bf0c8f767d06ec6259cf0862">getDifferentIndividualAxioms</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual);</div>
+<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;</div>
+<div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;    Set&lt;OWLDatatypeDefinitionAxiom&gt; <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae645826b274cf2f177ae8d1addfa4e35">getDatatypeDefinitions</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatype);</div>
+<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;</div>
+<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;<span class="comment">// XXX when the interface changes, uncomment this</span></div>
+<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;<span class="comment">//    boolean containsReference(OWLClass entity);</span></div>
+<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;<span class="comment">//    boolean containsReference(OWLObjectProperty entity);</span></div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;<span class="comment">//    boolean containsReference(OWLDataProperty entity);</span></div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;<span class="comment">//   boolean containsReference(OWLNamedIndividual entity);</span></div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;<span class="comment">//    boolean containsReference(OWLDatatype entity);</span></div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;<span class="comment">//    /** @param entity</span></div>
+<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;<span class="comment">//     *            entyty to check</span></div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;<span class="comment">//     * @return true if entity is referenced */</span></div>
+<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;<span class="comment">//    boolean containsReference(OWLAnnotationProperty propentityerty);</span></div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;}</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a0759265eb563bbcd5b15b516fa8c2445"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0759265eb563bbcd5b15b516fa8c2445">org.semanticweb.owlapi.model.OWLOntology.getEquivalentClassesAxioms</a></div><div class="ttdeci">Set&lt; OWLEquivalentClassesAxiom &gt; getEquivalentClassesAxioms(OWLClass cls)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_property_8java_source.html#l00051">OWLAnnotationProperty.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_afdb401f95b75c41c59661f81ffeca4e9"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#afdb401f95b75c41c59661f81ffeca4e9">org.semanticweb.owlapi.model.OWLOntology.getObjectPropertyAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLObjectPropertyAssertionAxiom &gt; getObjectPropertyAssertionAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5eaf1cbb1836346020bb91e7af6d048f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5eaf1cbb1836346020bb91e7af6d048f">org.semanticweb.owlapi.model.OWLOntology.getDataSubPropertyAxiomsForSuperProperty</a></div><div class="ttdeci">Set&lt; OWLSubDataPropertyOfAxiom &gt; getDataSubPropertyAxiomsForSuperProperty(OWLDataPropertyExpression superProperty)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5313978c0818a26a0de52d6a57889df3"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">org.semanticweb.owlapi.model.OWLOntology.containsEntityInSignature</a></div><div class="ttdeci">boolean containsEntityInSignature(OWLEntity owlEntity)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a1f6340caef27fd1791a31603940f7549"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1f6340caef27fd1791a31603940f7549">org.semanticweb.owlapi.model.OWLOntology.getClassesInSignature</a></div><div class="ttdeci">Set&lt; OWLClass &gt; getClassesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a4deb4d050881b762fdb8e7357bd644b2"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4deb4d050881b762fdb8e7357bd644b2">org.semanticweb.owlapi.model.OWLOntology.getObjectSubPropertyAxiomsForSuperProperty</a></div><div class="ttdeci">Set&lt; OWLSubObjectPropertyOfAxiom &gt; getObjectSubPropertyAxiomsForSuperProperty(OWLObjectPropertyExpression superProperty)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">org.semanticweb.owlapi.model.OWLAnnotationSubject</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_subject_8java_source.html#l00049">OWLAnnotationSubject.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a8a37f0a6d2535b6b613c5ab85714e8a0"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a8a37f0a6d2535b6b613c5ab85714e8a0">org.semanticweb.owlapi.model.OWLOntology.getFunctionalDataPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLFunctionalDataPropertyAxiom &gt; getFunctionalDataPropertyAxioms(OWLDataPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a349f8d2d885fe39b41bf5d1f3e19ebb7"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a349f8d2d885fe39b41bf5d1f3e19ebb7">org.semanticweb.owlapi.model.OWLOntology.getSameIndividualAxioms</a></div><div class="ttdeci">Set&lt; OWLSameIndividualAxiom &gt; getSameIndividualAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">org.semanticweb.owlapi.model.OWLEntity</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_entity_8java_source.html#l00054">OWLEntity.java:54</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac7147719522e230ce76d3f936899a5f4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7147719522e230ce76d3f936899a5f4">org.semanticweb.owlapi.model.OWLOntology.containsDataPropertyInSignature</a></div><div class="ttdeci">boolean containsDataPropertyInSignature(IRI owlDataPropertyIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">org.semanticweb.owlapi.model.OWLDatatype</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_datatype_8java_source.html#l00052">OWLDatatype.java:52</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad91a55bdee545eb2bc638e82eb28427e"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad91a55bdee545eb2bc638e82eb28427e">org.semanticweb.owlapi.model.OWLOntology.getTransitiveObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLTransitiveObjectPropertyAxiom &gt; getTransitiveObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_axiom_8java_source.html#l00056">OWLAxiom.java:56</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a9b78b53552c9c1f71709f9c893388e81"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9b78b53552c9c1f71709f9c893388e81">org.semanticweb.owlapi.model.OWLOntology.getDirectImportsDocuments</a></div><div class="ttdeci">Set&lt; IRI &gt; getDirectImportsDocuments()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ae40272a6f0595f9901221158327b4498"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae40272a6f0595f9901221158327b4498">org.semanticweb.owlapi.model.OWLOntology.getObjectPropertyDomainAxioms</a></div><div class="ttdeci">Set&lt; OWLObjectPropertyDomainAxiom &gt; getObjectPropertyDomainAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac5c5cc418a96a3ff265f3e762da110ca"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac5c5cc418a96a3ff265f3e762da110ca">org.semanticweb.owlapi.model.OWLOntology.getRBoxAxioms</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getRBoxAxioms(boolean includeImportsClosure)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a63a0131c118a891bbf04411ac37ae66e"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a63a0131c118a891bbf04411ac37ae66e">org.semanticweb.owlapi.model.OWLOntology.getObjectPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLObjectProperty &gt; getObjectPropertiesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ab318bb166cbf65aca5dccbdbaa7298c6"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ab318bb166cbf65aca5dccbdbaa7298c6">org.semanticweb.owlapi.model.OWLOntology.isEmpty</a></div><div class="ttdeci">boolean isEmpty()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a69d59717261197c8311054116b70ec1e"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a69d59717261197c8311054116b70ec1e">org.semanticweb.owlapi.model.OWLOntology.getSubClassAxiomsForSubClass</a></div><div class="ttdeci">Set&lt; OWLSubClassOfAxiom &gt; getSubClassAxiomsForSubClass(OWLClass cls)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad47e92e4473bc219fd3458059d961925"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">org.semanticweb.owlapi.model.OWLOntology.containsAxiom</a></div><div class="ttdeci">boolean containsAxiom(OWLAxiom axiom)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a3ac04dc41c28b1e43ed4f02144d255aa"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3ac04dc41c28b1e43ed4f02144d255aa">org.semanticweb.owlapi.model.OWLOntology.getLogicalAxiomCount</a></div><div class="ttdeci">int getLogicalAxiomCount()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a0515d5fb77d4724ca485254c5c109bf0"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0515d5fb77d4724ca485254c5c109bf0">org.semanticweb.owlapi.model.OWLOntology.isDeclared</a></div><div class="ttdeci">boolean isDeclared(OWLEntity owlEntity)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a4c9310943a436bd6b39e9d0e98a9bc9e"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4c9310943a436bd6b39e9d0e98a9bc9e">org.semanticweb.owlapi.model.OWLOntology.containsAnnotationPropertyInSignature</a></div><div class="ttdeci">boolean containsAnnotationPropertyInSignature(IRI owlAnnotationPropertyIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac794aee2964f5c73eb055d136577caba"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac794aee2964f5c73eb055d136577caba">org.semanticweb.owlapi.model.OWLOntology.getSubAnnotationPropertyOfAxioms</a></div><div class="ttdeci">Set&lt; OWLSubAnnotationPropertyOfAxiom &gt; getSubAnnotationPropertyOfAxioms(OWLAnnotationProperty subProperty)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a7e170a70b309b910cb60708211f52e5d"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a7e170a70b309b910cb60708211f52e5d">org.semanticweb.owlapi.model.OWLOntology.getAnnotationPropertyRangeAxioms</a></div><div class="ttdeci">Set&lt; OWLAnnotationPropertyRangeAxiom &gt; getAnnotationPropertyRangeAxioms(OWLAnnotationProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a806d9c23e59234e4f12b14b6d391510f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a806d9c23e59234e4f12b14b6d391510f">org.semanticweb.owlapi.model.OWLOntology.getReferencedAnonymousIndividuals</a></div><div class="ttdeci">Set&lt; OWLAnonymousIndividual &gt; getReferencedAnonymousIndividuals()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5553836d365c92e2181c0063e8e898ce"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5553836d365c92e2181c0063e8e898ce">org.semanticweb.owlapi.model.OWLOntology.getTBoxAxioms</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getTBoxAxioms(boolean includeImportsClosure)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a0498eba3a4ae9f428b85a629e0263a8f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a0498eba3a4ae9f428b85a629e0263a8f">org.semanticweb.owlapi.model.OWLOntology.getImportsClosure</a></div><div class="ttdeci">Set&lt; OWLOntology &gt; getImportsClosure()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac5c78ec9f939f01cc509fba8396177d6"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac5c78ec9f939f01cc509fba8396177d6">org.semanticweb.owlapi.model.OWLOntology.getIndividualsInSignature</a></div><div class="ttdeci">Set&lt; OWLNamedIndividual &gt; getIndividualsInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad30880887287c54e198edab19bd7d85e"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad30880887287c54e198edab19bd7d85e">org.semanticweb.owlapi.model.OWLOntology.getIrreflexiveObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLIrreflexiveObjectPropertyAxiom &gt; getIrreflexiveObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a1241eb9132e73188e6a32bd66ff165bd"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1241eb9132e73188e6a32bd66ff165bd">org.semanticweb.owlapi.model.OWLOntology.isAnonymous</a></div><div class="ttdeci">boolean isAnonymous()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a38e119c5a6a7ee322c2c833a4bf2f497"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a38e119c5a6a7ee322c2c833a4bf2f497">org.semanticweb.owlapi.model.OWLOntology.getDisjointUnionAxioms</a></div><div class="ttdeci">Set&lt; OWLDisjointUnionAxiom &gt; getDisjointUnionAxioms(OWLClass owlClass)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a4c5be31be9794b6f21dcf09711f1df04"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4c5be31be9794b6f21dcf09711f1df04">org.semanticweb.owlapi.model.OWLOntology.getDisjointObjectPropertiesAxioms</a></div><div class="ttdeci">Set&lt; OWLDisjointObjectPropertiesAxiom &gt; getDisjointObjectPropertiesAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a2422d78cf5844918de68e15337fdd0db"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2422d78cf5844918de68e15337fdd0db">org.semanticweb.owlapi.model.OWLOntology.getAxiomCount</a></div><div class="ttdeci">int getAxiomCount()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a494f984a2879a4b943ee3e342064fd89"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a494f984a2879a4b943ee3e342064fd89">org.semanticweb.owlapi.model.OWLOntology.getImports</a></div><div class="ttdeci">Set&lt; OWLOntology &gt; getImports()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">org.semanticweb.owlapi.model.OWLDataProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_property_8java_source.html#l00050">OWLDataProperty.java:50</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00057">IRI.java:57</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">org.semanticweb.owlapi.model.OWLOntologyID</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_i_d_8java_source.html#l00054">OWLOntologyID.java:54</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_manager_8java_source.html#l00061">OWLOntologyManager.java:61</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_adda4d6ea7571709ae0e324538a02b204"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#adda4d6ea7571709ae0e324538a02b204">org.semanticweb.owlapi.model.OWLOntology.containsAxiomIgnoreAnnotations</a></div><div class="ttdeci">boolean containsAxiomIgnoreAnnotations(OWLAxiom axiom)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_aa86ff738bd5f9767190dc5c1f1cf545b"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aa86ff738bd5f9767190dc5c1f1cf545b">org.semanticweb.owlapi.model.OWLOntology.containsObjectPropertyInSignature</a></div><div class="ttdeci">boolean containsObjectPropertyInSignature(IRI owlObjectPropertyIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a9c501de3f5aa4e1634c6d4aca29b69fd"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9c501de3f5aa4e1634c6d4aca29b69fd">org.semanticweb.owlapi.model.OWLOntology.getDisjointDataPropertiesAxioms</a></div><div class="ttdeci">Set&lt; OWLDisjointDataPropertiesAxiom &gt; getDisjointDataPropertiesAxioms(OWLDataProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad68bb626bf0c8f767d06ec6259cf0862"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad68bb626bf0c8f767d06ec6259cf0862">org.semanticweb.owlapi.model.OWLOntology.getDifferentIndividualAxioms</a></div><div class="ttdeci">Set&lt; OWLDifferentIndividualsAxiom &gt; getDifferentIndividualAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a2e1ae99aa7e9b9d2bfae42e1348747e4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2e1ae99aa7e9b9d2bfae42e1348747e4">org.semanticweb.owlapi.model.OWLOntology.getDirectImports</a></div><div class="ttdeci">Set&lt; OWLOntology &gt; getDirectImports()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">org.semanticweb.owlapi.model.OWLIndividual</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_individual_8java_source.html#l00053">OWLIndividual.java:53</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a6b08b12ca6f2fc6966c693a57225294c"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a6b08b12ca6f2fc6966c693a57225294c">org.semanticweb.owlapi.model.OWLOntology.getDataPropertyRangeAxioms</a></div><div class="ttdeci">Set&lt; OWLDataPropertyRangeAxiom &gt; getDataPropertyRangeAxioms(OWLDataProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a3eb9d13459af08b9ad78368ae9118db8"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3eb9d13459af08b9ad78368ae9118db8">org.semanticweb.owlapi.model.OWLOntology.getEquivalentDataPropertiesAxioms</a></div><div class="ttdeci">Set&lt; OWLEquivalentDataPropertiesAxiom &gt; getEquivalentDataPropertiesAxioms(OWLDataProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_abce65f400a7787faa24d15ebf659de83"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#abce65f400a7787faa24d15ebf659de83">org.semanticweb.owlapi.model.OWLOntology.getEntitiesInSignature</a></div><div class="ttdeci">Set&lt; OWLEntity &gt; getEntitiesInSignature(IRI iri)</div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">org.semanticweb.owlapi.model.UnknownOWLOntologyException</a></div><div class="ttdef"><b>Definition:</b> <a href="_unknown_o_w_l_ontology_exception_8java_source.html#l00049">UnknownOWLOntologyException.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5a18e211c8600d6f954fb302cdbd313d"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5a18e211c8600d6f954fb302cdbd313d">org.semanticweb.owlapi.model.OWLOntology.getAsymmetricObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLAsymmetricObjectPropertyAxiom &gt; getAsymmetricObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a790151c05bd48af1a280ca4d1bf13d32"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a790151c05bd48af1a280ca4d1bf13d32">org.semanticweb.owlapi.model.OWLOntology.getABoxAxioms</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getABoxAxioms(boolean includeImportsClosure)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_adc7ff56ebab139642160571e04f77668"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#adc7ff56ebab139642160571e04f77668">org.semanticweb.owlapi.model.OWLOntology.getNegativeDataPropertyAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLNegativeDataPropertyAssertionAxiom &gt; getNegativeDataPropertyAssertionAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ae40508c509dccec32fb78b4b8cfafab4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae40508c509dccec32fb78b4b8cfafab4">org.semanticweb.owlapi.model.OWLOntology.getGeneralClassAxioms</a></div><div class="ttdeci">Set&lt; OWLClassAxiom &gt; getGeneralClassAxioms()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac7515cd65f3ee633dfb2982d2620fbc5"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7515cd65f3ee633dfb2982d2620fbc5">org.semanticweb.owlapi.model.OWLOntology.getLogicalAxioms</a></div><div class="ttdeci">Set&lt; OWLLogicalAxiom &gt; getLogicalAxioms()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a660ca894c54f21b072bf352941c187f7"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a660ca894c54f21b072bf352941c187f7">org.semanticweb.owlapi.model.OWLOntology.getReflexiveObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLReflexiveObjectPropertyAxiom &gt; getReflexiveObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a80ca4af05f93296d4d6a344b5e6d2b9c"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a80ca4af05f93296d4d6a344b5e6d2b9c">org.semanticweb.owlapi.model.OWLOntology.getDataSubPropertyAxiomsForSubProperty</a></div><div class="ttdeci">Set&lt; OWLSubDataPropertyOfAxiom &gt; getDataSubPropertyAxiomsForSubProperty(OWLDataProperty subProperty)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a47069e02d864e875ac338bb29df82ab4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a47069e02d864e875ac338bb29df82ab4">org.semanticweb.owlapi.model.OWLOntology.getAnnotations</a></div><div class="ttdeci">Set&lt; OWLAnnotation &gt; getAnnotations()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a4d99a9d0e1ce1523f099713bfdcf4b28"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4d99a9d0e1ce1523f099713bfdcf4b28">org.semanticweb.owlapi.model.OWLOntology.getReferencingAxioms</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getReferencingAxioms(OWLEntity owlEntity)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a74a8d82cd98c58960f8a2532610ff102"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a74a8d82cd98c58960f8a2532610ff102">org.semanticweb.owlapi.model.OWLOntology.containsIndividualInSignature</a></div><div class="ttdeci">boolean containsIndividualInSignature(IRI owlIndividualIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a6ddda1acf1d46b328e8a44d0712927e1"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a6ddda1acf1d46b328e8a44d0712927e1">org.semanticweb.owlapi.model.OWLOntology.getInverseObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLInverseObjectPropertiesAxiom &gt; getInverseObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a1e641078a4b187eb250ec28e081c2dec"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1e641078a4b187eb250ec28e081c2dec">org.semanticweb.owlapi.model.OWLOntology.getDataPropertyDomainAxioms</a></div><div class="ttdeci">Set&lt; OWLDataPropertyDomainAxiom &gt; getDataPropertyDomainAxioms(OWLDataProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_8java_source.html#l00052">OWLClass.java:52</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">org.semanticweb.owlapi.model.OWLAnonymousIndividual</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_anonymous_individual_8java_source.html#l00051">OWLAnonymousIndividual.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad580156be1bfc8ef58e1b42c5e28013a"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad580156be1bfc8ef58e1b42c5e28013a">org.semanticweb.owlapi.model.OWLOntology.getDatatypesInSignature</a></div><div class="ttdeci">Set&lt; OWLDatatype &gt; getDatatypesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_aab8e452dd05664d63c4bcf9cea86cbb5"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aab8e452dd05664d63c4bcf9cea86cbb5">org.semanticweb.owlapi.model.OWLOntology.getHasKeyAxioms</a></div><div class="ttdeci">Set&lt; OWLHasKeyAxiom &gt; getHasKeyAxioms(OWLClass cls)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac8a18c1d61f10fe71238bbc9b3141d2b"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac8a18c1d61f10fe71238bbc9b3141d2b">org.semanticweb.owlapi.model.OWLOntology.getSubClassAxiomsForSuperClass</a></div><div class="ttdeci">Set&lt; OWLSubClassOfAxiom &gt; getSubClassAxiomsForSuperClass(OWLClass cls)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_expression_8java_source.html#l00050">OWLClassExpression.java:50</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a650a728c2c12af706c91914d82bed2a1"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a650a728c2c12af706c91914d82bed2a1">org.semanticweb.owlapi.model.OWLOntology.getAxioms</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getAxioms()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_aef72d00cdcdc78095e3457cc324e206f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aef72d00cdcdc78095e3457cc324e206f">org.semanticweb.owlapi.model.OWLOntology.getNegativeObjectPropertyAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLNegativeObjectPropertyAssertionAxiom &gt; getNegativeObjectPropertyAssertionAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac73b8f00659d2b3622e94e3f4778b8bd"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">org.semanticweb.owlapi.model.OWLOntology.getAnnotationPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLAnnotationProperty &gt; getAnnotationPropertiesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_8java_source.html#l00051">OWLObject.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a223c1e5abd3489467935d4585d4d1dcb"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a223c1e5abd3489467935d4585d4d1dcb">org.semanticweb.owlapi.model.OWLOntology.getAnnotationAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLAnnotationAssertionAxiom &gt; getAnnotationAssertionAxioms(OWLAnnotationSubject entity)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ae01c8e5cb04861656b9358f28afde790"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae01c8e5cb04861656b9358f28afde790">org.semanticweb.owlapi.model.OWLOntology.getAnnotationPropertyDomainAxioms</a></div><div class="ttdeci">Set&lt; OWLAnnotationPropertyDomainAxiom &gt; getAnnotationPropertyDomainAxioms(OWLAnnotationProperty property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac34f6f2a92440af4134ba27138d2d837"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac34f6f2a92440af4134ba27138d2d837">org.semanticweb.owlapi.model.OWLOntology.getAxiomsIgnoreAnnotations</a></div><div class="ttdeci">Set&lt; OWLAxiom &gt; getAxiomsIgnoreAnnotations(OWLAxiom axiom)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a79cd499333112099749404a7cdc3e1f7"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a79cd499333112099749404a7cdc3e1f7">org.semanticweb.owlapi.model.OWLOntology.getDataPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLDataProperty &gt; getDataPropertiesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a85a03851fce9f65bc125c568bdec7854"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a85a03851fce9f65bc125c568bdec7854">org.semanticweb.owlapi.model.OWLOntology.getFunctionalObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLFunctionalObjectPropertyAxiom &gt; getFunctionalObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_aee70ef186c308d4a41df64199ced2e2c"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#aee70ef186c308d4a41df64199ced2e2c">org.semanticweb.owlapi.model.OWLOntology.getSignature</a></div><div class="ttdeci">Set&lt; OWLEntity &gt; getSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a87a6bc6282a3333c99b2f34b0330729b"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a87a6bc6282a3333c99b2f34b0330729b">org.semanticweb.owlapi.model.OWLOntology.getOntologyID</a></div><div class="ttdeci">OWLOntologyID getOntologyID()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5d286367aeb3cc31c9b840d7b0c07871"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5d286367aeb3cc31c9b840d7b0c07871">org.semanticweb.owlapi.model.OWLOntology.containsClassInSignature</a></div><div class="ttdeci">boolean containsClassInSignature(IRI owlClassIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a3d58de238cc1f23c31fde97f030b3058"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a3d58de238cc1f23c31fde97f030b3058">org.semanticweb.owlapi.model.OWLOntology.getOWLOntologyManager</a></div><div class="ttdeci">OWLOntologyManager getOWLOntologyManager()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a7954e2f9926e0aaa55043312b74cbafd"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a7954e2f9926e0aaa55043312b74cbafd">org.semanticweb.owlapi.model.OWLOntology.getSymmetricObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLSymmetricObjectPropertyAxiom &gt; getSymmetricObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_abbe81ac6c4d42cdff856d19bf51228f4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#abbe81ac6c4d42cdff856d19bf51228f4">org.semanticweb.owlapi.model.OWLOntology.getObjectPropertyRangeAxioms</a></div><div class="ttdeci">Set&lt; OWLObjectPropertyRangeAxiom &gt; getObjectPropertyRangeAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a9902a45bbd2b0a0e4200bd9e62874d05"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a9902a45bbd2b0a0e4200bd9e62874d05">org.semanticweb.owlapi.model.OWLOntology.getEquivalentObjectPropertiesAxioms</a></div><div class="ttdeci">Set&lt; OWLEquivalentObjectPropertiesAxiom &gt; getEquivalentObjectPropertiesAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_af409eecd7a85f2c712376b159ada655a"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#af409eecd7a85f2c712376b159ada655a">org.semanticweb.owlapi.model.OWLOntology.getClassAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLClassAssertionAxiom &gt; getClassAssertionAxioms(OWLIndividual individual)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a4ad6118bab9e71734070a2905d6c249b"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a4ad6118bab9e71734070a2905d6c249b">org.semanticweb.owlapi.model.OWLOntology.getObjectSubPropertyAxiomsForSubProperty</a></div><div class="ttdeci">Set&lt; OWLSubObjectPropertyOfAxiom &gt; getObjectSubPropertyAxiomsForSubProperty(OWLObjectPropertyExpression subProperty)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ab3a3cc8243249e8cf632dae560b299e2"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ab3a3cc8243249e8cf632dae560b299e2">org.semanticweb.owlapi.model.OWLOntology.getDeclarationAxioms</a></div><div class="ttdeci">Set&lt; OWLDeclarationAxiom &gt; getDeclarationAxioms(OWLEntity subject)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">org.semanticweb.owlapi.model.OWLDataPropertyExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_property_expression_8java_source.html#l00050">OWLDataPropertyExpression.java:50</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a132e4ade878c481eed71f1e5fc2e6a4f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a132e4ade878c481eed71f1e5fc2e6a4f">org.semanticweb.owlapi.model.OWLOntology.getInverseFunctionalObjectPropertyAxioms</a></div><div class="ttdeci">Set&lt; OWLInverseFunctionalObjectPropertyAxiom &gt; getInverseFunctionalObjectPropertyAxioms(OWLObjectPropertyExpression property)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a19a87cdd3287f6f4ac736499591a69c1"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a19a87cdd3287f6f4ac736499591a69c1">org.semanticweb.owlapi.model.OWLOntology.getDisjointClassesAxioms</a></div><div class="ttdeci">Set&lt; OWLDisjointClassesAxiom &gt; getDisjointClassesAxioms(OWLClass cls)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ae645826b274cf2f177ae8d1addfa4e35"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ae645826b274cf2f177ae8d1addfa4e35">org.semanticweb.owlapi.model.OWLOntology.getDatatypeDefinitions</a></div><div class="ttdeci">Set&lt; OWLDatatypeDefinitionAxiom &gt; getDatatypeDefinitions(OWLDatatype datatype)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">org.semanticweb.owlapi.model.OWLObjectPropertyExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_property_expression_8java_source.html#l00048">OWLObjectPropertyExpression.java:48</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac9ccfd408cc970aaab2c5edab49b8635"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac9ccfd408cc970aaab2c5edab49b8635">org.semanticweb.owlapi.model.OWLOntology.containsDatatypeInSignature</a></div><div class="ttdeci">boolean containsDatatypeInSignature(IRI owlDatatypeIRI)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad6f6166c7ff17dce6d3e72a3ba29eae4"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad6f6166c7ff17dce6d3e72a3ba29eae4">org.semanticweb.owlapi.model.OWLOntology.getImportsDeclarations</a></div><div class="ttdeci">Set&lt; OWLImportsDeclaration &gt; getImportsDeclarations()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a2a97d9d2d72ef31c792c96f3f7551119"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a2a97d9d2d72ef31c792c96f3f7551119">org.semanticweb.owlapi.model.OWLOntology.getDataPropertyAssertionAxioms</a></div><div class="ttdeci">Set&lt; OWLDataPropertyAssertionAxiom &gt; getDataPropertyAssertionAxioms(OWLIndividual individual)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_76b3e0b700ee38ee7fa6ff1b6828c72f.html">model</a></li><li class="navelem"><a class="el" href="_o_w_l_ontology_8java.html">OWLOntology.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:48 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

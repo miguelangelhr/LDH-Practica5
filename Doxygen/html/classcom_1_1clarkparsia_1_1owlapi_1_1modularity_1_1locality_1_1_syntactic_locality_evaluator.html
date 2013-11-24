@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_evaluator.html">com.clarkparsia.owlapi.modularity.locality.LocalityEvaluator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2fe283a3993e3efac2ec13ebb98a98f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#a2fe283a3993e3efac2ec13ebb98a98f9">SyntacticLocalityEvaluator</a> (<a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a> localityClass)</td></tr>
+<tr class="separator:a2fe283a3993e3efac2ec13ebb98a98f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3071b5a6f14ca576f6ed0549ddbe0d3"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ad3071b5a6f14ca576f6ed0549ddbe0d3">supportedLocalityClasses</a> ()</td></tr>
+<tr class="separator:ad3071b5a6f14ca576f6ed0549ddbe0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a5e718859ac3c8ee134dbb7e61afc6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ac5a5e718859ac3c8ee134dbb7e61afc6">isLocal</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; signature)</td></tr>
+<tr class="separator:ac5a5e718859ac3c8ee134dbb7e61afc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Métodos protegidos estáticos</h2></td></tr>
+<tr class="memitem:a542db2352666f2a123a6ab9837e4960c"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#a542db2352666f2a123a6ab9837e4960c">isTopOrBuiltInDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> dataRange)</td></tr>
+<tr class="separator:a542db2352666f2a123a6ab9837e4960c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a305f78c4f21a3e7514e51f267fa45"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#af6a305f78c4f21a3e7514e51f267fa45">isTopOrBuiltInInfiniteDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> dataRange)</td></tr>
+<tr class="separator:af6a305f78c4f21a3e7514e51f267fa45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a5aaace39cc33611864c9db24dc7932cb"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#a5aaace39cc33611864c9db24dc7932cb">localityCls</a></td></tr>
+<tr class="separator:a5aaace39cc33611864c9db24dc7932cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Syntactic locality evaluator </p>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00120">120</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a2fe283a3993e3efac2ec13ebb98a98f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.SyntacticLocalityEvaluator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a>&#160;</td>
+          <td class="paramname"><em>localityClass</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new locality evaluator for the given locality class. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">localityClass</td><td>the locality class for this evaluator </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00132">132</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#a5aaace39cc33611864c9db24dc7932cb">localityCls</a> = localityClass;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        axiomVisitor = <span class="keyword">new</span> AxiomLocalityVisitor();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ad3071b5a6f14ca576f6ed0549ddbe0d3">supportedLocalityClasses</a>.contains(localityClass)) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;Unsupported locality class: &quot;</span> + localityClass);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator_html_ad3071b5a6f14ca576f6ed0549ddbe0d3"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ad3071b5a6f14ca576f6ed0549ddbe0d3">com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.supportedLocalityClasses</a></div><div class="ttdeci">Set&lt; LocalityClass &gt; supportedLocalityClasses()</div><div class="ttdef"><b>Definition:</b> <a href="_syntactic_locality_evaluator_8java_source.html#l00145">SyntacticLocalityEvaluator.java:145</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator_html_a5aaace39cc33611864c9db24dc7932cb"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#a5aaace39cc33611864c9db24dc7932cb">com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.localityCls</a></div><div class="ttdeci">final LocalityClass localityCls</div><div class="ttdef"><b>Definition:</b> <a href="_syntactic_locality_evaluator_8java_source.html#l00122">SyntacticLocalityEvaluator.java:122</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ac5a5e718859ac3c8ee134dbb7e61afc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.isLocal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>signature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a given axiom is local with respect to a given signature. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axiom</td><td>the axiom to test </td></tr>
+    <tr><td class="paramname">signature</td><td>the signature to test against </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the axiom is local w.r.t. the signature; <code>false</code> otherwise </dd></dl>
+
+<p>Implementa <a class="el" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_evaluator.html#ac1f64b947dda168188877efdd41a215f">com.clarkparsia.owlapi.modularity.locality.LocalityEvaluator</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l01518">1518</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;                                                                               {</div>
+<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;        <span class="keywordflow">return</span> axiomVisitor.isLocal(axiom, signature);</div>
+<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a542db2352666f2a123a6ab9837e4960c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.isTopOrBuiltInDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td>
+          <td class="paramname"><em>dataRange</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This is a convenience method for determining whether a given data range expression is the top datatype or a built-in datatype. This is used in the bottom- and top-equivalence evaluators for treating cardinality restrictions. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataRange</td><td>a data range expression </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the specified data range expression is the top datatype or a built-in datatype; <code>false</code> otherwise </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00157">157</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">if</span> (dataRange.isDatatype()) {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            OWLDatatype dataType = dataRange.asOWLDatatype();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">return</span> dataType.isTopDatatype() || dataType.isBuiltIn();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af6a305f78c4f21a3e7514e51f267fa45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.isTopOrBuiltInInfiniteDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td>
+          <td class="paramname"><em>dataRange</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This is a convenience method for determining whether a given data range expression is the top datatype or a built-in infinite datatype. This is used in the bottom- and top-equivalence evaluators for treating cardinality restrictions. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataRange</td><td>a data range expression </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the specified data range expression is the top datatype or a built-in infinite datatype; <code>false</code> otherwise </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00174">174</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                                                    {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (dataRange.isDatatype()) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            OWLDatatype dataType = dataRange.asOWLDatatype();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">return</span> dataType.isTopDatatype() || dataType.isBuiltIn() &amp;&amp; !dataType.getBuiltInDatatype().isFinite();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad3071b5a6f14ca576f6ed0549ddbe0d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a>&gt; com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.supportedLocalityClasses </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns all supported locality classes. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>a set containing all supported locality classes </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00145">145</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                         {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ad3071b5a6f14ca576f6ed0549ddbe0d3">supportedLocalityClasses</a>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator_html_ad3071b5a6f14ca576f6ed0549ddbe0d3"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html#ad3071b5a6f14ca576f6ed0549ddbe0d3">com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.supportedLocalityClasses</a></div><div class="ttdeci">Set&lt; LocalityClass &gt; supportedLocalityClasses()</div><div class="ttdef"><b>Definition:</b> <a href="_syntactic_locality_evaluator_8java_source.html#l00145">SyntacticLocalityEvaluator.java:145</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a5aaace39cc33611864c9db24dc7932cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html">LocalityClass</a> com.clarkparsia.owlapi.modularity.locality.SyntacticLocalityEvaluator.localityCls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_syntactic_locality_evaluator_8java_source.html#l00122">122</a> del archivo <a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tools/src/main/java/com/clarkparsia/owlapi/modularity/locality/<a class="el" href="_syntactic_locality_evaluator_8java_source.html">SyntacticLocalityEvaluator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacecom.html">com</a></li><li class="navelem"><a class="el" href="namespacecom_1_1clarkparsia.html">clarkparsia</a></li><li class="navelem"><a class="el" href="namespacecom_1_1clarkparsia_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespacecom_1_1clarkparsia_1_1owlapi_1_1modularity.html">modularity</a></li><li class="navelem"><a class="el" href="namespacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality.html">locality</a></li><li class="navelem"><a class="el" href="classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html">SyntacticLocalityEvaluator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:36 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

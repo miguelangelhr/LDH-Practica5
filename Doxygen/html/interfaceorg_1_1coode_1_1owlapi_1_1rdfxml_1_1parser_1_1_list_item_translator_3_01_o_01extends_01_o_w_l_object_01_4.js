@@ -1,0 +1,5 @@
+var interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_list_item_translator_3_01_o_01extends_01_o_w_l_object_01_4 =
+[
+    [ "translate", "interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_list_item_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#ad6ea0aa220a2d7e1424c70597b0ab695", null ],
+    [ "translate", "interfaceorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_list_item_translator_3_01_o_01extends_01_o_w_l_object_01_4.html#a2505680898b7dc41f85fa0d84d1476f5", null ]
+];

@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_value_restriction_3_01_r_01extends_ddd6bdb2056f68eb0b170ea0a444249e =
+[
+    [ "asSomeValuesFrom", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_value_restriction_3_01_r_01extends_ddd6bdb2056f68eb0b170ea0a444249e.html#a63444e207d99adbc6c84cb954ef4d79e", null ],
+    [ "getValue", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_value_restriction_3_01_r_01extends_ddd6bdb2056f68eb0b170ea0a444249e.html#aabc1b5cc0f7a325d25e9f3f97c73eff9", null ]
+];

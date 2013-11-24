@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom =
+[
+    [ "getAxiomWithoutAnnotations", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html#ac834b42e78a0d90077140d0d52ed59e2", null ]
+];

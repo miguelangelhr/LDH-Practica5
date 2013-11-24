@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_min_qualified_cardinality_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_min_qualified_cardinality_test_case.html#a9f897438121b9b48640132dcc1d0f36a", null ]
+];

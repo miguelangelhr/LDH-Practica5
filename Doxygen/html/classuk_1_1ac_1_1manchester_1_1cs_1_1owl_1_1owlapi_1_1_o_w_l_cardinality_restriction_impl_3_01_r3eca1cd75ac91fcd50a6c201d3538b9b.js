@@ -1,0 +1,8 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b =
+[
+    [ "OWLCardinalityRestrictionImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b.html#a0402bb7a730112752c383396f68566aa", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b.html#a8f298d20bd0749149eba3b2d7d3b6174", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b.html#ac42789e0aea142919933f31e6756993f", null ],
+    [ "getCardinality", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b.html#a4fd7aba7c9bb42f62a9dc45455be6f03", null ],
+    [ "getFiller", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_cardinality_restriction_impl_3_01_r3eca1cd75ac91fcd50a6c201d3538b9b.html#acac426591886941f7dc7a4a7b57008f9", null ]
+];

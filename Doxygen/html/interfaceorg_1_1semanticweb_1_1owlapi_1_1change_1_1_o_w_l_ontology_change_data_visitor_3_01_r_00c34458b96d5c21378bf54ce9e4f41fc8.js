@@ -1,0 +1,10 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8 =
+[
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a061d0272348d3617c909ef337ce1ab9b", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a2b6f0c1b40887228a1e92be6bb105a8e", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a961f709bb8a297997a83c9d52eb66707", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a8c07a25f12454a38db1596b06316262a", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a33e068934e814644050cc596a8425392", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#a3019607fb6d376bad0687fee07989b80", null ],
+    [ "visit", "interfaceorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data_visitor_3_01_r_00c34458b96d5c21378bf54ce9e4f41fc8.html#aaeeef11f15869c910637277fa5cbcf79", null ]
+];

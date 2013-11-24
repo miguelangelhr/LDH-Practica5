@@ -1,0 +1,1000 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias OWLOntologyWalkerVisitor&lt; Object &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad302e4d8d66f3e8d095244c0304d92e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#ad302e4d8d66f3e8d095244c0304d92e5">OWL2ELProfileObjectVisitor</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_ontology_walker.html">OWLOntologyWalker</a> walker, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> man)</td></tr>
+<tr class="separator:ad302e4d8d66f3e8d095244c0304d92e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28553de2f685797e1623373196839dc1"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l_profile_violation.html">OWLProfileViolation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a28553de2f685797e1623373196839dc1">getProfileViolations</a> ()</td></tr>
+<tr class="separator:a28553de2f685797e1623373196839dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b2b1eb18ba33f0ee2387c9f26cd469"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a37b2b1eb18ba33f0ee2387c9f26cd469">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> node)</td></tr>
+<tr class="separator:a37b2b1eb18ba33f0ee2387c9f26cd469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34595082449e774921a662d2b1b37817"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a34595082449e774921a662d2b1b37817">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> individual)</td></tr>
+<tr class="separator:a34595082449e774921a662d2b1b37817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0714e8843a7d3b066ed58839fad699"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#afd0714e8843a7d3b066ed58839fad699">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_inverse_of.html">OWLObjectInverseOf</a> property)</td></tr>
+<tr class="separator:afd0714e8843a7d3b066ed58839fad699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea285e661b0499d61922fa641b15c87"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a4ea285e661b0499d61922fa641b15c87">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:a4ea285e661b0499d61922fa641b15c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0bfe539cc2281ca5fac88d05ee78f83"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#aa0bfe539cc2281ca5fac88d05ee78f83">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> desc)</td></tr>
+<tr class="separator:aa0bfe539cc2281ca5fac88d05ee78f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904b35c917bfd50b86ab69a3637e2cce"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a904b35c917bfd50b86ab69a3637e2cce">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a904b35c917bfd50b86ab69a3637e2cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4815247c029667e97d2be7bcd074f4"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a9d4815247c029667e97d2be7bcd074f4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> desc)</td></tr>
+<tr class="separator:a9d4815247c029667e97d2be7bcd074f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8405b2aaa119d79d989faf631da20790"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a8405b2aaa119d79d989faf631da20790">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:a8405b2aaa119d79d989faf631da20790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a863b1fdfe01acb7f079c08c182631712"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a863b1fdfe01acb7f079c08c182631712">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> desc)</td></tr>
+<tr class="separator:a863b1fdfe01acb7f079c08c182631712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af272883038838d70f2cb87bca1ad5ab4"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#af272883038838d70f2cb87bca1ad5ab4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> desc)</td></tr>
+<tr class="separator:af272883038838d70f2cb87bca1ad5ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce95bdabd110d04c8abb1949edca579"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a1ce95bdabd110d04c8abb1949edca579">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a1ce95bdabd110d04c8abb1949edca579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c043beb75408c9e6ba41076967e504"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#ae0c043beb75408c9e6ba41076967e504">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> desc)</td></tr>
+<tr class="separator:ae0c043beb75408c9e6ba41076967e504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109ec4f5049b643080dd216e69d2cdc5"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a109ec4f5049b643080dd216e69d2cdc5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> desc)</td></tr>
+<tr class="separator:a109ec4f5049b643080dd216e69d2cdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1adccc05e65e9d7bb60b468b0de4a03c"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a1adccc05e65e9d7bb60b468b0de4a03c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> desc)</td></tr>
+<tr class="separator:a1adccc05e65e9d7bb60b468b0de4a03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c619a01db2b94315900a6aeabb2e530"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a5c619a01db2b94315900a6aeabb2e530">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a> node)</td></tr>
+<tr class="separator:a5c619a01db2b94315900a6aeabb2e530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee064eec802aba05b3179918e1388e37"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#aee064eec802aba05b3179918e1388e37">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a> node)</td></tr>
+<tr class="separator:aee064eec802aba05b3179918e1388e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f83bdbc25f690d1ae34798d8b719ef5"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a7f83bdbc25f690d1ae34798d8b719ef5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a> node)</td></tr>
+<tr class="separator:a7f83bdbc25f690d1ae34798d8b719ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2750b52c08bfd6489ba979a9c05374"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a8a2750b52c08bfd6489ba979a9c05374">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a> node)</td></tr>
+<tr class="separator:a8a2750b52c08bfd6489ba979a9c05374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892c48fb79680cfc47c8863d59e4496c"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a892c48fb79680cfc47c8863d59e4496c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a892c48fb79680cfc47c8863d59e4496c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2f6c8156a5d8c6722beed07a4dd27b"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#acc2f6c8156a5d8c6722beed07a4dd27b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:acc2f6c8156a5d8c6722beed07a4dd27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f3428bd14f2baa0731a2b6f172bdc2"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a95f3428bd14f2baa0731a2b6f172bdc2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a95f3428bd14f2baa0731a2b6f172bdc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d993e9350e62ce7e7aa700619b551a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a54d993e9350e62ce7e7aa700619b551a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a> axiom)</td></tr>
+<tr class="separator:a54d993e9350e62ce7e7aa700619b551a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b3f1d0d0fac5d347076a2270d360fb"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#ae3b3f1d0d0fac5d347076a2270d360fb">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ae3b3f1d0d0fac5d347076a2270d360fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fb35bb90827460c533f895256e211c"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a16fb35bb90827460c533f895256e211c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a> axiom)</td></tr>
+<tr class="separator:a16fb35bb90827460c533f895256e211c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b7b50083d4937f8e5c049c7337aafe"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a44b7b50083d4937f8e5c049c7337aafe">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a44b7b50083d4937f8e5c049c7337aafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f59502d48920c686f89ab651c4f9d8d"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a7f59502d48920c686f89ab651c4f9d8d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a7f59502d48920c686f89ab651c4f9d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f07577cc289913b4a08e22515ac306"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a58f07577cc289913b4a08e22515ac306">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a58f07577cc289913b4a08e22515ac306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016b28ee4b1a890c97979797099adb7e"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a016b28ee4b1a890c97979797099adb7e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a016b28ee4b1a890c97979797099adb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43360a436899c78502ea4c1f0a2f8c73"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a43360a436899c78502ea4c1f0a2f8c73">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> rule)</td></tr>
+<tr class="separator:a43360a436899c78502ea4c1f0a2f8c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc02fe0831823d941ca5a4c4dc7c71e"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a5dc02fe0831823d941ca5a4c4dc7c71e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a5dc02fe0831823d941ca5a4c4dc7c71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca163dc7086deeb357ffe690d6d5f92"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html#a4ca163dc7086deeb357ffe690d6d5f92">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a4ca163dc7086deeb357ffe690d6d5f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock">
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00146">146</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ad302e4d8d66f3e8d095244c0304d92e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.OWL2ELProfileObjectVisitor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_ontology_walker.html">OWLOntologyWalker</a>&#160;</td>
+          <td class="paramname"><em>walker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>man</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00151">151</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                                                                                            {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            super(walker);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            this.man = man;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a28553de2f685797e1623373196839dc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l_profile_violation.html">OWLProfileViolation</a>&gt; org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.getProfileViolations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00156">156</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                                               {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> HashSet&lt;OWLProfileViolation&gt;(profileViolations);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a37b2b1eb18ba33f0ee2387c9f26cd469"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00168">168</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                                              {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile.html#a34e0b830f2ae570728bcaf91f440bbfc">allowedDatatypes</a>.contains(node.getIRI())) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                profileViolations.add(<span class="keyword">new</span> UseOfIllegalDataRange(getCurrentOntology(),</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                        getCurrentAxiom(), node));</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_html_a34e0b830f2ae570728bcaf91f440bbfc"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile.html#a34e0b830f2ae570728bcaf91f440bbfc">org.semanticweb.owlapi.profiles.OWL2ELProfile.allowedDatatypes</a></div><div class="ttdeci">final Set&lt; IRI &gt; allowedDatatypes</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_e_l_profile_8java_source.html#l00094">OWL2ELProfile.java:94</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34595082449e774921a662d2b1b37817"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00177">177</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                                               {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfAnonymousIndividual(getCurrentOntology(),</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                    getCurrentAxiom(), individual));</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afd0714e8843a7d3b066ed58839fad699"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_inverse_of.html">OWLObjectInverseOf</a>&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00184">184</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                         {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfObjectPropertyInverse(getCurrentOntology(),</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                    getCurrentAxiom(), property));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ea285e661b0499d61922fa641b15c87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00191">191</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                       {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa0bfe539cc2281ca5fac88d05ee78f83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00198">198</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                                          {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a904b35c917bfd50b86ab69a3637e2cce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00205">205</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                        {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d4815247c029667e97d2be7bcd074f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00212">212</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                                        {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8405b2aaa119d79d989faf631da20790"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00219">219</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                                         {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a863b1fdfe01acb7f079c08c182631712"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00226">226</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                                        {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af272883038838d70f2cb87bca1ad5ab4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00233">233</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                                                            {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1ce95bdabd110d04c8abb1949edca579"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00240">240</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                                          {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae0c043beb75408c9e6ba41076967e504"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00247">247</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                                                          {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a109ec4f5049b643080dd216e69d2cdc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00254">254</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                                                 {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">if</span> (desc.getIndividuals().size() != 1) {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                profileViolations.add(<span class="keyword">new</span> UseOfObjectOneOfWithMultipleIndividuals(</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        getCurrentOntology(), getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            }</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1adccc05e65e9d7bb60b468b0de4a03c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00263">263</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                                                   {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalClassExpression(getCurrentOntology(),</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                    getCurrentAxiom(), desc));</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c619a01db2b94315900a6aeabb2e530"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00270">270</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                                      {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalDataRange(getCurrentOntology(),</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                    getCurrentAxiom(), node));</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aee064eec802aba05b3179918e1388e37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00277">277</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                                               {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">if</span> (node.getValues().size() != 1) {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                profileViolations.add(<span class="keyword">new</span> UseOfDataOneOfWithMultipleLiterals(</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                        getCurrentOntology(), getCurrentAxiom(), node));</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7f83bdbc25f690d1ae34798d8b719ef5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00286">286</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                                                         {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalDataRange(getCurrentOntology(),</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                    getCurrentAxiom(), node));</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8a2750b52c08bfd6489ba979a9c05374"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00293">293</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                                                 {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalDataRange(getCurrentOntology(),</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    getCurrentAxiom(), node));</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a892c48fb79680cfc47c8863d59e4496c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00300">300</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acc2f6c8156a5d8c6722beed07a4dd27b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00306">306</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a95f3428bd14f2baa0731a2b6f172bdc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00312">312</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a54d993e9350e62ce7e7aa700619b551a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00318">318</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                                                         {</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae3b3f1d0d0fac5d347076a2270d360fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00324">324</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16fb35bb90827460c533f895256e211c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00330">330</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                                  {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a44b7b50083d4937f8e5c049c7337aafe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00336">336</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7f59502d48920c686f89ab651c4f9d8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00342">342</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58f07577cc289913b4a08e22515ac306"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00348">348</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a016b28ee4b1a890c97979797099adb7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00354">354</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), axiom));</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a43360a436899c78502ea4c1f0a2f8c73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td>
+          <td class="paramname"><em>rule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00360">360</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                                           {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;            profileViolations.add(<span class="keyword">new</span> UseOfIllegalAxiom(getCurrentOntology(), rule));</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            <span class="keywordflow">return</span> super.visit(rule);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5dc02fe0831823d941ca5a4c4dc7c71e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00366">366</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                                                              {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            Set&lt;OWLObjectPropertyRangeAxiom&gt; rangeAxioms = getCurrentOntology()</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    .getAxioms(AxiomType.OBJECT_PROPERTY_RANGE, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;            <span class="keywordflow">if</span> (rangeAxioms.isEmpty()) {</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                <span class="keywordflow">return</span> Boolean.FALSE;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            <span class="comment">// Do we have a range restriction imposed on our super property?</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            <span class="keywordflow">for</span> (OWLObjectPropertyRangeAxiom rngAx : rangeAxioms) {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                <span class="keywordflow">if</span> (getPropertyManager().isSubPropertyOf(axiom.getSuperProperty(),</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                        rngAx.getProperty())) {</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                    <span class="comment">// Imposed range restriction!</span></div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;                    OWLClassExpression imposedRange = rngAx.getRange();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                    <span class="comment">// There must be an axiom that imposes a range on the last</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                    <span class="comment">// prop in the chain</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                    List&lt;OWLObjectPropertyExpression&gt; chain = axiom.getPropertyChain();</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                    <span class="keywordflow">if</span> (!chain.isEmpty()) {</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                        OWLObjectPropertyExpression lastProperty = chain</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                                .get(chain.size() - 1);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                        <span class="keywordtype">boolean</span> rngPresent = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                        <span class="keywordflow">for</span> (OWLOntology ont : getCurrentOntology().getImportsClosure()) {</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                            <span class="keywordflow">for</span> (OWLObjectPropertyRangeAxiom lastPropRngAx : ont</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                                    .getObjectPropertyRangeAxioms(lastProperty)) {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                                <span class="keywordflow">if</span> (lastPropRngAx.getRange().equals(imposedRange)) {</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                                    <span class="comment">// We&#39;re o.k.</span></div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                                    rngPresent = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                                }</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                            }</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                        }</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                        <span class="keywordflow">if</span> (!rngPresent) {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                            profileViolations</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                                    .add(<span class="keyword">new</span> LastPropertyInChainNotInImposedRange(</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                                            getCurrentOntology(), axiom, rngAx));</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                        }</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                    }</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;            }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ca163dc7086deeb357ffe690d6d5f92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.semanticweb.owlapi.profiles.OWL2ELProfile.OWL2ELProfileObjectVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_e_l_profile_8java_source.html#l00407">407</a> del archivo <a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;                                                  {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;            propertyManager = null;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/profiles/<a class="el" href="_o_w_l2_e_l_profile_8java_source.html">OWL2ELProfile.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1profiles.html">profiles</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile.html">OWL2ELProfile</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_1_1_o_w_l2_e_l_profile_object_visitor.html">OWL2ELProfileObjectVisitor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:28 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

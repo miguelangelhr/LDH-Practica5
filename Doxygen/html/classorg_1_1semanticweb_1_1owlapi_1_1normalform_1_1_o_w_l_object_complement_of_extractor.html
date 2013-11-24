@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad3b2af82adb14c53749efbf0d4d78eea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ad3b2af82adb14c53749efbf0d4d78eea">OWLObjectComplementOfExtractor</a> ()</td></tr>
+<tr class="separator:ad3b2af82adb14c53749efbf0d4d78eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a6959c38d18a62e2d6a3ead9c0b31d"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a95a6959c38d18a62e2d6a3ead9c0b31d">getComplementedClassExpressions</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> desc)</td></tr>
+<tr class="separator:a95a6959c38d18a62e2d6a3ead9c0b31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabba61425b4eb8cdaef51fb9c92c42fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#aabba61425b4eb8cdaef51fb9c92c42fb">reset</a> ()</td></tr>
+<tr class="separator:aabba61425b4eb8cdaef51fb9c92c42fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d03acc1e968e08c922ce819e4b933fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a6d03acc1e968e08c922ce819e4b933fe">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> desc)</td></tr>
+<tr class="separator:a6d03acc1e968e08c922ce819e4b933fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541778d64118f17025cb921dd5a157b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a541778d64118f17025cb921dd5a157b9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:a541778d64118f17025cb921dd5a157b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5e07de841d7175d8e81a264b8d30ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#afb5e07de841d7175d8e81a264b8d30ee">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> desc)</td></tr>
+<tr class="separator:afb5e07de841d7175d8e81a264b8d30ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a479a253e38b587a22a95039ba7d7d8f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a479a253e38b587a22a95039ba7d7d8f1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a479a253e38b587a22a95039ba7d7d8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875a9fb93e8c0b5a51131d0ed4fdfa92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a875a9fb93e8c0b5a51131d0ed4fdfa92">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> desc)</td></tr>
+<tr class="separator:a875a9fb93e8c0b5a51131d0ed4fdfa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f37293db89a1d82846b4dd5dc24071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a11f37293db89a1d82846b4dd5dc24071">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a> desc)</td></tr>
+<tr class="separator:a11f37293db89a1d82846b4dd5dc24071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78ae619bfe1c71e8956a0ca04a12e78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ad78ae619bfe1c71e8956a0ca04a12e78">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a> desc)</td></tr>
+<tr class="separator:ad78ae619bfe1c71e8956a0ca04a12e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6865350153a62ead3cb61f224749ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae6865350153a62ead3cb61f224749ce1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:ae6865350153a62ead3cb61f224749ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada25f7e9051fe17a52a640e368b19b3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ada25f7e9051fe17a52a640e368b19b3d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> desc)</td></tr>
+<tr class="separator:ada25f7e9051fe17a52a640e368b19b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb6630723ebda230ad463a4ba83280e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#abeb6630723ebda230ad463a4ba83280e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> desc)</td></tr>
+<tr class="separator:abeb6630723ebda230ad463a4ba83280e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a83678abd560ea10f6b49a81b3a0ac0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a9a83678abd560ea10f6b49a81b3a0ac0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a> desc)</td></tr>
+<tr class="separator:a9a83678abd560ea10f6b49a81b3a0ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3f13792b159bc786588e72134b1c90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#aec3f13792b159bc786588e72134b1c90">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> desc)</td></tr>
+<tr class="separator:aec3f13792b159bc786588e72134b1c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25528d9225965fd9d7abd0538bece44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ac25528d9225965fd9d7abd0538bece44">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> desc)</td></tr>
+<tr class="separator:ac25528d9225965fd9d7abd0538bece44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb7503c98530ca0aef05a4fc29c3a13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a5cb7503c98530ca0aef05a4fc29c3a13">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> desc)</td></tr>
+<tr class="separator:a5cb7503c98530ca0aef05a4fc29c3a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b21f0a5b50191209422dd78eab464f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#a39b21f0a5b50191209422dd78eab464f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a> desc)</td></tr>
+<tr class="separator:a39b21f0a5b50191209422dd78eab464f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae78d2254caa669685c4724f60c34e8de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae78d2254caa669685c4724f60c34e8de">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a> desc)</td></tr>
+<tr class="separator:ae78d2254caa669685c4724f60c34e8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade017cbb7f47cce39ca216c0bfd10dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ade017cbb7f47cce39ca216c0bfd10dcc">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> desc)</td></tr>
+<tr class="separator:ade017cbb7f47cce39ca216c0bfd10dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae752b64a99ffdf08d15b1b17528642b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#ae752b64a99ffdf08d15b1b17528642b3">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a> desc)</td></tr>
+<tr class="separator:ae752b64a99ffdf08d15b1b17528642b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 13-Oct-2007<br/>
+ <br/>
+ </p>
+<p>Extracts the parts of a class expression which are negated. For example, A and not (B or C or not D) would extract {(B or C or notD), D} </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00073">73</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ad3b2af82adb14c53749efbf0d4d78eea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.OWLObjectComplementOfExtractor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00077">77</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                            {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        result = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a95a6959c38d18a62e2d6a3ead9c0b31d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.getComplementedClassExpressions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">desc</td><td>the class to look for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the complemented expressions </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00085">85</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="comment">// XXX a stateless visitor would not need copies</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#aabba61425b4eb8cdaef51fb9c92c42fb">reset</a>();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        desc.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;(result);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor_html_aabba61425b4eb8cdaef51fb9c92c42fb"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html#aabba61425b4eb8cdaef51fb9c92c42fb">org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_complement_of_extractor_8java_source.html#l00093">OWLObjectComplementOfExtractor.java:93</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aabba61425b4eb8cdaef51fb9c92c42fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>clear the visitor </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00093">93</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                        {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        result.clear();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d03acc1e968e08c922ce819e4b933fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#af8f7b220c3c01bed32fcdd63e16a62e1">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00098">98</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a541778d64118f17025cb921dd5a157b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aa71f8aab1b75419a7fa74aab4b34ee3b">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00101">101</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb5e07de841d7175d8e81a264b8d30ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a7654d967d481670abe3d04aa3257e1ab">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00104">104</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a479a253e38b587a22a95039ba7d7d8f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3e6e61ec2c3ef215f0440519ed545810">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00107">107</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a875a9fb93e8c0b5a51131d0ed4fdfa92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a366c32794683bec657aca42861fbb511">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00110">110</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a11f37293db89a1d82846b4dd5dc24071"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ad89ac6fe00f72cb2127036bd74dbcd31">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00113">113</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad78ae619bfe1c71e8956a0ca04a12e78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aab6662662779dd372efb9d8f5d664f79">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00116">116</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae6865350153a62ead3cb61f224749ce1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aabc82e7f68521c097e85de55530d1c78">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00119">119</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                                   {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ada25f7e9051fe17a52a640e368b19b3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a21b521dae60562bb29667054b759653c">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00124">124</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                  {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        result.add(desc.getOperand());</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        desc.getOperand().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abeb6630723ebda230ad463a4ba83280e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a4320f0d7d0d05f44275879b77c8d2ab7">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00130">130</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                                      {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a83678abd560ea10f6b49a81b3a0ac0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#aba77dce3bf6dacea2ccc8056c5d87777">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00135">135</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                    {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : desc.getOperands()) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            op.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aec3f13792b159bc786588e72134b1c90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a0226d77d5ab9f5056417ed7043da4a11">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00142">142</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                    {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac25528d9225965fd9d7abd0538bece44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ac588f0cd118369d660d0f0193d7e45b5">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00147">147</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                                    {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5cb7503c98530ca0aef05a4fc29c3a13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a3346f49dc5f2f5fd22f94272f9e650f2">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00152">152</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a39b21f0a5b50191209422dd78eab464f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a37be4df197347592e55b201dabbe5957">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00155">155</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae78d2254caa669685c4724f60c34e8de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#a676b8a6d1189c1abe5cee5b61bbc9509">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00158">158</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                                    {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ade017cbb7f47cce39ca216c0bfd10dcc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab8c97a8833057e53c6fe78ed40f0c149">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00163">163</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                             {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : desc.getOperands()) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            op.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae752b64a99ffdf08d15b1b17528642b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.normalform.OWLObjectComplementOfExtractor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html#ab78067a8929ce5ff62452f7621bf2a3f">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html#l00170">170</a> del archivo <a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tools/src/main/java/org/semanticweb/owlapi/normalform/<a class="el" href="_o_w_l_object_complement_of_extractor_8java_source.html">OWLObjectComplementOfExtractor.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1normalform.html">normalform</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1normalform_1_1_o_w_l_object_complement_of_extractor.html">OWLObjectComplementOfExtractor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:27 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

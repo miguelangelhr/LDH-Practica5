@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_asymmetric_object_property_element_handler =
+[
+    [ "OWLAsymmetricObjectPropertyElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_asymmetric_object_property_element_handler.html#a0fc8c834b043b01d7bc7bbc4ef3c1882", null ],
+    [ "createPropertyCharacteristicAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_asymmetric_object_property_element_handler.html#adc219dd43159972d2958f5b3b1b7f688", null ]
+];

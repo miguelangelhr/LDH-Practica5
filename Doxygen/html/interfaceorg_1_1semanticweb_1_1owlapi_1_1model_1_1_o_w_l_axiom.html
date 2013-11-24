@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.OWLAxiom</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.OWLAxiom</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a>.</p>
+
+<p>Heredado por <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom.html">org.semanticweb.owlapi.model.OWLAnnotationAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">org.semanticweb.owlapi.model.OWLDeclarationAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">org.semanticweb.owlapi.model.OWLLogicalAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_nary_axiom.html">org.semanticweb.owlapi.model.OWLNaryAxiom</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ae7927a4371507c6be52fe935496336a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ae7927a4371507c6be52fe935496336a1">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html">OWLAxiomVisitor</a> visitor)</td></tr>
+<tr class="separator:ae7927a4371507c6be52fe935496336a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b267e4011c9efb24c60f7dc64088e0"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ab7b267e4011c9efb24c60f7dc64088e0">accept</a> (OWLAxiomVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:ab7b267e4011c9efb24c60f7dc64088e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c9394a0ffcfbebfc1ebab18121e8f2"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ad9c9394a0ffcfbebfc1ebab18121e8f2">getAnnotations</a> ()</td></tr>
+<tr class="separator:ad9c9394a0ffcfbebfc1ebab18121e8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77a206dba45c23764e770055277305c"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ac77a206dba45c23764e770055277305c">getAnnotations</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> annotationProperty)</td></tr>
+<tr class="separator:ac77a206dba45c23764e770055277305c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721c7ca0069fe8ff69947b9513498af3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#a721c7ca0069fe8ff69947b9513498af3">getAxiomWithoutAnnotations</a> ()</td></tr>
+<tr class="separator:a721c7ca0069fe8ff69947b9513498af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85909dbec0a5ff86b0650d014601aef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#a85909dbec0a5ff86b0650d014601aef9">getAnnotatedAxiom</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt; annotations)</td></tr>
+<tr class="separator:a85909dbec0a5ff86b0650d014601aef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa761dfbfbc6af23e7d6264f46baada37"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#aa761dfbfbc6af23e7d6264f46baada37">equalsIgnoreAnnotations</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom)</td></tr>
+<tr class="separator:aa761dfbfbc6af23e7d6264f46baada37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418ae7ad8e90290ef5b05e13ec777054"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#a418ae7ad8e90290ef5b05e13ec777054">isLogicalAxiom</a> ()</td></tr>
+<tr class="separator:a418ae7ad8e90290ef5b05e13ec777054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8057d9c015ebf6e9ddbc54a62e947bb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ae8057d9c015ebf6e9ddbc54a62e947bb">isAnnotationAxiom</a> ()</td></tr>
+<tr class="separator:ae8057d9c015ebf6e9ddbc54a62e947bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366958a8a96578365b38dccb8f960fcb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#a366958a8a96578365b38dccb8f960fcb">isAnnotated</a> ()</td></tr>
+<tr class="separator:a366958a8a96578365b38dccb8f960fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b8c4eaf727d63cdc38b8cf923e28fc"><td class="memItemLeft" align="right" valign="top">AxiomType&lt;?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#a11b8c4eaf727d63cdc38b8cf923e28fc">getAxiomType</a> ()</td></tr>
+<tr class="separator:a11b8c4eaf727d63cdc38b8cf923e28fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6a29c46a9f44abc432a1b9e467785d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#afd6a29c46a9f44abc432a1b9e467785d">isOfType</a> (AxiomType&lt;?&gt;...axiomTypes)</td></tr>
+<tr class="separator:afd6a29c46a9f44abc432a1b9e467785d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc42861f48a245e7b1082f20c2e293c3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#afc42861f48a245e7b1082f20c2e293c3">isOfType</a> (Set&lt; AxiomType&lt;?&gt;&gt; types)</td></tr>
+<tr class="separator:afc42861f48a245e7b1082f20c2e293c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af414f1e9b7b0f0f7b1597421e8d88e30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#af414f1e9b7b0f0f7b1597421e8d88e30">getNNF</a> ()</td></tr>
+<tr class="separator:af414f1e9b7b0f0f7b1597421e8d88e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></td></tr>
+<tr class="memitem:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acb9cc88dda5fddf752aea39972e88582">getSignature</a> ()</td></tr>
+<tr class="separator:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aeb25a1500c84b42d5eca3ce94029815b">getAnonymousIndividuals</a> ()</td></tr>
+<tr class="separator:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acef2cee5936b52f888f1c9b5310ecf28">getClassesInSignature</a> ()</td></tr>
+<tr class="separator:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a63bdba262086d66ac82db881882acb7a">getDataPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa6016f7a4b9d773637cc7320bbcd518a">getObjectPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a469d86935b296905f4ec7089fb10f35f">getIndividualsInSignature</a> ()</td></tr>
+<tr class="separator:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0070f97659c74d4bcfb177e37c8fd427">getDatatypesInSignature</a> ()</td></tr>
+<tr class="separator:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a6b27084110880692de591ad7b32e105b">getNestedClassExpressions</a> ()</td></tr>
+<tr class="separator:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0995c39ce5b4410f688c474ce108c0aa">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa28e124b939675c9d697ee3e02714813">accept</a> (OWLObjectVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#ada1edca8f1932221e2d941a54aa83cdd">isTopEntity</a> ()</td></tr>
+<tr class="separator:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a4a72bc080b56071595b6247776e8502a">isBottomEntity</a> ()</td></tr>
+<tr class="separator:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group Date: 24-Oct-2006 </p>
+<p>Represents &lt;a href="<a href="http://www.w3.org/TR/2009/REC-owl2-syntax-20091027/#Axioms">http://www.w3.org/TR/2009/REC-owl2-syntax-20091027/#Axioms</a>&gt;Axioms in the OWL 2 Specification. </p>
+<p>An OWL ontology contains a set of axioms. These axioms can be annotation axioms, declaration axioms, imports axioms or logical axioms </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_axiom_8java_source.html#l00056">56</a> del archivo <a class="el" href="_o_w_l_axiom_8java_source.html">OWLAxiom.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ae7927a4371507c6be52fe935496336a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLAxiom.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html">OWLAxiomVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_rule_impl.html#a353691bd627c461c35fb788b9715bb76">uk.ac.manchester.cs.owl.owlapi.SWRLRuleImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_classes_axiom_impl.html#a837416d9138b1bbe87beae974e431a30">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#ada300201825e75e85fe7408e1fedd192">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_has_key_axiom_impl.html#a103f9bfcf80664d9949678ce186588e5">uk.ac.manchester.cs.owl.owlapi.OWLHasKeyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_class_of_axiom_impl.html#a0a443643e1e16609448d06b08b02a5e6">uk.ac.manchester.cs.owl.owlapi.OWLSubClassOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_different_individuals_axiom_impl.html#aab71b585985ed4720a838c9c6e3ec7a3">uk.ac.manchester.cs.owl.owlapi.OWLDifferentIndividualsAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_same_individual_axiom_impl.html#a2115718c319dcf55715b33ec9399abc5">uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#a6a9e345ff6e72573041bd320bdca7271">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#a0510927ddbd405fb6029aab7e95e70ed">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_assertion_axiom_impl.html#af8cbddcd20fe9f5c7a1a2e683c3119c0">uk.ac.manchester.cs.owl.owlapi.OWLClassAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_chain_axiom_impl.html#ae60d50359e3661a4b473c15ad2220666">uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyChainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_union_axiom_impl.html#a2ddcd277c2db7838109729635a628cd8">uk.ac.manchester.cs.owl.owlapi.OWLDisjointUnionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#a8f59ee47124517a816216b490de80ebb">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#acbf7eb3db51b1460c2001422ea14acf5">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#afac4916e0aefdd18696735b684bc464e">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_symmetric_object_property_axiom_impl.html#a466ae0f7065ea00e59bcae9afd30c55d">uk.ac.manchester.cs.owl.owlapi.OWLSymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_object_properties_axiom_impl.html#a032a5af5942dd60db3da98c8ac078961">uk.ac.manchester.cs.owl.owlapi.OWLInverseObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_irreflexive_object_property_axiom_impl.html#a5722c3d4f0e8d4d0014dbe6d61cd773e">uk.ac.manchester.cs.owl.owlapi.OWLIrreflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_reflexive_object_property_axiom_impl.html#a6e05a1d13008d7b5029b521bfe810423">uk.ac.manchester.cs.owl.owlapi.OWLReflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_domain_axiom_impl.html#a4270c7aea8db41bd4dce3be23789db60">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_range_axiom_impl.html#a4439ea9b61e278d66e0e7823569b6006">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_object_properties_axiom_impl.html#a1ad8ad196d5170e014cba2c16a94d24b">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_data_properties_axiom_impl.html#ae130fa9777e3104dbae6dbe1db290ae2">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_range_axiom_impl.html#af330c0f5598c47f091ea189c02007d30">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_data_property_of_axiom_impl.html#a96f1438f93e93b810c4ae4da05aea3ca">uk.ac.manchester.cs.owl.owlapi.OWLSubDataPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_classes_axiom_impl.html#ab3b68f48e55e7c54d14b60137c4b8379">uk.ac.manchester.cs.owl.owlapi.OWLDisjointClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_data_property_axiom_impl.html#ad2b2d19338810d7a005cb290d5f06482">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalDataPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_functional_object_property_axiom_impl.html#a8533fa9482739c355a72c58491fcc3de">uk.ac.manchester.cs.owl.owlapi.OWLInverseFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_domain_axiom_impl.html#ac91ddde1062e93fceca02f403d5588c3">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_object_property_axiom_impl.html#a00a3a3931178eb2872d0b4fc644bf6bc">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_transitive_object_property_axiom_impl.html#a6c5bef103175e741b8f9d3890e6e0787">uk.ac.manchester.cs.owl.owlapi.OWLTransitiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_asymmetric_object_property_axiom_impl.html#ac54a5e916047afed706ad8296d749789">uk.ac.manchester.cs.owl.owlapi.OWLAsymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_object_property_of_axiom_impl.html#a716f6c37e2fb6d5417fd07b814ce0735">uk.ac.manchester.cs.owl.owlapi.OWLSubObjectPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_data_properties_axiom_impl.html#a4d82db24c7537aedbbf06e88fa0f23aa">uk.ac.manchester.cs.owl.owlapi.OWLDisjointDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_object_properties_axiom_impl.html#a1e41b6f4534eaafa71a6c5c46da80ea5">uk.ac.manchester.cs.owl.owlapi.OWLDisjointObjectPropertiesAxiomImpl</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html#abbc12af84d7713c253d2b356900f57ee">org.semanticweb.owlapi.model.OWLDatatypeDefinitionAxiom</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7b267e4011c9efb24c60f7dc64088e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;O&gt; O org.semanticweb.owlapi.model.OWLAxiom.accept </td>
+          <td>(</td>
+          <td class="paramtype">OWLAxiomVisitorEx&lt; O &gt;&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html#afaef74c418494908c8091192604669a9">org.semanticweb.owlapi.model.OWLDatatypeDefinitionAxiom</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa761dfbfbc6af23e7d6264f46baada37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.equalsIgnoreAnnotations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if another axiom is equal to this axiom not taking into consideration the annotations on the axiom </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axiom</td><td>The axiom to test if equal </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if <code>axiom</code> without annotations is equal to this axiom without annotations otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#ab94013524fbc6750ca4e8eb162746ae7">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85909dbec0a5ff86b0650d014601aef9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.model.OWLAxiom.getAnnotatedAxiom </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotations</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a copy of this axiom that is annotated with the specified annotations. If this axiom has any annotations on it they will be merged with the specified set of annotations. Note that this axiom will not be modified (or remove from any ontologies). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotations</td><td>The annotations that will be added to existing annotations to annotate the copy of this axiom </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A copy of this axiom that has the specified annotations plus any existing annotations returned by the <div class="fragment"><div class="line">OWLAxiom#<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html#ad9c9394a0ffcfbebfc1ebab18121e8f2">getAnnotations</a>() </div>
+</div><!-- fragment --> method. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#a20d5857920f646f802e7e5673ef9a5ef">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_rule_impl.html#a2957c968d24d0c63806e28da189eaf31">uk.ac.manchester.cs.owl.owlapi.SWRLRuleImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_class_of_axiom_impl.html#a8ff34c2fcf3f63b1e5ac009108c28fbf">uk.ac.manchester.cs.owl.owlapi.OWLSubClassOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_union_axiom_impl.html#ad1a18de9753557e7842f1de100e9fb7f">uk.ac.manchester.cs.owl.owlapi.OWLDisjointUnionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#a8930039e793afb855b5626b84e334acf">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_assertion_axiom_impl.html#a9c982150b48bcf94e8642437ef4b1b68">uk.ac.manchester.cs.owl.owlapi.OWLClassAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_object_properties_axiom_impl.html#a0d61557cbc54ea2ef629352ddbbb394c">uk.ac.manchester.cs.owl.owlapi.OWLInverseObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#a6e4dee2d73309d7514e1911bdcc06f14">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_classes_axiom_impl.html#ae4051b2d42e8129ef183fbeab7f4fca5">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_has_key_axiom_impl.html#a98fab7a8892019f274a8beefbb4e74e8">uk.ac.manchester.cs.owl.owlapi.OWLHasKeyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_range_axiom_impl.html#a0f1c52a046e64b4f5038badb3656a8c9">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#a456e1d50dadf8dc94dc8bfe25c21f3ff">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#a1ae5a7c603c9b0a8d2a60e9da6a99df8">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_different_individuals_axiom_impl.html#a5bc42b9f58d64380c1e82f9dd4e4e3b2">uk.ac.manchester.cs.owl.owlapi.OWLDifferentIndividualsAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_object_property_axiom_impl.html#a3a9563c30a5ad1be050af1a296d9394e">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_reflexive_object_property_axiom_impl.html#a4f33932bd60a703330d91887822203c8">uk.ac.manchester.cs.owl.owlapi.OWLReflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_same_individual_axiom_impl.html#a2a3b6105e998d8c42de037426b9ed43e">uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_domain_axiom_impl.html#ac87f2dd24e5c3e379540aa7007a76c6c">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_range_axiom_impl.html#a9c5e83bebe9714bcc54b1ed4a218c323">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_object_properties_axiom_impl.html#a43f46468262ba4a974a1a9def330158a">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_symmetric_object_property_axiom_impl.html#a961f9091884a1b1ab22e8d564a9b668c">uk.ac.manchester.cs.owl.owlapi.OWLSymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_data_properties_axiom_impl.html#a69c33f314d1a649e40e309dbfbcbbfd7">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_classes_axiom_impl.html#a7bda5d9ca203731e3540d2b13daf5f42">uk.ac.manchester.cs.owl.owlapi.OWLDisjointClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_data_property_axiom_impl.html#a533701d2dc0f8aeba9cc1d7980ff6d08">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalDataPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_functional_object_property_axiom_impl.html#a1d3229fd67e0a6505d177259ece4ce31">uk.ac.manchester.cs.owl.owlapi.OWLInverseFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_domain_axiom_impl.html#a4aab14a032d919fa44319ec108f7fbd4">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_data_property_of_axiom_impl.html#a3bb06f304e7eeaa7a38482be5c09f0b3">uk.ac.manchester.cs.owl.owlapi.OWLSubDataPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_chain_axiom_impl.html#a0f00c69d1a6dbbdd4ef672dfaa235e87">uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyChainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_transitive_object_property_axiom_impl.html#ae26820c5be8cda72b5e76f540b7a1e80">uk.ac.manchester.cs.owl.owlapi.OWLTransitiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_asymmetric_object_property_axiom_impl.html#adf127ba1b8b9cce5ab10464fbe30a308">uk.ac.manchester.cs.owl.owlapi.OWLAsymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_irreflexive_object_property_axiom_impl.html#ad3382a975f69327d25bff68b0d3d53dd">uk.ac.manchester.cs.owl.owlapi.OWLIrreflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_object_property_of_axiom_impl.html#ab830af1d169a84eaf7da4f1fef97d08e">uk.ac.manchester.cs.owl.owlapi.OWLSubObjectPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_data_properties_axiom_impl.html#abca91accd29abc268db9bda6ca45a72c">uk.ac.manchester.cs.owl.owlapi.OWLDisjointDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_object_properties_axiom_impl.html#a0a4d1072643a52bdc896d68170d343ae">uk.ac.manchester.cs.owl.owlapi.OWLDisjointObjectPropertiesAxiomImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#a8df0cdaecd92a64643ef06020bbae0ea">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad9c9394a0ffcfbebfc1ebab18121e8f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; org.semanticweb.owlapi.model.OWLAxiom.getAnnotations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the annotations that are annotate this axiom. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A set of annotations that annotate this axiom. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#a88556638e50b24de648c385494821495">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac77a206dba45c23764e770055277305c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; org.semanticweb.owlapi.model.OWLAxiom.getAnnotations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&#160;</td>
+          <td class="paramname"><em>annotationProperty</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the annotations that annotate this axiom and whose annotation property is equal to <code>annotationProperty</code>. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotationProperty</td><td>The annotation property that will be equal to the annotation property of each returned annotation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A set of annotations that annotate this axiom, each of whose annotation properties is equals to <code>annotationProperty</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#a8bd15d3508e151a944532f81d5db3859">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11b8c4eaf727d63cdc38b8cf923e28fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AxiomType&lt;?&gt; org.semanticweb.owlapi.model.OWLAxiom.getAxiomType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the axiom type for this axiom.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>The axiom type that corresponds to the type of this axiom. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_rule_impl.html#a8d07f38697951526f86113ba61941179">uk.ac.manchester.cs.owl.owlapi.SWRLRuleImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_classes_axiom_impl.html#a68260bbc9146c89708fd5422cb804ccd">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#a774a267e1bd7579469a6ed168b30057c">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_class_of_axiom_impl.html#a52faa768f194658af4924095d649de71">uk.ac.manchester.cs.owl.owlapi.OWLSubClassOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_different_individuals_axiom_impl.html#a5fa644b7e291da5c3b635bf77ab63cf8">uk.ac.manchester.cs.owl.owlapi.OWLDifferentIndividualsAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_same_individual_axiom_impl.html#ac044f9d89721ba37ccd174391705019b">uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_chain_axiom_impl.html#a4116fec758dd2888eefd8bc65cc725d6">uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyChainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_assertion_axiom_impl.html#a8138519a690e79b16b3011fcf0643a85">uk.ac.manchester.cs.owl.owlapi.OWLClassAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_union_axiom_impl.html#a458fcd36db2977757ea009b026d0049d">uk.ac.manchester.cs.owl.owlapi.OWLDisjointUnionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#a4d47f8f19323037a82cf3e93de7ac784">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_object_properties_axiom_impl.html#ab21be4744320d86fe780ebc19c7469bd">uk.ac.manchester.cs.owl.owlapi.OWLInverseObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#acfccb4e1c97c90cb6097899b09724b2b">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#ac4eb3752320ea5afda1d94367419f144">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_symmetric_object_property_axiom_impl.html#ac8ff34528d1f5736b0fc457a7e8c471e">uk.ac.manchester.cs.owl.owlapi.OWLSymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_irreflexive_object_property_axiom_impl.html#a68e5c1af84ab1ed56c3e2526227d3e79">uk.ac.manchester.cs.owl.owlapi.OWLIrreflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_reflexive_object_property_axiom_impl.html#acf14e7119a4d528cbbc4e7bd93ed4e3a">uk.ac.manchester.cs.owl.owlapi.OWLReflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_domain_axiom_impl.html#a11e1a9f1f6422f5d59529cc1887a636b">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_range_axiom_impl.html#a8327d263cf2c968b3151a0c6952da397">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_object_properties_axiom_impl.html#a075663a6726ffa12c7c008d32d069256">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_data_properties_axiom_impl.html#a47a8fe48b05ff607b02a5a30de8b4ba8">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_range_axiom_impl.html#ab53b48a1ed57ed7771c9ccb58bfc9d5e">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_classes_axiom_impl.html#aaa52e32a2b9f336cc501b0e8dd391abf">uk.ac.manchester.cs.owl.owlapi.OWLDisjointClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_data_property_axiom_impl.html#a9e964f025cc885557f5267a9f80d265d">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalDataPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_functional_object_property_axiom_impl.html#a3c12d142fb66fca0321b60a9d93254ed">uk.ac.manchester.cs.owl.owlapi.OWLInverseFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_domain_axiom_impl.html#a7e9d04d59241778481322d288355af20">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_object_property_axiom_impl.html#a124244dae8d6df1a5a84c14f93ec2a59">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_transitive_object_property_axiom_impl.html#af065ee458c2e7ce729bbe4c609e5930e">uk.ac.manchester.cs.owl.owlapi.OWLTransitiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_asymmetric_object_property_axiom_impl.html#aaf7a487d9452c88d805f1926080215f9">uk.ac.manchester.cs.owl.owlapi.OWLAsymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_object_property_of_axiom_impl.html#a52987c0918c6cbc8659868af82b481a3">uk.ac.manchester.cs.owl.owlapi.OWLSubObjectPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_data_properties_axiom_impl.html#ae434d2d992f3d3d817d23112673c0242">uk.ac.manchester.cs.owl.owlapi.OWLDisjointDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_object_properties_axiom_impl.html#a11afe22f09690c2066a87973ca216f8c">uk.ac.manchester.cs.owl.owlapi.OWLDisjointObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_data_property_of_axiom_impl.html#a9797aa8fb8e33c840258c2f8a2cddd09">uk.ac.manchester.cs.owl.owlapi.OWLSubDataPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#a2e881c144eb3eec11a737affb98a7667">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#a888a7c9f563e39c1997bb26fe9967ea2">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_has_key_axiom_impl.html#a834dc18fe0ced19b7c467bbb3fd21c3b">uk.ac.manchester.cs.owl.owlapi.OWLHasKeyAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a721c7ca0069fe8ff69947b9513498af3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.model.OWLAxiom.getAxiomWithoutAnnotations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an axiom that is structurally equivalent to this axiom without annotations. This essentially returns a version of this axiom stripped of any annotations </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The annotationless version of this axiom </dd></dl>
+
+<p>Implementado en <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html#ada2673f565eb47c0a6b63ce07cb7ac4f">org.semanticweb.owlapi.model.SWRLRule</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_class_of_axiom_impl.html#ae11418ad91b4f12d5f5707bc6e9e67b4">uk.ac.manchester.cs.owl.owlapi.OWLSubClassOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_rule_impl.html#a7905d42c2c5f31d3069927d6e0bc991d">uk.ac.manchester.cs.owl.owlapi.SWRLRuleImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html#a27bcf4fc266c2c35890e5e15151df7bd">org.semanticweb.owlapi.model.OWLEquivalentClassesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html#a98acb7aa02dee7b8744ddb86566073b1">org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_symmetric_object_property_axiom_impl.html#a1b5c2d819a5a74206cc17861a627e2f0">uk.ac.manchester.cs.owl.owlapi.OWLSymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html#afc63ea1028e8ddb638ee5b5f1473309d">org.semanticweb.owlapi.model.OWLDisjointUnionAxiom</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_union_axiom_impl.html#a47bdb91648f71ebe73dcf658166527ce">uk.ac.manchester.cs.owl.owlapi.OWLDisjointUnionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_chain_axiom_impl.html#a6db7a274b647b82c1f70eec0fec315a2">uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyChainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#abc2731d19250863b843976f2605b8062">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#a904cb8d023cad819f492102336e348bf">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#a65085e25ecdbd33347bbeb2e4819fefd">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_assertion_axiom_impl.html#a747f4159615a24b4162b9544b0164a10">uk.ac.manchester.cs.owl.owlapi.OWLClassAssertionAxiomImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html#a6f8d1a901303f321a2e50410a62a5d36">org.semanticweb.owlapi.model.OWLHasKeyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html#a59ed8fe751c141496a96c0a26af0d0fc">org.semanticweb.owlapi.model.OWLSubPropertyChainOfAxiom</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_classes_axiom_impl.html#a9d8afe6dbd29f6fc70789f94e9dadc3c">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_object_properties_axiom_impl.html#a2f408a7812b61617ddb2236effbdada1">uk.ac.manchester.cs.owl.owlapi.OWLInverseObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#a72d2d0327d3a76e74a569f3b3d3b4c48">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_has_key_axiom_impl.html#a65ede5cc0699c19219641dea2247ec22">uk.ac.manchester.cs.owl.owlapi.OWLHasKeyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_range_axiom_impl.html#a48c2e560c0be2717094fe0b2d464196e">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_different_individuals_axiom_impl.html#ae65d97ed46ce12bf26985efd41a8f2d3">uk.ac.manchester.cs.owl.owlapi.OWLDifferentIndividualsAxiomImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html#a26ffaba92d0c10162a817238d64c9cbf">org.semanticweb.owlapi.model.OWLInverseObjectPropertiesAxiom</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#abfcdf736ad28036cd1e85a944b1b959c">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#a3f600be633a7eaf675f942fe4fe3cbb7">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_same_individual_axiom_impl.html#a6fb7cd942c184d83c70e21f242ff7664">uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_object_properties_axiom_impl.html#ad729bdb71bd0852920271c0e13b2f658">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_domain_axiom_impl.html#ae9d3007f6f1a5657a146d969d25808c7">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_property_range_axiom_impl.html#adcee024562b1149a5f7d91ebc4e97f3a">uk.ac.manchester.cs.owl.owlapi.OWLDataPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_equivalent_data_properties_axiom_impl.html#a13c531f7afa3e707604d2debe5d4cbb0">uk.ac.manchester.cs.owl.owlapi.OWLEquivalentDataPropertiesAxiomImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html#a877907dafd743aceaed818c1b4a15092">org.semanticweb.owlapi.model.OWLSubClassOfAxiom</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_classes_axiom_impl.html#ae604bee87d5bf298eb77a7728bbf377c">uk.ac.manchester.cs.owl.owlapi.OWLDisjointClassesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_data_property_axiom_impl.html#a54320c7c93fb49ad4920ee46be0114d8">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalDataPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_functional_object_property_axiom_impl.html#ab2b090b99a18a1fcf72a4b97923c74d7">uk.ac.manchester.cs.owl.owlapi.OWLFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_inverse_functional_object_property_axiom_impl.html#ace7b12584d70637071a17d8d198127e3">uk.ac.manchester.cs.owl.owlapi.OWLInverseFunctionalObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_property_domain_axiom_impl.html#a21d04b24f3100c7eaf90d4b30c1011f1">uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_data_property_of_axiom_impl.html#a4cd4b514adc785f18293ca0459c9b1a8">uk.ac.manchester.cs.owl.owlapi.OWLSubDataPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_asymmetric_object_property_axiom_impl.html#ac261556f1a896ee86e190ddb6469d920">uk.ac.manchester.cs.owl.owlapi.OWLAsymmetricObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_irreflexive_object_property_axiom_impl.html#a584a008f1c100107e1ea1f5f1cf73a94">uk.ac.manchester.cs.owl.owlapi.OWLIrreflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_reflexive_object_property_axiom_impl.html#a34311e5632fa957b5f41886335cabdd0">uk.ac.manchester.cs.owl.owlapi.OWLReflexiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_transitive_object_property_axiom_impl.html#a9e7cfceac24149f8cd5cce231e058eda">uk.ac.manchester.cs.owl.owlapi.OWLTransitiveObjectPropertyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_data_properties_axiom_impl.html#a83ba488b2b3ebd6c3f8fb52fc0c48dd1">uk.ac.manchester.cs.owl.owlapi.OWLDisjointDataPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_disjoint_object_properties_axiom_impl.html#a124a2d49752de4c7ef538db694622d2e">uk.ac.manchester.cs.owl.owlapi.OWLDisjointObjectPropertiesAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_object_property_of_axiom_impl.html#a06ef98d9547a646c82813ac3bcd47b8d">uk.ac.manchester.cs.owl.owlapi.OWLSubObjectPropertyOfAxiomImpl</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html#a75abdb46bfbbf591b721bf3c692c8046">org.semanticweb.owlapi.model.OWLAnnotationPropertyDomainAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html#a767510cdf7602e70c2a97d76fa0ab371">org.semanticweb.owlapi.model.OWLAnnotationPropertyRangeAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html#a9efcd0ec7b62d5b8879b7c0f2c4ab56c">org.semanticweb.owlapi.model.OWLClassAssertionAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html#a93e1715df93a88745da7e7c7885e0af8">org.semanticweb.owlapi.model.OWLSubAnnotationPropertyOfAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html#a81a8037cbf9106b63b6e294649265eb3">org.semanticweb.owlapi.model.OWLDeclarationAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html#ae7441cfc84358352cd9a45ea983d5e9c">org.semanticweb.owlapi.model.OWLEquivalentObjectPropertiesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html#afde3322d208b6bec1cda2594bd251cca">org.semanticweb.owlapi.model.OWLSymmetricObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html#a1a4b5649512cbf5b1afec763727a26c3">org.semanticweb.owlapi.model.OWLDisjointClassesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html#a71afa2ca898b9a1fa630fda3633158b9">org.semanticweb.owlapi.model.OWLDifferentIndividualsAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html#a7f71962335b34bd767cf36bd5ded0549">org.semanticweb.owlapi.model.OWLEquivalentDataPropertiesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html#a5342a52c118eacfbdd6abac5d4fbb511">org.semanticweb.owlapi.model.OWLSameIndividualAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html#ad1c06f1623745869c17e893351df8738">org.semanticweb.owlapi.model.OWLObjectPropertyRangeAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html#a93f866fac2034f763fc2442c97ea475e">org.semanticweb.owlapi.model.OWLAsymmetricObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html#a7a261ca9238b6b20f9b78e0b5c56697a">org.semanticweb.owlapi.model.OWLDataPropertyDomainAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html#ae2f088b229c6c899224a3f95557da6a8">org.semanticweb.owlapi.model.OWLDataPropertyRangeAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html#a9dcc0e6cbf520041fd48726515b8a672">org.semanticweb.owlapi.model.OWLDisjointDataPropertiesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html#ab892ec944845ecdfb1fcdb2712512fc0">org.semanticweb.owlapi.model.OWLDisjointObjectPropertiesAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html#a75af241e85f433515cdff52e1a9350f9">org.semanticweb.owlapi.model.OWLFunctionalDataPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html#ab53052e2a9703279e8c16963c3dd8c93">org.semanticweb.owlapi.model.OWLFunctionalObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html#ac09f90d274d1139ca10cec59951d826e">org.semanticweb.owlapi.model.OWLInverseFunctionalObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html#a7c862ca7c2e02cf262a48b4ff20b7af3">org.semanticweb.owlapi.model.OWLIrreflexiveObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html#a99f79302e3db742f1b767024fee9c1a5">org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html#adc46ea9a00293ddbc37dac756941e1bd">org.semanticweb.owlapi.model.OWLReflexiveObjectPropertyAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html#ae8b4950891c433f6fe86e61416284995">org.semanticweb.owlapi.model.OWLSubDataPropertyOfAxiom</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html#a7bda39f827be3254b1de75b8fe1cfc08">org.semanticweb.owlapi.model.OWLSubObjectPropertyOfAxiom</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html#a6035b0f2ae5e8a9b861017a7958f61b9">org.semanticweb.owlapi.model.OWLTransitiveObjectPropertyAxiom</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af414f1e9b7b0f0f7b1597421e8d88e30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.model.OWLAxiom.getNNF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets this axioms in negation normal form. i.e. any class expressions involved in this axiom are converted into negation normal form.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>The axiom in negation normal form. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#a9fb2d91197ed3051dd1bfcf37f1d5bdc">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a366958a8a96578365b38dccb8f960fcb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.isAnnotated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this axiom has any annotations on it </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this axiom has annotations on it, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#af3786b48f0b6555f030a4836626f90fc">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8057d9c015ebf6e9ddbc54a62e947bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.isAnnotationAxiom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this axioms in an annotation axiom (an instance of <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom.html">OWLAnnotationAxiom</a></code>) </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this axiom is an instance of <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom.html">OWLAnnotationAxiom</a></code>, otherwise <code>false</code>. </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#ab873ff827589c71a0167bdc0241d606c">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#a08585ae6aeadc8a01fe9aabcc1569128">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#ae7ed3b80e997969f20b7c1bccf2f2f81">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#a807f9bef0fe93a32a426389774a643ae">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#aebeec5c88a1f5c6a1722a37c119d69d8">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#a4d7b1ea6e02806737af1910c601ea0fe">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_logical_axiom_impl.html#a0994d2fe77961dd8094bd641be03db1a">uk.ac.manchester.cs.owl.owlapi.OWLLogicalAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a418ae7ad8e90290ef5b05e13ec777054"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.isLogicalAxiom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this axiom is a logical axiom. Logical axioms are defined to be axioms other than both declaration axioms (including imports declarations) and annotation axioms.</p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the axiom is a logical axiom, <code>false</code> if the axiom is not a logical axiom. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_rule_impl.html#acd38e231b636d7e3abb59237601b4ed8">uk.ac.manchester.cs.owl.owlapi.SWRLRuleImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_assertion_axiom_impl.html#ae8422c31db94b7db030c69454138de4d">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationAssertionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_definition_axiom_impl.html#a40fd41b777ba1538aeafcec96fce8a99">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeDefinitionAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_annotation_property_of_axiom_impl.html#a917543524d478e15a110508052376c2d">uk.ac.manchester.cs.owl.owlapi.OWLSubAnnotationPropertyOfAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_domain_axiom_impl.html#a8358783b54752de8d28e3c16a46365c8">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyDomainAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_range_axiom_impl.html#a27a4ac029a91a2ae447abb768c0ae6a5">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyRangeAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_has_key_axiom_impl.html#a6f17eadcf14347cf01ee1c6def401a96">uk.ac.manchester.cs.owl.owlapi.OWLHasKeyAxiomImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_declaration_axiom_impl.html#a4059e01e3885f03615aca6b7e3e6e5ec">uk.ac.manchester.cs.owl.owlapi.OWLDeclarationAxiomImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_logical_axiom_impl.html#a27f35b5bf1f20862b5ac1e71f622dded">uk.ac.manchester.cs.owl.owlapi.OWLLogicalAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd6a29c46a9f44abc432a1b9e467785d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.isOfType </td>
+          <td>(</td>
+          <td class="paramtype">AxiomType&lt;?&gt;...&#160;</td>
+          <td class="paramname"><em>axiomTypes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this axiom is one of the specified types </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axiomTypes</td><td>The axiom types to check for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this axiom is one of the specified types, otherwise <code>false</code> </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#a9f02d0e446e8a48dae4d814761daf1d6">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afc42861f48a245e7b1082f20c2e293c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLAxiom.isOfType </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; AxiomType&lt;?&gt;&gt;&#160;</td>
+          <td class="paramname"><em>types</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this axiom is one of the specified types </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">types</td><td>The axiom types to check for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this axioms is one of the specified types, otherwise <code>false</code> </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_axiom_impl.html#a52b293d80981a09b778388713cc5094a">uk.ac.manchester.cs.owl.owlapi.OWLAxiomImpl</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_axiom_8java_source.html">OWLAxiom.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:21 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

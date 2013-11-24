@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.coode.owlapi.obo.parser.OBOParserHandler</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.coode.owlapi.obo.parser.OBOParserHandler</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html">org.coode.owlapi.obo.parser.RawFrameHandler</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aa7a6a215b0f3af39dd18fd76c6a77f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html#aa7a6a215b0f3af39dd18fd76c6a77f70">startHeader</a> ()</td></tr>
+<tr class="separator:aa7a6a215b0f3af39dd18fd76c6a77f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba10a88a5ffde177c5701902e57aa74e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html#aba10a88a5ffde177c5701902e57aa74e">endHeader</a> ()</td></tr>
+<tr class="separator:aba10a88a5ffde177c5701902e57aa74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86b686534bdb928c37e5cf265ee68a85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html#a86b686534bdb928c37e5cf265ee68a85">startFrame</a> (String name)</td></tr>
+<tr class="separator:a86b686534bdb928c37e5cf265ee68a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9161714a9d3626b7e2af29502a848f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html#ad9161714a9d3626b7e2af29502a848f9">endFrame</a> ()</td></tr>
+<tr class="separator:ad9161714a9d3626b7e2af29502a848f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b72b1df7843012daeae0b4c9212cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html#ac8b72b1df7843012daeae0b4c9212cc2">handleTagValue</a> (String tag, String value, String qualifierBlock, String comment)</td></tr>
+<tr class="separator:ac8b72b1df7843012daeae0b4c9212cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 10-Jan-2007<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_handler_8java_source.html#l00049">49</a> del archivo <a class="el" href="_o_b_o_parser_handler_8java_source.html">OBOParserHandler.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ad9161714a9d3626b7e2af29502a848f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserHandler.endFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#ae632c189facd7f61289a667248980efa">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html#ae4b8fd46ce4d06dd5ae44a3814b50950">org.coode.owlapi.obo.parser.RawFrameHandler</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html#a158ae4b66f9f3650549c997b9e926fee">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba10a88a5ffde177c5701902e57aa74e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserHandler.endHeader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#aa5f1081189f54fc4906bff936bccd403">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html#a30b99160bc3ca7c0494d46690a0ac5e5">org.coode.owlapi.obo.parser.RawFrameHandler</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html#a616f73949ff7db0c917bbe0c7633d3a2">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac8b72b1df7843012daeae0b4c9212cc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserHandler.handleTagValue </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>qualifierBlock</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>comment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#a981d9a7c2746d85291c0e14724e62981">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html#ae91212d6a42bf4c6332dae011d79d8b2">org.coode.owlapi.obo.parser.RawFrameHandler</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html#a236759be90d75508fd1159281d3a004f">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a86b686534bdb928c37e5cf265ee68a85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserHandler.startFrame </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#a0813e455ae3dbf56d7fed656e862152f">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html#a5bc9e8f881304bf8257ae9e6ac23f4bc">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html#a5dbccaebe1d49a5896d4fe8611a02116">org.coode.owlapi.obo.parser.RawFrameHandler</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7a6a215b0f3af39dd18fd76c6a77f70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserHandler.startHeader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_consumer.html#aaa87c4a419fe29c4c8c624362585812d">org.coode.owlapi.obo.parser.OBOConsumer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler_adapter.html#a746801b0b10e7947706f42cdde120f30">org.coode.owlapi.obo.parser.OBOParserHandlerAdapter</a> y <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_raw_frame_handler.html#aedb613cecc15a1b2ddf2ca768951d686">org.coode.owlapi.obo.parser.RawFrameHandler</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/obo/parser/<a class="el" href="_o_b_o_parser_handler_8java_source.html">OBOParserHandler.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo.html">obo</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html">OBOParserHandler</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:42 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

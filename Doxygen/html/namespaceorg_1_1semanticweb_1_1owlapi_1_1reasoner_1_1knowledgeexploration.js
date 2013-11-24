@@ -1,0 +1,4 @@
+var namespaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration =
+[
+    [ "OWLKnowledgeExplorerReasoner", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner" ]
+];

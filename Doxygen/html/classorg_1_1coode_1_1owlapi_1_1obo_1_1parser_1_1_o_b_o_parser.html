@@ -1,0 +1,931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.obo.parser.OBOParser</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.obo.parser.OBOParser</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html">org.coode.owlapi.obo.parser.OBOParserConstants</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a234b78d9332b696dc3488c27716446c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a234b78d9332b696dc3488c27716446c4">setHandler</a> (<a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html">OBOParserHandler</a> handler)</td></tr>
+<tr class="separator:a234b78d9332b696dc3488c27716446c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad532d5b0e73afe486f0393b36b85d544"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad532d5b0e73afe486f0393b36b85d544">parse</a> ()  throws ParseException </td></tr>
+<tr class="separator:ad532d5b0e73afe486f0393b36b85d544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e61ea414d2eafd82fb55731f4bf939c"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a5e61ea414d2eafd82fb55731f4bf939c">Header</a> ()  throws ParseException </td></tr>
+<tr class="separator:a5e61ea414d2eafd82fb55731f4bf939c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c43f3f20d4d93d4dca8ab8e18d12e72"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6c43f3f20d4d93d4dca8ab8e18d12e72">Stanza</a> ()  throws ParseException </td></tr>
+<tr class="separator:a6c43f3f20d4d93d4dca8ab8e18d12e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad132f94223c5cb4c87800ca943b8c60c"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad132f94223c5cb4c87800ca943b8c60c">TagValuePair</a> ()  throws ParseException </td></tr>
+<tr class="separator:ad132f94223c5cb4c87800ca943b8c60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab954f9ecb5146bc392a6eae043851150"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ab954f9ecb5146bc392a6eae043851150">Comment</a> ()  throws ParseException </td></tr>
+<tr class="separator:ab954f9ecb5146bc392a6eae043851150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17fe73bc79fe5d850bf8620f84e91abb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a17fe73bc79fe5d850bf8620f84e91abb">OBOParser</a> (java.io.InputStream stream)</td></tr>
+<tr class="separator:a17fe73bc79fe5d850bf8620f84e91abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac529a5964355b821fe569317b125853f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ac529a5964355b821fe569317b125853f">OBOParser</a> (java.io.InputStream stream, String encoding)</td></tr>
+<tr class="separator:ac529a5964355b821fe569317b125853f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae7a58c26152aa05bdbccd00c20e6ecc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#aae7a58c26152aa05bdbccd00c20e6ecc">ReInit</a> (java.io.InputStream stream)</td></tr>
+<tr class="separator:aae7a58c26152aa05bdbccd00c20e6ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce5d5141134b6cce7eb724ecf99f1a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a2ce5d5141134b6cce7eb724ecf99f1a3">ReInit</a> (java.io.InputStream stream, String encoding)</td></tr>
+<tr class="separator:a2ce5d5141134b6cce7eb724ecf99f1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f370b9e4d1f22db25d57ebd77653bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad0f370b9e4d1f22db25d57ebd77653bc">OBOParser</a> (java.io.Reader stream)</td></tr>
+<tr class="separator:ad0f370b9e4d1f22db25d57ebd77653bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e8979520f74b9e265c016a425e39d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a78e8979520f74b9e265c016a425e39d6">ReInit</a> (java.io.Reader stream)</td></tr>
+<tr class="separator:a78e8979520f74b9e265c016a425e39d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a3df6266e3f683f0837358d2e39d5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a44a3df6266e3f683f0837358d2e39d5c">OBOParser</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a> tm)</td></tr>
+<tr class="separator:a44a3df6266e3f683f0837358d2e39d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36afd783e319b77f87cb1753657ff2af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a36afd783e319b77f87cb1753657ff2af">ReInit</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a> tm)</td></tr>
+<tr class="separator:a36afd783e319b77f87cb1753657ff2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ad420a112c997bb7151fd840d6b7e2"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a08ad420a112c997bb7151fd840d6b7e2">getNextToken</a> ()</td></tr>
+<tr class="separator:a08ad420a112c997bb7151fd840d6b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ad3d0a759804a3c29249f0a73e7e3e"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ae2ad3d0a759804a3c29249f0a73e7e3e">getToken</a> (int index)</td></tr>
+<tr class="separator:ae2ad3d0a759804a3c29249f0a73e7e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1055b985a224eb0718e242c4702533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#aed1055b985a224eb0718e242c4702533">generateParseException</a> ()</td></tr>
+<tr class="separator:aed1055b985a224eb0718e242c4702533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab233a14390e2f2073a2bb08a77bc860a"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ab233a14390e2f2073a2bb08a77bc860a">enable_tracing</a> ()</td></tr>
+<tr class="separator:ab233a14390e2f2073a2bb08a77bc860a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd52c5c001a2dd957ce8fa169fc8761"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#abcd52c5c001a2dd957ce8fa169fc8761">disable_tracing</a> ()</td></tr>
+<tr class="separator:abcd52c5c001a2dd957ce8fa169fc8761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a37e4504977c2e29f922fbb9116ca0184"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">token_source</a></td></tr>
+<tr class="separator:a37e4504977c2e29f922fbb9116ca0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6898b30760c30032a7ba8e84ae4188d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a></td></tr>
+<tr class="separator:a6898b30760c30032a7ba8e84ae4188d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d52dd97ecee03866132a2814ce0945"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ae8d52dd97ecee03866132a2814ce0945">jj_nt</a></td></tr>
+<tr class="separator:ae8d52dd97ecee03866132a2814ce0945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html">org.coode.owlapi.obo.parser.OBOParserConstants</a></td></tr>
+<tr class="memitem:a1958959012053aca49f41e9f382d96f7 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1958959012053aca49f41e9f382d96f7">EOF</a> = 0</td></tr>
+<tr class="separator:a1958959012053aca49f41e9f382d96f7 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab72fc05d1628e4318abd0c17a24c40 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a5ab72fc05d1628e4318abd0c17a24c40">LINE_COMMENTED_OUT</a> = 5</td></tr>
+<tr class="separator:a5ab72fc05d1628e4318abd0c17a24c40 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861f31e4d2a1b1b633bf9846ef3ceb03 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">OPEN_SQUARE_BRACKET</a> = 6</td></tr>
+<tr class="separator:a861f31e4d2a1b1b633bf9846ef3ceb03 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77439350a8935023f3a71313a06cb147 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a77439350a8935023f3a71313a06cb147">STANZA_TYPE</a> = 7</td></tr>
+<tr class="separator:a77439350a8935023f3a71313a06cb147 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b9567bd9572d6a1fb7b95087c3f97e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63b9567bd9572d6a1fb7b95087c3f97e">CLOSE_SQUARE_BRACKET</a> = 8</td></tr>
+<tr class="separator:a63b9567bd9572d6a1fb7b95087c3f97e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6106076afadc02f9db7f39903eb542 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">TAG_NAME</a> = 9</td></tr>
+<tr class="separator:a3e6106076afadc02f9db7f39903eb542 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7106ffd983781f48daa8cfb98cbe12c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ac7106ffd983781f48daa8cfb98cbe12c">TAG_COLON</a> = 10</td></tr>
+<tr class="separator:ac7106ffd983781f48daa8cfb98cbe12c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85547f92cd802f09d3101dd807287830 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a85547f92cd802f09d3101dd807287830">QUOTED_STRING_START</a> = 11</td></tr>
+<tr class="separator:a85547f92cd802f09d3101dd807287830 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d75d3947c6727acf096ab6b170bd95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">QUOTED_STRING</a> = 12</td></tr>
+<tr class="separator:ab5d75d3947c6727acf096ab6b170bd95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cea719cde9fc9a515b72b1638ff4929 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a2cea719cde9fc9a515b72b1638ff4929">QUOTED_STRING_DBL_QUOTE_TERMINATOR</a> = 13</td></tr>
+<tr class="separator:a2cea719cde9fc9a515b72b1638ff4929 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf15d33021263e5597985f2094e8867 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#accf15d33021263e5597985f2094e8867">QUOTED_STRING_NEW_LINE_TERMINATOR</a> = 14</td></tr>
+<tr class="separator:accf15d33021263e5597985f2094e8867 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abbc9c9a90a7257a503152e96c33254 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">STRING</a> = 15</td></tr>
+<tr class="separator:a9abbc9c9a90a7257a503152e96c33254 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cb70164f6702bece76ef106ffddb66 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">TAG_VALUE_WS</a> = 16</td></tr>
+<tr class="separator:ae5cb70164f6702bece76ef106ffddb66 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb0f8f28a12a1b3f57a01ce1b5b6276 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1bb0f8f28a12a1b3f57a01ce1b5b6276">TAG_END</a> = 17</td></tr>
+<tr class="separator:a1bb0f8f28a12a1b3f57a01ce1b5b6276 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66128b43b7ed47bf5d9eefda52dd5b97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a66128b43b7ed47bf5d9eefda52dd5b97">COMMENT_START</a> = 18</td></tr>
+<tr class="separator:a66128b43b7ed47bf5d9eefda52dd5b97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dd55df9fc716f39fc57c5ec216cb06 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">COMMENT</a> = 19</td></tr>
+<tr class="separator:a81dd55df9fc716f39fc57c5ec216cb06 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3917a2637918c6ed749bb2696326ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#afd3917a2637918c6ed749bb2696326ca">COMMENT_END</a> = 20</td></tr>
+<tr class="separator:afd3917a2637918c6ed749bb2696326ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f6a9831e44d15c0704e16b13d84021 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63f6a9831e44d15c0704e16b13d84021">ERROR</a> = 21</td></tr>
+<tr class="separator:a63f6a9831e44d15c0704e16b13d84021 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1473e5d0198340ce8e88b71dbac05a84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1473e5d0198340ce8e88b71dbac05a84">DEFAULT</a> = 0</td></tr>
+<tr class="separator:a1473e5d0198340ce8e88b71dbac05a84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c4e49e21445d9207af8a3a7713952a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a50c4e49e21445d9207af8a3a7713952a">IN_STANZA_HEADER</a> = 1</td></tr>
+<tr class="separator:a50c4e49e21445d9207af8a3a7713952a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aafd9b075da90c8746d3bc532d5f66b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a0aafd9b075da90c8746d3bc532d5f66b">IN_TAG_VALUE_PAIR</a> = 2</td></tr>
+<tr class="separator:a0aafd9b075da90c8746d3bc532d5f66b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19ada909504aad66cbab738036b070c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab19ada909504aad66cbab738036b070c">IN_TAG_VALUE</a> = 3</td></tr>
+<tr class="separator:ab19ada909504aad66cbab738036b070c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f7bd056eb19929e2e7252db4b7fb36 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae4f7bd056eb19929e2e7252db4b7fb36">IN_QUOTED_STRING</a> = 4</td></tr>
+<tr class="separator:ae4f7bd056eb19929e2e7252db4b7fb36 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7679c591e087c073fb5e21615db4ad8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#af7679c591e087c073fb5e21615db4ad8">IN_COMMENT</a> = 5</td></tr>
+<tr class="separator:af7679c591e087c073fb5e21615db4ad8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ae7a02b86342a8aad45e4f29c1c720 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ad0ae7a02b86342a8aad45e4f29c1c720">tokenImage</a></td></tr>
+<tr class="separator:ad0ae7a02b86342a8aad45e4f29c1c720 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock">
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00009">9</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a17fe73bc79fe5d850bf8620f84e91abb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParser.OBOParser </td>
+          <td>(</td>
+          <td class="paramtype">java.io.InputStream&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor with InputStream. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00159">159</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                 {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keyword">this</span>(stream, null);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac529a5964355b821fe569317b125853f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParser.OBOParser </td>
+          <td>(</td>
+          <td class="paramtype">java.io.InputStream&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>encoding</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor with InputStream and supplied encoding </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00163">163</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            jj_input_stream = <span class="keyword">new</span> BOMSafeJavaCharStream(stream, encoding, 1, 1);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        } <span class="keywordflow">catch</span> (java.io.UnsupportedEncodingException e) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">token_source</a> = <span class="keyword">new</span> OBOParserTokenManager(jj_input_stream);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a37e4504977c2e29f922fbb9116ca0184"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">org.coode.owlapi.obo.parser.OBOParser.token_source</a></div><div class="ttdeci">OBOParserTokenManager token_source</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00141">OBOParser.java:141</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad0f370b9e4d1f22db25d57ebd77653bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParser.OBOParser </td>
+          <td>(</td>
+          <td class="paramtype">java.io.Reader&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00199">199</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                                            {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        jj_input_stream = <span class="keyword">new</span> BOMSafeJavaCharStream(stream, 1, 1);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">token_source</a> = <span class="keyword">new</span> OBOParserTokenManager(jj_input_stream);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        }</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a37e4504977c2e29f922fbb9116ca0184"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">org.coode.owlapi.obo.parser.OBOParser.token_source</a></div><div class="ttdeci">OBOParserTokenManager token_source</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00141">OBOParser.java:141</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a44a3df6266e3f683f0837358d2e39d5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParser.OBOParser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a>&#160;</td>
+          <td class="paramname"><em>tm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor with generated <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> Manager. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00223">223</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                               {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">token_source</a> = tm;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a37e4504977c2e29f922fbb9116ca0184"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">org.coode.owlapi.obo.parser.OBOParser.token_source</a></div><div class="ttdeci">OBOParserTokenManager token_source</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00141">OBOParser.java:141</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ab954f9ecb5146bc392a6eae043851150"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.coode.owlapi.obo.parser.OBOParser.Comment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00131">131</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                        {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        Token t;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        t = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">COMMENT</a>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        {<span class="keywordflow">if</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">return</span> t.image;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(<span class="stringliteral">&quot;Missing return statement in function&quot;</span>);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a81dd55df9fc716f39fc57c5ec216cb06"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">org.coode.owlapi.obo.parser.OBOParserConstants.COMMENT</a></div><div class="ttdeci">int COMMENT</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00042">OBOParserConstants.java:42</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abcd52c5c001a2dd957ce8fa169fc8761"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.disable_tracing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Disable tracing. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00335">335</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                                        {</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab233a14390e2f2073a2bb08a77bc860a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.enable_tracing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Enable tracing. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00331">331</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                                       {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aed1055b985a224eb0718e242c4702533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a> org.coode.owlapi.obo.parser.OBOParser.generateParseException </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generate <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00300">300</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                                   {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        jj_expentries.clear();</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordtype">boolean</span>[] la1tokens = <span class="keyword">new</span> <span class="keywordtype">boolean</span>[22];</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordflow">if</span> (jj_kind &gt;= 0) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            la1tokens[jj_kind] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            jj_kind = -1;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">if</span> (jj_la1[i] == jj_gen) {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; 32; j++) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                    <span class="keywordflow">if</span> ((jj_la1_0[i] &amp; 1&lt;&lt;j) != 0) {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                        la1tokens[j] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                    }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 22; i++) {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keywordflow">if</span> (la1tokens[i]) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                jj_expentry = <span class="keyword">new</span> <span class="keywordtype">int</span>[1];</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                jj_expentry[0] = i;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                jj_expentries.add(jj_expentry);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordtype">int</span>[][] exptokseq = <span class="keyword">new</span> <span class="keywordtype">int</span>[jj_expentries.size()][];</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; jj_expentries.size(); i++) {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            exptokseq[i] = jj_expentries.get(i);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> ParseException(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a>, exptokseq, <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ad0ae7a02b86342a8aad45e4f29c1c720">tokenImage</a>);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_ad0ae7a02b86342a8aad45e4f29c1c720"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ad0ae7a02b86342a8aad45e4f29c1c720">org.coode.owlapi.obo.parser.OBOParserConstants.tokenImage</a></div><div class="ttdeci">String[] tokenImage</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00062">OBOParserConstants.java:62</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a08ad420a112c997bb7151fd840d6b7e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParser.getNextToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the next <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00263">263</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                                      {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a>.<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html#a051d3aa7a0079ecc1bb8a4814dc4a353">next</a> != null) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = token.next;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = token.next = token_source.getNextToken();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        jj_gen++;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token_html_a051d3aa7a0079ecc1bb8a4814dc4a353"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html#a051d3aa7a0079ecc1bb8a4814dc4a353">org.coode.owlapi.obo.parser.Token.next</a></div><div class="ttdeci">Token next</div><div class="ttdef"><b>Definition:</b> <a href="org_2coode_2owlapi_2obo_2parser_2_token_8java_source.html#l00048">Token.java:48</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae2ad3d0a759804a3c29249f0a73e7e3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParser.getToken </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the specific <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00275">275</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                           {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        Token t = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a>;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; index; i++) {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">if</span> (t.next != null) {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                t = t.next;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                t = t.next = token_source.getNextToken();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordflow">return</span> t;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5e61ea414d2eafd82fb55731f4bf939c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.Header </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00034">34</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                     {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        handler.startHeader();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        label_2:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">TAG_NAME</a>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        ;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                        jj_la1[1] = jj_gen;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                        <span class="keywordflow">break</span> label_2;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad132f94223c5cb4c87800ca943b8c60c">TagValuePair</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        handler.endHeader();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_ad132f94223c5cb4c87800ca943b8c60c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad132f94223c5cb4c87800ca943b8c60c">org.coode.owlapi.obo.parser.OBOParser.TagValuePair</a></div><div class="ttdeci">final void TagValuePair()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00072">OBOParser.java:72</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a3e6106076afadc02f9db7f39903eb542"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">org.coode.owlapi.obo.parser.OBOParserConstants.TAG_NAME</a></div><div class="ttdeci">int TAG_NAME</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00022">OBOParserConstants.java:22</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad532d5b0e73afe486f0393b36b85d544"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.parse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00017">17</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a5e61ea414d2eafd82fb55731f4bf939c">Header</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        label_1:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6c43f3f20d4d93d4dca8ab8e18d12e72">Stanza</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">OPEN_SQUARE_BRACKET</a>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        ;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        jj_la1[0] = jj_gen;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">break</span> label_1;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        jj_consume_token(0);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a5e61ea414d2eafd82fb55731f4bf939c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a5e61ea414d2eafd82fb55731f4bf939c">org.coode.owlapi.obo.parser.OBOParser.Header</a></div><div class="ttdeci">final void Header()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00034">OBOParser.java:34</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6c43f3f20d4d93d4dca8ab8e18d12e72"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6c43f3f20d4d93d4dca8ab8e18d12e72">org.coode.owlapi.obo.parser.OBOParser.Stanza</a></div><div class="ttdeci">final void Stanza()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00051">OBOParser.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a861f31e4d2a1b1b633bf9846ef3ceb03"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">org.coode.owlapi.obo.parser.OBOParserConstants.OPEN_SQUARE_BRACKET</a></div><div class="ttdeci">int OPEN_SQUARE_BRACKET</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00016">OBOParserConstants.java:16</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae7a58c26152aa05bdbccd00c20e6ecc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParser.ReInit </td>
+          <td>(</td>
+          <td class="paramtype">java.io.InputStream&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00179">179</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                   {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#aae7a58c26152aa05bdbccd00c20e6ecc">ReInit</a>(stream, null);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_aae7a58c26152aa05bdbccd00c20e6ecc"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#aae7a58c26152aa05bdbccd00c20e6ecc">org.coode.owlapi.obo.parser.OBOParser.ReInit</a></div><div class="ttdeci">void ReInit(java.io.InputStream stream)</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00179">OBOParser.java:179</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2ce5d5141134b6cce7eb724ecf99f1a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParser.ReInit </td>
+          <td>(</td>
+          <td class="paramtype">java.io.InputStream&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>encoding</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00183">183</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            jj_input_stream.ReInit(stream, encoding, 1, 1);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        } <span class="keywordflow">catch</span> (java.io.UnsupportedEncodingException e) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        token_source.ReInit(jj_input_stream);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a78e8979520f74b9e265c016a425e39d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParser.ReInit </td>
+          <td>(</td>
+          <td class="paramtype">java.io.Reader&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00211">211</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                                              {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        jj_input_stream.ReInit(stream, 1, 1);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        token_source.ReInit(jj_input_stream);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a36afd783e319b77f87cb1753657ff2af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParser.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a>&#160;</td>
+          <td class="paramname"><em>tm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00234">234</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                                                 {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">token_source</a> = tm;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">token</a> = <span class="keyword">new</span> Token();</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        jj_ntk = -1;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        jj_gen = 0;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 6; i++) {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            jj_la1[i] = -1;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a37e4504977c2e29f922fbb9116ca0184"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a37e4504977c2e29f922fbb9116ca0184">org.coode.owlapi.obo.parser.OBOParser.token_source</a></div><div class="ttdeci">OBOParserTokenManager token_source</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00141">OBOParser.java:141</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_a6898b30760c30032a7ba8e84ae4188d8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#a6898b30760c30032a7ba8e84ae4188d8">org.coode.owlapi.obo.parser.OBOParser.token</a></div><div class="ttdeci">Token token</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00144">OBOParser.java:144</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a234b78d9332b696dc3488c27716446c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParser.setHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_handler.html">OBOParserHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00013">13</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                                                     {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        this.handler = handler;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6c43f3f20d4d93d4dca8ab8e18d12e72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.Stanza </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00051">51</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                     {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        Token t;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">OPEN_SQUARE_BRACKET</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        t = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a77439350a8935023f3a71313a06cb147">STANZA_TYPE</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        handler.startFrame(t.image);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63b9567bd9572d6a1fb7b95087c3f97e">CLOSE_SQUARE_BRACKET</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        label_3:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">TAG_NAME</a>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        ;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                        jj_la1[2] = jj_gen;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                        <span class="keywordflow">break</span> label_3;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad132f94223c5cb4c87800ca943b8c60c">TagValuePair</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        handler.endFrame();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_ad132f94223c5cb4c87800ca943b8c60c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ad132f94223c5cb4c87800ca943b8c60c">org.coode.owlapi.obo.parser.OBOParser.TagValuePair</a></div><div class="ttdeci">final void TagValuePair()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00072">OBOParser.java:72</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a3e6106076afadc02f9db7f39903eb542"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">org.coode.owlapi.obo.parser.OBOParserConstants.TAG_NAME</a></div><div class="ttdeci">int TAG_NAME</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00022">OBOParserConstants.java:22</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a63b9567bd9572d6a1fb7b95087c3f97e"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63b9567bd9572d6a1fb7b95087c3f97e">org.coode.owlapi.obo.parser.OBOParserConstants.CLOSE_SQUARE_BRACKET</a></div><div class="ttdeci">int CLOSE_SQUARE_BRACKET</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00020">OBOParserConstants.java:20</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a77439350a8935023f3a71313a06cb147"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a77439350a8935023f3a71313a06cb147">org.coode.owlapi.obo.parser.OBOParserConstants.STANZA_TYPE</a></div><div class="ttdeci">int STANZA_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00018">OBOParserConstants.java:18</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a861f31e4d2a1b1b633bf9846ef3ceb03"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">org.coode.owlapi.obo.parser.OBOParserConstants.OPEN_SQUARE_BRACKET</a></div><div class="ttdeci">int OPEN_SQUARE_BRACKET</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00016">OBOParserConstants.java:16</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad132f94223c5cb4c87800ca943b8c60c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.obo.parser.OBOParser.TagValuePair </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_parse_exception.html">ParseException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00072">72</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                           {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        Token tagToken = null;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        Token valToken = null;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        String qualifierBlock = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        String comment = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        Token t;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        tagToken = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">TAG_NAME</a>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        label_4:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">QUOTED_STRING</a>:</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">STRING</a>:</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">TAG_VALUE_WS</a>:</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                        ;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        jj_la1[3] = jj_gen;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                        <span class="keywordflow">break</span> label_4;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">QUOTED_STRING</a>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                        t = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">QUOTED_STRING</a>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                        sb.append(t.image);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">STRING</a>:</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                        t = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">STRING</a>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                        sb.append(t.image);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">TAG_VALUE_WS</a>:</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                        t = jj_consume_token(<a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">TAG_VALUE_WS</a>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        sb.append(t.image);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                        jj_la1[4] = jj_gen;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                        jj_consume_token(-1);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ParseException();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">switch</span> (jj_ntk==-1?jj_ntk():jj_ntk) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">COMMENT</a>:</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                comment = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ab954f9ecb5146bc392a6eae043851150">Comment</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                jj_la1[5] = jj_gen;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                ;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        String name = tagToken.image.trim();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        String val = sb.toString().trim();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">if</span>(val.endsWith(<span class="stringliteral">&quot;}&quot;</span>)) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordtype">int</span> qualifierStart = val.lastIndexOf(<span class="stringliteral">&quot;{&quot;</span>);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">if</span>(qualifierStart != -1) {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                qualifierBlock = val.substring(qualifierStart);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                val = val.substring(0, qualifierStart).trim();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        handler.handleTagValue(name, val, qualifierBlock, comment);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a3e6106076afadc02f9db7f39903eb542"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">org.coode.owlapi.obo.parser.OBOParserConstants.TAG_NAME</a></div><div class="ttdeci">int TAG_NAME</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00022">OBOParserConstants.java:22</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a9abbc9c9a90a7257a503152e96c33254"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">org.coode.owlapi.obo.parser.OBOParserConstants.STRING</a></div><div class="ttdeci">int STRING</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00034">OBOParserConstants.java:34</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_ab5d75d3947c6727acf096ab6b170bd95"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">org.coode.owlapi.obo.parser.OBOParserConstants.QUOTED_STRING</a></div><div class="ttdeci">int QUOTED_STRING</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00028">OBOParserConstants.java:28</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_html_ab954f9ecb5146bc392a6eae043851150"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html#ab954f9ecb5146bc392a6eae043851150">org.coode.owlapi.obo.parser.OBOParser.Comment</a></div><div class="ttdeci">final String Comment()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_8java_source.html#l00131">OBOParser.java:131</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_ae5cb70164f6702bece76ef106ffddb66"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">org.coode.owlapi.obo.parser.OBOParserConstants.TAG_VALUE_WS</a></div><div class="ttdeci">int TAG_VALUE_WS</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00036">OBOParserConstants.java:36</a></div></div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants_html_a81dd55df9fc716f39fc57c5ec216cb06"><div class="ttname"><a href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">org.coode.owlapi.obo.parser.OBOParserConstants.COMMENT</a></div><div class="ttdeci">int COMMENT</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_constants_8java_source.html#l00042">OBOParserConstants.java:42</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ae8d52dd97ecee03866132a2814ce0945"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParser.jj_nt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Next token. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00146">146</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6898b30760c30032a7ba8e84ae4188d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParser.token</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Current token. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00144">144</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37e4504977c2e29f922fbb9116ca0184"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a> org.coode.owlapi.obo.parser.OBOParser.token_source</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> Manager. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_8java_source.html#l00141">141</a> del archivo <a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/obo/parser/<a class="el" href="_o_b_o_parser_8java_source.html">OBOParser.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo.html">obo</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser.html">OBOParser</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:42 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

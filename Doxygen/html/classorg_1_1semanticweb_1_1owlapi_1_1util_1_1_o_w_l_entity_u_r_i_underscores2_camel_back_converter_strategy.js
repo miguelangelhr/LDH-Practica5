@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_u_r_i_underscores2_camel_back_converter_strategy =
+[
+    [ "OWLEntityURIUnderscores2CamelBackConverterStrategy", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_u_r_i_underscores2_camel_back_converter_strategy.html#a223529288d3e9f73aef68e3f90dfe8fb", null ],
+    [ "getConvertedIRI", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_entity_u_r_i_underscores2_camel_back_converter_strategy.html#aea4cbe48cf4a6ccf49fe140e42ab899c", null ]
+];

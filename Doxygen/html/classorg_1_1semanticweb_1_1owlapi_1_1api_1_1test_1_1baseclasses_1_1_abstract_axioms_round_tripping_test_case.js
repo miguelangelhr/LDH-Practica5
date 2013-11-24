@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_axioms_round_tripping_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_axioms_round_tripping_test_case.html#aaf7b870f20b8dbe7756a9cea6db05b6d", null ],
+    [ "createOntology", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_axioms_round_tripping_test_case.html#ac7974358b381c28f8d9a296c787cba06", null ],
+    [ "isIgnoreDeclarationAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_axioms_round_tripping_test_case.html#a97f1704711bba03dc0b0919709543d13", null ]
+];

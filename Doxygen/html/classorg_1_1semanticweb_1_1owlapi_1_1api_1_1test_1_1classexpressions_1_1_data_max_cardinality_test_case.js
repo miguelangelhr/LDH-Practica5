@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_max_cardinality_test_case =
+[
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_max_cardinality_test_case.html#abb234607ff9b89b4c0e182daa559859a", null ],
+    [ "testCorrectAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_max_cardinality_test_case.html#a2709d1f80ab13d0c2d9cf5f9f2b602b0", null ]
+];

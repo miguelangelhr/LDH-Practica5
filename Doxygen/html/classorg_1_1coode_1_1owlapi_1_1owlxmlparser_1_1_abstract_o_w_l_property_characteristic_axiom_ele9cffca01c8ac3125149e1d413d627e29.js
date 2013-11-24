@@ -1,0 +1,8 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29 =
+[
+    [ "AbstractOWLPropertyCharacteristicAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29.html#a7b0fc6f58546d7eb3b7f89a0e2210451", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29.html#a9aab2e26359a41e80f2f027221a65c8c", null ],
+    [ "createPropertyCharacteristicAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29.html#a253483d0e88c97918175bebf1fb551b8", null ],
+    [ "getProperty", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29.html#a096e403250e79d8b4c9898d75cd4887f", null ],
+    [ "setProperty", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_property_characteristic_axiom_ele9cffca01c8ac3125149e1d413d627e29.html#a70b29a01a0f3fe36953554ee664f5fd6", null ]
+];

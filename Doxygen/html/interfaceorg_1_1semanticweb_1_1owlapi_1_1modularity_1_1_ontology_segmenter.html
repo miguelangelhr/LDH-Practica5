@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.modularity.OntologySegmenter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.modularity.OntologySegmenter<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1modularity_1_1_syntactic_locality_module_extractor.html">uk.ac.manchester.cs.owlapi.modularity.SyntacticLocalityModuleExtractor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8e3b4e90d545a002e6f7ddc8e7fb7ab8"><td class="memItemLeft" align="right" valign="top">abstract Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html#a8e3b4e90d545a002e6f7ddc8e7fb7ab8">extract</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; signature)</td></tr>
+<tr class="separator:a8e3b4e90d545a002e6f7ddc8e7fb7ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3302f1174e01b55096aeea8e0e1e8a1"><td class="memItemLeft" align="right" valign="top">abstract Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html#af3302f1174e01b55096aeea8e0e1e8a1">extract</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; signature, int superClassLevel, int subClassLevel, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner)</td></tr>
+<tr class="separator:af3302f1174e01b55096aeea8e0e1e8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f49bbb7a8b29c588b13dbcf6243efc"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html#a08f49bbb7a8b29c588b13dbcf6243efc">extractAsOntology</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; signature, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)  throws OWLOntologyCreationException</td></tr>
+<tr class="separator:a08f49bbb7a8b29c588b13dbcf6243efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38578d60c70fe4364e0fce8a6a64ce7c"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html#a38578d60c70fe4364e0fce8a6a64ce7c">extractAsOntology</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt; signature, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri, int superClassLevel, int subClassLevel, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner)  throws OWLOntologyCreationException</td></tr>
+<tr class="separator:a38578d60c70fe4364e0fce8a6a64ce7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>An interface for any class implementing ontology segmentation or modularisation. </p>
+<dl class="section author"><dt>Autor</dt><dd>Thomas Schneider </dd>
+<dd>
+School of Computer Science </dd>
+<dd>
+University of Manchester </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_ontology_segmenter_8java_source.html#l00058">58</a> del archivo <a class="el" href="_ontology_segmenter_8java_source.html">OntologySegmenter.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a8e3b4e90d545a002e6f7ddc8e7fb7ab8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; org.semanticweb.owlapi.modularity.OntologySegmenter.extract </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>signature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a set of axioms that is a segment of the ontology associated with this segmenter. This segment is determined by the specified seed signature (set of entities). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signature</td><td>the seed signature </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the segment as a set of axioms </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1modularity_1_1_syntactic_locality_module_extractor.html#abc853f485abc1c1c5221eea57bfbc9c0">uk.ac.manchester.cs.owlapi.modularity.SyntacticLocalityModuleExtractor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3302f1174e01b55096aeea8e0e1e8a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; org.semanticweb.owlapi.modularity.OntologySegmenter.extract </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>superClassLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subClassLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a>&#160;</td>
+          <td class="paramname"><em>reasoner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a set of axioms that is a segment of the ontology associated with this segmenter. This segment is determined by a seed signature (set of entities), which is the specified signature plus possibly all superclasses and/or subclasses of the classes therein. Sub-/superclasses are determined using the specified reasoner. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signature</td><td>the seed signature </td></tr>
+    <tr><td class="paramname">superClassLevel</td><td>determines whether superclasses are added to the signature before segment extraction, see below for admissible values </td></tr>
+    <tr><td class="paramname">subClassLevel</td><td>determines whether subclasses are added to the signature before segment extraction, see below for admissible values </td></tr>
+    <tr><td class="paramname">reasoner</td><td>the reasoner to determine super-/subclasses </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the segment as a set of axioms Meaning of the value of superClassLevel, subClassLevel:<br/>
+ Let this value be k. If k &gt; 0, then all classes are included that are (direct or indirect) super-/subclasses of some class in signature, with a distance of at most k to this class in the class hierarchy computed by reasoner. If k = 0, then no super-/subclasses are added. If k &lt; 0, then all direct and indirect super-/subclasses of any class in the signature are added. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1modularity_1_1_syntactic_locality_module_extractor.html#a9f0bd3d188619cb02bcaa06bd26a99f9">uk.ac.manchester.cs.owlapi.modularity.SyntacticLocalityModuleExtractor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a08f49bbb7a8b29c588b13dbcf6243efc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> org.semanticweb.owlapi.modularity.OntologySegmenter.extractAsOntology </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns an ontology that is a segment of the ontology associated with this segmenter. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signature</td><td>the seed signature (set of entities) for the module </td></tr>
+    <tr><td class="paramname">iri</td><td>the URI for the module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the module, having the specified URI </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">OWLOntologyChangeException</td><td>if adding axioms to the module fails </td></tr>
+    <tr><td class="paramname">OWLOntologyCreationException</td><td>if the module cannot be created </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1modularity_1_1_syntactic_locality_module_extractor.html#a147238a33401dffcd488b9b50d41407d">uk.ac.manchester.cs.owlapi.modularity.SyntacticLocalityModuleExtractor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38578d60c70fe4364e0fce8a6a64ce7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> org.semanticweb.owlapi.modularity.OntologySegmenter.extractAsOntology </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>superClassLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subClassLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a>&#160;</td>
+          <td class="paramname"><em>reasoner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns an ontology that is a segment of the ontology associated with this segmenter. This segment is determined by a seed signature (set of entities), which is the specified signature plus possibly all superclasses and/or subclasses of the classes therein. Sub-/superclasses are determined using the specified reasoner. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signature</td><td>the seed signature </td></tr>
+    <tr><td class="paramname">iri</td><td>the URI for the module </td></tr>
+    <tr><td class="paramname">superClassLevel</td><td>determines whether superclasses are added to the signature before segment extraction, see below for admissible values </td></tr>
+    <tr><td class="paramname">subClassLevel</td><td>determines whether subclasses are added to the signature before segment extraction, see below for admissible values </td></tr>
+    <tr><td class="paramname">reasoner</td><td>the reasoner to determine super-/subclasses </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the segment as a set of axioms </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">OWLOntologyChangeException</td><td>if adding axioms to the module fails </td></tr>
+    <tr><td class="paramname">OWLOntologyCreationException</td><td>if the module cannot be created Meaning of the value of superClassLevel, subClassLevel:<br/>
+ Let this value be k. If k &gt; 0, then all classes are included that are (direct or indirect) super-/subclasses of some class in signature, with a distance of at most k to this class in the class hierarchy computed by reasoner. If k = 0, then no super-/subclasses are added. If k &lt; 0, then all direct and indirect super-/subclasses of any class in the signature are added. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1modularity_1_1_syntactic_locality_module_extractor.html#ae58c3a77d2ce8da48a7cadecb3dff9b4">uk.ac.manchester.cs.owlapi.modularity.SyntacticLocalityModuleExtractor</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>tools/src/main/java/org/semanticweb/owlapi/modularity/<a class="el" href="_ontology_segmenter_8java_source.html">OntologySegmenter.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1modularity.html">modularity</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1modularity_1_1_ontology_segmenter.html">OntologySegmenter</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:27 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

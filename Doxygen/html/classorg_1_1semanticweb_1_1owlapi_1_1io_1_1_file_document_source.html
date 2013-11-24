@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.io.FileDocumentSource</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.io.FileDocumentSource</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a978899c3e88cf9c7ec5fe51bda194c15"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a978899c3e88cf9c7ec5fe51bda194c15">FileDocumentSource</a> (File file)</td></tr>
+<tr class="separator:a978899c3e88cf9c7ec5fe51bda194c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0fb3aa014212c488920cc566d3253f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a2d0fb3aa014212c488920cc566d3253f">getDocumentIRI</a> ()</td></tr>
+<tr class="separator:a2d0fb3aa014212c488920cc566d3253f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ebd98d0ea9f7a4c887aecaace7b9ec"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a17ebd98d0ea9f7a4c887aecaace7b9ec">isInputStreamAvailable</a> ()</td></tr>
+<tr class="separator:a17ebd98d0ea9f7a4c887aecaace7b9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c37053cb6c2d5b84cd3edc012b8b6d4"><td class="memItemLeft" align="right" valign="top">InputStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a1c37053cb6c2d5b84cd3edc012b8b6d4">getInputStream</a> ()</td></tr>
+<tr class="separator:a1c37053cb6c2d5b84cd3edc012b8b6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f297473b883051f7cac68d2778b668"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#aa0f297473b883051f7cac68d2778b668">isReaderAvailable</a> ()</td></tr>
+<tr class="separator:aa0f297473b883051f7cac68d2778b668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3ba3d12aec65c2cab64a2a156ed7cd"><td class="memItemLeft" align="right" valign="top">Reader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a5c3ba3d12aec65c2cab64a2a156ed7cd">getReader</a> ()</td></tr>
+<tr class="separator:a5c3ba3d12aec65c2cab64a2a156ed7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 17-Nov-2007<br/>
+ <br/>
+</p>
+<p>A convenience class which will prepare an input source from a file. </p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00062">62</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a978899c3e88cf9c7ec5fe51bda194c15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.io.FileDocumentSource.FileDocumentSource </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an ontology input source using the specified file.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>The file from which a concrete representation of an ontology will be obtained. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00072">72</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                         {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        this.file = file;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a2d0fb3aa014212c488920cc566d3253f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.semanticweb.owlapi.io.FileDocumentSource.getDocumentIRI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the IRI of the ontology document. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>An IRI which represents the ontology document IRI - this will never be <code>null</code>. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html#ad7904700cf9be0b4b52dd37e4c55c856">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00077">77</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> IRI.create(file);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1c37053cb6c2d5b84cd3edc012b8b6d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputStream org.semanticweb.owlapi.io.FileDocumentSource.getInputStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If an input stream can be obtained from this document source then this method creates it. This method may be called multiple times. Each invocation will return a new input stream. This method should not be called if the <code>isInputStreamAvailable</code> method returns <code>false</code>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A new input stream which the ontology can be read from. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html#a5a72e8c492895465295bf5c3609c97ac">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00087">87</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                        {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> BufferedInputStream(<span class="keyword">new</span> FileInputStream(file));</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        } <span class="keywordflow">catch</span> (FileNotFoundException e) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLOntologyInputSourceException(e);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c3ba3d12aec65c2cab64a2a156ed7cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Reader org.semanticweb.owlapi.io.FileDocumentSource.getReader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a reader which an ontology document can be read from. This method may be called multiple times. Each invocation will return a new <code>Reader</code>. This method should not be called if the <code>isReaderAvailable</code> method returns false. A <code>Runtime</code> execption will be thrown if this happens. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A new <code>Reader</code> which the ontology can be read from. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html#a00627f57775a820a8f8fdfd6b7e75c68">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00101">101</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                              {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> InputStreamReader(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a1c37053cb6c2d5b84cd3edc012b8b6d4">getInputStream</a>(), <span class="stringliteral">&quot;UTF-8&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        } <span class="keywordflow">catch</span> (UnsupportedEncodingException e) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="comment">// it cannot not support UTF-8</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLOntologyInputSourceException(e);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source_html_a1c37053cb6c2d5b84cd3edc012b8b6d4"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html#a1c37053cb6c2d5b84cd3edc012b8b6d4">org.semanticweb.owlapi.io.FileDocumentSource.getInputStream</a></div><div class="ttdeci">InputStream getInputStream()</div><div class="ttdef"><b>Definition:</b> <a href="_file_document_source_8java_source.html#l00087">FileDocumentSource.java:87</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a17ebd98d0ea9f7a4c887aecaace7b9ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.io.FileDocumentSource.isInputStreamAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if an input stream is available which an ontology document can be parsed from. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if an input stream can be obtained, <code>false</code> if an input stream cannot be obtained from this document source. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html#a4dbf1b82137983881468ec59f85d88d6">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00082">82</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                            {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa0f297473b883051f7cac68d2778b668"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.io.FileDocumentSource.isReaderAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if a reader is available which an ontology document can be parsed from. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if a reader can be obtained from this document source, or <code>false</code> if a reader cannot be obtained from this document source. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_source.html#afde55562eda873b241b32ef90f2b66c6">org.semanticweb.owlapi.io.OWLOntologyDocumentSource</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_file_document_source_8java_source.html#l00096">96</a> del archivo <a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                       {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/io/<a class="el" href="_file_document_source_8java_source.html">FileDocumentSource.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1io.html">io</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_file_document_source.html">FileDocumentSource</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:17 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

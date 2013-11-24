@@ -1,0 +1,537 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.rdf.model.RDFLiteralNode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.rdf.model.RDFLiteralNode</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_node.html">org.coode.owlapi.rdf.model.RDFNode</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:af14da8db766145036b70bef66e47a9b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#af14da8db766145036b70bef66e47a9b7">getIRI</a> ()</td></tr>
+<tr class="separator:af14da8db766145036b70bef66e47a9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5046ac0dead7d66f1b3a616978646758"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a5046ac0dead7d66f1b3a616978646758">isAnonymous</a> ()</td></tr>
+<tr class="separator:a5046ac0dead7d66f1b3a616978646758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9fcc1aa4139459201922ee1664bf81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a8c9fcc1aa4139459201922ee1664bf81">RDFLiteralNode</a> (String literal, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> datatype)</td></tr>
+<tr class="separator:a8c9fcc1aa4139459201922ee1664bf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13d2a8a1e293f6e4173a95c8e14f4c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#aa13d2a8a1e293f6e4173a95c8e14f4c7">RDFLiteralNode</a> (String literal, String lang)</td></tr>
+<tr class="separator:aa13d2a8a1e293f6e4173a95c8e14f4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86973713a8636650a7eea2eca017b67"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#ab86973713a8636650a7eea2eca017b67">getLiteral</a> ()</td></tr>
+<tr class="separator:ab86973713a8636650a7eea2eca017b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5c234ac36417398d5a72a66a5c4b7a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#aab5c234ac36417398d5a72a66a5c4b7a">getLang</a> ()</td></tr>
+<tr class="separator:aab5c234ac36417398d5a72a66a5c4b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7cf0ab716417a8ad5f07d3bb9578899"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#af7cf0ab716417a8ad5f07d3bb9578899">getDatatype</a> ()</td></tr>
+<tr class="separator:af7cf0ab716417a8ad5f07d3bb9578899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a05826504c9d81dec8e03a493784a4"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#aa0a05826504c9d81dec8e03a493784a4">isTyped</a> ()</td></tr>
+<tr class="separator:aa0a05826504c9d81dec8e03a493784a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085a77d78b6e15a5b7e1585bbb9c613e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a085a77d78b6e15a5b7e1585bbb9c613e">isLiteral</a> ()</td></tr>
+<tr class="separator:a085a77d78b6e15a5b7e1585bbb9c613e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619d373ae268afcb9faef2ccc1efbd28"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a619d373ae268afcb9faef2ccc1efbd28">toString</a> ()</td></tr>
+<tr class="separator:a619d373ae268afcb9faef2ccc1efbd28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb477d1d62f2b0cb71e41065e9d6cafc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#afb477d1d62f2b0cb71e41065e9d6cafc">equals</a> (Object obj)</td></tr>
+<tr class="separator:afb477d1d62f2b0cb71e41065e9d6cafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa1346d27e15ac6488c5ea8206be312"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> ()</td></tr>
+<tr class="separator:a0aa1346d27e15ac6488c5ea8206be312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 06-Dec-2006<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00050">50</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a8c9fcc1aa4139459201922ee1664bf81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.rdf.model.RDFLiteralNode.RDFLiteralNode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>literal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>datatype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">literal</td><td>lexical form </td></tr>
+    <tr><td class="paramname">datatype</td><td>type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00076">76</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        this.literal = literal;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.datatype = datatype;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa13d2a8a1e293f6e4173a95c8e14f4c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.rdf.model.RDFLiteralNode.RDFLiteralNode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>literal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lang</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">literal</td><td>lexical form </td></tr>
+    <tr><td class="paramname">lang</td><td>language tag </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00085">85</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                       {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this.literal = literal;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        this.lang = lang;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="afb477d1d62f2b0cb71e41065e9d6cafc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdf.model.RDFLiteralNode.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00149">149</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                                      {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">if</span>(!(obj instanceof <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a8c9fcc1aa4139459201922ee1664bf81">RDFLiteralNode</a>)) {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        RDFLiteralNode other = (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a8c9fcc1aa4139459201922ee1664bf81">RDFLiteralNode</a>) obj;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">if</span>(!other.literal.equals(literal)) {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">if</span>(datatype != null) {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">if</span>(!datatype.<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">equals</a>(other.datatype)) {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(other.getDatatype() != null) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        }</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">if</span>(lang != null) {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">return</span> lang.equals(other.lang);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(other.lang != null) {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a2836257932774ea9d462e6aa18a8c711"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">org.semanticweb.owlapi.model.IRI.equals</a></div><div class="ttdeci">boolean equals(Object obj)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00476">IRI.java:476</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node_html_a8c9fcc1aa4139459201922ee1664bf81"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a8c9fcc1aa4139459201922ee1664bf81">org.coode.owlapi.rdf.model.RDFLiteralNode.RDFLiteralNode</a></div><div class="ttdeci">RDFLiteralNode(String literal, IRI datatype)</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_literal_node_8java_source.html#l00076">RDFLiteralNode.java:76</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af7cf0ab716417a8ad5f07d3bb9578899"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.rdf.model.RDFLiteralNode.getDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the datatype, or <code>null</code> if there is no datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00111">111</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                             {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> datatype;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af14da8db766145036b70bef66e47a9b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.rdf.model.RDFLiteralNode.getIRI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the URI of the resource. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The URI or <code>null</code> if this is an anonymous resource. </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_node.html#a908d4e6952226fb4a0693c31d55aabcc">org.coode.owlapi.rdf.model.RDFNode</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00061">61</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aab5c234ac36417398d5a72a66a5c4b7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.rdf.model.RDFLiteralNode.getLang </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the lang </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The lang, or <code>null</code> if there is no lang </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00103">103</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                            {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> lang;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab86973713a8636650a7eea2eca017b67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.rdf.model.RDFLiteralNode.getLiteral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the lexical form of this literal. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The lexical form </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00094">94</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                               {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> literal;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0aa1346d27e15ac6488c5ea8206be312"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.coode.owlapi.rdf.model.RDFLiteralNode.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00176">176</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                          {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> == 0) {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> = 37;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> * 37 + literal.hashCode();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="keywordflow">if</span>(lang != null) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> * 37 + lang.hashCode();</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">if</span>(datatype != null) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a> * 37 + datatype.hashCode();</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            }</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">hashCode</a>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node_html_a0aa1346d27e15ac6488c5ea8206be312"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html#a0aa1346d27e15ac6488c5ea8206be312">org.coode.owlapi.rdf.model.RDFLiteralNode.hashCode</a></div><div class="ttdeci">int hashCode()</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_literal_node_8java_source.html#l00176">RDFLiteralNode.java:176</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5046ac0dead7d66f1b3a616978646758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdf.model.RDFLiteralNode.isAnonymous </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if this node is a resource and is anonymous. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this is a resource node (i.e. <code>isLiteral</code> returns <code>false</code>) and the node is anonymous, or <code>false</code> if this is a resource node and is not anonymous. </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_node.html#a35c8342de82f53426a9cca449a877c15">org.coode.owlapi.rdf.model.RDFNode</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00067">67</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                 {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a085a77d78b6e15a5b7e1585bbb9c613e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdf.model.RDFLiteralNode.isLiteral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true if the node is a literal </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_node.html#acc84d2483ab6c0829fba71b449c56c38">org.coode.owlapi.rdf.model.RDFNode</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00124">124</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                               {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa0a05826504c9d81dec8e03a493784a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.rdf.model.RDFLiteralNode.isTyped </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true if the node has a datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00119">119</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                             {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> datatype != null;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a619d373ae268afcb9faef2ccc1efbd28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.rdf.model.RDFLiteralNode.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_literal_node_8java_source.html#l00130">130</a> del archivo <a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                             {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        sb.append(<span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        sb.append(literal);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        sb.append(<span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">if</span>(datatype != null) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            sb.append(<span class="stringliteral">&quot;^^&lt;&quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            sb.append(datatype);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            sb.append(<span class="stringliteral">&quot;&gt;&quot;</span>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        }</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(lang != null) {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            sb.append(<span class="stringliteral">&quot;@&quot;</span>);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            sb.append(lang);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/rdf/model/<a class="el" href="_r_d_f_literal_node_8java_source.html">RDFLiteralNode.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1rdf.html">rdf</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1rdf_1_1model.html">model</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1model_1_1_r_d_f_literal_node.html">RDFLiteralNode</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:47 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

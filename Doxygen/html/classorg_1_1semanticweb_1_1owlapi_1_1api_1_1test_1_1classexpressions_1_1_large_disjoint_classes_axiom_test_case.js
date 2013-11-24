@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_large_disjoint_classes_axiom_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_large_disjoint_classes_axiom_test_case.html#a3156e879e32a571b015e763d90fa3afb", null ]
+];

@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_annotated_axiom_round_tripping_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_annotated_axiom_round_tripping_test_case.html#ac24380072dbd37bf4a7deead5c191283", null ],
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_annotated_axiom_round_tripping_test_case.html#a6afbb12cdaa7995823a6bb2a3a60ba8c", null ]
+];

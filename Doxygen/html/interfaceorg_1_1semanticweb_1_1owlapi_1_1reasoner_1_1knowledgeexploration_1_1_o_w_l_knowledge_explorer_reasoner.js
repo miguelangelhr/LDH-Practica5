@@ -1,0 +1,12 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner =
+[
+    [ "RootNode", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner_1_1_root_node.html", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner_1_1_root_node" ],
+    [ "getBlocker", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a5a768d136b1e4c8958f51902bd1116a2", null ],
+    [ "getDataLabel", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a3907284c5dcb8a4b523a5f53eb768319", null ],
+    [ "getDataNeighbours", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#aeb32685d5dd8c2881dbc4d30de1b9491", null ],
+    [ "getDataNeighbours", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#aacd66e4f1f3fcf22161dfa660c6b0f9f", null ],
+    [ "getObjectLabel", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a28388a4e182cccf936c22184ede0b7cf", null ],
+    [ "getObjectNeighbours", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a3a1af2a6f64f76314d4d47a6076130fb", null ],
+    [ "getObjectNeighbours", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a3cf5bed2c3dca94d28b20d0c6e48b636", null ],
+    [ "getRoot", "interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1knowledgeexploration_1_1_o_w_l_knowledge_explorer_reasoner.html#a97cbd43ff8f0c09b8eb188fc8f0d8dcf", null ]
+];

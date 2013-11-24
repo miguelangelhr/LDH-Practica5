@@ -1,0 +1,7 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_range_axiom_impl_3_01_p_0140de1eb4f83293eb8b942ec8e6d67c5c =
+[
+    [ "OWLPropertyRangeAxiomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_range_axiom_impl_3_01_p_0140de1eb4f83293eb8b942ec8e6d67c5c.html#a3cbe4219b0aed1ca37a5cee702d9d00c", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_range_axiom_impl_3_01_p_0140de1eb4f83293eb8b942ec8e6d67c5c.html#ac62038ecda55e0ca85a8dfbdade061ee", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_range_axiom_impl_3_01_p_0140de1eb4f83293eb8b942ec8e6d67c5c.html#af5307c2b6c58436ec1ccdc87eaa538b8", null ],
+    [ "getRange", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_range_axiom_impl_3_01_p_0140de1eb4f83293eb8b942ec8e6d67c5c.html#a734b193e2c7be5d9c12d23de04ed866e", null ]
+];

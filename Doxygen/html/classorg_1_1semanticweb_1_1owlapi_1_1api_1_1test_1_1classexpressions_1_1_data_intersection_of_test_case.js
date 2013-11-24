@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_intersection_of_test_case =
+[
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_intersection_of_test_case.html#a306ba770deef60cd8dd6da40cf30f2e7", null ],
+    [ "testCorrectAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_data_intersection_of_test_case.html#a40563d5e99bf2a6cee801a935de48353", null ]
+];

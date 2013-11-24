@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.rdf.syntax.RDFParserException</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.rdf.syntax.RDFParserException</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias SAXException.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a6036104e58d5bd5be8f56b7989e7294e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a6036104e58d5bd5be8f56b7989e7294e">RDFParserException</a> (String message)</td></tr>
+<tr class="separator:a6036104e58d5bd5be8f56b7989e7294e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d48d60bcf43de7bc6a80f88c2e061bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a1d48d60bcf43de7bc6a80f88c2e061bc">RDFParserException</a> (String message, Locator locator)</td></tr>
+<tr class="separator:a1d48d60bcf43de7bc6a80f88c2e061bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec5629a38a4e8e28371248d7f5b438f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a7ec5629a38a4e8e28371248d7f5b438f">RDFParserException</a> (String message, String publicId, String systemId, int lineNumber, int columnNumber)</td></tr>
+<tr class="separator:a7ec5629a38a4e8e28371248d7f5b438f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea8da8596e1751bd40a8e4bfcdf3c8db"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#aea8da8596e1751bd40a8e4bfcdf3c8db">getPublicId</a> ()</td></tr>
+<tr class="separator:aea8da8596e1751bd40a8e4bfcdf3c8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f55843b2cb2a5417871be233828df6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#ad0f55843b2cb2a5417871be233828df6">getSystemId</a> ()</td></tr>
+<tr class="separator:ad0f55843b2cb2a5417871be233828df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9d8684e538547db81aec382701370b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a9e9d8684e538547db81aec382701370b">getLineNumber</a> ()</td></tr>
+<tr class="separator:a9e9d8684e538547db81aec382701370b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7891530aec91db4edc21277693983ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#ac7891530aec91db4edc21277693983ec">getColumnNumber</a> ()</td></tr>
+<tr class="separator:ac7891530aec91db4edc21277693983ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a64328fdd4bc82441a981ec1cdae9f2b1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a64328fdd4bc82441a981ec1cdae9f2b1">m_publicId</a></td></tr>
+<tr class="separator:a64328fdd4bc82441a981ec1cdae9f2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1ccbb7e9ee638afdacf521ac7d1866"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a0e1ccbb7e9ee638afdacf521ac7d1866">m_systemId</a></td></tr>
+<tr class="separator:a0e1ccbb7e9ee638afdacf521ac7d1866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d2233614454cf6bd7bf7bbd6af4c20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a68d2233614454cf6bd7bf7bbd6af4c20">m_lineNumber</a></td></tr>
+<tr class="separator:a68d2233614454cf6bd7bf7bbd6af4c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217ba0ad446bba84116fe9483d3207fd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a217ba0ad446bba84116fe9483d3207fd">m_columnNumber</a></td></tr>
+<tr class="separator:a217ba0ad446bba84116fe9483d3207fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Throws if an RDF error is encountered while parsing RDF. </p>
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00056">56</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a6036104e58d5bd5be8f56b7989e7294e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.rdf.syntax.RDFParserException.RDFParserException </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00070">70</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                              {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">this</span>(message, null, null, -1, -1);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1d48d60bcf43de7bc6a80f88c2e061bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.rdf.syntax.RDFParserException.RDFParserException </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Locator&#160;</td>
+          <td class="paramname"><em>locator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00075">75</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                               {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">this</span>(message, locator.getPublicId(), locator.getSystemId(), locator.getLineNumber(), locator.getColumnNumber());</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7ec5629a38a4e8e28371248d7f5b438f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.rdf.syntax.RDFParserException.RDFParserException </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>publicId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>systemId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lineNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>columnNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00080">80</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                                                                                  {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        super((lineNumber != -1 || columnNumber != -1 ? <span class="stringliteral">&quot;[line=&quot;</span> + lineNumber + <span class="stringliteral">&quot;:&quot;</span> + <span class="stringliteral">&quot;column=&quot;</span> + columnNumber + <span class="stringliteral">&quot;] &quot;</span> : <span class="stringliteral">&quot;&quot;</span>) + message);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a64328fdd4bc82441a981ec1cdae9f2b1">m_publicId</a> = publicId;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a0e1ccbb7e9ee638afdacf521ac7d1866">m_systemId</a> = systemId;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a68d2233614454cf6bd7bf7bbd6af4c20">m_lineNumber</a> = lineNumber;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a217ba0ad446bba84116fe9483d3207fd">m_columnNumber</a> = columnNumber;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a0e1ccbb7e9ee638afdacf521ac7d1866"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a0e1ccbb7e9ee638afdacf521ac7d1866">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_systemId</a></div><div class="ttdeci">String m_systemId</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00063">RDFParserException.java:63</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a68d2233614454cf6bd7bf7bbd6af4c20"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a68d2233614454cf6bd7bf7bbd6af4c20">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_lineNumber</a></div><div class="ttdeci">int m_lineNumber</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00065">RDFParserException.java:65</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a217ba0ad446bba84116fe9483d3207fd"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a217ba0ad446bba84116fe9483d3207fd">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_columnNumber</a></div><div class="ttdeci">int m_columnNumber</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00067">RDFParserException.java:67</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a64328fdd4bc82441a981ec1cdae9f2b1"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a64328fdd4bc82441a981ec1cdae9f2b1">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_publicId</a></div><div class="ttdeci">String m_publicId</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00061">RDFParserException.java:61</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ac7891530aec91db4edc21277693983ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.rdf.syntax.RDFParserException.getColumnNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00104">104</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                 {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a217ba0ad446bba84116fe9483d3207fd">m_columnNumber</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a217ba0ad446bba84116fe9483d3207fd"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a217ba0ad446bba84116fe9483d3207fd">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_columnNumber</a></div><div class="ttdeci">int m_columnNumber</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00067">RDFParserException.java:67</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9e9d8684e538547db81aec382701370b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.rdf.syntax.RDFParserException.getLineNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00099">99</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                               {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a68d2233614454cf6bd7bf7bbd6af4c20">m_lineNumber</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a68d2233614454cf6bd7bf7bbd6af4c20"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a68d2233614454cf6bd7bf7bbd6af4c20">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_lineNumber</a></div><div class="ttdeci">int m_lineNumber</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00065">RDFParserException.java:65</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea8da8596e1751bd40a8e4bfcdf3c8db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.rdf.syntax.RDFParserException.getPublicId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00089">89</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a64328fdd4bc82441a981ec1cdae9f2b1">m_publicId</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a64328fdd4bc82441a981ec1cdae9f2b1"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a64328fdd4bc82441a981ec1cdae9f2b1">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_publicId</a></div><div class="ttdeci">String m_publicId</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00061">RDFParserException.java:61</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad0f55843b2cb2a5417871be233828df6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.rdf.syntax.RDFParserException.getSystemId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00094">94</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a0e1ccbb7e9ee638afdacf521ac7d1866">m_systemId</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception_html_a0e1ccbb7e9ee638afdacf521ac7d1866"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html#a0e1ccbb7e9ee638afdacf521ac7d1866">org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_systemId</a></div><div class="ttdeci">String m_systemId</div><div class="ttdef"><b>Definition:</b> <a href="_r_d_f_parser_exception_8java_source.html#l00063">RDFParserException.java:63</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a217ba0ad446bba84116fe9483d3207fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_columnNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00067">67</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68d2233614454cf6bd7bf7bbd6af4c20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_lineNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00065">65</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64328fdd4bc82441a981ec1cdae9f2b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_publicId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00061">61</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e1ccbb7e9ee638afdacf521ac7d1866"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.rdf.syntax.RDFParserException.m_systemId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_r_d_f_parser_exception_8java_source.html#l00063">63</a> del archivo <a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/semanticweb/owlapi/rdf/syntax/<a class="el" href="_r_d_f_parser_exception_8java_source.html">RDFParserException.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1rdf.html">rdf</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax.html">syntax</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser_exception.html">RDFParserException</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:31 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

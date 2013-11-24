@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_immutable_o_w_l_ontology_change_exception =
+[
+    [ "ImmutableOWLOntologyChangeException", "classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_immutable_o_w_l_ontology_change_exception.html#a3c227037a4119dd1a9cc37733cf430de", null ]
+];

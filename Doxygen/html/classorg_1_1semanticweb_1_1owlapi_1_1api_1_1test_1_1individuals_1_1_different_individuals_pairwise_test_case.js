@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1individuals_1_1_different_individuals_pairwise_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1individuals_1_1_different_individuals_pairwise_test_case.html#a2305f011d43a9d5f1a4833734e3c6ddf", null ]
+];

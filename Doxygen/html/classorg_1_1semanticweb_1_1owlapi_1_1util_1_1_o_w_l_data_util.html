@@ -1,0 +1,802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.OWLDataUtil</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.OWLDataUtil</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:abb80b5fb260a5baccc69285204840d2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#abb80b5fb260a5baccc69285204840d2a">getIntDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:abb80b5fb260a5baccc69285204840d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f3337e0b3bfa7d13d002c57ba9343c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a83f3337e0b3bfa7d13d002c57ba9343c">getLongDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:a83f3337e0b3bfa7d13d002c57ba9343c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8394f1e1ce567f87017d57189304dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a7a8394f1e1ce567f87017d57189304dd">getFloatDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:a7a8394f1e1ce567f87017d57189304dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36a72c79e2b7aee119c6591ad5c5db6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#ae36a72c79e2b7aee119c6591ad5c5db6">getDoubleDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:ae36a72c79e2b7aee119c6591ad5c5db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4a5419c1c1b7016d9e35bbb32a6505"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N n)</td></tr>
+<tr class="separator:aeb4a5419c1c1b7016d9e35bbb32a6505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6530d13ae331c23953134d8bb34502"><td class="memItemLeft" align="right" valign="top">static Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">getFacetRestrictionSet</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html">OWLFacet</a> facet, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> facetValue)</td></tr>
+<tr class="separator:a6d6530d13ae331c23953134d8bb34502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b3cd503d767a0b67aaa9a9879ff488"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N val)</td></tr>
+<tr class="separator:a73b3cd503d767a0b67aaa9a9879ff488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb57a96e3868875f9c75615f9218d0e"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aefb57a96e3868875f9c75615f9218d0e">getMinInclusiveRestrictedInt</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N minInclusive)</td></tr>
+<tr class="separator:aefb57a96e3868875f9c75615f9218d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f69eda4487dd853186468302a37fd8"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a63f69eda4487dd853186468302a37fd8">getMinExclusiveRestrictedInt</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N minExclusive)</td></tr>
+<tr class="separator:a63f69eda4487dd853186468302a37fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34bb707bfc97f873e3e44f7ce6c42590"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a34bb707bfc97f873e3e44f7ce6c42590">getMaxInclusiveRestrictedInteger</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N maxInclusive)</td></tr>
+<tr class="separator:a34bb707bfc97f873e3e44f7ce6c42590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa185039ed53934eec8b1c64955963a73"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aa185039ed53934eec8b1c64955963a73">getMaxExclusiveRestrictedInteger</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N maxExclusive)</td></tr>
+<tr class="separator:aa185039ed53934eec8b1c64955963a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9370b5c5f9946ea49336f6e9ffc9ce3b"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a9370b5c5f9946ea49336f6e9ffc9ce3b">getMinMaxInclusiveRestrictedInteger</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N minInclusive, N maxInclusive)</td></tr>
+<tr class="separator:a9370b5c5f9946ea49336f6e9ffc9ce3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52acb6e88795b77e8e94e57517003887"><td class="memItemLeft" align="right" valign="top">static&lt; NextendsNumber &gt;<br class="typebreak"/>
+ <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a52acb6e88795b77e8e94e57517003887">getMinMaxExclusiveRestrictedInteger</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, N minExclusive, N maxExclusive)</td></tr>
+<tr class="separator:a52acb6e88795b77e8e94e57517003887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 06-Jan-2007<br/>
+<br/>
+ </p>
+<p>A collection of utility methods for creating common data values and data ranges </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00067">67</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aeb4a5419c1c1b7016d9e35bbb32a6505"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.util.OWLDataUtil.getDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Given a <code>Number</code>, this method returns the datatype of that number. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">n</td><td>The <code>Number</code> whose datatype is to be obtained. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The datatype that corresponds to the type of number. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00123">123</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        XSDVocabulary v = numberTypeMap.get(n.getClass());</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">if</span> (v == null) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(<span class="stringliteral">&quot;Don&#39;t know how to translate &quot;</span> + n.getClass());</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatype(v.getIRI());</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae36a72c79e2b7aee119c6591ad5c5db6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.util.OWLDataUtil.getDoubleDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>factory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>double datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00112">112</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatype(XSDVocabulary.DOUBLE.getIRI());</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d6530d13ae331c23953134d8bb34502"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a>&gt; org.semanticweb.owlapi.util.OWLDataUtil.getFacetRestrictionSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html">OWLFacet</a>&#160;</td>
+          <td class="paramname"><em>facet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td>
+          <td class="paramname"><em>facetValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">facet</td><td>the facet to use </td></tr>
+    <tr><td class="paramname">facetValue</td><td>the value to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a collection of facet restrictions </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00137">137</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                                                                                     {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> Collections.singleton(dataFactory.getOWLFacetRestriction(facet, facetValue));</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7a8394f1e1ce567f87017d57189304dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.util.OWLDataUtil.getFloatDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>factory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>float datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00104">104</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatype(XSDVocabulary.FLOAT.getIRI());</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abb80b5fb260a5baccc69285204840d2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.util.OWLDataUtil.getIntDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>factory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>int datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00088">88</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatype(INT_URI);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a83f3337e0b3bfa7d13d002c57ba9343c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.util.OWLDataUtil.getLongDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>factory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>long datatype </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00096">96</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatype(XSDVocabulary.LONG.getIRI());</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa185039ed53934eec8b1c64955963a73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMaxExclusiveRestrictedInteger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>maxExclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">maxExclusive</td><td>the value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00182">182</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                                                                                                               {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, maxExclusive), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">getFacetRestrictionSet</a>(dataFactory, OWLFacet.MAX_EXCLUSIVE, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, maxExclusive)));</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a6d6530d13ae331c23953134d8bb34502"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">org.semanticweb.owlapi.util.OWLDataUtil.getFacetRestrictionSet</a></div><div class="ttdeci">static Set&lt; OWLFacetRestriction &gt; getFacetRestrictionSet(OWLDataFactory dataFactory, OWLFacet facet, OWLLiteral facetValue)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00137">OWLDataUtil.java:137</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34bb707bfc97f873e3e44f7ce6c42590"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMaxInclusiveRestrictedInteger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>maxInclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">maxInclusive</td><td>the value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00174">174</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                                                                                               {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, maxInclusive), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">getFacetRestrictionSet</a>(dataFactory, OWLFacet.MAX_INCLUSIVE, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, maxInclusive)));</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a6d6530d13ae331c23953134d8bb34502"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">org.semanticweb.owlapi.util.OWLDataUtil.getFacetRestrictionSet</a></div><div class="ttdeci">static Set&lt; OWLFacetRestriction &gt; getFacetRestrictionSet(OWLDataFactory dataFactory, OWLFacet facet, OWLLiteral facetValue)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00137">OWLDataUtil.java:137</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a63f69eda4487dd853186468302a37fd8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMinExclusiveRestrictedInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>minExclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">minExclusive</td><td>the value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00166">166</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                                                                                                                           {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, minExclusive), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">getFacetRestrictionSet</a>(dataFactory, OWLFacet.MIN_EXCLUSIVE, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, minExclusive)));</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a6d6530d13ae331c23953134d8bb34502"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">org.semanticweb.owlapi.util.OWLDataUtil.getFacetRestrictionSet</a></div><div class="ttdeci">static Set&lt; OWLFacetRestriction &gt; getFacetRestrictionSet(OWLDataFactory dataFactory, OWLFacet facet, OWLLiteral facetValue)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00137">OWLDataUtil.java:137</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aefb57a96e3868875f9c75615f9218d0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMinInclusiveRestrictedInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>minInclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">minInclusive</td><td>the value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00158">158</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                                                                                                           {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, minInclusive), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">getFacetRestrictionSet</a>(dataFactory, OWLFacet.MIN_INCLUSIVE, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, minInclusive)));</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a6d6530d13ae331c23953134d8bb34502"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a6d6530d13ae331c23953134d8bb34502">org.semanticweb.owlapi.util.OWLDataUtil.getFacetRestrictionSet</a></div><div class="ttdeci">static Set&lt; OWLFacetRestriction &gt; getFacetRestrictionSet(OWLDataFactory dataFactory, OWLFacet facet, OWLLiteral facetValue)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00137">OWLDataUtil.java:137</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a52acb6e88795b77e8e94e57517003887"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMinMaxExclusiveRestrictedInteger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>minExclusive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>maxExclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">minExclusive</td><td>the min value </td></tr>
+    <tr><td class="paramname">maxExclusive</td><td>the max value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00205">205</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                                                                                                                  {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        OWLDatatype dr = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, minExclusive);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        Set&lt;OWLFacetRestriction&gt; facetRestrictions = <span class="keyword">new</span> HashSet&lt;OWLFacetRestriction&gt;();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        facetRestrictions.add(dataFactory.getOWLFacetRestriction(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#a27c52fbbfdcc423521b725bc8a2dc949">OWLFacet.MIN_EXCLUSIVE</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, minExclusive)));</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        facetRestrictions.add(dataFactory.getOWLFacetRestriction(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#aeb6a9174b60549039a19540cae7d3525">OWLFacet.MAX_EXCLUSIVE</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, maxExclusive)));</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(dr, facetRestrictions);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet_html_aeb6a9174b60549039a19540cae7d3525"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#aeb6a9174b60549039a19540cae7d3525">org.semanticweb.owlapi.vocab.OWLFacet.MAX_EXCLUSIVE</a></div><div class="ttdeci">MAX_EXCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_facet_8java_source.html#l00075">OWLFacet.java:75</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet_html_a27c52fbbfdcc423521b725bc8a2dc949"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#a27c52fbbfdcc423521b725bc8a2dc949">org.semanticweb.owlapi.vocab.OWLFacet.MIN_EXCLUSIVE</a></div><div class="ttdeci">MIN_EXCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_facet_8java_source.html#l00071">OWLFacet.java:71</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9370b5c5f9946ea49336f6e9ffc9ce3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.OWLDataUtil.getMinMaxInclusiveRestrictedInteger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>minInclusive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>maxInclusive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">minInclusive</td><td>the min value </td></tr>
+    <tr><td class="paramname">maxInclusive</td><td>the max value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new data range </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00191">191</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                                                                                                                  {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        OWLDatatype dr = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, minInclusive);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        Set&lt;OWLFacetRestriction&gt; facetRestrictions = <span class="keyword">new</span> HashSet&lt;OWLFacetRestriction&gt;();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        facetRestrictions.add(dataFactory.getOWLFacetRestriction(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#a9b06a40dbc87570dc62c32877342388c">OWLFacet.MIN_INCLUSIVE</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, minInclusive)));</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        facetRestrictions.add(dataFactory.getOWLFacetRestriction(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#ac9a64ef90c0effd4c743c76c93dc7a6f">OWLFacet.MAX_INCLUSIVE</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">getTypedConstant</a>(dataFactory, maxInclusive)));</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDatatypeRestriction(dr, facetRestrictions);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet_html_ac9a64ef90c0effd4c743c76c93dc7a6f"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#ac9a64ef90c0effd4c743c76c93dc7a6f">org.semanticweb.owlapi.vocab.OWLFacet.MAX_INCLUSIVE</a></div><div class="ttdeci">MAX_INCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_facet_8java_source.html#l00073">OWLFacet.java:73</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_a73b3cd503d767a0b67aaa9a9879ff488"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#a73b3cd503d767a0b67aaa9a9879ff488">org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLLiteral getTypedConstant(OWLDataFactory dataFactory, N val)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00148">OWLDataUtil.java:148</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet_html_a9b06a40dbc87570dc62c32877342388c"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html#a9b06a40dbc87570dc62c32877342388c">org.semanticweb.owlapi.vocab.OWLFacet.MIN_INCLUSIVE</a></div><div class="ttdeci">MIN_INCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_facet_8java_source.html#l00069">OWLFacet.java:69</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a73b3cd503d767a0b67aaa9a9879ff488"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;NextendsNumber&gt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> org.semanticweb.owlapi.util.OWLDataUtil.getTypedConstant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Given a number, returns a typed constant that represent the number. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>the factory to use </td></tr>
+    <tr><td class="paramname">val</td><td>The number to be translated to a typed constant. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The typed constant, consisting of a string literal and datatype that corresponds to the translation of the specified number. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_util_8java_source.html#l00148">148</a> del archivo <a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                                                                                    {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLLiteral(val.toString(), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">getDatatype</a>(dataFactory, val));</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util_html_aeb4a5419c1c1b7016d9e35bbb32a6505"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html#aeb4a5419c1c1b7016d9e35bbb32a6505">org.semanticweb.owlapi.util.OWLDataUtil.getDatatype</a></div><div class="ttdeci">static&lt; NextendsNumber &gt; OWLDatatype getDatatype(OWLDataFactory dataFactory, N n)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_util_8java_source.html#l00123">OWLDataUtil.java:123</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_o_w_l_data_util_8java_source.html">OWLDataUtil.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_data_util.html">OWLDataUtil</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:37 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

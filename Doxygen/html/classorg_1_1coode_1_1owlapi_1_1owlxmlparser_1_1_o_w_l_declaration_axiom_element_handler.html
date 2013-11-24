@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html">org.coode.owlapi.owlxmlparser.AbstractOWLAxiomElementHandler</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:afa0d49f67854da2ae848ef311e58d53f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#afa0d49f67854da2ae848ef311e58d53f">OWLDeclarationAxiomElementHandler</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_handler.html">OWLXMLParserHandler</a> handler)</td></tr>
+<tr class="separator:afa0d49f67854da2ae848ef311e58d53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0dae2c492eccd2ddd3ef7fa692d550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a7a0dae2c492eccd2ddd3ef7fa692d550">startElement</a> (String name)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a7a0dae2c492eccd2ddd3ef7fa692d550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d642357d4b4c698e29973e06069cf23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a5d642357d4b4c698e29973e06069cf23">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_element_handler.html">AbstractClassExpressionElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a5d642357d4b4c698e29973e06069cf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af63da4fda9e18513547009778e32b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a0af63da4fda9e18513547009778e32b1">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_element_handler.html">AbstractOWLObjectPropertyElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a0af63da4fda9e18513547009778e32b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774c1328319a2ae404f0fec53a067476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a774c1328319a2ae404f0fec53a067476">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_element_handler.html">OWLDataPropertyElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a774c1328319a2ae404f0fec53a067476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd1beabf99cf1e43ec21aadea4a09f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a8fd1beabf99cf1e43ec21aadea4a09f1">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_data_range_handler.html">AbstractOWLDataRangeHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a8fd1beabf99cf1e43ec21aadea4a09f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09977dec3c35892f7311875fba742005"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a09977dec3c35892f7311875fba742005">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_property_element_handler.html">OWLAnnotationPropertyElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a09977dec3c35892f7311875fba742005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a5147cfa11671799827c3f63f8e749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a42a5147cfa11671799827c3f63f8e749">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_individual_element_handler.html">OWLIndividualElementHandler</a> handler)</td></tr>
+<tr class="separator:a42a5147cfa11671799827c3f63f8e749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7410cfa22247040f1b1c264ad43cd86f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a7410cfa22247040f1b1c264ad43cd86f">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_element_handler.html">OWLAnnotationElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a7410cfa22247040f1b1c264ad43cd86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2986e2182490e8d585ef0bf3be19f4e"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#ab2986e2182490e8d585ef0bf3be19f4e">getEntityAnnotations</a> ()</td></tr>
+<tr class="separator:ab2986e2182490e8d585ef0bf3be19f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html">org.coode.owlapi.owlxmlparser.AbstractOWLAxiomElementHandler</a></td></tr>
+<tr class="memitem:ae05b14c4dea6ec84033e26ebc9fe6647 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#ae05b14c4dea6ec84033e26ebc9fe6647">AbstractOWLAxiomElementHandler</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_handler.html">OWLXMLParserHandler</a> handler)</td></tr>
+<tr class="separator:ae05b14c4dea6ec84033e26ebc9fe6647 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9db0029e13954acb9278eea5d1cedb inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#a2a9db0029e13954acb9278eea5d1cedb">getOWLObject</a> ()</td></tr>
+<tr class="separator:a2a9db0029e13954acb9278eea5d1cedb inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b8ab4471c4ea5f2146c49b5cd3608e inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#a34b8ab4471c4ea5f2146c49b5cd3608e">setAxiom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom)</td></tr>
+<tr class="separator:a34b8ab4471c4ea5f2146c49b5cd3608e inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab523218a220e6f15211cc193171a77f8 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#ab523218a220e6f15211cc193171a77f8">startElement</a> (String name)  throws OWLXMLParserException </td></tr>
+<tr class="separator:ab523218a220e6f15211cc193171a77f8 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a849b666b93fd107fabb5d3c59ae549 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#a7a849b666b93fd107fabb5d3c59ae549">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_element_handler.html">OWLAnnotationElementHandler</a> handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a7a849b666b93fd107fabb5d3c59ae549 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff275ddff191fca184e1ef0439471e3 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#adff275ddff191fca184e1ef0439471e3">endElement</a> ()  throws OWLParserException, UnloadableImportException </td></tr>
+<tr class="separator:adff275ddff191fca184e1ef0439471e3 inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda2eda76e250c0ba94526d0372c606c inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#adda2eda76e250c0ba94526d0372c606c">getAnnotations</a> ()</td></tr>
+<tr class="separator:adda2eda76e250c0ba94526d0372c606c inherit pub_methods_classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a7a49578b56070c36f7cb1cfb245e0bb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html#a7a49578b56070c36f7cb1cfb245e0bb3">createAxiom</a> ()  throws OWLXMLParserException </td></tr>
+<tr class="separator:a7a49578b56070c36f7cb1cfb245e0bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 14-Dec-2006<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00058">58</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="afa0d49f67854da2ae848ef311e58d53f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.OWLDeclarationAxiomElementHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_handler.html">OWLXMLParserHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00064">64</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        super(handler);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a7a49578b56070c36f7cb1cfb245e0bb3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.createAxiom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#a9e13a21c220eff0a440dda96864b7c1e">org.coode.owlapi.owlxmlparser.AbstractOWLAxiomElementHandler</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00116">116</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> getOWLDataFactory().getOWLDeclarationAxiom(entity, <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#adda2eda76e250c0ba94526d0372c606c">getAnnotations</a>());</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler_html_adda2eda76e250c0ba94526d0372c606c"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html#adda2eda76e250c0ba94526d0372c606c">org.coode.owlapi.owlxmlparser.AbstractOWLAxiomElementHandler.getAnnotations</a></div><div class="ttdeci">Set&lt; OWLAnnotation &gt; getAnnotations()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_axiom_element_handler_8java_source.html#l00104">AbstractOWLAxiomElementHandler.java:104</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab2986e2182490e8d585ef0bf3be19f4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.getEntityAnnotations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00134">134</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                     {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">if</span> (entityAnnotations == null) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            <span class="keywordflow">return</span> entityAnnotations;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d642357d4b4c698e29973e06069cf23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_element_handler.html">AbstractClassExpressionElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00080">80</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                                                                        {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        entity = (OWLClass) handler.getOWLObject();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0af63da4fda9e18513547009778e32b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_element_handler.html">AbstractOWLObjectPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00086">86</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                                                                                          {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        entity = (OWLEntity) handler.getOWLObject();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a774c1328319a2ae404f0fec53a067476"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_element_handler.html">OWLDataPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00092">92</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        entity = (OWLEntity) handler.getOWLObject();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8fd1beabf99cf1e43ec21aadea4a09f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_data_range_handler.html">AbstractOWLDataRangeHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00098">98</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        entity = (OWLEntity) handler.getOWLObject();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a09977dec3c35892f7311875fba742005"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_property_element_handler.html">OWLAnnotationPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00104">104</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                                                                      {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        entity = handler.getOWLObject();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a42a5147cfa11671799827c3f63f8e749"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_individual_element_handler.html">OWLIndividualElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00110">110</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        entity = handler.getOWLObject();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7410cfa22247040f1b1c264ad43cd86f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_element_handler.html">OWLAnnotationElementHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00122">122</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">if</span> (entity == null) {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            super.handleChild(handler);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">if</span> (entityAnnotations == null) {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                entityAnnotations = <span class="keyword">new</span> HashSet&lt;OWLAnnotation&gt;();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            entityAnnotations.add(handler.getOWLObject());</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7a0dae2c492eccd2ddd3ef7fa692d550"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.OWLDeclarationAxiomElementHandler.startElement </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html#l00070">70</a> del archivo <a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        super.startElement(name);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        entity = null;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (entityAnnotations != null) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            entityAnnotations.clear();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/owlxmlparser/<a class="el" href="_o_w_l_declaration_axiom_element_handler_8java_source.html">OWLDeclarationAxiomElementHandler.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1owlxmlparser.html">owlxmlparser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_declaration_axiom_element_handler.html">OWLDeclarationAxiomElementHandler</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:45 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

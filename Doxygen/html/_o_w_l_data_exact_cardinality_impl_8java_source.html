@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/OWLDataExactCardinalityImpl.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_o_w_l_data_exact_cardinality_impl_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">OWLDataExactCardinalityImpl.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_o_w_l_data_exact_cardinality_impl_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>uk.ac.manchester.cs.owl.owlapi;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.util.Arrays;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.util.HashSet;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type.html">org.semanticweb.owlapi.model.ClassExpressionType</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> org.semanticweb.owlapi.model.OWLClassExpressionVisitorEx;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">org.semanticweb.owlapi.model.OWLDataExactCardinality</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">org.semanticweb.owlapi.model.OWLDataPropertyExpression</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">org.semanticweb.owlapi.model.OWLDataRange</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">org.semanticweb.owlapi.model.OWLObjectVisitor</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">import</span> org.semanticweb.owlapi.model.OWLObjectVisitorEx;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">import</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">org.semanticweb.owlapi.vocab.OWL2Datatype</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html">   61</a></span>&#160;public class <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html">OWLDataExactCardinalityImpl</a> extends <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_cardinality_restriction_impl.html">OWLDataCardinalityRestrictionImpl</a></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        implements <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">long</span> serialVersionUID = 30406L;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#ac5d6d964674e005d6da162f7a9812662">   65</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#ac5d6d964674e005d6da162f7a9812662">OWLDataExactCardinalityImpl</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a> property,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordtype">int</span> cardinality, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> filler) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        super(property, cardinality, filler);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a028792b09d6e5643434f0d4fa97bfb79">   70</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a028792b09d6e5643434f0d4fa97bfb79">OWLDataExactCardinalityImpl</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a> property, <span class="keywordtype">int</span> cardinality) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        super(property, cardinality, <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html">OWL2DatatypeImpl</a></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                .getDatatype(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">OWL2Datatype</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a4c24cef892d78edf3441707250688e38">RDFS_LITERAL</a>));</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    @Override</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a63e309e786d2af5232cbafc0992d7550">   76</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type.html">ClassExpressionType</a> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a63e309e786d2af5232cbafc0992d7550">getClassExpressionType</a>() {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type.html#a139a470d0271be81e4d0a3917beb0a72">ClassExpressionType.DATA_EXACT_CARDINALITY</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    @Override</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a227ec9cdf2d8afcaf93c4ff8c329c27f">   81</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a227ec9cdf2d8afcaf93c4ff8c329c27f">equals</a>(Object obj) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> (super.equals(obj)) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">return</span> obj instanceof OWLDataExactCardinality;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    @Override</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a161c3fc886b4a3c4dc0e0b447a2e1b30">   89</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a161c3fc886b4a3c4dc0e0b447a2e1b30">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">OWLClassExpressionVisitor</a> visitor) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    @Override</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a0be18688da6a54c75993d97baaa6c59f">   94</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a0be18688da6a54c75993d97baaa6c59f">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    @Override</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    public &lt;O&gt; O accept(OWLClassExpressionVisitorEx&lt;O&gt; visitor) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    @Override</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    public &lt;O&gt; O accept(OWLObjectVisitorEx&lt;O&gt; visitor) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    @Override</div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a6fe5c6101f0f7290f82a9863c6be7cba">  109</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a6fe5c6101f0f7290f82a9863c6be7cba">asIntersectionOfMinMax</a>() {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_intersection_of_impl.html">OWLObjectIntersectionOfImpl</a>(<span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;(</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                Arrays.asList(<span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_min_cardinality_impl.html">OWLDataMinCardinalityImpl</a>(getProperty(),</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                        getCardinality(), getFiller()), <span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_max_cardinality_impl.html">OWLDataMaxCardinalityImpl</a>(</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                        getProperty(), getCardinality(), getFiller()))));</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type_html_a139a470d0271be81e4d0a3917beb0a72"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type.html#a139a470d0271be81e4d0a3917beb0a72">org.semanticweb.owlapi.model.ClassExpressionType.DATA_EXACT_CARDINALITY</a></div><div class="ttdeci">DATA_EXACT_CARDINALITY</div><div class="ttdef"><b>Definition:</b> <a href="_class_expression_type_8java_source.html#l00127">ClassExpressionType.java:127</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a028792b09d6e5643434f0d4fa97bfb79"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a028792b09d6e5643434f0d4fa97bfb79">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.OWLDataExactCardinalityImpl</a></div><div class="ttdeci">OWLDataExactCardinalityImpl(OWLDataPropertyExpression property, int cardinality)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00070">OWLDataExactCardinalityImpl.java:70</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">org.semanticweb.owlapi.vocab.OWL2Datatype</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_8java_source.html#l00065">OWL2Datatype.java:65</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a63e309e786d2af5232cbafc0992d7550"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a63e309e786d2af5232cbafc0992d7550">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.getClassExpressionType</a></div><div class="ttdeci">ClassExpressionType getClassExpressionType()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00076">OWLDataExactCardinalityImpl.java:76</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">org.semanticweb.owlapi.model.OWLObjectVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_visitor_8java_source.html#l00048">OWLObjectVisitor.java:48</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_visitor.html">org.semanticweb.owlapi.model.OWLClassExpressionVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_expression_visitor_8java_source.html#l00052">OWLClassExpressionVisitor.java:52</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">org.semanticweb.owlapi.model.OWLDataExactCardinality</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_8java_source.html#l00050">OWLDataExactCardinality.java:50</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a161c3fc886b4a3c4dc0e0b447a2e1b30"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a161c3fc886b4a3c4dc0e0b447a2e1b30">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.accept</a></div><div class="ttdeci">void accept(OWLClassExpressionVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00089">OWLDataExactCardinalityImpl.java:89</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_class_expression_type.html">org.semanticweb.owlapi.model.ClassExpressionType</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_expression_type_8java_source.html#l00050">ClassExpressionType.java:50</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_cardinality_restriction_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_cardinality_restriction_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataCardinalityRestrictionImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_cardinality_restriction_impl_8java_source.html#l00054">OWLDataCardinalityRestrictionImpl.java:54</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a227ec9cdf2d8afcaf93c4ff8c329c27f"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a227ec9cdf2d8afcaf93c4ff8c329c27f">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.equals</a></div><div class="ttdeci">boolean equals(Object obj)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00081">OWLDataExactCardinalityImpl.java:81</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_impl_8java_source.html#l00043">OWL2DatatypeImpl.java:43</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">org.semanticweb.owlapi.model.OWLClassExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_expression_8java_source.html#l00050">OWLClassExpression.java:50</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_intersection_of_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_intersection_of_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectIntersectionOfImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_intersection_of_impl_8java_source.html#l00060">OWLObjectIntersectionOfImpl.java:60</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_max_cardinality_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_max_cardinality_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataMaxCardinalityImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_max_cardinality_impl_8java_source.html#l00056">OWLDataMaxCardinalityImpl.java:56</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00061">OWLDataExactCardinalityImpl.java:61</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a0be18688da6a54c75993d97baaa6c59f"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a0be18688da6a54c75993d97baaa6c59f">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.accept</a></div><div class="ttdeci">void accept(OWLObjectVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00094">OWLDataExactCardinalityImpl.java:94</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_a6fe5c6101f0f7290f82a9863c6be7cba"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#a6fe5c6101f0f7290f82a9863c6be7cba">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.asIntersectionOfMinMax</a></div><div class="ttdeci">OWLClassExpression asIntersectionOfMinMax()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00109">OWLDataExactCardinalityImpl.java:109</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_html_a4c24cef892d78edf3441707250688e38"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a4c24cef892d78edf3441707250688e38">org.semanticweb.owlapi.vocab.OWL2Datatype.RDFS_LITERAL</a></div><div class="ttdeci">RDFS_LITERAL</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_8java_source.html#l00069">OWL2Datatype.java:69</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">org.semanticweb.owlapi.model.OWLDataPropertyExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_property_expression_8java_source.html#l00050">OWLDataPropertyExpression.java:50</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">org.semanticweb.owlapi.model.OWLDataRange</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_range_8java_source.html#l00054">OWLDataRange.java:54</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl_html_ac5d6d964674e005d6da162f7a9812662"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_exact_cardinality_impl.html#ac5d6d964674e005d6da162f7a9812662">uk.ac.manchester.cs.owl.owlapi.OWLDataExactCardinalityImpl.OWLDataExactCardinalityImpl</a></div><div class="ttdeci">OWLDataExactCardinalityImpl(OWLDataPropertyExpression property, int cardinality, OWLDataRange filler)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_exact_cardinality_impl_8java_source.html#l00065">OWLDataExactCardinalityImpl.java:65</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_min_cardinality_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_min_cardinality_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataMinCardinalityImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_min_cardinality_impl_8java_source.html#l00059">OWLDataMinCardinalityImpl.java:59</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_fe06972e53893249adce5a50c45e9385.html">impl</a></li><li class="navelem"><a class="el" href="dir_c6eb02339f806213e449bd6ef7ee62bd.html">src</a></li><li class="navelem"><a class="el" href="dir_e550e5d0c5e9a3f64ced681c28c3d9b0.html">main</a></li><li class="navelem"><a class="el" href="dir_f2e8636e8c794cd95c62b3e5af8eb33e.html">java</a></li><li class="navelem"><a class="el" href="dir_411d46e3267db57a0cb7f59e5534340a.html">uk</a></li><li class="navelem"><a class="el" href="dir_3a76dd32692370cb86165c8ecf06a999.html">ac</a></li><li class="navelem"><a class="el" href="dir_fd4eb43d312932cda44dd9ee2930bbcb.html">manchester</a></li><li class="navelem"><a class="el" href="dir_40b955eba8882822a7fa1df37e858268.html">cs</a></li><li class="navelem"><a class="el" href="dir_690d9383a1a8030e066e5bfc02f7aa28.html">owl</a></li><li class="navelem"><a class="el" href="dir_666826560a20f3d0acb3b1ca52a61d1f.html">owlapi</a></li><li class="navelem"><a class="el" href="_o_w_l_data_exact_cardinality_impl_8java.html">OWLDataExactCardinalityImpl.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:07 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

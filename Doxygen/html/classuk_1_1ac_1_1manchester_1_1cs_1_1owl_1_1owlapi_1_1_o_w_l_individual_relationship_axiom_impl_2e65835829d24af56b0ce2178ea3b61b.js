@@ -1,0 +1,9 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b =
+[
+    [ "OWLIndividualRelationshipAxiomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#afa7cb43c4b6aac1970d3adb8efe96063", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#ab9a200426afff729c2415d2228e06e5d", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#a9600155b2be40e7001430db3bffaf3b3", null ],
+    [ "getObject", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#afb1a6ee1fd7bd4f9b367bc8cacb89d62", null ],
+    [ "getProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#af57d9211f1b5287ecbe6741d81ceb505", null ],
+    [ "getSubject", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_individual_relationship_axiom_impl_2e65835829d24af56b0ce2178ea3b61b.html#af547fab9d0029958b209f44daa1584fc", null ]
+];

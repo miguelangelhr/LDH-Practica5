@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_datatype_declaration_with_annotations_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_datatype_declaration_with_annotations_test_case.html#a4c0bbeee66c18185943a032e3dba8c70", null ],
+    [ "isIgnoreDeclarationAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_datatype_declaration_with_annotations_test_case.html#acd7099eb474c9949c645a1b986af1bed", null ],
+    [ "testManchesterOWLSyntax", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_datatype_declaration_with_annotations_test_case.html#a43b499ebe61d88115d9d12eb8e0efa8c", null ]
+];

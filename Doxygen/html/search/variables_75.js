@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['u',['U',['../enumorg_1_1semanticweb_1_1owlapi_1_1util_1_1_d_l_expressivity_checker_1_1_construct.html#ae76be3f53d4ae7c05762de2a1dd5e01b',1,'org::semanticweb::owlapi::util::DLExpressivityChecker::Construct']]],
+  ['unary_5fminus',['UNARY_MINUS',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_built_ins_vocabulary.html#a1a8b35c60f8c6fed3c16a3599235e37f',1,'org::semanticweb::owlapi::vocab::SWRLBuiltInsVocabulary']]],
+  ['unary_5fplus',['UNARY_PLUS',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_built_ins_vocabulary.html#af1edd19c5fde510f5e8c22124898dc27',1,'org::semanticweb::owlapi::vocab::SWRLBuiltInsVocabulary']]],
+  ['union_5fof',['UNION_OF',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_x_m_l_vocabulary.html#a9e813d334c3796854cce374a694f6426',1,'org.semanticweb.owlapi.vocab.OWLXMLVocabulary.UNION_OF()'],['../enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_vocabulary.html#a8c2c809c15fb9c9f24a39068dde08053',1,'org.coode.owlapi.obo.parser.OBOVocabulary.UNION_OF()']]],
+  ['universal',['UNIVERSAL',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_1_1_category.html#ace75c06d32c80b721b09d6835a1a3432',1,'org::semanticweb::owlapi::vocab::OWL2Datatype::Category']]],
+  ['unprefixed_5fid',['UNPREFIXED_ID',['../enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_id_type.html#aa706cd9c2210b7c5a3b5a8aa12f54c5f',1,'org::coode::owlapi::obo::parser::OBOIdType']]],
+  ['unsigned_5fbyte',['UNSIGNED_BYTE',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_x_s_d_vocabulary.html#acae2feba3d5635102e5e1ccc48282a97',1,'org::semanticweb::owlapi::vocab::XSDVocabulary']]],
+  ['unsigned_5fint',['UNSIGNED_INT',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_x_s_d_vocabulary.html#a3465ae6abe740f445eeca9641fc2e39e',1,'org::semanticweb::owlapi::vocab::XSDVocabulary']]],
+  ['unsigned_5flong',['UNSIGNED_LONG',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_x_s_d_vocabulary.html#a3c305317f4a55b4b8add2aa071d02116',1,'org::semanticweb::owlapi::vocab::XSDVocabulary']]],
+  ['unsigned_5fshort',['UNSIGNED_SHORT',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_x_s_d_vocabulary.html#ad91f31bb3cef710354db46511d0db8d5',1,'org::semanticweb::owlapi::vocab::XSDVocabulary']]],
+  ['upper_5fcase',['UPPER_CASE',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_built_ins_vocabulary.html#aad1adb546e78082d12fb2ca21f569981',1,'org::semanticweb::owlapi::vocab::SWRLBuiltInsVocabulary']]],
+  ['uri',['URI',['../enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_1_1_category.html#a0b2cea4b5db3cac9d91806ba73db9125',1,'org::semanticweb::owlapi::vocab::OWL2Datatype::Category']]],
+  ['uricache',['uriCache',['../classorg_1_1semanticweb_1_1owlapi_1_1rdf_1_1syntax_1_1_r_d_f_parser.html#a53ec39164fc596224b90ba1f59c3af67',1,'org::semanticweb::owlapi::rdf::syntax::RDFParser']]],
+  ['url_5fas_5fid',['URL_AS_ID',['../enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_id_type.html#aadc8930dd1024a4a5b90c1675bd93e47',1,'org::coode::owlapi::obo::parser::OBOIdType']]],
+  ['use_5fintermediate_5foutput_5ffile',['USE_INTERMEDIATE_OUTPUT_FILE',['../classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html#a8fb685783a685bc36f7f966b066d2c77',1,'org::semanticweb::owlapi::model::OWLOntologyFormat']]],
+  ['use_5fterm',['USE_TERM',['../enumorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_vocabulary.html#ab248c355944ddc7bec4b859fff66d713',1,'org::coode::owlapi::obo::parser::OBOVocabulary']]]
+];

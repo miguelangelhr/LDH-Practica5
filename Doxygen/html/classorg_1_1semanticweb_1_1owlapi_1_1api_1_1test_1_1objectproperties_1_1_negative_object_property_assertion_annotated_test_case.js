@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_negative_object_property_assertion_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_negative_object_property_assertion_annotated_test_case.html#a655e62067cbe92f4803466b7d4a5afb5", null ]
+];

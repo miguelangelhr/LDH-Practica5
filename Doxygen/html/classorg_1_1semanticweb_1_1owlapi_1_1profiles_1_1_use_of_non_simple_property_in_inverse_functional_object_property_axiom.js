@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom =
+[
+    [ "UseOfNonSimplePropertyInInverseFunctionalObjectPropertyAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom.html#a7df2dd55d6da01ff427822a5e8cd1d95", null ],
+    [ "accept", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom.html#a40a16878f2e61c275ab5d8037691d4e1", null ],
+    [ "toString", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom.html#a8885e93305f92e5ddcdcd93d7ba9a73e", null ]
+];

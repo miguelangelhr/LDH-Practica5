@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_broadcast_strategy =
+[
+    [ "broadcastChanges", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_broadcast_strategy.html#aff0af05060687595e75516babad11ad3", null ]
+];

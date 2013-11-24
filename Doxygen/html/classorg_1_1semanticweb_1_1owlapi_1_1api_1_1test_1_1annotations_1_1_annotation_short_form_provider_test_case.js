@@ -1,0 +1,7 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_short_form_provider_test_case =
+[
+    [ "shouldWrapWithDoubleQuotes", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_short_form_provider_test_case.html#a179b532d0382a55b00e073a5b0167d95", null ],
+    [ "testIRIValue", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_short_form_provider_test_case.html#ae84eaba364b248e9817219ccb1064667", null ],
+    [ "testLiteralWithLanguageValue", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_short_form_provider_test_case.html#a69c18d143490d84c2cc65d9d113f99ef", null ],
+    [ "testLiteralWithoutLanguageValue", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_short_form_provider_test_case.html#a29c0659c4c6791cfe9a518c9b340876c", null ]
+];

@@ -1,0 +1,702 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.SWRLDataFactory</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.SWRLDataFactory</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">org.semanticweb.owlapi.model.OWLDataFactory</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8c72eb847e46d0780ea26c0bd867121c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a8c72eb847e46d0780ea26c0bd867121c">getSWRLRule</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; body, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; head)</td></tr>
+<tr class="separator:a8c72eb847e46d0780ea26c0bd867121c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae0d09799691b6737557b69a4dc2c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a3ae0d09799691b6737557b69a4dc2c5a">getSWRLRule</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_node_i_d.html">NodeID</a> nodeID, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; body, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; head)</td></tr>
+<tr class="separator:a3ae0d09799691b6737557b69a4dc2c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c055768c436815c020c22bbc7975ec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a2c055768c436815c020c22bbc7975ec3">getSWRLRule</a> (Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; body, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; head)</td></tr>
+<tr class="separator:a2c055768c436815c020c22bbc7975ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3ee005f42b8fdba7ab7cc82b88517e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a7b3ee005f42b8fdba7ab7cc82b88517e">getSWRLRule</a> (Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; body, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt; head, Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt; annotations)</td></tr>
+<tr class="separator:a7b3ee005f42b8fdba7ab7cc82b88517e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a09ba20470f4ff5dff3712b99d7e40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a03a09ba20470f4ff5dff3712b99d7e40">getSWRLClassAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> predicate, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg)</td></tr>
+<tr class="separator:a03a09ba20470f4ff5dff3712b99d7e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655eefc50a60dbcb01a3abe2e07b1387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a655eefc50a60dbcb01a3abe2e07b1387">getSWRLDataRangeAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> predicate, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a> arg)</td></tr>
+<tr class="separator:a655eefc50a60dbcb01a3abe2e07b1387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0bcbbee5e3982ecafc3d5344ab327d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#aa0bcbbee5e3982ecafc3d5344ab327d9">getSWRLObjectPropertyAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> property, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg0, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg1)</td></tr>
+<tr class="separator:aa0bcbbee5e3982ecafc3d5344ab327d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad382834d4a38364b65ac8252bdb32167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#ad382834d4a38364b65ac8252bdb32167">getSWRLDataPropertyAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a> property, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg0, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a> arg1)</td></tr>
+<tr class="separator:ad382834d4a38364b65ac8252bdb32167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae02b6a4f955de5cc5200f5ed14339e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#aae02b6a4f955de5cc5200f5ed14339e4">getSWRLBuiltInAtom</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> builtInIRI, List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a> &gt; args)</td></tr>
+<tr class="separator:aae02b6a4f955de5cc5200f5ed14339e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0c35b339291804b2d979285e58d10b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#acf0c35b339291804b2d979285e58d10b">getSWRLVariable</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> var)</td></tr>
+<tr class="separator:acf0c35b339291804b2d979285e58d10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ca82d1ad2d0a09cba7f26c14c15078"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#ae0ca82d1ad2d0a09cba7f26c14c15078">getSWRLIndividualArgument</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> individual)</td></tr>
+<tr class="separator:ae0ca82d1ad2d0a09cba7f26c14c15078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8857622fef8d45281c009cf12988cd4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a8857622fef8d45281c009cf12988cd4d">getSWRLLiteralArgument</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> literal)</td></tr>
+<tr class="separator:a8857622fef8d45281c009cf12988cd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551e0b3505785584471e7d419f05c3a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#a551e0b3505785584471e7d419f05c3a5">getSWRLSameIndividualAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg0, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg1)</td></tr>
+<tr class="separator:a551e0b3505785584471e7d419f05c3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaea90ea187f94b46cf4fe8ab5f52643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html#adaea90ea187f94b46cf4fe8ab5f52643">getSWRLDifferentIndividualsAtom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg0, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a> arg1)</td></tr>
+<tr class="separator:adaea90ea187f94b46cf4fe8ab5f52643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Medical Informatics Group<br/>
+ Date: Jan 15, 2007<br/>
+<br/>
+ </p>
+<p><a href="#" onclick="location.href='mai'+'lto:'+'mat'+'th'+'ew.'+'ho'+'rri'+'dg'+'e@c'+'s.'+'man'+'.a'+'c.u'+'k'; return false;">matth<span style="display: none;">.nosp@m.</span>ew.h<span style="display: none;">.nosp@m.</span>orrid<span style="display: none;">.nosp@m.</span>ge@c<span style="display: none;">.nosp@m.</span>s.man<span style="display: none;">.nosp@m.</span>.ac.<span style="display: none;">.nosp@m.</span>uk</a><br/>
+ www.cs.man.ac.uk/~horridgm<br/>
+<br/>
+</p>
+<p>An interface to a factory that can create SWRL objects </p>
+
+<p>Definición en la línea <a class="el" href="_s_w_r_l_data_factory_8java_source.html#l00057">57</a> del archivo <a class="el" href="_s_w_r_l_data_factory_8java_source.html">SWRLDataFactory.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aae02b6a4f955de5cc5200f5ed14339e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLBuiltInAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>builtInIRI</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a> &gt;&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a SWRL Built-In atom. Builtins have predicates that are identified by IRIs. SWRL provides a core set of builtins, which are described in the OWL API by the <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_built_ins_vocabulary.html">org.semanticweb.owlapi.vocab.SWRLBuiltInsVocabulary</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">builtInIRI</td><td>The builtin predicate <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> </td></tr>
+    <tr><td class="paramname">args</td><td>A non-empty set of SWRL Arguments. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IllegalArgumentException</td><td>if the list of arguments is empty </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_built_in_atom.html">SWRLBuiltInAtom</a> whose predicate is identified by the specified builtInIRI and that has the specified arguments </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#aabeee4795f68ef60989984bf23f0a132">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a03a09ba20470f4ff5dff3712b99d7e40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_class_atom.html">SWRLClassAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLClassAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td>
+          <td class="paramname"><em>predicate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a SWRL atom where the predicate is a class expression i.e. C(x) where C is a class expression and x is either an individual or a variable for an individual</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">predicate</td><td>The class expression that represents the predicate of the atom </td></tr>
+    <tr><td class="paramname">arg</td><td>The argument (x) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The class atom with the specified class expression predicate and the specified argument. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a30056012435c15e4c2b06bfb366ba8d4">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad382834d4a38364b65ac8252bdb32167"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLDataPropertyAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a>&#160;</td>
+          <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a SWRL data property atom, i.e. R(x, y) where R is an OWL data property (expression) and x and y are are either literals or variables for literals </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">property</td><td>The property (P) that represents the atom predicate </td></tr>
+    <tr><td class="paramname">arg0</td><td>The first argument (x) </td></tr>
+    <tr><td class="paramname">arg1</td><td>The second argument (y) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_property_atom.html">SWRLDataPropertyAtom</a> that has the specified predicate and the specified arguments </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a1d7bdba51ebe805b3b9d4bf06d869d78">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a655eefc50a60dbcb01a3abe2e07b1387"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_range_atom.html">SWRLDataRangeAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLDataRangeAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td>
+          <td class="paramname"><em>predicate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_d_argument.html">SWRLDArgument</a>&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a SWRL atom where the predicate is a data range, i.e. D(x) where D is an OWL data range and x is either a literal or variable for a literal</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">predicate</td><td>The data range that represents the predicate of the atom </td></tr>
+    <tr><td class="paramname">arg</td><td>The argument (x) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An atom with the specified data range predicate and the specified argument </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a06c4e9b9510c079598ccdb40f7d963f4">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adaea90ea187f94b46cf4fe8ab5f52643"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_different_individuals_atom.html">SWRLDifferentIndividualsAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLDifferentIndividualsAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg0</td><td>first individual </td></tr>
+    <tr><td class="paramname">arg1</td><td>second individual </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a differentindividual atom </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#afb258db9dda585afb27ed2c2ef94bd3e">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0ca82d1ad2d0a09cba7f26c14c15078"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLIndividualArgument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a>, which is used to wrap and <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> as an argument for an atom </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">individual</td><td>The individual that is the object argument </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_individual_argument.html">SWRLIndividualArgument</a> that wraps the specified individual </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a6ef7f1bfd55a2b2125e91754385e3fd1">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8857622fef8d45281c009cf12988cd4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLLiteralArgument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td>
+          <td class="paramname"><em>literal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a>, which is used to wrap an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> to provide an argument for an atom </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">literal</td><td>The constant that is the object argument </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_literal_argument.html">SWRLLiteralArgument</a> that wraps the specified literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a982f77b79a62649cf3c03fe470db750d">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0bcbbee5e3982ecafc3d5344ab327d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLObjectPropertyAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a SWRL object property atom, i.e. P(x, y) where P is an OWL object property (expression) and x and y are are either individuals or variables for individuals. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">property</td><td>The property (P) representing the atom predicate </td></tr>
+    <tr><td class="paramname">arg0</td><td>The first argument (x) </td></tr>
+    <tr><td class="paramname">arg1</td><td>The second argument (y) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_object_property_atom.html">SWRLObjectPropertyAtom</a> that has the specified predicate and the specified arguments </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#ac4818d6750457ce5b21e7f603674a12f">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c72eb847e46d0780ea26c0bd867121c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLRule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>head</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000022">Obsoleto:</a></b></dt><dd>Use either <a class="el" href="">getSWRLRule(java.util.Set, java.util.Set, java.util.Set)</a> or <a class="el" href="">getSWRLRule(java.util.Set, java.util.Set)</a> instead. </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>The iri of the rule - NOTE THAT THIS PARAMETER WILL BE IGNORED </td></tr>
+    <tr><td class="paramname">body</td><td>The atoms that make up the body of the rule </td></tr>
+    <tr><td class="paramname">head</td><td>The atoms that make up the head of the rule </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A rule with the specified body and head </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#aabd296864fd7ff30d4425c1039f25e6c">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ae0d09799691b6737557b69a4dc2c5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLRule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_node_i_d.html">NodeID</a>&#160;</td>
+          <td class="paramname"><em>nodeID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>head</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000023">Obsoleto:</a></b></dt><dd>Use either <a class="el" href="">getSWRLRule(java.util.Set, java.util.Set, java.util.Set)</a> or <a class="el" href="">getSWRLRule(java.util.Set, java.util.Set)</a> instead. </dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nodeID</td><td>The node ID - NOTE THAT THIS PARAMETER WILL BE IGNORED </td></tr>
+    <tr><td class="paramname">body</td><td>The atoms that make up the body of the rule </td></tr>
+    <tr><td class="paramname">head</td><td>The atoms that make up the head of the rule </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A rule with the specified body and heat </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a226db4b6ceba4b5367fcbc138e9a37a4">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c055768c436815c020c22bbc7975ec3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLRule </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>head</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an anonymous SWRL Rule </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">body</td><td>The atoms that make up the body </td></tr>
+    <tr><td class="paramname">head</td><td>The atoms that make up the head </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An anonymous rule with the specified body and head </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#ab674cccabf932cc23d7aaea8690ed832">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b3ee005f42b8fdba7ab7cc82b88517e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLRule </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_atom.html">SWRLAtom</a> &gt;&#160;</td>
+          <td class="paramname"><em>head</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotations</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an anonymous SWRL Rule </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">body</td><td>The atoms that make up the body </td></tr>
+    <tr><td class="paramname">head</td><td>The atoms that make up the head </td></tr>
+    <tr><td class="paramname">annotations</td><td>The annotations for the rule (may be an empty set) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An anonymous rule with the specified body and head </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#ab43cef10de253252a8a882926330d6a9">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a551e0b3505785584471e7d419f05c3a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_same_individual_atom.html">SWRLSameIndividualAtom</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLSameIndividualAtom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_i_argument.html">SWRLIArgument</a>&#160;</td>
+          <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg0</td><td>first individual </td></tr>
+    <tr><td class="paramname">arg1</td><td>second individual </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a sameindividual atom </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#a0a154b8d6964d6c50f4c2c9d01d0dd73">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf0c35b339291804b2d979285e58d10b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a> org.semanticweb.owlapi.model.SWRLDataFactory.getSWRLVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a>. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">var</td><td>The id (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>) of the variable </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_variable.html">SWRLVariable</a> that has the name specified by the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html#aba27ae3e24e58664f3c9f1e9ece9d476">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_s_w_r_l_data_factory_8java_source.html">SWRLDataFactory.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_data_factory.html">SWRLDataFactory</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:27 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

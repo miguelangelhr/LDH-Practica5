@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.owlxml.renderer.OWLXMLWriter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.owlxml.renderer.OWLXMLWriter</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a43e210ffe61b38f6c61e16d77ae3e8c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a43e210ffe61b38f6c61e16d77ae3e8c9">OWLXMLWriter</a> (Writer writer, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a43e210ffe61b38f6c61e16d77ae3e8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef4855a380a51cc833a92ea0990fd31"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a5ef4855a380a51cc833a92ea0990fd31">getIRIPrefixMap</a> ()</td></tr>
+<tr class="separator:a5ef4855a380a51cc833a92ea0990fd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd173035a275529e67470596585cf9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html">XMLWriterNamespaceManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#acdd173035a275529e67470596585cf9d">getNamespaceManager</a> ()</td></tr>
+<tr class="separator:acdd173035a275529e67470596585cf9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa981f38fd3c37c0c31af078b876fad1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#aa981f38fd3c37c0c31af078b876fad1f">writePrefix</a> (String prefixName, String iri)  throws IOException </td></tr>
+<tr class="separator:aa981f38fd3c37c0c31af078b876fad1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ecfc43c218604d5aec1d66c1bcfb32"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#af2ecfc43c218604d5aec1d66c1bcfb32">getIRIString</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:af2ecfc43c218604d5aec1d66c1bcfb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8957db3400a3cd90a5c89da2bc4471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#ae8957db3400a3cd90a5c89da2bc4471b">startDocument</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)  throws OWLRendererException </td></tr>
+<tr class="separator:ae8957db3400a3cd90a5c89da2bc4471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fa8ed94a9c0709318ba48ded487666"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a61fa8ed94a9c0709318ba48ded487666">endDocument</a> ()</td></tr>
+<tr class="separator:a61fa8ed94a9c0709318ba48ded487666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d64929aa89c04146b4fc9462c7c1b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a8d64929aa89c04146b4fc9462c7c1b62">writeStartElement</a> (<a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_x_m_l_vocabulary.html">OWLXMLVocabulary</a> name)</td></tr>
+<tr class="separator:a8d64929aa89c04146b4fc9462c7c1b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496a06a526c9387df3fb1e8cb4d56584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a496a06a526c9387df3fb1e8cb4d56584">writeEndElement</a> ()</td></tr>
+<tr class="separator:a496a06a526c9387df3fb1e8cb4d56584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d6d2215520d62adf7685d22fd8d431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#ac6d6d2215520d62adf7685d22fd8d431">writeDatatypeAttribute</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatype)</td></tr>
+<tr class="separator:ac6d6d2215520d62adf7685d22fd8d431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd6ef5398df880f0ce448a7795e7a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#acdd6ef5398df880f0ce448a7795e7a24">writeNodeIDAttribute</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_node_i_d.html">NodeID</a> nodeID)</td></tr>
+<tr class="separator:acdd6ef5398df880f0ce448a7795e7a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200a852526a3ffda010ffc1857264a41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a200a852526a3ffda010ffc1857264a41">writeIRIAttribute</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a200a852526a3ffda010ffc1857264a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e67bdf6bdfc93aee451837d1d2181a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a6e67bdf6bdfc93aee451837d1d2181a1">writeIRIElement</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a6e67bdf6bdfc93aee451837d1d2181a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13e8230714732558e9fbec89f50f149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#aa13e8230714732558e9fbec89f50f149">writeLangAttribute</a> (String lang)</td></tr>
+<tr class="separator:aa13e8230714732558e9fbec89f50f149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99704958c6763c71d3c17ba7ba5f5077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a99704958c6763c71d3c17ba7ba5f5077">writeCardinalityAttribute</a> (int cardinality)</td></tr>
+<tr class="separator:a99704958c6763c71d3c17ba7ba5f5077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ee37c4ef0eebfd68c8d021b4a95de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a53ee37c4ef0eebfd68c8d021b4a95de2">writeTextContent</a> (String text)</td></tr>
+<tr class="separator:a53ee37c4ef0eebfd68c8d021b4a95de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa862fa25d4218ade2cc2195d45d484a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#aa862fa25d4218ade2cc2195d45d484a2">writeFacetAttribute</a> (<a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html">OWLFacet</a> facet)</td></tr>
+<tr class="separator:aa862fa25d4218ade2cc2195d45d484a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5341e1086dd98c75eac459f68400a10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#ae5341e1086dd98c75eac459f68400a10">writeAnnotationURIAttribute</a> (URI uri)</td></tr>
+<tr class="separator:ae5341e1086dd98c75eac459f68400a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 12-Dec-2006<br/>
+<br/>
+ Writes OWL/XML. In an OWL/XML documents written by this writer, the base is always the ontology URI, and the default namespace is always the OWL namespace (<a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a>). Unlike RDF/XML, entity URIs aren't abbreviated using the XML namespace mechanism, instead they are encoded using 'prefix' elements. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00076">76</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a43e210ffe61b38f6c61e16d77ae3e8c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.OWLXMLWriter </td>
+          <td>(</td>
+          <td class="paramtype">Writer&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00101">101</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                             {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        XMLWriterNamespaceManager nsm = <span class="keyword">new</span> XMLWriterNamespaceManager(Namespaces.OWL.toString());</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        nsm.setPrefix(<span class="stringliteral">&quot;xsd&quot;</span>, Namespaces.XSD.toString());</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        nsm.setPrefix(<span class="stringliteral">&quot;rdf&quot;</span>, Namespaces.RDF.toString());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        nsm.setPrefix(<span class="stringliteral">&quot;rdfs&quot;</span>, Namespaces.RDFS.toString());</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        nsm.setPrefix(<span class="stringliteral">&quot;xml&quot;</span>, Namespaces.XML.toString());</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        String base = Namespaces.OWL.toString();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span> (ontology != null &amp;&amp; !ontology.isAnonymous()) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            base = ontology.getOntologyID().getOntologyIRI().toString();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        this.writer = XMLWriterFactory.getInstance().createXMLWriter(writer, nsm, base);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a61fa8ed94a9c0709318ba48ded487666"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.endDocument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00175">175</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                              {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            writer.endDocument();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            writer.writeComment(VersionInfo.getVersionInfo().getGeneratedByMessage());</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ef4855a380a51cc833a92ea0990fd31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; org.coode.owlapi.owlxml.renderer.OWLXMLWriter.getIRIPrefixMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00114">114</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                 {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> iriPrefixMap;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af2ecfc43c218604d5aec1d66c1bcfb32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.owlxml.renderer.OWLXMLWriter.getIRIString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an IRI attribute value for a full IRI. If the IRI has a prefix that coincides with a written prefix then the compact IRI will be returned, otherwise the full IRI will be returned. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>The IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Either the compact version of the IRI or the full IRI. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00147">147</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                        {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        String prefixName = iriPrefixMap.get(iri.getNamespace());</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">if</span> (prefixName == null) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">return</span> iri.toString();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;       <span class="keywordflow">if</span>(iri.getFragment()==null){</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;           <span class="keywordflow">return</span> prefixName;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;       }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> prefixName + iri.getFragment();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acdd173035a275529e67470596585cf9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html">XMLWriterNamespaceManager</a> org.coode.owlapi.owlxml.renderer.OWLXMLWriter.getNamespaceManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00118">118</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                           {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> writer.getNamespacePrefixes();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae8957db3400a3cd90a5c89da2bc4471b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.startDocument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_renderer_exception.html">OWLRendererException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00159">159</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            writer.startDocument(OWLXMLVocabulary.ONTOLOGY.toString());</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">if</span> (!ontology.isAnonymous()) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                writer.writeAttribute(Namespaces.OWL + <span class="stringliteral">&quot;ontologyIRI&quot;</span>, ontology.getOntologyID().getOntologyIRI().toString());</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="keywordflow">if</span> (ontology.getOntologyID().getVersionIRI() != null) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                    writer.writeAttribute(Namespaces.OWL + <span class="stringliteral">&quot;versionIRI&quot;</span>, ontology.getOntologyID().getVersionIRI().toString());</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRendererIOException(e);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae5341e1086dd98c75eac459f68400a10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeAnnotationURIAttribute </td>
+          <td>(</td>
+          <td class="paramtype">URI&#160;</td>
+          <td class="paramname"><em>uri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00325">325</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                                                     {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.ANNOTATION_URI.toString(), uri.toString());</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a99704958c6763c71d3c17ba7ba5f5077"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeCardinalityAttribute </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardinality</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00295">295</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                                                           {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.CARDINALITY_ATTRIBUTE.getIRI().toString(), Integer.toString(cardinality));</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        }</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac6d6d2215520d62adf7685d22fd8d431"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeDatatypeAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>datatype</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes a datatype attributed (used on Literal elements). The full datatype IRI is written out </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">datatype</td><td>The datatype </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00210">210</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                                                             {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.DATATYPE_IRI.getIRI().toString(), datatype.getIRI().toString());</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a496a06a526c9387df3fb1e8cb4d56584"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeEndElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00196">196</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                                  {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            writer.writeEndElement();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa862fa25d4218ade2cc2195d45d484a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeFacetAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_facet.html">OWLFacet</a>&#160;</td>
+          <td class="paramname"><em>facet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00315">315</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                                    {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.DATATYPE_FACET.getIRI().toString(), facet.getIRI().toString());</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a200a852526a3ffda010ffc1857264a41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeIRIAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00228">228</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                                           {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            String attName = OWLXMLVocabulary.IRI_ATTRIBUTE.getIRI().toString();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            String value = iri.toString();</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (value.startsWith(writer.<a class="code" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">getXMLBase</a>())) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                writer.writeAttribute(attName, value.substring(writer.getXMLBase().length(), value.length()));</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                String val = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#af2ecfc43c218604d5aec1d66c1bcfb32">getIRIString</a>(iri);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <span class="keywordflow">if</span> (!val.equals(iri.toString())) {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    writer.writeAttribute(OWLXMLVocabulary.ABBREVIATED_IRI_ATTRIBUTE.getIRI().toString(), val);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    writer.writeAttribute(attName, val);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer_html_afadb2dde862798ebdabc931db3e34873"><div class="ttname"><a href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">org.coode.xml.XMLWriter.getXMLBase</a></div><div class="ttdeci">String getXMLBase()</div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer_html_af2ecfc43c218604d5aec1d66c1bcfb32"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#af2ecfc43c218604d5aec1d66c1bcfb32">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.getIRIString</a></div><div class="ttdeci">String getIRIString(IRI iri)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_x_m_l_writer_8java_source.html#l00147">OWLXMLWriter.java:147</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e67bdf6bdfc93aee451837d1d2181a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeIRIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes an IRI element for a given IRI </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>The IRI to be written as an element. If the IRI can be abbreviated then an AbbreviatedIRI element will be written </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00257">257</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                         {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            String iriString = iri.toString();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">if</span> (iriString.startsWith(writer.<a class="code" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">getXMLBase</a>())) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a8d64929aa89c04146b4fc9462c7c1b62">writeStartElement</a>(OWLXMLVocabulary.IRI_ELEMENT);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a53ee37c4ef0eebfd68c8d021b4a95de2">writeTextContent</a>(iriString.substring(writer.<a class="code" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">getXMLBase</a>().length(), iriString.length()));</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a496a06a526c9387df3fb1e8cb4d56584">writeEndElement</a>();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                String val = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#af2ecfc43c218604d5aec1d66c1bcfb32">getIRIString</a>(iri);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                <span class="keywordflow">if</span> (!val.equals(iriString)) {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a8d64929aa89c04146b4fc9462c7c1b62">writeStartElement</a>(OWLXMLVocabulary.ABBREVIATED_IRI_ELEMENT);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                    writer.writeTextContent(val);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a496a06a526c9387df3fb1e8cb4d56584">writeEndElement</a>();</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a8d64929aa89c04146b4fc9462c7c1b62">writeStartElement</a>(OWLXMLVocabulary.IRI_ELEMENT);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                    writer.writeTextContent(val);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a496a06a526c9387df3fb1e8cb4d56584">writeEndElement</a>();</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            }</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer_html_afadb2dde862798ebdabc931db3e34873"><div class="ttname"><a href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">org.coode.xml.XMLWriter.getXMLBase</a></div><div class="ttdeci">String getXMLBase()</div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer_html_af2ecfc43c218604d5aec1d66c1bcfb32"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#af2ecfc43c218604d5aec1d66c1bcfb32">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.getIRIString</a></div><div class="ttdeci">String getIRIString(IRI iri)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_x_m_l_writer_8java_source.html#l00147">OWLXMLWriter.java:147</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer_html_a53ee37c4ef0eebfd68c8d021b4a95de2"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a53ee37c4ef0eebfd68c8d021b4a95de2">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeTextContent</a></div><div class="ttdeci">void writeTextContent(String text)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_x_m_l_writer_8java_source.html#l00305">OWLXMLWriter.java:305</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer_html_a8d64929aa89c04146b4fc9462c7c1b62"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a8d64929aa89c04146b4fc9462c7c1b62">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeStartElement</a></div><div class="ttdeci">void writeStartElement(OWLXMLVocabulary name)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_x_m_l_writer_8java_source.html#l00186">OWLXMLWriter.java:186</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer_html_a496a06a526c9387df3fb1e8cb4d56584"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html#a496a06a526c9387df3fb1e8cb4d56584">org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeEndElement</a></div><div class="ttdeci">void writeEndElement()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_x_m_l_writer_8java_source.html#l00196">OWLXMLWriter.java:196</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa13e8230714732558e9fbec89f50f149"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeLangAttribute </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lang</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00285">285</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                                                {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            writer.writeAttribute(Namespaces.XML + <span class="stringliteral">&quot;lang&quot;</span>, lang);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        }</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acdd6ef5398df880f0ce448a7795e7a24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeNodeIDAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_node_i_d.html">NodeID</a>&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00219">219</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                                    {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.NODE_ID.getIRI().toString(), nodeID.getID());</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        }</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa981f38fd3c37c0c31af078b876fad1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writePrefix </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefixName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>iri</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method to write a prefix. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefixName</td><td>The name of the prefix (e.g. owl: is the prefix name for the OWL prefix) </td></tr>
+    <tr><td class="paramname">iri</td><td>The prefix iri </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00127">127</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        writer.writeStartElement(OWLXMLVocabulary.PREFIX.getIRI().toString());</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span> (prefixName.endsWith(<span class="stringliteral">&quot;:&quot;</span>)) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            String attName = prefixName.substring(0, prefixName.length() - 1);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.NAME_ATTRIBUTE.getIRI().toString(), attName);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            writer.writeAttribute(OWLXMLVocabulary.NAME_ATTRIBUTE.getIRI().toString(), prefixName);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        writer.writeAttribute(OWLXMLVocabulary.IRI_ATTRIBUTE.getIRI().toString(), iri);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        writer.writeEndElement();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        iriPrefixMap.put(iri, prefixName);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d64929aa89c04146b4fc9462c7c1b62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeStartElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_x_m_l_vocabulary.html">OWLXMLVocabulary</a>&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00186">186</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                                                         {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            writer.writeStartElement(name.getIRI().toString());</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a53ee37c4ef0eebfd68c8d021b4a95de2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxml.renderer.OWLXMLWriter.writeTextContent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html#l00305">305</a> del archivo <a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                              {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            writer.writeTextContent(text);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">catch</span> (IOException e) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(e);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/owlxml/renderer/<a class="el" href="_o_w_l_x_m_l_writer_8java_source.html">OWLXMLWriter.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1owlxml.html">owlxml</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer.html">renderer</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_writer.html">OWLXMLWriter</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:44 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

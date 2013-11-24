@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_binary_atom_3_01_a_01extends_01_s_w_rc30c5b4d74ec2b23e92d0d06ccd24e5f =
+[
+    [ "getFirstArgument", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_binary_atom_3_01_a_01extends_01_s_w_rc30c5b4d74ec2b23e92d0d06ccd24e5f.html#a17aa4ba06a13952a46c4bfdc72dc3caf", null ],
+    [ "getSecondArgument", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_binary_atom_3_01_a_01extends_01_s_w_rc30c5b4d74ec2b23e92d0d06ccd24e5f.html#a352a713b2cd78c6cb4fbf82f92e88bc4", null ]
+];

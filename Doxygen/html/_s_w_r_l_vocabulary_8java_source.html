@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/vocab/SWRLVocabulary.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_s_w_r_l_vocabulary_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SWRLVocabulary.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_s_w_r_l_vocabulary_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.vocab;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.net.URI;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html">   57</a></span>&#160;public enum <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html">SWRLVocabulary</a> {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0b2ee8ef345e4cbbb033d7c58cbcdf7f">   59</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0b2ee8ef345e4cbbb033d7c58cbcdf7f">IMP</a>(<span class="stringliteral">&quot;Imp&quot;</span>),</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#acea7a801a520aff5245fefd3e1178bab">   60</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#acea7a801a520aff5245fefd3e1178bab">INDIVIDUAL_PROPERTY_ATOM</a>(<span class="stringliteral">&quot;IndividualPropertyAtom&quot;</span>),</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ae21b104ed8a6cf96b3dba4bfd8703146">   61</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ae21b104ed8a6cf96b3dba4bfd8703146">DATAVALUED_PROPERTY_ATOM</a>(<span class="stringliteral">&quot;DatavaluedPropertyAtom&quot;</span>),</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0c3983a5cd42b3820a2ad75ea353116e">   62</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0c3983a5cd42b3820a2ad75ea353116e">CLASS_ATOM</a>(<span class="stringliteral">&quot;ClassAtom&quot;</span>),</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3edb55225b999dfca97375fcda8f94aa">   63</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3edb55225b999dfca97375fcda8f94aa">DATA_RANGE_ATOM</a>(<span class="stringliteral">&quot;DataRangeAtom&quot;</span>),</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a21111a34b7fd9e4a6b2a5671783fe3ed">   64</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a21111a34b7fd9e4a6b2a5671783fe3ed">VARIABLE</a>(<span class="stringliteral">&quot;Variable&quot;</span>),</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a213bb3b9f8914bec9b4946a1015d6dee">   65</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a213bb3b9f8914bec9b4946a1015d6dee">ATOM_LIST</a>(<span class="stringliteral">&quot;AtomList&quot;</span>),</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a974f61a558cbda2159c86e0f03828220">   66</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a974f61a558cbda2159c86e0f03828220">SAME_INDIVIDUAL_ATOM</a>(<span class="stringliteral">&quot;SameIndividualAtom&quot;</span>),</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a80a31fdf6cf824fecaa5650fec44a250">   67</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a80a31fdf6cf824fecaa5650fec44a250">DIFFERENT_INDIVIDUALS_ATOM</a>(<span class="stringliteral">&quot;DifferentIndividualsAtom&quot;</span>),</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac72ccba6f7ebcfd7ba0177236e7cd600">   68</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac72ccba6f7ebcfd7ba0177236e7cd600">BUILT_IN_ATOM</a>(<span class="stringliteral">&quot;BuiltinAtom&quot;</span>),</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0007f8338f007bb671274ab010fb11b3">   69</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0007f8338f007bb671274ab010fb11b3">HEAD</a>(<span class="stringliteral">&quot;head&quot;</span>),</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a6f558d4840154e8d005735e450436afe">   70</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a6f558d4840154e8d005735e450436afe">BODY</a>(<span class="stringliteral">&quot;body&quot;</span>),</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42cc3c78ece97c93ef135d1f3d5a87a3">   71</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42cc3c78ece97c93ef135d1f3d5a87a3">CLASS_PREDICATE</a>(<span class="stringliteral">&quot;classPredicate&quot;</span>),</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a8d75b471984f1fe113fcf7725defaef3">   72</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a8d75b471984f1fe113fcf7725defaef3">DATA_RANGE</a>(<span class="stringliteral">&quot;dataRange&quot;</span>),</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#abcaf43f5fe68c11d9a9f8aa965991f97">   73</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#abcaf43f5fe68c11d9a9f8aa965991f97">PROPERTY_PREDICATE</a>(<span class="stringliteral">&quot;propertyPredicate&quot;</span>),</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3333593a5b776ed67836ddeb4acb8682">   74</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3333593a5b776ed67836ddeb4acb8682">BUILT_IN</a>(<span class="stringliteral">&quot;builtin&quot;</span>),</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a457cad82161e6c8a41c0273b21af25b1">   75</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a457cad82161e6c8a41c0273b21af25b1">BUILT_IN_CLASS</a>(<span class="stringliteral">&quot;Builtin&quot;</span>),</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a9aab162acd2c31078de6bb9403427ac1">   76</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a9aab162acd2c31078de6bb9403427ac1">ARGUMENTS</a>(<span class="stringliteral">&quot;arguments&quot;</span>),</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a263e9c60b1b1ab8b19b9ff96a05c1e5a">   77</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a263e9c60b1b1ab8b19b9ff96a05c1e5a">ARGUMENT_1</a>(<span class="stringliteral">&quot;argument1&quot;</span>),</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a012a0d2d91da6362bd7e148c0ee589c6">   78</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a012a0d2d91da6362bd7e148c0ee589c6">ARGUMENT_2</a>(<span class="stringliteral">&quot;argument2&quot;</span>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> String shortName;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a855a618d3caa77278a204dd70a8f79cf">   84</a></span>&#160;    <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a855a618d3caa77278a204dd70a8f79cf">SWRLVocabulary</a>(String name) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        shortName = name;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        iri = IRI.create(Namespaces.SWRL.toString(), name);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a7f5d78d546007c93b2f1e2ca5c5e2323">   90</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a7f5d78d546007c93b2f1e2ca5c5e2323">getShortName</a>() {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> shortName;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42291425c190c866020e9cbf42f0d31e">   94</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42291425c190c866020e9cbf42f0d31e">getIRI</a>() {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> iri;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac44462459cc78645efa017f964f260e2">   98</a></span>&#160;    <span class="keyword">public</span> URI <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac44462459cc78645efa017f964f260e2">getURI</a>() {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> iri.toURI();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a9aab162acd2c31078de6bb9403427ac1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a9aab162acd2c31078de6bb9403427ac1">org.semanticweb.owlapi.vocab.SWRLVocabulary.ARGUMENTS</a></div><div class="ttdeci">ARGUMENTS</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00076">SWRLVocabulary.java:76</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a855a618d3caa77278a204dd70a8f79cf"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a855a618d3caa77278a204dd70a8f79cf">org.semanticweb.owlapi.vocab.SWRLVocabulary.SWRLVocabulary</a></div><div class="ttdeci">SWRLVocabulary(String name)</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00084">SWRLVocabulary.java:84</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a213bb3b9f8914bec9b4946a1015d6dee"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a213bb3b9f8914bec9b4946a1015d6dee">org.semanticweb.owlapi.vocab.SWRLVocabulary.ATOM_LIST</a></div><div class="ttdeci">ATOM_LIST</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00065">SWRLVocabulary.java:65</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a974f61a558cbda2159c86e0f03828220"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a974f61a558cbda2159c86e0f03828220">org.semanticweb.owlapi.vocab.SWRLVocabulary.SAME_INDIVIDUAL_ATOM</a></div><div class="ttdeci">SAME_INDIVIDUAL_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00066">SWRLVocabulary.java:66</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a0007f8338f007bb671274ab010fb11b3"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0007f8338f007bb671274ab010fb11b3">org.semanticweb.owlapi.vocab.SWRLVocabulary.HEAD</a></div><div class="ttdeci">HEAD</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00069">SWRLVocabulary.java:69</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_ac72ccba6f7ebcfd7ba0177236e7cd600"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac72ccba6f7ebcfd7ba0177236e7cd600">org.semanticweb.owlapi.vocab.SWRLVocabulary.BUILT_IN_ATOM</a></div><div class="ttdeci">BUILT_IN_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00068">SWRLVocabulary.java:68</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_ae21b104ed8a6cf96b3dba4bfd8703146"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ae21b104ed8a6cf96b3dba4bfd8703146">org.semanticweb.owlapi.vocab.SWRLVocabulary.DATAVALUED_PROPERTY_ATOM</a></div><div class="ttdeci">DATAVALUED_PROPERTY_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00061">SWRLVocabulary.java:61</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a457cad82161e6c8a41c0273b21af25b1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a457cad82161e6c8a41c0273b21af25b1">org.semanticweb.owlapi.vocab.SWRLVocabulary.BUILT_IN_CLASS</a></div><div class="ttdeci">BUILT_IN_CLASS</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00075">SWRLVocabulary.java:75</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a42cc3c78ece97c93ef135d1f3d5a87a3"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42cc3c78ece97c93ef135d1f3d5a87a3">org.semanticweb.owlapi.vocab.SWRLVocabulary.CLASS_PREDICATE</a></div><div class="ttdeci">CLASS_PREDICATE</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00071">SWRLVocabulary.java:71</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00057">IRI.java:57</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a80a31fdf6cf824fecaa5650fec44a250"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a80a31fdf6cf824fecaa5650fec44a250">org.semanticweb.owlapi.vocab.SWRLVocabulary.DIFFERENT_INDIVIDUALS_ATOM</a></div><div class="ttdeci">DIFFERENT_INDIVIDUALS_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00067">SWRLVocabulary.java:67</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a0c3983a5cd42b3820a2ad75ea353116e"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0c3983a5cd42b3820a2ad75ea353116e">org.semanticweb.owlapi.vocab.SWRLVocabulary.CLASS_ATOM</a></div><div class="ttdeci">CLASS_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00062">SWRLVocabulary.java:62</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a263e9c60b1b1ab8b19b9ff96a05c1e5a"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a263e9c60b1b1ab8b19b9ff96a05c1e5a">org.semanticweb.owlapi.vocab.SWRLVocabulary.ARGUMENT_1</a></div><div class="ttdeci">ARGUMENT_1</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00077">SWRLVocabulary.java:77</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html">org.semanticweb.owlapi.vocab.SWRLVocabulary</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00057">SWRLVocabulary.java:57</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a42291425c190c866020e9cbf42f0d31e"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a42291425c190c866020e9cbf42f0d31e">org.semanticweb.owlapi.vocab.SWRLVocabulary.getIRI</a></div><div class="ttdeci">IRI getIRI()</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00094">SWRLVocabulary.java:94</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_acea7a801a520aff5245fefd3e1178bab"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#acea7a801a520aff5245fefd3e1178bab">org.semanticweb.owlapi.vocab.SWRLVocabulary.INDIVIDUAL_PROPERTY_ATOM</a></div><div class="ttdeci">INDIVIDUAL_PROPERTY_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00060">SWRLVocabulary.java:60</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a3edb55225b999dfca97375fcda8f94aa"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3edb55225b999dfca97375fcda8f94aa">org.semanticweb.owlapi.vocab.SWRLVocabulary.DATA_RANGE_ATOM</a></div><div class="ttdeci">DATA_RANGE_ATOM</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00063">SWRLVocabulary.java:63</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a0b2ee8ef345e4cbbb033d7c58cbcdf7f"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a0b2ee8ef345e4cbbb033d7c58cbcdf7f">org.semanticweb.owlapi.vocab.SWRLVocabulary.IMP</a></div><div class="ttdeci">IMP</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00059">SWRLVocabulary.java:59</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_ac44462459cc78645efa017f964f260e2"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#ac44462459cc78645efa017f964f260e2">org.semanticweb.owlapi.vocab.SWRLVocabulary.getURI</a></div><div class="ttdeci">URI getURI()</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00098">SWRLVocabulary.java:98</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a8d75b471984f1fe113fcf7725defaef3"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a8d75b471984f1fe113fcf7725defaef3">org.semanticweb.owlapi.vocab.SWRLVocabulary.DATA_RANGE</a></div><div class="ttdeci">DATA_RANGE</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00072">SWRLVocabulary.java:72</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a012a0d2d91da6362bd7e148c0ee589c6"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a012a0d2d91da6362bd7e148c0ee589c6">org.semanticweb.owlapi.vocab.SWRLVocabulary.ARGUMENT_2</a></div><div class="ttdeci">ARGUMENT_2</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00078">SWRLVocabulary.java:78</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a3333593a5b776ed67836ddeb4acb8682"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a3333593a5b776ed67836ddeb4acb8682">org.semanticweb.owlapi.vocab.SWRLVocabulary.BUILT_IN</a></div><div class="ttdeci">BUILT_IN</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00074">SWRLVocabulary.java:74</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_abcaf43f5fe68c11d9a9f8aa965991f97"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#abcaf43f5fe68c11d9a9f8aa965991f97">org.semanticweb.owlapi.vocab.SWRLVocabulary.PROPERTY_PREDICATE</a></div><div class="ttdeci">PROPERTY_PREDICATE</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00073">SWRLVocabulary.java:73</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a7f5d78d546007c93b2f1e2ca5c5e2323"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a7f5d78d546007c93b2f1e2ca5c5e2323">org.semanticweb.owlapi.vocab.SWRLVocabulary.getShortName</a></div><div class="ttdeci">String getShortName()</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00090">SWRLVocabulary.java:90</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a21111a34b7fd9e4a6b2a5671783fe3ed"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a21111a34b7fd9e4a6b2a5671783fe3ed">org.semanticweb.owlapi.vocab.SWRLVocabulary.VARIABLE</a></div><div class="ttdeci">VARIABLE</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00064">SWRLVocabulary.java:64</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary_html_a6f558d4840154e8d005735e450436afe"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_s_w_r_l_vocabulary.html#a6f558d4840154e8d005735e450436afe">org.semanticweb.owlapi.vocab.SWRLVocabulary.BODY</a></div><div class="ttdeci">BODY</div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_vocabulary_8java_source.html#l00070">SWRLVocabulary.java:70</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_1578a7610963a3a4b45eef5d6305ab61.html">vocab</a></li><li class="navelem"><a class="el" href="_s_w_r_l_vocabulary_8java.html">SWRLVocabulary.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:55 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_axiom_search_filter_3_01_o_01extends_01_o_w_l_axiom_00_01_k_01_4 =
+[
+    [ "getAxiomType", "interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_axiom_search_filter_3_01_o_01extends_01_o_w_l_axiom_00_01_k_01_4.html#ae71ab4bfbdce4b5f06b5ad57a5f4bb14", null ],
+    [ "pass", "interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_o_w_l_axiom_search_filter_3_01_o_01extends_01_o_w_l_axiom_00_01_k_01_4.html#aed5f5fe53e88ab1ac55f7e96c6980bec", null ]
+];

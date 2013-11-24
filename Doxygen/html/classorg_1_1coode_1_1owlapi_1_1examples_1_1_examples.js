@@ -1,0 +1,28 @@
+var classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples =
+[
+    [ "owlPrimer", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a77aa09ee1b2badafaaaef4f997c4f840", null ],
+    [ "shouldAccessEntities", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a092d02624d84106971843c899574c70d", null ],
+    [ "shouldAddAxiom", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ab1602eb11d275460507f693b4904b053", null ],
+    [ "shouldAddClassAssertion", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a56c669a13827080e56dd0796162ec9cc", null ],
+    [ "shouldAddObjectPropertyAssertions", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a3ded89026f644f95315c0e124f6fc574", null ],
+    [ "shouldBuildDataRanges", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ae83de81b4815d1073f714b46b78d18c9", null ],
+    [ "shouldCreateAndReadAnnotations", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a7ebd773a0def5cd0438a024695ea60de", null ],
+    [ "shouldCreateAndSaveOntology", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a9d750338fd6de1e4faf7d9a649243760", null ],
+    [ "shouldCreateInferredAxioms", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ac759eb9761d14fd168877465df992f2e", null ],
+    [ "shouldCreateOntology", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a8f318863fff0c6a6b85f09d1953989fa", null ],
+    [ "shouldCreatePropertyAssertions", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a45eb6843eb6a3578c7ebc0be2c8b1a29", null ],
+    [ "shouldCreateRestrictions", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#abd298a6c02a77cbc7ca0acaba624322a", null ],
+    [ "shouldDeleteIndividuals", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a77b34d5b6467abf11bf301a128b2fad6", null ],
+    [ "shouldExtractModules", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a7527848ffe148d4ad7ec15920a17a415", null ],
+    [ "shouldInstantiateLiterals", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#acb926018035dc5a59b58c3c4f601f813", null ],
+    [ "shouldLoad", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a90f88f1fa8563f9571c4bfd58e1c2ba7", null ],
+    [ "shouldLoadAndSave", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a21367410c4f65ea789061d0a9e35be37", null ],
+    [ "shouldLookAtRestrictions", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ad57538176523ec9f389a26555e21cc21", null ],
+    [ "shouldMergeOntologies", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ad410359291e920220362bc78f8e6cf20", null ],
+    [ "shouldQueryWithReasoner", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a88fedeeeaaeaa4f54eea581d9177964f", null ],
+    [ "shouldSaveOntologies", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a961ecfc2b6922e208d5011ee35556e85", null ],
+    [ "shouldUseDataranges", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a4582c17919fedbc3b813e7e7a149c355", null ],
+    [ "shouldUseIRIMappers", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#ae55ab0a4eeee04ce82c5e73172acf569", null ],
+    [ "shouldUseReasoner", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a7c277a90f0c1779a4d20cd064205b3ed", null ],
+    [ "shouldWalkOntology", "classorg_1_1coode_1_1owlapi_1_1examples_1_1_examples.html#a8d10838c853d93908c615c0db202f002", null ]
+];

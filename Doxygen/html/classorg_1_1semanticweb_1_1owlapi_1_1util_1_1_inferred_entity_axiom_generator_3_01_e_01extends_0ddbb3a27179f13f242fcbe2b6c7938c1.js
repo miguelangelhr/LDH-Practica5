@@ -1,0 +1,8 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1 =
+[
+    [ "addAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a52e282e20a8682397663d754e4664827", null ],
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a6953a04d82a2b04be1d5a089c2d087b1", null ],
+    [ "getAllEntities", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2d4c6c4a82763913e347ad38e6d0513e", null ],
+    [ "getEntities", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09", null ],
+    [ "toString", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a408ff99d4bb831ae68155530c4f0cd3f", null ]
+];

@@ -1,0 +1,26 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl =
+[
+    [ "OWLNamedIndividualImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a60a732d163662d28d531ecd4d4b4106e", null ],
+    [ "accept", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a81f27a6955018195cd520817c449432b", null ],
+    [ "accept", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a02c1ae5a214bb74160302813c5b3b79c", null ],
+    [ "accept", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#af38cae3a180c36f67854e0cf62ef4d1b", null ],
+    [ "accept", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#ac82306debde7f24aef8cfa739df6a799", null ],
+    [ "asOWLAnnotationProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a825e82c48a59afa00619f28b566e19fe", null ],
+    [ "asOWLAnonymousIndividual", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a666546e56008bf14083c0e4ed0b46dae", null ],
+    [ "asOWLNamedIndividual", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#acd40c715b341dd04240d3d2f3df62e52", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#aa8ea6bd35e1d219fdbd0e51b9a6687a5", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a33ea87ebfd8ea74fe42ef36df59c4edd", null ],
+    [ "getAnnotationAssertionAxioms", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#accd402aaf3d73b53b83e039d70616e6d", null ],
+    [ "getAnnotations", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a0578e78f674982c99f8ef6989ffa0f09", null ],
+    [ "getAnnotations", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a6ddd9c95e00bc5fe2935c9b6c2d0e230", null ],
+    [ "getEntityType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a18d67aa847671071ad29e66c527ac578", null ],
+    [ "getIRI", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#acd715983f008de2754833d7945220b0d", null ],
+    [ "getReferencingAxioms", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a51628684161e26603a7fdb662fd59461", null ],
+    [ "getReferencingAxioms", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a3e35eda6c923e207f7c88dd8f8b2e83d", null ],
+    [ "isAnonymous", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#acce286548445af5cec36b8e89c170c94", null ],
+    [ "isNamed", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a6393705addefafe510fef75b044aaf26", null ],
+    [ "isOWLAnnotationProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a1f4f719ccfa15a294a02344046fb6a9b", null ],
+    [ "isOWLNamedIndividual", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a34f691737d569db8eb3f32b483cf623c", null ],
+    [ "isType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a6ffbceb1a3c4ee653db3db6cae28a48d", null ],
+    [ "toStringID", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#aac3ff3faf0e4f167a2edf2f39b1fa406", null ]
+];

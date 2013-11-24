@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/model/IRI.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_i_r_i_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">IRI.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_r_i_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.model;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.io.File;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.net.URI;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.net.URISyntaxException;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> java.net.URL;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> java.util.Collections;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html">org.semanticweb.owlapi.io.XMLUtils</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> org.semanticweb.owlapi.util.WeakCache;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html">org.semanticweb.owlapi.vocab.Namespaces</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">import</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary.html">org.semanticweb.owlapi.vocab.OWLRDFVocabulary</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">   57</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <span class="keyword">implements</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">OWLAnnotationSubject</a>, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html">OWLAnnotationValue</a>, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_predicate.html">SWRLPredicate</a>, CharSequence {</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6edb4320d80deb1e0c3ef4dc2c53548b">   62</a></span>&#160;    <span class="keyword">public</span> URI <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6edb4320d80deb1e0c3ef4dc2c53548b">toURI</a>() {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (remainder != null) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            sb.append(prefix);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            sb.append(remainder);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> URI.create(sb.toString());</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span> URI.create(prefix);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#abd83594f4be6ece4037d28088ffe1b11">   77</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#abd83594f4be6ece4037d28088ffe1b11">isAbsolute</a>() {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">int</span> colonIndex = prefix.indexOf(<span class="charliteral">&#39;:&#39;</span>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span> (colonIndex == -1) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; colonIndex; i++) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordtype">char</span> ch = prefix.charAt(i);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> (!Character.isLetter(ch) &amp;&amp; !Character.isDigit(ch) &amp;&amp; ch != <span class="charliteral">&#39;.&#39;</span> &amp;&amp; ch != <span class="charliteral">&#39;+&#39;</span> &amp;&amp; ch != <span class="charliteral">&#39;-&#39;</span>) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3d8d67a0cfb3373a284c9444a31455f5">   92</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3d8d67a0cfb3373a284c9444a31455f5">getScheme</a>() {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordtype">int</span> colonIndex = prefix.indexOf(<span class="charliteral">&#39;:&#39;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (colonIndex == -1) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> prefix.substring(0, colonIndex);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    @Deprecated</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a163c15f9487f650dc1c4a4940f55a4ca">  103</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a163c15f9487f650dc1c4a4940f55a4ca">getStart</a>() {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> prefix;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a83b9e3786698e668dddd72a2d8237673">  107</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a83b9e3786698e668dddd72a2d8237673">getNamespace</a>() {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> prefix;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac0dc907f0ed7a40e2c9946e054b2e9c5">  115</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac0dc907f0ed7a40e2c9946e054b2e9c5">resolve</a>(String s) {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="comment">// shortcut: checking absolute and opaque here saves the creation of an</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">// extra URI object</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        URI uri = URI.create(s);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">if</span> (uri.isAbsolute() || uri.isOpaque()) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">return</span> IRI.create(uri);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">return</span> IRI.create(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6edb4320d80deb1e0c3ef4dc2c53548b">toURI</a>().resolve(uri).<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa2384590bffa66be3b4d6ab714b6868f">toString</a>());</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a311489ca7be5ecc7b09e275b047d1e69">  134</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a311489ca7be5ecc7b09e275b047d1e69">isReservedVocabulary</a>() {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">return</span> Namespaces.OWL.inNamespace(prefix) || <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html">Namespaces</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a0d1c7991e82e2b5c495bb87f1123ce30">RDF</a>.inNamespace(prefix)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                || Namespaces.RDFS.inNamespace(prefix);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af7c8929fe51b1912ff6f65072a71b8ec">  145</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af7c8929fe51b1912ff6f65072a71b8ec">isThing</a>() {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> remainder != null &amp;&amp; remainder.equals(<span class="stringliteral">&quot;Thing&quot;</span>)</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                &amp;&amp; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html">Namespaces</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a2fcb537074d9307ef1356ffb6a5bd6f4">OWL</a>.inNamespace(prefix);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6f301810c0f618423e957647288c4a82">  156</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6f301810c0f618423e957647288c4a82">isNothing</a>() {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">equals</a>(<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary.html">OWLRDFVocabulary</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary.html#ad5912d5be7595b662a72ece8bc3be224">OWL_NOTHING</a>.getIRI());</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a4dd0a7d215c43762acafe0edfc2a24b5">  166</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a4dd0a7d215c43762acafe0edfc2a24b5">isPlainLiteral</a>() {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">return</span> remainder != null &amp;&amp; remainder.equals(<span class="stringliteral">&quot;PlainLiteral&quot;</span>)</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                &amp;&amp; <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html">Namespaces</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a0d1c7991e82e2b5c495bb87f1123ce30">RDF</a>.inNamespace(prefix);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2199426933d73137ff483dc3ab5e45e8">  175</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2199426933d73137ff483dc3ab5e45e8">getFragment</a>() {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">return</span> remainder;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a10f52e371259c2877162003eec525497">  182</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a10f52e371259c2877162003eec525497">toQuotedString</a>() {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        sb.append(<span class="stringliteral">&quot;&lt;&quot;</span>);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        sb.append(prefix);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> (remainder != null) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            sb.append(remainder);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        sb.append(<span class="stringliteral">&quot;&gt;&quot;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">  198</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">create</a>(String str) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">if</span> (str == null) {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;String must not be null&quot;</span>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordtype">int</span> index = XMLUtils.getNCNameSuffixIndex(str);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">if</span> (index &lt; 0) {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="comment">// no ncname</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(str, null);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(str.substring(0, index), str.substring(index));</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ae863640ba5e7e06909fe688cfabc785d">  219</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ae863640ba5e7e06909fe688cfabc785d">create</a>(String prefix, String suffix) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">if</span>(prefix == null) {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">create</a>(suffix);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(suffix == null) {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="comment">// suffix set deliberately to null is used only in blank node</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="comment">// management</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <span class="comment">// this is not great but blank nodes should be changed to not refer</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="comment">// to IRIs at all</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="comment">// XXX address blank node issues with iris</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">create</a>(prefix);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordtype">int</span> index = XMLUtils.getNCNameSuffixIndex(prefix);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordtype">int</span> test = XMLUtils.getNCNameSuffixIndex(suffix);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (index == -1 &amp;&amp; test == 0) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="comment">// the prefix does not contain an ncname character and there is</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <span class="comment">// no illegal character in the suffix</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                <span class="comment">// the split is therefore correct</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(prefix, suffix);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="comment">// otherwise the split is wrong; we could obtain the right split by</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="comment">// using index and test, but it&#39;s just as easy to use the other</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <span class="comment">// constructor</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">create</a>(prefix + suffix);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00248"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a489ec57d61acdb7643b82ce9c454c046">  248</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a489ec57d61acdb7643b82ce9c454c046">create</a>(File file) {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">if</span> (file == null) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;file cannot be null&quot;</span>);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(file.toURI());</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a09183f8539b03cdb2abf6eae749bf5bc">  258</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a09183f8539b03cdb2abf6eae749bf5bc">create</a>(URI uri) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">if</span> (uri == null) {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;uri cannot be null&quot;</span>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        }</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(uri);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a1ed7e79cbb9078d6dcef7b5d82990402">  270</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a1ed7e79cbb9078d6dcef7b5d82990402">create</a>(URL url) <span class="keywordflow">throws</span> URISyntaxException {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">if</span> (url == null) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;url cannot be null&quot;</span>);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(url.toURI());</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af72d8f299944fb87ade02e6c22e5fa6f">  281</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af72d8f299944fb87ade02e6c22e5fa6f">generateDocumentIRI</a>() {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">create</a>(<span class="stringliteral">&quot;owlapi:ontology&quot;</span> + System.nanoTime());</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">// ///////////////////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="comment">// ///////////////////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="comment">// //</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="comment">// // Impl - All constructors are private - factory methods are used for</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="comment">// public creation</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="comment">// //</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="comment">// ///////////////////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="comment">// ///////////////////////////////////////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">long</span> serialVersionUID = 30406L;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> WeakCache&lt;String&gt; prefixCache = <span class="keyword">new</span> WeakCache&lt;String&gt;();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> String remainder;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> String prefix;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">hashCode</a> = 0;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">  306</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>(String prefix, String fragment) {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        this.prefix = prefixCache.cache(prefix);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        remainder = fragment;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af323ee2bade8a1a01cb10d88b5f9f924">  311</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af323ee2bade8a1a01cb10d88b5f9f924">IRI</a>(String s) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="keyword">this</span>(XMLUtils.getNCNamePrefix(s), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html">XMLUtils</a>.<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a9fc590cb73a041606a4543e3493377a4">getNCNameSuffix</a>(s));</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50d8ef038e5b08c51805deba43051801">  315</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50d8ef038e5b08c51805deba43051801">IRI</a>(URI uri) {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keyword">this</span>(uri.toString());</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    @Override</div>
+<div class="line"><a name="l00320"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a279b1128d22bf16abb409462b1208878">  320</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a279b1128d22bf16abb409462b1208878">length</a>() {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <span class="keywordflow">return</span> prefix.length() + (remainder == null ? 0 : remainder.length());</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    @Override</div>
+<div class="line"><a name="l00325"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aed58af4d93750dd31e0dada01be1b71b">  325</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">char</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aed58af4d93750dd31e0dada01be1b71b">charAt</a>(<span class="keywordtype">int</span> index) {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="keywordflow">if</span> (index &lt; 0) {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IndexOutOfBoundsException(Integer.toString(index));</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        <span class="keywordflow">if</span> (index &gt;= <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a279b1128d22bf16abb409462b1208878">length</a>()) {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IndexOutOfBoundsException(Integer.toString(index));</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordflow">if</span> (index &lt; prefix.length()) {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;            <span class="keywordflow">return</span> prefix.charAt(index);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <span class="keywordflow">return</span> remainder.charAt(index - prefix.length());</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    @Override</div>
+<div class="line"><a name="l00339"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad7bdf7576fa1802a2ca1bfd917efb7a4">  339</a></span>&#160;    <span class="keyword">public</span> CharSequence <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad7bdf7576fa1802a2ca1bfd917efb7a4">subSequence</a>(<span class="keywordtype">int</span> start, <span class="keywordtype">int</span> end) {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        sb.append(prefix);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        sb.append(remainder);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">return</span> sb.subSequence(start, end);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    }</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    @Override</div>
+<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">  347</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor) {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    @Override</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    public &lt;O&gt; O <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor_ex_3_01_o_01_4.html">OWLObjectVisitorEx&lt;O&gt;</a> visitor) {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">return</span> visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    }</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    @Override</div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50c35c2cb67e05c1e5b959af2585dddd">  357</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50c35c2cb67e05c1e5b959af2585dddd">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor.html">OWLAnnotationSubjectVisitor</a> visitor) {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    }</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    @Override</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    public &lt;E&gt; E <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor_ex_3_01_e_01_4.html">OWLAnnotationSubjectVisitorEx&lt;E&gt;</a> visitor) {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">return</span> visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    }</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    @Override</div>
+<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a796b557f9337f41c2ca32ac26f0d6c4f">  367</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLClass&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a796b557f9337f41c2ca32ac26f0d6c4f">getClassesInSignature</a>() {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    @Override</div>
+<div class="line"><a name="l00372"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa94560b9ed75a428fc317dd246849b2d">  372</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLDataProperty&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa94560b9ed75a428fc317dd246849b2d">getDataPropertiesInSignature</a>() {</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    @Override</div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2dea9fabd433bdddf863f690922e45cf">  377</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLNamedIndividual&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2dea9fabd433bdddf863f690922e45cf">getIndividualsInSignature</a>() {</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    }</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    @Override</div>
+<div class="line"><a name="l00382"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ab81988d1a409e4c4c786bf838bec61bc">  382</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLObjectProperty&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ab81988d1a409e4c4c786bf838bec61bc">getObjectPropertiesInSignature</a>() {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    @Override</div>
+<div class="line"><a name="l00387"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a97806e467662f26392b049cfe8f70e68">  387</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLEntity&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a97806e467662f26392b049cfe8f70e68">getSignature</a>() {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    @Override</div>
+<div class="line"><a name="l00392"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9921fc1089976534e0e6b4a861c4a2fa">  392</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLAnonymousIndividual&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9921fc1089976534e0e6b4a861c4a2fa">getAnonymousIndividuals</a>() {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    }</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    @Override</div>
+<div class="line"><a name="l00397"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a28b303b47529fe7a8fb9500063f996d2">  397</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLDatatype&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a28b303b47529fe7a8fb9500063f996d2">getDatatypesInSignature</a>() {</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    }</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    @Override</div>
+<div class="line"><a name="l00402"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3dc6e423b4d1b57c1fa049e74402d724">  402</a></span>&#160;    <span class="keyword">public</span> Set&lt;OWLClassExpression&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3dc6e423b4d1b57c1fa049e74402d724">getNestedClassExpressions</a>() {</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordflow">return</span> Collections.emptySet();</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    }</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    @Override</div>
+<div class="line"><a name="l00407"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a411cfe723f5efaf0d46ba331a71be72d">  407</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a411cfe723f5efaf0d46ba331a71be72d">compareTo</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> o) {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="keywordflow">if</span> (o == <span class="keyword">this</span>) {</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        }</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="keywordflow">if</span> (!(o instanceof <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>)) {</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        IRI other = (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>) o;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        <span class="keywordtype">int</span> diff = prefix.compareTo(other.prefix);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keywordflow">if</span> (diff != 0) {</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;            <span class="keywordflow">return</span> diff;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        }</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        String otherRemainder = other.remainder;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <span class="keywordflow">if</span> (remainder == null) {</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;            <span class="keywordflow">if</span> (otherRemainder == null) {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            }</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;            <span class="keywordflow">if</span> (otherRemainder == null) {</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                <span class="keywordflow">return</span> remainder.compareTo(otherRemainder);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            }</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        }</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    @Override</div>
+<div class="line"><a name="l00436"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa2384590bffa66be3b4d6ab714b6868f">  436</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa2384590bffa66be3b4d6ab714b6868f">toString</a>() {</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">if</span> (remainder != null) {</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;            StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            sb.append(prefix);</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;            sb.append(remainder);</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;            <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;            <span class="keywordflow">return</span> prefix;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        }</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    }</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    @Override</div>
+<div class="line"><a name="l00448"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">  448</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">hashCode</a>() {</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">hashCode</a> == 0) {</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">hashCode</a> = prefix.hashCode() + (remainder != null ? remainder.hashCode() : 0);</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        }</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">hashCode</a>;</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    }</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    @Override</div>
+<div class="line"><a name="l00456"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9b595acb0e285ec2904d5bbda69ef2ee">  456</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9b595acb0e285ec2904d5bbda69ef2ee">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor.html">OWLAnnotationValueVisitor</a> visitor) {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    }</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    @Override</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    public &lt;O&gt; O <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor_ex_3_01_o_01_4.html">OWLAnnotationValueVisitorEx&lt;O&gt;</a> visitor) {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <span class="keywordflow">return</span> visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    }</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    @Override</div>
+<div class="line"><a name="l00466"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad1d5541605d3c911236fc2eb575b729c">  466</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad1d5541605d3c911236fc2eb575b729c">isTopEntity</a>() {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    }</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    @Override</div>
+<div class="line"><a name="l00471"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac9dcd6b65c9d7ed1b49867d2cd0be27f">  471</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac9dcd6b65c9d7ed1b49867d2cd0be27f">isBottomEntity</a>() {</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    }</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    @Override</div>
+<div class="line"><a name="l00476"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">  476</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">equals</a>(Object obj) {</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <span class="keywordflow">if</span> (obj == null) {</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        }</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <span class="keywordflow">if</span> (obj == <span class="keyword">this</span>) {</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        }</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <span class="keywordflow">if</span> (!(obj instanceof <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>)) {</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        }</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        IRI other = (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">IRI</a>) obj;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        String otherRemainder = other.remainder;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;        <span class="keywordflow">if</span> (remainder == null) {</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            <span class="keywordflow">return</span> otherRemainder == null &amp;&amp; prefix.equals(other.prefix);</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;            <span class="keywordflow">return</span> otherRemainder != null &amp;&amp; remainder.equals(otherRemainder) &amp;&amp; other.prefix.equals(prefix);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;        }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    }</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_af323ee2bade8a1a01cb10d88b5f9f924"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af323ee2bade8a1a01cb10d88b5f9f924">org.semanticweb.owlapi.model.IRI.IRI</a></div><div class="ttdeci">IRI(String s)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00311">IRI.java:311</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_aed58af4d93750dd31e0dada01be1b71b"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aed58af4d93750dd31e0dada01be1b71b">org.semanticweb.owlapi.model.IRI.charAt</a></div><div class="ttdeci">char charAt(int index)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00325">IRI.java:325</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_af72d8f299944fb87ade02e6c22e5fa6f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af72d8f299944fb87ade02e6c22e5fa6f">org.semanticweb.owlapi.model.IRI.generateDocumentIRI</a></div><div class="ttdeci">static IRI generateDocumentIRI()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00281">IRI.java:281</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a09183f8539b03cdb2abf6eae749bf5bc"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a09183f8539b03cdb2abf6eae749bf5bc">org.semanticweb.owlapi.model.IRI.create</a></div><div class="ttdeci">static IRI create(URI uri)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00258">IRI.java:258</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a83b9e3786698e668dddd72a2d8237673"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a83b9e3786698e668dddd72a2d8237673">org.semanticweb.owlapi.model.IRI.getNamespace</a></div><div class="ttdeci">String getNamespace()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00107">IRI.java:107</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a1ed7e79cbb9078d6dcef7b5d82990402"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a1ed7e79cbb9078d6dcef7b5d82990402">org.semanticweb.owlapi.model.IRI.create</a></div><div class="ttdeci">static IRI create(URL url)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00270">IRI.java:270</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">org.semanticweb.owlapi.model.OWLAnnotationSubject</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_subject_8java_source.html#l00049">OWLAnnotationSubject.java:49</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_af7c8929fe51b1912ff6f65072a71b8ec"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af7c8929fe51b1912ff6f65072a71b8ec">org.semanticweb.owlapi.model.IRI.isThing</a></div><div class="ttdeci">boolean isThing()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00145">IRI.java:145</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a2836257932774ea9d462e6aa18a8c711"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2836257932774ea9d462e6aa18a8c711">org.semanticweb.owlapi.model.IRI.equals</a></div><div class="ttdeci">boolean equals(Object obj)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00476">IRI.java:476</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ac9dcd6b65c9d7ed1b49867d2cd0be27f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac9dcd6b65c9d7ed1b49867d2cd0be27f">org.semanticweb.owlapi.model.IRI.isBottomEntity</a></div><div class="ttdeci">boolean isBottomEntity()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00471">IRI.java:471</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ac0dc907f0ed7a40e2c9946e054b2e9c5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ac0dc907f0ed7a40e2c9946e054b2e9c5">org.semanticweb.owlapi.model.IRI.resolve</a></div><div class="ttdeci">IRI resolve(String s)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00115">IRI.java:115</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a411cfe723f5efaf0d46ba331a71be72d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a411cfe723f5efaf0d46ba331a71be72d">org.semanticweb.owlapi.model.IRI.compareTo</a></div><div class="ttdeci">int compareTo(OWLObject o)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00407">IRI.java:407</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html">org.semanticweb.owlapi.vocab.Namespaces</a></div><div class="ttdef"><b>Definition:</b> <a href="_namespaces_8java_source.html#l00054">Namespaces.java:54</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor_ex_3_01_o_01_4_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor_ex_3_01_o_01_4.html">org.semanticweb.owlapi.model.OWLObjectVisitorEx&lt; O &gt;</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_visitor_ex_8java_source.html#l00048">OWLObjectVisitorEx.java:48</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary.html">org.semanticweb.owlapi.vocab.OWLRDFVocabulary</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_r_d_f_vocabulary_8java_source.html#l00052">OWLRDFVocabulary.java:52</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a9b595acb0e285ec2904d5bbda69ef2ee"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9b595acb0e285ec2904d5bbda69ef2ee">org.semanticweb.owlapi.model.IRI.accept</a></div><div class="ttdeci">void accept(OWLAnnotationValueVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00456">IRI.java:456</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a527a37dc8f04c77e6d7551070c9b049f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a527a37dc8f04c77e6d7551070c9b049f">org.semanticweb.owlapi.model.IRI.IRI</a></div><div class="ttdeci">IRI(String prefix, String fragment)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00306">IRI.java:306</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">org.semanticweb.owlapi.model.OWLObjectVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_visitor_8java_source.html#l00048">OWLObjectVisitor.java:48</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html">org.semanticweb.owlapi.io.XMLUtils</a></div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00055">XMLUtils.java:55</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a163c15f9487f650dc1c4a4940f55a4ca"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a163c15f9487f650dc1c4a4940f55a4ca">org.semanticweb.owlapi.model.IRI.getStart</a></div><div class="ttdeci">String getStart()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00103">IRI.java:103</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a4dd0a7d215c43762acafe0edfc2a24b5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a4dd0a7d215c43762acafe0edfc2a24b5">org.semanticweb.owlapi.model.IRI.isPlainLiteral</a></div><div class="ttdeci">boolean isPlainLiteral()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00166">IRI.java:166</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor.html">org.semanticweb.owlapi.model.OWLAnnotationSubjectVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_subject_visitor_8java_source.html#l00048">OWLAnnotationSubjectVisitor.java:48</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_af58d22d3489e87cf22bdc11422f917be"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#af58d22d3489e87cf22bdc11422f917be">org.semanticweb.owlapi.model.IRI.hashCode</a></div><div class="ttdeci">int hashCode()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00448">IRI.java:448</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a3d8d67a0cfb3373a284c9444a31455f5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3d8d67a0cfb3373a284c9444a31455f5">org.semanticweb.owlapi.model.IRI.getScheme</a></div><div class="ttdeci">String getScheme()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00092">IRI.java:92</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils_html_a9fc590cb73a041606a4543e3493377a4"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_x_m_l_utils.html#a9fc590cb73a041606a4543e3493377a4">org.semanticweb.owlapi.io.XMLUtils.getNCNameSuffix</a></div><div class="ttdeci">static String getNCNameSuffix(CharSequence s)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_utils_8java_source.html#l00244">XMLUtils.java:244</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a279b1128d22bf16abb409462b1208878"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a279b1128d22bf16abb409462b1208878">org.semanticweb.owlapi.model.IRI.length</a></div><div class="ttdeci">int length()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00320">IRI.java:320</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary_html_ad5912d5be7595b662a72ece8bc3be224"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l_r_d_f_vocabulary.html#ad5912d5be7595b662a72ece8bc3be224">org.semanticweb.owlapi.vocab.OWLRDFVocabulary.OWL_NOTHING</a></div><div class="ttdeci">OWL_NOTHING</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_r_d_f_vocabulary_8java_source.html#l00061">OWLRDFVocabulary.java:61</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ad7bdf7576fa1802a2ca1bfd917efb7a4"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad7bdf7576fa1802a2ca1bfd917efb7a4">org.semanticweb.owlapi.model.IRI.subSequence</a></div><div class="ttdeci">CharSequence subSequence(int start, int end)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00339">IRI.java:339</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor_ex_3_01_e_01_4_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject_visitor_ex_3_01_e_01_4.html">org.semanticweb.owlapi.model.OWLAnnotationSubjectVisitorEx&lt; E &gt;</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_subject_visitor_ex_8java_source.html#l00048">OWLAnnotationSubjectVisitorEx.java:48</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces_html_a0d1c7991e82e2b5c495bb87f1123ce30"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a0d1c7991e82e2b5c495bb87f1123ce30">org.semanticweb.owlapi.vocab.Namespaces.RDF</a></div><div class="ttdeci">RDF</div><div class="ttdef"><b>Definition:</b> <a href="_namespaces_8java_source.html#l00063">Namespaces.java:63</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a6f301810c0f618423e957647288c4a82"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6f301810c0f618423e957647288c4a82">org.semanticweb.owlapi.model.IRI.isNothing</a></div><div class="ttdeci">boolean isNothing()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00156">IRI.java:156</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00057">IRI.java:57</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_predicate_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_predicate.html">org.semanticweb.owlapi.model.SWRLPredicate</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_w_r_l_predicate_8java_source.html#l00047">SWRLPredicate.java:47</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a10f52e371259c2877162003eec525497"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a10f52e371259c2877162003eec525497">org.semanticweb.owlapi.model.IRI.toQuotedString</a></div><div class="ttdeci">String toQuotedString()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00182">IRI.java:182</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a689f56b17fd566c81d3d654efd7bfe0d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a689f56b17fd566c81d3d654efd7bfe0d">org.semanticweb.owlapi.model.IRI.create</a></div><div class="ttdeci">static IRI create(String str)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00198">IRI.java:198</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor.html">org.semanticweb.owlapi.model.OWLAnnotationValueVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_value_visitor_8java_source.html#l00049">OWLAnnotationValueVisitor.java:49</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces_html_a2fcb537074d9307ef1356ffb6a5bd6f4"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_namespaces.html#a2fcb537074d9307ef1356ffb6a5bd6f4">org.semanticweb.owlapi.vocab.Namespaces.OWL</a></div><div class="ttdeci">OWL</div><div class="ttdef"><b>Definition:</b> <a href="_namespaces_8java_source.html#l00061">Namespaces.java:61</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_aa2384590bffa66be3b4d6ab714b6868f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa2384590bffa66be3b4d6ab714b6868f">org.semanticweb.owlapi.model.IRI.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00436">IRI.java:436</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_aa94560b9ed75a428fc317dd246849b2d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#aa94560b9ed75a428fc317dd246849b2d">org.semanticweb.owlapi.model.IRI.getDataPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLDataProperty &gt; getDataPropertiesInSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00372">IRI.java:372</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a3dc6e423b4d1b57c1fa049e74402d724"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a3dc6e423b4d1b57c1fa049e74402d724">org.semanticweb.owlapi.model.IRI.getNestedClassExpressions</a></div><div class="ttdeci">Set&lt; OWLClassExpression &gt; getNestedClassExpressions()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00402">IRI.java:402</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a50c35c2cb67e05c1e5b959af2585dddd"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50c35c2cb67e05c1e5b959af2585dddd">org.semanticweb.owlapi.model.IRI.accept</a></div><div class="ttdeci">void accept(OWLAnnotationSubjectVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00357">IRI.java:357</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a28b303b47529fe7a8fb9500063f996d2"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a28b303b47529fe7a8fb9500063f996d2">org.semanticweb.owlapi.model.IRI.getDatatypesInSignature</a></div><div class="ttdeci">Set&lt; OWLDatatype &gt; getDatatypesInSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00397">IRI.java:397</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a9921fc1089976534e0e6b4a861c4a2fa"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a9921fc1089976534e0e6b4a861c4a2fa">org.semanticweb.owlapi.model.IRI.getAnonymousIndividuals</a></div><div class="ttdeci">Set&lt; OWLAnonymousIndividual &gt; getAnonymousIndividuals()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00392">IRI.java:392</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ae863640ba5e7e06909fe688cfabc785d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ae863640ba5e7e06909fe688cfabc785d">org.semanticweb.owlapi.model.IRI.create</a></div><div class="ttdeci">static IRI create(String prefix, String suffix)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00219">IRI.java:219</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a97806e467662f26392b049cfe8f70e68"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a97806e467662f26392b049cfe8f70e68">org.semanticweb.owlapi.model.IRI.getSignature</a></div><div class="ttdeci">Set&lt; OWLEntity &gt; getSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00387">IRI.java:387</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a2199426933d73137ff483dc3ab5e45e8"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2199426933d73137ff483dc3ab5e45e8">org.semanticweb.owlapi.model.IRI.getFragment</a></div><div class="ttdeci">String getFragment()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00175">IRI.java:175</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_8java_source.html#l00051">OWLObject.java:51</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ab81988d1a409e4c4c786bf838bec61bc"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ab81988d1a409e4c4c786bf838bec61bc">org.semanticweb.owlapi.model.IRI.getObjectPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLObjectProperty &gt; getObjectPropertiesInSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00382">IRI.java:382</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a0959a8004b62245c94a72e03bb2e49e1"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a0959a8004b62245c94a72e03bb2e49e1">org.semanticweb.owlapi.model.IRI.accept</a></div><div class="ttdeci">void accept(OWLObjectVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00347">IRI.java:347</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value.html">org.semanticweb.owlapi.model.OWLAnnotationValue</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_value_8java_source.html#l00053">OWLAnnotationValue.java:53</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a2dea9fabd433bdddf863f690922e45cf"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a2dea9fabd433bdddf863f690922e45cf">org.semanticweb.owlapi.model.IRI.getIndividualsInSignature</a></div><div class="ttdeci">Set&lt; OWLNamedIndividual &gt; getIndividualsInSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00377">IRI.java:377</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor_ex_3_01_o_01_4_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_value_visitor_ex_3_01_o_01_4.html">org.semanticweb.owlapi.model.OWLAnnotationValueVisitorEx&lt; O &gt;</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_value_visitor_ex_8java_source.html#l00047">OWLAnnotationValueVisitorEx.java:47</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_abd83594f4be6ece4037d28088ffe1b11"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#abd83594f4be6ece4037d28088ffe1b11">org.semanticweb.owlapi.model.IRI.isAbsolute</a></div><div class="ttdeci">boolean isAbsolute()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00077">IRI.java:77</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a311489ca7be5ecc7b09e275b047d1e69"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a311489ca7be5ecc7b09e275b047d1e69">org.semanticweb.owlapi.model.IRI.isReservedVocabulary</a></div><div class="ttdeci">boolean isReservedVocabulary()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00134">IRI.java:134</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a489ec57d61acdb7643b82ce9c454c046"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a489ec57d61acdb7643b82ce9c454c046">org.semanticweb.owlapi.model.IRI.create</a></div><div class="ttdeci">static IRI create(File file)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00248">IRI.java:248</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a50d8ef038e5b08c51805deba43051801"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a50d8ef038e5b08c51805deba43051801">org.semanticweb.owlapi.model.IRI.IRI</a></div><div class="ttdeci">IRI(URI uri)</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00315">IRI.java:315</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a6edb4320d80deb1e0c3ef4dc2c53548b"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a6edb4320d80deb1e0c3ef4dc2c53548b">org.semanticweb.owlapi.model.IRI.toURI</a></div><div class="ttdeci">URI toURI()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00062">IRI.java:62</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_a796b557f9337f41c2ca32ac26f0d6c4f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#a796b557f9337f41c2ca32ac26f0d6c4f">org.semanticweb.owlapi.model.IRI.getClassesInSignature</a></div><div class="ttdeci">Set&lt; OWLClass &gt; getClassesInSignature()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00367">IRI.java:367</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html_ad1d5541605d3c911236fc2eb575b729c"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html#ad1d5541605d3c911236fc2eb575b729c">org.semanticweb.owlapi.model.IRI.isTopEntity</a></div><div class="ttdeci">boolean isTopEntity()</div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00466">IRI.java:466</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_76b3e0b700ee38ee7fa6ff1b6828c72f.html">model</a></li><li class="navelem"><a class="el" href="_i_r_i_8java.html">IRI.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:47 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

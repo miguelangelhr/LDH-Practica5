@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente tools/src/main/java/com/clarkparsia/owlapi/explanation/SingleExplanationGeneratorImpl.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_single_explanation_generator_impl_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SingleExplanationGeneratorImpl.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_single_explanation_generator_impl_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, Clark &amp; Parsia, LLC</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, Clark &amp; Parsia, LLC</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">package </span>com.clarkparsia.owlapi.explanation;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker.html">com.clarkparsia.owlapi.explanation.util.DefinitionTracker</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html">   49</a></span>&#160;public abstract class <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html">SingleExplanationGeneratorImpl</a> implements</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">TransactionAwareSingleExpGen</a> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">boolean</span> inTransaction;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> owlOntologyManager;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">OWLReasonerFactory</a> reasonerFactory;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker.html">DefinitionTracker</a> definitionTracker;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#acc38804267856bf1c400584d9c7aa93a">   58</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#acc38804267856bf1c400584d9c7aa93a">SingleExplanationGeneratorImpl</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">OWLReasonerFactory</a> reasonerFactory, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        this.ontology = ontology;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        this.reasonerFactory = reasonerFactory;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.reasoner = reasoner;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        owlOntologyManager = ontology.getOWLOntologyManager();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        definitionTracker = <span class="keyword">new</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker.html">DefinitionTracker</a>(ontology);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    @Override</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a714b5e72b29a583f180fc5ab4b94e1a5">   68</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a714b5e72b29a583f180fc5ab4b94e1a5">getOntologyManager</a>() {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> owlOntologyManager;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    @Override</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#aacc5dbe06c4ddbd58aeeaa723c305761">   73</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#aacc5dbe06c4ddbd58aeeaa723c305761">getReasoner</a>() {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> reasoner;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a846a5cd1400802d2b22c60e87dd5715b">   77</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker.html">DefinitionTracker</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a846a5cd1400802d2b22c60e87dd5715b">getDefinitionTracker</a>() {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> definitionTracker;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    @Override</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a86505a0b5175a58c353bed9f4f742bd6">   82</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a86505a0b5175a58c353bed9f4f742bd6">getOntology</a>() {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> ontology;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    @Override</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a641cb92e1445533f6b4acaf231efa8c3">   87</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">OWLReasonerFactory</a> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a641cb92e1445533f6b4acaf231efa8c3">getReasonerFactory</a>() {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> reasonerFactory;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a930a5f906d8fb0608ce29ef6525ced08">   91</a></span>&#160;    <span class="keyword">protected</span> <span class="keywordtype">boolean</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a930a5f906d8fb0608ce29ef6525ced08">isFirstExplanation</a>() {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> !inTransaction;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    @Override</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a433db251d75f43af675ca4b6eb7b488e">   96</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a433db251d75f43af675ca4b6eb7b488e">beginTransaction</a>() {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">if</span> (inTransaction) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;Already in transaction&quot;</span>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        inTransaction = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    @Override</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a710ad794ef4c66a5d39999379e04a2ef">  104</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a710ad794ef4c66a5d39999379e04a2ef">endTransaction</a>() {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">if</span> (!inTransaction) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;Cannot end transaction&quot;</span>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        inTransaction = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_factory_8java_source.html#l00055">OWLReasonerFactory.java:55</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a714b5e72b29a583f180fc5ab4b94e1a5"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a714b5e72b29a583f180fc5ab4b94e1a5">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.getOntologyManager</a></div><div class="ttdeci">OWLOntologyManager getOntologyManager()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00068">SingleExplanationGeneratorImpl.java:68</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker_html"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1util_1_1_definition_tracker.html">com.clarkparsia.owlapi.explanation.util.DefinitionTracker</a></div><div class="ttdef"><b>Definition:</b> <a href="_definition_tracker_8java_source.html#l00058">DefinitionTracker.java:58</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a710ad794ef4c66a5d39999379e04a2ef"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a710ad794ef4c66a5d39999379e04a2ef">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.endTransaction</a></div><div class="ttdeci">void endTransaction()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00104">SingleExplanationGeneratorImpl.java:104</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00049">SingleExplanationGeneratorImpl.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_manager_8java_source.html#l00061">OWLOntologyManager.java:61</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a846a5cd1400802d2b22c60e87dd5715b"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a846a5cd1400802d2b22c60e87dd5715b">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.getDefinitionTracker</a></div><div class="ttdeci">DefinitionTracker getDefinitionTracker()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00077">SingleExplanationGeneratorImpl.java:77</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a930a5f906d8fb0608ce29ef6525ced08"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a930a5f906d8fb0608ce29ef6525ced08">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.isFirstExplanation</a></div><div class="ttdeci">boolean isFirstExplanation()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00091">SingleExplanationGeneratorImpl.java:91</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a86505a0b5175a58c353bed9f4f742bd6"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a86505a0b5175a58c353bed9f4f742bd6">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.getOntology</a></div><div class="ttdeci">OWLOntology getOntology()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00082">SingleExplanationGeneratorImpl.java:82</a></div></div>
+<div class="ttc" id="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen_html"><div class="ttname"><a href="interfacecom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_transaction_aware_single_exp_gen.html">com.clarkparsia.owlapi.explanation.TransactionAwareSingleExpGen</a></div><div class="ttdef"><b>Definition:</b> <a href="_transaction_aware_single_exp_gen_8java_source.html#l00042">TransactionAwareSingleExpGen.java:42</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_8java_source.html#l00276">OWLReasoner.java:276</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a641cb92e1445533f6b4acaf231efa8c3"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a641cb92e1445533f6b4acaf231efa8c3">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.getReasonerFactory</a></div><div class="ttdeci">OWLReasonerFactory getReasonerFactory()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00087">SingleExplanationGeneratorImpl.java:87</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_a433db251d75f43af675ca4b6eb7b488e"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#a433db251d75f43af675ca4b6eb7b488e">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.beginTransaction</a></div><div class="ttdeci">void beginTransaction()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00096">SingleExplanationGeneratorImpl.java:96</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_acc38804267856bf1c400584d9c7aa93a"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#acc38804267856bf1c400584d9c7aa93a">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.SingleExplanationGeneratorImpl</a></div><div class="ttdeci">SingleExplanationGeneratorImpl(OWLOntology ontology, OWLReasonerFactory reasonerFactory, OWLReasoner reasoner)</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00058">SingleExplanationGeneratorImpl.java:58</a></div></div>
+<div class="ttc" id="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl_html_aacc5dbe06c4ddbd58aeeaa723c305761"><div class="ttname"><a href="classcom_1_1clarkparsia_1_1owlapi_1_1explanation_1_1_single_explanation_generator_impl.html#aacc5dbe06c4ddbd58aeeaa723c305761">com.clarkparsia.owlapi.explanation.SingleExplanationGeneratorImpl.getReasoner</a></div><div class="ttdeci">OWLReasoner getReasoner()</div><div class="ttdef"><b>Definition:</b> <a href="_single_explanation_generator_impl_8java_source.html#l00073">SingleExplanationGeneratorImpl.java:73</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html">tools</a></li><li class="navelem"><a class="el" href="dir_17cadb2edabe3078d28ce072d22225fa.html">src</a></li><li class="navelem"><a class="el" href="dir_63082e2d39c57c4bc6509df0a49cd59d.html">main</a></li><li class="navelem"><a class="el" href="dir_07754de2b1385f2f97a0a71a86bfd503.html">java</a></li><li class="navelem"><a class="el" href="dir_50f4a47ac8f5bc0dbd62cb5b50d50f6c.html">com</a></li><li class="navelem"><a class="el" href="dir_b814732392703f01b20f25726fa582c5.html">clarkparsia</a></li><li class="navelem"><a class="el" href="dir_beb2c0b47c716571c8dc958d4ee40366.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_30e231987fed79454ed8dfbded92d471.html">explanation</a></li><li class="navelem"><a class="el" href="_single_explanation_generator_impl_8java.html">SingleExplanationGeneratorImpl.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:22 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_simple_i_r_i_short_form_provider_test_case =
+[
+    [ "testEmptyPathShortForm", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_simple_i_r_i_short_form_provider_test_case.html#ab7be57a4a94d875e8819d2a83e70a60c", null ],
+    [ "testFragmentShortForm", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_simple_i_r_i_short_form_provider_test_case.html#a9d52838c4b1e1dae555801f6974a42e3", null ],
+    [ "testLastPathShortForm", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_simple_i_r_i_short_form_provider_test_case.html#a89e0d2ec165881c89e6a43bdb81becf3", null ]
+];

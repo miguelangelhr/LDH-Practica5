@@ -1,0 +1,4 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_attribute_not_found_exception =
+[
+    [ "OWLXMLParserAttributeNotFoundException", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_attribute_not_found_exception.html#ab4105e9df491e06ed02f609bd93f87a4", null ]
+];

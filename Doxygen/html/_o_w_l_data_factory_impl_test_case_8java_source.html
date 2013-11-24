@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente contract/src/test/java/org/semanticweb/owlapi/api/test/OWLDataFactoryImplTestCase.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_o_w_l_data_factory_impl_test_case_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">OWLDataFactoryImplTestCase.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_o_w_l_data_factory_impl_test_case_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.api.test;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.assertTrue;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">import</span> java.util.Arrays;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">import</span> java.util.Collection;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> org.junit.Test;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">import</span> org.junit.runner.RunWith;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">import</span> org.junit.runners.Parameterized;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">org.semanticweb.owlapi.model.OWLDataProperty</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">org.semanticweb.owlapi.model.OWLDatatype</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">org.semanticweb.owlapi.model.OWLObjectProperty</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">import</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;@RunWith(value = Parameterized.class)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html">   27</a></span>&#160;public class <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html">OWLDataFactoryImplTestCase</a> {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a> dataFactory;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8078343e819b73dd7751fc2aae0244b5">   30</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8078343e819b73dd7751fc2aae0244b5">OWLDataFactoryImplTestCase</a>(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a> dataFactory) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        this.dataFactory = dataFactory;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    @Parameterized.Parameters</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8dcd73e8d09cf69c367f30116784d383">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> Collection&lt;Object[]&gt; <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8dcd73e8d09cf69c367f30116784d383">parameters</a>() {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a> noCaching = <span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a>(<span class="keyword">false</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a> withCaching = <span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">OWLDataFactoryImpl</a>(<span class="keyword">true</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> Arrays.asList(<span class="keyword">new</span> Object[] { noCaching }, <span class="keyword">new</span> Object[] { withCaching });</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    @Test</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a4c78b2c4e158fed161a00984bcbd40ab">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a4c78b2c4e158fed161a00984bcbd40ab">getRDFPlainLiteral</a>() {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall1 = dataFactory.getRDFPlainLiteral();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall2 = dataFactory.getRDFPlainLiteral();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        assertTrue(datatypeCall1 == datatypeCall2);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    @Test</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a0666e76ac88baadd8733591eea55b9cd">   49</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a0666e76ac88baadd8733591eea55b9cd">getTopDatatype</a>() {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall1 = dataFactory.getTopDatatype();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall2 = dataFactory.getTopDatatype();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        assertTrue(datatypeCall1 == datatypeCall2);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    @Test</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2c44dc781239545c6007b213a0ca3b8f">   56</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2c44dc781239545c6007b213a0ca3b8f">getBooleanDatatype</a>() {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall1 = dataFactory.getBooleanOWLDatatype();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall2 = dataFactory.getBooleanOWLDatatype();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        assertTrue(datatypeCall1 == datatypeCall2);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    @Test</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2eb0370d4d727a5e7053c64be539d70c">   63</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2eb0370d4d727a5e7053c64be539d70c">getDoubleDatatype</a>() {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall1 = dataFactory.getDoubleOWLDatatype();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall2 = dataFactory.getDoubleOWLDatatype();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        assertTrue(datatypeCall1 == datatypeCall2);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    @Test</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a32d3b5497e2e8b51eebbe7ac3de54151">   70</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a32d3b5497e2e8b51eebbe7ac3de54151">getFloatDatatype</a>() {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall1 = dataFactory.getFloatOWLDatatype();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatypeCall2 = dataFactory.getFloatOWLDatatype();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        assertTrue(datatypeCall1 == datatypeCall2);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    @Test</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#acc4b84d83c6c0536ac3105ad994d5a49">   77</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#acc4b84d83c6c0536ac3105ad994d5a49">getRDFSLabel</a>() {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getRDFSLabel();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getRDFSLabel();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    @Test</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#adca0161301fd068ed3a5958a0cf400c7">   84</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#adca0161301fd068ed3a5958a0cf400c7">getRDFSComment</a>() {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getRDFSComment();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getRDFSComment();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    @Test</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ab11e7e61a3faecebb1d8173d0a9b884b">   91</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ab11e7e61a3faecebb1d8173d0a9b884b">getRDFSSeeAlso</a>() {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getRDFSSeeAlso();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getRDFSSeeAlso();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    @Test</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ada5edec38822d8f90902471eb6a8252e">   98</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ada5edec38822d8f90902471eb6a8252e">getRDFSIsDefinedBy</a>() {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getRDFSIsDefinedBy();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getRDFSIsDefinedBy();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    @Test</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#aeef6d907a4317b4d316c4a95ae027e6f">  105</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#aeef6d907a4317b4d316c4a95ae027e6f">getOWLVersionInfo</a>() {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getOWLVersionInfo();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getOWLVersionInfo();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    @Test</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a325b45c1860ae277b568595225dfc1ad">  112</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a325b45c1860ae277b568595225dfc1ad">getOWLBackwardCompatibleWith</a>() {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getOWLBackwardCompatibleWith();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getOWLBackwardCompatibleWith();</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    @Test</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#abd6c56128e6d6256cb6d82016d239ebe">  119</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#abd6c56128e6d6256cb6d82016d239ebe">getOWLIncompatibleWith</a>() {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getOWLIncompatibleWith();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getOWLIncompatibleWith();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    @Test</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8e3c63ca069c3a1d8979aec5f7a528eb">  126</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8e3c63ca069c3a1d8979aec5f7a528eb">getOWLDeprecated</a>() {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call1 = dataFactory.getOWLDeprecated();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> call2 = dataFactory.getOWLDeprecated();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    @Test</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#add9eee1fd4b08e1a0864f73208d031eb">  133</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#add9eee1fd4b08e1a0864f73208d031eb">getOWLThing</a>() {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> call1 = dataFactory.getOWLThing();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> call2 = dataFactory.getOWLThing();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    @Test</div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a47c95bd90554b5ed8d7de7738cfc28a9">  140</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a47c95bd90554b5ed8d7de7738cfc28a9">getOWLNothing</a>() {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> call1 = dataFactory.getOWLNothing();</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> call2 = dataFactory.getOWLNothing();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    @Test</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a600c5960338159fcda8f32c4405e2893">  147</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a600c5960338159fcda8f32c4405e2893">getOWLTopObjectProperty</a>() {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> call1 = dataFactory.getOWLTopObjectProperty();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> call2 = dataFactory.getOWLTopObjectProperty();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    @Test</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a123b8fc18fbeb62902f87f631db890a5">  154</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a123b8fc18fbeb62902f87f631db890a5">getOWLBottomObjectProperty</a>() {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> call1 = dataFactory.getOWLBottomObjectProperty();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> call2 = dataFactory.getOWLBottomObjectProperty();</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    @Test</div>
+<div class="line"><a name="l00161"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ae6b9d37dc94a04eabf609e899e783053">  161</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ae6b9d37dc94a04eabf609e899e783053">getOWLTopDataProperty</a>() {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> call1 = dataFactory.getOWLTopDataProperty();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> call2 = dataFactory.getOWLTopDataProperty();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    @Test</div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8576801a0d54ba8c3e7d1f126c028ae8">  168</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8576801a0d54ba8c3e7d1f126c028ae8">getOWLBottomDataProperty</a>() {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> call1 = dataFactory.getOWLBottomDataProperty();</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> call2 = dataFactory.getOWLBottomDataProperty();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        assertTrue(call1 == call2);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_ab11e7e61a3faecebb1d8173d0a9b884b"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ab11e7e61a3faecebb1d8173d0a9b884b">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getRDFSSeeAlso</a></div><div class="ttdeci">void getRDFSSeeAlso()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00091">OWLDataFactoryImplTestCase.java:91</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a32d3b5497e2e8b51eebbe7ac3de54151"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a32d3b5497e2e8b51eebbe7ac3de54151">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getFloatDatatype</a></div><div class="ttdeci">void getFloatDatatype()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00070">OWLDataFactoryImplTestCase.java:70</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a8e3c63ca069c3a1d8979aec5f7a528eb"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8e3c63ca069c3a1d8979aec5f7a528eb">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLDeprecated</a></div><div class="ttdeci">void getOWLDeprecated()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00126">OWLDataFactoryImplTestCase.java:126</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_property_8java_source.html#l00051">OWLAnnotationProperty.java:51</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_aeef6d907a4317b4d316c4a95ae027e6f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#aeef6d907a4317b4d316c4a95ae027e6f">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLVersionInfo</a></div><div class="ttdeci">void getOWLVersionInfo()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00105">OWLDataFactoryImplTestCase.java:105</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a8dcd73e8d09cf69c367f30116784d383"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8dcd73e8d09cf69c367f30116784d383">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.parameters</a></div><div class="ttdeci">.Parameters static Collection&lt; Object[]&gt; parameters()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00035">OWLDataFactoryImplTestCase.java:35</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a47c95bd90554b5ed8d7de7738cfc28a9"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a47c95bd90554b5ed8d7de7738cfc28a9">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLNothing</a></div><div class="ttdeci">void getOWLNothing()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00140">OWLDataFactoryImplTestCase.java:140</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">org.semanticweb.owlapi.model.OWLDatatype</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_datatype_8java_source.html#l00052">OWLDatatype.java:52</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_ae6b9d37dc94a04eabf609e899e783053"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ae6b9d37dc94a04eabf609e899e783053">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLTopDataProperty</a></div><div class="ttdeci">void getOWLTopDataProperty()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00161">OWLDataFactoryImplTestCase.java:161</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_abd6c56128e6d6256cb6d82016d239ebe"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#abd6c56128e6d6256cb6d82016d239ebe">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLIncompatibleWith</a></div><div class="ttdeci">void getOWLIncompatibleWith()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00119">OWLDataFactoryImplTestCase.java:119</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a0666e76ac88baadd8733591eea55b9cd"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a0666e76ac88baadd8733591eea55b9cd">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getTopDatatype</a></div><div class="ttdeci">void getTopDatatype()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00049">OWLDataFactoryImplTestCase.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">org.semanticweb.owlapi.model.OWLDataProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_property_8java_source.html#l00050">OWLDataProperty.java:50</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a600c5960338159fcda8f32c4405e2893"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a600c5960338159fcda8f32c4405e2893">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLTopObjectProperty</a></div><div class="ttdeci">void getOWLTopObjectProperty()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00147">OWLDataFactoryImplTestCase.java:147</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a8576801a0d54ba8c3e7d1f126c028ae8"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8576801a0d54ba8c3e7d1f126c028ae8">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLBottomDataProperty</a></div><div class="ttdeci">void getOWLBottomDataProperty()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00168">OWLDataFactoryImplTestCase.java:168</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryImpl</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_8java_source.html#l00061">OWLDataFactoryImpl.java:61</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00027">OWLDataFactoryImplTestCase.java:27</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_adca0161301fd068ed3a5958a0cf400c7"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#adca0161301fd068ed3a5958a0cf400c7">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getRDFSComment</a></div><div class="ttdeci">void getRDFSComment()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00084">OWLDataFactoryImplTestCase.java:84</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a4c78b2c4e158fed161a00984bcbd40ab"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a4c78b2c4e158fed161a00984bcbd40ab">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getRDFPlainLiteral</a></div><div class="ttdeci">void getRDFPlainLiteral()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00042">OWLDataFactoryImplTestCase.java:42</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a2c44dc781239545c6007b213a0ca3b8f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2c44dc781239545c6007b213a0ca3b8f">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getBooleanDatatype</a></div><div class="ttdeci">void getBooleanDatatype()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00056">OWLDataFactoryImplTestCase.java:56</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">org.semanticweb.owlapi.model.OWLObjectProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_property_8java_source.html#l00050">OWLObjectProperty.java:50</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_8java_source.html#l00052">OWLClass.java:52</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_add9eee1fd4b08e1a0864f73208d031eb"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#add9eee1fd4b08e1a0864f73208d031eb">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLThing</a></div><div class="ttdeci">void getOWLThing()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00133">OWLDataFactoryImplTestCase.java:133</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_acc4b84d83c6c0536ac3105ad994d5a49"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#acc4b84d83c6c0536ac3105ad994d5a49">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getRDFSLabel</a></div><div class="ttdeci">void getRDFSLabel()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00077">OWLDataFactoryImplTestCase.java:77</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a2eb0370d4d727a5e7053c64be539d70c"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a2eb0370d4d727a5e7053c64be539d70c">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getDoubleDatatype</a></div><div class="ttdeci">void getDoubleDatatype()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00063">OWLDataFactoryImplTestCase.java:63</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a123b8fc18fbeb62902f87f631db890a5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a123b8fc18fbeb62902f87f631db890a5">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLBottomObjectProperty</a></div><div class="ttdeci">void getOWLBottomObjectProperty()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00154">OWLDataFactoryImplTestCase.java:154</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_ada5edec38822d8f90902471eb6a8252e"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#ada5edec38822d8f90902471eb6a8252e">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getRDFSIsDefinedBy</a></div><div class="ttdeci">void getRDFSIsDefinedBy()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00098">OWLDataFactoryImplTestCase.java:98</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a8078343e819b73dd7751fc2aae0244b5"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a8078343e819b73dd7751fc2aae0244b5">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.OWLDataFactoryImplTestCase</a></div><div class="ttdeci">OWLDataFactoryImplTestCase(OWLDataFactoryImpl dataFactory)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00030">OWLDataFactoryImplTestCase.java:30</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case_html_a325b45c1860ae277b568595225dfc1ad"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_o_w_l_data_factory_impl_test_case.html#a325b45c1860ae277b568595225dfc1ad">org.semanticweb.owlapi.api.test.OWLDataFactoryImplTestCase.getOWLBackwardCompatibleWith</a></div><div class="ttdeci">void getOWLBackwardCompatibleWith()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_impl_test_case_8java_source.html#l00112">OWLDataFactoryImplTestCase.java:112</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5a6ede4e8c7762127a1762581af481b3.html">contract</a></li><li class="navelem"><a class="el" href="dir_10c5ce78af3a0f5285b8909bfe9c9ac1.html">src</a></li><li class="navelem"><a class="el" href="dir_79196d0ddedcdf664f39d49fddb8c8b7.html">test</a></li><li class="navelem"><a class="el" href="dir_c35e9cfd34a6d130101877e2d2f54f34.html">java</a></li><li class="navelem"><a class="el" href="dir_b7a786f4067b6e9d5671dc82caf4451c.html">org</a></li><li class="navelem"><a class="el" href="dir_9cde9cff210d9e0b9e161032f7a7d3ea.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_991f413281da0c95146fca244dab9b55.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_408e3eef09f461af1b14cf0aa0290fd5.html">api</a></li><li class="navelem"><a class="el" href="dir_18cdde8db8870742b24133fb5793b269.html">test</a></li><li class="navelem"><a class="el" href="_o_w_l_data_factory_impl_test_case_8java.html">OWLDataFactoryImplTestCase.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:00 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz uk.ac.manchester.cs.owl.owlapi.Internals</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz uk.ac.manchester.cs.owl.owlapi.Internals</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_1_1_pointer_3_01_k_00_01_v_01_4.html">Pointer&lt; K, V &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_1_1_simple_pointer_3_01_k_01_4.html">SimplePointer&lt; K &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a0ce9f2ac8b46af987d9ab4e291e92658"><td class="memItemLeft" align="right" valign="top">Pointer&lt; AxiomType&lt;?&gt;, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a0ce9f2ac8b46af987d9ab4e291e92658">getAxiomsByType</a> ()</td></tr>
+<tr class="separator:a0ce9f2ac8b46af987d9ab4e291e92658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53d9cc1a5d14451464e68c94fb54e5e"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#af53d9cc1a5d14451464e68c94fb54e5e">add</a> (Pointer&lt; K, V &gt; pointer, K key, V value)</td></tr>
+<tr class="separator:af53d9cc1a5d14451464e68c94fb54e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2678839adf7ccff2f1778d9ff176183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aa2678839adf7ccff2f1778d9ff176183">addGeneralClassAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a> ax)</td></tr>
+<tr class="separator:aa2678839adf7ccff2f1778d9ff176183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69030686c64f75f318d38988913945dc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a69030686c64f75f318d38988913945dc">addImportsDeclaration</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a> importDeclaration)</td></tr>
+<tr class="separator:a69030686c64f75f318d38988913945dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7210d7205932d5da117d898121030dc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ac7210d7205932d5da117d898121030dc">addOntologyAnnotation</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> ann)</td></tr>
+<tr class="separator:ac7210d7205932d5da117d898121030dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcd7697f6a212f049ed86f0fab0eddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a1dcd7697f6a212f049ed86f0fab0eddc">addPropertyChainSubPropertyAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> ax)</td></tr>
+<tr class="separator:a1dcd7697f6a212f049ed86f0fab0eddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f2beb6e7048753348f1fb026521a1f"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ab3f2beb6e7048753348f1fb026521a1f">contains</a> (Pointer&lt; K, V &gt; pointer, K k)</td></tr>
+<tr class="separator:ab3f2beb6e7048753348f1fb026521a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e7d7d9a230d7b069732ededf274b99"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ac3e7d7d9a230d7b069732ededf274b99">contains</a> (Pointer&lt; K, V &gt; pointer, K k, V v)</td></tr>
+<tr class="separator:ac3e7d7d9a230d7b069732ededf274b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e0ba6870a4acf8028e5b425be41cd2"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">OWLAnnotationSubject</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ad0e0ba6870a4acf8028e5b425be41cd2">getAnnotationAssertionAxiomsBySubject</a> ()</td></tr>
+<tr class="separator:ad0e0ba6870a4acf8028e5b425be41cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cbaeb33d35d7368f04fb4f0d02357f"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a60cbaeb33d35d7368f04fb4f0d02357f">getAsymmetricPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a60cbaeb33d35d7368f04fb4f0d02357f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b98ad0b5e89929e62d71884b1b8a16c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a6b98ad0b5e89929e62d71884b1b8a16c">getAxiomCount</a> ()</td></tr>
+<tr class="separator:a6b98ad0b5e89929e62d71884b1b8a16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101464ac64598cbbd6be7d7401748932"><td class="memItemLeft" align="right" valign="top">&lt; TextendsOWLAxiom &gt; int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a101464ac64598cbbd6be7d7401748932">getAxiomCount</a> (AxiomType&lt; T &gt; axiomType)</td></tr>
+<tr class="separator:a101464ac64598cbbd6be7d7401748932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca6cef549444ab5c9427a673e8c93de6"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aca6cef549444ab5c9427a673e8c93de6">getAxioms</a> ()</td></tr>
+<tr class="separator:aca6cef549444ab5c9427a673e8c93de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac75f647b69006aab86f1984c911f820"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aac75f647b69006aab86f1984c911f820">getClassAssertionAxiomsByClass</a> ()</td></tr>
+<tr class="separator:aac75f647b69006aab86f1984c911f820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a803cd2aaf8e94db46919c2445d5222"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a6a803cd2aaf8e94db46919c2445d5222">getClassAssertionAxiomsByIndividual</a> ()</td></tr>
+<tr class="separator:a6a803cd2aaf8e94db46919c2445d5222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ca9f58be718b9bfabcc28252f50591"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#af7ca9f58be718b9bfabcc28252f50591">getClassAxiomsByClass</a> ()</td></tr>
+<tr class="separator:af7ca9f58be718b9bfabcc28252f50591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae224a024cfa42f2b7fed95f3a96d6c32"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ae224a024cfa42f2b7fed95f3a96d6c32">getDataPropertyAssertionsByIndividual</a> ()</td></tr>
+<tr class="separator:ae224a024cfa42f2b7fed95f3a96d6c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35c100aca490066ebbd59464cb808f5"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aa35c100aca490066ebbd59464cb808f5">getDataPropertyDomainAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:aa35c100aca490066ebbd59464cb808f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee110f1db6a236e5c2fa40f7b8a09b1"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a5ee110f1db6a236e5c2fa40f7b8a09b1">getDataPropertyRangeAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a5ee110f1db6a236e5c2fa40f7b8a09b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4cdece74b144d8a02192a8cc0376b7a"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aa4cdece74b144d8a02192a8cc0376b7a">getDataSubPropertyAxiomsByLHS</a> ()</td></tr>
+<tr class="separator:aa4cdece74b144d8a02192a8cc0376b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54941eeb12abab13c2e2094b34661059"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a54941eeb12abab13c2e2094b34661059">getDataSubPropertyAxiomsByRHS</a> ()</td></tr>
+<tr class="separator:a54941eeb12abab13c2e2094b34661059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab202f7884fc48ec3c27a8e1d1148bd67"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ab202f7884fc48ec3c27a8e1d1148bd67">getDeclarationsByEntity</a> ()</td></tr>
+<tr class="separator:ab202f7884fc48ec3c27a8e1d1148bd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff0060128cbef7f5568442e7cb16312"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#acff0060128cbef7f5568442e7cb16312">getDifferentIndividualsAxiomsByIndividual</a> ()</td></tr>
+<tr class="separator:acff0060128cbef7f5568442e7cb16312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa21a867c46754c76f38a605f59fca7dd"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aa21a867c46754c76f38a605f59fca7dd">getDisjointClassesAxiomsByClass</a> ()</td></tr>
+<tr class="separator:aa21a867c46754c76f38a605f59fca7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915005303431fc07a68976b10b2a6d47"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a915005303431fc07a68976b10b2a6d47">getDisjointDataPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a915005303431fc07a68976b10b2a6d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3be28f5046ca885c9105a880d12117"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a9d3be28f5046ca885c9105a880d12117">getDisjointObjectPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a9d3be28f5046ca885c9105a880d12117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf23a322901ee614f675c17fec3a7ad3"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#acf23a322901ee614f675c17fec3a7ad3">getDisjointUnionAxiomsByClass</a> ()</td></tr>
+<tr class="separator:acf23a322901ee614f675c17fec3a7ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a76137a41c25a37955fcc73087ac3e"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ae1a76137a41c25a37955fcc73087ac3e">getEquivalentClassesAxiomsByClass</a> ()</td></tr>
+<tr class="separator:ae1a76137a41c25a37955fcc73087ac3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b14b970720f03319414a4eec1230dfc"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a8b14b970720f03319414a4eec1230dfc">getEquivalentDataPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a8b14b970720f03319414a4eec1230dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f87cdbdafe6d7c6a3a1e355ce8435b"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a49f87cdbdafe6d7c6a3a1e355ce8435b">getEquivalentObjectPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a49f87cdbdafe6d7c6a3a1e355ce8435b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec02e160f93c539bb0efb877fac04a7"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a7ec02e160f93c539bb0efb877fac04a7">getFunctionalDataPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a7ec02e160f93c539bb0efb877fac04a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe1dee9406ef607615ec2301b187633"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#adfe1dee9406ef607615ec2301b187633">getFunctionalObjectPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:adfe1dee9406ef607615ec2301b187633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a6ac38fec37d614703d062514e85bd"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a13a6ac38fec37d614703d062514e85bd">getGeneralClassAxioms</a> ()</td></tr>
+<tr class="separator:a13a6ac38fec37d614703d062514e85bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec8c7fdc5702db2aaabe381573fa831"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aaec8c7fdc5702db2aaabe381573fa831">getHasKeyAxiomsByClass</a> ()</td></tr>
+<tr class="separator:aaec8c7fdc5702db2aaabe381573fa831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad294a78d8fb5e3aed76e91e3991a94"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a0ad294a78d8fb5e3aed76e91e3991a94">getImportsDeclarations</a> ()</td></tr>
+<tr class="separator:a0ad294a78d8fb5e3aed76e91e3991a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a792dfb8bfb0991820f38140c94b7c8e7"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a792dfb8bfb0991820f38140c94b7c8e7">getInverseFunctionalPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a792dfb8bfb0991820f38140c94b7c8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2dd2ac469b12fe2399e9f63e6d41456"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ae2dd2ac469b12fe2399e9f63e6d41456">getInversePropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:ae2dd2ac469b12fe2399e9f63e6d41456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4385b8da38105f734e26d6ac0e148ecb"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a4385b8da38105f734e26d6ac0e148ecb">getIrreflexivePropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a4385b8da38105f734e26d6ac0e148ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae7deaa3e4e1d0f446c398c590a4d505"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aae7deaa3e4e1d0f446c398c590a4d505">getLogicalAxiomCount</a> ()</td></tr>
+<tr class="separator:aae7deaa3e4e1d0f446c398c590a4d505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206ab984f8d026b971a49df1308dc6b5"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">OWLLogicalAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a206ab984f8d026b971a49df1308dc6b5">getLogicalAxioms</a> ()</td></tr>
+<tr class="separator:a206ab984f8d026b971a49df1308dc6b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d65d2089858bc6556866267d4156530"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a9d65d2089858bc6556866267d4156530">getNegativeDataPropertyAssertionAxiomsByIndividual</a> ()</td></tr>
+<tr class="separator:a9d65d2089858bc6556866267d4156530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b3894410d108d2aeb722ff52a5b3f5"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a40b3894410d108d2aeb722ff52a5b3f5">getNegativeObjectPropertyAssertionAxiomsByIndividual</a> ()</td></tr>
+<tr class="separator:a40b3894410d108d2aeb722ff52a5b3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf4b1438db8a444f81aac7f3e2e4340"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a4cf4b1438db8a444f81aac7f3e2e4340">getObjectPropertyAssertionsByIndividual</a> ()</td></tr>
+<tr class="separator:a4cf4b1438db8a444f81aac7f3e2e4340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d37b412d154a5e948cadd7e992b617"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a12d37b412d154a5e948cadd7e992b617">getObjectPropertyDomainAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a12d37b412d154a5e948cadd7e992b617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539904f59c359880a4afbca4750f549f"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a539904f59c359880a4afbca4750f549f">getObjectPropertyRangeAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a539904f59c359880a4afbca4750f549f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0efe7250d24ec943f8258d2b4dbe9ea2"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a0efe7250d24ec943f8258d2b4dbe9ea2">getObjectSubPropertyAxiomsByLHS</a> ()</td></tr>
+<tr class="separator:a0efe7250d24ec943f8258d2b4dbe9ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12df533a393475c9a729e3f5eb8fd483"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a12df533a393475c9a729e3f5eb8fd483">getObjectSubPropertyAxiomsByRHS</a> ()</td></tr>
+<tr class="separator:a12df533a393475c9a729e3f5eb8fd483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18433a6e4962db8b311e6369831f7b9a"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a18433a6e4962db8b311e6369831f7b9a">getOntologyAnnotations</a> ()</td></tr>
+<tr class="separator:a18433a6e4962db8b311e6369831f7b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09768fe68798949a916e32e77f49a562"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a09768fe68798949a916e32e77f49a562">getOwlAnnotationPropertyReferences</a> ()</td></tr>
+<tr class="separator:a09768fe68798949a916e32e77f49a562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fe892b1fda5d8f3a686e1f666b7e92"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#af9fe892b1fda5d8f3a686e1f666b7e92">getOwlAnonymousIndividualReferences</a> ()</td></tr>
+<tr class="separator:af9fe892b1fda5d8f3a686e1f666b7e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7789715e2bdbde471d9caa99d000919d"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a7789715e2bdbde471d9caa99d000919d">getOwlClassReferences</a> ()</td></tr>
+<tr class="separator:a7789715e2bdbde471d9caa99d000919d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c01fdaf337c176cceda1cb851511fa5"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a6c01fdaf337c176cceda1cb851511fa5">getOwlDataPropertyReferences</a> ()</td></tr>
+<tr class="separator:a6c01fdaf337c176cceda1cb851511fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3f5233d8d0b46a97d673a63390fc23"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ada3f5233d8d0b46a97d673a63390fc23">getOwlDatatypeReferences</a> ()</td></tr>
+<tr class="separator:ada3f5233d8d0b46a97d673a63390fc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b25a6b608d964fb25aae1ac6ddacceb"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a6b25a6b608d964fb25aae1ac6ddacceb">getOwlIndividualReferences</a> ()</td></tr>
+<tr class="separator:a6b25a6b608d964fb25aae1ac6ddacceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2569b30e1265f32f69d72fc9b1948d56"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a2569b30e1265f32f69d72fc9b1948d56">getOwlObjectPropertyReferences</a> ()</td></tr>
+<tr class="separator:a2569b30e1265f32f69d72fc9b1948d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f68376caf4b0009ae596bfc5f6749a"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a26f68376caf4b0009ae596bfc5f6749a">getReflexivePropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a26f68376caf4b0009ae596bfc5f6749a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ee8899e86d49fdbccb83857d74d6f1"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a66ee8899e86d49fdbccb83857d74d6f1">getSameIndividualsAxiomsByIndividual</a> ()</td></tr>
+<tr class="separator:a66ee8899e86d49fdbccb83857d74d6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37af7acf15599efda4602a6ab88af2a0"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a37af7acf15599efda4602a6ab88af2a0">getSubClassAxiomsByLHS</a> ()</td></tr>
+<tr class="separator:a37af7acf15599efda4602a6ab88af2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cbde625551f8ec2b2f710d057d9dc5"><td class="memItemLeft" align="right" valign="top">Pointer&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ab1cbde625551f8ec2b2f710d057d9dc5">getSubClassAxiomsByRHS</a> ()</td></tr>
+<tr class="separator:ab1cbde625551f8ec2b2f710d057d9dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91067e7c7aef6a533399dc6aa28a1b95"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a91067e7c7aef6a533399dc6aa28a1b95">getSymmetricPropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a91067e7c7aef6a533399dc6aa28a1b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61da8a81982d8f9df698a406177a140a"><td class="memItemLeft" align="right" valign="top">Pointer<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <br class="typebreak"/>
+<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a61da8a81982d8f9df698a406177a140a">getTransitivePropertyAxiomsByProperty</a> ()</td></tr>
+<tr class="separator:a61da8a81982d8f9df698a406177a140a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8a1cbb5c1c50205af5e98b1d44893e"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; Set&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#adb8a1cbb5c1c50205af5e98b1d44893e">getValues</a> (Pointer&lt; K, V &gt; pointer, K key)</td></tr>
+<tr class="separator:adb8a1cbb5c1c50205af5e98b1d44893e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3014c32d854035da0ff2c2695a9af1"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a2e3014c32d854035da0ff2c2695a9af1">hasValues</a> (Pointer&lt; K, V &gt; pointer, K key)</td></tr>
+<tr class="separator:a2e3014c32d854035da0ff2c2695a9af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349082e03ef4fbee752949861f986fdb"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; Set&lt; K &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a349082e03ef4fbee752949861f986fdb">getKeyset</a> (Pointer&lt; K, V &gt; pointer)</td></tr>
+<tr class="separator:a349082e03ef4fbee752949861f986fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c8cd6ed8f8d7dc9007a6a1258d50bb"><td class="memItemLeft" align="right" valign="top">public&lt; T extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>, K &gt;<br class="typebreak"/>
+ Set&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#af3c8cd6ed8f8d7dc9007a6a1258d50bb">filterAxioms</a> (OWLAxiomSearchFilter&lt; T, K &gt; filter, K key)</td></tr>
+<tr class="separator:af3c8cd6ed8f8d7dc9007a6a1258d50bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21440e90ce1f150d30b17d9e5d5fdb38"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a21440e90ce1f150d30b17d9e5d5fdb38">isDeclared</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a> ax)</td></tr>
+<tr class="separator:a21440e90ce1f150d30b17d9e5d5fdb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ba5e7c46805f61648956a1d7d4cd58"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ae4ba5e7c46805f61648956a1d7d4cd58">isEmpty</a> ()</td></tr>
+<tr class="separator:ae4ba5e7c46805f61648956a1d7d4cd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25dcfda0496e1cb80675c7ead6066be9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a25dcfda0496e1cb80675c7ead6066be9">addAxiom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom)</td></tr>
+<tr class="separator:a25dcfda0496e1cb80675c7ead6066be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9d3298314cb796cb331d2535541a85"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a9c9d3298314cb796cb331d2535541a85">removeAxiom</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom)</td></tr>
+<tr class="separator:a9c9d3298314cb796cb331d2535541a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0939222ed276901544ea70844f387f2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a0939222ed276901544ea70844f387f2d">removeGeneralClassAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a> ax)</td></tr>
+<tr class="separator:a0939222ed276901544ea70844f387f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f738d037cb14f6b71f45fa68cb05928"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a2f738d037cb14f6b71f45fa68cb05928">removeImportsDeclaration</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a> importDeclaration)</td></tr>
+<tr class="separator:a2f738d037cb14f6b71f45fa68cb05928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38f5aa5b54ec365a7d9a3a6654c54e0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#aa38f5aa5b54ec365a7d9a3a6654c54e0">removeOntologyAnnotation</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> ann)</td></tr>
+<tr class="separator:aa38f5aa5b54ec365a7d9a3a6654c54e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada90e20392a6f718507a3bd7a600e3c4"><td class="memItemLeft" align="right" valign="top">&lt; K, VextendsOWLAxiom &gt; boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#ada90e20392a6f718507a3bd7a600e3c4">remove</a> (Pointer&lt; K, V &gt; pointer, K k, V v)</td></tr>
+<tr class="separator:ada90e20392a6f718507a3bd7a600e3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6223140a53c1cfbe71e6a076e15018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html#a6a6223140a53c1cfbe71e6a076e15018">removePropertyChainSubPropertyAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> ax)</td></tr>
+<tr class="separator:a6a6223140a53c1cfbe71e6a076e15018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock">
+<p>Definición en la línea <a class="el" href="_internals_8java_source.html#l00099">99</a> del archivo <a class="el" href="_internals_8java_source.html">Internals.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="af53d9cc1a5d14451464e68c94fb54e5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; boolean uk.ac.manchester.cs.owl.owlapi.Internals.add </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25dcfda0496e1cb80675c7ead6066be9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.addAxiom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2678839adf7ccff2f1778d9ff176183"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.Internals.addGeneralClassAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a>&#160;</td>
+          <td class="paramname"><em>ax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a451a03bfe4e7764668b9ac61128c15c9">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69030686c64f75f318d38988913945dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.addImportsDeclaration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a>&#160;</td>
+          <td class="paramname"><em>importDeclaration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">importDeclaration</td><td>declaration to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if the import declaration was not already present, false otherwise </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#ab9b291c72bdb1c2f32f67899b709de0d">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7210d7205932d5da117d898121030dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.addOntologyAnnotation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&#160;</td>
+          <td class="paramname"><em>ann</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a92f3729f5a4620e02b1215f6084104b7">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1dcd7697f6a212f049ed86f0fab0eddc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.Internals.addPropertyChainSubPropertyAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>ax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a8973c233879490e3448859cdd9adc46c">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab3f2beb6e7048753348f1fb026521a1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; boolean uk.ac.manchester.cs.owl.owlapi.Internals.contains </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3e7d7d9a230d7b069732ededf274b99"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; boolean uk.ac.manchester.cs.owl.owlapi.Internals.contains </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af3c8cd6ed8f8d7dc9007a6a1258d50bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">public&lt;T extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>, K&gt; Set&lt;T&gt; uk.ac.manchester.cs.owl.owlapi.Internals.filterAxioms </td>
+          <td>(</td>
+          <td class="paramtype">OWLAxiomSearchFilter&lt; T, K &gt;&#160;</td>
+          <td class="paramname"><em>filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0e0ba6870a4acf8028e5b425be41cd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_subject.html">OWLAnnotationSubject</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getAnnotationAssertionAxiomsBySubject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a95e00330fb7792751f9f411e4a4d7512">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60cbaeb33d35d7368f04fb4f0d02357f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getAsymmetricPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#af2e243c178b8d9c494eef236692f5595">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b98ad0b5e89929e62d71884b1b8a16c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int uk.ac.manchester.cs.owl.owlapi.Internals.getAxiomCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#aff77e20d85ababcb19a23ab910d06c3f">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a101464ac64598cbbd6be7d7401748932"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;TextendsOWLAxiom&gt; int uk.ac.manchester.cs.owl.owlapi.Internals.getAxiomCount </td>
+          <td>(</td>
+          <td class="paramtype">AxiomType&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>axiomType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca6cef549444ab5c9427a673e8c93de6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getAxioms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a32137213284233b886dbfc01b42a2a1f">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ce9f2ac8b46af987d9ab4e291e92658"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;AxiomType&lt;?&gt;, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getAxiomsByType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a7266199fff93de4e0c90f2c184c1a3b4">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac75f647b69006aab86f1984c911f820"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getClassAssertionAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#adb4a11a9ad918975bf1414b58fc36508">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a803cd2aaf8e94db46919c2445d5222"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getClassAssertionAxiomsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a7422a795a956404da6141c05e3b4217b">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7ca9f58be718b9bfabcc28252f50591"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getClassAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a9de77f961afd0d3eeccab16ae715b6dc">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae224a024cfa42f2b7fed95f3a96d6c32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDataPropertyAssertionsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a48da67551b5b9a622fb348d9c1070c75">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa35c100aca490066ebbd59464cb808f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDataPropertyDomainAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#aff29d135d3740d1ad2e8ce65abd2407f">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ee110f1db6a236e5c2fa40f7b8a09b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDataPropertyRangeAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#aee9e5122361106290391d8e11198b0b9">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4cdece74b144d8a02192a8cc0376b7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDataSubPropertyAxiomsByLHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ad3dffba6232c65b00b985251eac7c052">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54941eeb12abab13c2e2094b34661059"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDataSubPropertyAxiomsByRHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a7ae4b396f3ba9dba3d26997f15149309">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab202f7884fc48ec3c27a8e1d1148bd67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDeclarationsByEntity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a007971d020667916318da5d0392328d7">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acff0060128cbef7f5568442e7cb16312"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDifferentIndividualsAxiomsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a3aad6b9e48cbe4817d09a091e51641eb">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa21a867c46754c76f38a605f59fca7dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDisjointClassesAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ae4524c62fca17cd2a41f058f376c55ae">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a915005303431fc07a68976b10b2a6d47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDisjointDataPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a1fa41261ff6b0cd6dabbcdee8d5f9da1">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d3be28f5046ca885c9105a880d12117"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDisjointObjectPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a9fada0ebc373262b5deb81885312052e">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf23a322901ee614f675c17fec3a7ad3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getDisjointUnionAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a7fd9dd5eb0907910be6f8ef65ee873e5">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1a76137a41c25a37955fcc73087ac3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getEquivalentClassesAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a404ea15eac552faba072f7163e4b90ac">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b14b970720f03319414a4eec1230dfc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getEquivalentDataPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ac8d37d0cb67aa3a458c0fe41c25bf903">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a49f87cdbdafe6d7c6a3a1e355ce8435b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getEquivalentObjectPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a6d1a65159cadc9a516520a6520caf77c">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ec02e160f93c539bb0efb877fac04a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_expression.html">OWLDataPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getFunctionalDataPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a5294fa08c1551393ed400fd57f0d69b0">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adfe1dee9406ef607615ec2301b187633"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getFunctionalObjectPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a9a910d3c9e8c6c65b174bf1e4d973269">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13a6ac38fec37d614703d062514e85bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getGeneralClassAxioms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a6181cc77048d2892bda81f8811550d6d">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaec8c7fdc5702db2aaabe381573fa831"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getHasKeyAxiomsByClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a0c196a1142a6edd74ebd8206c1028564">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ad294a78d8fb5e3aed76e91e3991a94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getImportsDeclarations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a2eaf86b5bc56664cb3a42a46d4a5fd75">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a792dfb8bfb0991820f38140c94b7c8e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getInverseFunctionalPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ad1b76ecda1b205d717b36221a50c5986">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2dd2ac469b12fe2399e9f63e6d41456"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getInversePropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#aab237b310e0fcab7ae5ecf6b06859de8">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4385b8da38105f734e26d6ac0e148ecb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getIrreflexivePropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ad14edbef60fa6956db168372ad7bb6fe">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a349082e03ef4fbee752949861f986fdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; Set&lt;K&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getKeyset </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aae7deaa3e4e1d0f446c398c590a4d505"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int uk.ac.manchester.cs.owl.owlapi.Internals.getLogicalAxiomCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a05d50ed373e35f41689298db8958f352">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a206ab984f8d026b971a49df1308dc6b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">OWLLogicalAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getLogicalAxioms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#afbacd94241c167b62c7720c061273a0a">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d65d2089858bc6556866267d4156530"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getNegativeDataPropertyAssertionAxiomsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a9825be856aca38bd44ddf6029255744f">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a40b3894410d108d2aeb722ff52a5b3f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getNegativeObjectPropertyAssertionAxiomsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#af70b9793e23c4d72e38b8ca0039c67af">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cf4b1438db8a444f81aac7f3e2e4340"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getObjectPropertyAssertionsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a64ce094bea353505b454c440914fc91a">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12d37b412d154a5e948cadd7e992b617"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getObjectPropertyDomainAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ac83d408cf9c687354163b3f150ff9e53">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a539904f59c359880a4afbca4750f549f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getObjectPropertyRangeAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ac7dcafd6f251381d99e2f66ab211b13e">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0efe7250d24ec943f8258d2b4dbe9ea2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getObjectSubPropertyAxiomsByLHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a30a683276e8284b6046de0c8905e1b61">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12df533a393475c9a729e3f5eb8fd483"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getObjectSubPropertyAxiomsByRHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a164250dc53d148c9b46100de5de6a546">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a18433a6e4962db8b311e6369831f7b9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOntologyAnnotations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a50e14e966e4251f313aedbb424ac39db">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a09768fe68798949a916e32e77f49a562"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlAnnotationPropertyReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a5dee4e3e71b4b438152e4b9620d8e29d">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9fe892b1fda5d8f3a686e1f666b7e92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlAnonymousIndividualReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a09ed348d25c31439d4da10553f0b0f9a">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7789715e2bdbde471d9caa99d000919d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlClassReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a024ca7ce7cb3f137524c797af6e87837">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c01fdaf337c176cceda1cb851511fa5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlDataPropertyReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a13ea5b97b8db44203e974c50ad145f61">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada3f5233d8d0b46a97d673a63390fc23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlDatatypeReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#aed38ae99994a2e6c3e3816641bf0e71c">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b25a6b608d964fb25aae1ac6ddacceb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlIndividualReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#afd1304683cb34b3218cc9d454ae59a57">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2569b30e1265f32f69d72fc9b1948d56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getOwlObjectPropertyReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#aeb644c651fa6fce4e76f2b1f97f9a28d">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26f68376caf4b0009ae596bfc5f6749a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getReflexivePropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ae3c7a3b6ffe14ab4bfc6e7775fb79a02">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66ee8899e86d49fdbccb83857d74d6f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getSameIndividualsAxiomsByIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a25b3358fcc994ebcea073848213c4c0f">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37af7acf15599efda4602a6ab88af2a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getSubClassAxiomsByLHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#a1ff2b60c5c0362a3fa4ecbb920e32462">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1cbde625551f8ec2b2f710d057d9dc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getSubClassAxiomsByRHS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#ac4b2d0abfb0a877cec68570f6cc7bb74">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91067e7c7aef6a533399dc6aa28a1b95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getSymmetricPropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#af4a915b6ceea1080d7533afbb4bef264">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61da8a81982d8f9df698a406177a140a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pointer&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a>&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getTransitivePropertyAxiomsByProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_abstract_internals_impl.html#adcc6cd3f7860798acd3c366b78539b36">uk.ac.manchester.cs.owl.owlapi.AbstractInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adb8a1cbb5c1c50205af5e98b1d44893e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; Set&lt;V&gt; uk.ac.manchester.cs.owl.owlapi.Internals.getValues </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2e3014c32d854035da0ff2c2695a9af1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; boolean uk.ac.manchester.cs.owl.owlapi.Internals.hasValues </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a21440e90ce1f150d30b17d9e5d5fdb38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.isDeclared </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a>&#160;</td>
+          <td class="paramname"><em>ax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a891382fc09aa9b907f54983b833ce214">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4ba5e7c46805f61648956a1d7d4cd58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a19e8234175bcc998b74e6690c8dcc9b3">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada90e20392a6f718507a3bd7a600e3c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;K,VextendsOWLAxiom&gt; boolean uk.ac.manchester.cs.owl.owlapi.Internals.remove </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">K&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c9d3298314cb796cb331d2535541a85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.removeAxiom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0939222ed276901544ea70844f387f2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.Internals.removeGeneralClassAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_axiom.html">OWLClassAxiom</a>&#160;</td>
+          <td class="paramname"><em>ax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#aacf9d5f0a26e05402dfe2cac18d4507a">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f738d037cb14f6b71f45fa68cb05928"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.removeImportsDeclaration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a>&#160;</td>
+          <td class="paramname"><em>importDeclaration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">importDeclaration</td><td>declaration to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if the import declaration was present, false otherwise </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a2cb0e3edb09775147561cbd46b82cdfb">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa38f5aa5b54ec365a7d9a3a6654c54e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.Internals.removeOntologyAnnotation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&#160;</td>
+          <td class="paramname"><em>ann</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#a4d01e68b2af5e0db9e343cf31eda52c3">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a6223140a53c1cfbe71e6a076e15018"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.Internals.removePropertyChainSubPropertyAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>ax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_impl.html#aa9e10b831f427835e0b88b14e6a454d0">uk.ac.manchester.cs.owl.owlapi.InternalsImpl</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/<a class="el" href="_internals_8java_source.html">Internals.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceuk.html">uk</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester.html">manchester</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl.html">owl</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals.html">Internals</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:43 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

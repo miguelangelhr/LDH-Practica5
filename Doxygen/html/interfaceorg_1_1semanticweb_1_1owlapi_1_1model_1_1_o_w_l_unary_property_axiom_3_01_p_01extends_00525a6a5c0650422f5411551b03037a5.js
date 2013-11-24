@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_unary_property_axiom_3_01_p_01extends_00525a6a5c0650422f5411551b03037a5 =
+[
+    [ "getProperty", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_unary_property_axiom_3_01_p_01extends_00525a6a5c0650422f5411551b03037a5.html#a833cef67b96c5584fb53c22836b2a87d", null ]
+];

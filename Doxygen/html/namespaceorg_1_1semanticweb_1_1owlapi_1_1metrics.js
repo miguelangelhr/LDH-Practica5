@@ -1,0 +1,26 @@
+var namespaceorg_1_1semanticweb_1_1owlapi_1_1metrics =
+[
+    [ "AbstractOWLMetric< M >", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4" ],
+    [ "AverageAssertedNamedSuperclassCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_average_asserted_named_superclass_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_average_asserted_named_superclass_count" ],
+    [ "AxiomCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_count" ],
+    [ "AxiomCountMetric", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_count_metric.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_count_metric" ],
+    [ "AxiomTypeCountMetricFactory", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_type_count_metric_factory.html", null ],
+    [ "AxiomTypeMetric", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_type_metric.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_axiom_type_metric" ],
+    [ "DLExpressivity", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_d_l_expressivity.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_d_l_expressivity" ],
+    [ "DoubleValuedMetric", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_double_valued_metric.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_double_valued_metric" ],
+    [ "GCICount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_g_c_i_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_g_c_i_count" ],
+    [ "HiddenGCICount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_hidden_g_c_i_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_hidden_g_c_i_count" ],
+    [ "ImportClosureSize", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_import_closure_size.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_import_closure_size" ],
+    [ "IntegerValuedMetric", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_integer_valued_metric.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_integer_valued_metric" ],
+    [ "LogicalAxiomCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_logical_axiom_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_logical_axiom_count" ],
+    [ "MaximumNumberOfNamedSuperclasses", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_maximum_number_of_named_superclasses.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_maximum_number_of_named_superclasses" ],
+    [ "NumberOfClassesWithMultipleInheritance", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_number_of_classes_with_multiple_inheritance.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_number_of_classes_with_multiple_inheritance" ],
+    [ "ObjectCountMetric< E extends Object >", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_object_count_metric_3_01_e_01extends_01_object_01_4.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_object_count_metric_3_01_e_01extends_01_object_01_4" ],
+    [ "OWLMetric< M >", "interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html", "interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4" ],
+    [ "OWLMetricManager", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_manager.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_manager" ],
+    [ "ReferencedClassCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_class_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_class_count" ],
+    [ "ReferencedDataPropertyCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_data_property_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_data_property_count" ],
+    [ "ReferencedIndividualCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_individual_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_individual_count" ],
+    [ "ReferencedObjectPropertyCount", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_object_property_count.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_referenced_object_property_count" ],
+    [ "UnsatisfiableClassCountMetric", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_unsatisfiable_class_count_metric.html", "classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_unsatisfiable_class_count_metric" ]
+];

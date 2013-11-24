@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_symmetric_object_property_axiom_element_handler =
+[
+    [ "OWLSymmetricObjectPropertyAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_symmetric_object_property_axiom_element_handler.html#a694ae3111b20f8b19dc77a690946574c", null ],
+    [ "createPropertyCharacteristicAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_symmetric_object_property_axiom_element_handler.html#afadf2e7faa9c383fac068082b09d68f7", null ]
+];

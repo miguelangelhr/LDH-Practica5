@@ -1,0 +1,1120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a815cb36bac68a7795854d51c5f00b496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a815cb36bac68a7795854d51c5f00b496">getConfiguration</a> ()</td></tr>
+<tr class="separator:a815cb36bac68a7795854d51c5f00b496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ee6a459dd344a51f65adde563b4600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ae7ee6a459dd344a51f65adde563b4600">getIRIFromAttribute</a> (String localName, String value)  throws OWLParserException </td></tr>
+<tr class="separator:ae7ee6a459dd344a51f65adde563b4600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ef101e4998bc287dff16a8bf98d334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a24ef101e4998bc287dff16a8bf98d334">getIRIFromElement</a> (String elementLocalName, String textContent)  throws OWLParserException </td></tr>
+<tr class="separator:a24ef101e4998bc287dff16a8bf98d334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263cb470c573352616b0d272c4fd7e61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a263cb470c573352616b0d272c4fd7e61">setParentHandler</a> (OWLElementHandler&lt;?&gt; handler)</td></tr>
+<tr class="separator:a263cb470c573352616b0d272c4fd7e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42543e28b168fa720b967baca195ad9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a42543e28b168fa720b967baca195ad9a">attribute</a> (String localName, String value)  throws OWLParserException </td></tr>
+<tr class="separator:a42543e28b168fa720b967baca195ad9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe2d9ba08b3cdaf8eb92030f7dbf03e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a3fe2d9ba08b3cdaf8eb92030f7dbf03e">startElement</a> (String name)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a3fe2d9ba08b3cdaf8eb92030f7dbf03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ce9d140019231b83ab979af8b978cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a33ce9d140019231b83ab979af8b978cc">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html">AbstractOWLAxiomElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a33ce9d140019231b83ab979af8b978cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61891086e1bda39c108dadded65cd16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#aa61891086e1bda39c108dadded65cd16">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_element_handler.html">AbstractClassExpressionElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:aa61891086e1bda39c108dadded65cd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1c2ebfab9fdc96c33014362ed8b63e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a0c1c2ebfab9fdc96c33014362ed8b63e">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_data_range_handler.html">AbstractOWLDataRangeHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a0c1c2ebfab9fdc96c33014362ed8b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74938b972e7ebf891a138e26fb8b74d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a74938b972e7ebf891a138e26fb8b74d3">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_element_handler.html">AbstractOWLObjectPropertyElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a74938b972e7ebf891a138e26fb8b74d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef5197dbbdfa5f2748a5672c9c25c86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a2ef5197dbbdfa5f2748a5672c9c25c86">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_element_handler.html">OWLDataPropertyElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a2ef5197dbbdfa5f2748a5672c9c25c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6a7a77aac623f7c90b38cf48c15eb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#aec6a7a77aac623f7c90b38cf48c15eb2">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_individual_element_handler.html">OWLIndividualElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:aec6a7a77aac623f7c90b38cf48c15eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4086c8198834993a91df5e474ee1e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a4e4086c8198834993a91df5e474ee1e3">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_literal_element_handler.html">OWLLiteralElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a4e4086c8198834993a91df5e474ee1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af076cfc52dbd5e7b3bf145e40313a9d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#af076cfc52dbd5e7b3bf145e40313a9d8">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_element_handler.html">OWLAnnotationElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:af076cfc52dbd5e7b3bf145e40313a9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37fd0333809b18c0289ee31daeab97ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a37fd0333809b18c0289ee31daeab97ff">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_sub_object_property_chain_element_handler.html">OWLSubObjectPropertyChainElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a37fd0333809b18c0289ee31daeab97ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae126d3ab0f6ee1b9274e4ec83a891763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ae126d3ab0f6ee1b9274e4ec83a891763">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_datatype_facet_restriction_element_handler.html">OWLDatatypeFacetRestrictionElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:ae126d3ab0f6ee1b9274e4ec83a891763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3552f1e80aff33288d173eaf42c14223"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a3552f1e80aff33288d173eaf42c14223">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_property_element_handler.html">OWLAnnotationPropertyElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a3552f1e80aff33288d173eaf42c14223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ffff69b2ce466b8b39b9a23f54b842"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ac5ffff69b2ce466b8b39b9a23f54b842">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_anonymous_individual_element_handler.html">OWLAnonymousIndividualElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:ac5ffff69b2ce466b8b39b9a23f54b842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e398e2d4804afcb6cb23475fdda3c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a1e398e2d4804afcb6cb23475fdda3c9a">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_i_r_i_element_handler.html">AbstractIRIElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a1e398e2d4804afcb6cb23475fdda3c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0269526e930584021d4045400d28606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ad0269526e930584021d4045400d28606">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_variable_element_handler.html">SWRLVariableElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:ad0269526e930584021d4045400d28606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31880c9401fe9c6427fb2b2687dba6d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a31880c9401fe9c6427fb2b2687dba6d0">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_atom_element_handler.html">SWRLAtomElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a31880c9401fe9c6427fb2b2687dba6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91157301eef4c037ed15ebc1e53999f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a91157301eef4c037ed15ebc1e53999f3">handleChild</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_atom_list_element_handler.html">SWRLAtomListElementHandler</a> _handler)  throws OWLXMLParserException </td></tr>
+<tr class="separator:a91157301eef4c037ed15ebc1e53999f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33cb20da603df48083b585674fe9e1b"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ad33cb20da603df48083b585674fe9e1b">handleChars</a> (char[] chars, int start, int length)</td></tr>
+<tr class="separator:ad33cb20da603df48083b585674fe9e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a49f3464b2ac12693e07cd723c470e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a62a49f3464b2ac12693e07cd723c470e">getText</a> ()</td></tr>
+<tr class="separator:a62a49f3464b2ac12693e07cd723c470e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e768e9340ad230e7a5feadab9f3897"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ad8e768e9340ad230e7a5feadab9f3897">isTextContentPossible</a> ()</td></tr>
+<tr class="separator:ad8e768e9340ad230e7a5feadab9f3897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a></td></tr>
+<tr class="memitem:a9b2215431ab117aaeaa19d64863a28f7 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a9b2215431ab117aaeaa19d64863a28f7">endElement</a> ()  throws OWLParserException, UnloadableImportException</td></tr>
+<tr class="separator:a9b2215431ab117aaeaa19d64863a28f7 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7a9696a4a17569a083759e8a709be4 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4"><td class="memItemLeft" align="right" valign="top">O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1f7a9696a4a17569a083759e8a709be4">getOWLObject</a> ()  throws OWLXMLParserException</td></tr>
+<tr class="separator:a1f7a9696a4a17569a083759e8a709be4 inherit pub_methods_interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a883fa1c56d0c420ea9417478301886c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a883fa1c56d0c420ea9417478301886c2">AbstractOWLElementHandler</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_handler.html">OWLXMLParserHandler</a> handler)</td></tr>
+<tr class="separator:a883fa1c56d0c420ea9417478301886c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcb63daa12163d259d47aeb7ee48452"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a9fcb63daa12163d259d47aeb7ee48452">getOWLOntologyManager</a> ()</td></tr>
+<tr class="separator:a9fcb63daa12163d259d47aeb7ee48452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca4897cb50d754b5973b8dada591573"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a2ca4897cb50d754b5973b8dada591573">getOntology</a> ()</td></tr>
+<tr class="separator:a2ca4897cb50d754b5973b8dada591573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804f2bfc009c2c699e2e184c47c7158c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a804f2bfc009c2c699e2e184c47c7158c">getOWLDataFactory</a> ()</td></tr>
+<tr class="separator:a804f2bfc009c2c699e2e184c47c7158c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1161de1bc8d449d2217168b1e536a7"><td class="memItemLeft" align="right" valign="top">OWLElementHandler&lt;?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a3e1161de1bc8d449d2217168b1e536a7">getParentHandler</a> ()</td></tr>
+<tr class="separator:a3e1161de1bc8d449d2217168b1e536a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012fc4026fab53a1cf95487b97be3f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a012fc4026fab53a1cf95487b97be3f40">getIRI</a> (String iri)  throws OWLParserException </td></tr>
+<tr class="separator:a012fc4026fab53a1cf95487b97be3f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44d882feb141788d7d4bf230f11debd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ab44d882feb141788d7d4bf230f11debd">getAbbreviatedIRI</a> (String abbreviatedIRI)  throws OWLParserException </td></tr>
+<tr class="separator:ab44d882feb141788d7d4bf230f11debd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16087ee600416c4861e3329e39210b2a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a16087ee600416c4861e3329e39210b2a">getLineNumber</a> ()</td></tr>
+<tr class="separator:a16087ee600416c4861e3329e39210b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a841453dae09ccb5e5d47798694f0a218"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a841453dae09ccb5e5d47798694f0a218">getColumnNumber</a> ()</td></tr>
+<tr class="separator:a841453dae09ccb5e5d47798694f0a218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a24711bc957d37947452bbfcc3b2e9c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a8a24711bc957d37947452bbfcc3b2e9c">getElementName</a> ()</td></tr>
+<tr class="separator:a8a24711bc957d37947452bbfcc3b2e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 13-Dec-2006<br/>
+ <br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00055">55</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a883fa1c56d0c420ea9417478301886c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.AbstractOWLElementHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_handler.html">OWLXMLParserHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00061">61</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.handler = handler;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a42543e28b168fa720b967baca195ad9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.attribute </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>localName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#abdf5480c1f0fce6548c2529fe24200ba">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00118">118</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab44d882feb141788d7d4bf230f11debd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getAbbreviatedIRI </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>abbreviatedIRI</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00124">124</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                                                     {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> handler.getAbbreviatedIRI(abbreviatedIRI);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a841453dae09ccb5e5d47798694f0a218"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getColumnNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00132">132</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                    {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> handler.getColumnNumber();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a815cb36bac68a7795854d51c5f00b496"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00065">65</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                             {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> handler.getConfiguration();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8a24711bc957d37947452bbfcc3b2e9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getElementName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00142">142</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                      {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">return</span> elementName;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a012fc4026fab53a1cf95487b97be3f40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getIRI </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00120">120</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                               {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span> handler.getIRI(iri);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae7ee6a459dd344a51f65adde563b4600"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getIRIFromAttribute </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>localName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00069">69</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                      {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> (localName.equals(OWLXMLVocabulary.IRI_ATTRIBUTE.getShortName())) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a012fc4026fab53a1cf95487b97be3f40">getIRI</a>(value);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (localName.equals(OWLXMLVocabulary.ABBREVIATED_IRI_ATTRIBUTE</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                .getShortName())) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ab44d882feb141788d7d4bf230f11debd">getAbbreviatedIRI</a>(value);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (localName.equals(<span class="stringliteral">&quot;URI&quot;</span>)) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="comment">// Legacy</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a012fc4026fab53a1cf95487b97be3f40">getIRI</a>(value);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLXMLParserAttributeNotFoundException(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a16087ee600416c4861e3329e39210b2a">getLineNumber</a>(),</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a841453dae09ccb5e5d47798694f0a218">getColumnNumber</a>(), OWLXMLVocabulary.IRI_ATTRIBUTE.getShortName());</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_a16087ee600416c4861e3329e39210b2a"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a16087ee600416c4861e3329e39210b2a">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getLineNumber</a></div><div class="ttdeci">int getLineNumber()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00128">AbstractOWLElementHandler.java:128</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_ab44d882feb141788d7d4bf230f11debd"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ab44d882feb141788d7d4bf230f11debd">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getAbbreviatedIRI</a></div><div class="ttdeci">IRI getAbbreviatedIRI(String abbreviatedIRI)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00124">AbstractOWLElementHandler.java:124</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_a012fc4026fab53a1cf95487b97be3f40"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a012fc4026fab53a1cf95487b97be3f40">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getIRI</a></div><div class="ttdeci">IRI getIRI(String iri)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00120">AbstractOWLElementHandler.java:120</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_a841453dae09ccb5e5d47798694f0a218"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a841453dae09ccb5e5d47798694f0a218">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getColumnNumber</a></div><div class="ttdeci">int getColumnNumber()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00132">AbstractOWLElementHandler.java:132</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a24ef101e4998bc287dff16a8bf98d334"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getIRIFromElement </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>elementLocalName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>textContent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_parser_exception.html">OWLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00084">84</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                      {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (elementLocalName.equals(OWLXMLVocabulary.IRI_ELEMENT.getShortName())) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">return</span> handler.getIRI(textContent.trim());</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (elementLocalName.equals(OWLXMLVocabulary.ABBREVIATED_IRI_ELEMENT</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                .getShortName())) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">return</span> handler.getAbbreviatedIRI(textContent.trim());</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLXMLParserException(elementLocalName + <span class="stringliteral">&quot; is not an IRI element&quot;</span>,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a16087ee600416c4861e3329e39210b2a">getLineNumber</a>(), <a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a841453dae09ccb5e5d47798694f0a218">getColumnNumber</a>());</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_a16087ee600416c4861e3329e39210b2a"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a16087ee600416c4861e3329e39210b2a">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getLineNumber</a></div><div class="ttdeci">int getLineNumber()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00128">AbstractOWLElementHandler.java:128</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_a841453dae09ccb5e5d47798694f0a218"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#a841453dae09ccb5e5d47798694f0a218">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getColumnNumber</a></div><div class="ttdeci">int getColumnNumber()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00132">AbstractOWLElementHandler.java:132</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16087ee600416c4861e3329e39210b2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getLineNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00128">128</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                  {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">return</span> handler.getLineNumber();</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2ca4897cb50d754b5973b8dada591573"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getOntology </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00100">100</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                        {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> handler.getOntology();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a804f2bfc009c2c699e2e184c47c7158c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getOWLDataFactory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00104">104</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                 {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> handler.getDataFactory();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9fcb63daa12163d259d47aeb7ee48452"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getOWLOntologyManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00096">96</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                         {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> handler.getOWLOntologyManager();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e1161de1bc8d449d2217168b1e536a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OWLElementHandler&lt;?&gt; org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getParentHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00113">113</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                                      {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span> parentHandler;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a62a49f3464b2ac12693e07cd723c470e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.getText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a62a5fd0e073eb6887d98254abc65f4f6">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00220">220</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                            {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">if</span> (sb == null) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad33cb20da603df48083b585674fe9e1b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChars </td>
+          <td>(</td>
+          <td class="paramtype">char[]&#160;</td>
+          <td class="paramname"><em>chars</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a377a7d5a24faf761d05a0a3dd95fd6fc">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00210">210</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ad8e768e9340ad230e7a5feadab9f3897">isTextContentPossible</a>()) {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="keywordflow">if</span> (sb == null) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            sb.append(chars, start, length);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4_html_ad8e768e9340ad230e7a5feadab9f3897"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html#ad8e768e9340ad230e7a5feadab9f3897">org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.isTextContentPossible</a></div><div class="ttdeci">boolean isTextContentPossible()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_element_handler_8java_source.html#l00229">AbstractOWLElementHandler.java:229</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a33ce9d140019231b83ab979af8b978cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_axiom_element_handler.html">AbstractOWLAxiomElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a8e3b58915cf19ff04334d8b5c24c6d45">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00147">147</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa61891086e1bda39c108dadded65cd16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_element_handler.html">AbstractClassExpressionElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#aab2e9b0f09a72dbce417ef1a9d452e2d">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00151">151</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c1c2ebfab9fdc96c33014362ed8b63e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_data_range_handler.html">AbstractOWLDataRangeHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#afdf78ae02c51418dc0886358ac7597ba">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00155">155</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a74938b972e7ebf891a138e26fb8b74d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_element_handler.html">AbstractOWLObjectPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#acab8d17842ce7570c45790b5370e31bc">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00159">159</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2ef5197dbbdfa5f2748a5672c9c25c86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_element_handler.html">OWLDataPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a2687058ae777468f56b4913be346c39a">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00163">163</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aec6a7a77aac623f7c90b38cf48c15eb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_individual_element_handler.html">OWLIndividualElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ab55fbdf434382af884e015cf8f259cb0">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00167">167</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4e4086c8198834993a91df5e474ee1e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_literal_element_handler.html">OWLLiteralElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a82f7dcdcb37732ff8dfe15d353719131">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00171">171</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af076cfc52dbd5e7b3bf145e40313a9d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_element_handler.html">OWLAnnotationElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a71615ff43726efed08545715caa2e727">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00175">175</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a37fd0333809b18c0289ee31daeab97ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_sub_object_property_chain_element_handler.html">OWLSubObjectPropertyChainElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#aa4b4b69305376abbe3557e6b24c5644a">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00179">179</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae126d3ab0f6ee1b9274e4ec83a891763"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_datatype_facet_restriction_element_handler.html">OWLDatatypeFacetRestrictionElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1e561a773fb0c31af6e8537eafcf98e8">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00183">183</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3552f1e80aff33288d173eaf42c14223"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_annotation_property_element_handler.html">OWLAnnotationPropertyElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ab631172d32917b921c137b7f6b21c5c1">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00187">187</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac5ffff69b2ce466b8b39b9a23f54b842"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_anonymous_individual_element_handler.html">OWLAnonymousIndividualElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a849030b291376cfdbde92ae9d918bcb9">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00191">191</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1e398e2d4804afcb6cb23475fdda3c9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_i_r_i_element_handler.html">AbstractIRIElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1701169ace92647f59d7fe2f7753ce67">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00195">195</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad0269526e930584021d4045400d28606"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_variable_element_handler.html">SWRLVariableElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a47e97750d70e3ee5886dd3bf9a3118d4">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00199">199</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a31880c9401fe9c6427fb2b2687dba6d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_atom_element_handler.html">SWRLAtomElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a011db184131d5381b5d3d42ff73b7b46">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00203">203</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a91157301eef4c037ed15ebc1e53999f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.handleChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_s_w_r_l_atom_list_element_handler.html">SWRLAtomListElementHandler</a>&#160;</td>
+          <td class="paramname"><em>_handler</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a8bb82ad5ee3fee85e8e5dbc04ac7af05">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00206">206</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                         {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8e768e9340ad230e7a5feadab9f3897"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.isTextContentPossible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ae145864c0fcc8777458fed5202f147c9">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00229">229</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                           {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a263cb470c573352616b0d272c4fd7e61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.setParentHandler </td>
+          <td>(</td>
+          <td class="paramtype">OWLElementHandler&lt;?&gt;&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a4c9fd269db83cb66c0ef73cc4c3aa5be">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00109">109</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                                               {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        this.parentHandler = handler;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3fe2d9ba08b3cdaf8eb92030f7dbf03e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.owlxmlparser.AbstractOWLElementHandler&lt; O &gt;.startElement </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_x_m_l_parser_exception.html">OWLXMLParserException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a445b77538001dd455d3edfdd3c74b84a">org.coode.owlapi.owlxmlparser.OWLElementHandler&lt; O &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html#l00137">137</a> del archivo <a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        sb = null;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        elementName = name;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/owlxmlparser/<a class="el" href="_abstract_o_w_l_element_handler_8java_source.html">AbstractOWLElementHandler.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1owlxmlparser.html">owlxmlparser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_element_handler_3_01_o_01_4.html">AbstractOWLElementHandler< O ></a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:44 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

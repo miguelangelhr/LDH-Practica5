@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1imports_1_1_o_w_l_imports_closure_test_case =
+[
+    [ "testImportsClosure", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1imports_1_1_o_w_l_imports_closure_test_case.html#ac983990a33ba6b8a1f194b59d47d1aef", null ]
+];

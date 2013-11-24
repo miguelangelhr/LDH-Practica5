@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.PrefixManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.PrefixManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a264fffed56e72c2f66e6152344a46ab5"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a264fffed56e72c2f66e6152344a46ab5">getDefaultPrefix</a> ()</td></tr>
+<tr class="separator:a264fffed56e72c2f66e6152344a46ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5b1eaea065f40c987e2a29193405e0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#acb5b1eaea065f40c987e2a29193405e0">containsPrefixMapping</a> (String prefixName)</td></tr>
+<tr class="separator:acb5b1eaea065f40c987e2a29193405e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b493a467d37f80713d5001b250cbe4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a64b493a467d37f80713d5001b250cbe4">getPrefix</a> (String prefixName)</td></tr>
+<tr class="separator:a64b493a467d37f80713d5001b250cbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4342e3cbafdbc3ae0c9414074b559b7f"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a4342e3cbafdbc3ae0c9414074b559b7f">getPrefixName2PrefixMap</a> ()</td></tr>
+<tr class="separator:a4342e3cbafdbc3ae0c9414074b559b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5053d46921287d35b45292cfd10bafb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a5053d46921287d35b45292cfd10bafb5">getIRI</a> (String prefixIRI)</td></tr>
+<tr class="separator:a5053d46921287d35b45292cfd10bafb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc16dc581492bf125a80f487afd9e0df"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#adc16dc581492bf125a80f487afd9e0df">getPrefixIRI</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:adc16dc581492bf125a80f487afd9e0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a4bc8785588f1bb53e4dd157d3440f"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#ab3a4bc8785588f1bb53e4dd157d3440f">getPrefixNames</a> ()</td></tr>
+<tr class="separator:ab3a4bc8785588f1bb53e4dd157d3440f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Information Management Group<br/>
+ Date: 10-Sep-2008<br/>
+<br/>
+ </p>
+<p>A prefix manager than can provide prefixes for prefix names. </p>
+
+<p>Definición en la línea <a class="el" href="_prefix_manager_8java_source.html#l00053">53</a> del archivo <a class="el" href="_prefix_manager_8java_source.html">PrefixManager.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="acb5b1eaea065f40c987e2a29193405e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.PrefixManager.containsPrefixMapping </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefixName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this manager knows about a given prefix name and it contains a (non-null) mapping for the prefix. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefixName</td><td>The prefix name to be tested for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the manager knows about this prefix and there is a non-null mapping for this prefix. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#aea00cf78e2ec5ced8b68158f6bae2ab1">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#a0f60900e238d4dca5552526d2c5025d4">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a264fffed56e72c2f66e6152344a46ab5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.PrefixManager.getDefaultPrefix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the default prefix. The default prefix is denoted by the prefix name ":" </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The default prefix, or <code>null</code> if there is no default prefix. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#a01427e1dd1cba443dbb889cc7c898663">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#a4320b2a7d260ff8bda65041f221f6a82">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5053d46921287d35b45292cfd10bafb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> org.semanticweb.owlapi.model.PrefixManager.getIRI </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefixIRI</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the URI for a given prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>. The prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> must have a prefix name that is registered with this manager, or a runtime exception will be thrown. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefixIRI</td><td>The Prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The full <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if the prefix name of the prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> doesn't have a corresponding prefix managed by this manager. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#abd7e138805b339d8f21bd8ffe55856aa">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#afe6c462ecea8669dddd352dfb03e4034">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64b493a467d37f80713d5001b250cbe4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.PrefixManager.getPrefix </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefixName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the prefix that is bound to a particular prefix name. Note that specifying ":" corresponds to requesting the default prefix and will return the same result as a call to the <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a264fffed56e72c2f66e6152344a46ab5">getDefaultPrefix()</a></code> method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefixName</td><td>The prefix name. A string that represents a prefix name of the prefix to be retrieved. Note that specifying ":" is the same as asking for the default prefix (see the <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html#a264fffed56e72c2f66e6152344a46ab5">getDefaultPrefix()</a> method). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The prefix, or <code>null</code> if there is no prefix name bound to this prefix, or the prefix name doesn't exist. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#a5ee8be3ecb39fce9ffe6351a904f36a9">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#af1f2a0740b5c0963099309bc61343797">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc16dc581492bf125a80f487afd9e0df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.PrefixManager.getPrefixIRI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> given a <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> (URI). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>The <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> whose prefix it to be retrieved </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> for this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>, or <code>null</code> if a prefix <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> cannot be generated. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#a091caf341bb25dd47379d0377b32cd1e">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#a60000f38cd6250eb6b9a3d4fce6b00cc">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4342e3cbafdbc3ae0c9414074b559b7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; org.semanticweb.owlapi.model.PrefixManager.getPrefixName2PrefixMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a map that maps prefix names to prefixes. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The map of prefix names to prefixes. Note that modifying the contents of this map will not change the prefix name - prefix mappings </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#a0ec064ebaa60d9cc251ff5a202e82f05">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#a64549cfce6c3d56b12129808ca737354">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab3a4bc8785588f1bb53e4dd157d3440f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; org.semanticweb.owlapi.model.PrefixManager.getPrefixNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the prefix names that have a mapping in this prefix manager </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The prefix names as a set of strings. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_default_prefix_manager.html#aa0beec436abd20398c47a0c7a914da4c">org.semanticweb.owlapi.util.DefaultPrefixManager</a> y <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_prefix_o_w_l_ontology_format.html#a18b4291000ba1e590e2db8121108c7b0">org.semanticweb.owlapi.vocab.PrefixOWLOntologyFormat</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_prefix_manager_8java_source.html">PrefixManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_prefix_manager.html">PrefixManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:27 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente contract/src/main/java/uk/ac/manchester/owl/owlapi/tutorialowled2011/Debugger.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Debugger.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="namespaceuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011.html">   39</a></span>&#160;<span class="keyword">package </span>uk.ac.manchester.owl.owlapi.tutorialowled2011;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">import</span> java.io.PrintWriter;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">import</span> java.util.HashSet;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_black_box_o_w_l_debugger.html">org.semanticweb.owlapi.debugging.BlackBoxOWLDebugger</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_o_w_l_debugger.html">org.semanticweb.owlapi.debugging.OWLDebugger</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">org.semanticweb.owlapi.model.OWLException</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;@SuppressWarnings({ <span class="stringliteral">&quot;javadoc&quot;</span> })</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html">   76</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html">Debugger</a> {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_o_w_l_debugger.html">OWLDebugger</a> debugger;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> checker;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> bottom;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#a0d8767f1ba0c5193d0a7ae887a5388f4">   82</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#a0d8767f1ba0c5193d0a7ae887a5388f4">Debugger</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> manager, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">OWLReasonerFactory</a> reasonerFactory) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        this.ontology = ontology;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        checker = reasonerFactory.createNonBufferingReasoner(ontology);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="comment">/* Create a new debugger */</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        debugger = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_black_box_o_w_l_debugger.html">BlackBoxOWLDebugger</a>(manager, ontology, reasonerFactory);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="comment">/* Get bottom */</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        bottom = manager.getOWLDataFactory().getOWLNothing();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#ae8e07466c55e8d12926bb0390b6e0c55">   92</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#ae8e07466c55e8d12926bb0390b6e0c55">report</a>(PrintWriter writer) <span class="keywordflow">throws</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">OWLException</a> {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html">OWLTutorialSyntaxObjectRenderer</a> renderer = <span class="keyword">new</span> <a class="code" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html">OWLTutorialSyntaxObjectRenderer</a>(</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                ontology, writer);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="comment">/* Write a header */</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        renderer.header();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        Set&lt;OWLClass&gt; unsatisfiables = <span class="keyword">new</span> HashSet&lt;OWLClass&gt;();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> clazz : ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1f6340caef27fd1791a31603940f7549">getClassesInSignature</a>()) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="comment">/* Collect the unsatisfiable classes that aren&#39;t bottom. */</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordflow">if</span> (!checker.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html#a1763541bf91b10f9807647e481076eef">isSatisfiable</a>(clazz) &amp;&amp; !clazz.equals(bottom)) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                unsatisfiables.add(clazz);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        writer.println(<span class="stringliteral">&quot;&lt;h1&gt;Ontology Debugging Report&lt;/h1&gt;&quot;</span>);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        writer.println(<span class="stringliteral">&quot;&lt;p&gt;Ontology: &quot;</span> + ontology.getOntologyID() + <span class="stringliteral">&quot;&lt;/p&gt;&quot;</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (unsatisfiables.isEmpty()) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            writer.println(<span class="stringliteral">&quot;&lt;p&gt;No Unsatisfiable Classes found&lt;/p&gt;&quot;</span>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> unsatisfiable : unsatisfiables) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;div class=&#39;box&#39;&gt;\n&quot;</span>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;h2 class=&#39;cl&#39;&gt;&quot;</span>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                unsatisfiable.accept(renderer);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;/h2&gt;&quot;</span>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;p&gt;Axioms causing inconsistency:&lt;/p&gt;&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;ul&gt;&quot;</span>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                <span class="comment">/*</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">                 * Find the set of support for the inconsistency. This will</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">                 * return us a collection of axioms</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">                 */</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                Set&lt;OWLAxiom&gt; sos = debugger.getSOSForIncosistentClass(unsatisfiable);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <span class="comment">/* Print the axioms. */</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom : sos) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                    writer.println(<span class="stringliteral">&quot;&lt;li&gt;&quot;</span>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                    axiom.accept(renderer);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                    writer.println(<span class="stringliteral">&quot;&lt;/li&gt;&quot;</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;/ul&gt;&quot;</span>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                writer.println(<span class="stringliteral">&quot;&lt;/div&gt;\n&quot;</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        renderer.footer();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_factory.html">org.semanticweb.owlapi.reasoner.OWLReasonerFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_factory_8java_source.html#l00055">OWLReasonerFactory.java:55</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a1f6340caef27fd1791a31603940f7549"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a1f6340caef27fd1791a31603940f7549">org.semanticweb.owlapi.model.OWLOntology.getClassesInSignature</a></div><div class="ttdeci">Set&lt; OWLClass &gt; getClassesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_axiom_8java_source.html#l00056">OWLAxiom.java:56</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_black_box_o_w_l_debugger_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_black_box_o_w_l_debugger.html">org.semanticweb.owlapi.debugging.BlackBoxOWLDebugger</a></div><div class="ttdef"><b>Definition:</b> <a href="_black_box_o_w_l_debugger_8java_source.html#l00081">BlackBoxOWLDebugger.java:81</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">org.semanticweb.owlapi.model.OWLException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_exception_8java_source.html#l00049">OWLException.java:49</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger_html_ae8e07466c55e8d12926bb0390b6e0c55"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#ae8e07466c55e8d12926bb0390b6e0c55">uk.ac.manchester.owl.owlapi.tutorialowled2011.Debugger.report</a></div><div class="ttdeci">void report(PrintWriter writer)</div><div class="ttdef"><b>Definition:</b> <a href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java_source.html#l00092">Debugger.java:92</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html">uk.ac.manchester.owl.owlapi.tutorialowled2011.Debugger</a></div><div class="ttdef"><b>Definition:</b> <a href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java_source.html#l00076">Debugger.java:76</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">org.semanticweb.owlapi.model.OWLOntologyManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_manager_8java_source.html#l00061">OWLOntologyManager.java:61</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer_html"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_object_renderer.html">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxObjectRenderer</a></div><div class="ttdef"><b>Definition:</b> <a href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_o_w_l_tutorial_syntax_object_renderer_8java_source.html#l00156">OWLTutorialSyntaxObjectRenderer.java:156</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_o_w_l_debugger_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_o_w_l_debugger.html">org.semanticweb.owlapi.debugging.OWLDebugger</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_debugger_8java_source.html#l00056">OWLDebugger.java:56</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_html_a1763541bf91b10f9807647e481076eef"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html#a1763541bf91b10f9807647e481076eef">org.semanticweb.owlapi.reasoner.OWLReasoner.isSatisfiable</a></div><div class="ttdeci">boolean isSatisfiable(OWLClassExpression classExpression)</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_8java_source.html#l00052">OWLClass.java:52</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger_html_a0d8767f1ba0c5193d0a7ae887a5388f4"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_debugger.html#a0d8767f1ba0c5193d0a7ae887a5388f4">uk.ac.manchester.owl.owlapi.tutorialowled2011.Debugger.Debugger</a></div><div class="ttdeci">Debugger(OWLOntologyManager manager, OWLOntology ontology, OWLReasonerFactory reasonerFactory)</div><div class="ttdef"><b>Definition:</b> <a href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java_source.html#l00082">Debugger.java:82</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">org.semanticweb.owlapi.reasoner.OWLReasoner</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_reasoner_8java_source.html#l00276">OWLReasoner.java:276</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5a6ede4e8c7762127a1762581af481b3.html">contract</a></li><li class="navelem"><a class="el" href="dir_10c5ce78af3a0f5285b8909bfe9c9ac1.html">src</a></li><li class="navelem"><a class="el" href="dir_c85f98ceef1ac45c438bb2d1e9be2a32.html">main</a></li><li class="navelem"><a class="el" href="dir_e613c2994418748c4fa42c32cc170476.html">java</a></li><li class="navelem"><a class="el" href="dir_23ad04fc002c3a7a44fac0fdedc9c93b.html">uk</a></li><li class="navelem"><a class="el" href="dir_2349cb7cbd004dceafc5e158c79cdaad.html">ac</a></li><li class="navelem"><a class="el" href="dir_f6fee2515c5c8a2a31a2c460c5fd9ad0.html">manchester</a></li><li class="navelem"><a class="el" href="dir_15c1a929eb37cced504b9242aafd69bd.html">owl</a></li><li class="navelem"><a class="el" href="dir_0517f5f3e34e38653ac14b7b017fc766.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_3646a27eaebaf6ff728acd1894d711bd.html">tutorialowled2011</a></li><li class="navelem"><a class="el" href="main_2java_2uk_2ac_2manchester_2owl_2owlapi_2tutorialowled2011_2_debugger_8java.html">Debugger.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:55 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

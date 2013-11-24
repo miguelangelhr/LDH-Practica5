@@ -1,0 +1,6 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_assertion_axiom_3_01_p_01extenfb1174ccf37bb5b6f03e62cba90873cf =
+[
+    [ "getObject", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_assertion_axiom_3_01_p_01extenfb1174ccf37bb5b6f03e62cba90873cf.html#a92f82f1ce2f26b4b0c3ceda945ea0054", null ],
+    [ "getProperty", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_assertion_axiom_3_01_p_01extenfb1174ccf37bb5b6f03e62cba90873cf.html#a709cb98c94605d1d88db998d1a162291", null ],
+    [ "getSubject", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_assertion_axiom_3_01_p_01extenfb1174ccf37bb5b6f03e62cba90873cf.html#ab9e2c5746692263369231d8b5929dc7b", null ]
+];

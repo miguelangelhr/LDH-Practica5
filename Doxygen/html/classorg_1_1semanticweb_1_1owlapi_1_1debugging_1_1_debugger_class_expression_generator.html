@@ -1,0 +1,1181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a85ef007a9599a6d3ca93a6948b9544be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a85ef007a9599a6d3ca93a6948b9544be">DebuggerClassExpressionGenerator</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:a85ef007a9599a6d3ca93a6948b9544be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8527ce0b86b7157f621b7c3a934055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a9d8527ce0b86b7157f621b7c3a934055">getDebuggerClassExpression</a> ()</td></tr>
+<tr class="separator:a9d8527ce0b86b7157f621b7c3a934055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12c874dcf9f0849e7263f9c293d7ad0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ab12c874dcf9f0849e7263f9c293d7ad0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a> axiom)</td></tr>
+<tr class="separator:ab12c874dcf9f0849e7263f9c293d7ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13387bfde7aa6826b25ec624555330a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ae13387bfde7aa6826b25ec624555330a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:ae13387bfde7aa6826b25ec624555330a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6763f7f9a4c476ce7b293a94bd230263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a6763f7f9a4c476ce7b293a94bd230263">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a6763f7f9a4c476ce7b293a94bd230263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab732c41ec48352a346e808a70912e4ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ab732c41ec48352a346e808a70912e4ac">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ab732c41ec48352a346e808a70912e4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de9bc998cf2d651fe864050785bccfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a7de9bc998cf2d651fe864050785bccfc">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:a7de9bc998cf2d651fe864050785bccfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38a98f8b855dc115f3c9933ec7e213d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#af38a98f8b855dc115f3c9933ec7e213d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:af38a98f8b855dc115f3c9933ec7e213d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d39fa3a901f67a6129f7ac92fb585cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a4d39fa3a901f67a6129f7ac92fb585cb">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a> axiom)</td></tr>
+<tr class="separator:a4d39fa3a901f67a6129f7ac92fb585cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a740140e8907900a63b0dbca4c9b823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a1a740140e8907900a63b0dbca4c9b823">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a1a740140e8907900a63b0dbca4c9b823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b64620e5570f4e7a022c37b74faca0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a30b64620e5570f4e7a022c37b74faca0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a30b64620e5570f4e7a022c37b74faca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eccf0672312598eca17b3ca1d065b1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a6eccf0672312598eca17b3ca1d065b1d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a6eccf0672312598eca17b3ca1d065b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad84d0b0573606b3123df798c266fb655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ad84d0b0573606b3123df798c266fb655">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a> axiom)</td></tr>
+<tr class="separator:ad84d0b0573606b3123df798c266fb655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16acd5ee931722ef744754d6188e38f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a16acd5ee931722ef744754d6188e38f7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a16acd5ee931722ef744754d6188e38f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb65a303f51d0efd6bf5e5807b5523b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#afb65a303f51d0efd6bf5e5807b5523b8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:afb65a303f51d0efd6bf5e5807b5523b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa941d342c110a897320892270516251d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aa941d342c110a897320892270516251d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:aa941d342c110a897320892270516251d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b4767cdb56a6509c3dd6747548fccf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a21b4767cdb56a6509c3dd6747548fccf">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a21b4767cdb56a6509c3dd6747548fccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909d61db86eeca047940193db8495224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a909d61db86eeca047940193db8495224">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a909d61db86eeca047940193db8495224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac45d6930871ff2dbae9f7fefb5cd3267"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ac45d6930871ff2dbae9f7fefb5cd3267">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:ac45d6930871ff2dbae9f7fefb5cd3267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5f4553fd1ff14c1572d02b866bc8be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a2d5f4553fd1ff14c1572d02b866bc8be">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a> axiom)</td></tr>
+<tr class="separator:a2d5f4553fd1ff14c1572d02b866bc8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec89c305cc7f85619a348d4489a54be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a3ec89c305cc7f85619a348d4489a54be">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a> axiom)</td></tr>
+<tr class="separator:a3ec89c305cc7f85619a348d4489a54be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1850b37fefa5076ca88f1f0ca25a376e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a1850b37fefa5076ca88f1f0ca25a376e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a1850b37fefa5076ca88f1f0ca25a376e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae415344fca275e9b5e497bef51c9bc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aae415344fca275e9b5e497bef51c9bc9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:aae415344fca275e9b5e497bef51c9bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c4c76e35ff41aeacf3414728bf6307"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a23c4c76e35ff41aeacf3414728bf6307">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:a23c4c76e35ff41aeacf3414728bf6307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff51327e9e6c5c1fc9c4ee1354b7c8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aaff51327e9e6c5c1fc9c4ee1354b7c8a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:aaff51327e9e6c5c1fc9c4ee1354b7c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cae2a640e88e65698e8144a310f33fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a5cae2a640e88e65698e8144a310f33fd">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a5cae2a640e88e65698e8144a310f33fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6792a928b03c8b411076cff279f752b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aa6792a928b03c8b411076cff279f752b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:aa6792a928b03c8b411076cff279f752b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abace0670a38563be8032dd3834095c77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#abace0670a38563be8032dd3834095c77">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:abace0670a38563be8032dd3834095c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e774efe9a83f161ff5c38c9c7854e81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a8e774efe9a83f161ff5c38c9c7854e81">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a8e774efe9a83f161ff5c38c9c7854e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cea41add56a6a9ec7f3cf350383f6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a20cea41add56a6a9ec7f3cf350383f6f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a20cea41add56a6a9ec7f3cf350383f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec8a6564ecb84b46c9fdb0a72444890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#abec8a6564ecb84b46c9fdb0a72444890">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:abec8a6564ecb84b46c9fdb0a72444890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3fd6d567d0868f56bf6bf097ce4207"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aac3fd6d567d0868f56bf6bf097ce4207">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:aac3fd6d567d0868f56bf6bf097ce4207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19bb834372a78e8426e70ca212fd973a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a19bb834372a78e8426e70ca212fd973a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a19bb834372a78e8426e70ca212fd973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2969f7d2f4d3a197a610afb9a2f23cba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a2969f7d2f4d3a197a610afb9a2f23cba">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a> axiom)</td></tr>
+<tr class="separator:a2969f7d2f4d3a197a610afb9a2f23cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae586d80f4ee1ec28a6c6b6f7ea2546dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ae586d80f4ee1ec28a6c6b6f7ea2546dd">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> axiom)</td></tr>
+<tr class="separator:ae586d80f4ee1ec28a6c6b6f7ea2546dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5775bd7b1c5033dc5c7acc210b0c35d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a5775bd7b1c5033dc5c7acc210b0c35d5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a5775bd7b1c5033dc5c7acc210b0c35d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce8512fde4277c52d807a84b1bcacea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a5ce8512fde4277c52d807a84b1bcacea">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> rule)</td></tr>
+<tr class="separator:a5ce8512fde4277c52d807a84b1bcacea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d20dc2c742c98c1c7f45905a813947"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#ae8d20dc2c742c98c1c7f45905a813947">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a> axiom)</td></tr>
+<tr class="separator:ae8d20dc2c742c98c1c7f45905a813947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8005f42f64202013bbb4c892a987bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#aad8005f42f64202013bbb4c892a987bf">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:aad8005f42f64202013bbb4c892a987bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cc5d82eaf942886d08dda304d5bb3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a59cc5d82eaf942886d08dda304d5bb3a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:a59cc5d82eaf942886d08dda304d5bb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471bfbb6694983238a76f560f220d6c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a471bfbb6694983238a76f560f220d6c8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a471bfbb6694983238a76f560f220d6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e00d2412ecef80a79f3078a6b7ba425"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html#a5e00d2412ecef80a79f3078a6b7ba425">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a> axiom)</td></tr>
+<tr class="separator:a5e00d2412ecef80a79f3078a6b7ba425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 01-Mar-2007<br/>
+ <br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00100">100</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a85ef007a9599a6d3ca93a6948b9544be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.DebuggerClassExpressionGenerator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>factory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00106">106</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        this.dataFactory = dataFactory;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a9d8527ce0b86b7157f621b7c3a934055"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.getDebuggerClassExpression </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the class expression </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00111">111</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                           {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> desc;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab12c874dcf9f0849e7263f9c293d7ad0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a5e9f240b97ad056ae124c7301fc961c5">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00116">116</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">// A and not (B)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        OWLClassExpression complement = dataFactory.getOWLObjectComplementOf(axiom</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                .getSuperClass());</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        desc = dataFactory.getOWLObjectIntersectionOf(CollectionFactory.createSet(</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                axiom.getSubClass(), complement));</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae13387bfde7aa6826b25ec624555330a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a11ab1bcc3d7f7737cb5ed6735621a91a">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00125">125</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6763f7f9a4c476ce7b293a94bd230263"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a9cc0438c4815dd46e726e425249d7962">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00128">128</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab732c41ec48352a346e808a70912e4ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#aa75b9e8b9b09e9e1e02d6bd4e21a78af">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00131">131</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7de9bc998cf2d651fe864050785bccfc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a8ea2a73b77995165e6ef105aa71b573d">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00134">134</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af38a98f8b855dc115f3c9933ec7e213d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#aa2bf6b05653cd7b34d55059a9bce92e6">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00137">137</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                        {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        OWLClassExpression sub = dataFactory.getOWLDataSomeValuesFrom(</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                axiom.getProperty(), dataFactory.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#a3800d281ab894190391335701a4efb8f">getTopDatatype</a>());</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        OWLAxiom ax = dataFactory.getOWLSubClassOfAxiom(sub, axiom.getDomain());</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        ax.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory_html_a3800d281ab894190391335701a4efb8f"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#a3800d281ab894190391335701a4efb8f">org.semanticweb.owlapi.model.OWLDataFactory.getTopDatatype</a></div><div class="ttdeci">OWLDatatype getTopDatatype()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d39fa3a901f67a6129f7ac92fb585cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_imports_declaration.html">OWLImportsDeclaration</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00145">145</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                   {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="comment">// Nothing to do</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1a740140e8907900a63b0dbca4c9b823"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a5282829e5e310d8fc80c84f0942bbe1a">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00150">150</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                          {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="comment">// prop some Thing subclassOf domain</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        OWLClassExpression sub = dataFactory.getOWLObjectSomeValuesFrom(</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                axiom.getProperty(), dataFactory.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#af5d95852498f47f8676927aaabac0b82">getOWLThing</a>());</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        OWLSubClassOfAxiom ax = dataFactory.getOWLSubClassOfAxiom(sub, axiom.getDomain());</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        ax.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory_html_af5d95852498f47f8676927aaabac0b82"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#af5d95852498f47f8676927aaabac0b82">org.semanticweb.owlapi.model.OWLDataFactory.getOWLThing</a></div><div class="ttdeci">OWLClass getOWLThing()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a30b64620e5570f4e7a022c37b74faca0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ace3a3776438f412ee352add5b9d774e7">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00159">159</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6eccf0672312598eca17b3ca1d065b1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a3a0d09f0a9f90ce6e0490fbae8d8db10">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00162">162</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad84d0b0573606b3123df798c266fb655"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#af7f210c0af305450b73061f621112cd7">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00165">165</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16acd5ee931722ef744754d6188e38f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ae5de2588309a7d7e1d31fda8f26f9bcc">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00168">168</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb65a303f51d0efd6bf5e5807b5523b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ad23493246043371ed10f8d2e04a6420f">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00171">171</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa941d342c110a897320892270516251d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#adf47be2844e1df8bd66deabe8c7cc35b">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00174">174</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                         {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="comment">// Thing subclassOf prop only Range</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        OWLClassExpression sup = dataFactory.getOWLObjectAllValuesFrom(</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                axiom.getProperty(), axiom.getRange());</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        OWLSubClassOfAxiom ax = dataFactory.getOWLSubClassOfAxiom(</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                dataFactory.getOWLThing(), sup);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        ax.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21b4767cdb56a6509c3dd6747548fccf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a92494cc489fe7ac2edc8b8342c905a50">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00184">184</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a909d61db86eeca047940193db8495224"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a81b3c44529b365f8ad44f469df165861">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00187">187</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac45d6930871ff2dbae9f7fefb5cd3267"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a0d8653ab171b5fa343ceb7b45b74cd4e">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00190">190</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                                                         {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="comment">// subProp some {a} subClassOf supProp some {a}</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        OWLIndividual ind = dataFactory.getOWLNamedIndividual(IRI</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;.create(<span class="stringliteral">&quot;http://debugger.com#&quot;</span>, <span class="stringliteral">&quot;A&quot;</span> + System.nanoTime()));</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        OWLClassExpression sub = dataFactory.getOWLObjectHasValue(axiom.getSubProperty(),</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                ind);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        OWLClassExpression sup = dataFactory.getOWLObjectHasValue(</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                axiom.getSuperProperty(), ind);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        OWLAxiom ax = dataFactory.getOWLSubClassOfAxiom(sub, sup);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        ax.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2d5f4553fd1ff14c1572d02b866bc8be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#aaa8e2e5db5737421ee8186573388037c">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00203">203</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3ec89c305cc7f85619a348d4489a54be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ad9a3216fb046104fa07abdb0d186fcca">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00206">206</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1850b37fefa5076ca88f1f0ca25a376e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom_visitor.html#a38faec3e9bdd83355fa7a8896f33eb0b">org.semanticweb.owlapi.model.OWLAnnotationAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00209">209</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae415344fca275e9b5e497bef51c9bc9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a191669d8475ea48636f09aa907118440">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00212">212</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a23c4c76e35ff41aeacf3414728bf6307"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ab45e0937605e0ab2cb9a977c3ae65b5a">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00215">215</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaff51327e9e6c5c1fc9c4ee1354b7c8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#ac715891c16160deebcfb66c73a718672">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00218">218</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5cae2a640e88e65698e8144a310f33fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a43a0d2a220a3b22c46ca4707ee882a31">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00221">221</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa6792a928b03c8b411076cff279f752b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#acaeceb90bea5fa70018bc35947e5b0c9">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00224">224</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                    {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        OWLClassExpression sub = dataFactory.getOWLObjectOneOf(Collections</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                .singleton(axiom.getIndividual()));</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        OWLAxiom ax = dataFactory.getOWLSubClassOfAxiom(sub, axiom.getClassExpression());</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        ax.accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abace0670a38563be8032dd3834095c77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a5f2ecfc45783e6488e760ca7ff2faa13">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00232">232</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                       {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">if</span> (axiom.getClassExpressions().size() == 2</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                &amp;&amp; axiom.getClassExpressions().contains(dataFactory.getOWLNothing())) {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">for</span> (OWLClassExpression c : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">if</span> (!c.isOWLNothing()) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                    desc = c;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="comment">// (C and not D) or (not C and D)</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        Set&lt;OWLClassExpression&gt; clses = axiom.getClassExpressions();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        Iterator&lt;OWLClassExpression&gt; it = clses.iterator();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        OWLClassExpression descC = it.next();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        OWLClassExpression notC = dataFactory.getOWLObjectComplementOf(descC);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        OWLClassExpression descD = it.next();</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        OWLClassExpression notD = dataFactory.getOWLObjectComplementOf(descD);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        OWLObjectIntersectionOf left = dataFactory</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                .getOWLObjectIntersectionOf(CollectionFactory.createSet(descC, notD));</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        OWLObjectIntersectionOf right = dataFactory</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                .getOWLObjectIntersectionOf(CollectionFactory.createSet(notC, descD));</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        desc = dataFactory.getOWLObjectUnionOf(CollectionFactory.createSet(left, right));</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8e774efe9a83f161ff5c38c9c7854e81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a0c4f2f09b9e9ebfae030abedfcd097ea">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00257">257</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a20cea41add56a6a9ec7f3cf350383f6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a3b9a32ef68cee8406c987254b05f3d5b">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00260">260</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abec8a6564ecb84b46c9fdb0a72444890"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a6fbcaf9dc8219851798478eb53cd931d">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00263">263</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aac3fd6d567d0868f56bf6bf097ce4207"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a3a50a97702c2be861b0d76843b8f70a5">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00266">266</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a19bb834372a78e8426e70ca212fd973a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a76e2492ab31160fa377774de80555e7e">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00269">269</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2969f7d2f4d3a197a610afb9a2f23cba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#abe28f948216db649927cc35c343ef6a8">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00272">272</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae586d80f4ee1ec28a6c6b6f7ea2546dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a9ca20b52ad43bbb38e0b682201480932">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00275">275</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5775bd7b1c5033dc5c7acc210b0c35d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a4196a089ad583937aabb3c6835c229db">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00278">278</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ce8512fde4277c52d807a84b1bcacea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td>
+          <td class="paramname"><em>rule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#aca1d6d91a1f0bbf1508f24984f41228f">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00281">281</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae8d20dc2c742c98c1c7f45905a813947"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#a94cf51b1d430069e6dcc50f5c15b6c83">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00284">284</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aad8005f42f64202013bbb4c892a987bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom_visitor.html#af17034ef48044ee27cc746ba4aa48c96">org.semanticweb.owlapi.model.OWLAnnotationAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00287">287</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a59cc5d82eaf942886d08dda304d5bb3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom_visitor.html#aed8b833a7b0843967bb500f106687231">org.semanticweb.owlapi.model.OWLAnnotationAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00290">290</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a471bfbb6694983238a76f560f220d6c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom_visitor.html#a7e5e14ac071548ee1eda13164124acb1">org.semanticweb.owlapi.model.OWLAnnotationAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00293">293</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5e00d2412ecef80a79f3078a6b7ba425"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.debugging.DebuggerClassExpressionGenerator.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_visitor.html#aaaa73f4e22881ab0ff5659c18ce2977c">org.semanticweb.owlapi.model.OWLAxiomVisitor</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_debugger_class_expression_generator_8java_source.html#l00296">296</a> del archivo <a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tools/src/main/java/org/semanticweb/owlapi/debugging/<a class="el" href="_debugger_class_expression_generator_8java_source.html">DebuggerClassExpressionGenerator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1debugging.html">debugging</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1debugging_1_1_debugger_class_expression_generator.html">DebuggerClassExpressionGenerator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:17 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

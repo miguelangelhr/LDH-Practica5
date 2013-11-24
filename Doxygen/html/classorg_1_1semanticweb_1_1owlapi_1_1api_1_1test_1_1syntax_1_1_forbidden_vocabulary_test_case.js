@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_forbidden_vocabulary_test_case =
+[
+    [ "shouldFindViolation", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_forbidden_vocabulary_test_case.html#a9fd9435cdb3b71ebf250cb3ee1e71d4d", null ]
+];

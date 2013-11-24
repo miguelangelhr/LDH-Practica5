@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_reflexive_object_property_axiom_element_handler =
+[
+    [ "OWLReflexiveObjectPropertyAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_reflexive_object_property_axiom_element_handler.html#a2b6e13c4d6eddcc4d11b5ca26c320ed1", null ],
+    [ "createPropertyCharacteristicAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_reflexive_object_property_axiom_element_handler.html#a260c5bbf0137840d2e2c7950a833d6d5", null ]
+];

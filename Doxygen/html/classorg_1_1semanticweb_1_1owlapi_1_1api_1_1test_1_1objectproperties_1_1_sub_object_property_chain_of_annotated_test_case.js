@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_sub_object_property_chain_of_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_sub_object_property_chain_of_annotated_test_case.html#a0991c15d4d2d9c3374c63208a5f355de", null ]
+];

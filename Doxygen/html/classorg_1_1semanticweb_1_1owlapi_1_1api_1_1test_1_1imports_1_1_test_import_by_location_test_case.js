@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1imports_1_1_test_import_by_location_test_case =
+[
+    [ "testImportOntologyByLocation", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1imports_1_1_test_import_by_location_test_case.html#ab514b46b8add012ef8285a6ea6990fe8", null ]
+];

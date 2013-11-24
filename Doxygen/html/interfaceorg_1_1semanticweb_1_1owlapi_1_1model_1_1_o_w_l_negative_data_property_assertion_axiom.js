@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom =
+[
+    [ "containsAnonymousIndividuals", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html#a42eddbeba0e41a1f701c4496fccd3efb", null ],
+    [ "getAxiomWithoutAnnotations", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html#a0c3607849029c591cc2b3e77fca2b442", null ]
+];

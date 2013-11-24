@@ -1,0 +1,6 @@
+var classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_object_property_expression_list_item_translator =
+[
+    [ "OWLObjectPropertyExpressionListItemTranslator", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_object_property_expression_list_item_translator.html#a1c267267926fec731b1ff7b3fb6d54aa", null ],
+    [ "translate", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_object_property_expression_list_item_translator.html#a780a3c0f8991cee1967dd52137c6940b", null ],
+    [ "translate", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_object_property_expression_list_item_translator.html#a4b55b15e48876310290fa1420e89e4ed", null ]
+];

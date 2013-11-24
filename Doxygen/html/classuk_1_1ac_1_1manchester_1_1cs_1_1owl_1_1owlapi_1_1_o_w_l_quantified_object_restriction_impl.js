@@ -1,0 +1,5 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_object_restriction_impl =
+[
+    [ "OWLQuantifiedObjectRestrictionImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_object_restriction_impl.html#aaca0ba3776fba0ea07dac5907c8e3a18", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_object_restriction_impl.html#a278346ff6c9f0ebf478b5cdab64cef25", null ]
+];

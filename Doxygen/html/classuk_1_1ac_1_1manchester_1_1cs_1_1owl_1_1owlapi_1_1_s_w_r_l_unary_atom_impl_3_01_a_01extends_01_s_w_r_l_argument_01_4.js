@@ -1,0 +1,6 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_unary_atom_impl_3_01_a_01extends_01_s_w_r_l_argument_01_4 =
+[
+    [ "SWRLUnaryAtomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_unary_atom_impl_3_01_a_01extends_01_s_w_r_l_argument_01_4.html#a66ceb6132f7711b5b4917a3bb75e6458", null ],
+    [ "getAllArguments", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_unary_atom_impl_3_01_a_01extends_01_s_w_r_l_argument_01_4.html#ac73665fa9079d65ce58202c57b4007d5", null ],
+    [ "getArgument", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_unary_atom_impl_3_01_a_01extends_01_s_w_r_l_argument_01_4.html#a6bb3d84e2ca90d2386c734ecd62ed369", null ]
+];

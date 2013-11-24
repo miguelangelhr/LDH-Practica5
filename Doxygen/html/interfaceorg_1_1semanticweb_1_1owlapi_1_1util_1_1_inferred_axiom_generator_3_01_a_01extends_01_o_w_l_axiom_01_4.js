@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_axiom_generator_3_01_a_01extends_01_o_w_l_axiom_01_4 =
+[
+    [ "createAxioms", "interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_axiom_generator_3_01_a_01extends_01_o_w_l_axiom_01_4.html#a4576f200a51028d3a8b0a371e4ca8a3e", null ],
+    [ "getLabel", "interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_axiom_generator_3_01_a_01extends_01_o_w_l_axiom_01_4.html#a43cc81d7437cc0727362207be022116b", null ]
+];

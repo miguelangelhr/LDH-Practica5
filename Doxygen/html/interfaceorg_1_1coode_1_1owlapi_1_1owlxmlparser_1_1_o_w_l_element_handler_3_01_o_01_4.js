@@ -1,0 +1,27 @@
+var interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4 =
+[
+    [ "attribute", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#abdf5480c1f0fce6548c2529fe24200ba", null ],
+    [ "endElement", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a9b2215431ab117aaeaa19d64863a28f7", null ],
+    [ "getOWLObject", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1f7a9696a4a17569a083759e8a709be4", null ],
+    [ "getText", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a62a5fd0e073eb6887d98254abc65f4f6", null ],
+    [ "handleChars", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a377a7d5a24faf761d05a0a3dd95fd6fc", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a8e3b58915cf19ff04334d8b5c24c6d45", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#aab2e9b0f09a72dbce417ef1a9d452e2d", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#acab8d17842ce7570c45790b5370e31bc", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a2687058ae777468f56b4913be346c39a", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ab55fbdf434382af884e015cf8f259cb0", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#afdf78ae02c51418dc0886358ac7597ba", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a82f7dcdcb37732ff8dfe15d353719131", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a71615ff43726efed08545715caa2e727", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a849030b291376cfdbde92ae9d918bcb9", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#aa4b4b69305376abbe3557e6b24c5644a", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1e561a773fb0c31af6e8537eafcf98e8", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ab631172d32917b921c137b7f6b21c5c1", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a1701169ace92647f59d7fe2f7753ce67", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a47e97750d70e3ee5886dd3bf9a3118d4", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a011db184131d5381b5d3d42ff73b7b46", null ],
+    [ "handleChild", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a8bb82ad5ee3fee85e8e5dbc04ac7af05", null ],
+    [ "isTextContentPossible", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#ae145864c0fcc8777458fed5202f147c9", null ],
+    [ "setParentHandler", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a4c9fd269db83cb66c0ef73cc4c3aa5be", null ],
+    [ "startElement", "interfaceorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_element_handler_3_01_o_01_4.html#a445b77538001dd455d3edfdd3c74b84a", null ]
+];

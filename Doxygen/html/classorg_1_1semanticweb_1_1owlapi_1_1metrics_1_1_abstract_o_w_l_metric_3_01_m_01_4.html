@@ -1,0 +1,570 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_listener.html">org.semanticweb.owlapi.model.OWLOntologyChangeListener</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a03f1fc8fa68d7a298a141dd1d34aebdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a03f1fc8fa68d7a298a141dd1d34aebdb">AbstractOWLMetric</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> owlOntologyManager)</td></tr>
+<tr class="separator:a03f1fc8fa68d7a298a141dd1d34aebdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26886da3d160778aca2e51cc82861b95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a26886da3d160778aca2e51cc82861b95">getOntology</a> ()</td></tr>
+<tr class="separator:a26886da3d160778aca2e51cc82861b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f12915419f326fe4f5afc342571854"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab6f12915419f326fe4f5afc342571854">setOntology</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:ab6f12915419f326fe4f5afc342571854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011fcebbac266b90df45a12a468a817a"><td class="memItemLeft" align="right" valign="top">final M&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a011fcebbac266b90df45a12a468a817a">getValue</a> ()</td></tr>
+<tr class="separator:a011fcebbac266b90df45a12a468a817a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb54e314b769a94a974ffc65c09e065"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#acbb54e314b769a94a974ffc65c09e065">getOntologies</a> ()</td></tr>
+<tr class="separator:acbb54e314b769a94a974ffc65c09e065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9c2551770244f68fee246a37eac017"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a5b9c2551770244f68fee246a37eac017">ontologiesChanged</a> (List&lt;?extends <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> &gt; changes)  throws OWLException </td></tr>
+<tr class="separator:a5b9c2551770244f68fee246a37eac017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd1721839a0c2cca9304406b7c0568b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a0fd1721839a0c2cca9304406b7c0568b">getManager</a> ()</td></tr>
+<tr class="separator:a0fd1721839a0c2cca9304406b7c0568b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2752f8b0ef563313621d80ad22f51af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ac2752f8b0ef563313621d80ad22f51af">dispose</a> ()</td></tr>
+<tr class="separator:ac2752f8b0ef563313621d80ad22f51af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2d413d3fce38068f161edd67569b96"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a3b2d413d3fce38068f161edd67569b96">isImportsClosureUsed</a> ()</td></tr>
+<tr class="separator:a3b2d413d3fce38068f161edd67569b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835b0657c6ad7d1e5c8fab8e9f752838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a835b0657c6ad7d1e5c8fab8e9f752838">setImportsClosureUsed</a> (boolean b)</td></tr>
+<tr class="separator:a835b0657c6ad7d1e5c8fab8e9f752838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbfd40dbfa0bb367e5b2746e5522f52"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#afbbfd40dbfa0bb367e5b2746e5522f52">toString</a> ()</td></tr>
+<tr class="separator:afbbfd40dbfa0bb367e5b2746e5522f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a></td></tr>
+<tr class="memitem:a2bf46b53dac8e60a31442bf46b2933a9 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a2bf46b53dac8e60a31442bf46b2933a9">getName</a> ()</td></tr>
+<tr class="separator:a2bf46b53dac8e60a31442bf46b2933a9 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ab961f805dad593a600155e2d494f19ec"><td class="memItemLeft" align="right" valign="top">abstract M&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab961f805dad593a600155e2d494f19ec">recomputeMetric</a> ()</td></tr>
+<tr class="separator:ab961f805dad593a600155e2d494f19ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff8d42d9db9df7b719d49a5b3b75f48"><td class="memItemLeft" align="right" valign="top">abstract boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a7ff8d42d9db9df7b719d49a5b3b75f48">isMetricInvalidated</a> (List&lt;?extends <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> &gt; changes)</td></tr>
+<tr class="separator:a7ff8d42d9db9df7b719d49a5b3b75f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4c50ae12368757bf1407d688b54e95"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a9a4c50ae12368757bf1407d688b54e95">disposeMetric</a> ()</td></tr>
+<tr class="separator:a9a4c50ae12368757bf1407d688b54e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 27-Jul-2007<br/>
+ <br/>
+</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;M&gt;</td><td>the metric type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00059">59</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a03f1fc8fa68d7a298a141dd1d34aebdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.AbstractOWLMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>owlOntologyManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owlOntologyManager</td><td>the manager to use </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00069">69</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        this.owlOntologyManager = owlOntologyManager;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        owlOntologyManager.addOntologyChangeListener(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        dirty = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ac2752f8b0ef563313621d80ad22f51af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.dispose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Diposes of the metric. If the metric attaches itself as a listener to an ontology manager then this will cause the metric to detach itself and stop listening for ontology changes. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a86f5b6832be5abd7b5db9d47ab3f8b3f">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00123">123</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                          {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        owlOntologyManager.removeOntologyChangeListener(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a9a4c50ae12368757bf1407d688b54e95">disposeMetric</a>();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4_html_a9a4c50ae12368757bf1407d688b54e95"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a9a4c50ae12368757bf1407d688b54e95">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.disposeMetric</a></div><div class="ttdeci">abstract void disposeMetric()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a4c50ae12368757bf1407d688b54e95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.disposeMetric </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0fd1721839a0c2cca9304406b7c0568b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.getManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the ontology manager which, amongst other things can be used to obtain the imports closure of the current ontology. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code>OWLOntologyManager</code>. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a4063f1c9d6ed73a04a964e434f0c9a67">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00118">118</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                           {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> owlOntologyManager;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acbb54e314b769a94a974ffc65c09e065"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&gt; org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.getOntologies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>ontologies as a set </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00101">101</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                            {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (importsClosureUsed) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">return</span> owlOntologyManager.getImportsClosure(ontology);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> Collections.singleton(ontology);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a26886da3d160778aca2e51cc82861b95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.getOntology </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the ontology which the value of the metric should be based on. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The ontology. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a1c3359b061237c78123264f4d8273e57">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00076">76</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                     {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> ontology;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a011fcebbac266b90df45a12a468a817a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final M org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.getValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the value of this metric. This value is computed w.r.t. the current ontology and possibly the imports closure (if specified). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>An object which represents the value of this metric - calling the <code>toString</code> method of the object returned by this method will result in a human readable string that displays the value of the metric. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a875b24183291649a805fe49b73b93af8">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00089">89</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                              {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">if</span> (dirty) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            value = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab961f805dad593a600155e2d494f19ec">recomputeMetric</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> value;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4_html_ab961f805dad593a600155e2d494f19ec"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab961f805dad593a600155e2d494f19ec">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.recomputeMetric</a></div><div class="ttdeci">abstract M recomputeMetric()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3b2d413d3fce38068f161edd67569b96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.isImportsClosureUsed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if the computation of the metric should take into account the imports closure of the current ontology. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the imports closure of the current ontology is taken into account when computing the value of this metric, or <code>false</code> if the imports closure isn't taken into account when computing this metric. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#ae3f1a381328e8e98788ec3d41a8e2fae">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00129">129</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                                                {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">return</span> importsClosureUsed;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7ff8d42d9db9df7b719d49a5b3b75f48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract boolean org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.isMetricInvalidated </td>
+          <td>(</td>
+          <td class="paramtype">List&lt;?extends <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> &gt;&#160;</td>
+          <td class="paramname"><em>changes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines if the specified list of changes will cause the value of this metric to be invalid.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changes</td><td>The list of changes which will be examined to determine if the metric is now invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the metric value is invalidated by the specified list of changes, or <code>false</code> if the list of changes do not cause the value of this metric to be invalidated. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5b9c2551770244f68fee246a37eac017"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.ontologiesChanged </td>
+          <td>(</td>
+          <td class="paramtype">List&lt;?extends <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> &gt;&#160;</td>
+          <td class="paramname"><em>changes</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_exception.html">OWLException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called when some changes have been applied to various ontologies. These may be an axiom added or an axiom removed changes. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changes</td><td>A list of changes that have occurred. Each change may be examined to determine which ontology it was applied to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">OWLException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change_listener.html#a1b799247b850f5731783b5b7167a8642">org.semanticweb.owlapi.model.OWLOntologyChangeListener</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00110">110</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a7ff8d42d9db9df7b719d49a5b3b75f48">isMetricInvalidated</a>(changes)) {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            setDirty(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4_html_a7ff8d42d9db9df7b719d49a5b3b75f48"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a7ff8d42d9db9df7b719d49a5b3b75f48">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.isMetricInvalidated</a></div><div class="ttdeci">abstract boolean isMetricInvalidated(List&lt;?extends OWLOntologyChange &gt; changes)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab961f805dad593a600155e2d494f19ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract M org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.recomputeMetric </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a835b0657c6ad7d1e5c8fab8e9f752838"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.setImportsClosureUsed </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets whether this metric uses the imports closure of the current ontology </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><code>true</code> if this metric uses the imports closure of the current ontology, otherwise false. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a03337a673dc761335f8987965130a762">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00134">134</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                 {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        importsClosureUsed = b;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">if</span> (ontology != null) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab961f805dad593a600155e2d494f19ec">recomputeMetric</a>();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4_html_ab961f805dad593a600155e2d494f19ec"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#ab961f805dad593a600155e2d494f19ec">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.recomputeMetric</a></div><div class="ttdeci">abstract M recomputeMetric()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab6f12915419f326fe4f5afc342571854"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.setOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the "root" ontology. The metric will be recomputed from this ontology (and potentially its imports closure if selected). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology for which the metric should be computed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a01d38442080ecb44c5d913b053a20469">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00081">81</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                        {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        this.ontology = ontology;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        setDirty(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afbbfd40dbfa0bb367e5b2746e5522f52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_abstract_o_w_l_metric_8java_source.html#l00156">156</a> del archivo <a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                             {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a2bf46b53dac8e60a31442bf46b2933a9">getName</a>() + <span class="stringliteral">&quot;: &quot;</span> + <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a011fcebbac266b90df45a12a468a817a">getValue</a>();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4_html_a011fcebbac266b90df45a12a468a817a"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html#a011fcebbac266b90df45a12a468a817a">org.semanticweb.owlapi.metrics.AbstractOWLMetric&lt; M &gt;.getValue</a></div><div class="ttdeci">final M getValue()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_o_w_l_metric_8java_source.html#l00089">AbstractOWLMetric.java:89</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4_html_a2bf46b53dac8e60a31442bf46b2933a9"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_o_w_l_metric_3_01_m_01_4.html#a2bf46b53dac8e60a31442bf46b2933a9">org.semanticweb.owlapi.metrics.OWLMetric&lt; M &gt;.getName</a></div><div class="ttdeci">String getName()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tools/src/main/java/org/semanticweb/owlapi/metrics/<a class="el" href="_abstract_o_w_l_metric_8java_source.html">AbstractOWLMetric.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1metrics.html">metrics</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1metrics_1_1_abstract_o_w_l_metric_3_01_m_01_4.html">AbstractOWLMetric< M ></a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:19 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

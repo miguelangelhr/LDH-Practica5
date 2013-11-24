@@ -1,0 +1,6 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_restriction_impl_3_01_r_e04a97c08083d9e3c6f10e535b1571d1 =
+[
+    [ "OWLQuantifiedRestrictionImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_restriction_impl_3_01_r_e04a97c08083d9e3c6f10e535b1571d1.html#a265152a0a7333ee1dd392aa7403f44d4", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_restriction_impl_3_01_r_e04a97c08083d9e3c6f10e535b1571d1.html#a1c1fe6e28e99cc74247e27347b02ccca", null ],
+    [ "getFiller", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_quantified_restriction_impl_3_01_r_e04a97c08083d9e3c6f10e535b1571d1.html#a58122d8debd2ad4cdea571727d13c5b6", null ]
+];

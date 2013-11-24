@@ -1,0 +1,768 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.reasoner.impl.NodeFactory</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.reasoner.impl.NodeFactory</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a46d7d3ddc0ad566521e809489248c22a"><td class="memItemLeft" align="right" valign="top">static DefaultNode&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a46d7d3ddc0ad566521e809489248c22a">getOWLClassNode</a> ()</td></tr>
+<tr class="separator:a46d7d3ddc0ad566521e809489248c22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92fd795ddffe66e028c4636d5d8d0094"><td class="memItemLeft" align="right" valign="top">static DefaultNode&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a92fd795ddffe66e028c4636d5d8d0094">getOWLClassNode</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> cls)</td></tr>
+<tr class="separator:a92fd795ddffe66e028c4636d5d8d0094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9696783c3f413d73757fc0e3d8a4470"><td class="memItemLeft" align="right" valign="top">static DefaultNode&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#ae9696783c3f413d73757fc0e3d8a4470">getOWLClassNode</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt; clses)</td></tr>
+<tr class="separator:ae9696783c3f413d73757fc0e3d8a4470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3d95cf8b229b8551928c218848de96"><td class="memItemLeft" align="right" valign="top">static DefaultNode&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a5d3d95cf8b229b8551928c218848de96">getOWLClassTopNode</a> ()</td></tr>
+<tr class="separator:a5d3d95cf8b229b8551928c218848de96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad981fbeb5decf1e2810ae798d9e6d777"><td class="memItemLeft" align="right" valign="top">static DefaultNode&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#ad981fbeb5decf1e2810ae798d9e6d777">getOWLClassBottomNode</a> ()</td></tr>
+<tr class="separator:ad981fbeb5decf1e2810ae798d9e6d777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaedcc09c69f2a5a497ec35a9f2bf86b"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#afaedcc09c69f2a5a497ec35a9f2bf86b">getOWLObjectPropertyNode</a> ()</td></tr>
+<tr class="separator:afaedcc09c69f2a5a497ec35a9f2bf86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea832e24626a63dcaf5e2073beb350a"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a6ea832e24626a63dcaf5e2073beb350a">getOWLObjectPropertyNode</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> prop)</td></tr>
+<tr class="separator:a6ea832e24626a63dcaf5e2073beb350a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8b705ab4513972e184cddf27f57ffa"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a8d8b705ab4513972e184cddf27f57ffa">getOWLObjectPropertyNode</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt; properties)</td></tr>
+<tr class="separator:a8d8b705ab4513972e184cddf27f57ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98280dd61f7a957a0f360056989f260"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#ad98280dd61f7a957a0f360056989f260">getOWLObjectPropertyTopNode</a> ()</td></tr>
+<tr class="separator:ad98280dd61f7a957a0f360056989f260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2efeb722f4c03aedffbefe87b5e55098"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a2efeb722f4c03aedffbefe87b5e55098">getOWLObjectPropertyBottomNode</a> ()</td></tr>
+<tr class="separator:a2efeb722f4c03aedffbefe87b5e55098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af84939c836ce79e8e50ca8af762d30"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a0af84939c836ce79e8e50ca8af762d30">getOWLDataPropertyNode</a> ()</td></tr>
+<tr class="separator:a0af84939c836ce79e8e50ca8af762d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a548517fd0cebc5e9b06e27b81000c19f"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a548517fd0cebc5e9b06e27b81000c19f">getOWLDataPropertyNode</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> prop)</td></tr>
+<tr class="separator:a548517fd0cebc5e9b06e27b81000c19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b866737ddb844c4f85d537134d79359"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a3b866737ddb844c4f85d537134d79359">getOWLDataPropertyNode</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt; properties)</td></tr>
+<tr class="separator:a3b866737ddb844c4f85d537134d79359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a93467cfc7c3a961068a7959300758"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#ac1a93467cfc7c3a961068a7959300758">getOWLDataPropertyTopNode</a> ()</td></tr>
+<tr class="separator:ac1a93467cfc7c3a961068a7959300758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad5ba35376228d93872a04cffc97b2ed"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#aad5ba35376228d93872a04cffc97b2ed">getOWLDataPropertyBottomNode</a> ()</td></tr>
+<tr class="separator:aad5ba35376228d93872a04cffc97b2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c465eb1544cd5de4fca09e0e8295109"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a2c465eb1544cd5de4fca09e0e8295109">getOWLNamedIndividualNode</a> ()</td></tr>
+<tr class="separator:a2c465eb1544cd5de4fca09e0e8295109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5955228a3f71347b5e061a858333d2bc"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a5955228a3f71347b5e061a858333d2bc">getOWLNamedIndividualNode</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> ind)</td></tr>
+<tr class="separator:a5955228a3f71347b5e061a858333d2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccf895daf14f35eb3c21b5fa4ef8703"><td class="memItemLeft" align="right" valign="top">static DefaultNode<br class="typebreak"/>
+&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html#a8ccf895daf14f35eb3c21b5fa4ef8703">getOWLNamedIndividualNode</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt; inds)</td></tr>
+<tr class="separator:a8ccf895daf14f35eb3c21b5fa4ef8703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University of Manchester<br/>
+ Information Management Group<br/>
+ Date: 05-Dec-2009 </p>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00054">54</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ad981fbeb5decf1e2810ae798d9e6d777"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLClassBottomNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the bottom class node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00090">90</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                                                {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> OWLClassNode.getBottomNode();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a46d7d3ddc0ad566521e809489248c22a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLClassNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>a class node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00058">58</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                          {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLClassNode();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92fd795ddffe66e028c4636d5d8d0094"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLClassNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>cls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cls</td><td>a class to be included in the node </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a class node with one element </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00067">67</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLClassNode(cls);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae9696783c3f413d73757fc0e3d8a4470"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLClassNode </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td>
+          <td class="paramname"><em>clses</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clses</td><td>set of classes to be included </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a class node with some elements </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00076">76</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLClassNode(clses);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d3d95cf8b229b8551928c218848de96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLClassTopNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the top class node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00083">83</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                                             {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> OWLClassNode.getTopNode();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aad5ba35376228d93872a04cffc97b2ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLDataPropertyBottomNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the bottom data property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00171">171</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">return</span> OWLDataPropertyNode.getBottomNode();</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0af84939c836ce79e8e50ca8af762d30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLDataPropertyNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>a data property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00138">138</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLDataPropertyNode();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a548517fd0cebc5e9b06e27b81000c19f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLDataPropertyNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>a property to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a data property node with one element </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00147">147</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                                                                            {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLDataPropertyNode(prop);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3b866737ddb844c4f85d537134d79359"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLDataPropertyNode </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">properties</td><td>some properties to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a data property node with some elements </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00156">156</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                             {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLDataPropertyNode(properties);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac1a93467cfc7c3a961068a7959300758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLDataPropertyTopNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the top data property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00164">164</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">return</span> OWLDataPropertyNode.getTopNode();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2c465eb1544cd5de4fca09e0e8295109"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLNamedIndividualNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>an individual node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00178">178</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLNamedIndividualNode();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5955228a3f71347b5e061a858333d2bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLNamedIndividualNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&#160;</td>
+          <td class="paramname"><em>ind</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ind</td><td>an individual to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an individual node with one element </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00187">187</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                    {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLNamedIndividualNode(ind);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8ccf895daf14f35eb3c21b5fa4ef8703"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLNamedIndividualNode </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td>
+          <td class="paramname"><em>inds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inds</td><td>some individuals to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an individual node containing some individuals </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00197">197</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                          {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLNamedIndividualNode(inds);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2efeb722f4c03aedffbefe87b5e55098"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLObjectPropertyBottomNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the bottom object property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00131">131</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                                                            {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span> OWLObjectPropertyNode.getBottomNode();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afaedcc09c69f2a5a497ec35a9f2bf86b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLObjectPropertyNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>an object property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00097">97</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                                      {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLObjectPropertyNode();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6ea832e24626a63dcaf5e2073beb350a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLObjectPropertyNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>a property to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an object property node with one element </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00106">106</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                              {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLObjectPropertyNode(prop);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d8b705ab4513972e184cddf27f57ffa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLObjectPropertyNode </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a> &gt;&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">properties</td><td>some properties to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an object property node with some elements </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00116">116</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                         {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLObjectPropertyNode(properties);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad98280dd61f7a957a0f360056989f260"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DefaultNode&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_expression.html">OWLObjectPropertyExpression</a>&gt; org.semanticweb.owlapi.reasoner.impl.NodeFactory.getOWLObjectPropertyTopNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the top object property node </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_node_factory_8java_source.html#l00124">124</a> del archivo <a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                                                         {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> OWLObjectPropertyNode.getTopNode();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>impl/src/main/java/org/semanticweb/owlapi/reasoner/impl/<a class="el" href="_node_factory_8java_source.html">NodeFactory.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1reasoner.html">reasoner</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1impl_1_1_node_factory.html">NodeFactory</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:32 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

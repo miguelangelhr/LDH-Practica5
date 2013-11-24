@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_object_property_assertifae0c5126ce01c483d2a76c42e79dfcf =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_object_property_assertifae0c5126ce01c483d2a76c42e79dfcf.html#a10c1a0ec196c0a02b2bbe42ae3a61461", null ]
+];

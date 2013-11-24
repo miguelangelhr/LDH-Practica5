@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_operand_axiom_element_handler =
+[
+    [ "AbstractClassExpressionOperandAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_operand_axiom_element_handler.html#a5f1c6bfa98e1c99a16cadd6672fb5c1a", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_class_expression_operand_axiom_element_handler.html#a60f28f4e87b74018393b254fba6132c5", null ]
+];

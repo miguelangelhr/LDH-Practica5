@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_disjoint_data_properties_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1dataproperties_1_1_disjoint_data_properties_annotated_test_case.html#adb945ddfd6c642c3f49b6d39f78d9957", null ]
+];

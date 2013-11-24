@@ -1,0 +1,740 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e2adb60dc91ae6994ef7d0c7741379d53.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a> y OWLPropertyExpression&lt; R, P &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a01e88c69852c245a466d262b8ed1d1ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a01e88c69852c245a466d262b8ed1d1ec">OWLPropertyExpressionImpl</a> ()</td></tr>
+<tr class="separator:a01e88c69852c245a466d262b8ed1d1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624cd2c941fc33c3ba0b1b787d113d04"><td class="memItemLeft" align="right" valign="top">Set&lt; R &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a624cd2c941fc33c3ba0b1b787d113d04">getRanges</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a624cd2c941fc33c3ba0b1b787d113d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad707776e1988e77ecc5031c3399be965"><td class="memItemLeft" align="right" valign="top">Set&lt; R &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#ad707776e1988e77ecc5031c3399be965">getRanges</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:ad707776e1988e77ecc5031c3399be965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4e5005afb90350e70a8cd99316060b"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a0f4e5005afb90350e70a8cd99316060b">getDomains</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a0f4e5005afb90350e70a8cd99316060b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab225e3f5dbfabb0ef47845a9970faaf9"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#ab225e3f5dbfabb0ef47845a9970faaf9">getDomains</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:ab225e3f5dbfabb0ef47845a9970faaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995a44286f6a7a2f3d5fad10b0acfccc"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a995a44286f6a7a2f3d5fad10b0acfccc">getSuperProperties</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a995a44286f6a7a2f3d5fad10b0acfccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2685dc06eb5ca50c5855919e4a765c84"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a2685dc06eb5ca50c5855919e4a765c84">getSuperProperties</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:a2685dc06eb5ca50c5855919e4a765c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadd9f6180dc61998868744bffc4c2b6"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#afadd9f6180dc61998868744bffc4c2b6">getSubProperties</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:afadd9f6180dc61998868744bffc4c2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b14ee4829b7c3377bce107ce7615c89"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a7b14ee4829b7c3377bce107ce7615c89">getSubProperties</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:a7b14ee4829b7c3377bce107ce7615c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5278c4b174db405aabb9b4f6e7c3b1ea"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a5278c4b174db405aabb9b4f6e7c3b1ea">getEquivalentProperties</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a5278c4b174db405aabb9b4f6e7c3b1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a02b6dcbe5c04695d2e6a259ae2aa40"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a0a02b6dcbe5c04695d2e6a259ae2aa40">getEquivalentProperties</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:a0a02b6dcbe5c04695d2e6a259ae2aa40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd06cc2ad6f6f195cc48a9ed1109b49"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a7fd06cc2ad6f6f195cc48a9ed1109b49">getDisjointProperties</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a7fd06cc2ad6f6f195cc48a9ed1109b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ade51515e4f338cf00064ce220d8102"><td class="memItemLeft" align="right" valign="top">Set&lt; P &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a9ade51515e4f338cf00064ce220d8102">getDisjointProperties</a> (Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt; ontologies)</td></tr>
+<tr class="separator:a9ade51515e4f338cf00064ce220d8102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b69ee6b28387de31b717f9f3f212230"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a8b69ee6b28387de31b717f9f3f212230">equals</a> (Object obj)</td></tr>
+<tr class="separator:a8b69ee6b28387de31b717f9f3f212230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:adb32e4f033cf4062d7d9cb72f18c4ae1 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#adb32e4f033cf4062d7d9cb72f18c4ae1">OWLObjectImpl</a> ()</td></tr>
+<tr class="separator:adb32e4f033cf4062d7d9cb72f18c4ae1 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f510778e0d7a8bae2b6e5b7b8934654 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a3f510778e0d7a8bae2b6e5b7b8934654">getSignature</a> ()</td></tr>
+<tr class="separator:a3f510778e0d7a8bae2b6e5b7b8934654 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c25608f7bfddf821c860b3f862479e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a14c25608f7bfddf821c860b3f862479e">getAnonymousIndividuals</a> ()</td></tr>
+<tr class="separator:a14c25608f7bfddf821c860b3f862479e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb866bd30aefe55594f38cc228926bc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a1eb866bd30aefe55594f38cc228926bc">getClassesInSignature</a> ()</td></tr>
+<tr class="separator:a1eb866bd30aefe55594f38cc228926bc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c426c1f4cc140b3afaf02870d80c40 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#ad9c426c1f4cc140b3afaf02870d80c40">getDataPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:ad9c426c1f4cc140b3afaf02870d80c40 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cb9b8a630c8c2eb8759264d0baafce inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#ac0cb9b8a630c8c2eb8759264d0baafce">getObjectPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:ac0cb9b8a630c8c2eb8759264d0baafce inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162ee8fd6eeee784c409361a2340e926 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a162ee8fd6eeee784c409361a2340e926">getIndividualsInSignature</a> ()</td></tr>
+<tr class="separator:a162ee8fd6eeee784c409361a2340e926 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526ea786aa3cd41724490b2db111e81b inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a526ea786aa3cd41724490b2db111e81b">getDatatypesInSignature</a> ()</td></tr>
+<tr class="separator:a526ea786aa3cd41724490b2db111e81b inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cba687657bb45d601dcbb24efbc0a06 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a9cba687657bb45d601dcbb24efbc0a06">getNestedClassExpressions</a> ()</td></tr>
+<tr class="separator:a9cba687657bb45d601dcbb24efbc0a06 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008d38cc12efd679c0b00cfe35a58299 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a008d38cc12efd679c0b00cfe35a58299">equals</a> (Object obj)</td></tr>
+<tr class="separator:a008d38cc12efd679c0b00cfe35a58299 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec58d7a4cd2c2d8e141f6441c1332dc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aeec58d7a4cd2c2d8e141f6441c1332dc">hashCode</a> ()</td></tr>
+<tr class="separator:aeec58d7a4cd2c2d8e141f6441c1332dc inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2beadf5a65379e393d1e5f4876d715 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a2e2beadf5a65379e393d1e5f4876d715">compareTo</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> o)</td></tr>
+<tr class="separator:a2e2beadf5a65379e393d1e5f4876d715 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130f1c36a06d5f934d746282f95d1a1e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a130f1c36a06d5f934d746282f95d1a1e">toString</a> ()</td></tr>
+<tr class="separator:a130f1c36a06d5f934d746282f95d1a1e inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a36e4ff1e72e64295cbc4ae2632f043 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a5a36e4ff1e72e64295cbc4ae2632f043">isTopEntity</a> ()</td></tr>
+<tr class="separator:a5a36e4ff1e72e64295cbc4ae2632f043 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70e6fd4799bcfe552204a6a0f7a80f7 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#af70e6fd4799bcfe552204a6a0f7a80f7">isBottomEntity</a> ()</td></tr>
+<tr class="separator:af70e6fd4799bcfe552204a6a0f7a80f7 inherit pub_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></td></tr>
+<tr class="memitem:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0995c39ce5b4410f688c474ce108c0aa">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa28e124b939675c9d697ee3e02714813">accept</a> (OWLObjectVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a6f4ff5e950d5a6176bab89cc714a3ee9"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLSubPropertyAxiom&lt; P &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a6f4ff5e950d5a6176bab89cc714a3ee9">getSubPropertyAxiomsForRHS</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ont)</td></tr>
+<tr class="separator:a6f4ff5e950d5a6176bab89cc714a3ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a579bc46e3a828ddf71682b654ce5e1b6"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLPropertyDomainAxiom&lt;?&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a579bc46e3a828ddf71682b654ce5e1b6">getDomainAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a579bc46e3a828ddf71682b654ce5e1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17303edf9df6f4c6aaba0fb66ba18d79"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLPropertyRangeAxiom&lt; P, R &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a17303edf9df6f4c6aaba0fb66ba18d79">getRangeAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a17303edf9df6f4c6aaba0fb66ba18d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c903066a12abdffd326c0aeb19705df"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLSubPropertyAxiom&lt; P &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a4c903066a12abdffd326c0aeb19705df">getSubPropertyAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a4c903066a12abdffd326c0aeb19705df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bac432961b676baa7bed7c74b1101d8"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLNaryPropertyAxiom&lt; P &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a9bac432961b676baa7bed7c74b1101d8">getEquivalentPropertiesAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a9bac432961b676baa7bed7c74b1101d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a032f5dc3d8b6cad0b4f322e496d7e"><td class="memItemLeft" align="right" valign="top">abstract Set&lt;?extends <br class="typebreak"/>
+OWLNaryPropertyAxiom&lt; P &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#af8a032f5dc3d8b6cad0b4f322e496d7e">getDisjointPropertiesAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:af8a032f5dc3d8b6cad0b4f322e496d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:aed94406b56e0bfe19df00a66c05e4b7e inherit pro_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aed94406b56e0bfe19df00a66c05e4b7e">compareObjectOfSameType</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> object)</td></tr>
+<tr class="separator:aed94406b56e0bfe19df00a66c05e4b7e inherit pro_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos estáticos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:a878891bffe37236e57c59c150b5105d6 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a878891bffe37236e57c59c150b5105d6">compareSets</a> (Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; set1, Set&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; set2)</td></tr>
+<tr class="separator:a878891bffe37236e57c59c150b5105d6 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43065ac9696c2f0eb3661205814a8890 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a43065ac9696c2f0eb3661205814a8890">compareLists</a> (List&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; list1, List&lt;?extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">OWLObject</a> &gt; list2)</td></tr>
+<tr class="separator:a43065ac9696c2f0eb3661205814a8890 inherit pro_static_methods_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos estáticos heredados desde <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html">uk.ac.manchester.cs.owl.owlapi.OWLObjectImpl</a></td></tr>
+<tr class="memitem:a2f3c594034e603531641652d54693fc9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static final Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#a2f3c594034e603531641652d54693fc9">NO_ANNOTATIONS</a></td></tr>
+<tr class="separator:a2f3c594034e603531641652d54693fc9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa113a934abbbaff56f746f1275d635a9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl.html#aa113a934abbbaff56f746f1275d635a9">OWL_THING</a></td></tr>
+<tr class="separator:aa113a934abbbaff56f746f1275d635a9 inherit pro_static_attribs_classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_object_impl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 26-Oct-2006<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00062">62</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a01e88c69852c245a466d262b8ed1d1ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.OWLPropertyExpressionImpl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00068">68</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                       {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        super();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a8b69ee6b28387de31b717f9f3f212230"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00209">209</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                                      {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">if</span> (super.equals(obj)) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordflow">return</span> obj instanceof OWLPropertyExpression;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7fd06cc2ad6f6f195cc48a9ed1109b49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDisjointProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00173">173</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                                              {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> getProperties(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#af8a032f5dc3d8b6cad0b4f322e496d7e">getDisjointPropertiesAxioms</a>(ontology));</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_af8a032f5dc3d8b6cad0b4f322e496d7e"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#af8a032f5dc3d8b6cad0b4f322e496d7e">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDisjointPropertiesAxioms</a></div><div class="ttdeci">abstract Set&lt;?extends OWLNaryPropertyAxiom&lt; P &gt; &gt; getDisjointPropertiesAxioms(OWLOntology ontology)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9ade51515e4f338cf00064ce220d8102"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDisjointProperties </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00179">179</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        Set&lt;P&gt; result = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            result.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a7fd06cc2ad6f6f195cc48a9ed1109b49">getDisjointProperties</a>(ont));</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a7fd06cc2ad6f6f195cc48a9ed1109b49"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a7fd06cc2ad6f6f195cc48a9ed1109b49">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDisjointProperties</a></div><div class="ttdeci">Set&lt; P &gt; getDisjointProperties(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00173">OWLPropertyExpressionImpl.java:173</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af8a032f5dc3d8b6cad0b4f322e496d7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLNaryPropertyAxiom&lt;P&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDisjointPropertiesAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a579bc46e3a828ddf71682b654ce5e1b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLPropertyDomainAxiom&lt;?&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDomainAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f4e5005afb90350e70a8cd99316060b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDomains </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00094">94</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> TreeSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">for</span> (OWLPropertyDomainAxiom&lt;?&gt; axiom : <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a579bc46e3a828ddf71682b654ce5e1b6">getDomainAxioms</a>(ontology)) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            result.add(axiom.getDomain());</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a579bc46e3a828ddf71682b654ce5e1b6"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a579bc46e3a828ddf71682b654ce5e1b6">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDomainAxioms</a></div><div class="ttdeci">abstract Set&lt;?extends OWLPropertyDomainAxiom&lt;?&gt; &gt; getDomainAxioms(OWLOntology ontology)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab225e3f5dbfabb0ef47845a9970faaf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDomains </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00104">104</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        Set&lt;OWLClassExpression&gt; result = <span class="keyword">new</span> TreeSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            result.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a0f4e5005afb90350e70a8cd99316060b">getDomains</a>(ont));</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a0f4e5005afb90350e70a8cd99316060b"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a0f4e5005afb90350e70a8cd99316060b">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getDomains</a></div><div class="ttdeci">Set&lt; OWLClassExpression &gt; getDomains(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00094">OWLPropertyExpressionImpl.java:94</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5278c4b174db405aabb9b4f6e7c3b1ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getEquivalentProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00157">157</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                                {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">return</span> getProperties(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a9bac432961b676baa7bed7c74b1101d8">getEquivalentPropertiesAxioms</a>(ontology));</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a9bac432961b676baa7bed7c74b1101d8"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a9bac432961b676baa7bed7c74b1101d8">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getEquivalentPropertiesAxioms</a></div><div class="ttdeci">abstract Set&lt;?extends OWLNaryPropertyAxiom&lt; P &gt; &gt; getEquivalentPropertiesAxioms(OWLOntology ontology)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a02b6dcbe5c04695d2e6a259ae2aa40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getEquivalentProperties </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00163">163</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        Set&lt;P&gt; result = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            result.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a5278c4b174db405aabb9b4f6e7c3b1ea">getEquivalentProperties</a>(ont));</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a5278c4b174db405aabb9b4f6e7c3b1ea"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a5278c4b174db405aabb9b4f6e7c3b1ea">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getEquivalentProperties</a></div><div class="ttdeci">Set&lt; P &gt; getEquivalentProperties(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00157">OWLPropertyExpressionImpl.java:157</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9bac432961b676baa7bed7c74b1101d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLNaryPropertyAxiom&lt;P&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getEquivalentPropertiesAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a17303edf9df6f4c6aaba0fb66ba18d79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLPropertyRangeAxiom&lt;P, R&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getRangeAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a624cd2c941fc33c3ba0b1b787d113d04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;R&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getRanges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00074">74</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                                  {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        Set&lt;R&gt; result = <span class="keyword">new</span> TreeSet&lt;R&gt;();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">for</span> (OWLPropertyRangeAxiom&lt;P, R&gt; axiom : <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a17303edf9df6f4c6aaba0fb66ba18d79">getRangeAxioms</a>(ontology)) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            result.add(axiom.getRange());</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a17303edf9df6f4c6aaba0fb66ba18d79"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a17303edf9df6f4c6aaba0fb66ba18d79">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getRangeAxioms</a></div><div class="ttdeci">abstract Set&lt;?extends OWLPropertyRangeAxiom&lt; P, R &gt; &gt; getRangeAxioms(OWLOntology ontology)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad707776e1988e77ecc5031c3399be965"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;R&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getRanges </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00084">84</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                         {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        Set&lt;R&gt; result = <span class="keyword">new</span> TreeSet&lt;R&gt;();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            result.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a624cd2c941fc33c3ba0b1b787d113d04">getRanges</a>(ont));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a624cd2c941fc33c3ba0b1b787d113d04"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a624cd2c941fc33c3ba0b1b787d113d04">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getRanges</a></div><div class="ttdeci">Set&lt; R &gt; getRanges(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00074">OWLPropertyExpressionImpl.java:74</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afadd9f6180dc61998868744bffc4c2b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00134">134</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                         {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        Set&lt;P&gt; results = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">for</span> (OWLSubPropertyAxiom&lt;P&gt; axiom : <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a6f4ff5e950d5a6176bab89cc714a3ee9">getSubPropertyAxiomsForRHS</a>(ontology)) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            results.add(axiom.getSubProperty());</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> results;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a6f4ff5e950d5a6176bab89cc714a3ee9"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a6f4ff5e950d5a6176bab89cc714a3ee9">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubPropertyAxiomsForRHS</a></div><div class="ttdeci">abstract Set&lt;?extends OWLSubPropertyAxiom&lt; P &gt; &gt; getSubPropertyAxiomsForRHS(OWLOntology ont)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7b14ee4829b7c3377bce107ce7615c89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubProperties </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00144">144</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                                                {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        Set&lt;P&gt; result = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            result.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#afadd9f6180dc61998868744bffc4c2b6">getSubProperties</a>(ont));</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_afadd9f6180dc61998868744bffc4c2b6"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#afadd9f6180dc61998868744bffc4c2b6">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubProperties</a></div><div class="ttdeci">Set&lt; P &gt; getSubProperties(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00134">OWLPropertyExpressionImpl.java:134</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4c903066a12abdffd326c0aeb19705df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLSubPropertyAxiom&lt;P&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubPropertyAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6f4ff5e950d5a6176bab89cc714a3ee9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;? extends OWLSubPropertyAxiom&lt;P&gt; &gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubPropertyAxiomsForRHS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ont</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a995a44286f6a7a2f3d5fad10b0acfccc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSuperProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00114">114</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                           {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        Set&lt;P&gt; result = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">for</span> (OWLSubPropertyAxiom&lt;P&gt; axiom : <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a4c903066a12abdffd326c0aeb19705df">getSubPropertyAxioms</a>(ontology)) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            result.add(axiom.getSuperProperty());</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a4c903066a12abdffd326c0aeb19705df"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a4c903066a12abdffd326c0aeb19705df">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSubPropertyAxioms</a></div><div class="ttdeci">abstract Set&lt;?extends OWLSubPropertyAxiom&lt; P &gt; &gt; getSubPropertyAxioms(OWLOntology ontology)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2685dc06eb5ca50c5855919e4a765c84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;P&gt; uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_property_range.html">OWLPropertyRange</a>, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSuperProperties </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> &gt;&#160;</td>
+          <td class="paramname"><em>ontologies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_property_expression_impl_8java_source.html#l00124">124</a> del archivo <a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        Set&lt;P&gt; results = <span class="keyword">new</span> TreeSet&lt;P&gt;();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : ontologies) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            results.addAll(<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a995a44286f6a7a2f3d5fad10b0acfccc">getSuperProperties</a>(ont));</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">return</span> results;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded_html_a995a44286f6a7a2f3d5fad10b0acfccc"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html#a995a44286f6a7a2f3d5fad10b0acfccc">uk.ac.manchester.cs.owl.owlapi.OWLPropertyExpressionImpl&lt; R extends OWLPropertyRange, P extends OWLPropertyExpression&lt; R, P &gt; &gt;.getSuperProperties</a></div><div class="ttdeci">Set&lt; P &gt; getSuperProperties(OWLOntology ontology)</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_property_expression_impl_8java_source.html#l00114">OWLPropertyExpressionImpl.java:114</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/<a class="el" href="_o_w_l_property_expression_impl_8java_source.html">OWLPropertyExpressionImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceuk.html">uk</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester.html">manchester</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl.html">owl</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_expression_impl_3_01_r_01e672e5abee4203a562fc61711ec3f6ded.html">OWLPropertyExpressionImpl< R extends OWLPropertyRange, P extends OWLPropertyExpression< R, P > ></a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:52 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

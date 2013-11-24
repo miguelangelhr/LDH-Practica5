@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_changes_vetoed_listener =
+[
+    [ "ontologyChangesVetoed", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_changes_vetoed_listener.html#a24efa2be3c7c977f3cf642b496911281", null ]
+];

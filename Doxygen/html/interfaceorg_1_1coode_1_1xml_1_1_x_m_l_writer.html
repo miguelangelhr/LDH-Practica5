@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.coode.xml.XMLWriter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.coode.xml.XMLWriter</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html">org.coode.xml.XMLWriterImpl</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a786b1ff3681daadeb283b7e7ddc5bad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a786b1ff3681daadeb283b7e7ddc5bad9">setEncoding</a> (String encoding)</td></tr>
+<tr class="separator:a786b1ff3681daadeb283b7e7ddc5bad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e08147a76afae4ce434117dcc27b4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html">XMLWriterNamespaceManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a4e08147a76afae4ce434117dcc27b4a0">getNamespacePrefixes</a> ()</td></tr>
+<tr class="separator:a4e08147a76afae4ce434117dcc27b4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadb2dde862798ebdabc931db3e34873"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afadb2dde862798ebdabc931db3e34873">getXMLBase</a> ()</td></tr>
+<tr class="separator:afadb2dde862798ebdabc931db3e34873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb11f0c1399782ce6dbf29002c482c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#afb11f0c1399782ce6dbf29002c482c00">setWrapAttributes</a> (boolean b)</td></tr>
+<tr class="separator:afb11f0c1399782ce6dbf29002c482c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae45cf3b1edaac63449df6c59876d759"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#aae45cf3b1edaac63449df6c59876d759">startDocument</a> (String rootElementName)  throws IOException</td></tr>
+<tr class="separator:aae45cf3b1edaac63449df6c59876d759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6104616d16b949f7ac4efff4d4a9cc50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a6104616d16b949f7ac4efff4d4a9cc50">endDocument</a> ()  throws IOException</td></tr>
+<tr class="separator:a6104616d16b949f7ac4efff4d4a9cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a575b480d0198349ea64a91e5b3fd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#ab4a575b480d0198349ea64a91e5b3fd5">writeStartElement</a> (String name)  throws IOException, IllegalElementNameException</td></tr>
+<tr class="separator:ab4a575b480d0198349ea64a91e5b3fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d53f42ed4c3ccb05f4278b1c53e58e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a07d53f42ed4c3ccb05f4278b1c53e58e">writeEndElement</a> ()  throws IOException</td></tr>
+<tr class="separator:a07d53f42ed4c3ccb05f4278b1c53e58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ad97f4ef0fa12476e83fd70efe6599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a10ad97f4ef0fa12476e83fd70efe6599">writeAttribute</a> (String attr, String val)  throws IOException</td></tr>
+<tr class="separator:a10ad97f4ef0fa12476e83fd70efe6599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8968d9bf21b4ce904c9efd2c47b23556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a8968d9bf21b4ce904c9efd2c47b23556">writeTextContent</a> (String text)  throws IOException</td></tr>
+<tr class="separator:a8968d9bf21b4ce904c9efd2c47b23556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fee31cbdaae15daf63c1712b9d3412f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html#a4fee31cbdaae15daf63c1712b9d3412f">writeComment</a> (String commentText)  throws IOException</td></tr>
+<tr class="separator:a4fee31cbdaae15daf63c1712b9d3412f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>User: matthewhorridge<br/>
+ The Univeristy Of Manchester<br/>
+ Medical Informatics Group<br/>
+ Date: May 30, 2006<br/>
+<br/>
+ </p>
+<p><a href="#" onclick="location.href='mai'+'lto:'+'mat'+'th'+'ew.'+'ho'+'rri'+'dg'+'e@c'+'s.'+'man'+'.a'+'c.u'+'k'; return false;">matth<span style="display: none;">.nosp@m.</span>ew.h<span style="display: none;">.nosp@m.</span>orrid<span style="display: none;">.nosp@m.</span>ge@c<span style="display: none;">.nosp@m.</span>s.man<span style="display: none;">.nosp@m.</span>.ac.<span style="display: none;">.nosp@m.</span>uk</a><br/>
+ www.cs.man.ac.uk/~horridgm<br/>
+<br/>
+ </p>
+<p>Developed as part of the CO-ODE project <a href="http://www.co-ode.org">http://www.co-ode.org</a> </p>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_8java_source.html#l00057">57</a> del archivo <a class="el" href="_x_m_l_writer_8java_source.html">XMLWriter.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a6104616d16b949f7ac4efff4d4a9cc50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.endDocument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Causes all open elements, including the document root element, to be closed. </p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#aa88bebcc43e55f44d509dc7c038204c2">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e08147a76afae4ce434117dcc27b4a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html">XMLWriterNamespaceManager</a> org.coode.xml.XMLWriter.getNamespacePrefixes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the Writer's namespace manager. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The namespace manager. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a0b2c2435a5b4c28d03f5bb80b4c707c1">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afadb2dde862798ebdabc931db3e34873"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriter.getXMLBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#ae6e29f45e08f8398c46411fc0c3836a7">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a786b1ff3681daadeb283b7e7ddc5bad9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.setEncoding </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>encoding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the encoding for the document that the rdfwriter produces. The default encoding is "UTF-8". </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">encoding</td><td>The encoding. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#abfc197871ece3ee9d8708194ea54add5">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb11f0c1399782ce6dbf29002c482c00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.setWrapAttributes </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Causes the current element's attributes to be wrapped in the output. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>If <code>true</code> then the attributes will be wrapped if they are long. If <code>false</code> then no attribute wrapping will occur. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a714c4e2841e393c02865c572327694d8">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae45cf3b1edaac63449df6c59876d759"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.startDocument </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>rootElementName</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Starts writing the document. The root element will contain the namespace declarations and xml:base attribute. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rootElementName</td><td>The name of the root element. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a0524112e03e159de3f8041cec23ed2d0">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a10ad97f4ef0fa12476e83fd70efe6599"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.writeAttribute </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>attr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes an attribute of the last element to be started (that has not been closed). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attr</td><td>The name of the attribute </td></tr>
+    <tr><td class="paramname">val</td><td>The value of the attribute </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a94624c9778ae996db1541d1f87f740ce">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4fee31cbdaae15daf63c1712b9d3412f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.writeComment </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>commentText</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a1142fa8707d8ec71ad8361e7d268354f">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07d53f42ed4c3ccb05f4278b1c53e58e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.writeEndElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes the closing tag of the last element to be started. </p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a9ff24913bb35e723d5c2a19a9ded27eb">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4a575b480d0198349ea64a91e5b3fd5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.writeStartElement </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classorg_1_1coode_1_1xml_1_1_illegal_element_name_exception.html">IllegalElementNameException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes the start of an element. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The tag name of the element to be written. This must be a valid QName. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1coode_1_1xml_1_1_illegal_element_name_exception.html">IllegalElementNameException</a></td><td>if the specified name is not a valid QName </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a66d246b725aa39a3d446b0df8c2838a8">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8968d9bf21b4ce904c9efd2c47b23556"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriter.writeTextContent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Writes a text element </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text to be written </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>if there was an IO problem </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_impl.html#a547f47a25865a9f5727030344567b2f5">org.coode.xml.XMLWriterImpl</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/xml/<a class="el" href="_x_m_l_writer_8java_source.html">XMLWriter.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1xml.html">xml</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1coode_1_1xml_1_1_x_m_l_writer.html">XMLWriter</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:54 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

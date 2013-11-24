@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_functional_syntax_i_r_i_problem_test_case =
+[
+    [ "testmain", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_functional_syntax_i_r_i_problem_test_case.html#a624e179d8a36dc80bfef0f6695cf6574", null ]
+];

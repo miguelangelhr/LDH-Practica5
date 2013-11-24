@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.OWLEntity</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.OWLEntity</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object.html">org.semanticweb.owlapi.model.OWLNamedObject</a>.</p>
+
+<p>Heredado por <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a> y <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_entity.html">org.semanticweb.owlapi.model.OWLLogicalEntity</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a1e6edcdea138c63f94bd7144116c307e"><td class="memItemLeft" align="right" valign="top">EntityType&lt;?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a1e6edcdea138c63f94bd7144116c307e">getEntityType</a> ()</td></tr>
+<tr class="separator:a1e6edcdea138c63f94bd7144116c307e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e10754136af0b1494f87481ca3f1bf6"><td class="memItemLeft" align="right" valign="top">&lt; EextendsOWLEntity &gt; E&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a0e10754136af0b1494f87481ca3f1bf6">getOWLEntity</a> (EntityType&lt; E &gt; entityType)</td></tr>
+<tr class="separator:a0e10754136af0b1494f87481ca3f1bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6fe23da50ceeb6c2172d8c1e9df560"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a0c6fe23da50ceeb6c2172d8c1e9df560">isType</a> (EntityType&lt;?&gt; entityType)</td></tr>
+<tr class="separator:a0c6fe23da50ceeb6c2172d8c1e9df560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7972bf6df6193ff3efdfe2fbf3d53d"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#ada7972bf6df6193ff3efdfe2fbf3d53d">getAnnotations</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:ada7972bf6df6193ff3efdfe2fbf3d53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe38293f4900076bea5cddceb656d6e"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a7fe38293f4900076bea5cddceb656d6e">getAnnotations</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> annotationProperty)</td></tr>
+<tr class="separator:a7fe38293f4900076bea5cddceb656d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f015b2f5c05711311a54533179a4e71"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a0f015b2f5c05711311a54533179a4e71">getAnnotationAssertionAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a0f015b2f5c05711311a54533179a4e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830bbc06f2d4eaacd03b10504e79bf19"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a830bbc06f2d4eaacd03b10504e79bf19">isBuiltIn</a> ()</td></tr>
+<tr class="separator:a830bbc06f2d4eaacd03b10504e79bf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121f0753243bca7c4b9b6ed388570c58"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a121f0753243bca7c4b9b6ed388570c58">isOWLClass</a> ()</td></tr>
+<tr class="separator:a121f0753243bca7c4b9b6ed388570c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df61dbe28e1744da2f52577f887e41c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a3df61dbe28e1744da2f52577f887e41c">asOWLClass</a> ()</td></tr>
+<tr class="separator:a3df61dbe28e1744da2f52577f887e41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7566ad68fb1091b318f3d7eb40ccc64"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#aa7566ad68fb1091b318f3d7eb40ccc64">isOWLObjectProperty</a> ()</td></tr>
+<tr class="separator:aa7566ad68fb1091b318f3d7eb40ccc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a61cbaff854f9773c607f49c90a2be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a6a61cbaff854f9773c607f49c90a2be1">asOWLObjectProperty</a> ()</td></tr>
+<tr class="separator:a6a61cbaff854f9773c607f49c90a2be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc2ef35b43e65021ef0e374803914c5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a9bc2ef35b43e65021ef0e374803914c5">isOWLDataProperty</a> ()</td></tr>
+<tr class="separator:a9bc2ef35b43e65021ef0e374803914c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b175d8e608075da430734d12549103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#aa8b175d8e608075da430734d12549103">asOWLDataProperty</a> ()</td></tr>
+<tr class="separator:aa8b175d8e608075da430734d12549103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb337831033f45ccf5f4c89d912047d5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#afb337831033f45ccf5f4c89d912047d5">isOWLNamedIndividual</a> ()</td></tr>
+<tr class="separator:afb337831033f45ccf5f4c89d912047d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74cbf6f80eec3a29400b91d73b0f473e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a74cbf6f80eec3a29400b91d73b0f473e">asOWLNamedIndividual</a> ()</td></tr>
+<tr class="separator:a74cbf6f80eec3a29400b91d73b0f473e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83510eb59ba6fcd704953f6a1b898812"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a83510eb59ba6fcd704953f6a1b898812">isOWLDatatype</a> ()</td></tr>
+<tr class="separator:a83510eb59ba6fcd704953f6a1b898812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f720dff92504ecd3c5fd505821da12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#ab6f720dff92504ecd3c5fd505821da12">asOWLDatatype</a> ()</td></tr>
+<tr class="separator:ab6f720dff92504ecd3c5fd505821da12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137d444a3ca1844eeea5fbb9d484dd66"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a137d444a3ca1844eeea5fbb9d484dd66">isOWLAnnotationProperty</a> ()</td></tr>
+<tr class="separator:a137d444a3ca1844eeea5fbb9d484dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7f121ea8d5999b99d62bba84fee153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a6a7f121ea8d5999b99d62bba84fee153">asOWLAnnotationProperty</a> ()</td></tr>
+<tr class="separator:a6a7f121ea8d5999b99d62bba84fee153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9e6b93dd8dc3f7c0ec0353c4eb2b77"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a0a9e6b93dd8dc3f7c0ec0353c4eb2b77">toStringID</a> ()</td></tr>
+<tr class="separator:a0a9e6b93dd8dc3f7c0ec0353c4eb2b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6798bb1483fae2538d7d0270be63ab68"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a6798bb1483fae2538d7d0270be63ab68">getReferencingAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology)</td></tr>
+<tr class="separator:a6798bb1483fae2538d7d0270be63ab68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e084db514cb89f9f181de9057e21ae"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a26e084db514cb89f9f181de9057e21ae">getReferencingAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, boolean includeImports)</td></tr>
+<tr class="separator:a26e084db514cb89f9f181de9057e21ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab25836f09b1f607e80017948eb66a13f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#ab25836f09b1f607e80017948eb66a13f">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity_visitor.html">OWLEntityVisitor</a> visitor)</td></tr>
+<tr class="separator:ab25836f09b1f607e80017948eb66a13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b743756ce5ef2f432df4d0ea748c96"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html#a11b743756ce5ef2f432df4d0ea748c96">accept</a> (OWLEntityVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:a11b743756ce5ef2f432df4d0ea748c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html">org.semanticweb.owlapi.model.OWLObject</a></td></tr>
+<tr class="memitem:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acb9cc88dda5fddf752aea39972e88582">getSignature</a> ()</td></tr>
+<tr class="separator:acb9cc88dda5fddf752aea39972e88582 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aeb25a1500c84b42d5eca3ce94029815b">getAnonymousIndividuals</a> ()</td></tr>
+<tr class="separator:aeb25a1500c84b42d5eca3ce94029815b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#acef2cee5936b52f888f1c9b5310ecf28">getClassesInSignature</a> ()</td></tr>
+<tr class="separator:acef2cee5936b52f888f1c9b5310ecf28 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a63bdba262086d66ac82db881882acb7a">getDataPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:a63bdba262086d66ac82db881882acb7a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa6016f7a4b9d773637cc7320bbcd518a">getObjectPropertiesInSignature</a> ()</td></tr>
+<tr class="separator:aa6016f7a4b9d773637cc7320bbcd518a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a469d86935b296905f4ec7089fb10f35f">getIndividualsInSignature</a> ()</td></tr>
+<tr class="separator:a469d86935b296905f4ec7089fb10f35f inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0070f97659c74d4bcfb177e37c8fd427">getDatatypesInSignature</a> ()</td></tr>
+<tr class="separator:a0070f97659c74d4bcfb177e37c8fd427 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a6b27084110880692de591ad7b32e105b">getNestedClassExpressions</a> ()</td></tr>
+<tr class="separator:a6b27084110880692de591ad7b32e105b inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a0995c39ce5b4410f688c474ce108c0aa">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_visitor.html">OWLObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:a0995c39ce5b4410f688c474ce108c0aa inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">&lt; O &gt; O&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#aa28e124b939675c9d697ee3e02714813">accept</a> (OWLObjectVisitorEx&lt; O &gt; visitor)</td></tr>
+<tr class="separator:aa28e124b939675c9d697ee3e02714813 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#ada1edca8f1932221e2d941a54aa83cdd">isTopEntity</a> ()</td></tr>
+<tr class="separator:ada1edca8f1932221e2d941a54aa83cdd inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object.html#a4a72bc080b56071595b6247776e8502a">isBottomEntity</a> ()</td></tr>
+<tr class="separator:a4a72bc080b56071595b6247776e8502a inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object.html">org.semanticweb.owlapi.model.OWLNamedObject</a></td></tr>
+<tr class="memitem:ad9f68efd7582e9cb01fd0aabc4694e80 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object.html#ad9f68efd7582e9cb01fd0aabc4694e80">getIRI</a> ()</td></tr>
+<tr class="separator:ad9f68efd7582e9cb01fd0aabc4694e80 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add992275b3f8ffc92eb78011124f8c02 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object.html#add992275b3f8ffc92eb78011124f8c02">accept</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object_visitor.html">OWLNamedObjectVisitor</a> visitor)</td></tr>
+<tr class="separator:add992275b3f8ffc92eb78011124f8c02 inherit pub_methods_interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group Date: 24-Oct-2006 </p>
+<p>Represents <a href="http://www.w3.org/TR/2009/REC-owl2-syntax-20091027/#Entities.2C_Literals.2C_and_Anonymous_Individuals">Entities</a> in the OWL 2 Specification. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_entity_8java_source.html#l00054">54</a> del archivo <a class="el" href="_o_w_l_entity_8java_source.html">OWLEntity.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ab25836f09b1f607e80017948eb66a13f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLEntity.accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity_visitor.html">OWLEntityVisitor</a>&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a5656827092451f5a17b21d95de2c1e89">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a8ef33884501be9cf45316c6c8bffed72">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ab0eb69fb2e7b369d04d1c54ce71d6903">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a02c1ae5a214bb74160302813c5b3b79c">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#acd68c99dedaa98177e5d4f093fbaed61">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11b743756ce5ef2f432df4d0ea748c96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;O&gt; O org.semanticweb.owlapi.model.OWLEntity.accept </td>
+          <td>(</td>
+          <td class="paramtype">OWLEntityVisitorEx&lt; O &gt;&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a7f121ea8d5999b99d62bba84fee153"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> org.semanticweb.owlapi.model.OWLEntity.asOWLAnnotationProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a079364be2f052d0bf2cde82f76c74bb1">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a858bcf66792eb2654f42118a766efa3e">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a8aa4283f774261546d96797298be4c2a">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a902c6b1ee0278da5783d83233be4dd1f">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a825e82c48a59afa00619f28b566e19fe">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3df61dbe28e1744da2f52577f887e41c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> org.semanticweb.owlapi.model.OWLEntity.asOWLClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> (check with the isOWLClass method first). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a90544b14de150d3f98d0638c29b4644b">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a5d059b00ee5bbd23a300c1c1f010e422">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#ad3d5d6f8a572738de754fd3c0675ab3b">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#ad454c52addbb080a321a0139b0b21f24">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8b175d8e608075da430734d12549103"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> org.semanticweb.owlapi.model.OWLEntity.asOWLDataProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> (check with the isOWLDataProperty method first). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a73370d16b67a8cda8ff21317b3ca1a50">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ab785c1fa3bddb860c53143c2af029b1a">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aa0adf99f05bb40ba2e9353c71be0145a">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#ad98d177ff6808cc6663e1a7bedb5cdaf">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6f720dff92504ecd3c5fd505821da12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> org.semanticweb.owlapi.model.OWLEntity.asOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> (check with the isOWLDatatype method first). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a219756a726120819653da45e3bd7863e">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a3af548068e3b26eb0cf030aa2c3f8502">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#acc16604e6e2c040d7e2785ba51e549e6">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aea140affd11db70223df70ce1fb9e6d4">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74cbf6f80eec3a29400b91d73b0f473e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> org.semanticweb.owlapi.model.OWLEntity.asOWLNamedIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> (check with the isOWLIndividual method first). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a0052c4a9bd94a27c0aba4c5d066ad377">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ab837a558fff5a3865832fa915aaf5001">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ab0e948dc563abae5a2db76e18f079ea0">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a5cff7991ec80a00bc6740ae6cdf57e29">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#acd40c715b341dd04240d3d2f3df62e52">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a61cbaff854f9773c607f49c90a2be1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> org.semanticweb.owlapi.model.OWLEntity.asOWLObjectProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that obtains this entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> (in order to avoid explicit casting). </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity as an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>. </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_runtime_exception.html">OWLRuntimeException</a></td><td>if this entity is not an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> (check with the isOWLObjectProperty method first). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a9b11675d25290ccded5a5191a532a727">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#afc1a42935a1dc69ebdbe67e045f819f5">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a89155c4937d2718748f0d6babb53ff1f">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a23c1a9ac8ef513096a208f4ee298c41a">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f015b2f5c05711311a54533179a4e71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>&gt; org.semanticweb.owlapi.model.OWLEntity.getAnnotationAssertionAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>the ontology to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the annotation assertion axioms about this entity in the provided ontology </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a468dfc132ef2638dcdadbbbb5e9763db">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#aab74b0e8dc3dcc949b37afe391a9abc4">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aacd06494f152f3d10ab22668d6a12f63">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#ab5d12af91fa852696173317463b68cae">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#accd402aaf3d73b53b83e039d70616e6d">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada7972bf6df6193ff3efdfe2fbf3d53d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; org.semanticweb.owlapi.model.OWLEntity.getAnnotations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the annotations for this entity. These are deemed to be annotations in annotation assertion axioms that have a subject that is an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that is equal to the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> of this entity. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology to be examined for annotation assertion axioms </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The annotations that participate directly in an annotation assertion whose subject is an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> corresponding to the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> of this entity. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a21ed4e8fc7406bc5f3a699a5fa9638fc">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a4c9fcbfdef69ff1372f5a60bccd666fc">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a165ab62f952df38770264dbeab04e64a">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aa6ede42bf9bd1b78ee589f1f10fcd7e3">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a0578e78f674982c99f8ef6989ffa0f09">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7fe38293f4900076bea5cddceb656d6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a>&gt; org.semanticweb.owlapi.model.OWLEntity.getAnnotations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&#160;</td>
+          <td class="paramname"><em>annotationProperty</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Obtains the annotations on this entity where the annotation has the specified annotation property. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology to examine for annotation axioms </td></tr>
+    <tr><td class="paramname">annotationProperty</td><td>The annotation property </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A set of <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a></code> objects that have the specified URI. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#ae8ba14be4b70dae38537cac53f6815ee">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a1a7776a446b87e52728ff699fe0cd7fa">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a6954e7a8d9d93fbcfb345a4849bad823">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ab6bd3b0f47ebfc193eab1dde3511639e">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a6ddd9c95e00bc5fe2935c9b6c2d0e230">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e6edcdea138c63f94bd7144116c307e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EntityType&lt;?&gt; org.semanticweb.owlapi.model.OWLEntity.getEntityType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the entity type for this entity </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The entity type </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a021e29e250d710cbf5343686cecf8648">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a7378de74c9e246af6978c735fc0743e0">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a9c94b2355a2b4c6ded6cbeb69193623e">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a878becb09ab2dd7eb988b2d354749b09">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a18d67aa847671071ad29e66c527ac578">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e10754136af0b1494f87481ca3f1bf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">&lt;EextendsOWLEntity&gt; E org.semanticweb.owlapi.model.OWLEntity.getOWLEntity </td>
+          <td>(</td>
+          <td class="paramtype">EntityType&lt; E &gt;&#160;</td>
+          <td class="paramname"><em>entityType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an entity that has the same <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> as this entity but is of the specified type.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entityType</td><td>The type of the entity to obtain. This entity is not affected in any way. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An entity that has the same <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> as this entity and is of the specified type </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000015">Obsoleto:</a></b></dt><dd>use a datafactory instead </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6798bb1483fae2538d7d0270be63ab68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; org.semanticweb.owlapi.model.OWLEntity.getReferencingAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the axioms in the specified ontology that contain this entity in their signature. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology that will be searched for axioms </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The axioms in the specified ontology whose signature contains this entity. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a535f380ddfe9c543f462dac8bb1d1d9d">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a3fbdeab92b3f3b77111292fbf310a66c">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#aa7017c3ba8e84d8edf8362cc526df557">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a51628684161e26603a7fdb662fd59461">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#ac3722c1133d27e3e9916caaa9d71ed5e">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26e084db514cb89f9f181de9057e21ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&gt; org.semanticweb.owlapi.model.OWLEntity.getReferencingAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>includeImports</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the axioms in the specified ontology and possibly its imports closure that contain this entity in their signature. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology that will be searched for axioms </td></tr>
+    <tr><td class="paramname">includeImports</td><td>If <code>true</code> then axioms in the imports closure will also be returned, if <code>false</code> then only the axioms in the specified ontology will be returned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The axioms in the specified ontology whose signature contains this entity. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a55cd7fa791c47c435a83ce2955420a73">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a551483a8989a7895282283b33ada3a1c">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a329b34941f75c09e6c93d5a0897d0ec3">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a3e35eda6c923e207f7c88dd8f8b2e83d">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#ac7d4653f3f3e577dac3126d41cd0e08b">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a830bbc06f2d4eaacd03b10504e79bf19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isBuiltIn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this entity is a built in entity. The entity is a built in entity if it is: </p>
+<ul>
+<li>
+a class and the URI corresponds to owl:Thing or owl:Nothing </li>
+<li>
+an object property and the URI corresponds to owl:topObjectProperty or owl:bottomObjectProperty </li>
+<li>
+a data property and the URI corresponds to owl:topDataProperty or owl:bottomDataProperty </li>
+<li>
+a datatype and the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> is rdfs:Literal or is in the OWL 2 datatype map or is rdf:PlainLiteral </li>
+<li>
+an annotation property and the URI is in the set of built in annotation property URIs, i.e. one of: <ul>
+<li>
+rdfs:label </li>
+<li>
+rdfs:comment </li>
+<li>
+rdfs:seeAlso </li>
+<li>
+rdfs:isDefinedBy </li>
+<li>
+owl:deprecated </li>
+<li>
+owl:priorVersion </li>
+<li>
+owl:backwardCompatibleWith </li>
+<li>
+owl:incompatibleWith </li>
+</ul>
+</li>
+</ul>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is a built in entity, or <code>false</code> if this entity is not a builtin entity. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aa20b11d8b807453da6af983ffe160af7">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a0d561897a645cf2018434621531470e7">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a53e3e978a8c9a0cb0b91e23b5fa0935e">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ada01c255222b1e8d9bce29f0be4c09c1">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a137d444a3ca1844eeea5fbb9d484dd66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLAnnotationProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a4111c3ad2107606304d88118c29691e6">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a418752242879565a4b0d5ef963d5dcab">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ab0d6c9f25049a755767d3789fe05a268">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#aae8e25a0db1ab7ab13bb57dc823f0bc6">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a1f4f719ccfa15a294a02344046fb6a9b">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a121f0753243bca7c4b9b6ed388570c58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#ac3160e9cc085b67400c0523c650f6d2d">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a980600cf87a9ed9dab7d3b333ff460b9">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a0b64c331a7755b75b2401e4035b5ffd5">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a1313f66a400a60841eec0e6723d70d28">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9bc2ef35b43e65021ef0e374803914c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLDataProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a70f04eaf381cf010e86d3e6a902cb65f">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a20511dfbfb7a09a072f275680c0ff170">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a58ff590949be6d410845a3dd4738b4b5">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a09db190e19940ce5a4edc74be6828219">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83510eb59ba6fcd704953f6a1b898812"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a2ceb65dfec73f2947bbb9582459ae49b">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ac79d0e5a4b6d2453cfbaa00867ae39ac">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#aafa6d19aeb41a3c3d93e1b958eae4817">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a5cc36ac6b66c7faa647a0c8f936e10c4">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb337831033f45ccf5f4c89d912047d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLNamedIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a29a45de6c22bf3b080b61915ca03a222">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ae827fec0b769159b5c71be637483e453">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#a63a7548b0db42f55406c9d258bf4980b">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a25437a709a7e8d97d349fdaba66f10a5">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a34f691737d569db8eb3f32b483cf623c">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7566ad68fb1091b318f3d7eb40ccc64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isOWLObjectProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A convenience method that determines if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is an <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>, otherwise <code>false</code> </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#aa17c534d2190ef355a5c86109807af72">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#ac46350d16be9731bf7c79a29958100f5">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a8faca92d38f9ed12c9c6a7c82a5bd008">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#adc655ff112290bee3ffe93d98291fbf7">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c6fe23da50ceeb6c2172d8c1e9df560"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLEntity.isType </td>
+          <td>(</td>
+          <td class="paramtype">EntityType&lt;?&gt;&#160;</td>
+          <td class="paramname"><em>entityType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests to see if this entity is of the specified type </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entityType</td><td>The entity type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this entity is of the specified type, otherwise <code>false</code>. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ab47d6b18cc7ee96a9f272c7c3b025930">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#a04ef369674c84591317294aaecbde8bb">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#a5f3fe777173453814ba72da7f93f3522">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#a651e31c3b6a360e603f2f730ab0dde05">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#a6ffbceb1a3c4ee653db3db6cae28a48d">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a9e6b93dd8dc3f7c0ec0353c4eb2b77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.model.OWLEntity.toStringID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a string representation that can be used as the ID of this entity. This is the toString representation of the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A string representing the toString of the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> of this entity. </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l2_datatype_impl.html#ac6a63ced96ffe9999fb8b07c08406ea4">uk.ac.manchester.cs.owl.owlapi.OWL2DatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_class_impl.html#aa53cf2385a95477aa44fb171c7c1b784">uk.ac.manchester.cs.owl.owlapi.OWLClassImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_datatype_impl.html#adcc8c503fa56cff67946c47b1dd1868d">uk.ac.manchester.cs.owl.owlapi.OWLDatatypeImpl</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_annotation_property_impl.html#af35f49464254a6356da03a061942af69">uk.ac.manchester.cs.owl.owlapi.OWLAnnotationPropertyImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_named_individual_impl.html#aac3ff3faf0e4f167a2edf2f39b1fa406">uk.ac.manchester.cs.owl.owlapi.OWLNamedIndividualImpl</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_entity_8java_source.html">OWLEntity.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:22 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

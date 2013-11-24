@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a4b6025be25f128f3d35939b4d8eef872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> ()</td></tr>
+<tr class="separator:a4b6025be25f128f3d35939b4d8eef872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db65be3e1e0648c66b74382959f2ec1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a9db65be3e1e0648c66b74382959f2ec1">getMissingOntologyHeaderStrategy</a> ()</td></tr>
+<tr class="separator:a9db65be3e1e0648c66b74382959f2ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412b68d2fe9841fa4c86148d661e0da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a412b68d2fe9841fa4c86148d661e0da9">setMissingOntologyHeaderStrategy</a> (<a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a> missingOntologyHeaderStrategy)</td></tr>
+<tr class="separator:a412b68d2fe9841fa4c86148d661e0da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae944c91b6a036bf696438f0b8ce47638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#ae944c91b6a036bf696438f0b8ce47638">setLoadAnnotationAxioms</a> (boolean b)</td></tr>
+<tr class="separator:ae944c91b6a036bf696438f0b8ce47638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d289af0961ad441c2dc2be8effefd52"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a9d289af0961ad441c2dc2be8effefd52">isLoadAnnotationAxioms</a> ()</td></tr>
+<tr class="separator:a9d289af0961ad441c2dc2be8effefd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc49388597c9991176bd3f03fa44425d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#abc49388597c9991176bd3f03fa44425d">isFollowRedirects</a> ()</td></tr>
+<tr class="separator:abc49388597c9991176bd3f03fa44425d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf6b4447e0a5f004dccd6fcfc6571db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#adcf6b4447e0a5f004dccd6fcfc6571db">setFollowRedirects</a> (boolean value)</td></tr>
+<tr class="separator:adcf6b4447e0a5f004dccd6fcfc6571db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc53f1cb328fdd6aea34edfc6c8e2bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#adfc53f1cb328fdd6aea34edfc6c8e2bf">setMissingImportHandlingStrategy</a> (<a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a> missingImportHandlingStrategy)</td></tr>
+<tr class="separator:adfc53f1cb328fdd6aea34edfc6c8e2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7003306dae1fc02c52871a98acfa1379"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a7003306dae1fc02c52871a98acfa1379">getMissingImportHandlingStrategy</a> ()</td></tr>
+<tr class="separator:a7003306dae1fc02c52871a98acfa1379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a3e84f9db3f193a781a4cd2154622b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#ae1a3e84f9db3f193a781a4cd2154622b">setSilentMissingImportsHandling</a> (boolean b)</td></tr>
+<tr class="separator:ae1a3e84f9db3f193a781a4cd2154622b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbfb9810ba36f03d56b24fc08322d5b9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#afbfb9810ba36f03d56b24fc08322d5b9">isSilentMissingImportsHandling</a> ()</td></tr>
+<tr class="separator:afbfb9810ba36f03d56b24fc08322d5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef20c8accb7989bed5f9ccbb5dd0a3f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a8ef20c8accb7989bed5f9ccbb5dd0a3f">isStrict</a> ()</td></tr>
+<tr class="separator:a8ef20c8accb7989bed5f9ccbb5dd0a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42ff449f6212dda252b4b1329d03388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#ad42ff449f6212dda252b4b1329d03388">setStrict</a> (boolean strict)</td></tr>
+<tr class="separator:ad42ff449f6212dda252b4b1329d03388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8710a1928eb2f7e14429887fc9a1fe93"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a8710a1928eb2f7e14429887fc9a1fe93">isIgnoredImport</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a8710a1928eb2f7e14429887fc9a1fe93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbd0ba93049254f316ba9ad9e2c4540"><td class="memItemLeft" align="right" valign="top">Set&lt; <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#aefbd0ba93049254f316ba9ad9e2c4540">getIgnoredImports</a> ()</td></tr>
+<tr class="separator:aefbd0ba93049254f316ba9ad9e2c4540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c357194146916e5e8e10a2c5de02a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a61c357194146916e5e8e10a2c5de02a4">addIgnoredImport</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> ontologyDocumentIRI)</td></tr>
+<tr class="separator:a61c357194146916e5e8e10a2c5de02a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74ba728dc98f430f8601d34f15ac284"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#af74ba728dc98f430f8601d34f15ac284">removeIgnoredImport</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> ontologyDocumentIRI)</td></tr>
+<tr class="separator:af74ba728dc98f430f8601d34f15ac284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b2ca42b11a0218e6dac7f93f84bd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a63b2ca42b11a0218e6dac7f93f84bd42">clearIgnoredImports</a> ()</td></tr>
+<tr class="separator:a63b2ca42b11a0218e6dac7f93f84bd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a680aaaddd3b0b2e50bd6b7c946051ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a680aaaddd3b0b2e50bd6b7c946051ed0">setReportStackTraces</a> (boolean b)</td></tr>
+<tr class="separator:a680aaaddd3b0b2e50bd6b7c946051ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ebf77dd9868b72093ec0b9d0f0a708"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a99ebf77dd9868b72093ec0b9d0f0a708">isReportStackTrace</a> ()</td></tr>
+<tr class="separator:a99ebf77dd9868b72093ec0b9d0f0a708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8e741d86fac5796d80a0d3aeece08c1c"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a8e741d86fac5796d80a0d3aeece08c1c">DEFAULT_LOAD_ANNOTATIONS_FLAG_VALUE</a> = true</td></tr>
+<tr class="separator:a8e741d86fac5796d80a0d3aeece08c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04a4aa0fa85110a9390bc40043cd94f"><td class="memItemLeft" align="right" valign="top">static final <br class="typebreak"/>
+<a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#af04a4aa0fa85110a9390bc40043cd94f">DEFAULT_MISSING_ONTOLOGY_HEADER_STRATEGY</a> = <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html#a6af782628a906581b6eff3d61fde178c">MissingOntologyHeaderStrategy.INCLUDE_GRAPH</a></td></tr>
+<tr class="separator:af04a4aa0fa85110a9390bc40043cd94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 15/12/2010 </p>
+<p>A configuration object that specifies options and hints to objects that load OWLOntologies. Every <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> is immutable. Changing a setting results in the creation of a new <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> with that setting. For example, </p>
+<pre>
+<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> config = new <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration()</a>;
+config = config.setLoadAnnotationAxioms(false);
+</pre><p> creates an <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> object with the load annotation axioms set to <code>false</code>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00062">62</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a4b6025be25f128f3d35939b4d8eef872"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">106</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                            {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        ignoredImports.add(IRI.create(stripHash(Namespaces.OWL.toString())));</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        ignoredImports.add(IRI.create(stripHash(Namespaces.RDF.toString())));</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        ignoredImports.add(IRI.create(stripHash(Namespaces.RDFS.toString())));</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        ignoredImports.add(IRI.create(stripHash(Namespaces.SWRL.toString())));</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        ignoredImports.add(IRI.create(stripHash(Namespaces.SWRLB.toString())));</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        ignoredImports.add(IRI.create(Namespaces.XML.toString()));</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        ignoredImports.add(IRI.create(Namespaces.XSD.toString()));</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a61c357194146916e5e8e10a2c5de02a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.addIgnoredImport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>ontologyDocumentIRI</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds an ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> to the list of ontology imports that will be ignored during ontology loading. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontologyDocumentIRI</td><td>The ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that will be ignored if it is encountered as an imported ontology during loading. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> with the ignored ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> set. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00307">307</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                                                    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> configuration = copyConfiguration();</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        configuration.ignoredImports.add(ontologyDocumentIRI);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="keywordflow">return</span> configuration;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a63b2ca42b11a0218e6dac7f93f84bd42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.clearIgnoredImports </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clears all ontology document IRIs from the list of ignored ontology document IRIs. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> with the list of ignored ontology document IRIs set to be empty. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00330">330</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                                                {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> configuration = copyConfiguration();</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        configuration.ignoredImports.clear();</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">return</span> configuration;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aefbd0ba93049254f316ba9ad9e2c4540"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&gt; org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.getIgnoredImports </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the list of ontology document IRIs that are ignored during ontology loading if they are encountered as imported ontologies. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A set of IRIs that represent ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> to be ignored during ontology loading. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00297">297</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                        {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> HashSet&lt;IRI&gt;(ignoredImports);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7003306dae1fc02c52871a98acfa1379"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.getMissingImportHandlingStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the strategy used for missing imports. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The strategy. See <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a> for the strategies and their descriptions. </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00232">232</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">return</span> missingImportHandlingStrategy;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9db65be3e1e0648c66b74382959f2ec1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.getMissingOntologyHeaderStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the ontology header strategy </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00131">131</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span> missingOntologyHeaderStrategy;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abc49388597c9991176bd3f03fa44425d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isFollowRedirects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>When loading an ontology, a parser might connect to a remote URL. If the remote URL is a 302 redirect and the protocol is different, e.g., http to https, the parser needs to decide whether to follow the redirect and download the ontology from an alternate source, or stop with an UnloadableOntologyError. By default this is true, meaning redirects will be followed across protocols. If set to false, redirects will be followed only within the same protocol (URLConnection limits this to five redirects).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>true if redirects should be followed when importing ontologies from remote URLs </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00188">188</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                       {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> followRedirects;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8710a1928eb2f7e14429887fc9a1fe93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isIgnoredImport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>iri to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if iri should be ignored </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00288">288</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                                            {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">return</span> ignoredImports.contains(iri);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d289af0961ad441c2dc2be8effefd52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isLoadAnnotationAxioms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines whether or not annotation axioms (instances of <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom.html">OWLAnnotationAxiom</a></code>) should be loaded. By default, the loading of annotation axioms is enabled. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if annotation assertions will be loaded, or <code>false</code> if annotation assertions will not be loaded because they will be discarded on loading. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00173">173</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                            {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> loadAnnotations;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a99ebf77dd9868b72093ec0b9d0f0a708"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isReportStackTrace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>value for the report stack trace flag. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00354">354</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                                        {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">return</span> reportStackTraces;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afbfb9810ba36f03d56b24fc08322d5b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isSilentMissingImportsHandling </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true if a missing import does not raise an error. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000017">Obsoleto:</a></b></dt><dd>Use <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a7003306dae1fc02c52871a98acfa1379">getMissingImportHandlingStrategy()</a>. </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.4 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00258">258</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                                    {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">return</span> missingImportHandlingStrategy == <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#aed66060ec95dc4ad59ca4dd82509782b">MissingImportHandlingStrategy.SILENT</a>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy_html_aed66060ec95dc4ad59ca4dd82509782b"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#aed66060ec95dc4ad59ca4dd82509782b">org.semanticweb.owlapi.model.MissingImportHandlingStrategy.SILENT</a></div><div class="ttdeci">SILENT</div><div class="ttdef"><b>Definition:</b> <a href="_missing_import_handling_strategy_8java_source.html#l00058">MissingImportHandlingStrategy.java:58</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8ef20c8accb7989bed5f9ccbb5dd0a3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.isStrict </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true if parsing should be strict </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00266">266</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                              {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> strict;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af74ba728dc98f430f8601d34f15ac284"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.removeIgnoredImport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>ontologyDocumentIRI</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes an ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> from the list of ontology imports that will be ignored during ontology loading. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontologyDocumentIRI</td><td>The ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> that would be ignored if it is encountered as an imported ontology during loading. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> with the ignored ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> removed. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00319">319</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> configuration = copyConfiguration();</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        configuration.ignoredImports.remove(ontologyDocumentIRI);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="keywordflow">return</span> configuration;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adcf6b4447e0a5f004dccd6fcfc6571db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setFollowRedirects </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>true if redirects should be followed across protocols, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a copy of the current object with followRedirects set to the new value. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00197">197</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="comment">// as the objects are immutable, setting to the same value returns the</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="comment">// same object</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> (value == followRedirects) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> copy = copyConfiguration();</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        copy.followRedirects = value;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae944c91b6a036bf696438f0b8ce47638"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setLoadAnnotationAxioms </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Specifies whether or not annotation axioms (instances of <code><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_axiom.html">OWLAnnotationAxiom</a></code>) should be loaded or whether they should be discarded on loading. By default, the loading of annotation axioms is enabled. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><code>true</code> if annotation axioms should be loaded, or <code>false</code> if annotation axioms should not be loaded and should be discarded on loading. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> object with the option set. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00157">157</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="comment">// do not make copies if setting the same value</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> (loadAnnotations == b) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> copy = copyConfiguration();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        copy.loadAnnotations = b;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adfc53f1cb328fdd6aea34edfc6c8e2bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setMissingImportHandlingStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a>&#160;</td>
+          <td class="paramname"><em>missingImportHandlingStrategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the strategy that is used for missing imports handling. See <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html">MissingImportHandlingStrategy</a> for the strategies and their descriptions.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">missingImportHandlingStrategy</td><td>The strategy to be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> object with the strategy set. </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00217">217</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                                                                                                                        {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="comment">// do not make copies if setting the same value</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">if</span> (this.missingImportHandlingStrategy == missingImportHandlingStrategy) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        }</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> copy = copyConfiguration();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        copy.missingImportHandlingStrategy = missingImportHandlingStrategy;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a412b68d2fe9841fa4c86148d661e0da9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setMissingOntologyHeaderStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a>&#160;</td>
+          <td class="paramname"><em>missingOntologyHeaderStrategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">missingOntologyHeaderStrategy</td><td>new value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a copy of this configuration object with a different strategy </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00139">139</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                                                                                                                        {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="comment">// do not make copies if setting the same value</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">if</span> (missingOntologyHeaderStrategy == this.missingOntologyHeaderStrategy) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> copy = copyConfiguration();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        copy.missingOntologyHeaderStrategy = missingOntologyHeaderStrategy;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a680aaaddd3b0b2e50bd6b7c946051ed0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setReportStackTraces </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the value for the report stack traces flag. If true, parsing exceptions will have the full stack trace for the source exceptions. Default is false.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>the new value for the flag </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></code> with the report flag set to the new value. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00344">344</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <span class="keywordflow">if</span> (b == reportStackTraces) {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> configuration = copyConfiguration();</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        configuration.reportStackTraces = b;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordflow">return</span> configuration;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae1a3e84f9db3f193a781a4cd2154622b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setSilentMissingImportsHandling </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>new value for missing imports </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000016">Obsoleto:</a></b></dt><dd>Do not use because this method mutates the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> instance that it is called on. Use <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#adfc53f1cb328fdd6aea34edfc6c8e2bf">setMissingImportHandlingStrategy(MissingImportHandlingStrategy)</a> </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.4 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00243">243</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                                           {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="keywordflow">if</span>(b) {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            missingImportHandlingStrategy = <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#aed66060ec95dc4ad59ca4dd82509782b">MissingImportHandlingStrategy.SILENT</a>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            missingImportHandlingStrategy = <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#a28783f8ec58145f2d48186f718570163">MissingImportHandlingStrategy.THROW_EXCEPTION</a>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy_html_a28783f8ec58145f2d48186f718570163"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#a28783f8ec58145f2d48186f718570163">org.semanticweb.owlapi.model.MissingImportHandlingStrategy.THROW_EXCEPTION</a></div><div class="ttdeci">THROW_EXCEPTION</div><div class="ttdef"><b>Definition:</b> <a href="_missing_import_handling_strategy_8java_source.html#l00064">MissingImportHandlingStrategy.java:64</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy_html_aed66060ec95dc4ad59ca4dd82509782b"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_missing_import_handling_strategy.html#aed66060ec95dc4ad59ca4dd82509782b">org.semanticweb.owlapi.model.MissingImportHandlingStrategy.SILENT</a></div><div class="ttdeci">SILENT</div><div class="ttdef"><b>Definition:</b> <a href="_missing_import_handling_strategy_8java_source.html#l00058">MissingImportHandlingStrategy.java:58</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad42ff449f6212dda252b4b1329d03388"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.setStrict </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>strict</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">strict</td><td>new value for strict </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>copy of the configuration with new strict value </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00274">274</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="comment">// do not make copies if setting the same value</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">if</span> (this.strict == strict) {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">OWLOntologyLoaderConfiguration</a> copy = copyConfiguration();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        copy.strict = strict;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_html_a4b6025be25f128f3d35939b4d8eef872"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html#a4b6025be25f128f3d35939b4d8eef872">org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.OWLOntologyLoaderConfiguration</a></div><div class="ttdeci">OWLOntologyLoaderConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_loader_configuration_8java_source.html#l00106">OWLOntologyLoaderConfiguration.java:106</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a8e741d86fac5796d80a0d3aeece08c1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.DEFAULT_LOAD_ANNOTATIONS_FLAG_VALUE = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>default annotation value </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00085">85</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af04a4aa0fa85110a9390bc40043cd94f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html">MissingOntologyHeaderStrategy</a> org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration.DEFAULT_MISSING_ONTOLOGY_HEADER_STRATEGY = <a class="el" href="enumorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration_1_1_missing_ontology_header_strategy.html#a6af782628a906581b6eff3d61fde178c">MissingOntologyHeaderStrategy.INCLUDE_GRAPH</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>default missing ontology strategy </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html#l00090">90</a> del archivo <a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_ontology_loader_configuration_8java_source.html">OWLOntologyLoaderConfiguration.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_loader_configuration.html">OWLOntologyLoaderConfiguration</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:25 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

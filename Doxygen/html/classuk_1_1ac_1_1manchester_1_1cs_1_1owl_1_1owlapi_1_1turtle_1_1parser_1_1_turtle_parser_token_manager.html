@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserConstants</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a64cae8912e307c4631a50f7ae302e550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a64cae8912e307c4631a50f7ae302e550">setDebugStream</a> (java.io.PrintStream ds)</td></tr>
+<tr class="separator:a64cae8912e307c4631a50f7ae302e550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b86c3cca9ad3533808bfb1cece825e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a4b86c3cca9ad3533808bfb1cece825e2">TurtleParserTokenManager</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a> stream)</td></tr>
+<tr class="separator:a4b86c3cca9ad3533808bfb1cece825e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3922a1823ac91af313d259df059ac180"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a3922a1823ac91af313d259df059ac180">TurtleParserTokenManager</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:a3922a1823ac91af313d259df059ac180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58cdca8a252742394243ad64ca03d3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#aa58cdca8a252742394243ad64ca03d3d">ReInit</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a> stream)</td></tr>
+<tr class="separator:aa58cdca8a252742394243ad64ca03d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac13512d6c994515b7e274d434f5b95e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#aac13512d6c994515b7e274d434f5b95e">ReInit</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:aac13512d6c994515b7e274d434f5b95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4bc46812473626ce3fa9e800d0c509"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a1b4bc46812473626ce3fa9e800d0c509">SwitchTo</a> (int lexState)</td></tr>
+<tr class="separator:a1b4bc46812473626ce3fa9e800d0c509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19bd56af552f4f00f90d08023d9f0722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a19bd56af552f4f00f90d08023d9f0722">getNextToken</a> ()</td></tr>
+<tr class="separator:a19bd56af552f4f00f90d08023d9f0722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a78127a1fb434d306868224985e70bf8a"><td class="memItemLeft" align="right" valign="top">java.io.PrintStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a78127a1fb434d306868224985e70bf8a">debugStream</a> = System.out</td></tr>
+<tr class="separator:a78127a1fb434d306868224985e70bf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserConstants</a></td></tr>
+<tr class="memitem:ad6795e40d0c844f9ea79967c456d043f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ad6795e40d0c844f9ea79967c456d043f">EOF</a> = 0</td></tr>
+<tr class="separator:ad6795e40d0c844f9ea79967c456d043f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2f81f7a36c275b56194a9694776c73 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a3b2f81f7a36c275b56194a9694776c73">COMMENT</a> = 5</td></tr>
+<tr class="separator:a3b2f81f7a36c275b56194a9694776c73 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7880c555d7699c3884b5457e68a0a83e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a7880c555d7699c3884b5457e68a0a83e">STRING_START</a> = 6</td></tr>
+<tr class="separator:a7880c555d7699c3884b5457e68a0a83e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ba3b6225d156baa7f75dec551203fe inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a47ba3b6225d156baa7f75dec551203fe">ANY_ESCAPED_CHAR</a> = 7</td></tr>
+<tr class="separator:a47ba3b6225d156baa7f75dec551203fe inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79752568b25e8a9ea95450990f03d6e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ac79752568b25e8a9ea95450990f03d6e">ANY_CHAR</a> = 8</td></tr>
+<tr class="separator:ac79752568b25e8a9ea95450990f03d6e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76a59a91e5972a3c7e5518a1ca924a0 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ae76a59a91e5972a3c7e5518a1ca924a0">STRING</a> = 9</td></tr>
+<tr class="separator:ae76a59a91e5972a3c7e5518a1ca924a0 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47811c0f773fb597ae0b4bae1d89a52d inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a47811c0f773fb597ae0b4bae1d89a52d">LONG_STRING</a> = 12</td></tr>
+<tr class="separator:a47811c0f773fb597ae0b4bae1d89a52d inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f67ea3de7ee12487496eead9ed2165 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a92f67ea3de7ee12487496eead9ed2165">DIGIT</a> = 13</td></tr>
+<tr class="separator:a92f67ea3de7ee12487496eead9ed2165 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cae275b4a8b08d0e24401f504732f63 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a2cae275b4a8b08d0e24401f504732f63">INTEGER</a> = 14</td></tr>
+<tr class="separator:a2cae275b4a8b08d0e24401f504732f63 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78025790e7aff89d1cd17a85b23946be inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a78025790e7aff89d1cd17a85b23946be">DOUBLE</a> = 15</td></tr>
+<tr class="separator:a78025790e7aff89d1cd17a85b23946be inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e92f91631467517a2a97c950743c5e8 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a4e92f91631467517a2a97c950743c5e8">DECIMAL</a> = 16</td></tr>
+<tr class="separator:a4e92f91631467517a2a97c950743c5e8 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed55fbbac80eb0601263955daf707db9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aed55fbbac80eb0601263955daf707db9">EXPONENT</a> = 17</td></tr>
+<tr class="separator:aed55fbbac80eb0601263955daf707db9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53ecf911e230df63f57423e63bdbce3 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ab53ecf911e230df63f57423e63bdbce3">OPENPAR</a> = 18</td></tr>
+<tr class="separator:ab53ecf911e230df63f57423e63bdbce3 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fe04b09b553c944f1d18d79023ec4f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a68fe04b09b553c944f1d18d79023ec4f">CLOSEPAR</a> = 19</td></tr>
+<tr class="separator:a68fe04b09b553c944f1d18d79023ec4f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435e2cc84ccc721fd82d5fd6233a6034 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a435e2cc84ccc721fd82d5fd6233a6034">OPEN_SQUARE_BRACKET</a> = 20</td></tr>
+<tr class="separator:a435e2cc84ccc721fd82d5fd6233a6034 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f152863f5f020f6a3ba849c70b0ae6 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a54f152863f5f020f6a3ba849c70b0ae6">CLOSE_SQUARE_BRACKET</a> = 21</td></tr>
+<tr class="separator:a54f152863f5f020f6a3ba849c70b0ae6 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97407a79fad7a6cea0f5940bc4862143 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a97407a79fad7a6cea0f5940bc4862143">COMMA</a> = 22</td></tr>
+<tr class="separator:a97407a79fad7a6cea0f5940bc4862143 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f30570ca08e5debcbde261a49b43793 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a8f30570ca08e5debcbde261a49b43793">DOT</a> = 23</td></tr>
+<tr class="separator:a8f30570ca08e5debcbde261a49b43793 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7153f55c62f50304d6a6698388cea3 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a3b7153f55c62f50304d6a6698388cea3">SEMICOLON</a> = 24</td></tr>
+<tr class="separator:a3b7153f55c62f50304d6a6698388cea3 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78548475013014fcc7250f7d1d47a71c inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a78548475013014fcc7250f7d1d47a71c">PREFIX</a> = 25</td></tr>
+<tr class="separator:a78548475013014fcc7250f7d1d47a71c inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920b4f04bab7fac2ba34a4924d2ababe inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a920b4f04bab7fac2ba34a4924d2ababe">DOUBLE_CARET</a> = 26</td></tr>
+<tr class="separator:a920b4f04bab7fac2ba34a4924d2ababe inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d00f2b2946bbf259faa9c09e46feea inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a30d00f2b2946bbf259faa9c09e46feea">BASE</a> = 27</td></tr>
+<tr class="separator:a30d00f2b2946bbf259faa9c09e46feea inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb4abe5e0df0fd82f2e21c2ff0992b8 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a3eb4abe5e0df0fd82f2e21c2ff0992b8">AT</a> = 28</td></tr>
+<tr class="separator:a3eb4abe5e0df0fd82f2e21c2ff0992b8 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794739c812f28f252e41e49fe3f50cfc inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a794739c812f28f252e41e49fe3f50cfc">A</a> = 29</td></tr>
+<tr class="separator:a794739c812f28f252e41e49fe3f50cfc inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed8430a889ff21cbbf497e28af11a8d inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a1ed8430a889ff21cbbf497e28af11a8d">EMPTY_BLANK_NODE</a> = 30</td></tr>
+<tr class="separator:a1ed8430a889ff21cbbf497e28af11a8d inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa52552a2b44339d3893b10358f2f86ae inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aa52552a2b44339d3893b10358f2f86ae">NODE_ID_START</a> = 31</td></tr>
+<tr class="separator:aa52552a2b44339d3893b10358f2f86ae inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade67e4c2e87fd0be06f1f6cd89bd466 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aade67e4c2e87fd0be06f1f6cd89bd466">TRUE</a> = 32</td></tr>
+<tr class="separator:aade67e4c2e87fd0be06f1f6cd89bd466 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd703783d4b06585001b7d1215013a73 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#afd703783d4b06585001b7d1215013a73">FALSE</a> = 33</td></tr>
+<tr class="separator:afd703783d4b06585001b7d1215013a73 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c519bfaf59036c51a671243bf23596 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a44c519bfaf59036c51a671243bf23596">SELECT</a> = 34</td></tr>
+<tr class="separator:a44c519bfaf59036c51a671243bf23596 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0dc08ac49562fe6dbc323823586a38e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ab0dc08ac49562fe6dbc323823586a38e">WHERE</a> = 35</td></tr>
+<tr class="separator:ab0dc08ac49562fe6dbc323823586a38e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78fe4f4e9bc4af3672c106ff6e0f61e6 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a78fe4f4e9bc4af3672c106ff6e0f61e6">FILTER</a> = 36</td></tr>
+<tr class="separator:a78fe4f4e9bc4af3672c106ff6e0f61e6 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaac383885e4f574808efc24a5130a1e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#afaac383885e4f574808efc24a5130a1e">LETTER</a> = 37</td></tr>
+<tr class="separator:afaac383885e4f574808efc24a5130a1e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457ee154731d7d067d36322011db0655 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a457ee154731d7d067d36322011db0655">FULLIRI</a> = 38</td></tr>
+<tr class="separator:a457ee154731d7d067d36322011db0655 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57fe8dbfc9f1b81b068a9c3ff2bc9ff inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aa57fe8dbfc9f1b81b068a9c3ff2bc9ff">PNAME_NS</a> = 39</td></tr>
+<tr class="separator:aa57fe8dbfc9f1b81b068a9c3ff2bc9ff inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9409c82b2a77a7d7093626a50688f81c inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a9409c82b2a77a7d7093626a50688f81c">PN_LOCAL</a> = 40</td></tr>
+<tr class="separator:a9409c82b2a77a7d7093626a50688f81c inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84746be51e49f9d38206b896315581db inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a84746be51e49f9d38206b896315581db">PNAME_LN</a> = 41</td></tr>
+<tr class="separator:a84746be51e49f9d38206b896315581db inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098248c8c7258f2671e57d88e6c25bb9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a098248c8c7258f2671e57d88e6c25bb9">PN_PREFIX</a> = 42</td></tr>
+<tr class="separator:a098248c8c7258f2671e57d88e6c25bb9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa209ac84c5d4045a3445e3f11fd7557f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aa209ac84c5d4045a3445e3f11fd7557f">PN_CHARS_BASE</a> = 43</td></tr>
+<tr class="separator:aa209ac84c5d4045a3445e3f11fd7557f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f69e911b6325ed44c158a436a8665bc inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a4f69e911b6325ed44c158a436a8665bc">PN_CHARS</a> = 44</td></tr>
+<tr class="separator:a4f69e911b6325ed44c158a436a8665bc inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e32a5ab1f5900c044e5a4a4f7f73a0 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a15e32a5ab1f5900c044e5a4a4f7f73a0">PN_CHARS_U</a> = 45</td></tr>
+<tr class="separator:a15e32a5ab1f5900c044e5a4a4f7f73a0 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d93fb68df94868cf860d8c62e6749f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a99d93fb68df94868cf860d8c62e6749f">NODEID</a> = 46</td></tr>
+<tr class="separator:a99d93fb68df94868cf860d8c62e6749f inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea928cba1d798a948d3291794819d21 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aeea928cba1d798a948d3291794819d21">ERROR</a> = 47</td></tr>
+<tr class="separator:aeea928cba1d798a948d3291794819d21 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f65044127cd0c3574f9709814b38b9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#ad7f65044127cd0c3574f9709814b38b9">DEFAULT</a> = 0</td></tr>
+<tr class="separator:ad7f65044127cd0c3574f9709814b38b9 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369e4c562ab6a34e93458247b4fb1b21 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a369e4c562ab6a34e93458247b4fb1b21">IN_STRING</a> = 1</td></tr>
+<tr class="separator:a369e4c562ab6a34e93458247b4fb1b21 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0613629dc315ba6457255344709bde79 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#a0613629dc315ba6457255344709bde79">IN_LONG_STRING</a> = 2</td></tr>
+<tr class="separator:a0613629dc315ba6457255344709bde79 inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99fe31d142d2d8aa828efafdb35e49e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants.html#aa99fe31d142d2d8aa828efafdb35e49e">tokenImage</a></td></tr>
+<tr class="separator:aa99fe31d142d2d8aa828efafdb35e49e inherit pub_attribs_interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a941f3dd6940d4bd1bfc9aae65f4973b2"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a941f3dd6940d4bd1bfc9aae65f4973b2">jjstrLiteralImages</a></td></tr>
+<tr class="separator:a941f3dd6940d4bd1bfc9aae65f4973b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d71ec11e23d26ceda8dc5c93fed052"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a93d71ec11e23d26ceda8dc5c93fed052">lexStateNames</a></td></tr>
+<tr class="separator:a93d71ec11e23d26ceda8dc5c93fed052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae394328808376d08400e4c93d38edde4"><td class="memItemLeft" align="right" valign="top">static final int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a></td></tr>
+<tr class="separator:ae394328808376d08400e4c93d38edde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ae1f45faab4e383890ab902babdb82fff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae1f45faab4e383890ab902babdb82fff">jjFillToken</a> ()</td></tr>
+<tr class="separator:ae1f45faab4e383890ab902babdb82fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a13c92357235d06977c5aec69b3d6ed53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">input_stream</a></td></tr>
+<tr class="separator:a13c92357235d06977c5aec69b3d6ed53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a90338bc212fa7a1a7917ef25431d25"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a></td></tr>
+<tr class="separator:a8a90338bc212fa7a1a7917ef25431d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a> Manager. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l00005">5</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a4b86c3cca9ad3533808bfb1cece825e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.TurtleParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01330">1330</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;                                                      {</div>
+<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;   <span class="keywordflow">if</span> (JavaCharStream.staticFlag)</div>
+<div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> Error(<span class="stringliteral">&quot;ERROR: Cannot use a static CharStream class with a non-static lexical analyzer.&quot;</span>);</div>
+<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;   <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">input_stream</a> = stream;</div>
+<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a13c92357235d06977c5aec69b3d6ed53"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01325">TurtleParserTokenManager.java:1325</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3922a1823ac91af313d259df059ac180"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.TurtleParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01337">1337</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;                                                                    {</div>
+<div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;   <span class="keyword">this</span>(stream);</div>
+<div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;   <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a1b4bc46812473626ce3fa9e800d0c509">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a1b4bc46812473626ce3fa9e800d0c509"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a1b4bc46812473626ce3fa9e800d0c509">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01366">TurtleParserTokenManager.java:1366</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a19bd56af552f4f00f90d08023d9f0722"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a> uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.getNextToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the next <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01408">1408</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01409"></a><span class="lineno"> 1409</span>&#160;{</div>
+<div class="line"><a name="l01410"></a><span class="lineno"> 1410</span>&#160;  Token matchedToken;</div>
+<div class="line"><a name="l01411"></a><span class="lineno"> 1411</span>&#160;  <span class="keywordtype">int</span> curPos = 0;</div>
+<div class="line"><a name="l01412"></a><span class="lineno"> 1412</span>&#160;</div>
+<div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;  EOFLoop :</div>
+<div class="line"><a name="l01414"></a><span class="lineno"> 1414</span>&#160;  <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;  {</div>
+<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;   <span class="keywordflow">try</span></div>
+<div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;   {</div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;      <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> = input_stream.BeginToken();</div>
+<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;   }</div>
+<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;   <span class="keywordflow">catch</span>(java.io.IOException e)</div>
+<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;   {</div>
+<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;      jjmatchedKind = 0;</div>
+<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;      matchedToken = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae1f45faab4e383890ab902babdb82fff">jjFillToken</a>();</div>
+<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;      <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;   }</div>
+<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;</div>
+<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;   <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;   {</div>
+<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;     <span class="keywordflow">switch</span>(curLexState)</div>
+<div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;     {</div>
+<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;       <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;         <span class="keywordflow">try</span> { input_stream.backup(0);</div>
+<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;            <span class="keywordflow">while</span> (<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> &lt;= 32 &amp;&amp; (0x100002600L &amp; (1L &lt;&lt; <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a>)) != 0L)</div>
+<div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;               <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">input_stream</a>.<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">BeginToken</a>();</div>
+<div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;         }</div>
+<div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;         <span class="keywordflow">catch</span> (java.io.IOException e1) { <span class="keywordflow">continue</span> EOFLoop; }</div>
+<div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;         curPos = jjMoveStringLiteralDfa0_0();</div>
+<div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;         <span class="keywordflow">if</span> (jjmatchedPos == 0 &amp;&amp; jjmatchedKind &gt; 47)</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;         {</div>
+<div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;            jjmatchedKind = 47;</div>
+<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;         }</div>
+<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;       <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;         curPos = jjMoveStringLiteralDfa0_1();</div>
+<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01450"></a><span class="lineno"> 1450</span>&#160;       <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l01451"></a><span class="lineno"> 1451</span>&#160;         jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l01452"></a><span class="lineno"> 1452</span>&#160;         jjmatchedPos = 0;</div>
+<div class="line"><a name="l01453"></a><span class="lineno"> 1453</span>&#160;         curPos = jjMoveStringLiteralDfa0_2();</div>
+<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;         <span class="keywordflow">if</span> (jjmatchedPos == 0 &amp;&amp; jjmatchedKind &gt; 11)</div>
+<div class="line"><a name="l01455"></a><span class="lineno"> 1455</span>&#160;         {</div>
+<div class="line"><a name="l01456"></a><span class="lineno"> 1456</span>&#160;            jjmatchedKind = 11;</div>
+<div class="line"><a name="l01457"></a><span class="lineno"> 1457</span>&#160;         }</div>
+<div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;         <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;     }</div>
+<div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;     <span class="keywordflow">if</span> (jjmatchedKind != 0x7fffffff)</div>
+<div class="line"><a name="l01461"></a><span class="lineno"> 1461</span>&#160;     {</div>
+<div class="line"><a name="l01462"></a><span class="lineno"> 1462</span>&#160;        <span class="keywordflow">if</span> (jjmatchedPos + 1 &lt; curPos)</div>
+<div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;           input_stream.backup(curPos - jjmatchedPos - 1);</div>
+<div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;        <span class="keywordflow">if</span> ((jjtoToken[jjmatchedKind &gt;&gt; 6] &amp; (1L &lt;&lt; (jjmatchedKind &amp; 077))) != 0L)</div>
+<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;        {</div>
+<div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;           matchedToken = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae1f45faab4e383890ab902babdb82fff">jjFillToken</a>();</div>
+<div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;       <span class="keywordflow">if</span> (<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;         curLexState = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;           <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l01470"></a><span class="lineno"> 1470</span>&#160;        }</div>
+<div class="line"><a name="l01471"></a><span class="lineno"> 1471</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((jjtoSkip[jjmatchedKind &gt;&gt; 6] &amp; (1L &lt;&lt; (jjmatchedKind &amp; 077))) != 0L)</div>
+<div class="line"><a name="l01472"></a><span class="lineno"> 1472</span>&#160;        {</div>
+<div class="line"><a name="l01473"></a><span class="lineno"> 1473</span>&#160;         <span class="keywordflow">if</span> (<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;           curLexState = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;           <span class="keywordflow">continue</span> EOFLoop;</div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;        }</div>
+<div class="line"><a name="l01477"></a><span class="lineno"> 1477</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind] != -1)</div>
+<div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;        curLexState = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;        curPos = 0;</div>
+<div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;           <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> = input_stream.readChar();</div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;           <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;        }</div>
+<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;        <span class="keywordflow">catch</span> (java.io.IOException e1) { }</div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;     }</div>
+<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;     <span class="keywordtype">int</span> error_line = input_stream.getEndLine();</div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;     <span class="keywordtype">int</span> error_column = input_stream.getEndColumn();</div>
+<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;     String error_after = null;</div>
+<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;     <span class="keywordtype">boolean</span> EOFSeen = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;     <span class="keywordflow">try</span> { input_stream.readChar(); input_stream.backup(1); }</div>
+<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;     <span class="keywordflow">catch</span> (java.io.IOException e1) {</div>
+<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;        EOFSeen = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;        error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> == <span class="charliteral">&#39;\n&#39;</span> || <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a> == <span class="charliteral">&#39;\r&#39;</span>) {</div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;           error_line++;</div>
+<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;           error_column = 0;</div>
+<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;        }</div>
+<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;           error_column++;</div>
+<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;     }</div>
+<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;     <span class="keywordflow">if</span> (!EOFSeen) {</div>
+<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;        input_stream.backup(1);</div>
+<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;        error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;     }</div>
+<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;     <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(EOFSeen, curLexState, error_line, error_column, error_after, <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">curChar</a>, TokenMgrError.LEXICAL_ERROR);</div>
+<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;   }</div>
+<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;  }</div>
+<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a13c92357235d06977c5aec69b3d6ed53"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01325">TurtleParserTokenManager.java:1325</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a8a90338bc212fa7a1a7917ef25431d25"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a8a90338bc212fa7a1a7917ef25431d25">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.curChar</a></div><div class="ttdeci">char curChar</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01328">TurtleParserTokenManager.java:1328</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a5920c61b477775b3ecfc2ec254942824"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a5920c61b477775b3ecfc2ec254942824">uk.ac.manchester.cs.BOMSafeJavaCharStream.BeginToken</a></div><div class="ttdeci">char BeginToken()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00197">BOMSafeJavaCharStream.java:197</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_ae1f45faab4e383890ab902babdb82fff"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae1f45faab4e383890ab902babdb82fff">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjFillToken</a></div><div class="ttdeci">Token jjFillToken()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01374">TurtleParserTokenManager.java:1374</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_ae394328808376d08400e4c93d38edde4"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#ae394328808376d08400e4c93d38edde4">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjnewLexState</a></div><div class="ttdeci">static final int[] jjnewLexState</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01312">TurtleParserTokenManager.java:1312</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae1f45faab4e383890ab902babdb82fff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a> uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjFillToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01374">1374</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;{</div>
+<div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;   <span class="keyword">final</span> Token t;</div>
+<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;   <span class="keyword">final</span> String curTokenImage;</div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> beginLine;</div>
+<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> endLine;</div>
+<div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> beginColumn;</div>
+<div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;   <span class="keyword">final</span> <span class="keywordtype">int</span> endColumn;</div>
+<div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;   String im = <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a941f3dd6940d4bd1bfc9aae65f4973b2">jjstrLiteralImages</a>[jjmatchedKind];</div>
+<div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;   curTokenImage = (im == null) ? <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">input_stream</a>.<a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">GetImage</a>() : im;</div>
+<div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160;   beginLine = input_stream.getBeginLine();</div>
+<div class="line"><a name="l01385"></a><span class="lineno"> 1385</span>&#160;   beginColumn = input_stream.getBeginColumn();</div>
+<div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;   endLine = input_stream.getEndLine();</div>
+<div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;   endColumn = input_stream.getEndColumn();</div>
+<div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;   t = Token.newToken(jjmatchedKind);</div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;   t.kind = jjmatchedKind;</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;   t.image = curTokenImage;</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;   t.beginLine = beginLine;</div>
+<div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;   t.endLine = endLine;</div>
+<div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;   t.beginColumn = beginColumn;</div>
+<div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;   t.endColumn = endColumn;</div>
+<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;</div>
+<div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;   <span class="keywordflow">return</span> t;</div>
+<div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream_html_a174fc74a1f0cbbc1b8ef545270ebb0d8"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html#a174fc74a1f0cbbc1b8ef545270ebb0d8">uk.ac.manchester.cs.BOMSafeJavaCharStream.GetImage</a></div><div class="ttdeci">String GetImage()</div><div class="ttdef"><b>Definition:</b> <a href="_b_o_m_safe_java_char_stream_8java_source.html#l00430">BOMSafeJavaCharStream.java:430</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a13c92357235d06977c5aec69b3d6ed53"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01325">TurtleParserTokenManager.java:1325</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a941f3dd6940d4bd1bfc9aae65f4973b2"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a941f3dd6940d4bd1bfc9aae65f4973b2">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjstrLiteralImages</a></div><div class="ttdeci">static final String[] jjstrLiteralImages</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01297">TurtleParserTokenManager.java:1297</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa58cdca8a252742394243ad64ca03d3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01343">1343</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;{</div>
+<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;   jjmatchedPos = jjnewStateCnt = 0;</div>
+<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;   curLexState = defaultLexState;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;   <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">input_stream</a> = stream;</div>
+<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;   ReInitRounds();</div>
+<div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a13c92357235d06977c5aec69b3d6ed53"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a13c92357235d06977c5aec69b3d6ed53">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.input_stream</a></div><div class="ttdeci">JavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01325">TurtleParserTokenManager.java:1325</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aac13512d6c994515b7e274d434f5b95e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01359">1359</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;{</div>
+<div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;   <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#aa58cdca8a252742394243ad64ca03d3d">ReInit</a>(stream);</div>
+<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;   <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a1b4bc46812473626ce3fa9e800d0c509">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;}</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a1b4bc46812473626ce3fa9e800d0c509"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a1b4bc46812473626ce3fa9e800d0c509">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01366">TurtleParserTokenManager.java:1366</a></div></div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_aa58cdca8a252742394243ad64ca03d3d"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#aa58cdca8a252742394243ad64ca03d3d">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.ReInit</a></div><div class="ttdeci">void ReInit(JavaCharStream stream)</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l01343">TurtleParserTokenManager.java:1343</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a64cae8912e307c4631a50f7ae302e550"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.setDebugStream </td>
+          <td>(</td>
+          <td class="paramtype">java.io.PrintStream&#160;</td>
+          <td class="paramname"><em>ds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l00011">11</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{ <a class="code" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a78127a1fb434d306868224985e70bf8a">debugStream</a> = ds; }</div>
+<div class="ttc" id="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager_html_a78127a1fb434d306868224985e70bf8a"><div class="ttname"><a href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html#a78127a1fb434d306868224985e70bf8a">uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.debugStream</a></div><div class="ttdeci">java.io.PrintStream debugStream</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_parser_token_manager_8java_source.html#l00009">TurtleParserTokenManager.java:9</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1b4bc46812473626ce3fa9e800d0c509"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.SwitchTo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Switch to specified lex state. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01366">1366</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;{</div>
+<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;   <span class="keywordflow">if</span> (lexState &gt;= 3 || lexState &lt; 0)</div>
+<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(<span class="stringliteral">&quot;Error: Ignoring invalid lexical state : &quot;</span> + lexState + <span class="stringliteral">&quot;. State unchanged.&quot;</span>, TokenMgrError.INVALID_LEXICAL_STATE);</div>
+<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;   <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;      curLexState = lexState;</div>
+<div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a8a90338bc212fa7a1a7917ef25431d25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.curChar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01328">1328</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a78127a1fb434d306868224985e70bf8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.io.PrintStream uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.debugStream = System.out</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l00009">9</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13c92357235d06977c5aec69b3d6ed53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_java_char_stream.html">JavaCharStream</a> uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.input_stream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01325">1325</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae394328808376d08400e4c93d38edde4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int [] uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjnewLexState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">   -1, -1, -1, -1, -1, -1, 1, -1, -1, 0, 2, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, </div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Lex State array. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01312">1312</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a941f3dd6940d4bd1bfc9aae65f4973b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.jjstrLiteralImages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line"><span class="stringliteral">&quot;&quot;</span>, null, null, null, null, null, null, null, null, null, null, null, null, </div>
+<div class="line">null, null, null, null, null, <span class="stringliteral">&quot;\50&quot;</span>, <span class="stringliteral">&quot;\51&quot;</span>, <span class="stringliteral">&quot;\133&quot;</span>, <span class="stringliteral">&quot;\135&quot;</span>, <span class="stringliteral">&quot;\54&quot;</span>, <span class="stringliteral">&quot;\56&quot;</span>, <span class="stringliteral">&quot;\73&quot;</span>, </div>
+<div class="line"><span class="stringliteral">&quot;\100\160\162\145\146\151\170&quot;</span>, <span class="stringliteral">&quot;\136\136&quot;</span>, <span class="stringliteral">&quot;\100\142\141\163\145&quot;</span>, <span class="stringliteral">&quot;\100&quot;</span>, <span class="stringliteral">&quot;\141&quot;</span>, null, <span class="stringliteral">&quot;\137\72&quot;</span>, </div>
+<div class="line"><span class="stringliteral">&quot;\164\162\165\145&quot;</span>, <span class="stringliteral">&quot;\146\141\154\163\145&quot;</span>, <span class="stringliteral">&quot;\123\105\114\105\103\124&quot;</span>, <span class="stringliteral">&quot;\127\110\105\122\105&quot;</span>, </div>
+<div class="line"><span class="stringliteral">&quot;\106\111\114\124\105\122&quot;</span>, null, null, null, null, null, null, null, null, null, null, null, }</div>
+</div><!-- fragment --><p><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_token.html">Token</a> literal values. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01297">1297</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93d71ec11e23d26ceda8dc5c93fed052"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] uk.ac.manchester.cs.owl.owlapi.turtle.parser.TurtleParserTokenManager.lexStateNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">   <span class="stringliteral">&quot;DEFAULT&quot;</span>,</div>
+<div class="line">   <span class="stringliteral">&quot;IN_STRING&quot;</span>,</div>
+<div class="line">   <span class="stringliteral">&quot;IN_LONG_STRING&quot;</span>,</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Lexer state names. </p>
+
+<p>Definición en la línea <a class="el" href="_turtle_parser_token_manager_8java_source.html#l01305">1305</a> del archivo <a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/uk/ac/manchester/cs/owl/owlapi/turtle/parser/<a class="el" href="_turtle_parser_token_manager_8java_source.html">TurtleParserTokenManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceuk.html">uk</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester.html">manchester</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl.html">owl</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle.html">turtle</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1turtle_1_1parser_1_1_turtle_parser_token_manager.html">TurtleParserTokenManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:55 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

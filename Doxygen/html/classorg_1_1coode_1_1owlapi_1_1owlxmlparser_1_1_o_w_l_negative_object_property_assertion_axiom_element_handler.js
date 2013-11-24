@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_negative_object_property_assertion_axiom_element_handler =
+[
+    [ "OWLNegativeObjectPropertyAssertionAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_negative_object_property_assertion_axiom_element_handler.html#a6933e7e70e0518c5fa5a82690e81a60d", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_negative_object_property_assertion_axiom_element_handler.html#a718300b281276ce7b93d7965ddcf1570", null ]
+];

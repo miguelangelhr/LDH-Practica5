@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends OWLEntity, A extends OWLAxiom &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0b44dd7fb80dc0388ed9b2bb05a8e9677.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends OWLEntity, A extends OWLAxiom &gt;<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias InferredAxiomGenerator&lt; A &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a6953a04d82a2b04be1d5a089c2d087b1"><td class="memItemLeft" align="right" valign="top">Set&lt; A &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a6953a04d82a2b04be1d5a089c2d087b1">createAxioms</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> manager, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner)</td></tr>
+<tr class="separator:a6953a04d82a2b04be1d5a089c2d087b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408ff99d4bb831ae68155530c4f0cd3f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a408ff99d4bb831ae68155530c4f0cd3f">toString</a> ()</td></tr>
+<tr class="separator:a408ff99d4bb831ae68155530c4f0cd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a52e282e20a8682397663d754e4664827"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a52e282e20a8682397663d754e4664827">addAxioms</a> (E entity, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory, Set&lt; A &gt; result)</td></tr>
+<tr class="separator:a52e282e20a8682397663d754e4664827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef0f5bc94b828ae9908a97e9e4add09"><td class="memItemLeft" align="right" valign="top">abstract Set&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09">getEntities</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ont)</td></tr>
+<tr class="separator:a2ef0f5bc94b828ae9908a97e9e4add09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4c6c4a82763913e347ad38e6d0513e"><td class="memItemLeft" align="right" valign="top">Set&lt; E &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2d4c6c4a82763913e347ad38e6d0513e">getAllEntities</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a> reasoner)</td></tr>
+<tr class="separator:a2d4c6c4a82763913e347ad38e6d0513e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 27-Jul-2007<br/>
+<br/>
+ Generates axioms which relate to inferred information for a specific entity. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;E&gt;</td><td>the entity type </td></tr>
+    <tr><td class="paramname">&lt;A&gt;</td><td>the axiom type </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_inferred_entity_axiom_generator_8java_source.html#l00062">62</a> del archivo <a class="el" href="_inferred_entity_axiom_generator_8java_source.html">InferredEntityAxiomGenerator.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a52e282e20a8682397663d754e4664827"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, A extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;.addAxioms </td>
+          <td>(</td>
+          <td class="paramtype">E&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a>&#160;</td>
+          <td class="paramname"><em>reasoner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; A &gt;&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds inferred axioms to a results set. The inferred axioms are generated for the specific entity. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity </td></tr>
+    <tr><td class="paramname">reasoner</td><td>The reasoner that has inferred the new axioms </td></tr>
+    <tr><td class="paramname">dataFactory</td><td>A data factory which should be used to create the new axioms </td></tr>
+    <tr><td class="paramname">result</td><td>The results set, which the new axioms should be added to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6953a04d82a2b04be1d5a089c2d087b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;A&gt; org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, A extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;.createAxioms </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a>&#160;</td>
+          <td class="paramname"><em>reasoner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_inferred_entity_axiom_generator_8java_source.html#l00066">66</a> del archivo <a class="el" href="_inferred_entity_axiom_generator_8java_source.html">InferredEntityAxiomGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        Set&lt;E&gt; processedEntities = <span class="keyword">new</span> HashSet&lt;E&gt;();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        Set&lt;A&gt; result = <span class="keyword">new</span> HashSet&lt;A&gt;();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : reasoner.getRootOntology().getImportsClosure()) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">for</span> (E entity : <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09">getEntities</a>(ont)) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordflow">if</span> (!processedEntities.contains(entity)) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    processedEntities.add(entity);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a52e282e20a8682397663d754e4664827">addAxioms</a>(entity, reasoner, manager.getOWLDataFactory(), result);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1_html_a52e282e20a8682397663d754e4664827"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a52e282e20a8682397663d754e4664827">org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends OWLEntity, A extends OWLAxiom &gt;.addAxioms</a></div><div class="ttdeci">abstract void addAxioms(E entity, OWLReasoner reasoner, OWLDataFactory dataFactory, Set&lt; A &gt; result)</div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1_html_a2ef0f5bc94b828ae9908a97e9e4add09"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09">org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends OWLEntity, A extends OWLAxiom &gt;.getEntities</a></div><div class="ttdeci">abstract Set&lt; E &gt; getEntities(OWLOntology ont)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2d4c6c4a82763913e347ad38e6d0513e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;E&gt; org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, A extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;.getAllEntities </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1reasoner_1_1_o_w_l_reasoner.html">OWLReasoner</a>&#160;</td>
+          <td class="paramname"><em>reasoner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_inferred_entity_axiom_generator_8java_source.html#l00098">98</a> del archivo <a class="el" href="_inferred_entity_axiom_generator_8java_source.html">InferredEntityAxiomGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                          {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        Set&lt;E&gt; results = <span class="keyword">new</span> HashSet&lt;E&gt;();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">for</span> (OWLOntology ont : reasoner.getRootOntology().getImportsClosure()) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            results.addAll(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09">getEntities</a>(ont));</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">return</span> results;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1_html_a2ef0f5bc94b828ae9908a97e9e4add09"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html#a2ef0f5bc94b828ae9908a97e9e4add09">org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends OWLEntity, A extends OWLAxiom &gt;.getEntities</a></div><div class="ttdeci">abstract Set&lt; E &gt; getEntities(OWLOntology ont)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2ef0f5bc94b828ae9908a97e9e4add09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Set&lt;E&gt; org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, A extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;.getEntities </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ont</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the entities from the specified ontology that this generator processes </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ont</td><td>The ontology from which entities are to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A set of entities. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a408ff99d4bb831ae68155530c4f0cd3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.util.InferredEntityAxiomGenerator&lt; E extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>, A extends <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> &gt;.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_inferred_entity_axiom_generator_8java_source.html#l00108">108</a> del archivo <a class="el" href="_inferred_entity_axiom_generator_8java_source.html">InferredEntityAxiomGenerator.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                             {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> getLabel();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_inferred_entity_axiom_generator_8java_source.html">InferredEntityAxiomGenerator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_entity_axiom_generator_3_01_e_01extends_0ddbb3a27179f13f242fcbe2b6c7938c1.html">InferredEntityAxiomGenerator< E extends OWLEntity, A extends OWLAxiom ></a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:35 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

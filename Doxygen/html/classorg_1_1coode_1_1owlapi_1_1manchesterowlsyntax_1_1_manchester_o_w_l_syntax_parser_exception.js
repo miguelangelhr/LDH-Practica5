@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax_parser_exception =
+[
+    [ "ManchesterOWLSyntaxParserException", "classorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax_parser_exception.html#aebe1b96fb0ae9f61a381fdd044452178", null ],
+    [ "ManchesterOWLSyntaxParserException", "classorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax_parser_exception.html#adf1381fe83137b5bb72604a98acb6f8a", null ]
+];

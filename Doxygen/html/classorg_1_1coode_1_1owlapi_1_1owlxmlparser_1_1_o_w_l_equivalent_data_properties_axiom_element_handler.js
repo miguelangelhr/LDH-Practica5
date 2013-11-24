@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_equivalent_data_properties_axiom_element_handler =
+[
+    [ "OWLEquivalentDataPropertiesAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_equivalent_data_properties_axiom_element_handler.html#a8df20fce441c218a4aff61fbb89d01fa", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_equivalent_data_properties_axiom_element_handler.html#acaa5dfc1b591b60f1fd7713c0c26bc51", null ]
+];

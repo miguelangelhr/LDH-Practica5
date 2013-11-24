@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente parsers/src/main/java/org/coode/owlapi/functionalparser/JavaCharStream.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">JavaCharStream.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Generated By:JavaCC: Do not edit this line. JavaCharStream.java Version 5.0 */</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/* JavaCCOptions:STATIC=false,SUPPORT_CLASS_VISIBILITY_PUBLIC=true */</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="namespaceorg_1_1coode_1_1owlapi_1_1functionalparser.html">    3</a></span>&#160;<span class="keyword">package </span>org.coode.owlapi.functionalparser;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">   13</a></span>&#160;public class <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">JavaCharStream</a> extends uk.ac.manchester.cs.BOMSafeJavaCharStream {</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#a06e2ec9a841dbf06c085bae1dab3acf2">   15</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#a06e2ec9a841dbf06c085bae1dab3acf2">JavaCharStream</a>(java.io.Reader dstream, <span class="keywordtype">int</span> startline, <span class="keywordtype">int</span> startcolumn) {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        super(dstream, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#abc6cdc550418bcda075a0c12ff5f11c3">   20</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#abc6cdc550418bcda075a0c12ff5f11c3">JavaCharStream</a>(java.io.InputStream dstream, String encoding, <span class="keywordtype">int</span> startline,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordtype">int</span> startcolumn) <span class="keywordflow">throws</span> java.io.UnsupportedEncodingException {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        super(dstream, encoding, startline, startcolumn, 4096);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/* JavaCC - OriginalChecksum=ec8cf446dbfb8bd693f3be0227ebf0f1 (do not edit this line) */</span></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream_html_a06e2ec9a841dbf06c085bae1dab3acf2"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#a06e2ec9a841dbf06c085bae1dab3acf2">org.coode.owlapi.functionalparser.JavaCharStream.JavaCharStream</a></div><div class="ttdeci">JavaCharStream(java.io.Reader dstream, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java_source.html#l00015">JavaCharStream.java:15</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream_html"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html">org.coode.owlapi.functionalparser.JavaCharStream</a></div><div class="ttdef"><b>Definition:</b> <a href="org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java_source.html#l00013">JavaCharStream.java:13</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream_html_abc6cdc550418bcda075a0c12ff5f11c3"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_java_char_stream.html#abc6cdc550418bcda075a0c12ff5f11c3">org.coode.owlapi.functionalparser.JavaCharStream.JavaCharStream</a></div><div class="ttdeci">JavaCharStream(java.io.InputStream dstream, String encoding, int startline, int startcolumn)</div><div class="ttdef"><b>Definition:</b> <a href="org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java_source.html#l00020">JavaCharStream.java:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a5a40681709ed751decc24cd7289c9c5.html">parsers</a></li><li class="navelem"><a class="el" href="dir_519767d89cf959fdff3ccb9e3bd8b08c.html">src</a></li><li class="navelem"><a class="el" href="dir_be0f351148fa3293a5edbe097e7034b2.html">main</a></li><li class="navelem"><a class="el" href="dir_f2ba2c7b2bfa8619ae625da8113a7f79.html">java</a></li><li class="navelem"><a class="el" href="dir_a12f9943e65f5e1dab534201522548bc.html">org</a></li><li class="navelem"><a class="el" href="dir_7a396f7ac5ff5e005b71267358e83755.html">coode</a></li><li class="navelem"><a class="el" href="dir_f89b19e7220a3faab59aceefc41ddcad.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_7dbc10363ca00d9ca2ea6510cea88dca.html">functionalparser</a></li><li class="navelem"><a class="el" href="org_2coode_2owlapi_2functionalparser_2_java_char_stream_8java.html">JavaCharStream.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:10 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

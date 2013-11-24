@@ -1,0 +1,7 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_use_of_property_in_chain_causes_cycle_test_case =
+[
+    [ "shouldCauseViolations", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_use_of_property_in_chain_causes_cycle_test_case.html#abb94e134d0030d544ff8959210504f47", null ],
+    [ "shouldNotCauseViolations", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_use_of_property_in_chain_causes_cycle_test_case.html#a05a9b198137bbe07c9b31e77f961dc5e", null ],
+    [ "shouldNotCauseViolationsInput1", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_use_of_property_in_chain_causes_cycle_test_case.html#a4b96bc9c2e729eecb9844a0187c2a851", null ],
+    [ "shouldNotCauseViolationsInput2", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_use_of_property_in_chain_causes_cycle_test_case.html#a0d07b1847235aa355c321f3c3d0decce", null ]
+];

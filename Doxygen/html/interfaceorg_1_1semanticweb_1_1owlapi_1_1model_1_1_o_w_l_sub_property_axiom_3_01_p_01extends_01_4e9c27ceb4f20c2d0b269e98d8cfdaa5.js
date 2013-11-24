@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_axiom_3_01_p_01extends_01_4e9c27ceb4f20c2d0b269e98d8cfdaa5 =
+[
+    [ "getSubProperty", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_axiom_3_01_p_01extends_01_4e9c27ceb4f20c2d0b269e98d8cfdaa5.html#adeb9ba5e7621f7fc28653b52229b2cb0", null ],
+    [ "getSuperProperty", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_axiom_3_01_p_01extends_01_4e9c27ceb4f20c2d0b269e98d8cfdaa5.html#ab538875d7e815bbf0eb73ddb15a43229", null ]
+];

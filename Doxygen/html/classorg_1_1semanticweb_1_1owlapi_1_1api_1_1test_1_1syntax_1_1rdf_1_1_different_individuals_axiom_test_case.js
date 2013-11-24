@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_different_individuals_axiom_test_case =
+[
+    [ "getAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_different_individuals_axiom_test_case.html#a267bcbb3b4ae80c55cc383bafa25f4b0", null ],
+    [ "getClassExpression", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdf_1_1_different_individuals_axiom_test_case.html#a8989ac38f6c6993da73f1211ea90bdee", null ]
+];

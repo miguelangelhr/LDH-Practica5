@@ -1,0 +1,6 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_restriction_3_01_r_01extends_01_o_w_l_pe9e202d85055c07a1b3bb2521accae74 =
+[
+    [ "getProperty", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_restriction_3_01_r_01extends_01_o_w_l_pe9e202d85055c07a1b3bb2521accae74.html#acf66ce0a5a6058ccc77367fdf29b431e", null ],
+    [ "isDataRestriction", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_restriction_3_01_r_01extends_01_o_w_l_pe9e202d85055c07a1b3bb2521accae74.html#a8ca097ffe2bcf531a5a101cb573a67a8", null ],
+    [ "isObjectRestriction", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_restriction_3_01_r_01extends_01_o_w_l_pe9e202d85055c07a1b3bb2521accae74.html#a8a254c78446e91fcf44b28edf18e6dcf", null ]
+];

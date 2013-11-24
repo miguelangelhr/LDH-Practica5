@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom =
+[
+    [ "getAxiomWithoutAnnotations", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html#ac09f90d274d1139ca10cec59951d826e", null ]
+];

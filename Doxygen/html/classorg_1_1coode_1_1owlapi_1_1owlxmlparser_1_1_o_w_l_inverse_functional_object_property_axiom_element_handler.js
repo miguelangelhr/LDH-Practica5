@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_inverse_functional_object_property_axiom_element_handler =
+[
+    [ "OWLInverseFunctionalObjectPropertyAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_inverse_functional_object_property_axiom_element_handler.html#a630c61608fc81aa6b0bb2c2a1fcdb6bb", null ],
+    [ "createPropertyCharacteristicAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_inverse_functional_object_property_axiom_element_handler.html#a57c4a5b5f2dd393034994a9e2328699d", null ]
+];

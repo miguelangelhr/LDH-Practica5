@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente contract/src/test/java/org/semanticweb/owlapi/api/test/syntax/TurtleTestCase.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_turtle_test_case_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">TurtleTestCase.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_turtle_test_case_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.api.test.syntax;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.*;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> <span class="keyword">static</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1apibinding_1_1_o_w_l_functional_syntax_factory.html">org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory</a>.*;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">import</span> java.net.URISyntaxException;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">import</span> java.util.HashSet;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> java.util.Set;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">org.coode.owlapi.turtle.TurtleOntologyFormat</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">import</span> org.junit.Test;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_factory.html">org.semanticweb.owlapi.api.test.Factory</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">org.semanticweb.owlapi.io.StringDocumentSource</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">org.semanticweb.owlapi.io.StringDocumentTarget</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">import</span> org.semanticweb.owlapi.model.AxiomType;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">org.semanticweb.owlapi.model.OWLAnnotation</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">org.semanticweb.owlapi.model.OWLAnonymousIndividual</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">org.semanticweb.owlapi.model.OWLDataFactory</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">org.semanticweb.owlapi.model.OWLIndividual</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">org.semanticweb.owlapi.model.OWLLogicalAxiom</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">org.semanticweb.owlapi.model.OWLOntologyCreationException</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">import</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">org.semanticweb.owlapi.model.OWLOntologyStorageException</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">org.semanticweb.owlapi.model.OWLSubClassOfAxiom</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">import</span> <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">org.semanticweb.owlapi.vocab.OWL2Datatype</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html">   34</a></span>&#160;public class <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html">TurtleTestCase</a> {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    @Test</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a003279d42e6f446c10661fc15244a7b7">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a003279d42e6f446c10661fc15244a7b7">testLoadingUTF8BOM</a>() throws URISyntaxException,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> uri = IRI.create(getClass().getResource(<span class="stringliteral">&quot;/ttl-with-bom.ttl&quot;</span>).toURI());</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        Factory.getManager().loadOntologyFromOntologyDocument(uri);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    @Test</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#aaadc2bb33760ee0446959c9465a30b79">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#aaadc2bb33760ee0446959c9465a30b79">shouldParseOntologyThatworked</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">// given</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        String working = <span class="stringliteral">&quot;@prefix rdfs:    &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                + <span class="stringliteral">&quot;@prefix foaf:    &lt;http://xmlns.com/foaf/0.1/&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                + <span class="stringliteral">&quot;foaf:fundedBy rdfs:isDefinedBy &lt;http://xmlns.com/foaf/0.1/&gt; .&quot;</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> df = Factory.getFactory();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> expected = AnnotationAssertion(df.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#a0189633fb0474d9d27070452e540bebe">getRDFSIsDefinedBy</a>(),</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://xmlns.com/foaf/0.1/fundedBy&quot;</span>),</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://xmlns.com/foaf/0.1/&quot;</span>));</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">// when</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(working));</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// then</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        assertTrue(o.getAxioms().contains(expected));</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    @Test</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abf166395c726c52efee126a3bcf44ba0">   60</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abf166395c726c52efee126a3bcf44ba0">shouldParseOntologyThatBroke</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">// given</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        String input = <span class="stringliteral">&quot;@prefix f:    &lt;urn:test/&gt; . f:r f:p f: .&quot;</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> df = Factory.getFactory();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> expected = df.getOWLAnnotationAssertionAxiom(</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                df.getOWLAnnotationProperty(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;urn:test/p&quot;</span>)), <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;urn:test/r&quot;</span>),</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;urn:test/&quot;</span>));</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">// when</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">// then</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        assertTrue(o.getAxioms().contains(expected));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// test for 3309666</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    @Test</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ac4a715ee8264c94182e8a795d9e5cabe">   76</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ac4a715ee8264c94182e8a795d9e5cabe">shouldResolveAgainstBase</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="comment">// given</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        String input = <span class="stringliteral">&quot;@base &lt;http://test.org/path#&gt; .\n&quot;</span> + <span class="stringliteral">&quot;&lt;a1&gt; &lt;b1&gt; &lt;c1&gt; .&quot;</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">// when</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="comment">// then</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        String axioms = o.getAxioms().toString();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        assertTrue(axioms.contains(<span class="stringliteral">&quot;http://test.org/a1&quot;</span>));</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        assertTrue(axioms.contains(<span class="stringliteral">&quot;http://test.org/b1&quot;</span>));</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        assertTrue(axioms.contains(<span class="stringliteral">&quot;http://test.org/c1&quot;</span>));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// test for 3543488</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    @Test</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a295942c28f1e767edc8f06b4f48ab90f">   91</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a295942c28f1e767edc8f06b4f48ab90f">shouldRoundTripTurtleWithsharedBnodes</a>()</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a>, <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a> {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        String input = <span class="stringliteral">&quot;@prefix ex: &lt;http://example.com/test&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                + <span class="stringliteral">&quot;ex:ex1 a ex:Something ; ex:prop1 _:a .\n&quot;</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                + <span class="stringliteral">&quot;_:a a ex:Something1 ; ex:prop2 _:b .\n&quot;</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                + <span class="stringliteral">&quot;_:b a ex:Something ; ex:prop3 _:a .&quot;</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a> t = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a>();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">TurtleOntologyFormat</a> format = <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">TurtleOntologyFormat</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        ontology.getOWLOntologyManager().saveOntology(ontology, format, t);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        String onto1 = t.toString();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(t.toString()));</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        t = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a>();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        format = <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">TurtleOntologyFormat</a>();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        ontology.getOWLOntologyManager().saveOntology(ontology, format, t);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        String onto2 = t.toString();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        assertEquals(onto1, onto2);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">// test for 335</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    @Test</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1673feeb4647325c1fd788b1dce78fe6">  114</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1673feeb4647325c1fd788b1dce78fe6">shouldParseScientificNotation</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        String input = <span class="stringliteral">&quot;&lt;http://dbpedia.org/resource/South_Africa&gt; &lt;http://dbpedia.org/ontology/areaTotal&gt; 1e+07 .&quot;</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> p = AnnotationProperty(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/ontology/areaTotal&quot;</span>));</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">getAnnotationPropertiesInSignature</a>().contains(p));</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> s = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/resource/South_Africa&quot;</span>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(AnnotationAssertion(p, s,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                Literal(<span class="stringliteral">&quot;1.0E7&quot;</span>, <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">OWL2Datatype</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a80ce5bae36f5e311c088eda4bb985ece">XSD_DOUBLE</a>))));</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    @Test</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a079eb70ae678adbf0d93b12c57803539">  126</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a079eb70ae678adbf0d93b12c57803539">shouldParse_one</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        String input = <span class="stringliteral">&quot;&lt;http://dbpedia.org/resource/South_Africa&gt; &lt;http://dbpedia.org/ontology/areaTotal&gt; 1 .&quot;</span>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> p = AnnotationProperty(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/ontology/areaTotal&quot;</span>));</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">getAnnotationPropertiesInSignature</a>().contains(p));</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> s = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/resource/South_Africa&quot;</span>);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(AnnotationAssertion(p, s, Literal(1))));</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    @Test</div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a9fb2e0f4d6a366d3e566e6f1c1deb74d">  137</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a9fb2e0f4d6a366d3e566e6f1c1deb74d">shouldParseOne</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        String input = <span class="stringliteral">&quot;&lt;http://dbpedia.org/resource/South_Africa&gt; &lt;http://dbpedia.org/ontology/areaTotal&gt; 1.0.&quot;</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> p = AnnotationProperty(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/ontology/areaTotal&quot;</span>));</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">getAnnotationPropertiesInSignature</a>().contains(p));</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> s = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://dbpedia.org/resource/South_Africa&quot;</span>);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(AnnotationAssertion(p, s,</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                Literal(<span class="stringliteral">&quot;1.0&quot;</span>, <a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">OWL2Datatype</a>.<a class="code" href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a3019a80060958588d9bb648054c395f1">XSD_DECIMAL</a>))));</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    @Test</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ad455a67fc58b6a57275bcc089fea0cb6">  149</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ad455a67fc58b6a57275bcc089fea0cb6">shouldParseEmptySpaceInBnode</a>() throws <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">OWLOntologyCreationException</a> {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        String input = <span class="stringliteral">&quot;&lt;http://taxonomy.wolterskluwer.de/practicearea/10112&gt;\n&quot;</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                + <span class="stringliteral">&quot;      a       &lt;http://schema.wolterskluwer.de/TaxonomyTerm&gt; , &lt;http://www.w3.org/2004/02/skos/core#Concept&gt; ;\n&quot;</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                + <span class="stringliteral">&quot;      &lt;http://www.w3.org/2004/02/skos/core#broader&gt;\n&quot;</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                + <span class="stringliteral">&quot;              [] ;\n&quot;</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                + <span class="stringliteral">&quot;      &lt;http://www.w3.org/2004/02/skos/core#broader&gt;\n&quot;</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                + <span class="stringliteral">&quot;              [] .&quot;</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">OWLIndividual</a> i = NamedIndividual(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://taxonomy.wolterskluwer.de/practicearea/10112&quot;</span>));</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> ap = AnnotationProperty(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://www.w3.org/2004/02/skos/core#broader&quot;</span>));</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> c = Class(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://www.w3.org/2004/02/skos/core#Concept&quot;</span>));</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> term = Class(<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>(<span class="stringliteral">&quot;http://schema.wolterskluwer.de/TaxonomyTerm&quot;</span>));</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(ClassAssertion(c, i)));</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">containsAxiom</a>(ClassAssertion(term, i)));</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        assertTrue(ontology.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">containsEntityInSignature</a>(ap));</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    @Test</div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a5498d2bc6a7d807b5dd8e59b58675066">  168</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a5498d2bc6a7d807b5dd8e59b58675066">shouldRoundTripAxiomAnnotation</a>() throws Exception {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        String input = <span class="stringliteral">&quot;@prefix : &lt;urn:fm2#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                + <span class="stringliteral">&quot;@prefix fm:    &lt;urn:fm2#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                + <span class="stringliteral">&quot;@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                + <span class="stringliteral">&quot;@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                + <span class="stringliteral">&quot;@prefix xml: &lt;http://www.w3.org/XML/1998/namespace&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                + <span class="stringliteral">&quot;@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                + <span class="stringliteral">&quot;@prefix prov: &lt;urn:prov#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                + <span class="stringliteral">&quot;@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                + <span class="stringliteral">&quot;@base &lt;urn:fm2&gt; .\n&quot;</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                + <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                + <span class="stringliteral">&quot;&lt;http://www.ida.org/fm2.owl&gt; rdf:type owl:Ontology.\n&quot;</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                + <span class="stringliteral">&quot;:prov rdf:type owl:AnnotationProperty .\n&quot;</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                + <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                + <span class="stringliteral">&quot;:Manage rdf:type owl:Class ; rdfs:subClassOf :ManagementType .\n&quot;</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                + <span class="stringliteral">&quot;[ rdf:type owl:Axiom ;\n&quot;</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                + <span class="stringliteral">&quot;  owl:annotatedSource :Manage ;\n&quot;</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                + <span class="stringliteral">&quot;  owl:annotatedTarget :ManagementType ;\n&quot;</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                + <span class="stringliteral">&quot;  owl:annotatedProperty rdfs:subClassOf ;\n&quot;</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                + <span class="stringliteral">&quot;  :prov [\n&quot;</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                + <span class="stringliteral">&quot;    prov:gen :FMDomain ;\n&quot;</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                + <span class="stringliteral">&quot;    prov:att :DM .\n&quot;</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                + <span class="stringliteral">&quot;  ]\n&quot;</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                + <span class="stringliteral">&quot;] .\n&quot;</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                + <span class="stringliteral">&quot;:ManagementType rdf:type owl:Class .\n&quot;</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                + <span class="stringliteral">&quot;:DM rdf:type owl:NamedIndividual , prov:Person .\n&quot;</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                + <span class="stringliteral">&quot;:FMDomain rdf:type owl:NamedIndividual , prov:Activity ; prov:ass :DM .&quot;</span>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a> t = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a>();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        ontology.getOWLOntologyManager().saveOntology(ontology,</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">TurtleOntologyFormat</a>(), t);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(t.toString()));</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        t = <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">StringDocumentTarget</a>();</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        o.getOWLOntologyManager().saveOntology(o, <span class="keyword">new</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">TurtleOntologyFormat</a>(), t);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        Set&lt;OWLSubClassOfAxiom&gt; axioms = o.getAxioms(AxiomType.SUBCLASS_OF);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        assertEquals(1, axioms.size());</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">OWLAnnotation</a> next = axioms.iterator().next().getAnnotations().iterator().next();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        assertTrue(next.getValue() instanceof <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a> ind = (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">OWLAnonymousIndividual</a>) next.getValue();</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        Set&lt;OWLAxiom&gt; anns = <span class="keyword">new</span> HashSet&lt;OWLAxiom&gt;();</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> ax : o.getAxioms()) {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="keywordflow">if</span> (ax.getAnonymousIndividuals().contains(ind)) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                anns.add(ax);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        assertEquals(3, anns.size());</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    }</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    @Test</div>
+<div class="line"><a name="l00220"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1e868c9d1945ea31c418a59a2d7c9e43">  220</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1e868c9d1945ea31c418a59a2d7c9e43">presentDeclaration</a>() throws Exception {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="comment">// given</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        String input = <span class="stringliteral">&quot;&lt;urn:test#Settlement&gt; rdf:type owl:Class.\n&quot;</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                + <span class="stringliteral">&quot;&lt;urn:test#fm2.owl&gt; rdf:type owl:Ontology.\n&quot;</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                + <span class="stringliteral">&quot;&lt;urn:test#numberOfPads&gt; rdf:type owl:ObjectProperty ;\n&quot;</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                + <span class="stringliteral">&quot;rdfs:domain &lt;urn:test#Settlement&gt; .&quot;</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="comment">// when</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="comment">// then</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">OWLLogicalAxiom</a> ax : o.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7515cd65f3ee633dfb2982d2620fbc5">getLogicalAxioms</a>()) {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            assertTrue(ax instanceof <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    @Test</div>
+<div class="line"><a name="l00236"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abc32e3ce89f4a12196b162642dc3719d">  236</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abc32e3ce89f4a12196b162642dc3719d">missingDeclaration</a>() throws Exception {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="comment">// given</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        String input = <span class="stringliteral">&quot;&lt;urn:test#fm2.owl&gt; rdf:type owl:Ontology.\n&quot;</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                + <span class="stringliteral">&quot;&lt;urn:test#numberOfPads&gt; rdf:type owl:ObjectProperty ;\n&quot;</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                + <span class="stringliteral">&quot;rdfs:domain &lt;urn:test#Settlement&gt; .&quot;</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="comment">// when</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> o = Factory.getManager().loadOntologyFromOntologyDocument(</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <span class="keyword">new</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">StringDocumentSource</a>(input));</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="comment">// then</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">OWLLogicalAxiom</a> ax : o.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7515cd65f3ee633dfb2982d2620fbc5">getLogicalAxioms</a>()) {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            assertTrue(ax instanceof <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;}</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory_html_a0189633fb0474d9d27070452e540bebe"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html#a0189633fb0474d9d27070452e540bebe">org.semanticweb.owlapi.model.OWLDataFactory.getRDFSIsDefinedBy</a></div><div class="ttdeci">OWLAnnotationProperty getRDFSIsDefinedBy()</div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format_html"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_format.html">org.coode.owlapi.turtle.TurtleOntologyFormat</a></div><div class="ttdef"><b>Definition:</b> <a href="_turtle_ontology_format_8java_source.html#l00051">TurtleOntologyFormat.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">org.semanticweb.owlapi.model.OWLAnnotationProperty</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_property_8java_source.html#l00051">OWLAnnotationProperty.java:51</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a295942c28f1e767edc8f06b4f48ab90f"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a295942c28f1e767edc8f06b4f48ab90f">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldRoundTripTurtleWithsharedBnodes</a></div><div class="ttdeci">void shouldRoundTripTurtleWithsharedBnodes()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00091">TurtleTestCase.java:91</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_html"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html">org.semanticweb.owlapi.vocab.OWL2Datatype</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_8java_source.html#l00065">OWL2Datatype.java:65</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_a5313978c0818a26a0de52d6a57889df3"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#a5313978c0818a26a0de52d6a57889df3">org.semanticweb.owlapi.model.OWLOntology.containsEntityInSignature</a></div><div class="ttdeci">boolean containsEntityInSignature(OWLEntity owlEntity)</div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a5498d2bc6a7d807b5dd8e59b58675066"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a5498d2bc6a7d807b5dd8e59b58675066">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldRoundTripAxiomAnnotation</a></div><div class="ttdeci">void shouldRoundTripAxiomAnnotation()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00168">TurtleTestCase.java:168</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_ac4a715ee8264c94182e8a795d9e5cabe"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ac4a715ee8264c94182e8a795d9e5cabe">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldResolveAgainstBase</a></div><div class="ttdeci">void shouldResolveAgainstBase()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00076">TurtleTestCase.java:76</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">org.semanticweb.owlapi.model.OWLOntologyStorageException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_storage_exception_8java_source.html#l00048">OWLOntologyStorageException.java:48</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_axiom_8java_source.html#l00056">OWLAxiom.java:56</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a003279d42e6f446c10661fc15244a7b7"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a003279d42e6f446c10661fc15244a7b7">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.testLoadingUTF8BOM</a></div><div class="ttdeci">void testLoadingUTF8BOM()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00036">TurtleTestCase.java:36</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_creation_exception.html">org.semanticweb.owlapi.model.OWLOntologyCreationException</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_creation_exception_8java_source.html#l00051">OWLOntologyCreationException.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_object_property_domain_axiom_8java_source.html#l00049">OWLObjectPropertyDomainAxiom.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ad47e92e4473bc219fd3458059d961925"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ad47e92e4473bc219fd3458059d961925">org.semanticweb.owlapi.model.OWLOntology.containsAxiom</a></div><div class="ttdeci">boolean containsAxiom(OWLAxiom axiom)</div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_abc32e3ce89f4a12196b162642dc3719d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abc32e3ce89f4a12196b162642dc3719d">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.missingDeclaration</a></div><div class="ttdeci">void missingDeclaration()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00236">TurtleTestCase.java:236</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_factory_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1_factory.html">org.semanticweb.owlapi.api.test.Factory</a></div><div class="ttdef"><b>Definition:</b> <a href="_factory_8java_source.html#l00009">Factory.java:9</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_assertion_axiom_8java_source.html#l00050">OWLAnnotationAssertionAxiom.java:50</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_abf166395c726c52efee126a3bcf44ba0"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#abf166395c726c52efee126a3bcf44ba0">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParseOntologyThatBroke</a></div><div class="ttdeci">void shouldParseOntologyThatBroke()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00060">TurtleTestCase.java:60</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_source.html">org.semanticweb.owlapi.io.StringDocumentSource</a></div><div class="ttdef"><b>Definition:</b> <a href="_string_document_source_8java_source.html#l00058">StringDocumentSource.java:58</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">org.semanticweb.owlapi.model.IRI</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_r_i_8java_source.html#l00057">IRI.java:57</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">org.semanticweb.owlapi.model.OWLDataFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_data_factory_8java_source.html#l00056">OWLDataFactory.java:56</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1io_1_1_string_document_target.html">org.semanticweb.owlapi.io.StringDocumentTarget</a></div><div class="ttdef"><b>Definition:</b> <a href="_string_document_target_8java_source.html#l00056">StringDocumentTarget.java:56</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_aaadc2bb33760ee0446959c9465a30b79"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#aaadc2bb33760ee0446959c9465a30b79">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParseOntologyThatworked</a></div><div class="ttdeci">void shouldParseOntologyThatworked()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00043">TurtleTestCase.java:43</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_logical_axiom.html">org.semanticweb.owlapi.model.OWLLogicalAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_logical_axiom_8java_source.html#l00051">OWLLogicalAxiom.java:51</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_individual.html">org.semanticweb.owlapi.model.OWLIndividual</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_individual_8java_source.html#l00053">OWLIndividual.java:53</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac7515cd65f3ee633dfb2982d2620fbc5"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac7515cd65f3ee633dfb2982d2620fbc5">org.semanticweb.owlapi.model.OWLOntology.getLogicalAxioms</a></div><div class="ttdeci">Set&lt; OWLLogicalAxiom &gt; getLogicalAxioms()</div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a1673feeb4647325c1fd788b1dce78fe6"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1673feeb4647325c1fd788b1dce78fe6">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParseScientificNotation</a></div><div class="ttdeci">void shouldParseScientificNotation()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00114">TurtleTestCase.java:114</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">org.semanticweb.owlapi.model.OWLClass</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_class_8java_source.html#l00052">OWLClass.java:52</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1apibinding_1_1_o_w_l_functional_syntax_factory_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1apibinding_1_1_o_w_l_functional_syntax_factory.html">org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_functional_syntax_factory_8java_source.html#l00148">OWLFunctionalSyntaxFactory.java:148</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_anonymous_individual.html">org.semanticweb.owlapi.model.OWLAnonymousIndividual</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_anonymous_individual_8java_source.html#l00051">OWLAnonymousIndividual.java:51</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a1e868c9d1945ea31c418a59a2d7c9e43"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a1e868c9d1945ea31c418a59a2d7c9e43">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.presentDeclaration</a></div><div class="ttdeci">void presentDeclaration()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00220">TurtleTestCase.java:220</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_html_a3019a80060958588d9bb648054c395f1"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a3019a80060958588d9bb648054c395f1">org.semanticweb.owlapi.vocab.OWL2Datatype.XSD_DECIMAL</a></div><div class="ttdeci">XSD_DECIMAL</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_8java_source.html#l00077">OWL2Datatype.java:77</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">org.semanticweb.owlapi.model.OWLSubClassOfAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_sub_class_of_axiom_8java_source.html#l00049">OWLSubClassOfAxiom.java:49</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html_ac73b8f00659d2b3622e94e3f4778b8bd"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html#ac73b8f00659d2b3622e94e3f4778b8bd">org.semanticweb.owlapi.model.OWLOntology.getAnnotationPropertiesInSignature</a></div><div class="ttdeci">Set&lt; OWLAnnotationProperty &gt; getAnnotationPropertiesInSignature()</div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation.html">org.semanticweb.owlapi.model.OWLAnnotation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_annotation_8java_source.html#l00057">OWLAnnotation.java:57</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_ad455a67fc58b6a57275bcc089fea0cb6"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#ad455a67fc58b6a57275bcc089fea0cb6">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParseEmptySpaceInBnode</a></div><div class="ttdeci">void shouldParseEmptySpaceInBnode()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00149">TurtleTestCase.java:149</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00034">TurtleTestCase.java:34</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a9fb2e0f4d6a366d3e566e6f1c1deb74d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a9fb2e0f4d6a366d3e566e6f1c1deb74d">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParseOne</a></div><div class="ttdeci">void shouldParseOne()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00137">TurtleTestCase.java:137</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case_html_a079eb70ae678adbf0d93b12c57803539"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_turtle_test_case.html#a079eb70ae678adbf0d93b12c57803539">org.semanticweb.owlapi.api.test.syntax.TurtleTestCase.shouldParse_one</a></div><div class="ttdeci">void shouldParse_one()</div><div class="ttdef"><b>Definition:</b> <a href="_turtle_test_case_8java_source.html#l00126">TurtleTestCase.java:126</a></div></div>
+<div class="ttc" id="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype_html_a80ce5bae36f5e311c088eda4bb985ece"><div class="ttname"><a href="enumorg_1_1semanticweb_1_1owlapi_1_1vocab_1_1_o_w_l2_datatype.html#a80ce5bae36f5e311c088eda4bb985ece">org.semanticweb.owlapi.vocab.OWL2Datatype.XSD_DOUBLE</a></div><div class="ttdeci">XSD_DOUBLE</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_datatype_8java_source.html#l00105">OWL2Datatype.java:105</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5a6ede4e8c7762127a1762581af481b3.html">contract</a></li><li class="navelem"><a class="el" href="dir_10c5ce78af3a0f5285b8909bfe9c9ac1.html">src</a></li><li class="navelem"><a class="el" href="dir_79196d0ddedcdf664f39d49fddb8c8b7.html">test</a></li><li class="navelem"><a class="el" href="dir_c35e9cfd34a6d130101877e2d2f54f34.html">java</a></li><li class="navelem"><a class="el" href="dir_b7a786f4067b6e9d5671dc82caf4451c.html">org</a></li><li class="navelem"><a class="el" href="dir_9cde9cff210d9e0b9e161032f7a7d3ea.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_991f413281da0c95146fca244dab9b55.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_408e3eef09f461af1b14cf0aa0290fd5.html">api</a></li><li class="navelem"><a class="el" href="dir_18cdde8db8870742b24133fb5793b269.html">test</a></li><li class="navelem"><a class="el" href="dir_19568bc1536625c17ce5604b49b8b440.html">syntax</a></li><li class="navelem"><a class="el" href="_turtle_test_case_8java.html">TurtleTestCase.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:01 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

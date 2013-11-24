@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_get_axioms_ignoring_annotations_test_case =
+[
+    [ "testGetAxiomsIgnoringAnnoations", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_get_axioms_ignoring_annotations_test_case.html#a7d28f70060444ac14f4a0c4be9931f7e", null ]
+];

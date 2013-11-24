@@ -1,0 +1,8 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc =
+[
+    [ "SWRLBinaryAtomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc.html#a3ec0fa86316447d0763a600c83ccab03", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc.html#aa4b0c4fa00e5ae013719740bbca9be12", null ],
+    [ "getAllArguments", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc.html#a331741ef4cffaed324b521cbd34e34f8", null ],
+    [ "getFirstArgument", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc.html#a221c344ed7b32093cf51bf2e52b150b9", null ],
+    [ "getSecondArgument", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_s_w_r_l_binary_atom_impl_3_01_a_01extends733cb0b232fc39d6f31ee5b88a06cbcc.html#ad1d04f908ae3186e6fe9b4d8dd2d160b", null ]
+];

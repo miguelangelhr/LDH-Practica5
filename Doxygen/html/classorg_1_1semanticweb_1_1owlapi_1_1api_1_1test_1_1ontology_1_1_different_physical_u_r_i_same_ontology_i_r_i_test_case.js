@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_different_physical_u_r_i_same_ontology_i_r_i_test_case =
+[
+    [ "testDifferentPhysicalURISameOntologyIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_different_physical_u_r_i_same_ontology_i_r_i_test_case.html#af065b452ea99dc9bd0d83636193d866e", null ]
+];

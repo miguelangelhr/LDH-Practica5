@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.obo.parser.OBOParserTokenManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.obo.parser.OBOParserTokenManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html">org.coode.owlapi.obo.parser.OBOParserConstants</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aa673f36837fd223aff8da97fd49ba63d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aa673f36837fd223aff8da97fd49ba63d">setDebugStream</a> (java.io.PrintStream ds)</td></tr>
+<tr class="separator:aa673f36837fd223aff8da97fd49ba63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e642c8997c3bf38504be48970e45b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad2e642c8997c3bf38504be48970e45b1">OBOParserTokenManager</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> stream)</td></tr>
+<tr class="separator:ad2e642c8997c3bf38504be48970e45b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0540d0dda0c55d62116fdb4b2c4e18e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0540d0dda0c55d62116fdb4b2c4e18e7">OBOParserTokenManager</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:a0540d0dda0c55d62116fdb4b2c4e18e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bbcc40791626452ff8987e1aab17e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a95bbcc40791626452ff8987e1aab17e7">ReInit</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> stream)</td></tr>
+<tr class="separator:a95bbcc40791626452ff8987e1aab17e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08302012bbadcd4338eef247428f5ecc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a08302012bbadcd4338eef247428f5ecc">ReInit</a> (<a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> stream, int lexState)</td></tr>
+<tr class="separator:a08302012bbadcd4338eef247428f5ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177be881fa2fe88f5893d83e801895fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a177be881fa2fe88f5893d83e801895fe">SwitchTo</a> (int lexState)</td></tr>
+<tr class="separator:a177be881fa2fe88f5893d83e801895fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7572b1f1b934ea69a42a932fa60495ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a7572b1f1b934ea69a42a932fa60495ae">getNextToken</a> ()</td></tr>
+<tr class="separator:a7572b1f1b934ea69a42a932fa60495ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a11fa30573af750c2ba79784afade1425"><td class="memItemLeft" align="right" valign="top">java.io.PrintStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a11fa30573af750c2ba79784afade1425">debugStream</a> = System.out</td></tr>
+<tr class="separator:a11fa30573af750c2ba79784afade1425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html">org.coode.owlapi.obo.parser.OBOParserConstants</a></td></tr>
+<tr class="memitem:a1958959012053aca49f41e9f382d96f7 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1958959012053aca49f41e9f382d96f7">EOF</a> = 0</td></tr>
+<tr class="separator:a1958959012053aca49f41e9f382d96f7 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab72fc05d1628e4318abd0c17a24c40 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a5ab72fc05d1628e4318abd0c17a24c40">LINE_COMMENTED_OUT</a> = 5</td></tr>
+<tr class="separator:a5ab72fc05d1628e4318abd0c17a24c40 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861f31e4d2a1b1b633bf9846ef3ceb03 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a861f31e4d2a1b1b633bf9846ef3ceb03">OPEN_SQUARE_BRACKET</a> = 6</td></tr>
+<tr class="separator:a861f31e4d2a1b1b633bf9846ef3ceb03 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77439350a8935023f3a71313a06cb147 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a77439350a8935023f3a71313a06cb147">STANZA_TYPE</a> = 7</td></tr>
+<tr class="separator:a77439350a8935023f3a71313a06cb147 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b9567bd9572d6a1fb7b95087c3f97e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63b9567bd9572d6a1fb7b95087c3f97e">CLOSE_SQUARE_BRACKET</a> = 8</td></tr>
+<tr class="separator:a63b9567bd9572d6a1fb7b95087c3f97e inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6106076afadc02f9db7f39903eb542 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a3e6106076afadc02f9db7f39903eb542">TAG_NAME</a> = 9</td></tr>
+<tr class="separator:a3e6106076afadc02f9db7f39903eb542 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7106ffd983781f48daa8cfb98cbe12c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ac7106ffd983781f48daa8cfb98cbe12c">TAG_COLON</a> = 10</td></tr>
+<tr class="separator:ac7106ffd983781f48daa8cfb98cbe12c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85547f92cd802f09d3101dd807287830 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a85547f92cd802f09d3101dd807287830">QUOTED_STRING_START</a> = 11</td></tr>
+<tr class="separator:a85547f92cd802f09d3101dd807287830 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d75d3947c6727acf096ab6b170bd95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab5d75d3947c6727acf096ab6b170bd95">QUOTED_STRING</a> = 12</td></tr>
+<tr class="separator:ab5d75d3947c6727acf096ab6b170bd95 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cea719cde9fc9a515b72b1638ff4929 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a2cea719cde9fc9a515b72b1638ff4929">QUOTED_STRING_DBL_QUOTE_TERMINATOR</a> = 13</td></tr>
+<tr class="separator:a2cea719cde9fc9a515b72b1638ff4929 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf15d33021263e5597985f2094e8867 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#accf15d33021263e5597985f2094e8867">QUOTED_STRING_NEW_LINE_TERMINATOR</a> = 14</td></tr>
+<tr class="separator:accf15d33021263e5597985f2094e8867 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abbc9c9a90a7257a503152e96c33254 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a9abbc9c9a90a7257a503152e96c33254">STRING</a> = 15</td></tr>
+<tr class="separator:a9abbc9c9a90a7257a503152e96c33254 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cb70164f6702bece76ef106ffddb66 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae5cb70164f6702bece76ef106ffddb66">TAG_VALUE_WS</a> = 16</td></tr>
+<tr class="separator:ae5cb70164f6702bece76ef106ffddb66 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb0f8f28a12a1b3f57a01ce1b5b6276 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1bb0f8f28a12a1b3f57a01ce1b5b6276">TAG_END</a> = 17</td></tr>
+<tr class="separator:a1bb0f8f28a12a1b3f57a01ce1b5b6276 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66128b43b7ed47bf5d9eefda52dd5b97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a66128b43b7ed47bf5d9eefda52dd5b97">COMMENT_START</a> = 18</td></tr>
+<tr class="separator:a66128b43b7ed47bf5d9eefda52dd5b97 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dd55df9fc716f39fc57c5ec216cb06 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a81dd55df9fc716f39fc57c5ec216cb06">COMMENT</a> = 19</td></tr>
+<tr class="separator:a81dd55df9fc716f39fc57c5ec216cb06 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3917a2637918c6ed749bb2696326ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#afd3917a2637918c6ed749bb2696326ca">COMMENT_END</a> = 20</td></tr>
+<tr class="separator:afd3917a2637918c6ed749bb2696326ca inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f6a9831e44d15c0704e16b13d84021 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a63f6a9831e44d15c0704e16b13d84021">ERROR</a> = 21</td></tr>
+<tr class="separator:a63f6a9831e44d15c0704e16b13d84021 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1473e5d0198340ce8e88b71dbac05a84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a1473e5d0198340ce8e88b71dbac05a84">DEFAULT</a> = 0</td></tr>
+<tr class="separator:a1473e5d0198340ce8e88b71dbac05a84 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c4e49e21445d9207af8a3a7713952a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a50c4e49e21445d9207af8a3a7713952a">IN_STANZA_HEADER</a> = 1</td></tr>
+<tr class="separator:a50c4e49e21445d9207af8a3a7713952a inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aafd9b075da90c8746d3bc532d5f66b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#a0aafd9b075da90c8746d3bc532d5f66b">IN_TAG_VALUE_PAIR</a> = 2</td></tr>
+<tr class="separator:a0aafd9b075da90c8746d3bc532d5f66b inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19ada909504aad66cbab738036b070c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ab19ada909504aad66cbab738036b070c">IN_TAG_VALUE</a> = 3</td></tr>
+<tr class="separator:ab19ada909504aad66cbab738036b070c inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f7bd056eb19929e2e7252db4b7fb36 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ae4f7bd056eb19929e2e7252db4b7fb36">IN_QUOTED_STRING</a> = 4</td></tr>
+<tr class="separator:ae4f7bd056eb19929e2e7252db4b7fb36 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7679c591e087c073fb5e21615db4ad8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#af7679c591e087c073fb5e21615db4ad8">IN_COMMENT</a> = 5</td></tr>
+<tr class="separator:af7679c591e087c073fb5e21615db4ad8 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ae7a02b86342a8aad45e4f29c1c720 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants.html#ad0ae7a02b86342a8aad45e4f29c1c720">tokenImage</a></td></tr>
+<tr class="separator:ad0ae7a02b86342a8aad45e4f29c1c720 inherit pub_attribs_interfaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_constants"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a9b4b6c3d22d6299f7d2f30a872ae0fe3"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a9b4b6c3d22d6299f7d2f30a872ae0fe3">jjstrLiteralImages</a></td></tr>
+<tr class="separator:a9b4b6c3d22d6299f7d2f30a872ae0fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad761396c555fc71fccafa5a4b27637e"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aad761396c555fc71fccafa5a4b27637e">lexStateNames</a></td></tr>
+<tr class="separator:aad761396c555fc71fccafa5a4b27637e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f1a041e1ad807462d286328d4d43dd"><td class="memItemLeft" align="right" valign="top">static final int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">jjnewLexState</a></td></tr>
+<tr class="separator:ad4f1a041e1ad807462d286328d4d43dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:aa48895ad01aa7a3a233eb3096e74cb0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aa48895ad01aa7a3a233eb3096e74cb0f">jjFillToken</a> ()</td></tr>
+<tr class="separator:aa48895ad01aa7a3a233eb3096e74cb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:ad5dae05490de5b4ff8f5749466b5dcf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad5dae05490de5b4ff8f5749466b5dcf1">input_stream</a></td></tr>
+<tr class="separator:ad5dae05490de5b4ff8f5749466b5dcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0136e28043c5b112d3734412dc63fbb9"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a></td></tr>
+<tr class="separator:a0136e28043c5b112d3734412dc63fbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> Manager. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00010">10</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ad2e642c8997c3bf38504be48970e45b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParserTokenManager.OBOParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00831">831</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                                                              {</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;        <span class="keywordflow">if</span> (BOMSafeJavaCharStream.staticFlag) {</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> OWLRuntimeException(</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;                    <span class="stringliteral">&quot;ERROR: Cannot use a static CharStream class with a non-static lexical analyzer.&quot;</span>);</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;        }</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad5dae05490de5b4ff8f5749466b5dcf1">input_stream</a> = stream;</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_ad5dae05490de5b4ff8f5749466b5dcf1"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad5dae05490de5b4ff8f5749466b5dcf1">org.coode.owlapi.obo.parser.OBOParserTokenManager.input_stream</a></div><div class="ttdeci">BOMSafeJavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00826">OBOParserTokenManager.java:826</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0540d0dda0c55d62116fdb4b2c4e18e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.obo.parser.OBOParserTokenManager.OBOParserTokenManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00840">840</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        <span class="keyword">this</span>(stream);</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a177be881fa2fe88f5893d83e801895fe">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a177be881fa2fe88f5893d83e801895fe"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a177be881fa2fe88f5893d83e801895fe">org.coode.owlapi.obo.parser.OBOParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00870">OBOParserTokenManager.java:870</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a7572b1f1b934ea69a42a932fa60495ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParserTokenManager.getNextToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the next <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00911">911</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    {</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        Token matchedToken;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <span class="keywordtype">int</span> curPos = 0;</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        EOFLoop :</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;            <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;            {</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;                <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;                {</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;                    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a> = input_stream.BeginToken();</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;                }</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;                <span class="keywordflow">catch</span>(java.io.IOException e)</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;                {</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;                    jjmatchedKind = 0;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;                    matchedToken = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aa48895ad01aa7a3a233eb3096e74cb0f">jjFillToken</a>();</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;                    <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;                }</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                <span class="keywordflow">switch</span>(curLexState)</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;                {</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;                    <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;                        <span class="keywordflow">try</span> { input_stream.backup(0);</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;                        <span class="keywordflow">while</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a> &lt;= 13 &amp;&amp; (0x2400L &amp; 1L &lt;&lt; <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a>) != 0L) {</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                            <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a> = input_stream.BeginToken();</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;                        }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;                        }</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;                        <span class="keywordflow">catch</span> (java.io.IOException e1) { <span class="keywordflow">continue</span> EOFLoop; }</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                        curPos = jjMoveStringLiteralDfa0_0();</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;                        <span class="keywordflow">if</span> (jjmatchedPos == 0 &amp;&amp; jjmatchedKind &gt; 21)</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                        {</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;                            jjmatchedKind = 21;</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;                        }</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;                    <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;                        curPos = jjMoveStringLiteralDfa0_1();</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;                    <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;                        curPos = jjMoveStringLiteralDfa0_2();</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                    <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;                        curPos = jjMoveStringLiteralDfa0_3();</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;                    <span class="keywordflow">case</span> 4:</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;                        curPos = jjMoveStringLiteralDfa0_4();</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;                    <span class="keywordflow">case</span> 5:</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;                        jjmatchedKind = 0x7fffffff;</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;                        jjmatchedPos = 0;</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;                        curPos = jjMoveStringLiteralDfa0_5();</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;                <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;                }</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;                <span class="keywordflow">if</span> (jjmatchedKind != 0x7fffffff)</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;                {</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;                    <span class="keywordflow">if</span> (jjmatchedPos + 1 &lt; curPos) {</div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;                        input_stream.backup(curPos - jjmatchedPos - 1);</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;                    }</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;                    <span class="keywordflow">if</span> ((jjtoToken[jjmatchedKind &gt;&gt; 6] &amp; 1L &lt;&lt; (jjmatchedKind &amp; 077)) != 0L)</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;                    {</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;                        matchedToken = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aa48895ad01aa7a3a233eb3096e74cb0f">jjFillToken</a>();</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">jjnewLexState</a>[jjmatchedKind] != -1) {</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;                            curLexState = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;                        }</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;                        <span class="keywordflow">return</span> matchedToken;</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;                    }</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;                    {</div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">jjnewLexState</a>[jjmatchedKind] != -1) {</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;                            curLexState = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">jjnewLexState</a>[jjmatchedKind];</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;                        }</div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;                        <span class="keywordflow">continue</span> EOFLoop;</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;                    }</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;                }</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;                <span class="keywordtype">int</span> error_line = input_stream.getEndLine();</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;                <span class="keywordtype">int</span> error_column = input_stream.getEndColumn();</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;                String error_after = null;</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;                <span class="keywordtype">boolean</span> EOFSeen = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;                <span class="keywordflow">try</span> { input_stream.readChar(); input_stream.backup(1); }</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;                <span class="keywordflow">catch</span> (java.io.IOException e1) {</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;                    EOFSeen = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;                    error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a> == <span class="charliteral">&#39;\n&#39;</span> || <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a> == <span class="charliteral">&#39;\r&#39;</span>) {</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;                        error_line++;</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;                        error_column = 0;</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;                        error_column++;</div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;                    }</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;                }</div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;                <span class="keywordflow">if</span> (!EOFSeen) {</div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;                    input_stream.backup(1);</div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;                    error_after = curPos &lt;= 1 ? <span class="stringliteral">&quot;&quot;</span> : input_stream.GetImage();</div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;                }</div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(EOFSeen, curLexState, error_line, error_column, error_after, <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">curChar</a>, TokenMgrError.LEXICAL_ERROR);</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;            }</div>
+<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a0136e28043c5b112d3734412dc63fbb9"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a0136e28043c5b112d3734412dc63fbb9">org.coode.owlapi.obo.parser.OBOParserTokenManager.curChar</a></div><div class="ttdeci">char curChar</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00829">OBOParserTokenManager.java:829</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_aa48895ad01aa7a3a233eb3096e74cb0f"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#aa48895ad01aa7a3a233eb3096e74cb0f">org.coode.owlapi.obo.parser.OBOParserTokenManager.jjFillToken</a></div><div class="ttdeci">Token jjFillToken()</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00879">OBOParserTokenManager.java:879</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_ad4f1a041e1ad807462d286328d4d43dd"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad4f1a041e1ad807462d286328d4d43dd">org.coode.owlapi.obo.parser.OBOParserTokenManager.jjnewLexState</a></div><div class="ttdeci">static final int[] jjnewLexState</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00817">OBOParserTokenManager.java:817</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa48895ad01aa7a3a233eb3096e74cb0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> org.coode.owlapi.obo.parser.OBOParserTokenManager.jjFillToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00879">879</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;    {</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <span class="keyword">final</span> Token t;</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;        <span class="keyword">final</span> String curTokenImage;</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">int</span> beginLine;</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">int</span> endLine;</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">int</span> beginColumn;</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">int</span> endColumn;</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        String im = <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a9b4b6c3d22d6299f7d2f30a872ae0fe3">jjstrLiteralImages</a>[jjmatchedKind];</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;        curTokenImage = im == null ? input_stream.GetImage() : im;</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        beginLine = input_stream.getBeginLine();</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        beginColumn = input_stream.getBeginColumn();</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        endLine = input_stream.getEndLine();</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        endColumn = input_stream.getEndColumn();</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        t = Token.newToken(jjmatchedKind, curTokenImage);</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        t.beginLine = beginLine;</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        t.endLine = endLine;</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        t.beginColumn = beginColumn;</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        t.endColumn = endColumn;</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <span class="keywordflow">return</span> t;</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a9b4b6c3d22d6299f7d2f30a872ae0fe3"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a9b4b6c3d22d6299f7d2f30a872ae0fe3">org.coode.owlapi.obo.parser.OBOParserTokenManager.jjstrLiteralImages</a></div><div class="ttdeci">static final String[] jjstrLiteralImages</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00802">OBOParserTokenManager.java:802</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a95bbcc40791626452ff8987e1aab17e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00846">846</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    {</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        jjmatchedPos = jjnewStateCnt = 0;</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        curLexState = defaultLexState;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad5dae05490de5b4ff8f5749466b5dcf1">input_stream</a> = stream;</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        ReInitRounds();</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_ad5dae05490de5b4ff8f5749466b5dcf1"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#ad5dae05490de5b4ff8f5749466b5dcf1">org.coode.owlapi.obo.parser.OBOParserTokenManager.input_stream</a></div><div class="ttdeci">BOMSafeJavaCharStream input_stream</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00826">OBOParserTokenManager.java:826</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a08302012bbadcd4338eef247428f5ecc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserTokenManager.ReInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a>&#160;</td>
+          <td class="paramname"><em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialise parser. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00863">863</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;    {</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a95bbcc40791626452ff8987e1aab17e7">ReInit</a>(stream);</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a177be881fa2fe88f5893d83e801895fe">SwitchTo</a>(lexState);</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a95bbcc40791626452ff8987e1aab17e7"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a95bbcc40791626452ff8987e1aab17e7">org.coode.owlapi.obo.parser.OBOParserTokenManager.ReInit</a></div><div class="ttdeci">void ReInit(BOMSafeJavaCharStream stream)</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00846">OBOParserTokenManager.java:846</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a177be881fa2fe88f5893d83e801895fe"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a177be881fa2fe88f5893d83e801895fe">org.coode.owlapi.obo.parser.OBOParserTokenManager.SwitchTo</a></div><div class="ttdeci">void SwitchTo(int lexState)</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00870">OBOParserTokenManager.java:870</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa673f36837fd223aff8da97fd49ba63d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserTokenManager.setDebugStream </td>
+          <td>(</td>
+          <td class="paramtype">java.io.PrintStream&#160;</td>
+          <td class="paramname"><em>ds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00016">16</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{ <a class="code" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a11fa30573af750c2ba79784afade1425">debugStream</a> = ds; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager_html_a11fa30573af750c2ba79784afade1425"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html#a11fa30573af750c2ba79784afade1425">org.coode.owlapi.obo.parser.OBOParserTokenManager.debugStream</a></div><div class="ttdeci">java.io.PrintStream debugStream</div><div class="ttdef"><b>Definition:</b> <a href="_o_b_o_parser_token_manager_8java_source.html#l00014">OBOParserTokenManager.java:14</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a177be881fa2fe88f5893d83e801895fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.obo.parser.OBOParserTokenManager.SwitchTo </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lexState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Switch to specified lex state. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00870">870</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;    {</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        <span class="keywordflow">if</span> (lexState &gt;= 6 || lexState &lt; 0) {</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> TokenMgrError(<span class="stringliteral">&quot;Error: Ignoring invalid lexical state : &quot;</span> + lexState + <span class="stringliteral">&quot;. State unchanged.&quot;</span>, TokenMgrError.INVALID_LEXICAL_STATE);</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;            curLexState = lexState;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        }</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a0136e28043c5b112d3734412dc63fbb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char org.coode.owlapi.obo.parser.OBOParserTokenManager.curChar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00829">829</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11fa30573af750c2ba79784afade1425"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.io.PrintStream org.coode.owlapi.obo.parser.OBOParserTokenManager.debugStream = System.out</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Debug output. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00014">14</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad5dae05490de5b4ff8f5749466b5dcf1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1_b_o_m_safe_java_char_stream.html">BOMSafeJavaCharStream</a> org.coode.owlapi.obo.parser.OBOParserTokenManager.input_stream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00826">826</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4f1a041e1ad807462d286328d4d43dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int [] org.coode.owlapi.obo.parser.OBOParserTokenManager.jjnewLexState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        -1, -1, -1, -1, -1, -1, 1, -1, 0, 2, 3, 4, -1, 3, 0, -1, -1, 0, 5, -1, 0, -1,</div>
+<div class="line">    }</div>
+</div><!-- fragment --><p>Lex State array. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00817">817</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b4b6c3d22d6299f7d2f30a872ae0fe3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] org.coode.owlapi.obo.parser.OBOParserTokenManager.jjstrLiteralImages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        <span class="stringliteral">&quot;&quot;</span>, null, null, null, null, null, <span class="stringliteral">&quot;\133&quot;</span>, null, <span class="stringliteral">&quot;\135&quot;</span>, null, null, null, null,</div>
+<div class="line">        null, null, null, null, null, null, null, null, null, }</div>
+</div><!-- fragment --><p><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_token.html">Token</a> literal values. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00802">802</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad761396c555fc71fccafa5a4b27637e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String [] org.coode.owlapi.obo.parser.OBOParserTokenManager.lexStateNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        <span class="stringliteral">&quot;DEFAULT&quot;</span>,</div>
+<div class="line">        <span class="stringliteral">&quot;IN_STANZA_HEADER&quot;</span>,</div>
+<div class="line">        <span class="stringliteral">&quot;IN_TAG_VALUE_PAIR&quot;</span>,</div>
+<div class="line">        <span class="stringliteral">&quot;IN_TAG_VALUE&quot;</span>,</div>
+<div class="line">        <span class="stringliteral">&quot;IN_QUOTED_STRING&quot;</span>,</div>
+<div class="line">        <span class="stringliteral">&quot;IN_COMMENT&quot;</span>,</div>
+<div class="line">    }</div>
+</div><!-- fragment --><p>Lexer state names. </p>
+
+<p>Definición en la línea <a class="el" href="_o_b_o_parser_token_manager_8java_source.html#l00807">807</a> del archivo <a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/obo/parser/<a class="el" href="_o_b_o_parser_token_manager_8java_source.html">OBOParserTokenManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo.html">obo</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1obo_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1parser_1_1_o_b_o_parser_token_manager.html">OBOParserTokenManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:42 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

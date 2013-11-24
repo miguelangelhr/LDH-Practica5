@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.model.OWLOntologyStorer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.model.OWLOntologyStorer</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_abstract_o_w_l_ontology_storer.html">org.semanticweb.owlapi.util.AbstractOWLOntologyStorer</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a7cdc556d90147cb44bee843514556e3c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html#a7cdc556d90147cb44bee843514556e3c">canStoreOntology</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> ontologyFormat)</td></tr>
+<tr class="separator:a7cdc556d90147cb44bee843514556e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a792a5363908ebfc166263b16e7a30e6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html#a792a5363908ebfc166263b16e7a30e6c">storeOntology</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> manager, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> documentIRI, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> ontologyFormat)  throws OWLOntologyStorageException, IOException</td></tr>
+<tr class="separator:a792a5363908ebfc166263b16e7a30e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b74166a2c1eadce4c95c5215639ecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html#a31b74166a2c1eadce4c95c5215639ecd">storeOntology</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> documentIRI, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> ontologyFormat)  throws OWLOntologyStorageException,             IOException</td></tr>
+<tr class="separator:a31b74166a2c1eadce4c95c5215639ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2f835c421f9899637d13deaf7b62cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html#a0e2f835c421f9899637d13deaf7b62cb">storeOntology</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> manager, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_target.html">OWLOntologyDocumentTarget</a> target, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> format)  throws OWLOntologyStorageException, IOException</td></tr>
+<tr class="separator:a0e2f835c421f9899637d13deaf7b62cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4e69689c15928bcbe12e35f4c96082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html#add4e69689c15928bcbe12e35f4c96082">storeOntology</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_target.html">OWLOntologyDocumentTarget</a> target, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a> format)  throws OWLOntologyStorageException, IOException</td></tr>
+<tr class="separator:add4e69689c15928bcbe12e35f4c96082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 02-Jan-2007<br/>
+<br/>
+</p>
+<p>An ontology storer stores an ontology in a particular format at a location specified by a particular URI. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_storer_8java_source.html#l00057">57</a> del archivo <a class="el" href="_o_w_l_ontology_storer_8java_source.html">OWLOntologyStorer.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a7cdc556d90147cb44bee843514556e3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.model.OWLOntologyStorer.canStoreOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a>&#160;</td>
+          <td class="paramname"><em>ontologyFormat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines if this storer can store an ontology in the specified ontology format. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontologyFormat</td><td>The desired ontology format. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if this storer can store an ontology in the desired format. </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1coode_1_1owlapi_1_1latex_1_1_latex_ontology_storer.html#ab76e1ab1f2084a2c0646b923fffd9b87">org.coode.owlapi.latex.LatexOntologyStorer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1turtle_1_1_turtle_ontology_storer.html#a2e39471e44298d8222e458d04ffb2283">org.coode.owlapi.turtle.TurtleOntologyStorer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_h_t_m_l_ontology_storer.html#a6e539a449665f1d5ed5b0c478212f55a">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntaxHTMLOntologyStorer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1rdf_1_1rdfxml_1_1_r_d_f_x_m_l_ontology_storer.html#a0be066dc4db90ace9d44bd5d50bcde3b">org.coode.owlapi.rdf.rdfxml.RDFXMLOntologyStorer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_syntax_ontology_storer.html#ac3ea5bdf753430a2f440a88ab544d11a">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2SyntaxOntologyStorer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s_syntax_ontology_storer.html#abd393e3e72255f2fe52b6e86884da6af">de.uulm.ecs.ai.owlapi.krssrenderer.KRSSSyntaxOntologyStorer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1owlxml_1_1renderer_1_1_o_w_l_x_m_l_ontology_storer.html#ab254fc354d278a8bdf7108e2844edbb2">org.coode.owlapi.owlxml.renderer.OWLXMLOntologyStorer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syntax_ontology_storer.html#a759a9b25c95d2cda72cfc9cadd74c499">uk.ac.manchester.cs.owl.owlapi.mansyntaxrenderer.ManchesterOWLSyntaxOntologyStorer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1obo_1_1renderer_1_1_o_b_o_flat_file_ontology_storer.html#a419cdc544ab0e7c1cf895deaa33a420f">org.coode.owlapi.obo.renderer.OBOFlatFileOntologyStorer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorial_1_1io_1_1_o_w_l_tutorial_syntax_ontology_storer.html#ad82f71affc96438419230734589ccb17">uk.ac.manchester.owl.owlapi.tutorial.io.OWLTutorialSyntaxOntologyStorer</a>, <a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalrenderer_1_1_o_w_l_functional_syntax_ontology_storer.html#a921fde9ca25e326c885fe7093b02d2c2">org.coode.owlapi.functionalrenderer.OWLFunctionalSyntaxOntologyStorer</a>, <a class="el" href="classde_1_1uulm_1_1ecs_1_1ai_1_1owlapi_1_1krssrenderer_1_1_k_r_s_s2_o_w_l_syntax_ontology_storer.html#aeaadd9e304461b47d7c4f119330ea289">de.uulm.ecs.ai.owlapi.krssrenderer.KRSS2OWLSyntaxOntologyStorer</a>, <a class="el" href="classuk_1_1ac_1_1manchester_1_1owl_1_1owlapi_1_1tutorialowled2011_1_1_o_w_l_tutorial_syntax_ontology_storer.html#a3518367606743358b281e1f442ebcc35">uk.ac.manchester.owl.owlapi.tutorialowled2011.OWLTutorialSyntaxOntologyStorer</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_ontology_storer.html#a616ec327799c8c32658943720c9edfda">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntaxOntologyStorer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a792a5363908ebfc166263b16e7a30e6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLOntologyStorer.storeOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>documentIRI</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a>&#160;</td>
+          <td class="paramname"><em>ontologyFormat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a>, IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores an ontology to the specified ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> in the specified format</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>The manager </td></tr>
+    <tr><td class="paramname">ontology</td><td>The ontology to be stored </td></tr>
+    <tr><td class="paramname">documentIRI</td><td>The ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> where the ontology will be saved to </td></tr>
+    <tr><td class="paramname">ontologyFormat</td><td>The format that the ontology should be stored in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology. </td></tr>
+    <tr><td class="paramname">IOException</td><td>if there was an IOException when storing the ontology </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000021">Obsoleto:</a></b></dt><dd>use storeOntology(ontology, documentIRI, ontologyFormat) </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_abstract_o_w_l_ontology_storer.html#a31eab6d8b9f5a658e903f62935470dc4">org.semanticweb.owlapi.util.AbstractOWLOntologyStorer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31b74166a2c1eadce4c95c5215639ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLOntologyStorer.storeOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>documentIRI</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a>&#160;</td>
+          <td class="paramname"><em>ontologyFormat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a>,             IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores an ontology to the specified ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> in the specified format</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology to be stored </td></tr>
+    <tr><td class="paramname">documentIRI</td><td>The ontology document <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> where the ontology will be saved to </td></tr>
+    <tr><td class="paramname">ontologyFormat</td><td>The format that the ontology should be stored in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology. </td></tr>
+    <tr><td class="paramname">IOException</td><td>if there was an IOException when storing the ontology </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_abstract_o_w_l_ontology_storer.html#a4a4735cfc4180823dc2b17919c88e27a">org.semanticweb.owlapi.util.AbstractOWLOntologyStorer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e2f835c421f9899637d13deaf7b62cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLOntologyStorer.storeOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_target.html">OWLOntologyDocumentTarget</a>&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a>, IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores an ontology to the specified target. This method assumes the storer can write the ontology to some stream. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>The manager </td></tr>
+    <tr><td class="paramname">ontology</td><td>The ontology to be stored </td></tr>
+    <tr><td class="paramname">target</td><td>The target which describes the ontology document where the ontology should be stored </td></tr>
+    <tr><td class="paramname">format</td><td>The format in which to store the ontology </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology. </td></tr>
+    <tr><td class="paramname">IOException</td><td>if there was an IOException when storing the ontology. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_abstract_o_w_l_ontology_storer.html#a680ef623c2503c544222bab3f1122bdc">org.semanticweb.owlapi.util.AbstractOWLOntologyStorer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add4e69689c15928bcbe12e35f4c96082"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.model.OWLOntologyStorer.storeOntology </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a>&#160;</td>
+          <td class="paramname"><em>ontology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1io_1_1_o_w_l_ontology_document_target.html">OWLOntologyDocumentTarget</a>&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_format.html">OWLOntologyFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a>, IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores an ontology to the specified target. This method assumes the storer can write the ontology to some stream.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontology</td><td>The ontology to be stored </td></tr>
+    <tr><td class="paramname">target</td><td>The target which describes the ontology document where the ontology should be stored </td></tr>
+    <tr><td class="paramname">format</td><td>The format in which to store the ontology </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storage_exception.html">OWLOntologyStorageException</a></td><td>if there was a problem storing the ontology. </td></tr>
+    <tr><td class="paramname">IOException</td><td>if there was an IOException when storing the ontology. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_abstract_o_w_l_ontology_storer.html#a7d318e43d53fd02cf9814fb885de3ef0">org.semanticweb.owlapi.util.AbstractOWLOntologyStorer</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/model/<a class="el" href="_o_w_l_ontology_storer_8java_source.html">OWLOntologyStorer.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1model.html">model</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_storer.html">OWLOntologyStorer</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:26 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

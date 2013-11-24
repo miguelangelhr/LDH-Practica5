@@ -1,0 +1,5 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_cardinality_restriction_3_01_r_01extend3753e765e18fa3094a9c5d39619b7cfe =
+[
+    [ "getCardinality", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_cardinality_restriction_3_01_r_01extend3753e765e18fa3094a9c5d39619b7cfe.html#af5302259c9d899de01870bd4a209f470", null ],
+    [ "isQualified", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_cardinality_restriction_3_01_r_01extend3753e765e18fa3094a9c5d39619b7cfe.html#a958f6bfec67b6c667a033d558434bcf8", null ]
+];

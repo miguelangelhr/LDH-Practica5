@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.AnnotationValueShortFormProvider</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.AnnotationValueShortFormProvider</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">org.semanticweb.owlapi.util.ShortFormProvider</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a844f0a452508ea3d4e7aa3f0824e741b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a844f0a452508ea3d4e7aa3f0824e741b">AnnotationValueShortFormProvider</a> (List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt; annotationProperties, Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt; preferredLanguageMap, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a> ontologySetProvider)</td></tr>
+<tr class="separator:a844f0a452508ea3d4e7aa3f0824e741b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3875381770d547b12f2f8a40fc851d10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a3875381770d547b12f2f8a40fc851d10">AnnotationValueShortFormProvider</a> (List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt; annotationProperties, Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt; preferredLanguageMap, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a> ontologySetProvider, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a> alternateShortFormProvider)</td></tr>
+<tr class="separator:a3875381770d547b12f2f8a40fc851d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3b1dc2b52e795e339c10c93bc03b54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a2a3b1dc2b52e795e339c10c93bc03b54">AnnotationValueShortFormProvider</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a> ontologySetProvider, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a> alternateShortFormProvider, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_i_r_i_short_form_provider.html">IRIShortFormProvider</a> alternateIRIShortFormProvider, List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt; annotationProperties, Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt; preferredLanguageMap)</td></tr>
+<tr class="separator:a2a3b1dc2b52e795e339c10c93bc03b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c70aac127b1503752373111205c24f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#af1c70aac127b1503752373111205c24f">AnnotationValueShortFormProvider</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a> ontologySetProvider, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a> alternateShortFormProvider, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_i_r_i_short_form_provider.html">IRIShortFormProvider</a> alternateIRIShortFormProvider, List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt; annotationProperties, Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt; preferredLanguageMap, OWLAnnotationValueVisitorEx&lt; String &gt; literalRenderer)</td></tr>
+<tr class="separator:af1c70aac127b1503752373111205c24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adccdf047eb16959e65818eec5b26a81d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#adccdf047eb16959e65818eec5b26a81d">getShortForm</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a> entity)</td></tr>
+<tr class="separator:adccdf047eb16959e65818eec5b26a81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d076b172661685add1c3dc11e6dc92"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a45d076b172661685add1c3dc11e6dc92">getAnnotationProperties</a> ()</td></tr>
+<tr class="separator:a45d076b172661685add1c3dc11e6dc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c206f7e8dcf1f585c26871f477c3bb"><td class="memItemLeft" align="right" valign="top">Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, <br class="typebreak"/>
+List&lt; String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a95c206f7e8dcf1f585c26871f477c3bb">getPreferredLanguageMap</a> ()</td></tr>
+<tr class="separator:a95c206f7e8dcf1f585c26871f477c3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167e6391685624545a84d01aaeaecc98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html#a167e6391685624545a84d01aaeaecc98">dispose</a> ()</td></tr>
+<tr class="separator:a167e6391685624545a84d01aaeaecc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Bio-Health Informatics Group<br/>
+ Date: 18-Apr-2007<br/>
+<br/>
+ </p>
+<p>A short form provider that generates short forms based on entity annotation values. A list of preferred annotation URIs and preferred annotation languages is used to determine which annotation value to select if there are multiple annotations for the entity whose short form is being generated. If there are multiple annotations the these annotations are ranked by preferred URI and then by preferred language. </p>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00069">69</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a844f0a452508ea3d4e7aa3f0824e741b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.AnnotationValueShortFormProvider </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotationProperties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt;&#160;</td>
+          <td class="paramname"><em>preferredLanguageMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a>&#160;</td>
+          <td class="paramname"><em>ontologySetProvider</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an annotation value short form provider. Using <code><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_simple_short_form_provider.html">SimpleShortFormProvider</a></code> as the alternate short form provider</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotationProperties</td><td>A <code>List</code> of preferred annotation properties. The list is searched from start to end, so that annotations that have a property at the start of the list have a higher priority and are selected over annotations with properties that appear towards or at the end of the list. </td></tr>
+    <tr><td class="paramname">preferredLanguageMap</td><td>A map which maps annotation properties to preferred languages. For any given annotation property there may be a list of preferred languages. Languages at the start of the list have a higher priority over languages at the end of the list. This parameter may be empty but it must not be <code>null</code>. </td></tr>
+    <tr><td class="paramname">ontologySetProvider</td><td>An <code>OWLOntologySetProvider</code> which provides a set of ontology from which candidate annotation axioms should be taken. For a given entity, all ontologies are examined. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00098">98</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                                                                                                                                                                         {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keyword">this</span>(annotationProperties, preferredLanguageMap, ontologySetProvider, <span class="keyword">new</span> SimpleShortFormProvider());</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3875381770d547b12f2f8a40fc851d10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.AnnotationValueShortFormProvider </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotationProperties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt;&#160;</td>
+          <td class="paramname"><em>preferredLanguageMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a>&#160;</td>
+          <td class="paramname"><em>ontologySetProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a>&#160;</td>
+          <td class="paramname"><em>alternateShortFormProvider</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an annotation short form provider. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotationProperties</td><td>A <code>List</code> of preferred annotation properties. The list is searched from start to end, so that annotations that have a property at the start of the list have a higher priority and are selected over annotations with properties that appear towards or at the end of the list. </td></tr>
+    <tr><td class="paramname">preferredLanguageMap</td><td>A map which maps annotation properties to preferred languages. For any given annotation property there may be a list of preferred languages. Languages at the start of the list have a higher priority over languages at the end of the list. This parameter may be empty but it must not be <code>null</code>. </td></tr>
+    <tr><td class="paramname">ontologySetProvider</td><td>An <code>OWLOntologySetProvider</code> which provides a set of ontology from which candidate annotation axioms should be taken. For a given entity, all ontologies are examined. </td></tr>
+    <tr><td class="paramname">alternateShortFormProvider</td><td>A short form provider which will be used to generate the short form for an entity that does not have any annotations. This provider will also be used in the case where the value of an annotation is an <code>OWLIndividual</code> for providing the short form of the individual. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00119">119</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                                                                                                                                                                                                                                       {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keyword">this</span>(ontologySetProvider, alternateShortFormProvider, <span class="keyword">new</span> SimpleIRIShortFormProvider(), annotationProperties, preferredLanguageMap);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2a3b1dc2b52e795e339c10c93bc03b54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.AnnotationValueShortFormProvider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a>&#160;</td>
+          <td class="paramname"><em>ontologySetProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a>&#160;</td>
+          <td class="paramname"><em>alternateShortFormProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_i_r_i_short_form_provider.html">IRIShortFormProvider</a>&#160;</td>
+          <td class="paramname"><em>alternateIRIShortFormProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotationProperties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt;&#160;</td>
+          <td class="paramname"><em>preferredLanguageMap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an annotation short form provider. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotationProperties</td><td>A <code>List</code> of preferred annotation properties. The list is searched from start to end, so that annotations that have a property at the start of the list have a higher priority and are selected over annotations with properties that appear towards or at the end of the list. </td></tr>
+    <tr><td class="paramname">preferredLanguageMap</td><td>A map which maps annotation properties to preferred languages. For any given annotation property there may be a list of preferred languages. Languages at the start of the list have a higher priority over languages at the end of the list. This parameter may be empty but it must not be <code>null</code>. </td></tr>
+    <tr><td class="paramname">ontologySetProvider</td><td>An <code>OWLOntologySetProvider</code> which provides a set of ontology from which candidate annotation axioms should be taken. For a given entity, all ontologies are examined. </td></tr>
+    <tr><td class="paramname">alternateShortFormProvider</td><td>A short form provider which will be used to generate the short form for an entity that does not have any annotations. This provider will also be used in the case where the value of an annotation is an <code>OWLIndividual</code> for providing the short form of the individual. </td></tr>
+    <tr><td class="paramname">alternateIRIShortFormProvider</td><td>the alternate IRI short form provider </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00139">139</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                                                                                                                                                                                                                                                                                           {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keyword">this</span>(ontologySetProvider, alternateShortFormProvider,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                alternateIRIShortFormProvider, annotationProperties,</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                preferredLanguageMap, <span class="keyword">new</span> OWLAnnotationValueVisitorEx&lt;String&gt;() {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                    @Override</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                    <span class="keyword">public</span> String visit(IRI iri) {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                        <span class="comment">// TODO refactor the short form providers in here</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                    }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                    @Override</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                    <span class="keyword">public</span> String visit(OWLAnonymousIndividual individual) {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                    @Override</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                    <span class="keyword">public</span> String visit(OWLLiteral literal) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                        <span class="keywordflow">return</span> literal.getLiteral();</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                });</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af1c70aac127b1503752373111205c24f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.AnnotationValueShortFormProvider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html">OWLOntologySetProvider</a>&#160;</td>
+          <td class="paramname"><em>ontologySetProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html">ShortFormProvider</a>&#160;</td>
+          <td class="paramname"><em>alternateShortFormProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_i_r_i_short_form_provider.html">IRIShortFormProvider</a>&#160;</td>
+          <td class="paramname"><em>alternateIRIShortFormProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> &gt;&#160;</td>
+          <td class="paramname"><em>annotationProperties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt; String &gt;&gt;&#160;</td>
+          <td class="paramname"><em>preferredLanguageMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OWLAnnotationValueVisitorEx&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>literalRenderer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00162">162</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        this.ontologySetProvider = ontologySetProvider;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        this.alternateShortFormProvider = alternateShortFormProvider;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        this.alternateIRIShortFormProvider = alternateIRIShortFormProvider;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        this.annotationProperties = annotationProperties;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        this.preferredLanguageMap = preferredLanguageMap;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        this.literalRenderer = literalRenderer;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a167e6391685624545a84d01aaeaecc98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.dispose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Disposes of the short form proivider. This frees any resources and clears any caches. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html#ad6c6020e37b03e441f686826c5cf3d11">org.semanticweb.owlapi.util.ShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00239">239</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                          {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a45d076b172661685add1c3dc11e6dc92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&gt; org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.getAnnotationProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the annotation URIs that this short form provider uses. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00225">225</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">return</span> annotationProperties;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a95c206f7e8dcf1f585c26871f477c3bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>, List&lt;String&gt; &gt; org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.getPreferredLanguageMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the preferred language map </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00233">233</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordflow">return</span> preferredLanguageMap;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adccdf047eb16959e65818eec5b26a81d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.util.AnnotationValueShortFormProvider.getShortForm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_entity.html">OWLEntity</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the short form for the specified entity. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A string which represents a short rendering of the speicified entity. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1util_1_1_short_form_provider.html#aca40ef0eda3bf146115c473088cc305d">org.semanticweb.owlapi.util.ShortFormProvider</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_annotation_value_short_form_provider_8java_source.html#l00177">177</a> del archivo <a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                                 {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">for</span> (OWLAnnotationProperty prop : annotationProperties) {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="comment">// visit the properties in order of preference</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            AnnotationLanguageFilter checker = <span class="keyword">new</span> AnnotationLanguageFilter(prop, preferredLanguageMap.get(prop));</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">for</span> (OWLOntology ontology : ontologySetProvider.<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html#a14932c95a117764e2a1d896eecb29dec">getOntologies</a>()) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">for</span> (OWLAnnotationAssertionAxiom ax : entity.getAnnotationAssertionAxioms(ontology)) {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    ax.accept(checker);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="keywordflow">if</span> (checker.getMatch() != null) {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <span class="keywordflow">return</span> getRendering(checker.getMatch());</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">return</span> alternateShortFormProvider.getShortForm(entity);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider_html_a14932c95a117764e2a1d896eecb29dec"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_set_provider.html#a14932c95a117764e2a1d896eecb29dec">org.semanticweb.owlapi.model.OWLOntologySetProvider.getOntologies</a></div><div class="ttdeci">Set&lt; OWLOntology &gt; getOntologies()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_annotation_value_short_form_provider_8java_source.html">AnnotationValueShortFormProvider.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_annotation_value_short_form_provider.html">AnnotationValueShortFormProvider</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:33 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

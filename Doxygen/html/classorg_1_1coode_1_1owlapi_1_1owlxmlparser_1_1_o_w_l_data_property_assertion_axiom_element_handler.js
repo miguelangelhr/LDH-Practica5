@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_assertion_axiom_element_handler =
+[
+    [ "OWLDataPropertyAssertionAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_assertion_axiom_element_handler.html#a10e6648533d250640c7514a2e3c181e7", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_data_property_assertion_axiom_element_handler.html#ae994a66b56e6f0b0e82ee0a88360642f", null ]
+];

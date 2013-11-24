@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_o_w_l_annotation_property_range_axiom_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_o_w_l_annotation_property_range_axiom_test_case.html#aac5800dfc2fd98015d5cc73020ce4ba2", null ]
+];

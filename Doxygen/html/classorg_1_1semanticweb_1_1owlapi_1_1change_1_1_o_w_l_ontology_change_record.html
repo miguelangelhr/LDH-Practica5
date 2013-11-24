@@ -1,0 +1,455 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.change.OWLOntologyChangeRecord</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.change.OWLOntologyChangeRecord</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:abc224d0d7b85f0a2dd7cea0380b0ada8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#abc224d0d7b85f0a2dd7cea0380b0ada8">OWLOntologyChangeRecord</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">OWLOntologyID</a> ontologyID, <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> data)</td></tr>
+<tr class="separator:abc224d0d7b85f0a2dd7cea0380b0ada8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c0ea2248fd87ed9a90c801d17d9921"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">OWLOntologyID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a56c0ea2248fd87ed9a90c801d17d9921">getOntologyID</a> ()</td></tr>
+<tr class="separator:a56c0ea2248fd87ed9a90c801d17d9921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad45ed0e7ca0f21da0e792be9a7ab6291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#ad45ed0e7ca0f21da0e792be9a7ab6291">getData</a> ()</td></tr>
+<tr class="separator:ad45ed0e7ca0f21da0e792be9a7ab6291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3152884d9aa006d4a8278519a4f6a775"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a3152884d9aa006d4a8278519a4f6a775">createOntologyChange</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a> manager)  throws UnknownOWLOntologyException </td></tr>
+<tr class="separator:a3152884d9aa006d4a8278519a4f6a775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58afad3a4151deaeea86096fd40915ba"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a58afad3a4151deaeea86096fd40915ba">equals</a> (Object obj)</td></tr>
+<tr class="separator:a58afad3a4151deaeea86096fd40915ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf8c1b6340bc4590f784325838806cf1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#aaf8c1b6340bc4590f784325838806cf1">hashCode</a> ()</td></tr>
+<tr class="separator:aaf8c1b6340bc4590f784325838806cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1520dddec7d39dc68fdb725524d760b5"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a1520dddec7d39dc68fdb725524d760b5">toString</a> ()</td></tr>
+<tr class="separator:a1520dddec7d39dc68fdb725524d760b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:abbe024a1658fdd50e989cb0dc31fc39c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#abbe024a1658fdd50e989cb0dc31fc39c">createFromOWLOntologyChange</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> change)</td></tr>
+<tr class="separator:abbe024a1658fdd50e989cb0dc31fc39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ Stanford University<br/>
+ Bio-Medical Informatics Research Group<br/>
+ Date: 03/05/2012 </p>
+<p>Associates an <a class="el" href="">OWLOntologyID</a> with ontology-less change data. </p>
+<p>An <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> captures information about an <a class="el" href="">OWLOntologyChange</a> in a way that does not require a reference to an <a class="el" href="">OWLOntology</a> object. It does this by referencing an <a class="el" href="">OWLOntologyID</a> instead of referencing an <a class="el" href="">OWLOntology</a>. The primary reason for doing this is so that changes can be serialized and logged more easily. It should be kept in mind that <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> objects can represent changes for which there might be no in memory representation of a specific <a class="el" href="">OWLOntology</a>. This is also true if an <a class="el" href="">OWLOntology</a> object has its <a class="el" href="">OWLOntologyID</a> changed. </p>
+<p>An <a class="el" href="">OWLOntologyChange</a> object contains two important pieces of information: </p>
+<ol>
+<li>
+The <a class="el" href="">OWLOntologyID</a> that identifies the ontology that the change pertains to.  </li>
+<li>
+The <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> that describes the change specific data. For each kind of <a class="el" href="">OWLOntologyChange</a> there is a corresponding <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> class which captures the essential details that pertain to the change. The reason for this separation is that it allows change information to be captured where the context of the change (the ontology) is known via some other mechanism.  </li>
+</ol>
+<div class="fragment"><div class="line">OWLOntologyChangeRecord </div>
+</div><!-- fragment --><p> objects are immutable. </p>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00087">87</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="abc224d0d7b85f0a2dd7cea0380b0ada8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.change.OWLOntologyChangeRecord.OWLOntologyChangeRecord </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">OWLOntologyID</a>&#160;</td>
+          <td class="paramname"><em>ontologyID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> object which holds information about a change to a particular ontology identified by an <a class="el" href="">OWLOntologyID</a> object and also change details specified by the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> object.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ontologyID</td><td>The <a class="el" href="">OWLOntologyID</a> which identifies the ontology that the change was applied to. Not <div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </td></tr>
+    <tr><td class="paramname">data</td><td>The <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> that describes the particular details of the change. Not<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> .</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NullPointerException</td><td>if<div class="fragment"><div class="line">ontologyID </div>
+</div><!-- fragment --> is<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> or if<div class="fragment"><div class="line">recordInfo </div>
+</div><!-- fragment --> is<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00123">123</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                                         {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">if</span> (ontologyID == null) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;ontologyID must not be null&quot;</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">if</span> (data == null) {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;data must not be null&quot;</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        this.ontologyID = ontologyID;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        this.data = data;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="abbe024a1658fdd50e989cb0dc31fc39c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> org.semanticweb.owlapi.change.OWLOntologyChangeRecord.createFromOWLOntologyChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a>&#160;</td>
+          <td class="paramname"><em>change</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A convenience method that creates an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> by deriving data from an <a class="el" href="">OWLOntologyChange</a> object.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">change</td><td>The <a class="el" href="">OWLOntologyChange</a> object. Not<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>instance of OntologychangeRecord </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NullPointerException</td><td>if<div class="fragment"><div class="line">change </div>
+</div><!-- fragment --> is<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00142">142</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                                                {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">if</span> (change == null) {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;change must not be null&quot;</span>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        OWLOntologyID ontologyId = change.getOntology().<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a56c0ea2248fd87ed9a90c801d17d9921">getOntologyID</a>();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        OWLOntologyChangeData data = change.getChangeData();</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> OWLOntologyChangeRecord(ontologyId, data);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record_html_a56c0ea2248fd87ed9a90c801d17d9921"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html#a56c0ea2248fd87ed9a90c801d17d9921">org.semanticweb.owlapi.change.OWLOntologyChangeRecord.getOntologyID</a></div><div class="ttdeci">OWLOntologyID getOntologyID()</div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_change_record_8java_source.html#l00165">OWLOntologyChangeRecord.java:165</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3152884d9aa006d4a8278519a4f6a775"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_change.html">OWLOntologyChange</a> org.semanticweb.owlapi.change.OWLOntologyChangeRecord.createOntologyChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_manager.html">OWLOntologyManager</a>&#160;</td>
+          <td class="paramname"><em>manager</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_unknown_o_w_l_ontology_exception.html">UnknownOWLOntologyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates an <a class="el" href="">OWLOntologyChange</a> from the <a class="el" href="">OWLOntologyID</a> and <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> object. The <a class="el" href="">OWLOntology</a> that is the target of the resulting <a class="el" href="">OWLOntologyChange</a> is derived from an <a class="el" href="">OWLOntologyManager</a>. The manager &lt;emph&gt;must&lt;/emph&gt; contain an ontology that has an <a class="el" href="">OWLOntologyID</a> which is equal to the <a class="el" href="">OWLOntologyID</a> associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> object. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td>The manager which will be used to obtain a reference to an <a class="el" href="">OWLOntology</a> object having the same <a class="el" href="">OWLOntologyID</a> as the <a class="el" href="">OWLOntologyID</a> associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a>. Not<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> .</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The <a class="el" href="">OWLOntologyChange</a> object that is derived from this record's <a class="el" href="">OWLOntologyID</a> and <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a>. The specific concrete subclass of the returned <a class="el" href="">OWLOntologyChange</a> will depend upon the specific concrete subclass of the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a>.</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnknownOWLOntologyException</td><td>if the specified manager does not contain an ontology which has an <a class="el" href="">OWLOntologyID</a> equal to the <a class="el" href="">OWLOntologyID</a> associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a>. </td></tr>
+    <tr><td class="paramname">NullPointerException</td><td>if<div class="fragment"><div class="line">manager </div>
+</div><!-- fragment --> is<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00205">205</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                                                                                 {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">if</span> (manager == null) {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;manager must not be null&quot;</span>);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        OWLOntology ontology = manager.getOntology(ontologyID);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">if</span> (ontology == null) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> UnknownOWLOntologyException(ontologyID);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> data.createOntologyChange(ontology);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58afad3a4151deaeea86096fd40915ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.change.OWLOntologyChangeRecord.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line">obj </div>
+</div><!-- fragment --><p> is equal to this object if it is an <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a> and its associated <a class="el" href="">OWLOntologyID</a> and <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> are equal to this objects associated <a class="el" href="">OWLOntologyID</a> and <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a>. </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00222">222</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                      {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">if</span> (obj == <span class="keyword">this</span>) {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (!(obj instanceof OWLOntologyChangeRecord)) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        OWLOntologyChangeRecord other = (OWLOntologyChangeRecord) obj;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">return</span> ontologyID.equals(other.ontologyID) &amp;&amp; data.equals(other.data);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad45ed0e7ca0f21da0e792be9a7ab6291"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> org.semanticweb.owlapi.change.OWLOntologyChangeRecord.getData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a> which is associated with this <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a>.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>The <a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_data.html">OWLOntologyChangeData</a>. Not<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00174">174</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                           {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> data;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a56c0ea2248fd87ed9a90c801d17d9921"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_i_d.html">OWLOntologyID</a> org.semanticweb.owlapi.change.OWLOntologyChangeRecord.getOntologyID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the <a class="el" href="">OWLOntologyID</a> that identifies the ontology associated with this change record.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>The <a class="el" href="">OWLOntologyID</a>. Not<div class="fragment"><div class="line">null </div>
+</div><!-- fragment --> . </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00165">165</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                         {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> ontologyID;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaf8c1b6340bc4590f784325838806cf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.change.OWLOntologyChangeRecord.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00234">234</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                          {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;OWLOntologyChangeRecord&quot;</span>.hashCode() + ontologyID.hashCode() + data.hashCode();</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1520dddec7d39dc68fdb725524d760b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.change.OWLOntologyChangeRecord.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_o_w_l_ontology_change_record_8java_source.html#l00239">239</a> del archivo <a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                             {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        sb.append(<span class="stringliteral">&quot;OWLOntologyChangeRecord(&quot;</span>);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        sb.append(ontologyID);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        sb.append(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        sb.append(data);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        sb.append(<span class="stringliteral">&quot;)&quot;</span>);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/change/<a class="el" href="_o_w_l_ontology_change_record_8java_source.html">OWLOntologyChangeRecord.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1change.html">change</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1change_1_1_o_w_l_ontology_change_record.html">OWLOntologyChangeRecord</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:06 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

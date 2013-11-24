@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente parsers/src/main/java/uk/ac/manchester/cs/owlapi/dlsyntax/DLSyntax.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_d_l_syntax_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">DLSyntax.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_d_l_syntax_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * This file is part of the OWL API.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * The contents of this file are subject to the LGPL License, Version 3.0.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright (C) 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * the Free Software Foundation, either version 3 of the License, or</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * (at your option) any later version.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> * GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * along with this program.  If not, see http://www.gnu.org/licenses/.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Alternatively, the contents of this file may be used under the terms of the Apache License, Version 2.0</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * in which case, the provisions of the Apache License Version 2.0 are applicable instead of those above.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * Copyright 2011, The University of Manchester</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * you may not use this file except in compliance with the License.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * You may obtain a copy of the License at</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * http://www.apache.org/licenses/LICENSE-2.0</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * Unless required by applicable law or agreed to in writing, software</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> * See the License for the specific language governing permissions and</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * limitations under the License.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax.html">   40</a></span>&#160;<span class="keyword">package </span>uk.ac.manchester.cs.owlapi.dlsyntax;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html">   48</a></span>&#160;public enum <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html">DLSyntax</a> {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ac102d0316c0ba84ae8e595b25db2e52b">   50</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ac102d0316c0ba84ae8e595b25db2e52b">SUBCLASS</a>(<span class="stringliteral">&quot;\u2291&quot;</span>),</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a449b2d8f3c4c38221f90ad6b199ab9ce">   52</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a449b2d8f3c4c38221f90ad6b199ab9ce">EQUIVALENT_TO</a>(<span class="stringliteral">&quot;\u2261&quot;</span>),</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#afed0e4911c57d70c08d3c12b792a2f2f">   54</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#afed0e4911c57d70c08d3c12b792a2f2f">NOT</a>(<span class="stringliteral">&quot;\u00AC&quot;</span>),</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aa1797a37880fc62dd1a36a11d260580b">   56</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aa1797a37880fc62dd1a36a11d260580b">DISJOINT_WITH</a>(SUBCLASS + <span class="stringliteral">&quot; &quot;</span> + NOT),</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#acd3feed7a61e0deffe5b7ee9ca437232">   58</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#acd3feed7a61e0deffe5b7ee9ca437232">EXISTS</a>(<span class="stringliteral">&quot;\u2203&quot;</span>),</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a4b9573710ccdccdb32d9883bf30dd160">   60</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a4b9573710ccdccdb32d9883bf30dd160">FORALL</a>(<span class="stringliteral">&quot;\u2200&quot;</span>),</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a677e57eee3aaa4e47019cd4bb450d4f0">   62</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a677e57eee3aaa4e47019cd4bb450d4f0">IN</a>(<span class="stringliteral">&quot;\u2208&quot;</span>),</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a97a26bbc8268be23413a4d29e1a0f2a7">   64</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a97a26bbc8268be23413a4d29e1a0f2a7">MIN</a>(<span class="stringliteral">&quot;\u2265&quot;</span>),</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7832880fcd6c26cbee63a95b388eaaf8">   66</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7832880fcd6c26cbee63a95b388eaaf8">EQUAL</a>(<span class="stringliteral">&quot;=&quot;</span>),</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#af8901e61e7a041611fe5dc76a3634c3a">   68</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#af8901e61e7a041611fe5dc76a3634c3a">NOT_EQUAL</a>(<span class="stringliteral">&quot;\u2260&quot;</span>),</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a6f2b0808900f3bba50cbd22e86cb33a9">   70</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a6f2b0808900f3bba50cbd22e86cb33a9">MAX</a>(<span class="stringliteral">&quot;\u2264&quot;</span>),</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a91e7a3a08313fcaa60d4ede7245929bd">   72</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a91e7a3a08313fcaa60d4ede7245929bd">INVERSE</a>(<span class="stringliteral">&quot;\u207B&quot;</span>),  <span class="comment">// Superscript minus</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a411ec116a9cd89459ba8186e676784ab">   74</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a411ec116a9cd89459ba8186e676784ab">AND</a>(<span class="stringliteral">&quot;\u2293&quot;</span>),</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#add230887f8191863711c7f6a4f28b902">   76</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#add230887f8191863711c7f6a4f28b902">TOP</a>(<span class="stringliteral">&quot;\u22A4&quot;</span>),</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3734d5386532242ce39dd79a85e9fb56">   78</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3734d5386532242ce39dd79a85e9fb56">BOTTOM</a>(<span class="stringliteral">&quot;\u22A5&quot;</span>),</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aba1d8d498e3ef22a5906858c0d9e8d7f">   80</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aba1d8d498e3ef22a5906858c0d9e8d7f">OR</a>(<span class="stringliteral">&quot;\u2294&quot;</span>),</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ab314f5e82d3d5db405ca742a2df8b51d">   82</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ab314f5e82d3d5db405ca742a2df8b51d">COMP</a>(<span class="stringliteral">&quot;\u2218&quot;</span>),</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7022deae13bfd98e5bb3b95d1c262340">   84</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7022deae13bfd98e5bb3b95d1c262340">WEDGE</a>(<span class="stringliteral">&quot;\u22C0&quot;</span>),</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3ae7d536e1f5b761cdbff5125febdb25">   86</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3ae7d536e1f5b761cdbff5125febdb25">IMPLIES</a>(<span class="stringliteral">&quot;\u2190&quot;</span>),</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ae1cfed7bdd857b0f18fd7f2a0735e92e">   88</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ae1cfed7bdd857b0f18fd7f2a0735e92e">COMMA</a>(<span class="stringliteral">&quot;,&quot;</span>),</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a9644ceb42a5e611e31ef5fd05f6498e8">   90</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a9644ceb42a5e611e31ef5fd05f6498e8">SELF</a>(<span class="stringliteral">&quot;self&quot;</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">private</span> String unicodeSymbol;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a74d452af62db51d527b38988f23e1a6d">   98</a></span>&#160;    <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a74d452af62db51d527b38988f23e1a6d">DLSyntax</a>(String unicode) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        this.unicodeSymbol = unicode;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    @Override</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aaa77d0b4d5122673c9e15afe20103898">  104</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aaa77d0b4d5122673c9e15afe20103898">toString</a>() {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> unicodeSymbol;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_aaa77d0b4d5122673c9e15afe20103898"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aaa77d0b4d5122673c9e15afe20103898">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00104">DLSyntax.java:104</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_ab314f5e82d3d5db405ca742a2df8b51d"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ab314f5e82d3d5db405ca742a2df8b51d">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.COMP</a></div><div class="ttdeci">COMP</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00082">DLSyntax.java:82</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a7022deae13bfd98e5bb3b95d1c262340"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7022deae13bfd98e5bb3b95d1c262340">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.WEDGE</a></div><div class="ttdeci">WEDGE</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00084">DLSyntax.java:84</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a411ec116a9cd89459ba8186e676784ab"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a411ec116a9cd89459ba8186e676784ab">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.AND</a></div><div class="ttdeci">AND</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00074">DLSyntax.java:74</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_add230887f8191863711c7f6a4f28b902"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#add230887f8191863711c7f6a4f28b902">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.TOP</a></div><div class="ttdeci">TOP</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00076">DLSyntax.java:76</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_af8901e61e7a041611fe5dc76a3634c3a"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#af8901e61e7a041611fe5dc76a3634c3a">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.NOT_EQUAL</a></div><div class="ttdeci">NOT_EQUAL</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00068">DLSyntax.java:68</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a677e57eee3aaa4e47019cd4bb450d4f0"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a677e57eee3aaa4e47019cd4bb450d4f0">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.IN</a></div><div class="ttdeci">IN</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00062">DLSyntax.java:62</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_aa1797a37880fc62dd1a36a11d260580b"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aa1797a37880fc62dd1a36a11d260580b">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.DISJOINT_WITH</a></div><div class="ttdeci">DISJOINT_WITH</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00056">DLSyntax.java:56</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_afed0e4911c57d70c08d3c12b792a2f2f"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#afed0e4911c57d70c08d3c12b792a2f2f">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.NOT</a></div><div class="ttdeci">NOT</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00054">DLSyntax.java:54</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_aba1d8d498e3ef22a5906858c0d9e8d7f"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aba1d8d498e3ef22a5906858c0d9e8d7f">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.OR</a></div><div class="ttdeci">OR</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00080">DLSyntax.java:80</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a4b9573710ccdccdb32d9883bf30dd160"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a4b9573710ccdccdb32d9883bf30dd160">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.FORALL</a></div><div class="ttdeci">FORALL</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00060">DLSyntax.java:60</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_acd3feed7a61e0deffe5b7ee9ca437232"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#acd3feed7a61e0deffe5b7ee9ca437232">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.EXISTS</a></div><div class="ttdeci">EXISTS</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00058">DLSyntax.java:58</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_ac102d0316c0ba84ae8e595b25db2e52b"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ac102d0316c0ba84ae8e595b25db2e52b">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.SUBCLASS</a></div><div class="ttdeci">SUBCLASS</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00050">DLSyntax.java:50</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a6f2b0808900f3bba50cbd22e86cb33a9"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a6f2b0808900f3bba50cbd22e86cb33a9">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.MAX</a></div><div class="ttdeci">MAX</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00070">DLSyntax.java:70</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a3734d5386532242ce39dd79a85e9fb56"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3734d5386532242ce39dd79a85e9fb56">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.BOTTOM</a></div><div class="ttdeci">BOTTOM</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00078">DLSyntax.java:78</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a9644ceb42a5e611e31ef5fd05f6498e8"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a9644ceb42a5e611e31ef5fd05f6498e8">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.SELF</a></div><div class="ttdeci">SELF</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00090">DLSyntax.java:90</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a91e7a3a08313fcaa60d4ede7245929bd"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a91e7a3a08313fcaa60d4ede7245929bd">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.INVERSE</a></div><div class="ttdeci">INVERSE</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00072">DLSyntax.java:72</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_ae1cfed7bdd857b0f18fd7f2a0735e92e"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ae1cfed7bdd857b0f18fd7f2a0735e92e">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.COMMA</a></div><div class="ttdeci">COMMA</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00088">DLSyntax.java:88</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a74d452af62db51d527b38988f23e1a6d"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a74d452af62db51d527b38988f23e1a6d">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.DLSyntax</a></div><div class="ttdeci">DLSyntax(String unicode)</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00098">DLSyntax.java:98</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax</a></div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00048">DLSyntax.java:48</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a3ae7d536e1f5b761cdbff5125febdb25"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3ae7d536e1f5b761cdbff5125febdb25">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.IMPLIES</a></div><div class="ttdeci">IMPLIES</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00086">DLSyntax.java:86</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a7832880fcd6c26cbee63a95b388eaaf8"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7832880fcd6c26cbee63a95b388eaaf8">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.EQUAL</a></div><div class="ttdeci">EQUAL</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00066">DLSyntax.java:66</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a449b2d8f3c4c38221f90ad6b199ab9ce"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a449b2d8f3c4c38221f90ad6b199ab9ce">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.EQUIVALENT_TO</a></div><div class="ttdeci">EQUIVALENT_TO</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00052">DLSyntax.java:52</a></div></div>
+<div class="ttc" id="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax_html_a97a26bbc8268be23413a4d29e1a0f2a7"><div class="ttname"><a href="enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a97a26bbc8268be23413a4d29e1a0f2a7">uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntax.MIN</a></div><div class="ttdeci">MIN</div><div class="ttdef"><b>Definition:</b> <a href="_d_l_syntax_8java_source.html#l00064">DLSyntax.java:64</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a5a40681709ed751decc24cd7289c9c5.html">parsers</a></li><li class="navelem"><a class="el" href="dir_519767d89cf959fdff3ccb9e3bd8b08c.html">src</a></li><li class="navelem"><a class="el" href="dir_be0f351148fa3293a5edbe097e7034b2.html">main</a></li><li class="navelem"><a class="el" href="dir_f2ba2c7b2bfa8619ae625da8113a7f79.html">java</a></li><li class="navelem"><a class="el" href="dir_8d7c0a1b6a0dc1f1080d453d9923a1df.html">uk</a></li><li class="navelem"><a class="el" href="dir_a7cf5218e6fa79273dca5c3904ac03cb.html">ac</a></li><li class="navelem"><a class="el" href="dir_7449640942dc31136e1762b620ac5d77.html">manchester</a></li><li class="navelem"><a class="el" href="dir_e78b989e302bb6000e08b9bbc8940a4c.html">cs</a></li><li class="navelem"><a class="el" href="dir_d0224de23c2d311ea277c1aa6532ab0b.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_744479f9ffe29eaee6d751c660ca3bfa.html">dlsyntax</a></li><li class="navelem"><a class="el" href="_d_l_syntax_8java.html">DLSyntax.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:21 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

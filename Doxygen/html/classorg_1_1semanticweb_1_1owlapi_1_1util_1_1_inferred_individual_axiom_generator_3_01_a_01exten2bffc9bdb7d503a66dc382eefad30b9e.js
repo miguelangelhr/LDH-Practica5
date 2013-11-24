@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_individual_axiom_generator_3_01_a_01exten2bffc9bdb7d503a66dc382eefad30b9e =
+[
+    [ "getEntities", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_individual_axiom_generator_3_01_a_01exten2bffc9bdb7d503a66dc382eefad30b9e.html#ac1f5d9f16e8d2820a25654a9a7e5a7ab", null ]
+];

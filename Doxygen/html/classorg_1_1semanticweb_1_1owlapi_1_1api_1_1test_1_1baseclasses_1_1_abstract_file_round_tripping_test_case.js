@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_file_round_tripping_test_case =
+[
+    [ "createOntology", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_file_round_tripping_test_case.html#a69073fe9d89b007f424056054fdc4dd6", null ],
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_file_round_tripping_test_case.html#adea1fc703baeeb982e90592cb66f9480", null ]
+];

@@ -1,0 +1,830 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5a881ad106278842d8bd6cfbf7146cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">MultiMap</a> ()</td></tr>
+<tr class="separator:a5a881ad106278842d8bd6cfbf7146cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88788fa758624aeb75f02162aed61976"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a88788fa758624aeb75f02162aed61976">MultiMap</a> (boolean threadsafe)</td></tr>
+<tr class="separator:a88788fa758624aeb75f02162aed61976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c16dd6595ceca5328b4169efcd90dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a82c16dd6595ceca5328b4169efcd90dc">MultiMap</a> (boolean threadsafe, boolean usesets)</td></tr>
+<tr class="separator:a82c16dd6595ceca5328b4169efcd90dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5">put</a> (Key key, Value value)</td></tr>
+<tr class="separator:ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab246107845dfdffa6c3371b2011c57f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">setEntry</a> (Key key, Collection&lt; Value &gt; values)</td></tr>
+<tr class="separator:ab246107845dfdffa6c3371b2011c57f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0d66e9e77fc63cd2c6efc76e64e06e"><td class="memItemLeft" align="right" valign="top">Collection&lt; Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a9c0d66e9e77fc63cd2c6efc76e64e06e">get</a> (Key key)</td></tr>
+<tr class="separator:a9c0d66e9e77fc63cd2c6efc76e64e06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d143fe9a6398c7666d0456c0e4b93fa"><td class="memItemLeft" align="right" valign="top">Set&lt; Key &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a1d143fe9a6398c7666d0456c0e4b93fa">keySet</a> ()</td></tr>
+<tr class="separator:a1d143fe9a6398c7666d0456c0e4b93fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c8b0c40bc15c91453cea0a480239fe"><td class="memItemLeft" align="right" valign="top">Set&lt; Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">getAllValues</a> ()</td></tr>
+<tr class="separator:a24c8b0c40bc15c91453cea0a480239fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec73ff422b4c0dad3236c46c82ca76e0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aec73ff422b4c0dad3236c46c82ca76e0">remove</a> (Key key)</td></tr>
+<tr class="separator:aec73ff422b4c0dad3236c46c82ca76e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e84b3f4aa17771e24bef60c2867838"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a42e84b3f4aa17771e24bef60c2867838">remove</a> (Key key, Value value)</td></tr>
+<tr class="separator:a42e84b3f4aa17771e24bef60c2867838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6073d40f714884c1a7bcc221795b28d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> ()</td></tr>
+<tr class="separator:af6073d40f714884c1a7bcc221795b28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40bdc392879448679793ca85d48536c1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a40bdc392879448679793ca85d48536c1">contains</a> (Key k, Value v)</td></tr>
+<tr class="separator:a40bdc392879448679793ca85d48536c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42b7481f198626ec1b51394a951b2e9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ac42b7481f198626ec1b51394a951b2e9">containsKey</a> (Key k)</td></tr>
+<tr class="separator:ac42b7481f198626ec1b51394a951b2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62096e3bd0c6be4542bbdb2081cbf96"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ad62096e3bd0c6be4542bbdb2081cbf96">containsValue</a> (Value v)</td></tr>
+<tr class="separator:ad62096e3bd0c6be4542bbdb2081cbf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e3a900eec4fa573a8eab8e7d6bc8ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a66e3a900eec4fa573a8eab8e7d6bc8ed">clear</a> ()</td></tr>
+<tr class="separator:a66e3a900eec4fa573a8eab8e7d6bc8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6cb177586bca129c407006a49bca6f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a3f6cb177586bca129c407006a49bca6f">toString</a> ()</td></tr>
+<tr class="separator:a3f6cb177586bca129c407006a49bca6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794d98898728f0ace2ff6c8fe1556596"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">putAll</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">MultiMap</a>&lt; Key, Value &gt; otherMap)</td></tr>
+<tr class="separator:a794d98898728f0ace2ff6c8fe1556596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6c5f949b7e04c28cd2f338f2042caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#aaa6c5f949b7e04c28cd2f338f2042caa">putAll</a> (Key k, Collection&lt; Value &gt; v)</td></tr>
+<tr class="separator:aaa6c5f949b7e04c28cd2f338f2042caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526719d69943f817698d8cb2bac1f9e3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a526719d69943f817698d8cb2bac1f9e3">isValueSetsEqual</a> ()</td></tr>
+<tr class="separator:a526719d69943f817698d8cb2bac1f9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a5ef25a2bc76f0f161b25e23b45702b20"><td class="memItemLeft" align="right" valign="top">Collection&lt; Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">createCollection</a> ()</td></tr>
+<tr class="separator:a5ef25a2bc76f0f161b25e23b45702b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;Key&gt;</td><td></td></tr>
+    <tr><td class="paramname">&lt;Value&gt;</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>ignazio palmisano </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00055">55</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a5a881ad106278842d8bd6cfbf7146cdf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00063">63</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                      {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">this</span>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a88788fa758624aeb75f02162aed61976"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>threadsafe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00067">67</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                        {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        threadSafe = threadsafe;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            map = CollectionFactory.createSyncMap();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            map = CollectionFactory.createMap();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a82c16dd6595ceca5328b4169efcd90dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.MultiMap </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>threadsafe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>usesets</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00076">76</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                         {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">this</span>(threadsafe);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.useSets = usesets;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a66e3a900eec4fa573a8eab8e7d6bc8ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00239">239</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                        {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        this.map.clear();</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.size = 0;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a40bdc392879448679793ca85d48536c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.contains </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td></td></tr>
+    <tr><td class="paramname">v</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if the pairing (k, v) is in the map (set equality for v) </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00210">210</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                                            {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keyword">final</span> Collection&lt;Value&gt; collection = this.map.get(k);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">if</span> (collection == null) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">return</span> collection.contains(v);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac42b7481f198626ec1b51394a951b2e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.containsKey </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>k</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if k is a key for the map </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00222">222</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                      {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> this.map.containsKey(k);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad62096e3bd0c6be4542bbdb2081cbf96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.containsValue </td>
+          <td>(</td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if v is a value for a key in the map </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00230">230</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                          {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">for</span> (Collection&lt;Value&gt; c : map.values()) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (c.contains(v)) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ef25a2bc76f0f161b25e23b45702b20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collection&lt;Value&gt; org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.createCollection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00098">98</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                   {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        Collection&lt;Value&gt; toReturn;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> (useSets) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                toReturn = CollectionFactory.createSyncSet();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                toReturn = CollectionFactory.createSet();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordflow">if</span> (threadSafe) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                toReturn = Collections.synchronizedList(<span class="keyword">new</span> ArrayList&lt;Value&gt;());</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                toReturn = <span class="keyword">new</span> ArrayList&lt;Value&gt;();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9c0d66e9e77fc63cd2c6efc76e64e06e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collection&lt;Value&gt; org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.get </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns a mutable set of values connected to the key; if no value is connected, returns an immutable empty set</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the set of values connected with the key </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00132">132</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                          {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keyword">final</span> Collection&lt;Value&gt; collection = this.map.get(key);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">if</span> (collection != null) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">return</span> collection;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> Collections.emptyList();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a24c8b0c40bc15c91453cea0a480239fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;Value&gt; org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.getAllValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>all values in the map </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00150">150</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                     {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        Set&lt;Value&gt; toReturn = CollectionFactory.createSet();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">for</span> (Collection&lt;Value&gt; s : this.map.values()) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            toReturn.addAll(s);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a526719d69943f817698d8cb2bac1f9e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.isValueSetsEqual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00265">265</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                                      {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span> (map.size() &lt; 2) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        List&lt;Collection&lt;Value&gt;&gt; list = <span class="keyword">new</span> ArrayList&lt;Collection&lt;Value&gt;&gt;(map.values());</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; list.size(); i++) {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">if</span> (!list.get(0).equals(list.get(i))) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1d143fe9a6398c7666d0456c0e4b93fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;Key&gt; org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.keySet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the set of keys </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00143">143</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                             {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span> this.map.keySet();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae8a02dc2ae4d3fdfb7f0b7fe226cfaf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.put </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00085">85</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                             {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        Collection&lt;Value&gt; set = this.map.get(key);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (set == null) {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            set = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">createCollection</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            this.map.put(key, set);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">boolean</span> toReturn = set.add(value);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (toReturn) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> = -1;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> toReturn;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a5ef25a2bc76f0f161b25e23b45702b20"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.createCollection</a></div><div class="ttdeci">Collection&lt; Value &gt; createCollection()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00098">MultiMap.java:98</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a794d98898728f0ace2ff6c8fe1556596"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.putAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5a881ad106278842d8bd6cfbf7146cdf">MultiMap</a>&lt; Key, Value &gt;&#160;</td>
+          <td class="paramname"><em>otherMap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00249">249</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                                      {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">for</span> (Key k : otherMap.keySet()) {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">putAll</a>(k, otherMap.get(k));</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a794d98898728f0ace2ff6c8fe1556596"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a794d98898728f0ace2ff6c8fe1556596">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.putAll</a></div><div class="ttdeci">void putAll(MultiMap&lt; Key, Value &gt; otherMap)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00249">MultiMap.java:249</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa6c5f949b7e04c28cd2f338f2042caa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.putAll </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Collection&lt; Value &gt;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00255">255</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                                                   {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        Collection&lt;Value&gt; set = map.get(k);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordflow">if</span> (set == null) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            set = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">createCollection</a>();</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">setEntry</a>(k, set);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        set.addAll(v);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a>=-1;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a5ef25a2bc76f0f161b25e23b45702b20"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a5ef25a2bc76f0f161b25e23b45702b20">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.createCollection</a></div><div class="ttdeci">Collection&lt; Value &gt; createCollection()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00098">MultiMap.java:98</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_ab246107845dfdffa6c3371b2011c57f6"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#ab246107845dfdffa6c3371b2011c57f6">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.setEntry</a></div><div class="ttdeci">void setEntry(Key key, Collection&lt; Value &gt; values)</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00120">MultiMap.java:120</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aec73ff422b4c0dad3236c46c82ca76e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.remove </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>removes the set of values connected to the key</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00163">163</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                   {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (this.map.remove(key) != null) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> = -1;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a42e84b3f4aa17771e24bef60c2867838"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.remove </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>removes the value connected to the key; if there is more than one value connected to the key, only one is removed</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00178">178</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        Collection&lt;Value&gt; c = this.map.get(key);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">if</span> (c != null) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordtype">boolean</span> toReturn = c.remove(value);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="comment">// if false, no change was actually made - skip the rest</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">if</span> (!toReturn) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            }</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> = -1;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">if</span> (c.isEmpty()) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                this.map.remove(key);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab246107845dfdffa6c3371b2011c57f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.setEntry </td>
+          <td>(</td>
+          <td class="paramtype">Key&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Collection&lt; Value &gt;&#160;</td>
+          <td class="paramname"><em>values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+    <tr><td class="paramname">values</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00120">120</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                            {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        this.map.put(key, values);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        this.size = -1;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af6073d40f714884c1a7bcc221795b28d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the size of the multimap (sum of all the sizes of the sets) </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00198">198</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                      {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> &lt; 0) {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a> = <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">getAllValues</a>().size();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">return</span> this.size;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_a24c8b0c40bc15c91453cea0a480239fe"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#a24c8b0c40bc15c91453cea0a480239fe">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.getAllValues</a></div><div class="ttdeci">Set&lt; Value &gt; getAllValues()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00150">MultiMap.java:150</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f6cb177586bca129c407006a49bca6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_multi_map_8java_source.html#l00245">245</a> del archivo <a class="el" href="_multi_map_8java_source.html">MultiMap.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                             {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;MultiMap &quot;</span> + <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">size</a>() + <span class="stringliteral">&quot;\n&quot;</span> + map.toString();<span class="comment">//.replace(&quot;,&quot;, &quot;\n&quot;);</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4_html_af6073d40f714884c1a7bcc221795b28d"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html#af6073d40f714884c1a7bcc221795b28d">org.semanticweb.owlapi.util.MultiMap&lt; Key, Value &gt;.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> <a href="_multi_map_8java_source.html#l00198">MultiMap.java:198</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_multi_map_8java_source.html">MultiMap.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_multi_map_3_01_key_00_01_value_01_4.html">MultiMap< Key, Value ></a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:36 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

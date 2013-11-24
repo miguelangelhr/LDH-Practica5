@@ -1,0 +1,4 @@
+var interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1explanation_1_1ordering_1_1_explanation_orderer =
+[
+    [ "getOrderedExplanation", "interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1explanation_1_1ordering_1_1_explanation_orderer.html#a66b1b088219ba3434a5bd66a193ead40", null ]
+];

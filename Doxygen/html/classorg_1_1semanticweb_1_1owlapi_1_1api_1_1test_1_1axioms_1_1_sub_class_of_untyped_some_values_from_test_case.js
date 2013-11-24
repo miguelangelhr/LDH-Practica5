@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_some_values_from_test_case =
+[
+    [ "getConfiguration", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_some_values_from_test_case.html#abb97231c6d9ef13530be2fee4a6cb358", null ],
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_some_values_from_test_case.html#a24ced07ed6fb4bc031aa42e48f038493", null ],
+    [ "testParsedAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_some_values_from_test_case.html#a0927465feab21236c85e5b9f567188ae", null ]
+];

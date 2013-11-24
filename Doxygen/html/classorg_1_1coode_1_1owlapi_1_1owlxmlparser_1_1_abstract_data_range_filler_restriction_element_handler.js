@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_range_filler_restriction_element_handler =
+[
+    [ "AbstractDataRangeFillerRestrictionElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_range_filler_restriction_element_handler.html#a509799a155f936fe3c9a2218325866f2", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_data_range_filler_restriction_element_handler.html#ac66309404619296131a444bb89cdfa07", null ]
+];

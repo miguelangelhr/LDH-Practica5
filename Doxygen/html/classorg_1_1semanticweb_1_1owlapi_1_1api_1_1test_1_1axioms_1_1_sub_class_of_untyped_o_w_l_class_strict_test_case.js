@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_o_w_l_class_strict_test_case =
+[
+    [ "getConfiguration", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_o_w_l_class_strict_test_case.html#add7c2f470ae1ec32fe05bd1cc103f153", null ],
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_o_w_l_class_strict_test_case.html#a2cd7c68497a05065424248fc27762821", null ],
+    [ "testAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_sub_class_of_untyped_o_w_l_class_strict_test_case.html#abe91f34d0750c8a84d2712d585d8ca93", null ]
+];

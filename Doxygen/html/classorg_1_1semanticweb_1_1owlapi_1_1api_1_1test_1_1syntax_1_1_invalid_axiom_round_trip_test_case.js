@@ -1,0 +1,12 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case =
+[
+    [ "setUp", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a5daaaad9d1e77f6589942f019cf757be", null ],
+    [ "shouldRoundTripInvalidDifferentIndividuals", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a2df9693d20f783f2f5a3ba8ba98f6076", null ],
+    [ "shouldRoundTripInvalidDisjointClasses", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a132caf0613a616fb197789a19ce248b1", null ],
+    [ "shouldRoundTripInvalidDisjointDataProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a880b2ba3e3847989d9bed960077e403b", null ],
+    [ "shouldRoundTripInvalidDisjointObjectProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#ae89b26e3e804fa58a1af7e508705f163", null ],
+    [ "shouldRoundTripInvalidEquivalentClasses", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a7364d5e0ede5198fcb409b9ec9f52850", null ],
+    [ "shouldRoundTripInvalidEquivalentDataProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a90f68a92ee078e970c772a0a89a76ed6", null ],
+    [ "shouldRoundTripInvalidEquivalentObjectProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#aef68c3814d01e5818a4268bfeb845084", null ],
+    [ "shouldRoundTripInvalidSameIndividuals", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1_invalid_axiom_round_trip_test_case.html#a4aa5461f61107b930b1311314c597647", null ]
+];

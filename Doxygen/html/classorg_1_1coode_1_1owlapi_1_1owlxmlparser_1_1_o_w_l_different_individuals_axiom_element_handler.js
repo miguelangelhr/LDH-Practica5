@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_different_individuals_axiom_element_handler =
+[
+    [ "OWLDifferentIndividualsAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_different_individuals_axiom_element_handler.html#aa30bac8554be9895828aa8f6922b3eb3", null ],
+    [ "createAxiom", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_o_w_l_different_individuals_axiom_element_handler.html#ab204df5b847c32c1d18567fb06e137cb", null ]
+];

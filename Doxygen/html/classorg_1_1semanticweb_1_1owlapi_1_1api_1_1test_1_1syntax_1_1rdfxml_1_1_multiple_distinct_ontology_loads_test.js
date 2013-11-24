@@ -1,0 +1,11 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test =
+[
+    [ "setUp", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#a42bcb39afd3ebe36252eb46690787dce", null ],
+    [ "testMultipleVersionLoadChangeIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#af755fb1489402b98b343f17c3d50dca6", null ],
+    [ "testMultipleVersionLoadNoChange", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#aa3675964743d9af47bf4c0d6a6e3c19f", null ],
+    [ "testMultipleVersionLoadsExplicitOntologyIDs", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#acbfe3aa6147a703e4f7c8ec004e74687", null ],
+    [ "testMultipleVersionLoadsNoOntologyIDFirstTime", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#a7b584317fe4e0168409620bcf902e55d", null ],
+    [ "testMultipleVersionLoadsNoOntologyVersionIRIFirstTime", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#a7ee5364f328bcb6513c2ac35dbace34e", null ],
+    [ "testSingleVersionLoadChangeIRI", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#a15b5de551cb0e91599a74a254992cc18", null ],
+    [ "testSingleVersionLoadNoChange", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1syntax_1_1rdfxml_1_1_multiple_distinct_ontology_loads_test.html#a8c4c534835f0b571555d697e6cd4da4d", null ]
+];

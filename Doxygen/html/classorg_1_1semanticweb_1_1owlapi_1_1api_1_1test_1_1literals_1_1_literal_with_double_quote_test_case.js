@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_literal_with_double_quote_test_case =
+[
+    [ "getEscape", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1literals_1_1_literal_with_double_quote_test_case.html#a6ba6b2ef68ba1360156536fb22f94633", null ]
+];

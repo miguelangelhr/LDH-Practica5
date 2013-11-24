@@ -1,0 +1,1896 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.semanticweb.owlapi.util.NNF</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.semanticweb.owlapi.util.NNF</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias OWLClassExpressionVisitorEx&lt; OWLClassExpression &gt;, OWLDataVisitorEx&lt; OWLDataRange &gt; y OWLAxiomVisitorEx&lt; OWLAxiom &gt;.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a106cbff79a5d9a594c17869bfc05f733"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a106cbff79a5d9a594c17869bfc05f733">NNF</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a> dataFactory)</td></tr>
+<tr class="separator:a106cbff79a5d9a594c17869bfc05f733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18f652812d3a012108742d27fcefbb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ac18f652812d3a012108742d27fcefbb1">reset</a> ()</td></tr>
+<tr class="separator:ac18f652812d3a012108742d27fcefbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9048e558e7a41e65e7cfc6dcb1d44f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a5a9048e558e7a41e65e7cfc6dcb1d44f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> desc)</td></tr>
+<tr class="separator:a5a9048e558e7a41e65e7cfc6dcb1d44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f19b40cb244bbb4cc0b49b6d3e58d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a1f19b40cb244bbb4cc0b49b6d3e58d0e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a> desc)</td></tr>
+<tr class="separator:a1f19b40cb244bbb4cc0b49b6d3e58d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafce51466b98648a0f98cc40d0e3c10f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aafce51466b98648a0f98cc40d0e3c10f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a> desc)</td></tr>
+<tr class="separator:aafce51466b98648a0f98cc40d0e3c10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7b0bbaf5621c5247e85565e98a2c0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a8c7b0bbaf5621c5247e85565e98a2c0a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a> desc)</td></tr>
+<tr class="separator:a8c7b0bbaf5621c5247e85565e98a2c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fd884a43e250da38b6f601e6b4dbac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a81fd884a43e250da38b6f601e6b4dbac">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a> desc)</td></tr>
+<tr class="separator:a81fd884a43e250da38b6f601e6b4dbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351a85ef317d88d04b2d90f5d02095b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a351a85ef317d88d04b2d90f5d02095b8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:a351a85ef317d88d04b2d90f5d02095b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1fe4447e74d36e4990b57f912bc5a85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ab1fe4447e74d36e4990b57f912bc5a85">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a> desc)</td></tr>
+<tr class="separator:ab1fe4447e74d36e4990b57f912bc5a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653978096a166dd4e54e354fa14b6083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a653978096a166dd4e54e354fa14b6083">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a> desc)</td></tr>
+<tr class="separator:a653978096a166dd4e54e354fa14b6083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7536758a3e5c88543bd3e5a8649cca5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a7536758a3e5c88543bd3e5a8649cca5d">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a> desc)</td></tr>
+<tr class="separator:a7536758a3e5c88543bd3e5a8649cca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6043f6ac8adb13b1353f11c0ca55a93a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a6043f6ac8adb13b1353f11c0ca55a93a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a6043f6ac8adb13b1353f11c0ca55a93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32be32e517bfe6977484e014d54b3db4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a32be32e517bfe6977484e014d54b3db4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a> desc)</td></tr>
+<tr class="separator:a32be32e517bfe6977484e014d54b3db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c193f233c35a4aed072bbf151ee2d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a15c193f233c35a4aed072bbf151ee2d9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a> desc)</td></tr>
+<tr class="separator:a15c193f233c35a4aed072bbf151ee2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71687231bb6c219a0b6682161fae006c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a71687231bb6c219a0b6682161fae006c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a> desc)</td></tr>
+<tr class="separator:a71687231bb6c219a0b6682161fae006c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f2b4b0d79ebdd1e4affb6c82f285fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ac7f2b4b0d79ebdd1e4affb6c82f285fb">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a> desc)</td></tr>
+<tr class="separator:ac7f2b4b0d79ebdd1e4affb6c82f285fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9388c3407cb771ae8c36fb31e4275104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a9388c3407cb771ae8c36fb31e4275104">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a> desc)</td></tr>
+<tr class="separator:a9388c3407cb771ae8c36fb31e4275104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af438d5fa93e928508132edf5035e75e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#af438d5fa93e928508132edf5035e75e8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a> desc)</td></tr>
+<tr class="separator:af438d5fa93e928508132edf5035e75e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e9ab9ad76148087ed93d5f4ca99d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a34e9ab9ad76148087ed93d5f4ca99d49">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a> desc)</td></tr>
+<tr class="separator:a34e9ab9ad76148087ed93d5f4ca99d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e1c43c41b33060f25849f0e9c10dc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a43e1c43c41b33060f25849f0e9c10dc7">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a> desc)</td></tr>
+<tr class="separator:a43e1c43c41b33060f25849f0e9c10dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e9c782e2aa56166a9b69180ff833be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a01e9c782e2aa56166a9b69180ff833be">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> node)</td></tr>
+<tr class="separator:a01e9c782e2aa56166a9b69180ff833be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea8f540ddf35be2957a182c894f777f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a6ea8f540ddf35be2957a182c894f777f">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a> node)</td></tr>
+<tr class="separator:a6ea8f540ddf35be2957a182c894f777f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673cb94e2c0516e9e3f09c4ac1c88819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a673cb94e2c0516e9e3f09c4ac1c88819">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a> node)</td></tr>
+<tr class="separator:a673cb94e2c0516e9e3f09c4ac1c88819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c5df76213f7a56eaf33e1f1a4f71a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a57c5df76213f7a56eaf33e1f1a4f71a4">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_intersection_of.html">OWLDataIntersectionOf</a> node)</td></tr>
+<tr class="separator:a57c5df76213f7a56eaf33e1f1a4f71a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2e1364e25aaa089c63b11052ba21f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aeb2e1364e25aaa089c63b11052ba21f2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a> node)</td></tr>
+<tr class="separator:aeb2e1364e25aaa089c63b11052ba21f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b086651d697300725cace1e4d1acc51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a0b086651d697300725cace1e4d1acc51">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a> axiom)</td></tr>
+<tr class="separator:a0b086651d697300725cace1e4d1acc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db970ca56eb07c859185508e28971a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a6db970ca56eb07c859185508e28971a5">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a> node)</td></tr>
+<tr class="separator:a6db970ca56eb07c859185508e28971a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1322fd470db4ebcbd5e1246d3e1be8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a8d1322fd470db4ebcbd5e1246d3e1be8">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> node)</td></tr>
+<tr class="separator:a8d1322fd470db4ebcbd5e1246d3e1be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a22ee70e8d8961c0a26c74906d1c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a66a22ee70e8d8961c0a26c74906d1c6e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a> node)</td></tr>
+<tr class="separator:a66a22ee70e8d8961c0a26c74906d1c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbe427de00051dab00323244e265935"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#accbe427de00051dab00323244e265935">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a> axiom)</td></tr>
+<tr class="separator:accbe427de00051dab00323244e265935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893727ba352d725ad1d832ca308f64e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a893727ba352d725ad1d832ca308f64e1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a893727ba352d725ad1d832ca308f64e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa290e2a7eb3e6e1f8d5330028b5157c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aa290e2a7eb3e6e1f8d5330028b5157c9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:aa290e2a7eb3e6e1f8d5330028b5157c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18cae11ab5743cf85265778f7ab17153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a18cae11ab5743cf85265778f7ab17153">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a18cae11ab5743cf85265778f7ab17153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7d5af3dbc2730889e762ce3a4dee7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a3e7d5af3dbc2730889e762ce3a4dee7c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:a3e7d5af3dbc2730889e762ce3a4dee7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c7a7415e96058ec04d7ce1f614e0c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a82c7a7415e96058ec04d7ce1f614e0c2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a82c7a7415e96058ec04d7ce1f614e0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b73fede22f9a7bd188782972584ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a43b73fede22f9a7bd188782972584ef3">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a43b73fede22f9a7bd188782972584ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc36faa4075354bf6f89d5a1c6995b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#abc36faa4075354bf6f89d5a1c6995b3a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:abc36faa4075354bf6f89d5a1c6995b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ce6ab09d5484a5d94d56cc2f955475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a28ce6ab09d5484a5d94d56cc2f955475">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a28ce6ab09d5484a5d94d56cc2f955475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78897e87f95baa7124ac0a76ada33c16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a78897e87f95baa7124ac0a76ada33c16">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a> axiom)</td></tr>
+<tr class="separator:a78897e87f95baa7124ac0a76ada33c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e2a58c44a84b18ffff57f5cd9bab04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a34e2a58c44a84b18ffff57f5cd9bab04">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:a34e2a58c44a84b18ffff57f5cd9bab04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95d9cec9f560204bb011f7c7b532d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ab95d9cec9f560204bb011f7c7b532d0a">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:ab95d9cec9f560204bb011f7c7b532d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba496464c0920c8d1191be58f8e38c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#abba496464c0920c8d1191be58f8e38c0">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:abba496464c0920c8d1191be58f8e38c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac176a5639faa0fb302431199b952c415"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ac176a5639faa0fb302431199b952c415">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:ac176a5639faa0fb302431199b952c415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc60da700c571b19751aa77c079bb67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aedc60da700c571b19751aa77c079bb67">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:aedc60da700c571b19751aa77c079bb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4500fd0f275894e2b7cfde5c792027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#afe4500fd0f275894e2b7cfde5c792027">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:afe4500fd0f275894e2b7cfde5c792027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af29da7f358b53c19c95546776784fe8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#af29da7f358b53c19c95546776784fe8c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a> axiom)</td></tr>
+<tr class="separator:af29da7f358b53c19c95546776784fe8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc77119e35f17dc4b0f49c16ec2e776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a2dc77119e35f17dc4b0f49c16ec2e776">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a> axiom)</td></tr>
+<tr class="separator:a2dc77119e35f17dc4b0f49c16ec2e776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa7fd172fad38ccd22cab9e83f98216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a4aa7fd172fad38ccd22cab9e83f98216">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a4aa7fd172fad38ccd22cab9e83f98216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb47232bff1c48aa087f438e4c5e15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a5bb47232bff1c48aa087f438e4c5e15c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a5bb47232bff1c48aa087f438e4c5e15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ed7c85c16a24dc0fa9b475ad9f5e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ac9ed7c85c16a24dc0fa9b475ad9f5e97">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:ac9ed7c85c16a24dc0fa9b475ad9f5e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21419c8205e13991babff58ee9b1576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ab21419c8205e13991babff58ee9b1576">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:ab21419c8205e13991babff58ee9b1576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb9408ecc6c809b7b9d5f53b32e6d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aebb9408ecc6c809b7b9d5f53b32e6d9e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:aebb9408ecc6c809b7b9d5f53b32e6d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735bd1f1991c618ae8f19f62f8bee35e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a735bd1f1991c618ae8f19f62f8bee35e">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a735bd1f1991c618ae8f19f62f8bee35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5514fcb86c247d59314d25c0be5f98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a3d5514fcb86c247d59314d25c0be5f98">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a> axiom)</td></tr>
+<tr class="separator:a3d5514fcb86c247d59314d25c0be5f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656ef5083e83e03b74f913c65c5cb099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a656ef5083e83e03b74f913c65c5cb099">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a> axiom)</td></tr>
+<tr class="separator:a656ef5083e83e03b74f913c65c5cb099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b801df2cf41e8325a68fc9de66a3d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a76b801df2cf41e8325a68fc9de66a3d2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a76b801df2cf41e8325a68fc9de66a3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9988cdddc03d1ecaeb27688547e372f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a9988cdddc03d1ecaeb27688547e372f2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a9988cdddc03d1ecaeb27688547e372f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5deb4084d0c42b80715e2853520ee404"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a5deb4084d0c42b80715e2853520ee404">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a5deb4084d0c42b80715e2853520ee404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d8d95a525743782e5c4dfede6733a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a71d8d95a525743782e5c4dfede6733a2">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a> axiom)</td></tr>
+<tr class="separator:a71d8d95a525743782e5c4dfede6733a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2765ce5c8d2e23f940a7d74920816b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a9d2765ce5c8d2e23f940a7d74920816b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a> axiom)</td></tr>
+<tr class="separator:a9d2765ce5c8d2e23f940a7d74920816b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b10395a52ee3b7520fc50d56856014c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a4b10395a52ee3b7520fc50d56856014c">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a> axiom)</td></tr>
+<tr class="separator:a4b10395a52ee3b7520fc50d56856014c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa363bef6addcafad786a93df78ee920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aaa363bef6addcafad786a93df78ee920">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a> axiom)</td></tr>
+<tr class="separator:aaa363bef6addcafad786a93df78ee920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3b6bdf5537a21f48a54df8e39366518"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#af3b6bdf5537a21f48a54df8e39366518">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a> rule)</td></tr>
+<tr class="separator:af3b6bdf5537a21f48a54df8e39366518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13babfad70f893a406b48d9468a402e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#a13babfad70f893a406b48d9468a402e1">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a> axiom)</td></tr>
+<tr class="separator:a13babfad70f893a406b48d9468a402e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ee1b4dfecbdf5bc159699f479ac58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#ad8ee1b4dfecbdf5bc159699f479ac58b">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a> axiom)</td></tr>
+<tr class="separator:ad8ee1b4dfecbdf5bc159699f479ac58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92190863e81652420716921035a0cf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#af92190863e81652420716921035a0cf9">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a> axiom)</td></tr>
+<tr class="separator:af92190863e81652420716921035a0cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d0231ea0991ed19f1ede69b2100555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html#aa1d0231ea0991ed19f1ede69b2100555">visit</a> (<a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a> axiom)</td></tr>
+<tr class="separator:aa1d0231ea0991ed19f1ede69b2100555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Information Management Group<br/>
+ Date: 06-Jun-2008<br/>
+<br/>
+ </p>
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00123">123</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a106cbff79a5d9a594c17869bfc05f733"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.semanticweb.owlapi.util.NNF.NNF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_factory.html">OWLDataFactory</a>&#160;</td>
+          <td class="paramname"><em>dataFactory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataFactory</td><td>datafactory to use </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00133">133</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                           {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        this.dataFactory = dataFactory;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ac18f652812d3a012108742d27fcefbb1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.util.NNF.reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reset the negation </p>
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00140">140</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                        {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5a9048e558e7a41e65e7cfc6dcb1d44f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00151">151</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                                                   {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">if</span>(desc.isOWLNothing()) {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                <span class="keywordflow">return</span> dataFactory.getOWLThing();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(desc.isOWLThing()) {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                <span class="keywordflow">return</span> dataFactory.getOWLNothing();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <span class="keywordflow">return</span> getNegation(desc);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">return</span> desc;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1f19b40cb244bbb4cc0b49b6d3e58d0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_intersection_of.html">OWLObjectIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00170">170</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        Set&lt;OWLClassExpression&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : desc.getOperands()) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectUnionOf(ops);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectIntersectionOf(ops);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aafce51466b98648a0f98cc40d0e3c10f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_union_of.html">OWLObjectUnionOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00184">184</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                           {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        Set&lt;OWLClassExpression&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : desc.getOperands()) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="comment">// Flip to an intersection</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectIntersectionOf(ops);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectUnionOf(ops);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8c7b0bbaf5621c5247e85565e98a2c0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_complement_of.html">OWLObjectComplementOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00199">199</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                                                                {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="comment">// Cancels out.</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            <span class="comment">// Save and then restore.</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            OWLClassExpression negDesc = desc.getOperand().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            negated = neg;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">return</span> negDesc;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="comment">// Save and then restore</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            negated = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            OWLClassExpression negDesc = desc.getOperand().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            negated = neg;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">return</span> negDesc;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a81fd884a43e250da38b6f601e6b4dbac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_some_values_from.html">OWLObjectSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00220">220</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        OWLClassExpression filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectAllValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectSomeValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a351a85ef317d88d04b2d90f5d02095b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_all_values_from.html">OWLObjectAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00231">231</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        OWLClassExpression filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectSomeValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLObjectAllValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab1fe4447e74d36e4990b57f912bc5a85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_value.html">OWLObjectHasValue</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00242">242</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                            {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">return</span> desc.asSomeValuesFrom().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a653978096a166dd4e54e354fa14b6083"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_min_cardinality.html">OWLObjectMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00248">248</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordtype">int</span> card = desc.getCardinality();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            card = desc.getCardinality() - 1;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="keywordflow">if</span> (card &lt; 0) {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                card = 0;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        }</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        OWLClassExpression filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        OWLClassExpression nnf = null;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">if</span> (neg) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            nnf = dataFactory.getOWLObjectMaxCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            nnf = dataFactory.getOWLObjectMinCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        negated = neg;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">return</span> nnf;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7536758a3e5c88543bd3e5a8649cca5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_exact_cardinality.html">OWLObjectExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00271">271</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">return</span> desc.asIntersectionOfMinMax().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6043f6ac8adb13b1353f11c0ca55a93a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_max_cardinality.html">OWLObjectMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00277">277</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordtype">int</span> card = desc.getCardinality();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            card = desc.getCardinality() + 1;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        OWLClassExpression filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        OWLClassExpression nnf = null;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">if</span> (neg) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            nnf = dataFactory.getOWLObjectMinCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            nnf = dataFactory.getOWLObjectMaxCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        negated = neg;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">return</span> nnf;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a32be32e517bfe6977484e014d54b3db4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_has_self.html">OWLObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00297">297</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                                           {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordflow">return</span> getNegation(desc);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">return</span> desc;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a15c193f233c35a4aed072bbf151ee2d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_one_of.html">OWLObjectOneOf</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00307">307</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                         {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keywordflow">if</span> (desc.getIndividuals().size() == 1) {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">return</span> getNegation(desc);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                <span class="keywordflow">return</span> desc;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            <span class="keywordflow">return</span> desc.asObjectUnionOf().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a71687231bb6c219a0b6682161fae006c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_some_values_from.html">OWLDataSomeValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00321">321</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                                                {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        OWLDataRange filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataAllValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataSomeValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        }</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7f2b4b0d79ebdd1e4affb6c82f285fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_all_values_from.html">OWLDataAllValuesFrom</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00332">332</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                                                               {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        OWLDataRange filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataSomeValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataAllValuesFrom(desc.getProperty(), filler);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        }</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9388c3407cb771ae8c36fb31e4275104"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_has_value.html">OWLDataHasValue</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00343">343</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                                                          {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordflow">return</span> desc.asSomeValuesFrom().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af438d5fa93e928508132edf5035e75e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_exact_cardinality.html">OWLDataExactCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00349">349</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordflow">return</span> desc.asIntersectionOfMinMax().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34e9ab9ad76148087ed93d5f4ca99d49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_max_cardinality.html">OWLDataMaxCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00354">354</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                                                                {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="keywordtype">int</span> card = desc.getCardinality();</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            card = desc.getCardinality() + 1;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        }</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        OWLDataRange filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        OWLClassExpression nnf = null;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordflow">if</span> (neg) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;            nnf = dataFactory.getOWLDataMinCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            nnf = dataFactory.getOWLDataMaxCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        }</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        negated = neg;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="keywordflow">return</span> nnf;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a43e1c43c41b33060f25849f0e9c10dc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_expression.html">OWLClassExpression</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_min_cardinality.html">OWLDataMinCardinality</a>&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00374">374</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                                                                {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <span class="keywordtype">boolean</span> neg = negated;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <span class="keywordtype">int</span> card = desc.getCardinality();</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;            card = desc.getCardinality() - 1;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;            <span class="keywordflow">if</span> (card &lt; 0) {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                card = 0;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            }</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        negated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        OWLDataRange filler = desc.getFiller().accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        OWLClassExpression nnf = null;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        <span class="keywordflow">if</span> (neg) {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;            nnf = dataFactory.getOWLDataMaxCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;            nnf = dataFactory.getOWLDataMinCardinality(card, desc.getProperty(), filler);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        }</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        negated = neg;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">return</span> nnf;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a01e9c782e2aa56166a9b69180ff833be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00399">399</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                                                {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataComplementOf(node);</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;            <span class="keywordflow">return</span> node;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        }</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6ea8f540ddf35be2957a182c894f777f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_complement_of.html">OWLDataComplementOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00409">409</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;                                                        {</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;            <span class="keywordflow">return</span> node.getDataRange();</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;            <span class="keywordflow">return</span> node;</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        }</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a673cb94e2c0516e9e3f09c4ac1c88819"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_one_of.html">OWLDataOneOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00419">419</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;                                                 {</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <span class="keywordflow">if</span> (node.getValues().size() == 1) {</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;            <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;                <span class="keywordflow">return</span> dataFactory.getOWLDataComplementOf(node);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                <span class="keywordflow">return</span> node;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            }</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;            <span class="comment">// Encode as a data union of and return result</span></div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;            Set&lt;OWLDataOneOf&gt; oneOfs = <span class="keyword">new</span> HashSet&lt;OWLDataOneOf&gt;();</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            <span class="keywordflow">for</span> (OWLLiteral lit : node.getValues()) {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                oneOfs.add(dataFactory.getOWLDataOneOf(lit));</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            }</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataUnionOf(oneOfs).accept(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a57c5df76213f7a56eaf33e1f1a4f71a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_intersection_of.html">OWLDataIntersectionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00438">438</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;                                                          {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        Set&lt;OWLDataRange&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLDataRange&gt;();</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <span class="keywordflow">for</span> (OWLDataRange op : node.getOperands()) {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        }</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataUnionOf(ops);</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataIntersectionOf(ops);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        }</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb2e1364e25aaa089c63b11052ba21f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_union_of.html">OWLDataUnionOf</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00451">451</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                                                   {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        Set&lt;OWLDataRange&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLDataRange&gt;();</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordflow">for</span> (OWLDataRange op : node.getOperands()) {</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        }</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;            <span class="comment">// Flip to an intersection</span></div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataIntersectionOf(ops);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataUnionOf(ops);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        }</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0b086651d697300725cace1e4d1acc51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_has_key_axiom.html">OWLHasKeyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00465">465</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                                                {</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6db970ca56eb07c859185508e28971a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_restriction.html">OWLDatatypeRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00470">470</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;                                                           {</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <span class="keywordflow">if</span> (negated) {</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLDataComplementOf(node);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;            <span class="keywordflow">return</span> node;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        }</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d1322fd470db4ebcbd5e1246d3e1be8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00479">479</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                                               {</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a66a22ee70e8d8961c0a26c74906d1c6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_range.html">OWLDataRange</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_facet_restriction.html">OWLFacetRestriction</a>&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00484">484</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                                                        {</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="accbe427de00051dab00323244e265935"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom.html">OWLSubClassOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00496">496</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                                                    {</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLSubClassOfAxiom(axiom.getSubClass().accept(<span class="keyword">this</span>),</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                axiom.getSuperClass().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a893727ba352d725ad1d832ca308f64e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_object_property_assertion_axiom.html">OWLNegativeObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00503">503</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa290e2a7eb3e6e1f8d5330028b5157c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_asymmetric_object_property_axiom.html">OWLAsymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00509">509</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a18cae11ab5743cf85265778f7ab17153"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_reflexive_object_property_axiom.html">OWLReflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00515">515</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e7d5af3dbc2730889e762ce3a4dee7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_classes_axiom.html">OWLDisjointClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00521">521</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                                                         {</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        Set&lt;OWLClassExpression&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        }</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDisjointClassesAxiom(ops);</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a82c7a7415e96058ec04d7ce1f614e0c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_domain_axiom.html">OWLDataPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00531">531</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                                                            {</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDataPropertyDomainAxiom(axiom.getProperty(),</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                axiom.getDomain().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a43b73fede22f9a7bd188782972584ef3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_domain_axiom.html">OWLObjectPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00537">537</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                                                              {</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLObjectPropertyDomainAxiom(axiom.getProperty(),</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;                axiom.getDomain().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abc36faa4075354bf6f89d5a1c6995b3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_object_properties_axiom.html">OWLEquivalentObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00544">544</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a28ce6ab09d5484a5d94d56cc2f955475"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_negative_data_property_assertion_axiom.html">OWLNegativeDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00550">550</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a78897e87f95baa7124ac0a76ada33c16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_different_individuals_axiom.html">OWLDifferentIndividualsAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00556">556</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;                                                              {</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34e2a58c44a84b18ffff57f5cd9bab04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_data_properties_axiom.html">OWLDisjointDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00562">562</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                                                                {</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab95d9cec9f560204bb011f7c7b532d0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_object_properties_axiom.html">OWLDisjointObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00568">568</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abba496464c0920c8d1191be58f8e38c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_range_axiom.html">OWLObjectPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00574">574</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;                                                             {</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLObjectPropertyRangeAxiom(axiom.getProperty(),</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;                axiom.getRange().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac176a5639faa0fb302431199b952c415"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property_assertion_axiom.html">OWLObjectPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00581">581</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aedc60da700c571b19751aa77c079bb67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_object_property_axiom.html">OWLFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00587">587</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afe4500fd0f275894e2b7cfde5c792027"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_object_property_of_axiom.html">OWLSubObjectPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00593">593</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                                                             {</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af29da7f358b53c19c95546776784fe8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_disjoint_union_axiom.html">OWLDisjointUnionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00599">599</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;                                                       {</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        Set&lt;OWLClassExpression&gt; descs = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;            descs.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        }</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDisjointUnionAxiom(axiom.getOWLClass(), descs);</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2dc77119e35f17dc4b0f49c16ec2e776"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_declaration_axiom.html">OWLDeclarationAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00609">609</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                                                     {</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4aa7fd172fad38ccd22cab9e83f98216"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_assertion_axiom.html">OWLAnnotationAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00615">615</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                                                             {</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5bb47232bff1c48aa087f438e4c5e15c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_symmetric_object_property_axiom.html">OWLSymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00621">621</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac9ed7c85c16a24dc0fa9b475ad9f5e97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_range_axiom.html">OWLDataPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00627">627</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;                                                           {</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLDataPropertyRangeAxiom(axiom.getProperty(),</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;                axiom.getRange().accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab21419c8205e13991babff58ee9b1576"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_functional_data_property_axiom.html">OWLFunctionalDataPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00634">634</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                                                                {</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aebb9408ecc6c809b7b9d5f53b32e6d9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_data_properties_axiom.html">OWLEquivalentDataPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00640">640</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a735bd1f1991c618ae8f19f62f8bee35e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class_assertion_axiom.html">OWLClassAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00646">646</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                                                        {</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;        <span class="keywordflow">if</span> (axiom.getClassExpression().isAnonymous()) {</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;            <span class="keywordflow">return</span> dataFactory.getOWLClassAssertionAxiom(axiom.getClassExpression().accept(<span class="keyword">this</span>), axiom.getIndividual());</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;            <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        }</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3d5514fcb86c247d59314d25c0be5f98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_equivalent_classes_axiom.html">OWLEquivalentClassesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00656">656</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                                                           {</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;        Set&lt;OWLClassExpression&gt; ops = <span class="keyword">new</span> HashSet&lt;OWLClassExpression&gt;();</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;        <span class="keywordflow">for</span> (OWLClassExpression op : axiom.getClassExpressions()) {</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;            ops.add(op.accept(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;        }</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        <span class="keywordflow">return</span> dataFactory.getOWLEquivalentClassesAxiom(ops);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a656ef5083e83e03b74f913c65c5cb099"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property_assertion_axiom.html">OWLDataPropertyAssertionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00666">666</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                                                               {</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a76b801df2cf41e8325a68fc9de66a3d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_transitive_object_property_axiom.html">OWLTransitiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00672">672</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9988cdddc03d1ecaeb27688547e372f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_irreflexive_object_property_axiom.html">OWLIrreflexiveObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00678">678</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5deb4084d0c42b80715e2853520ee404"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_data_property_of_axiom.html">OWLSubDataPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00684">684</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                                                           {</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a71d8d95a525743782e5c4dfede6733a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_functional_object_property_axiom.html">OWLInverseFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00690">690</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d2765ce5c8d2e23f940a7d74920816b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_same_individual_axiom.html">OWLSameIndividualAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00696">696</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                                                        {</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4b10395a52ee3b7520fc50d56856014c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_property_chain_of_axiom.html">OWLSubPropertyChainOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00702">702</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;                                                            {</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa363bef6addcafad786a93df78ee920"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_inverse_object_properties_axiom.html">OWLInverseObjectPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00708">708</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af3b6bdf5537a21f48a54df8e39366518"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_s_w_r_l_rule.html">SWRLRule</a>&#160;</td>
+          <td class="paramname"><em>rule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00714">714</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;                                         {</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        <span class="keywordflow">return</span> rule;</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a13babfad70f893a406b48d9468a402e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_domain_axiom.html">OWLAnnotationPropertyDomainAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00719">719</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8ee1b4dfecbdf5bc159699f479ac58b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property_range_axiom.html">OWLAnnotationPropertyRangeAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00724">724</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af92190863e81652420716921035a0cf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_annotation_property_of_axiom.html">OWLSubAnnotationPropertyOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00729">729</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa1d0231ea0991ed19f1ede69b2100555"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> org.semanticweb.owlapi.util.NNF.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype_definition_axiom.html">OWLDatatypeDefinitionAxiom</a>&#160;</td>
+          <td class="paramname"><em>axiom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_n_n_f_8java_source.html#l00735">735</a> del archivo <a class="el" href="_n_n_f_8java_source.html">NNF.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;                                                            {</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        <span class="keywordflow">return</span> axiom;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/util/<a class="el" href="_n_n_f_8java_source.html">NNF.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_n_n_f.html">NNF</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:36 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

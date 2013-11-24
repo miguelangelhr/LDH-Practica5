@@ -1,0 +1,13 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case =
+[
+    [ "testOntologyContainsAnnotatedAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#aea9b923ecd02f5b1cc77e4ecaed8d08a", null ],
+    [ "testOntologyContainsAxiomsForOWLFunctionalSyntax1", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a7273cc72ba02fcb6db7cb5f392c99ca9", null ],
+    [ "testOntologyContainsAxiomsForOWLFunctionalSyntax2", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#ab82753230fd60808ff4a0163ee722b60", null ],
+    [ "testOntologyContainsAxiomsForOWLXML1", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a22ea1fec1445eaaf6f315d1cb320f958", null ],
+    [ "testOntologyContainsAxiomsForOWLXML2", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#ab6d599cc2d95d4b9680e97bdb93b0e16", null ],
+    [ "testOntologyContainsAxiomsForRDFXML1", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a63cffff3936edfadf3639ba19ca274fc", null ],
+    [ "testOntologyContainsAxiomsForRDFXML2", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a6b8840a2b5c291e63d56031a869b148f", null ],
+    [ "testOntologyContainsAxiomsForTurtleSyntax1", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a11fc8b1ef86332fd57578fcfabdcbfa7", null ],
+    [ "testOntologyContainsAxiomsForTurtleSyntax2", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#af1511d1e3dec5fbb7a4841290943f07e", null ],
+    [ "testOntologyContainsPlainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1ontology_1_1_ontology_contains_axiom_test_case.html#a04ebf236ac499b2b600206462fa2226e", null ]
+];

@@ -1,0 +1,26 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test =
+[
+    [ "shouldTestAxiomNotInProfileException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#aba8a06f223e4085bc8169d515ccd079e", null ],
+    [ "shouldTestBufferingMode", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#aa890233b267447d722d5cfac8670ba3f", null ],
+    [ "shouldTestClassExpressionNotInProfileException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a6d447d52298feb8d00803918b0fa8e35", null ],
+    [ "shouldTestConsoleProgressMonitor", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#ad66da176fd21ed849c784924246fa591", null ],
+    [ "shouldTestFreshEntitiesException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a3cbbed3d65ad170de0ae74b3aa48229f", null ],
+    [ "shouldTestFreshEntityPolicy", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#af6bae76999cfddc76865b66963599f47", null ],
+    [ "shouldTestIllegalConfigurationException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#ac165134fa453c01f0678c5fa6317e9ea", null ],
+    [ "shouldTestImportsClosureNotInProfileException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a40d2099cf04758165466e1449f05c420", null ],
+    [ "shouldTestInconsistentOntologyException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a76b9318c575e4629d3eab1819b0ea3e2", null ],
+    [ "shouldTestIndividualNodeSetPolicy", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a1d80d743d54361b17594cfa7ac146968", null ],
+    [ "shouldTestInferenceType", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a702dfce9fd06464e9ea527952cabbb13", null ],
+    [ "shouldTestInterfaceNode", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a5308e4bfc2f792ec973b6ded2b462144", null ],
+    [ "shouldTestInterfaceNodeSet", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a44a7eef924c84ba15458a24ab1b1aa93", null ],
+    [ "shouldTestInterfaceOWLReasonerConfiguration", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#afca20891f7742bfe5c5787faf7bf7eff", null ],
+    [ "shouldTestInterfaceOWLReasonerFactory", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a4ec3a10fe99c244456e59f56c106ed06", null ],
+    [ "shouldTestInterfaceReasonerProgressMonitor", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a94c2620840cbfb5bda617a7b89a4e336", null ],
+    [ "shouldTestNullReasonerProgressMonitor", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a72bf0bac0cb68e36de6954d2fa99b051", null ],
+    [ "shouldTestOWLReasonerRuntimeException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a263d7ae539c34c5b2fc69452bc8037ab", null ],
+    [ "shouldTestReasonerInternalException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a60cb82e5c2004be2e8406f23dd688401", null ],
+    [ "shouldTestReasonerInterruptedException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#aedc787c8220b141c5183b0386c3f871c", null ],
+    [ "shouldTestTimedConsoleProgressMonitor", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#ad7b65531d382448353e51b79aad5d333", null ],
+    [ "shouldTestTimeOutException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#a963c51cd7c4284271acd3436e4ed23c4", null ],
+    [ "shouldTestUnsupportedEntailmentTypeException", "classorg_1_1semanticweb_1_1owlapi_1_1contract_1_1_contract_reasoner_test.html#ab48aeafd3a2408d5c21cdc4c72a9d9dc", null ]
+];

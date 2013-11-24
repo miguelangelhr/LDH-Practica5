@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.xml.XMLWriterNamespaceManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.xml.XMLWriterNamespaceManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classorg_1_1coode_1_1xml_1_1_o_w_l_ontology_x_m_l_namespace_manager.html">org.coode.xml.OWLOntologyXMLNamespaceManager</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab5e0f228da5825cf527496657fb8598d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#ab5e0f228da5825cf527496657fb8598d">XMLWriterNamespaceManager</a> (String defaultNamespace)</td></tr>
+<tr class="separator:ab5e0f228da5825cf527496657fb8598d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9334edb298a313772d3538c0929d8b0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a9334edb298a313772d3538c0929d8b0f">addWellKnownNamespace</a> (String prefix, String namespace)</td></tr>
+<tr class="separator:a9334edb298a313772d3538c0929d8b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be4144f9d23484e8590b25c0f3523fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a8be4144f9d23484e8590b25c0f3523fd">setPrefix</a> (String prefix, String namespace)</td></tr>
+<tr class="separator:a8be4144f9d23484e8590b25c0f3523fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb72290106c0c465d35a595a68953d89"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#aeb72290106c0c465d35a595a68953d89">getPrefixForNamespace</a> (String namespace)</td></tr>
+<tr class="separator:aeb72290106c0c465d35a595a68953d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676c5a44d6b423f4796642dfd698ebb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a676c5a44d6b423f4796642dfd698ebb3">setDefaultNamespace</a> (String namespace)</td></tr>
+<tr class="separator:a676c5a44d6b423f4796642dfd698ebb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2dacccd3f64648bd8fbb5a3fb3c638b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#ad2dacccd3f64648bd8fbb5a3fb3c638b">getNamespaceForPrefix</a> (String prefix)</td></tr>
+<tr class="separator:ad2dacccd3f64648bd8fbb5a3fb3c638b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd6067bf53651befe1b5d1454bc4854"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#abbd6067bf53651befe1b5d1454bc4854">getQName</a> (String name)</td></tr>
+<tr class="separator:abbd6067bf53651befe1b5d1454bc4854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c5ec0a0a147bc43c4e49bdcf8f3e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a14c5ec0a0a147bc43c4e49bdcf8f3e76">createPrefixForNamespace</a> (String namespace)</td></tr>
+<tr class="separator:a14c5ec0a0a147bc43c4e49bdcf8f3e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae9fc4370cbb4fae39b355f4b908c85"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#adae9fc4370cbb4fae39b355f4b908c85">getDefaultNamespace</a> ()</td></tr>
+<tr class="separator:adae9fc4370cbb4fae39b355f4b908c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51baeabee191a80f9c0a7b674fe70d26"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a51baeabee191a80f9c0a7b674fe70d26">getPrefixes</a> ()</td></tr>
+<tr class="separator:a51baeabee191a80f9c0a7b674fe70d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a293f43c730ff2e615323c76d69e5bb24"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a293f43c730ff2e615323c76d69e5bb24">getNamespaces</a> ()</td></tr>
+<tr class="separator:a293f43c730ff2e615323c76d69e5bb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9751322b567dc60707ee6e916b085be"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#ab9751322b567dc60707ee6e916b085be">getPrefixNamespaceMap</a> ()</td></tr>
+<tr class="separator:ab9751322b567dc60707ee6e916b085be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a825e80aae44062ee91041c6965ffb714"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a825e80aae44062ee91041c6965ffb714">getDefaultPrefix</a> ()</td></tr>
+<tr class="separator:a825e80aae44062ee91041c6965ffb714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University Of Manchester<br/>
+ Medical Informatics Group<br/>
+ Date: 30-May-2006<br/>
+<br/>
+ </p>
+<p><a href="#" onclick="location.href='mai'+'lto:'+'mat'+'th'+'ew.'+'ho'+'rri'+'dg'+'e@c'+'s.'+'man'+'.a'+'c.u'+'k'; return false;">matth<span style="display: none;">.nosp@m.</span>ew.h<span style="display: none;">.nosp@m.</span>orrid<span style="display: none;">.nosp@m.</span>ge@c<span style="display: none;">.nosp@m.</span>s.man<span style="display: none;">.nosp@m.</span>.ac.<span style="display: none;">.nosp@m.</span>uk</a><br/>
+ www.cs.man.ac.uk/~horridgm<br/>
+<br/>
+ Developed as part of the CO-ODE project <a href="http://www.co-ode.org">http://www.co-ode.org</a> </p>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00059">59</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ab5e0f228da5825cf527496657fb8598d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.xml.XMLWriterNamespaceManager.XMLWriterNamespaceManager </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>defaultNamespace</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00070">70</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                              {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        prefixNamespaceMap = <span class="keyword">new</span> HashMap&lt;String, String&gt;();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        namespacePrefixMap = <span class="keyword">new</span> HashMap&lt;String, String&gt;();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        wellknownNamespaces = <span class="keyword">new</span> HashMap&lt;String, String&gt;();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        this.defaultNamespace = defaultNamespace;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a9334edb298a313772d3538c0929d8b0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriterNamespaceManager.addWellKnownNamespace </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>namespace</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00077">77</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        wellknownNamespaces.put(prefix, <span class="keyword">namespace</span>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a14c5ec0a0a147bc43c4e49bdcf8f3e76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriterNamespaceManager.createPrefixForNamespace </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>namespace</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00120">120</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                           {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">if</span> (<span class="keyword">namespace</span>.equals(defaultNamespace)) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">if</span> (wellknownNamespaces.containsKey(<span class="keyword">namespace</span>)) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <a class="code" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a8be4144f9d23484e8590b25c0f3523fd">setPrefix</a>(wellknownNamespaces.get(<span class="keyword">namespace</span>), <span class="keyword">namespace</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">if</span> (!namespacePrefixMap.containsKey(<span class="keyword">namespace</span>)) {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordtype">int</span> counter = 1;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="keywordflow">while</span> (prefixNamespaceMap.get(<span class="stringliteral">&quot;p&quot;</span> + counter) != null) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                counter++;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <a class="code" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a8be4144f9d23484e8590b25c0f3523fd">setPrefix</a>(<span class="stringliteral">&quot;p&quot;</span> + counter, <span class="keyword">namespace</span>);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="ttc" id="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager_html_a8be4144f9d23484e8590b25c0f3523fd"><div class="ttname"><a href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html#a8be4144f9d23484e8590b25c0f3523fd">org.coode.xml.XMLWriterNamespaceManager.setPrefix</a></div><div class="ttdeci">void setPrefix(String prefix, String namespace)</div><div class="ttdef"><b>Definition:</b> <a href="_x_m_l_writer_namespace_manager_8java_source.html#l00081">XMLWriterNamespaceManager.java:81</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adae9fc4370cbb4fae39b355f4b908c85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriterNamespaceManager.getDefaultNamespace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00137">137</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                        {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> defaultNamespace;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a825e80aae44062ee91041c6965ffb714"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriterNamespaceManager.getDefaultPrefix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Search for a prefix other than "" for the default namespace </p>
+<dl class="section return"><dt>Devuelve</dt><dd>the first prefix found for the default namespace that is not "" </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00161">161</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                     {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">for</span> (String prefix : prefixNamespaceMap.keySet()) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordflow">if</span> (!prefix.equals(<span class="stringliteral">&quot;&quot;</span>)) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="comment">// if the default has a blank entry then skip it</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keyword">final</span> String ns = prefixNamespaceMap.get(prefix);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <span class="keywordflow">if</span> (ns.equals(defaultNamespace)) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                    <span class="keywordflow">return</span> prefix;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad2dacccd3f64648bd8fbb5a3fb3c638b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriterNamespaceManager.getNamespaceForPrefix </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00096">96</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                       {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> prefixNamespaceMap.get(prefix);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a293f43c730ff2e615323c76d69e5bb24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; org.coode.xml.XMLWriterNamespaceManager.getNamespaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00147">147</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                       {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> HashSet&lt;String&gt;(namespacePrefixMap.keySet());</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a51baeabee191a80f9c0a7b674fe70d26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; org.coode.xml.XMLWriterNamespaceManager.getPrefixes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00142">142</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                     {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> HashSet&lt;String&gt;(prefixNamespaceMap.keySet());</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb72290106c0c465d35a595a68953d89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriterNamespaceManager.getPrefixForNamespace </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>namespace</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00087">87</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                          {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> namespacePrefixMap.get(<span class="keyword">namespace</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab9751322b567dc60707ee6e916b085be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String, String&gt; org.coode.xml.XMLWriterNamespaceManager.getPrefixNamespaceMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00152">152</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                       {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> HashMap&lt;String, String&gt;(prefixNamespaceMap);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abbd6067bf53651befe1b5d1454bc4854"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.xml.XMLWriterNamespaceManager.getQName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a QName for a full URI.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name which represents the full name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The QName representation or <code>null</code> if a QName could not be generated. </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00106">106</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                        {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (name.startsWith(defaultNamespace)) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> name.substring(defaultNamespace.length(), name.length());</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">for</span> (String ns : namespacePrefixMap.keySet()) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordflow">if</span> (name.startsWith(ns)) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                String localName = name.substring(ns.length(), name.length());</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="keywordflow">return</span> namespacePrefixMap.get(ns) + <span class="stringliteral">&quot;:&quot;</span> + localName;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> name;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a676c5a44d6b423f4796642dfd698ebb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriterNamespaceManager.setDefaultNamespace </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>namespace</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00091">91</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                      {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        defaultNamespace = <span class="keyword">namespace</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8be4144f9d23484e8590b25c0f3523fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.xml.XMLWriterNamespaceManager.setPrefix </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>namespace</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html#l00081">81</a> del archivo <a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                           {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        prefixNamespaceMap.put(prefix, <span class="keyword">namespace</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        namespacePrefixMap.put(<span class="keyword">namespace</span>, prefix);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/xml/<a class="el" href="_x_m_l_writer_namespace_manager_8java_source.html">XMLWriterNamespaceManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1xml.html">xml</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1xml_1_1_x_m_l_writer_namespace_manager.html">XMLWriterNamespaceManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:54 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

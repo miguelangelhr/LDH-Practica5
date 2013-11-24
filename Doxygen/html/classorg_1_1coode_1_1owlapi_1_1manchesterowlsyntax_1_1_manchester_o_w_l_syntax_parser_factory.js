@@ -1,0 +1,4 @@
+var classorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax_parser_factory =
+[
+    [ "createParser", "classorg_1_1coode_1_1owlapi_1_1manchesterowlsyntax_1_1_manchester_o_w_l_syntax_parser_factory.html#a89d2b8a59b1770e6fa461f85305c7da5", null ]
+];

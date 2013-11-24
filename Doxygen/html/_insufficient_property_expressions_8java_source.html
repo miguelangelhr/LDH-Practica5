@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Fichero Fuente api/src/main/java/org/semanticweb/owlapi/profiles/InsufficientPropertyExpressions.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_insufficient_property_expressions_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">InsufficientPropertyExpressions.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_insufficient_property_expressions_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>org.semanticweb.owlapi.profiles;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a>;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">import</span> <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;@SuppressWarnings(<span class="stringliteral">&quot;javadoc&quot;</span>)</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html">    6</a></span>&#160;public class <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html">InsufficientPropertyExpressions</a> extends <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l_profile_violation.html">OWLProfileViolation</a> implements</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation.html">OWL2DLProfileViolation</a>, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation.html">OWL2ELProfileViolation</a>, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation.html">OWL2ProfileViolation</a>,</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation.html">OWL2QLProfileViolation</a>, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation.html">OWL2RLProfileViolation</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9f43fe5091d4be9894e762b18ae125e8">    9</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9f43fe5091d4be9894e762b18ae125e8">InsufficientPropertyExpressions</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">OWLOntology</a> ontology, <a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">OWLAxiom</a> axiom) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        super(ontology, axiom);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    @Override</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a5ad1b464cd9c8a2e9e916e03a45f770e">   14</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a5ad1b464cd9c8a2e9e916e03a45f770e">toString</a>() {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        sb.append(<span class="stringliteral">&quot;Not enough property expressions; at least two needed: &quot;</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        sb.append(getAxiom());</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    @Override</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#ae4b980fa27b02ccf70b3c8e7e65f6241">   22</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#ae4b980fa27b02ccf70b3c8e7e65f6241">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation_visitor.html">OWL2RLProfileViolationVisitor</a> visitor) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    @Override</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9a836675ca7fdc83eb1ed7379684a001">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9a836675ca7fdc83eb1ed7379684a001">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation_visitor.html">OWL2QLProfileViolationVisitor</a> visitor) {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    @Override</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a84b451fef2397f211e2b8fb95695edcb">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a84b451fef2397f211e2b8fb95695edcb">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation_visitor.html">OWL2ProfileViolationVisitor</a> visitor) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    @Override</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a46f4d0da88775a056908eb490054fc55">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a46f4d0da88775a056908eb490054fc55">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation_visitor.html">OWL2ELProfileViolationVisitor</a> visitor) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    @Override</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a19e172fc34dc452b905a902f0917b069">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a19e172fc34dc452b905a902f0917b069">accept</a>(<a class="code" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html">OWL2DLProfileViolationVisitor</a> visitor) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        visitor.visit(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a46f4d0da88775a056908eb490054fc55"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a46f4d0da88775a056908eb490054fc55">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.accept</a></div><div class="ttdeci">void accept(OWL2ELProfileViolationVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00037">InsufficientPropertyExpressions.java:37</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_ontology.html">org.semanticweb.owlapi.model.OWLOntology</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_ontology_8java_source.html#l00059">OWLOntology.java:59</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a5ad1b464cd9c8a2e9e916e03a45f770e"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a5ad1b464cd9c8a2e9e916e03a45f770e">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00014">InsufficientPropertyExpressions.java:14</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a9f43fe5091d4be9894e762b18ae125e8"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9f43fe5091d4be9894e762b18ae125e8">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.InsufficientPropertyExpressions</a></div><div class="ttdeci">InsufficientPropertyExpressions(OWLOntology ontology, OWLAxiom axiom)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00009">InsufficientPropertyExpressions.java:9</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_axiom.html">org.semanticweb.owlapi.model.OWLAxiom</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_axiom_8java_source.html#l00056">OWLAxiom.java:56</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation.html">org.semanticweb.owlapi.profiles.OWL2ProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_profile_violation_8java_source.html#l00047">OWL2ProfileViolation.java:47</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a84b451fef2397f211e2b8fb95695edcb"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a84b451fef2397f211e2b8fb95695edcb">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.accept</a></div><div class="ttdeci">void accept(OWL2ProfileViolationVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00032">InsufficientPropertyExpressions.java:32</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_profile_violation_visitor.html">org.semanticweb.owlapi.profiles.OWL2ProfileViolationVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_profile_violation_visitor_8java_source.html#l00048">OWL2ProfileViolationVisitor.java:48</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation.html">org.semanticweb.owlapi.profiles.OWL2RLProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_r_l_profile_violation_8java_source.html#l00047">OWL2RLProfileViolation.java:47</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html">org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_d_l_profile_violation_visitor_8java_source.html#l00048">OWL2DLProfileViolationVisitor.java:48</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation.html">org.semanticweb.owlapi.profiles.OWL2DLProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_d_l_profile_violation_8java_source.html#l00047">OWL2DLProfileViolation.java:47</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation.html">org.semanticweb.owlapi.profiles.OWL2ELProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_e_l_profile_violation_8java_source.html#l00047">OWL2ELProfileViolation.java:47</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a9a836675ca7fdc83eb1ed7379684a001"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a9a836675ca7fdc83eb1ed7379684a001">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.accept</a></div><div class="ttdeci">void accept(OWL2QLProfileViolationVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00027">InsufficientPropertyExpressions.java:27</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_r_l_profile_violation_visitor.html">org.semanticweb.owlapi.profiles.OWL2RLProfileViolationVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_r_l_profile_violation_visitor_8java_source.html#l00048">OWL2RLProfileViolationVisitor.java:48</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions</a></div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00006">InsufficientPropertyExpressions.java:6</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation.html">org.semanticweb.owlapi.profiles.OWL2QLProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_q_l_profile_violation_8java_source.html#l00047">OWL2QLProfileViolation.java:47</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_ae4b980fa27b02ccf70b3c8e7e65f6241"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#ae4b980fa27b02ccf70b3c8e7e65f6241">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.accept</a></div><div class="ttdeci">void accept(OWL2RLProfileViolationVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00022">InsufficientPropertyExpressions.java:22</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_q_l_profile_violation_visitor.html">org.semanticweb.owlapi.profiles.OWL2QLProfileViolationVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_q_l_profile_violation_visitor_8java_source.html#l00048">OWL2QLProfileViolationVisitor.java:48</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions_html_a19e172fc34dc452b905a902f0917b069"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html#a19e172fc34dc452b905a902f0917b069">org.semanticweb.owlapi.profiles.InsufficientPropertyExpressions.accept</a></div><div class="ttdeci">void accept(OWL2DLProfileViolationVisitor visitor)</div><div class="ttdef"><b>Definition:</b> <a href="_insufficient_property_expressions_8java_source.html#l00042">InsufficientPropertyExpressions.java:42</a></div></div>
+<div class="ttc" id="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l_profile_violation_html"><div class="ttname"><a href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l_profile_violation.html">org.semanticweb.owlapi.profiles.OWLProfileViolation</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l_profile_violation_8java_source.html#l00061">OWLProfileViolation.java:61</a></div></div>
+<div class="ttc" id="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation_visitor_html"><div class="ttname"><a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_e_l_profile_violation_visitor.html">org.semanticweb.owlapi.profiles.OWL2ELProfileViolationVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_o_w_l2_e_l_profile_violation_visitor_8java_source.html#l00048">OWL2ELProfileViolationVisitor.java:48</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0188a3e6da905bc60aceb35bf790b8c9.html">api</a></li><li class="navelem"><a class="el" href="dir_6be4c07e098dacc91071118ce4f28ca8.html">src</a></li><li class="navelem"><a class="el" href="dir_547d63a3cec94ae450cdf3309d9ddef3.html">main</a></li><li class="navelem"><a class="el" href="dir_3703c16f877febd6431675ce9524843f.html">java</a></li><li class="navelem"><a class="el" href="dir_246b55c4c7c1da5079dc18fa8d031122.html">org</a></li><li class="navelem"><a class="el" href="dir_e4f63c8ab529c9323f647680ad3254a5.html">semanticweb</a></li><li class="navelem"><a class="el" href="dir_7cc213270f0a4de97fd98257d57873d5.html">owlapi</a></li><li class="navelem"><a class="el" href="dir_af9d5f0e6e49de44921765de17f35f6d.html">profiles</a></li><li class="navelem"><a class="el" href="_insufficient_property_expressions_8java.html">InsufficientPropertyExpressions.java</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:08:50 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom_set_short_cut =
+[
+    [ "asOWLSubClassOfAxioms", "interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_sub_class_of_axiom_set_short_cut.html#ab706efcec77b528cb56c498d82fd798a", null ]
+];

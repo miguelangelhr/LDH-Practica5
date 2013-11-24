@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Clase org.coode.owlapi.functionalparser.SimpleNode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.coode.owlapi.functionalparser.SimpleNode</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">org.coode.owlapi.functionalparser.Node</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2eda3c1d9cdec2f7f810ba84befb7093"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2eda3c1d9cdec2f7f810ba84befb7093">SimpleNode</a> (int i)</td></tr>
+<tr class="separator:a2eda3c1d9cdec2f7f810ba84befb7093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bda820e89e0122819fb6cef67b276e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a4bda820e89e0122819fb6cef67b276e6">SimpleNode</a> (<a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a> p, int i)</td></tr>
+<tr class="separator:a4bda820e89e0122819fb6cef67b276e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0df8144461c987e6854dc74ee311f975"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0df8144461c987e6854dc74ee311f975">jjtOpen</a> ()</td></tr>
+<tr class="separator:a0df8144461c987e6854dc74ee311f975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ae67146eee0d87dc40e4f63cb5557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a404ae67146eee0d87dc40e4f63cb5557">jjtClose</a> ()</td></tr>
+<tr class="separator:a404ae67146eee0d87dc40e4f63cb5557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4b2eeea233b9499821cbee7a397225"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2d4b2eeea233b9499821cbee7a397225">jjtSetParent</a> (<a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> n)</td></tr>
+<tr class="separator:a2d4b2eeea233b9499821cbee7a397225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80252297a0dcd44ceacb9e8e6be93703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a80252297a0dcd44ceacb9e8e6be93703">jjtGetParent</a> ()</td></tr>
+<tr class="separator:a80252297a0dcd44ceacb9e8e6be93703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2c18089f36f5b2205e3afadca1358a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#abd2c18089f36f5b2205e3afadca1358a">jjtAddChild</a> (<a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> n, int i)</td></tr>
+<tr class="separator:abd2c18089f36f5b2205e3afadca1358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c003a260db40acee52cf7e6d95e80c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a5c003a260db40acee52cf7e6d95e80c9">jjtGetChild</a> (int i)</td></tr>
+<tr class="separator:a5c003a260db40acee52cf7e6d95e80c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f706627ae860eab66f69c0663de0d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a49f706627ae860eab66f69c0663de0d7">jjtGetNumChildren</a> ()</td></tr>
+<tr class="separator:a49f706627ae860eab66f69c0663de0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085ba1f7b2ccae4c0f2521cb2de6a336"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a085ba1f7b2ccae4c0f2521cb2de6a336">jjtSetValue</a> (Object value1)</td></tr>
+<tr class="separator:a085ba1f7b2ccae4c0f2521cb2de6a336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78d7836070cc1bebf5bae2e8883e541"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ac78d7836070cc1bebf5bae2e8883e541">jjtGetValue</a> ()</td></tr>
+<tr class="separator:ac78d7836070cc1bebf5bae2e8883e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a624dd3fa8833d0b6e48786f28ce78d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0a624dd3fa8833d0b6e48786f28ce78d">toString</a> ()</td></tr>
+<tr class="separator:a0a624dd3fa8833d0b6e48786f28ce78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a352d3ea5207390b65b3752672fda7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a12a352d3ea5207390b65b3752672fda7">toString</a> (String prefix)</td></tr>
+<tr class="separator:a12a352d3ea5207390b65b3752672fda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ef4f72061bfee41ad9f836b140a987"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a16ef4f72061bfee41ad9f836b140a987">dump</a> (String prefix)</td></tr>
+<tr class="separator:a16ef4f72061bfee41ad9f836b140a987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:ab29a162e4e38c03c0d2d3615e03a97a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ab29a162e4e38c03c0d2d3615e03a97a8">parent</a></td></tr>
+<tr class="separator:ab29a162e4e38c03c0d2d3615e03a97a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f80912045f02cf01388a26bb017c2a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a></td></tr>
+<tr class="separator:a1f80912045f02cf01388a26bb017c2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af322a55333b9f757d861eab30daeacd7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#af322a55333b9f757d861eab30daeacd7">id</a></td></tr>
+<tr class="separator:af322a55333b9f757d861eab30daeacd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c20487ca5a547dda0bfebb8440c4d55"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2c20487ca5a547dda0bfebb8440c4d55">value</a></td></tr>
+<tr class="separator:a2c20487ca5a547dda0bfebb8440c4d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb857f4144c33258fd1a2c2efad58e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#abcb857f4144c33258fd1a2c2efad58e3">parser</a></td></tr>
+<tr class="separator:abcb857f4144c33258fd1a2c2efad58e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock">
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00045">45</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a2eda3c1d9cdec2f7f810ba84befb7093"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.functionalparser.SimpleNode.SimpleNode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00053">53</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                           {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">id</span> = i;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4bda820e89e0122819fb6cef67b276e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.coode.owlapi.functionalparser.SimpleNode.SimpleNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00057">57</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                        {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">this</span>(i);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#abcb857f4144c33258fd1a2c2efad58e3">parser</a> = p;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_abcb857f4144c33258fd1a2c2efad58e3"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#abcb857f4144c33258fd1a2c2efad58e3">org.coode.owlapi.functionalparser.SimpleNode.parser</a></div><div class="ttdeci">OWLFunctionalSyntaxParser parser</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00051">SimpleNode.java:51</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a16ef4f72061bfee41ad9f836b140a987"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.dump </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00113">113</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                  {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    System.out.println(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0a624dd3fa8833d0b6e48786f28ce78d">toString</a>(prefix));</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a> != null) {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; children.length; ++i) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2eda3c1d9cdec2f7f810ba84befb7093">SimpleNode</a> n = (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2eda3c1d9cdec2f7f810ba84befb7093">SimpleNode</a>)<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a>[i];</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (n != null) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;          n.dump(prefix + <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a0a624dd3fa8833d0b6e48786f28ce78d"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0a624dd3fa8833d0b6e48786f28ce78d">org.coode.owlapi.functionalparser.SimpleNode.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00107">SimpleNode.java:107</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a2eda3c1d9cdec2f7f810ba84befb7093"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2eda3c1d9cdec2f7f810ba84befb7093">org.coode.owlapi.functionalparser.SimpleNode.SimpleNode</a></div><div class="ttdeci">SimpleNode(int i)</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00053">SimpleNode.java:53</a></div></div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a1f80912045f02cf01388a26bb017c2a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">org.coode.owlapi.functionalparser.SimpleNode.children</a></div><div class="ttdeci">Node[] children</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00048">SimpleNode.java:48</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abd2c18089f36f5b2205e3afadca1358a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.jjtAddChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method tells the node to add its argument to the node's list of children. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a2db51307e3f1917e5983e41644195494">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00076">76</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                       {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a> == null) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a> = <span class="keyword">new</span> Node[i + 1];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (i &gt;= <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a>.length) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      Node c[] = <span class="keyword">new</span> Node[i + 1];</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      System.arraycopy(<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a>, 0, c, 0, children.length);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      children = c;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a>[i] = n;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a1f80912045f02cf01388a26bb017c2a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">org.coode.owlapi.functionalparser.SimpleNode.children</a></div><div class="ttdeci">Node[] children</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00048">SimpleNode.java:48</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a404ae67146eee0d87dc40e4f63cb5557"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.jjtClose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is called after all the child nodes have been added. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a9e6407e4233f1d4c384b05cd0af8b44e">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00067">67</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                       {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c003a260db40acee52cf7e6d95e80c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> org.coode.owlapi.functionalparser.SimpleNode.jjtGetChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method returns a child node. The children are numbered from zero, left to right. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a87afd618c6b7b9d23885df3daa43555b">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00088">88</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                               {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a>[i];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a1f80912045f02cf01388a26bb017c2a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">org.coode.owlapi.functionalparser.SimpleNode.children</a></div><div class="ttdeci">Node[] children</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00048">SimpleNode.java:48</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a49f706627ae860eab66f69c0663de0d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.coode.owlapi.functionalparser.SimpleNode.jjtGetNumChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the number of children the node has. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a0e374990663daf54b825a2be5c456041">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00093">93</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                               {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">children</a> == null) ? 0 : children.length;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a1f80912045f02cf01388a26bb017c2a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a1f80912045f02cf01388a26bb017c2a8">org.coode.owlapi.functionalparser.SimpleNode.children</a></div><div class="ttdeci">Node[] children</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00048">SimpleNode.java:48</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a80252297a0dcd44ceacb9e8e6be93703"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> org.coode.owlapi.functionalparser.SimpleNode.jjtGetParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a8f07188703e027fed8ffa2ec1fa8b429">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00073">73</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ab29a162e4e38c03c0d2d3615e03a97a8">parent</a>; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_ab29a162e4e38c03c0d2d3615e03a97a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ab29a162e4e38c03c0d2d3615e03a97a8">org.coode.owlapi.functionalparser.SimpleNode.parent</a></div><div class="ttdeci">Node parent</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00047">SimpleNode.java:47</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac78d7836070cc1bebf5bae2e8883e541"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.coode.owlapi.functionalparser.SimpleNode.jjtGetValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00098">98</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2c20487ca5a547dda0bfebb8440c4d55">value</a>; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a2c20487ca5a547dda0bfebb8440c4d55"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a2c20487ca5a547dda0bfebb8440c4d55">org.coode.owlapi.functionalparser.SimpleNode.value</a></div><div class="ttdeci">Object value</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00050">SimpleNode.java:50</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0df8144461c987e6854dc74ee311f975"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.jjtOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is called after the node has been made the current node. It indicates that child nodes can now be added to it. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#a0037ea7795f7fe451b99917db9bac6b6">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00063">63</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                      {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2d4b2eeea233b9499821cbee7a397225"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.jjtSetParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This pair of methods are used to inform the node of its parent. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html#aa5a1ec62f2991da3e41beada48c3f99e">org.coode.owlapi.functionalparser.Node</a>.</p>
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00071">71</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{ <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ab29a162e4e38c03c0d2d3615e03a97a8">parent</a> = n; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_ab29a162e4e38c03c0d2d3615e03a97a8"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#ab29a162e4e38c03c0d2d3615e03a97a8">org.coode.owlapi.functionalparser.SimpleNode.parent</a></div><div class="ttdeci">Node parent</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00047">SimpleNode.java:47</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a085ba1f7b2ccae4c0f2521cb2de6a336"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.coode.owlapi.functionalparser.SimpleNode.jjtSetValue </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>value1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00097">97</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{ this.value = value1; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a624dd3fa8833d0b6e48786f28ce78d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.functionalparser.SimpleNode.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00107">107</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{ <span class="keywordflow">return</span> OWLFunctionalSyntaxParserTreeConstants.jjtNodeName[<a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#af322a55333b9f757d861eab30daeacd7">id</a>]; }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_af322a55333b9f757d861eab30daeacd7"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#af322a55333b9f757d861eab30daeacd7">org.coode.owlapi.functionalparser.SimpleNode.id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00049">SimpleNode.java:49</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a12a352d3ea5207390b65b3752672fda7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.coode.owlapi.functionalparser.SimpleNode.toString </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00108">108</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{ <span class="keywordflow">return</span> prefix + <a class="code" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0a624dd3fa8833d0b6e48786f28ce78d">toString</a>(); }</div>
+<div class="ttc" id="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node_html_a0a624dd3fa8833d0b6e48786f28ce78d"><div class="ttname"><a href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html#a0a624dd3fa8833d0b6e48786f28ce78d">org.coode.owlapi.functionalparser.SimpleNode.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_simple_node_8java_source.html#l00107">SimpleNode.java:107</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a1f80912045f02cf01388a26bb017c2a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> [] org.coode.owlapi.functionalparser.SimpleNode.children</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00048">48</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af322a55333b9f757d861eab30daeacd7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.coode.owlapi.functionalparser.SimpleNode.id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00049">49</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab29a162e4e38c03c0d2d3615e03a97a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_node.html">Node</a> org.coode.owlapi.functionalparser.SimpleNode.parent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00047">47</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcb857f4144c33258fd1a2c2efad58e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_o_w_l_functional_syntax_parser.html">OWLFunctionalSyntaxParser</a> org.coode.owlapi.functionalparser.SimpleNode.parser</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00051">51</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c20487ca5a547dda0bfebb8440c4d55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.coode.owlapi.functionalparser.SimpleNode.value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definición en la línea <a class="el" href="_simple_node_8java_source.html#l00050">50</a> del archivo <a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>parsers/src/main/java/org/coode/owlapi/functionalparser/<a class="el" href="_simple_node_8java_source.html">SimpleNode.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode.html">coode</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1coode_1_1owlapi_1_1functionalparser.html">functionalparser</a></li><li class="navelem"><a class="el" href="classorg_1_1coode_1_1owlapi_1_1functionalparser_1_1_simple_node.html">SimpleNode</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:09:40 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_declaration_entity_references_test_case =
+[
+    [ "testOWLClassDeclarationAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_declaration_entity_references_test_case.html#a9601a98766e3af0a1801a11038b3204d", null ],
+    [ "testOWLDataPropertyDeclarationAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_declaration_entity_references_test_case.html#a88c67568f51fc23da8e4a795704797ca", null ],
+    [ "testOWLIndividualDeclarationAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_declaration_entity_references_test_case.html#acf3ba47b8a1fea3aae7d47e93c3df9ff", null ],
+    [ "testOWLObjectPropertyDeclarationAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1axioms_1_1_declaration_entity_references_test_case.html#a8f834245b544b6f024b40d9066bd412a", null ]
+];

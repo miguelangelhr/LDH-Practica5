@@ -1,0 +1,7 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_domain_axiom_impl_3_01_p_0da3f17a1850e78bb831621c892c6c34a =
+[
+    [ "OWLPropertyDomainAxiomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_domain_axiom_impl_3_01_p_0da3f17a1850e78bb831621c892c6c34a.html#ac587ca0184c2ebf0efa004d2e8b2c771", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_domain_axiom_impl_3_01_p_0da3f17a1850e78bb831621c892c6c34a.html#ab5cb86c9e5e72fc7c727a0c24c316106", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_domain_axiom_impl_3_01_p_0da3f17a1850e78bb831621c892c6c34a.html#ae22b098e450e4ab4081b538d0988916f", null ],
+    [ "getDomain", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_property_domain_axiom_impl_3_01_p_0da3f17a1850e78bb831621c892c6c34a.html#aa97d60e7da0e6b0bb5b2eff3690b0a00", null ]
+];

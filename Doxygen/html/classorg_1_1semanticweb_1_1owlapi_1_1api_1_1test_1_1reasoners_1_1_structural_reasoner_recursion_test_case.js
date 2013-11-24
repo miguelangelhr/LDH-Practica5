@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_recursion_test_case =
+[
+    [ "getFileName", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_recursion_test_case.html#a165e5cb0572b9567db162352dae4d27d", null ],
+    [ "testRecusion", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1reasoners_1_1_structural_reasoner_recursion_test_case.html#a17d6d2b9422c48807ba1857b422483d7", null ]
+];

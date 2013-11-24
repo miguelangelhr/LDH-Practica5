@@ -1,0 +1,7 @@
+var namespacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality =
+[
+    [ "LocalityClass", "enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class.html", "enumcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_class" ],
+    [ "LocalityEvaluator", "interfacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_evaluator.html", "interfacecom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_locality_evaluator" ],
+    [ "SemanticLocalityEvaluator", "classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_semantic_locality_evaluator.html", "classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_semantic_locality_evaluator" ],
+    [ "SyntacticLocalityEvaluator", "classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator.html", "classcom_1_1clarkparsia_1_1owlapi_1_1modularity_1_1locality_1_1_syntactic_locality_evaluator" ]
+];

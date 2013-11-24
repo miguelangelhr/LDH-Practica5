@@ -1,0 +1,8 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d =
+[
+    [ "OWLSubPropertyAxiomImpl", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d.html#a32dfd32a6a24641a0208ba5ceea039e4", null ],
+    [ "compareObjectOfSameType", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d.html#af7c79dbc7612da1cebc4cf103164296f", null ],
+    [ "equals", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d.html#a33f3b0adb31c7e017dfedf0c1d11d988", null ],
+    [ "getSubProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d.html#ac9745023d94461a7adb1b1a31887b953", null ],
+    [ "getSuperProperty", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_sub_property_axiom_impl_3_01_p_01ex22572232b03223b699ed74a4771c1e6d.html#af5e406eecb768f04b51994c839bc2bfd", null ]
+];

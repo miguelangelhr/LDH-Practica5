@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ac3f77f87a1587e328883ca419e3d0471"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#ac3f77f87a1587e328883ca419e3d0471">getOWLClass</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:ac3f77f87a1587e328883ca419e3d0471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff4ae6752839f402495e0a05f72deb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a4ff4ae6752839f402495e0a05f72deb9">purge</a> ()</td></tr>
+<tr class="separator:a4ff4ae6752839f402495e0a05f72deb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5de6e47703fe9b8c1cfdf3437e7068c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#ae5de6e47703fe9b8c1cfdf3437e7068c">getOWLObjectProperty</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:ae5de6e47703fe9b8c1cfdf3437e7068c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a626cfd19bab462650f572bd4c4d5cf19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a626cfd19bab462650f572bd4c4d5cf19">getOWLDataProperty</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a626cfd19bab462650f572bd4c4d5cf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23cf0f25e75180674aa5bb687d7817c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a23cf0f25e75180674aa5bb687d7817c2">getOWLNamedIndividual</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a23cf0f25e75180674aa5bb687d7817c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af631051f5b94ff717c7ecbb0a594a723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#af631051f5b94ff717c7ecbb0a594a723">getOWLDatatype</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:af631051f5b94ff717c7ecbb0a594a723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74bcea742ce0ff191ee8baf235912669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a74bcea742ce0ff191ee8baf235912669">getOWLAnnotationProperty</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a> iri)</td></tr>
+<tr class="separator:a74bcea742ce0ff191ee8baf235912669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292da161fb87136be3f5dd1e203e7c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a292da161fb87136be3f5dd1e203e7c5a">getOWLLiteral</a> (String lexicalValue, <a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> datatype)</td></tr>
+<tr class="separator:a292da161fb87136be3f5dd1e203e7c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa559051e25b8176adbbc67981d07719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#afa559051e25b8176adbbc67981d07719">getOWLLiteral</a> (int value)</td></tr>
+<tr class="separator:afa559051e25b8176adbbc67981d07719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ed5ba8c603f060610282766f887094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#ab1ed5ba8c603f060610282766f887094">getOWLLiteral</a> (boolean value)</td></tr>
+<tr class="separator:ab1ed5ba8c603f060610282766f887094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac564c647b24799800a9194c1a888126f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#ac564c647b24799800a9194c1a888126f">getOWLLiteral</a> (double value)</td></tr>
+<tr class="separator:ac564c647b24799800a9194c1a888126f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baeb8c5738da59a2106c2a4d5babcac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a0baeb8c5738da59a2106c2a4d5babcac">getOWLLiteral</a> (float value)</td></tr>
+<tr class="separator:a0baeb8c5738da59a2106c2a4d5babcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bbd6d50a6614e4c45b686cb0b9ffd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#ab5bbd6d50a6614e4c45b686cb0b9ffd0">getOWLLiteral</a> (String value)</td></tr>
+<tr class="separator:ab5bbd6d50a6614e4c45b686cb0b9ffd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac80fd2a9f6475a491faab19ca7f49c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a6ac80fd2a9f6475a491faab19ca7f49c">getOWLLiteral</a> (String literal, String lang)</td></tr>
+<tr class="separator:a6ac80fd2a9f6475a491faab19ca7f49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89825758d3e4e82b9f47696f7f321da0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a89825758d3e4e82b9f47696f7f321da0">getTopDatatype</a> ()</td></tr>
+<tr class="separator:a89825758d3e4e82b9f47696f7f321da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec67b8f7bf49e1825e0891254c98d32a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#aec67b8f7bf49e1825e0891254c98d32a">getIntegerOWLDatatype</a> ()</td></tr>
+<tr class="separator:aec67b8f7bf49e1825e0891254c98d32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0509d4b2078e1d9e31bad686e68fa81d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a0509d4b2078e1d9e31bad686e68fa81d">getFloatOWLDatatype</a> ()</td></tr>
+<tr class="separator:a0509d4b2078e1d9e31bad686e68fa81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975b82c4d3ec139239443b9083f91607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a975b82c4d3ec139239443b9083f91607">getDoubleOWLDatatype</a> ()</td></tr>
+<tr class="separator:a975b82c4d3ec139239443b9083f91607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428fbde8ac0f743d8d8aac20d58225bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a428fbde8ac0f743d8d8aac20d58225bd">getBooleanOWLDatatype</a> ()</td></tr>
+<tr class="separator:a428fbde8ac0f743d8d8aac20d58225bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb89efab4ef575737dc49a0d05dc545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html#a0cb89efab4ef575737dc49a0d05dc545">getRDFPlainLiteral</a> ()</td></tr>
+<tr class="separator:a0cb89efab4ef575737dc49a0d05dc545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>ignazio <pre class="fragment">    Mutable state in an OWLDataFactory is encapsulated by this interface</pre> </dd></dl>
+
+<p>Definición en la línea <a class="el" href="_o_w_l_data_factory_internals_8java_source.html#l00055">55</a> del archivo <a class="el" href="_o_w_l_data_factory_internals_8java_source.html">OWLDataFactoryInternals.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a428fbde8ac0f743d8d8aac20d58225bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getBooleanOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>boolean datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a0c6fe78b1a0e5ad4e524d5d85d63e9f5">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a975b82c4d3ec139239443b9083f91607"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getDoubleOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>double datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a3148b4e7ff80bc8838cce1aaf3698b14">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0509d4b2078e1d9e31bad686e68fa81d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getFloatOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>float datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a55046403c443b3c770dd621df9e51c2f">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec67b8f7bf49e1825e0891254c98d32a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getIntegerOWLDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>integer datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#ab8385aeaf06d0118c8a434176632f94a">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74bcea742ce0ff191ee8baf235912669"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_annotation_property.html">OWLAnnotationProperty</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLAnnotationProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new OWLAnnotationProperty IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLAnnotationProperty object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#ad1cc4802c8263c6cd9157036c99b83fc">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#aff230d3a47e2b170ebc91ba987fb283a">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3f77f87a1587e328883ca419e3d0471"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_class.html">OWLClass</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLClass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new class IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLClass object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a7da1ee51ca2d3119c569c4bc300d463a">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a65092933c73f66111f78cae77fe75487">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a626cfd19bab462650f572bd4c4d5cf19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_data_property.html">OWLDataProperty</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLDataProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new OWLDataProperty IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLDataProperty object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a647a970005c621560a0d5e0f91e1dbfa">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a112d655c072e5ed49e8dfbdf935650a5">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af631051f5b94ff717c7ecbb0a594a723"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLDatatype </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new OWLDatatype IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLDatatype object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a93b5728d39f353784e139de97d1c7842">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a1f9dcdff1c9df36ebfa3ef679ddde88e">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a292da161fb87136be3f5dd1e203e7c5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lexicalValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a>&#160;</td>
+          <td class="paramname"><em>datatype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lexicalValue</td><td></td></tr>
+    <tr><td class="paramname">datatype</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a567aa18a6a94428581aa2e41ad8c0296">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a9336b73289b81bcf077fe095ba60f904">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afa559051e25b8176adbbc67981d07719"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a4859a53aefa269aa8266d8d70ee20101">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a202f8cfed7fe800a478014996380ff3e">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1ed5ba8c603f060610282766f887094"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a413b5607b18fc35c8ab4060f6ac28164">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac564c647b24799800a9194c1a888126f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a8d0aae9094f8eb26ec0a26992270432d">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a86457e7f4ac8eb736024f101ce5ca36c">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0baeb8c5738da59a2106c2a4d5babcac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a2d0d8878a9e7ade00054a3a7a66b7152">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a6bd52a101511ad494f5e81b39c2684f2">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5bbd6d50a6614e4c45b686cb0b9ffd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a0903d03d69f9519fb0716b6d303b999d">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a887403bae79fc52a3ceb1ea14f0e92b5">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ac80fd2a9f6475a491faab19ca7f49c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_literal.html">OWLLiteral</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLLiteral </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>literal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>lang</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">literal</td><td></td></tr>
+    <tr><td class="paramname">lang</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new literal </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a670d3adc28ecbba585f85275e27f161a">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a23cf0f25e75180674aa5bb687d7817c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_named_individual.html">OWLNamedIndividual</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLNamedIndividual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new OWLNamedIndividual IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLNamedIndividual object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a5ad1333bb39724e2e749b282a540acb9">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#a46786e064e4c352c651d337fe56871ef">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5de6e47703fe9b8c1cfdf3437e7068c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_object_property.html">OWLObjectProperty</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getOWLObjectProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1model_1_1_i_r_i.html">IRI</a>&#160;</td>
+          <td class="paramname"><em>iri</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iri</td><td>new object property IRI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new OWLObjectProperty object, or a cached one depending on policies </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a20d6255d9963fac7709f4f24c57223b3">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#ad16fa24f35d4a5bd20ceb03fd0d8bfb7">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0cb89efab4ef575737dc49a0d05dc545"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getRDFPlainLiteral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>plain literal datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#ab0a859141930a21713820c1e5d13956b">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89825758d3e4e82b9f47696f7f321da0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1model_1_1_o_w_l_datatype.html">OWLDatatype</a> uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.getTopDatatype </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>top datatype </dd></dl>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#ac10c719ebe681d07ea34bf71a644d07c">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ff4ae6752839f402495e0a05f72deb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternals.purge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>purge any caches </p>
+
+<p>Implementado en <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals_impl.html#a838d7cb46167e66e65e997914f1c1aea">uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl</a> y <a class="el" href="classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_internals_no_cache.html#ae437a3153b5472c4a1f1ff9978768100">uk.ac.manchester.cs.owl.owlapi.InternalsNoCache</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>impl/src/main/java/uk/ac/manchester/cs/owl/owlapi/<a class="el" href="_o_w_l_data_factory_internals_8java_source.html">OWLDataFactoryInternals.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceuk.html">uk</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac.html">ac</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester.html">manchester</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs.html">cs</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl.html">owl</a></li><li class="navelem"><a class="el" href="namespaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="interfaceuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1_o_w_l_data_factory_internals.html">OWLDataFactoryInternals</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:46 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

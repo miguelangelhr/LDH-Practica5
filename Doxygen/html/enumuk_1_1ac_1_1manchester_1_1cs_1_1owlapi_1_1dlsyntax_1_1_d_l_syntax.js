@@ -1,0 +1,26 @@
+var enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax =
+[
+    [ "DLSyntax", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a74d452af62db51d527b38988f23e1a6d", null ],
+    [ "toString", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aaa77d0b4d5122673c9e15afe20103898", null ],
+    [ "AND", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a411ec116a9cd89459ba8186e676784ab", null ],
+    [ "BOTTOM", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3734d5386532242ce39dd79a85e9fb56", null ],
+    [ "COMMA", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ae1cfed7bdd857b0f18fd7f2a0735e92e", null ],
+    [ "COMP", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ab314f5e82d3d5db405ca742a2df8b51d", null ],
+    [ "DISJOINT_WITH", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aa1797a37880fc62dd1a36a11d260580b", null ],
+    [ "EQUAL", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7832880fcd6c26cbee63a95b388eaaf8", null ],
+    [ "EQUIVALENT_TO", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a449b2d8f3c4c38221f90ad6b199ab9ce", null ],
+    [ "EXISTS", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#acd3feed7a61e0deffe5b7ee9ca437232", null ],
+    [ "FORALL", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a4b9573710ccdccdb32d9883bf30dd160", null ],
+    [ "IMPLIES", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a3ae7d536e1f5b761cdbff5125febdb25", null ],
+    [ "IN", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a677e57eee3aaa4e47019cd4bb450d4f0", null ],
+    [ "INVERSE", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a91e7a3a08313fcaa60d4ede7245929bd", null ],
+    [ "MAX", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a6f2b0808900f3bba50cbd22e86cb33a9", null ],
+    [ "MIN", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a97a26bbc8268be23413a4d29e1a0f2a7", null ],
+    [ "NOT", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#afed0e4911c57d70c08d3c12b792a2f2f", null ],
+    [ "NOT_EQUAL", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#af8901e61e7a041611fe5dc76a3634c3a", null ],
+    [ "OR", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#aba1d8d498e3ef22a5906858c0d9e8d7f", null ],
+    [ "SELF", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a9644ceb42a5e611e31ef5fd05f6498e8", null ],
+    [ "SUBCLASS", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#ac102d0316c0ba84ae8e595b25db2e52b", null ],
+    [ "TOP", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#add230887f8191863711c7f6a4f28b902", null ],
+    [ "WEDGE", "enumuk_1_1ac_1_1manchester_1_1cs_1_1owlapi_1_1dlsyntax_1_1_d_l_syntax.html#a7022deae13bfd98e5bb3b95d1c262340", null ]
+];

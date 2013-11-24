@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_literal_with_escape_test_case =
+[
+    [ "createOntology", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_literal_with_escape_test_case.html#a03de916b18b5e62a5032abd7209ba8d7", null ],
+    [ "getEscape", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1baseclasses_1_1_abstract_literal_with_escape_test_case.html#a522136ed23c4287bc064449bb366f8bb", null ]
+];

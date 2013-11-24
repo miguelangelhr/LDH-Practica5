@@ -1,0 +1,4 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_class_axiom_generator_3_01_a_01extends_01_o_w_l_class_axiom_01_4 =
+[
+    [ "getEntities", "classorg_1_1semanticweb_1_1owlapi_1_1util_1_1_inferred_class_axiom_generator_3_01_a_01extends_01_o_w_l_class_axiom_01_4.html#abe095d31cdaf0b6231efb46a7281d3a7", null ]
+];

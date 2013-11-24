@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_operand_axiom_element_handler =
+[
+    [ "AbstractOWLObjectPropertyOperandAxiomElementHandler", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_operand_axiom_element_handler.html#ae10b493d6e6e02873f7eb546543bc88a", null ],
+    [ "handleChild", "classorg_1_1coode_1_1owlapi_1_1owlxmlparser_1_1_abstract_o_w_l_object_property_operand_axiom_element_handler.html#af8e5c2b154949e50d6879fbb69d06e12", null ]
+];

@@ -1,0 +1,10 @@
+var classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e =
+[
+    [ "ManchesterOWLSyntaxPrefixNameShortFormProvider", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#a808ad37c40144651857610f28c602e46", null ],
+    [ "ManchesterOWLSyntaxPrefixNameShortFormProvider", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#ac0cc52c6250b54a4c8ea37652fcb4279", null ],
+    [ "ManchesterOWLSyntaxPrefixNameShortFormProvider", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#a34bd3dbcce5992648ba4ee7cd2a715b0", null ],
+    [ "dispose", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#a6d12c6a9789cc5775f69d5e339ebf271", null ],
+    [ "getPrefixManager", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#acd3e42c786be84e32b37fd06511380d6", null ],
+    [ "getShortForm", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#a1f424c36575a346e0f3932d29e0a84e3", null ],
+    [ "getShortForm", "classuk_1_1ac_1_1manchester_1_1cs_1_1owl_1_1owlapi_1_1mansyntaxrenderer_1_1_manchester_o_w_l_syn9b805e7397984f62b2f3f095697b987e.html#add13e20a8c64bfd569a242e7a9c45591", null ]
+];

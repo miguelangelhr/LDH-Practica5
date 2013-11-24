@@ -1,0 +1,6 @@
+var classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_r_d_f_x_m_l_parser_malformed_node_exception =
+[
+    [ "OWLRDFXMLParserMalformedNodeException", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_r_d_f_x_m_l_parser_malformed_node_exception.html#af8b20c836b057ffd9e9438e23d5c3233", null ],
+    [ "OWLRDFXMLParserMalformedNodeException", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_r_d_f_x_m_l_parser_malformed_node_exception.html#abc18050bab82649d45a55e8a583cac1f", null ],
+    [ "OWLRDFXMLParserMalformedNodeException", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_o_w_l_r_d_f_x_m_l_parser_malformed_node_exception.html#a1d14cdd0180408e66d313a9df66c5250", null ]
+];

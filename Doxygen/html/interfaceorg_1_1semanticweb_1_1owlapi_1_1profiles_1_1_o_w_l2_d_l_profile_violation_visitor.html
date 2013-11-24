@@ -1,0 +1,663 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Documentación - OWL Master: Referencia de la Interfaz org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Documentación - OWL Master
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5078cd4627b077ea420a3a3ffae529fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a5078cd4627b077ea420a3a3ffae529fe">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_illegal_punning.html">IllegalPunning</a> violation)</td></tr>
+<tr class="separator:a5078cd4627b077ea420a3a3ffae529fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a820e23a9a30490298fb95a9466c4527f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a820e23a9a30490298fb95a9466c4527f">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_cycle_in_datatype_definition.html">CycleInDatatypeDefinition</a> violation)</td></tr>
+<tr class="separator:a820e23a9a30490298fb95a9466c4527f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b2d159700f259a8a41e8d0f63a5fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ae6b2d159700f259a8a41e8d0f63a5fc5">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_built_in_datatype_in_datatype_definition.html">UseOfBuiltInDatatypeInDatatypeDefinition</a> violation)</td></tr>
+<tr class="separator:ae6b2d159700f259a8a41e8d0f63a5fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f5179bc95ab12a016c8e357d128be12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a1f5179bc95ab12a016c8e357d128be12">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_datatype_i_r_i_also_used_as_class_i_r_i.html">DatatypeIRIAlsoUsedAsClassIRI</a> violation)</td></tr>
+<tr class="separator:a1f5179bc95ab12a016c8e357d128be12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacaa7bf28b2d325e780f3de4303ff55f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#aacaa7bf28b2d325e780f3de4303ff55f">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_asymmetric_object_property_axiom.html">UseOfNonSimplePropertyInAsymmetricObjectPropertyAxiom</a> violation)</td></tr>
+<tr class="separator:aacaa7bf28b2d325e780f3de4303ff55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4649f4726883d75e340e3aaf15fa990b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a4649f4726883d75e340e3aaf15fa990b">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_cardinality_restriction.html">UseOfNonSimplePropertyInCardinalityRestriction</a> violation)</td></tr>
+<tr class="separator:a4649f4726883d75e340e3aaf15fa990b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69499207999c73fcf7125cdaa29fcfec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a69499207999c73fcf7125cdaa29fcfec">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_disjoint_properties_axiom.html">UseOfNonSimplePropertyInDisjointPropertiesAxiom</a> violation)</td></tr>
+<tr class="separator:a69499207999c73fcf7125cdaa29fcfec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac275f485984f87f3a1138c3ca1ff4cdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ac275f485984f87f3a1138c3ca1ff4cdc">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_functional_property_axiom.html">UseOfNonSimplePropertyInFunctionalPropertyAxiom</a> violation)</td></tr>
+<tr class="separator:ac275f485984f87f3a1138c3ca1ff4cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73b957def95be0cd26047f3dd67b326"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#aa73b957def95be0cd26047f3dd67b326">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom.html">UseOfNonSimplePropertyInInverseFunctionalObjectPropertyAxiom</a> violation)</td></tr>
+<tr class="separator:aa73b957def95be0cd26047f3dd67b326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a3a6eca1a3e5b1b225d3ca03a52b12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a11a3a6eca1a3e5b1b225d3ca03a52b12">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_irreflexive_property_axiom.html">UseOfNonSimplePropertyInIrreflexivePropertyAxiom</a> violation)</td></tr>
+<tr class="separator:a11a3a6eca1a3e5b1b225d3ca03a52b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60578411e323801c0cd4ab42a5ca90bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a60578411e323801c0cd4ab42a5ca90bd">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_object_has_self.html">UseOfNonSimplePropertyInObjectHasSelf</a> violation)</td></tr>
+<tr class="separator:a60578411e323801c0cd4ab42a5ca90bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dec89e52fbfbd9ccb20428719f1d966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a0dec89e52fbfbd9ccb20428719f1d966">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_property_in_chain_causes_cycle.html">UseOfPropertyInChainCausesCycle</a> violation)</td></tr>
+<tr class="separator:a0dec89e52fbfbd9ccb20428719f1d966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae586a060d835a9c2cd41b43501e61421"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ae586a060d835a9c2cd41b43501e61421">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html">UseOfReservedVocabularyForAnnotationPropertyIRI</a> violation)</td></tr>
+<tr class="separator:ae586a060d835a9c2cd41b43501e61421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b33b81d59659cb52c7d0d7b6a8a0354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a9b33b81d59659cb52c7d0d7b6a8a0354">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_class_i_r_i.html">UseOfReservedVocabularyForClassIRI</a> violation)</td></tr>
+<tr class="separator:a9b33b81d59659cb52c7d0d7b6a8a0354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa696d45273bd63c4fdc87495dff7a318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#aa696d45273bd63c4fdc87495dff7a318">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_data_property_i_r_i.html">UseOfReservedVocabularyForDataPropertyIRI</a> violation)</td></tr>
+<tr class="separator:aa696d45273bd63c4fdc87495dff7a318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4853ec9d86f91ac583ade5eb389f4fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ae4853ec9d86f91ac583ade5eb389f4fb">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_individual_i_r_i.html">UseOfReservedVocabularyForIndividualIRI</a> violation)</td></tr>
+<tr class="separator:ae4853ec9d86f91ac583ade5eb389f4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4239ff8f0be23b90cc8177957f0ee382"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a4239ff8f0be23b90cc8177957f0ee382">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_object_property_i_r_i.html">UseOfReservedVocabularyForObjectPropertyIRI</a> violation)</td></tr>
+<tr class="separator:a4239ff8f0be23b90cc8177957f0ee382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac484f01093ac5e00a5d07503482a7b87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ac484f01093ac5e00a5d07503482a7b87">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_ontology_i_r_i.html">UseOfReservedVocabularyForOntologyIRI</a> violation)</td></tr>
+<tr class="separator:ac484f01093ac5e00a5d07503482a7b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43d47a4a39f8fe3993f2e8c88685447"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ae43d47a4a39f8fe3993f2e8c88685447">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_version_i_r_i.html">UseOfReservedVocabularyForVersionIRI</a> violation)</td></tr>
+<tr class="separator:ae43d47a4a39f8fe3993f2e8c88685447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6b052e334f8adfb8ee4352b7ba9300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#aad6b052e334f8adfb8ee4352b7ba9300">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_top_data_property_as_sub_property_in_sub_property_axiom.html">UseOfTopDataPropertyAsSubPropertyInSubPropertyAxiom</a> violation)</td></tr>
+<tr class="separator:aad6b052e334f8adfb8ee4352b7ba9300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9839f1b9b9184e9a5b877928992d1778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a9839f1b9b9184e9a5b877928992d1778">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_annotation_property.html">UseOfUndeclaredAnnotationProperty</a> violation)</td></tr>
+<tr class="separator:a9839f1b9b9184e9a5b877928992d1778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163f4e6226c2fb632d6a887b1d9a84d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a163f4e6226c2fb632d6a887b1d9a84d0">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_class.html">UseOfUndeclaredClass</a> violation)</td></tr>
+<tr class="separator:a163f4e6226c2fb632d6a887b1d9a84d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d2adf4006d4215a355983dfc4dc8e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a50d2adf4006d4215a355983dfc4dc8e3">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_data_property.html">UseOfUndeclaredDataProperty</a> violation)</td></tr>
+<tr class="separator:a50d2adf4006d4215a355983dfc4dc8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1444cf38e915e9b610f89119f1eb5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ade1444cf38e915e9b610f89119f1eb5b">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_datatype.html">UseOfUndeclaredDatatype</a> violation)</td></tr>
+<tr class="separator:ade1444cf38e915e9b610f89119f1eb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab646fb1a555adaf66e3fa917717427cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#ab646fb1a555adaf66e3fa917717427cf">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_object_property.html">UseOfUndeclaredObjectProperty</a> violation)</td></tr>
+<tr class="separator:ab646fb1a555adaf66e3fa917717427cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d789929f7b20eb7f52f88eb12e76c6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a6d789929f7b20eb7f52f88eb12e76c6c">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html">InsufficientPropertyExpressions</a> violation)</td></tr>
+<tr class="separator:a6d789929f7b20eb7f52f88eb12e76c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662e4e6771fb23411b6295ec7d5885e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a662e4e6771fb23411b6295ec7d5885e1">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_individuals.html">InsufficientIndividuals</a> violation)</td></tr>
+<tr class="separator:a662e4e6771fb23411b6295ec7d5885e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce0b41ff35e23295fcff4b947cd6a7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a5ce0b41ff35e23295fcff4b947cd6a7b">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_operands.html">InsufficientOperands</a> violation)</td></tr>
+<tr class="separator:a5ce0b41ff35e23295fcff4b947cd6a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af2fee2bdd1bdb7dc9ffe35a2bec51d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html#a7af2fee2bdd1bdb7dc9ffe35a2bec51d">visit</a> (<a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_empty_one_of_axiom.html">EmptyOneOfAxiom</a> violation)</td></tr>
+<tr class="separator:a7af2fee2bdd1bdb7dc9ffe35a2bec51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Author: Matthew Horridge<br/>
+ The University of Manchester<br/>
+ Information Management Group<br/>
+ Date: 03-Aug-2009 </p>
+
+<p>Definición en la línea <a class="el" href="_o_w_l2_d_l_profile_violation_visitor_8java_source.html#l00048">48</a> del archivo <a class="el" href="_o_w_l2_d_l_profile_violation_visitor_8java_source.html">OWL2DLProfileViolationVisitor.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a5078cd4627b077ea420a3a3ffae529fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_illegal_punning.html">IllegalPunning</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a820e23a9a30490298fb95a9466c4527f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_cycle_in_datatype_definition.html">CycleInDatatypeDefinition</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6b2d159700f259a8a41e8d0f63a5fc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_built_in_datatype_in_datatype_definition.html">UseOfBuiltInDatatypeInDatatypeDefinition</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1f5179bc95ab12a016c8e357d128be12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_datatype_i_r_i_also_used_as_class_i_r_i.html">DatatypeIRIAlsoUsedAsClassIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacaa7bf28b2d325e780f3de4303ff55f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_asymmetric_object_property_axiom.html">UseOfNonSimplePropertyInAsymmetricObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4649f4726883d75e340e3aaf15fa990b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_cardinality_restriction.html">UseOfNonSimplePropertyInCardinalityRestriction</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69499207999c73fcf7125cdaa29fcfec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_disjoint_properties_axiom.html">UseOfNonSimplePropertyInDisjointPropertiesAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac275f485984f87f3a1138c3ca1ff4cdc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_functional_property_axiom.html">UseOfNonSimplePropertyInFunctionalPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa73b957def95be0cd26047f3dd67b326"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_inverse_functional_object_property_axiom.html">UseOfNonSimplePropertyInInverseFunctionalObjectPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a11a3a6eca1a3e5b1b225d3ca03a52b12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_irreflexive_property_axiom.html">UseOfNonSimplePropertyInIrreflexivePropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60578411e323801c0cd4ab42a5ca90bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_non_simple_property_in_object_has_self.html">UseOfNonSimplePropertyInObjectHasSelf</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0dec89e52fbfbd9ccb20428719f1d966"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_property_in_chain_causes_cycle.html">UseOfPropertyInChainCausesCycle</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae586a060d835a9c2cd41b43501e61421"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html">UseOfReservedVocabularyForAnnotationPropertyIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b33b81d59659cb52c7d0d7b6a8a0354"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_class_i_r_i.html">UseOfReservedVocabularyForClassIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa696d45273bd63c4fdc87495dff7a318"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_data_property_i_r_i.html">UseOfReservedVocabularyForDataPropertyIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae4853ec9d86f91ac583ade5eb389f4fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_individual_i_r_i.html">UseOfReservedVocabularyForIndividualIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4239ff8f0be23b90cc8177957f0ee382"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_object_property_i_r_i.html">UseOfReservedVocabularyForObjectPropertyIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac484f01093ac5e00a5d07503482a7b87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_ontology_i_r_i.html">UseOfReservedVocabularyForOntologyIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae43d47a4a39f8fe3993f2e8c88685447"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_version_i_r_i.html">UseOfReservedVocabularyForVersionIRI</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad6b052e334f8adfb8ee4352b7ba9300"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_top_data_property_as_sub_property_in_sub_property_axiom.html">UseOfTopDataPropertyAsSubPropertyInSubPropertyAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9839f1b9b9184e9a5b877928992d1778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_annotation_property.html">UseOfUndeclaredAnnotationProperty</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a163f4e6226c2fb632d6a887b1d9a84d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_class.html">UseOfUndeclaredClass</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a50d2adf4006d4215a355983dfc4dc8e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_data_property.html">UseOfUndeclaredDataProperty</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade1444cf38e915e9b610f89119f1eb5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_datatype.html">UseOfUndeclaredDatatype</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab646fb1a555adaf66e3fa917717427cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_undeclared_object_property.html">UseOfUndeclaredObjectProperty</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d789929f7b20eb7f52f88eb12e76c6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_property_expressions.html">InsufficientPropertyExpressions</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a662e4e6771fb23411b6295ec7d5885e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_individuals.html">InsufficientIndividuals</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ce0b41ff35e23295fcff4b947cd6a7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_insufficient_operands.html">InsufficientOperands</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7af2fee2bdd1bdb7dc9ffe35a2bec51d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.semanticweb.owlapi.profiles.OWL2DLProfileViolationVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_empty_one_of_axiom.html">EmptyOneOfAxiom</a>&#160;</td>
+          <td class="paramname"><em>violation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>api/src/main/java/org/semanticweb/owlapi/profiles/<a class="el" href="_o_w_l2_d_l_profile_violation_visitor_8java_source.html">OWL2DLProfileViolationVisitor.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb.html">semanticweb</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi.html">owlapi</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1semanticweb_1_1owlapi_1_1profiles.html">profiles</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_o_w_l2_d_l_profile_violation_visitor.html">OWL2DLProfileViolationVisitor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 17:10:28 para Documentación - OWL Master por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_equivalent_classes_axiom_nary_annotated_test_case =
+[
+    [ "getMainAxiom", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_equivalent_classes_axiom_nary_annotated_test_case.html#ac11d3ff642e280727ab61870bf7fc85c", null ],
+    [ "testRDFXML", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_equivalent_classes_axiom_nary_annotated_test_case.html#a8fca9eb75626ce41384815070213ce1d", null ],
+    [ "testTurtle", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1classexpressions_1_1_equivalent_classes_axiom_nary_annotated_test_case.html#ae193abcaee518914682661f004a92f88", null ]
+];

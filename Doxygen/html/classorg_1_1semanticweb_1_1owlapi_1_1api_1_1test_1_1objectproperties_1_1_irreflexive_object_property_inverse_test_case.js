@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_irreflexive_object_property_inverse_test_case =
+[
+    [ "createAxioms", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_irreflexive_object_property_inverse_test_case.html#a848ac3d3f6e7efb941f3ff6217778e12", null ],
+    [ "testManchesterOWLSyntax", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1objectproperties_1_1_irreflexive_object_property_inverse_test_case.html#ac01e8160dbfe8c173866ac56d356ea95", null ]
+];

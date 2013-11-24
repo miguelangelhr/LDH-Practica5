@@ -1,0 +1,7 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i =
+[
+    [ "UseOfReservedVocabularyForAnnotationPropertyIRI", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html#a06a1923956dbf4199d4dae428c98c65c", null ],
+    [ "accept", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html#a968032393db7d46bc64eab5309ffb6e5", null ],
+    [ "getOWLAnnotationProperty", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html#aa1c6c7e8cea2806142dbcdf476fd1572", null ],
+    [ "toString", "classorg_1_1semanticweb_1_1owlapi_1_1profiles_1_1_use_of_reserved_vocabulary_for_annotation_property_i_r_i.html#a57327fc8f1072d494dc3b464bc1cf80b", null ]
+];

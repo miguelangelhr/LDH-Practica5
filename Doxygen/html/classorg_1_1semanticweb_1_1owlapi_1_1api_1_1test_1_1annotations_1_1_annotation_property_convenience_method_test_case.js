@@ -1,0 +1,5 @@
+var classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_convenience_method_test_case =
+[
+    [ "testGetSubProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_convenience_method_test_case.html#af2dec44ccbfcc05eec28797ffd11874f", null ],
+    [ "testGetSuperProperties", "classorg_1_1semanticweb_1_1owlapi_1_1api_1_1test_1_1annotations_1_1_annotation_property_convenience_method_test_case.html#aabdf1602c182632990f4b73ed0514536", null ]
+];

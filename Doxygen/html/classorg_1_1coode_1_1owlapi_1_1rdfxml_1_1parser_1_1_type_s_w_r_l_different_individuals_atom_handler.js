@@ -1,0 +1,5 @@
+var classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_type_s_w_r_l_different_individuals_atom_handler =
+[
+    [ "TypeSWRLDifferentIndividualsAtomHandler", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_type_s_w_r_l_different_individuals_atom_handler.html#a1104e7d71a13c8e60c809b468d6024cb", null ],
+    [ "handleTriple", "classorg_1_1coode_1_1owlapi_1_1rdfxml_1_1parser_1_1_type_s_w_r_l_different_individuals_atom_handler.html#a43ebebdc4651a460bc4bb9a9190f1435", null ]
+];
